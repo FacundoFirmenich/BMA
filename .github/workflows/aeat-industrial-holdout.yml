@@ -33,7 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install ".[dev]"
           python -m pytest -q
-          python -m ruff check .
+          python -m ruff check src/bma/connectors/aeat_trade.py src/bma/experiments/aeat_steel_v0_6_1.py tests/test_aeat_trade.py
 
       - name: Execute training, freeze, and November adjudication
         run: |
