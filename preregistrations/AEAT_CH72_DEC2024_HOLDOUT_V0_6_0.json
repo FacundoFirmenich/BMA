@@ -1,0 +1,78 @@
+{
+  "schema_version": "bma.preregistration.v0.6.0",
+  "experiment_id": "ES-AEAT-CH72-DEC2024-HOLDOUT-V0.6.0",
+  "status": "FROZEN_BEFORE_TARGET_ARCHIVE_OPEN",
+  "governing_question": "Does a training-only Bayesian expert mixture improve December 2024 prediction of participation, physical mass and statistical unit value for Spanish chapter-72 trade cells?",
+  "source": {
+    "publisher": "Agencia Estatal de Administración Tributaria",
+    "dataset": "2024 maximum-disaggregation monthly foreign-trade files",
+    "finality": "DATOS_DEFINITIVOS",
+    "finality_page": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/2024-maxima-desagregacion/diciembre.html",
+    "record_format": "fixed width, 226 bytes",
+    "format_document": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Aduanas/Contenidos_Privados/Estadisticas_Comercio_Exterior/comercio_exterior/datos_mensuales_maxima_desagregacion/diseno226.pdf"
+  },
+  "jurisdiction": {
+    "material_scope": "all chapter 72 iron and steel records",
+    "cell": ["flow", "CN8", "partner country"],
+    "training_period": ["2024-01", "2024-11"],
+    "target_period": "2024-12",
+    "exclusions": [
+      "gas",
+      "electricity",
+      "regulated or administered prices",
+      "biological materials as the only industrial test"
+    ]
+  },
+  "causal_order": [
+    "download and aggregate January-November one archive at a time in memory",
+    "fit all expert weights using rolling-origin folds contained within January-November",
+    "write and hash the complete December prediction freeze",
+    "only then open and aggregate the December archive",
+    "score the frozen predictions without refitting"
+  ],
+  "targets": {
+    "participation": "presence of a training-universe cell in December",
+    "quantity": "aggregate net mass in kg, conditional on target presence and positive mass",
+    "statistical_unit_value": "aggregate statistical value in EUR divided by aggregate net mass in kg, conditional on positive numerator and denominator",
+    "supplementary_units": "retained but not modeled because the unit is commodity-specific",
+    "invoice_value": "retained for audit but not called a market price"
+  },
+  "models": {
+    "participation_experts": ["smoothed persistence", "Beta(1,1) empirical rate", "hierarchical Beta shrinkage", "exponentially weighted recency"],
+    "continuous_experts": ["last positive observation", "cell log mean", "hierarchical log shrinkage", "exponentially weighted log mean"],
+    "bma_weights": "equal-prior posterior expert weights learned from monthly rolling-origin likelihoods; each month contributes one mean log-likelihood unit to limit false cross-sectional independence",
+    "target_use_in_fit": false
+  },
+  "scores": {
+    "participation": ["Brier", "log loss"],
+    "continuous": ["absolute log error"],
+    "uncertainty": "2000-replicate deterministic CN4 cluster bootstrap of paired mean-loss differences",
+    "bootstrap_seed": 20240809
+  },
+  "support_gates": {
+    "participation_minimum_n": 1000,
+    "continuous_minimum_n": 250,
+    "promotion": "NO_PROMOTION_SINGLE_RETROSPECTIVE_MONTH",
+    "possible_labels": [
+      "FAVOURABLE_DESCRIPTIVE_ONLY",
+      "MIXED_OR_ADVERSE_DESCRIPTIVE_ONLY",
+      "LOCAL_TIE_DESCRIPTIVE_ONLY",
+      "NOT_ESTIMABLE_INSUFFICIENT_SUPPORT"
+    ]
+  },
+  "storage_contract": {
+    "raw_zip_persisted_on_user_disk": false,
+    "raw_zip_persisted_in_run_artifact": false,
+    "maximum_compressed_archive_bytes": 30000000,
+    "maximum_uncompressed_member_bytes": 250000000,
+    "processing": "one archive at a time in RAM on GitHub Actions",
+    "durable_outputs": "compressed normalized aggregates, prediction freeze, score ledgers, manifest and result summary"
+  },
+  "claim_boundary": {
+    "statistical_unit_value_is_transaction_price": false,
+    "prospective_validation": false,
+    "global_superiority": false,
+    "industrial_domain_extension": "eligible only as retrospective evidence after execution",
+    "BIND_readiness": "may reduce the industrial-demo blocker; cannot establish customer, transaction-price or commercial validation"
+  }
+}
