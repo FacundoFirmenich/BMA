@@ -21,7 +21,7 @@ model or grant operational authority.
 
 ## Current release posture
 
-`0.1.0a1` is an integration alpha, not an industrially validated product. It
+`0.1.0a2` is an integration alpha, not an industrially validated product. It
 contains:
 
 - typed physical-market contracts and explicit missingness semantics;
@@ -33,6 +33,13 @@ contains:
 - the expanded `v0.5.0` hurdle replay, trained on 1--20 July and evaluated on
   the pre-frozen 21--31 July window, with activity, participation and quantity
   scored separately by regime and price kept under a degeneracy veto;
+- the target-blind `v0.5.1` taxonomy and subfamily audit separating cut
+  flowers, live plants, trees/greens, complements and unresolved products;
+- a Spain-first/Europe-second industrial source audit: AEAT foreign-trade
+  records pass the open, non-biological physical-goods source gate for a
+  carefully scoped unit-value pilot; ScrapAd is the stronger transaction-price
+  pilot candidate but requires a data agreement; Rheinland-Pfalz timber remains
+  technically useful while public reuse is blocked by source terms;
 - tests that validate software behavior but do not count as market evidence.
 
 It does **not** establish global superiority, prospective performance in a new
@@ -57,6 +64,7 @@ python -m pip install -e ".[dev]"
 python -m pytest -q
 bma evidence validate evidence/registry.json
 bma evidence validate evidence/registry_addendum_20260809.json
+bma evidence validate evidence/registry_addendum_v051_industrial_20260809.json
 ```
 
 The Flor replay consumes already structured historical JSON objects. Raw source
@@ -68,6 +76,15 @@ bma flor-replay `
   --source-v01 <structured-v01-run> `
   --source-v02 <structured-v02-run> `
   --output local-runs/mercabarna-flor-v0.4.1
+```
+
+The subfamily audit reuses the immutable v0.5.0 scores without refitting:
+
+```powershell
+python -m bma.experiments.mercabarna_flor_v0_5_1 `
+  --training <training-objects-2026-07-01-to-20> `
+  --source-run <immutable-v0.5.0-run> `
+  --output <new-v0.5.1-output>
 ```
 
 ## Repository policy

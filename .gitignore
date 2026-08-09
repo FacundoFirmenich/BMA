@@ -9,4 +9,5 @@ dist/
 build/
 local-data/
 local-runs/
+work/
 *.log

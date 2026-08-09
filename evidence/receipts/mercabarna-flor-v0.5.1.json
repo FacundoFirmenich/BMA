@@ -1,0 +1,54 @@
+{
+  "schema_version": "bma.execution-receipt.v1",
+  "experiment": "bma.mercabarna.flor.subfamily-audit.v0.5.1",
+  "status": "EXECUTED_RETROSPECTIVE_STRATIFIED_AUDIT",
+  "source": {
+    "replay": "bma.mercabarna.flor.full-july.v0.5.0",
+    "result_summary_sha256": "e65dac8b90c733a7bdded0f83e392c574c7e6ec926ab4541e93f3579272b61b9",
+    "training_range": ["2026-07-01", "2026-07-20"],
+    "target_range": ["2026-07-21", "2026-07-31"]
+  },
+  "software": {
+    "taxonomy_path": "src/bma/taxonomy.py",
+    "taxonomy_sha256": "210d64857bc2f55b749b7f497d42cc91e54eeb4b1717bf0a2d1a9d059dfb9f87",
+    "experiment_path": "src/bma/experiments/mercabarna_flor_v0_5_1.py",
+    "experiment_sha256": "5363c48f9f78f08e9a4d521c389beb113a0275e8694465725303fda9906f4b9f",
+    "tests_passed": 30,
+    "tests_failed": 0,
+    "tests_are_market_evidence": false
+  },
+  "execution": {
+    "manifest_sha256": "ab06e209c22415d8a7b527d1d47eb79c899bd84dc20b598fb3ac1c9a424f2971",
+    "result_summary_sha256": "2867ffa7c3efdf0e0c43563b3f1ec881f546f3e51df9ececb7d2694860ff84c6",
+    "taxonomy_freeze_sha256": "74dbed437e5a6df17c0368ab8c4f38d24b02345abc6f8c66b778f998028aef6f",
+    "byte_identical_repeat": true
+  },
+  "plant_live_ordinary": {
+    "participation": {
+      "n": 192,
+      "positive": 16,
+      "bma_brier": 0.1423601873495962,
+      "origin_frozen_brier": 0.17321587732486443,
+      "relative_gain_pct": 17.81343053061973,
+      "status": "FAVOURABLE_DESCRIPTIVE_ONLY"
+    },
+    "quantity": {
+      "n": 16,
+      "bma_error": 1.646678824466778,
+      "origin_frozen_error": 1.6820129061816966,
+      "persistence_error": 1.8973009620777268,
+      "strong_error": 1.8815938103101701,
+      "record_vs_persistence": [10, 6, 0],
+      "record_vs_strong": [10, 6, 0],
+      "status": "NOT_ESTIMABLE_INSUFFICIENT_SUPPORT"
+    }
+  },
+  "claim_boundary": {
+    "prospective_evidence": false,
+    "global_superiority": false,
+    "commercial_validation": false,
+    "taxonomy_uses_target_records": false,
+    "price": "DEGENERATE_METRIC_VETO",
+    "saturday_and_month_end": "ABSTAIN"
+  }
+}
