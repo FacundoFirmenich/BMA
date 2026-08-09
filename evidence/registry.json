@@ -1,0 +1,296 @@
+{
+  "schema_version": "bma.evidence-registry.v1",
+  "as_of": "2026-08-09",
+  "naming_policy": {
+    "general_model": "BayME",
+    "physical_market_product": "Bayesian Markets App (BMA)",
+    "historical_artifacts": "retain original BayME names and hashes",
+    "prospective_artifacts": "use BMA",
+    "retroactive_rename": false
+  },
+  "entries": [
+    {
+      "id": "GAL-XUR-PRICE-LOCAL-20260731",
+      "state": "DEMONSTRATED",
+      "jurisdiction": {
+        "market": "Galicia first-sale fish auctions",
+        "node": "auction",
+        "target": "xurelo price conditional on sale",
+        "time_scope": "prospective episodes through 2026-07-31",
+        "claim_scope": "local and conditional; no aggregate or cross-market dominance"
+      },
+      "observed": {
+        "episodes": 38,
+        "bma_mae_eur_per_kg": 1.0519,
+        "baseline_mae_eur_per_kg": 1.1613,
+        "local_wins": 20,
+        "local_losses": 18
+      },
+      "evidence_boundary": "Historical BayME-named evidence supports a bounded prospective price result conditional on observed sale; aggregate uncertainty and heterogeneous local edges prohibit a global winner.",
+      "global_winner": null
+    },
+    {
+      "id": "GAL-XUR-HURDLE-LOCAL-20260731",
+      "state": "DEMONSTRATED",
+      "jurisdiction": {
+        "market": "Galicia first-sale fish auctions",
+        "node": "auction",
+        "target": "system activity and auction participation for xurelo",
+        "time_scope": "2026-07-31 local adjudication",
+        "claim_scope": "auction-local hurdle cartography"
+      },
+      "observed": {
+        "wins": 18,
+        "losses": 16,
+        "out_of_support": 2
+      },
+      "evidence_boundary": "Activity, participation and conditional price are distinct layers. Out-of-support and no-sale states are not economic losses and are not collapsed into zero.",
+      "global_winner": null
+    },
+    {
+      "id": "GAL-XUR-LOCAL-FRONTIER-PROBE-AUG10",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Galicia first-sale fish auctions",
+        "node": "auction x local decision edge",
+        "target": "future local model-selection score",
+        "time_scope": "80 historical episodes over 6 days; freeze for 2026-08-10",
+        "claim_scope": "shadow local-frontier probe"
+      },
+      "observed": {
+        "rank_correlation": 0.28,
+        "favorable_segment_correlation": 0.175,
+        "adverse_segment_correlation": -0.063,
+        "sign_days_correct": "6/6",
+        "auc": 0.529,
+        "frozen_scores": 34,
+        "no_analogue": 2
+      },
+      "evidence_boundary": "The signal is weak and the confirmation gate is pending. A ridge alternative was rejected for extreme extrapolation; no apply authority follows.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-IDAPES-CTC-LAYERS",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "auction",
+        "target": "choco activity, participation, quantity and price layers",
+        "time_scope": "historical/future-only campaign recovered from source chat",
+        "claim_scope": "species x auction x layer"
+      },
+      "observed": {"activity": "0/3", "participation": "7/26", "quantity": "6/16", "price": "8/16"},
+      "evidence_boundary": "Counts are layer-specific local verdict summaries. Stable HTTP, stable bytes, publication closure and economic zero remain distinct states.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-IDAPES-PAC-LAYERS",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "auction",
+        "target": "breca activity, participation, quantity and price layers",
+        "time_scope": "historical/future-only campaign recovered from source chat",
+        "claim_scope": "species x auction x layer"
+      },
+      "observed": {"activity": "3/3", "participation": "8/28", "quantity": "8/20", "price": "5/20"},
+      "evidence_boundary": "Counts do not transfer to another species, node, layer or physical market.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-IDAPES-MUR-LAYERS",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "auction",
+        "target": "rock red mullet activity, participation, quantity and price layers",
+        "time_scope": "historical/future-only campaign recovered from source chat",
+        "claim_scope": "species x auction x layer"
+      },
+      "observed": {"activity": "3/3", "participation": "15/24", "quantity": "1/13", "price": "5/13"},
+      "evidence_boundary": "The adverse quantity layer is preserved; it cannot be repaired by averaging with other species.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-IDAPES-OCC-LAYERS",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "auction",
+        "target": "octopus activity, participation, quantity and price layers",
+        "time_scope": "historical/future-only campaign recovered from source chat",
+        "claim_scope": "species x auction x layer"
+      },
+      "observed": {"activity": "3/3", "participation": "18/26", "quantity": "5/12", "price": "2/12"},
+      "evidence_boundary": "The layer pattern is heterogeneous and local; no species-wide or market-wide winner is declared.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-IDAPES-MUT-LAYERS",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "auction",
+        "target": "mud red mullet activity, participation, quantity and price layers",
+        "time_scope": "historical/future-only campaign recovered from source chat",
+        "claim_scope": "species x auction x layer"
+      },
+      "observed": {"activity": "3/3", "participation": "17/25", "quantity": "6/10", "price": "0/10"},
+      "evidence_boundary": "The zero price wins are adverse evidence and remain visible. They prohibit a general price claim.",
+      "global_winner": null
+    },
+    {
+      "id": "AND-SELECTIVE-POOLING-SHADOW",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Andalucia first-sale fish auctions (IDAPES)",
+        "node": "species x auction x layer",
+        "target": "selective cross-series borrowing",
+        "time_scope": "60,251 retrospective future-only episodes",
+        "claim_scope": "shadow selective pooling"
+      },
+      "observed": {"episodes": 60251, "coordinates": 982},
+      "evidence_boundary": "Complementary local patterns were observed; this is not evidence for universal pooling or replacement of species-specific models.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FRUIT-VEG-QUANTITY-20260720-31",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Mercabarna fruit and vegetables",
+        "node": "product aggregated over all origins",
+        "target": "daily physical quantity",
+        "time_scope": "retrospective replay 2026-07-20 through 2026-07-31",
+        "claim_scope": "111-product cohort; 956 scored product-days"
+      },
+      "observed": {
+        "product_days": 956,
+        "bma_mean_absolute_log_error": 0.7244,
+        "persistence_mean_absolute_log_error": 0.9227,
+        "relative_improvement_pct": 21.5,
+        "local_wins": 587,
+        "local_losses": 368,
+        "local_ties": 1
+      },
+      "evidence_boundary": "Retrospective development evidence with prior human exposure and a subsequently questioned thin implementation; it is not a clean holdout or BMA product-validation claim.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FRUIT-VEG-PRICE-AGGREGATED",
+      "state": "NOT_ESTIMABLE",
+      "jurisdiction": {
+        "market": "Mercabarna fruit and vegetables",
+        "node": "product aggregated over all origins",
+        "target": "published daily mean price",
+        "time_scope": "retrospective replay 2026-07-20 through 2026-07-31",
+        "claim_scope": "aggregated mean-price target"
+      },
+      "observed": {"exact_persistence": "946/956", "single_price_products": "102/111"},
+      "evidence_boundary": "The target is degenerate at aggregated-mean level. This is an identifiability veto, not proof that BMA fails at price formation.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FLOR-V01-V02",
+      "state": "THIN_BASELINE_DIAGNOSTIC",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, plants and complements",
+        "node": "product x origin",
+        "target": "daily units and published price per unit",
+        "time_scope": "retrospective 2026-07-20 through 2026-07-31",
+        "claim_scope": "transport and data-shape diagnostic"
+      },
+      "observed": {"cells": 191, "quantity_local_record": "96-94-1 preliminary", "price_degeneracy": "191/191 preliminary"},
+      "evidence_boundary": "The independent per-cell conjugate model omitted the recovered BMA cycle. Results are diagnostics only and do not constitute BMA evidence.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FLOR-V03",
+      "state": "PROPOSED_NOT_EXECUTED",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, plants and complements",
+        "node": "product x origin",
+        "target": "structured Z_post design",
+        "time_scope": "2026-08-09 design",
+        "claim_scope": "superseded proposal"
+      },
+      "observed": {"execution": false},
+      "evidence_boundary": "Explicitly stopped before execution because it was designed before recovering the physical-market BayME lineage.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FLOR-V04",
+      "state": "REJECTED",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, plants and complements",
+        "node": "product x origin conditional on positive row",
+        "target": "quantity and published price per unit",
+        "time_scope": "retrospective replay 2026-07-20 through 2026-07-31",
+        "claim_scope": "historical development implementation"
+      },
+      "observed": {
+        "quantity_bma_error": 1.3760003276045423,
+        "quantity_persistence_error": 1.2501303269120667,
+        "price_veto_fraction": 1.0,
+        "tests": "6/6"
+      },
+      "evidence_boundary": "Software probes passed, but the run lacked the frozen-origin control, opened all target objects during precompilation, leaked exceptional-regime history into ordinary features, omitted the promised participation layer and updated price under degeneracy. It is preserved but rejected as canonical BMA execution.",
+      "global_winner": null
+    },
+    {
+      "id": "EU-RMK-WOOD-AUCTIONS",
+      "state": "PENDING",
+      "jurisdiction": {
+        "market": "RMK Estonia wood auctions",
+        "node": "auction lot",
+        "target": "quantity and/or price subject to source-contract audit",
+        "time_scope": "candidate identified 2026-08-09",
+        "claim_scope": "European industrial-market candidate"
+      },
+      "observed": {"execution": false},
+      "evidence_boundary": "Spreadsheet inspection began but no source contract, replay or PASS gate was completed.",
+      "global_winner": null
+    },
+    {
+      "id": "EU-LME-METALS",
+      "state": "PENDING",
+      "jurisdiction": {
+        "market": "London Metal Exchange metals",
+        "node": "contract/venue subject to licence",
+        "target": "price and volume",
+        "time_scope": "candidate identified 2026-08-09",
+        "claim_scope": "licence-gated industrial candidate"
+      },
+      "observed": {"gate": "LICENSE_GATE"},
+      "evidence_boundary": "No ingestion or modelling authority exists until data-licensing rights are resolved.",
+      "global_winner": null
+    },
+    {
+      "id": "EU-ROYAL-FLORAHOLLAND",
+      "state": "PENDING",
+      "jurisdiction": {
+        "market": "Royal FloraHolland auctions",
+        "node": "auction/product",
+        "target": "quantity and price",
+        "time_scope": "candidate identified 2026-08-09",
+        "claim_scope": "partner-data candidate"
+      },
+      "observed": {"gate": "PARTNER_DATA_GATE"},
+      "evidence_boundary": "No public-data execution path or transferable evidence has been established.",
+      "global_winner": null
+    },
+    {
+      "id": "EU-REGULATED-GAS",
+      "state": "OUT_OF_SCOPE",
+      "jurisdiction": {
+        "market": "regulated gas infrastructure",
+        "node": "system-level infrastructure",
+        "target": "regulated network variables",
+        "time_scope": "BMA roadmap decision 2026-08-09",
+        "claim_scope": "scope exclusion"
+      },
+      "observed": {"decision": "OUT_OF_SCOPE_REGULATED_INFRASTRUCTURE"},
+      "evidence_boundary": "Excluded from the BMA physical-market roadmap; no gas claim or BIND evidence is inherited.",
+      "global_winner": null
+    }
+  ]
+}

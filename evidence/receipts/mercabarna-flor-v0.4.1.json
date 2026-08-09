@@ -1,0 +1,11 @@
+{
+  "schema_version": "bma.execution-receipt.v1",
+  "experiment": "bma.mercabarna.flor.retrospective.v0.4.1",
+  "status": "SUPERSEDED_DEVELOPMENT_EVIDENCE",
+  "tests": {"passed": 13, "failed": 0, "market_evidence": false},
+  "manifest_sha256": "947e407aad2ed6c0c29552ad9d09334e427edf0a8f31237c9860324afcd8dd5b",
+  "result_summary_sha256": "970162265c68915121bd42881477ad1f25b7708359245e396c4b427f064cf141",
+  "causal_sequence_ledger_sha256": "f6304ca84d1c29272da6df04a7566f9b6e430833c6e76b1d6c2a241b2176ede9",
+  "byte_identical_repeat": true,
+  "claim_boundary": "One-day initialization diagnostic; superseded by v0.5.0 full-July training."
+}

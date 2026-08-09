@@ -1,0 +1,64 @@
+{
+  "schema_version": "bma.execution-receipt.v1",
+  "experiment": "bma.mercabarna.flor.full-july.v0.5.0",
+  "status": "EXECUTED_RETROSPECTIVE_DEVELOPMENT_REPLAY",
+  "training_source": {
+    "range": ["2026-07-01", "2026-07-20"],
+    "expected_objects": 180,
+    "retrieved_objects": 180,
+    "rows": 742,
+    "manifest_sha256": "e91c14a8baf8802a56a57e4541aaf8b7b923bfad275d00a1756b1c926dd1e97c",
+    "source_contract_sha256": "741e6773c5d5752d5e843fa8c30b8ee3dbe188139006e6080652f4ab33ed6640",
+    "completeness_witness": "USER_ASSERTED_COMPLETE_VALID_2019_2026"
+  },
+  "software": {
+    "path": "src/bma/experiments/mercabarna_flor_v0_5_0.py",
+    "sha256": "1c202681c59381332278abedb97f8ad38e05f4afa88b65290fbf926d5179785e",
+    "tests_passed": 19,
+    "tests_failed": 0,
+    "tests_are_market_evidence": false
+  },
+  "execution": {
+    "manifest_sha256": "63d019fd1500bfe033bcc4aa1e33e2cde7c400c163701f789d2ee7984786219b",
+    "result_summary_sha256": "e65dac8b90c733a7bdded0f83e392c574c7e6ec926ab4541e93f3579272b61b9",
+    "causal_sequence_ledger_sha256": "00d8b2fe541ec799f259792550f48a606fb77f0db4ae54dc9f8f7d646e021f39",
+    "byte_identical_repeat": true,
+    "freeze_precedes_target_open": "11/11"
+  },
+  "aggregate": {
+    "activity_brier_relative_gain_vs_frozen_pct": 12.767295597484276,
+    "participation_brier_relative_gain_vs_frozen_pct": 3.1960111087283583,
+    "participation_log_loss_relative_gain_vs_frozen_pct": 2.3553959722936235,
+    "quantity_n": 427,
+    "quantity_bma_error": 1.1650451042133605,
+    "quantity_origin_frozen_error": 1.2372268147994139,
+    "quantity_persistence_error": 1.252765723331901,
+    "quantity_strong_error": 1.297821112701097,
+    "relative_gain_vs_origin_frozen_pct": 5.834153424629411,
+    "relative_gain_vs_persistence_pct": 7.002156706940826,
+    "relative_gain_vs_strong_pct": 10.230686431922482
+  },
+  "ordinary": {
+    "n": 283,
+    "bma_error": 0.9176972839440989,
+    "origin_frozen_error": 0.9228034281745163,
+    "persistence_error": 1.1055826498605201,
+    "strong_error": 1.1740729349534826,
+    "relative_gain_vs_persistence_pct": 16.99423972871904,
+    "relative_gain_vs_strong_pct": 21.836433101964104,
+    "record_vs_persistence": [169, 114, 0],
+    "record_vs_strong": [179, 104, 0]
+  },
+  "adverse_regimes": {
+    "saturday": {"bma_error": 0.9948137481928276, "persistence_error": 0.8851310436630839, "strong_error": 0.9411343548051418},
+    "month_end_pre_august": {"bma_error": 1.9494879744873497, "persistence_error": 1.840607848357128, "strong_error": 1.8136962481343588}
+  },
+  "price": {"status": "DEGENERATE_METRIC_VETO", "training_cells_with_variation": 3, "training_cells": 137},
+  "claim_boundary": {
+    "prospective_evidence": false,
+    "global_superiority": false,
+    "commercial_validation": false,
+    "ordinary_promotion": "DEVELOPMENT_EVIDENCE_PENDING_INDEPENDENT_REVIEW",
+    "saturday_and_month_end": "ABSTAIN"
+  }
+}

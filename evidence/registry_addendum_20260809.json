@@ -1,0 +1,61 @@
+{
+  "schema_version": "bma.evidence-registry.v1",
+  "as_of": "2026-08-09",
+  "role": "append-only addendum; does not rewrite historical registry entries",
+  "entries": [
+    {
+      "id": "MB-FLOR-V041-ORIGIN-CONTROL",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, plants and complements",
+        "node": "product x origin conditional on positive row",
+        "target": "daily unit quantity",
+        "time_scope": "retrospective replay 2026-07-20 through 2026-07-31",
+        "claim_scope": "one-day initialization corrected replay with frozen-parameter control"
+      },
+      "observed": {
+        "n": 351,
+        "bma_error": 1.366549758919216,
+        "origin_frozen_error": 1.5910686243086212,
+        "persistence_error": 1.2430837186721877,
+        "strong_error": 1.2737919655346264,
+        "manifest_sha256": "947e407aad2ed6c0c29552ad9d09334e427edf0a8f31237c9860324afcd8dd5b"
+      },
+      "evidence_boundary": "Reinformation improved the one-day frozen control but remained worse than persistence and the strong comparator. Price was vetoed and participation blocked. Superseded as the governing experiment by v0.5.0.",
+      "global_winner": null
+    },
+    {
+      "id": "MB-FLOR-V050-FULL-JULY",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, plants and complements",
+        "node": "product x origin x layer x regime",
+        "target": "activity, participation and daily unit quantity",
+        "time_scope": "training 2026-07-01 through 2026-07-20; retrospective targets 2026-07-21 through 2026-07-31",
+        "claim_scope": "ordinary-regime development evidence; Saturday and month-end abstention"
+      },
+      "observed": {
+        "training_days": 20,
+        "active_training_days": 13,
+        "training_rows": 742,
+        "training_cells": 137,
+        "training_products": 98,
+        "quantity_n": 427,
+        "quantity_bma_error": 1.1650451042133605,
+        "quantity_persistence_error": 1.252765723331901,
+        "quantity_strong_error": 1.297821112701097,
+        "quantity_origin_frozen_error": 1.2372268147994139,
+        "ordinary_bma_error": 0.9176972839440989,
+        "ordinary_persistence_error": 1.1055826498605201,
+        "ordinary_strong_error": 1.1740729349534826,
+        "ordinary_local_record_vs_persistence": "169-114-0",
+        "ordinary_local_record_vs_strong": "179-104-0",
+        "price_status": "DEGENERATE_METRIC_VETO",
+        "manifest_sha256": "63d019fd1500bfe033bcc4aa1e33e2cde7c400c163701f789d2ee7984786219b",
+        "deterministic_repeat": true
+      },
+      "evidence_boundary": "Ordinary-regime quantity improves over persistence and the strong comparator in this retrospective window. Saturday and month-end are adverse against both comparators. Activity and participation gains are bounded and modular empirical-Bayes results. No prospective, commercial or global claim is authorized.",
+      "global_winner": null
+    }
+  ]
+}
