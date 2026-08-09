@@ -13,8 +13,8 @@
   },
   "software": {
     "path": "src/bma/experiments/mercabarna_flor_v0_5_0.py",
-    "sha256": "1c202681c59381332278abedb97f8ad38e05f4afa88b65290fbf926d5179785e",
-    "tests_passed": 19,
+    "sha256": "142f14e235b54236417e6dd02d242c977c98d1735a9621ccc86a1bc55e557388",
+    "tests_passed": 20,
     "tests_failed": 0,
     "tests_are_market_evidence": false
   },
