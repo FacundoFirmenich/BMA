@@ -1,0 +1,107 @@
+{
+  "schema_version": "bma.preregistration.v0.6.4",
+  "experiment_id": "ES-AEAT-CH72-MONTHLY-SEQUENTIAL-2024-V0.6.4",
+  "status": "FROZEN_BEFORE_REAL_DATA_EXECUTION",
+  "frozen_at": "2026-08-09",
+  "governing_analogy": "same BMA freeze-outcome-adjudication-Z_post-future-prior cycle used in lonjas and Mercabarna; calendar month replaces calendar day",
+  "invalidated_predecessors": [
+    {
+      "experiment_id": "ES-AEAT-CH72-NOV2024-HOLDOUT-V0.6.1",
+      "status": "INVALID_EXPERIMENT_NO_SCIENTIFIC_EVIDENCE"
+    },
+    {
+      "experiment_id": "ES-AEAT-CH72-MONTHLY-MATCHED-GAMES-2024-V0.6.2",
+      "status": "INVALID_EXPERIMENT_WRONG_1M_TO_1M_CONTRACT"
+    },
+    {
+      "software_version": "v0.6.3",
+      "status": "SUPERSEDED_PREEXECUTION_FAILED_TESTS",
+      "real_AEAT_data_executed": false
+    }
+  ],
+  "source": {
+    "publisher": "Agencia Estatal de Administracion Tributaria",
+    "release": "2024 maximum-detail definitive foreign-trade data",
+    "scope": "all Chapter 72 iron and steel records",
+    "cell": "flow x CN8 x partner country",
+    "transport": "one monthly ZIP opened in RAM and released without persistence",
+    "statistical_unit_value_is_transaction_price": false
+  },
+  "temporal_contract": {
+    "atomic_unit": "one calendar month",
+    "training_unit": "one calendar month",
+    "prediction_unit": "one immediately following calendar month",
+    "adjudication_unit": "the same target calendar month",
+    "Z_post_unit": "the same target calendar month",
+    "same_model_posterior_carried_forward": true,
+    "raw_months_opened_per_transition": 1,
+    "raw_months_pooled_as_one_training_block": false,
+    "transitions": [
+      "2024-01->2024-02",
+      "2024-02->2024-03",
+      "2024-03->2024-04",
+      "2024-04->2024-05",
+      "2024-05->2024-06",
+      "2024-06->2024-07",
+      "2024-07->2024-08",
+      "2024-08->2024-09",
+      "2024-09->2024-10",
+      "2024-10->2024-11",
+      "2024-11->2024-12"
+    ],
+    "transition_count": 11
+  },
+  "causal_cycle": [
+    "structure training month t",
+    "emit and hash freeze for month t+1",
+    "open and structure outcome month t+1",
+    "adjudicate at month t+1",
+    "emit Z_post",
+    "carry posterior as future prior for t+2"
+  ],
+  "models": {
+    "participation": "same modular hierarchical empirical-Bayes participation layer used by Mercabarna, with definitive AEAT completeness for known-cell absence",
+    "quantity": "same conjugate Bayesian linear state class used by Mercabarna; log1p weight target",
+    "statistical_unit_value": "same conjugate Bayesian linear state class used by Mercabarna; log statistical-value-per-kg target",
+    "first_appearance": "not scored before support; identity admitted after observation for future months",
+    "year_end": "December uses YEAR_END_UNCALIBRATED state fork and is reported separately"
+  },
+  "comparators": {
+    "participation": "January-frozen structural control",
+    "quantity": "cell persistence",
+    "statistical_unit_value": "cell persistence",
+    "global_winner": null
+  },
+  "causal_boundary": {
+    "freeze_before_target_fetch_enforced": true,
+    "historical_outcomes_were_public_before_execution": true,
+    "classification": "RETROSPECTIVE_DEVELOPMENT_REPLAY",
+    "prospective_claim": false
+  },
+  "software_freeze": {
+    "base_engine_path": "src/bma/experiments/aeat_monthly_sequential_v0_6_3.py",
+    "base_engine_sha256": "89c30c1e599ddcaec7bb1f2bbb1b1ee5f86dba50c7e5569966513b2224509bdf",
+    "gate_revision_path": "src/bma/experiments/aeat_monthly_sequential_v0_6_4.py",
+    "gate_revision_sha256": "c3fb029aa26daa2ddbecedfd85c38990432a1d1dc572102702fd6991bad94f24",
+    "connector_path": "src/bma/connectors/aeat_trade.py",
+    "connector_sha256": "3e6c3144fa81c8a82fa464556e7e46b3eb88ba3ed3ecc39a6fc1de0638571f09",
+    "tests": "50 passed",
+    "expected_failures_or_xfails": 0,
+    "lint": "PASS"
+  },
+  "storage": {
+    "raw_zip_persisted": false,
+    "one_archive_in_memory_at_a_time": true,
+    "durable_outputs": "gzip-normalized monthly observations, freezes, adjudications and posterior states plus compact Z_post, sequence, result and manifest",
+    "local_raw_download_directory": null
+  },
+  "claim_boundary": {
+    "monthly_exploration_only": true,
+    "daily_model_evidence": false,
+    "prospective_validation": false,
+    "seasonality_generalization": false,
+    "industrial_operational_validation": false,
+    "BIND_readiness": false,
+    "promotion": "PROHIBITED"
+  }
+}
