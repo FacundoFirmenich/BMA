@@ -1,0 +1,8 @@
+{
+  "classification": "EXTERNAL_PROCESS_TERMINATION_NO_RECORDED_EXCEPTION",
+  "last_complete_target": "2024-10",
+  "next_target_not_frozen": "2024-11",
+  "stderr_empty": true,
+  "existing_artifacts_to_be_rewritten": false,
+  "recovery_gate": "VERIFY_SEALED_POSTERIOR_HASH_AND_RESUME_FROM_2024_10"
+}
