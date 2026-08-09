@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Frozen November-2024 holdout for AEAT chapter-72 physical trade.
 
 January--October 2024 are fetched and fitted first. The complete prediction
@@ -14,9 +13,10 @@ import json
 import math
 import random
 from collections import defaultdict
+from collections.abc import Callable
 from pathlib import Path
 from statistics import median
-from typing import Any, Callable
+from typing import Any
 
 import numpy as np
 
