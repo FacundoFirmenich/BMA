@@ -186,9 +186,9 @@ def _continuous_context(
             flow[item["flow"]].append(logged)
     return {
         "cell_values": cell_values,
-        "product_flow": product_flow,
-        "partner_flow": partner_flow,
-        "flow": flow,
+        "product_flow_center": {key: median(values) for key, values in product_flow.items()},
+        "partner_flow_center": {key: median(values) for key, values in partner_flow.items()},
+        "flow_center": {key: median(values) for key, values in flow.items()},
     }
 
 
@@ -199,10 +199,11 @@ def _continuous_predictions(
     if not cell_values:
         return None
     item = metadata[cell_id]
-    product_flow = context["product_flow"][(item["flow"], item["cn8"])]
-    partner_flow = context["partner_flow"][(item["flow"], item["partner_country"])]
-    flow = context["flow"][item["flow"]]
-    prior_components = [median(values) for values in (product_flow, partner_flow, flow) if values]
+    prior_components = [
+        context["product_flow_center"][(item["flow"], item["cn8"])],
+        context["partner_flow_center"][(item["flow"], item["partner_country"])],
+        context["flow_center"][item["flow"]],
+    ]
     prior_center = sum(prior_components) / len(prior_components)
     cell_center = sum(cell_values) / len(cell_values)
     hierarchical = (len(cell_values) * cell_center + 4.0 * prior_center) / (len(cell_values) + 4.0)
@@ -273,12 +274,14 @@ def _cluster_bootstrap(records: list[dict[str, Any]], difference_field: str) -> 
     observed = float(np.mean([value for values in by_cluster.values() for value in values])) if keys else None
     if len(keys) < 2:
         return {"clusters": len(keys), "replicates": 0, "mean_difference": observed, "ci95": None}
+    cluster_stats = {key: (sum(values), len(values)) for key, values in by_cluster.items()}
     rng = random.Random(BOOTSTRAP_SEED)
     samples: list[float] = []
     for _ in range(BOOTSTRAP_REPLICATES):
         selected = [keys[rng.randrange(len(keys))] for _ in keys]
-        values = [value for key in selected for value in by_cluster[key]]
-        samples.append(sum(values) / len(values))
+        numerator = sum(cluster_stats[key][0] for key in selected)
+        denominator = sum(cluster_stats[key][1] for key in selected)
+        samples.append(numerator / denominator)
     samples.sort()
     lower = samples[int(0.025 * len(samples))]
     upper = samples[int(0.975 * len(samples))]
