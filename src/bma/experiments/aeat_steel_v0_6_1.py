@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Frozen December-2024 holdout for AEAT chapter-72 physical trade.
+"""Frozen November-2024 holdout for AEAT chapter-72 physical trade.
 
-January--November 2024 are fetched and fitted first. The complete prediction
-freeze is written and hashed before the December URL is opened. Source ZIPs are
+January--October 2024 are fetched and fitted first. The complete prediction
+freeze is written and hashed before the November URL is opened. Source ZIPs are
 held one at a time in RAM and are never persisted by the connector.
 """
 
@@ -23,10 +23,10 @@ import numpy as np
 from bma.connectors.aeat_trade import fetch_month
 from bma.custody import canonical_bytes, sha256_bytes, write_json_new, write_manifest
 
-SCHEMA = "bma.aeat.chapter72.december-holdout.v0.6.0"
+SCHEMA = "bma.aeat.chapter72.november-holdout.v0.6.1"
 YEAR = 2024
-TRAIN_MONTHS = tuple(range(1, 12))
-TARGET_MONTH = 12
+TRAIN_MONTHS = tuple(range(1, 11))
+TARGET_MONTH = 11
 PARTICIPATION_EXPERTS = ("persistence", "empirical", "hierarchical", "recency")
 CONTINUOUS_EXPERTS = ("persistence", "cell_center", "hierarchical", "recency")
 PARTICIPATION_MIN_N = 1_000
@@ -404,9 +404,9 @@ def run(output: Path) -> dict[str, Any]:
 
     freeze = {
         "schema_version": SCHEMA,
-        "status": "FROZEN_BEFORE_DECEMBER_ARCHIVE_OPENED",
-        "training_period": ["2024-01", "2024-11"],
-        "target_period": "2024-12",
+        "status": "FROZEN_BEFORE_NOVEMBER_ARCHIVE_OPENED",
+        "training_period": ["2024-01", "2024-10"],
+        "target_period": "2024-11",
         "source_finality": "AEAT_2024_DATOS_DEFINITIVOS",
         "training_aggregates_sha256": training_hash,
         "universe_cells": len(metadata),
@@ -428,7 +428,7 @@ def run(output: Path) -> dict[str, Any]:
         {
             "sequence": len(sequence) + 1,
             "event": "TARGET_PREDICTION_FREEZE_WRITTEN",
-            "target_period": "2024-12",
+            "target_period": "2024-11",
             "sha256": freeze_hash,
         }
     )
@@ -491,8 +491,8 @@ def run(output: Path) -> dict[str, Any]:
     summary = {
         "schema_version": SCHEMA,
         "status": "EXECUTED_RETROSPECTIVE_INDUSTRIAL_HOLDOUT",
-        "training_period": ["2024-01", "2024-11"],
-        "target_period": "2024-12",
+        "training_period": ["2024-01", "2024-10"],
+        "target_period": "2024-11",
         "source_finality": "AEAT_2024_DATOS_DEFINITIVOS",
         "scope": "all chapter-72 iron-and-steel maximum-detail records aggregated by flow x CN8 x partner",
         "training": {

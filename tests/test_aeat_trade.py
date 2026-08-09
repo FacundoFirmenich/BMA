@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from bma.connectors.aeat_trade import aggregate_records, archive_url, parse_record
-from bma.experiments.aeat_steel_v0_6_0 import (
+from bma.experiments.aeat_steel_v0_6_1 import (
     _continuous_context,
     _continuous_predictions,
     _metadata,

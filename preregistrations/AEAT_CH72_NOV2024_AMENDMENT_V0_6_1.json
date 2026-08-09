@@ -1,0 +1,56 @@
+{
+  "schema_version": "bma.preregistration-amendment.v0.6.1",
+  "experiment_id": "ES-AEAT-CH72-NOV2024-HOLDOUT-V0.6.1",
+  "status": "FROZEN_BEFORE_TARGET_ARCHIVE_OPEN",
+  "supersedes": {
+    "experiment_id": "ES-AEAT-CH72-DEC2024-HOLDOUT-V0.6.0",
+    "protocol_path": "preregistrations/AEAT_CH72_DEC2024_HOLDOUT_V0_6_0.json",
+    "protocol_sha256": "a1294c3bb690bb9f5cd634a0070d2fd66b35ee415cd94547ebaf2914b856faa8",
+    "execution_state": "SUPERSEDED_BEFORE_EXECUTION",
+    "target_archive_opened": false
+  },
+  "reason_for_amendment": {
+    "identified_by": "user methodological correction",
+    "issue": "December is the natural-year closing month and has a plausible special inventory, fiscal, holiday and logistics regime",
+    "decision": "Use November 2024 as the latest definitive month that avoids the strongest year-end confound",
+    "outcome_knowledge_used": false
+  },
+  "frozen_design": {
+    "source_finality": "AEAT_2024_DATOS_DEFINITIVOS",
+    "material_scope": "all chapter 72 iron and steel maximum-detail records",
+    "cell": ["flow", "CN8", "partner country"],
+    "training_period": ["2024-01", "2024-10"],
+    "target_period": "2024-11",
+    "target_archive_opened_before_freeze": false,
+    "models_scores_support_gates": "unchanged from v0.6.0",
+    "causal_order": [
+      "download and aggregate January-October one archive at a time in memory",
+      "learn expert weights using rolling-origin folds wholly inside January-October",
+      "write and hash all November predictions",
+      "only then open and aggregate November",
+      "score without target refitting"
+    ]
+  },
+  "pre_target_evidence_state": {
+    "archives_opened": ["2024-01 transport-and-format probe only"],
+    "archives_not_opened": ["2024-02 through 2024-12"],
+    "january_probe_raw_zip_persisted": false,
+    "november_outcome_known": false,
+    "december_outcome_known": false
+  },
+  "storage_contract": {
+    "execution_environment": "GitHub Actions",
+    "raw_zip_persisted_on_user_disk": false,
+    "raw_zip_persisted_in_run_artifact": false,
+    "one_archive_in_memory_at_a_time": true,
+    "google_drive_root_folder_id": "1dR-I3B1vP7rBjq_2A-U4y5Bp6jx-J7bi",
+    "github_repository": "FacundoFirmenich/BMA"
+  },
+  "claim_boundary": {
+    "single_retrospective_holdout": true,
+    "prospective_validation": false,
+    "statistical_unit_value_is_transaction_price": false,
+    "global_superiority": false,
+    "promotion": "NO_PROMOTION_SINGLE_RETROSPECTIVE_MONTH"
+  }
+}
