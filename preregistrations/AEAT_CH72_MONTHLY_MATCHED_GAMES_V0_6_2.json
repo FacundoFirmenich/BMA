@@ -1,0 +1,81 @@
+{
+  "schema_version": "bma.preregistration.v0.6.2",
+  "experiment_id": "ES-AEAT-CH72-MONTHLY-MATCHED-GAMES-2024-V0.6.2",
+  "status": "FROZEN_BEFORE_DECEMBER_ARCHIVE_OPEN",
+  "frozen_at": "2026-08-09",
+  "purpose": "scientific exploration of matched monthly dynamics before discarding the monthly representation",
+  "invalidated_predecessor": {
+    "experiment_id": "ES-AEAT-CH72-NOV2024-HOLDOUT-V0.6.1",
+    "status": "INVALID_EXPERIMENT_NO_SCIENTIFIC_EVIDENCE",
+    "metrics_weights_posteriors_reused": false
+  },
+  "source": {
+    "publisher": "Agencia Estatal de Administración Tributaria",
+    "release": "2024 maximum-detail definitive foreign-trade data",
+    "scope": "all Chapter 72 iron and steel records",
+    "aggregation": "flow x CN8 x partner country x month",
+    "statistical_unit_value_is_transaction_price": false
+  },
+  "temporal_invariant": {
+    "atomic_unit_for_this_exploration": "month",
+    "training_prediction_adjudication_Z_post_unit_identical": true,
+    "block_measure": "N training months x N target months",
+    "target_month_added_once_after_scoring": true,
+    "cross_section_is_not_temporal_sample_size": true
+  },
+  "games": {
+    "year": 2024,
+    "training_lengths_months": [1, 2, 3, 4, 5, 6],
+    "window_policy": "all contiguous windows with room for the immediately following equal-length target block",
+    "game_count": 36,
+    "target_month_adjudications": 91,
+    "Z_post": "prequential within each target block; month t can affect only later months in the same game",
+    "year_end": "December retained as an explicit YEAR_END regime"
+  },
+  "targets": {
+    "participation": "cell presence in each target month",
+    "weight_kg": "monthly physical mass conditional on presence and positive mass",
+    "statistical_unit_value": "statistical value divided by mass conditional on positive numerator and denominator"
+  },
+  "models": {
+    "participation_experts": ["persistence", "empirical", "hierarchical", "recency"],
+    "continuous_experts": ["persistence", "cell_center", "hierarchical", "recency"],
+    "weights": "fresh equal-prior expert weights learned only from the current game's same-unit history",
+    "short_history": "uniform expert weights when fewer than four months leave no internal rolling fold",
+    "invalid_v061_state_loaded": false
+  },
+  "scores": {
+    "participation": ["monthly mean Brier", "monthly mean log loss"],
+    "continuous": ["monthly mean absolute log error"],
+    "primary_reporting_unit": "one score per target month",
+    "cross_sectional_bootstrap": "PROHIBITED_AS_TEMPORAL_INFERENCE",
+    "formal_significance": "NOT_ESTIMATED_OVER_OVERLAPPING_GAMES",
+    "global_winner": null
+  },
+  "causal_state_before_execution": {
+    "january_to_november": "previously opened; retrospective development only",
+    "december": "archive not opened",
+    "december_rule": "all predictions from every game involving December must be written and hashed before opening the archive"
+  },
+  "software_freeze": {
+    "experiment_path": "src/bma/experiments/aeat_monthly_matched_games_v0_6_2.py",
+    "experiment_sha256": "536ff81e0a4b59e72a2e05f2e19bfc75d09d77ab2beba7cf02fd8f7137baa827",
+    "connector_path": "src/bma/connectors/aeat_trade.py",
+    "connector_sha256": "3e6c3144fa81c8a82fa464556e7e46b3eb88ba3ed3ecc39a6fc1de0638571f09",
+    "tests_passed": 41,
+    "lint": "PASS"
+  },
+  "storage": {
+    "raw_zip_persisted": false,
+    "one_archive_in_memory_at_a_time": true,
+    "durable_local_outputs": "normalized monthly aggregates, December prediction freeze, results, sequence and manifest only"
+  },
+  "claim_boundary": {
+    "daily_model_evidence": false,
+    "monthly_exploration": true,
+    "seasonality_generalization": false,
+    "industrial_operational_validation": false,
+    "BIND_readiness": false,
+    "promotion": "PROHIBITED"
+  }
+}
