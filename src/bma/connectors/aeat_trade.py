@@ -7,11 +7,11 @@ monthly aggregates at flow x CN8 x partner-country resolution.
 
 from __future__ import annotations
 
-from collections.abc import Iterable
 import hashlib
 import io
 import urllib.request
 import zipfile
+from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Any, BinaryIO
 
