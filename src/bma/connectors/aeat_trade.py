@@ -7,12 +7,13 @@ monthly aggregates at flow x CN8 x partner-country resolution.
 
 from __future__ import annotations
 
+from collections.abc import Iterable
 import hashlib
 import io
 import urllib.request
 import zipfile
 from dataclasses import dataclass, field
-from typing import Any, BinaryIO, Iterable
+from typing import Any, BinaryIO
 
 RECORD_LENGTH = 226
 MAX_COMPRESSED_BYTES = 30_000_000
