@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import math
+
 from bma.connectors.aeat_trade import aggregate_records, archive_url, parse_record
 from bma.experiments.aeat_steel_v0_6_1 import (
     _continuous_context,
@@ -93,4 +95,4 @@ def test_hierarchical_contexts_are_finite_and_target_blind() -> None:
     continuous = _continuous_predictions(_continuous_context(maps, metadata, "weight_kg"), metadata, "I|72083900|FR")
     assert all(0 < value < 1 for value in participation.values())
     assert continuous is not None
-    assert all(value == value for value in continuous.values())
+    assert all(math.isfinite(value) for value in continuous.values())
