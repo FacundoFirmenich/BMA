@@ -1,0 +1,49 @@
+{
+  "schema_version": "bma.aeat.chapter72.monthly-seasonal.software-addendum.v0.6.5",
+  "experiment_id": "ES-AEAT-CH72-MONTHLY-SEASONAL-2022-2024-V0.6.5",
+  "status": "FROZEN_BEFORE_2022_2023_OUTCOME_OPENING",
+  "frozen_at": "2026-08-10",
+  "outcome_years_opened_by_this_addendum": [],
+  "source_hashes_sha256": {
+    "seasonal_engine": "1a08a12f16d36a958a07ba9224c1192f279f1000b0eab32a8bacd791142c5b6f",
+    "m0_v064_adapter": "c3fb029aa26daa2ddbecedfd85c38990432a1d1dc572102702fd6991bad94f24",
+    "v064_recovery_reference": "647133153450b9914c6201163e9867190e69c5d4227ae8acd197c9978e726212",
+    "v065_invariant_tests": "e828d11c8991d42ac7b665e8b2d51b3a541ee215c0eb7b50a4c96d2e861c5e2a",
+    "v064_equivalence_tests": "3c4bcc4661b0e3a720ec58a8541a5a4791ee3e1211448b31f9cdb6760d086795",
+    "v064_auditor_reference": "758a29d0f9c4583312e200097acb905d9c3289de6c7e335a826378da4c3055e9"
+  },
+  "temporal_invariants": {
+    "atomic_training_unit": "one calendar month",
+    "target": "immediately following calendar month",
+    "posterior_chain": "single contiguous chain with no year-boundary reset",
+    "outcome_opening": "only after that target's freeze",
+    "forbidden": ["N-to-1 pooled training", "future history in features", "RAW-to-prior", "retrospective rewrite"]
+  },
+  "models": {
+    "M0": "Direct v0.6.4 feature delegation; no feature, parameter or control substitution.",
+    "M1": "M0 plus k=1 and k=2 annual Fourier innovation component; ridge prior precision 4.0.",
+    "M2": "M1 plus partially pooled calendar-month residual global->flow->CN4->partner->cell, weighted-zero-sum centered after every update.",
+    "support_thresholds": {"global": 1, "flow": 3, "cn4": 6, "partner": 6, "cell": 12},
+    "residual_shrinkage": 8.0
+  },
+  "weights": {
+    "separate_by_target": ["participation", "quantity", "statistical_unit_value"],
+    "initial_log_evidence": {"M0": 0.0, "M1": 0.0, "M2": 0.0},
+    "update": "log_evidence_model <- log_evidence_model + post-outcome prequential log_score_model",
+    "prediction_weight": "exp(log_evidence_model - logsumexp(log_evidence_all))",
+    "numerical_probability_floor": 1e-12
+  },
+  "recovery": {
+    "checkpoint": "immutable freeze, adjudication, posterior and Z_post per target",
+    "resume": "verify the previous posterior hash against its Z_post before freezing the next target; never reopen or overwrite a sealed target",
+    "manifest": "SHA-256 manifest verifies every derived artifact; raw archive remains RAM-only"
+  },
+  "verification": {
+    "m0_exact_equivalence": "test_m0_feature_delegation_is_exact compares v0.6.5 delegation with v0.6.4 byte-identical numpy feature values.",
+    "no_leakage": "test_calendar_contract_rejects_pooled_or_skipped_targets rejects every non-adjacent transition.",
+    "zero_sum": "test_m2_residual_is_centered_and_future_free checks centered residual mass and no pre-update seasonal signal.",
+    "weights": "test_weights_are_separate_and_post_outcome proves no cross-target update and only explicit post-outcome score mutation."
+  },
+  "expected_artifact_tree": ["structured_months/month_YYYY-MM.json.gz", "freezes/freeze_YYYY-MM.json.gz", "adjudications/adjudication_YYYY-MM.json.gz", "priors/prior_after_YYYY-MM_REGIME.json.gz", "z_post/z_post_YYYY-MM.json", "checkpoints/year_YYYY.json", "RESULT.json", "SEQUENCE.json", "MANIFEST.json"],
+  "claim_boundary": {"classification": "RETROSPECTIVE_DEVELOPMENT_REPLAY", "prospective": false, "daily": false, "global_winner": null, "promotion": "PROHIBITED"}
+}
