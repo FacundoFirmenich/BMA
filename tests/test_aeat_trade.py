@@ -53,6 +53,8 @@ def record(
 def test_archive_url_is_official_month_pattern() -> None:
     assert archive_url(2024, 1).endswith("/2024/enero/cg24en74.zip")
     assert archive_url(2024, 12).endswith("/2024/diciembre/cg24dc74.zip")
+    assert "/Contenidos_Privados/" in archive_url(2022, 1)
+    assert archive_url(2023, 12).endswith("/2023/diciembre/cg23dc74.zip")
 
 
 def test_fixed_width_record_scaling() -> None:

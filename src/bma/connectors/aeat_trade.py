@@ -36,6 +36,11 @@ BASE_URL = (
     "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Aduanas/"
     "Comercio_exterior/maxima_desag_mens"
 )
+LEGACY_BASE_URL = (
+    "https://sede.agenciatributaria.gob.es/static_files/AEAT/Aduanas/"
+    "Contenidos_Privados/Estadisticas_Comercio_Exterior/comercio_exterior/"
+    "datos_mensuales_maxima_desagregacion"
+)
 
 
 class AeatContractError(RuntimeError):
@@ -44,7 +49,8 @@ class AeatContractError(RuntimeError):
 
 def archive_url(year: int, month: int) -> str:
     month_name, month_code = MONTH_CODES[month]
-    return f"{BASE_URL}/{year}/{month_name}/cg{year % 100:02d}{month_code}74.zip"
+    base = LEGACY_BASE_URL if year <= 2023 else BASE_URL
+    return f"{base}/{year}/{month_name}/cg{year % 100:02d}{month_code}74.zip"
 
 
 def _integer(raw: bytes, label: str) -> int:
