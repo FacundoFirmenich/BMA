@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import math
 
-from bma.connectors.aeat_trade import aggregate_records, archive_url, parse_record
+from bma.connectors.aeat_trade import aggregate_records, archive_url, archive_urls, parse_record
 from bma.experiments.aeat_steel_v0_6_1 import (
     _continuous_context,
     _continuous_predictions,
@@ -55,6 +55,7 @@ def test_archive_url_is_official_month_pattern() -> None:
     assert archive_url(2024, 12).endswith("/2024/diciembre/cg24dc74.zip")
     assert "/Contenidos_Privados/" in archive_url(2022, 1)
     assert archive_url(2023, 12).endswith("/2023/diciembre/cg23dc74.zip")
+    assert len(archive_urls(2022, 7)) == 2
 
 
 def test_fixed_width_record_scaling() -> None:

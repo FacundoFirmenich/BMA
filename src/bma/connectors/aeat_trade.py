@@ -11,6 +11,7 @@ import hashlib
 import io
 import urllib.request
 import zipfile
+from urllib.error import HTTPError
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from typing import Any, BinaryIO
@@ -54,6 +55,19 @@ def archive_url(year: int, month: int) -> str:
         month_name = "Mayo"
     base = LEGACY_BASE_URL if year <= 2023 else BASE_URL
     return f"{base}/{year}/{month_name}/cg{year % 100:02d}{month_code}74.zip"
+
+
+def archive_urls(year: int, month: int) -> tuple[str, ...]:
+    """Return the only two documented legacy path casings, not guessed files."""
+    primary = archive_url(year, month)
+    if year > 2023:
+        return (primary,)
+    month_name, month_code = MONTH_CODES[month]
+    alternate = (
+        f"{LEGACY_BASE_URL}/{year}/{month_name.capitalize()}/"
+        f"cg{year % 100:02d}{month_code}74.zip"
+    )
+    return tuple(dict.fromkeys((primary, alternate)))
 
 
 def _integer(raw: bytes, label: str) -> int:
@@ -215,13 +229,27 @@ def _read_bounded(handle: BinaryIO, cap: int) -> bytes:
 
 def fetch_month(year: int, month: int, *, timeout: int = 90) -> dict[str, Any]:
     """Fetch one archive into RAM, aggregate it, then release the raw bytes."""
-    url = archive_url(year, month)
-    request = urllib.request.Request(url, headers={"User-Agent": "BMA-AEAT/0.6.0"})
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        declared = int(response.headers.get("Content-Length", "0") or 0)
-        if declared and declared > MAX_COMPRESSED_BYTES:
-            raise AeatContractError(f"declared archive size {declared} exceeds cap")
-        payload = _read_bounded(response, MAX_COMPRESSED_BYTES)
+    payload: bytes | None = None
+    url: str | None = None
+    last_not_found: HTTPError | None = None
+    for candidate_url in archive_urls(year, month):
+        request = urllib.request.Request(candidate_url, headers={"User-Agent": "BMA-AEAT/0.6.0"})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                declared = int(response.headers.get("Content-Length", "0") or 0)
+                if declared and declared > MAX_COMPRESSED_BYTES:
+                    raise AeatContractError(f"declared archive size {declared} exceeds cap")
+                payload = _read_bounded(response, MAX_COMPRESSED_BYTES)
+                url = candidate_url
+                break
+        except HTTPError as error:
+            if error.code != 404:
+                raise
+            last_not_found = error
+    if payload is None or url is None:
+        if last_not_found is not None:
+            raise last_not_found
+        raise AeatContractError("no AEAT archive URL was attempted")
     archive_sha256 = hashlib.sha256(payload).hexdigest()
     with zipfile.ZipFile(io.BytesIO(payload)) as archive:
         members = [item for item in archive.infolist() if not item.is_dir()]
