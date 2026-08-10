@@ -5,7 +5,7 @@ Fecha: 2026-08-10
 Estado: `FROZEN_SUCCESSION_CONTRACT`
 
 Repositorio: `https://github.com/FacundoFirmenich/BMA`
-Rama de continuidad: `agent/bma-v061-aeat-industrial-holdout`
+Rama de continuidad: `agent/bma-v065-terra-succession`
 
 ## 1. Misión y configuración
 
