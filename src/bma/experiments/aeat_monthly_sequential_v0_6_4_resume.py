@@ -180,7 +180,7 @@ def monthly_result(adjudication: dict[str, Any], regime: str) -> dict[str, Any]:
     }
 
 
-def reconstruct(output: Path) -> tuple[
+def reconstruct(output: Path, year: int = 2024) -> tuple[
     base.MonthlyState,
     v064.StructurallyExtensibleFrozenParticipation,
     dict[str, Any],
@@ -191,7 +191,7 @@ def reconstruct(output: Path) -> tuple[
 ]:
     if (output / "RESULT.json").exists() or (output / "MANIFEST_SHA256.txt").exists():
         raise GateFailure("run is already finalized")
-    z_paths = sorted((output / "z_post").glob("z_post_2024-*.json"))
+    z_paths = sorted((output / "z_post").glob(f"z_post_{year:04d}-*.json"))
     if not z_paths:
         raise GateFailure("no sealed Z_post available for recovery")
     latest_z = json.loads(z_paths[-1].read_text(encoding="utf-8"))
@@ -203,7 +203,7 @@ def reconstruct(output: Path) -> tuple[
     if posterior["compiled_from_target"] != last_period or posterior["regime"] != "ORDINARY":
         raise GateFailure("latest posterior identity is not resumable ordinary state")
 
-    january = read_gzip_json(output / "structured_months" / "month_2024-01.json.gz")
+    january = read_gzip_json(output / "structured_months" / f"month_{year:04d}-01.json.gz")
     initial_state, initial_participation, names, scales = base.initialize(january)
     frozen_participation = participation_from_serialized(initial_participation.serializable())
     controls = {
@@ -220,15 +220,15 @@ def reconstruct(output: Path) -> tuple[
             }
         )
     )
-    for freeze_path in sorted((output / "freezes").glob("freeze_2024-*.json.gz")):
+    for freeze_path in sorted((output / "freezes").glob(f"freeze_{year:04d}-*.json.gz")):
         freeze = read_gzip_json(freeze_path)
         if freeze["origin_frozen_state_sha256"] != control_hash:
             raise GateFailure("frozen January control hash changed before recovery")
 
     history: dict[str, list[dict[str, Any]]] = defaultdict(list)
     known: dict[str, dict[str, Any]] = {}
-    month_paths = sorted((output / "structured_months").glob("month_2024-*.json.gz"))
-    expected_periods = [f"2024-{month:02d}" for month in range(1, int(last_period[-2:]) + 1)]
+    month_paths = sorted((output / "structured_months").glob(f"month_{year:04d}-*.json.gz"))
+    expected_periods = [f"{year:04d}-{month:02d}" for month in range(1, int(last_period[-2:]) + 1)]
     observed_periods: list[str] = []
     for month_path in month_paths:
         document = read_gzip_json(month_path)
@@ -256,18 +256,18 @@ def reconstruct(output: Path) -> tuple[
     return state, participation, controls, names, scales, last_period, control_hash
 
 
-def rebuild_sequence(output: Path) -> list[dict[str, Any]]:
-    initial_path = output / "structured_months" / "month_2024-01.json.gz"
+def rebuild_sequence(output: Path, year: int = 2024) -> list[dict[str, Any]]:
+    initial_path = output / "structured_months" / f"month_{year:04d}-01.json.gz"
     sequence: list[dict[str, Any]] = [{
         "sequence": 1,
         "event": "INITIAL_MONTH_OPENED_AND_STRUCTURED",
-        "period": "2024-01",
+        "period": f"{year:04d}-01",
         "sha256": sha256_file(initial_path),
         "raw_archive_persisted": False,
     }]
     for target_month in range(2, 13):
-        target = f"2024-{target_month:02d}"
-        training = f"2024-{target_month - 1:02d}"
+        target = f"{year:04d}-{target_month:02d}"
+        training = f"{year:04d}-{target_month - 1:02d}"
         freeze_path = output / "freezes" / f"freeze_{target}.json.gz"
         outcome_path = output / "structured_months" / f"month_{target}.json.gz"
         adjudication_path = output / "adjudications" / f"adjudication_{target}.json.gz"
@@ -308,8 +308,8 @@ def rebuild_sequence(output: Path) -> list[dict[str, Any]]:
     return sequence
 
 
-def resume(output: Path) -> dict[str, Any]:
-    state, participation, controls, names, scales, last_period, control_hash = reconstruct(output)
+def resume(output: Path, year: int = 2024) -> dict[str, Any]:
+    state, participation, controls, names, scales, last_period, control_hash = reconstruct(output, year)
     start_month = int(last_period[-2:]) + 1
     if start_month > 12:
         raise GateFailure("all target months are already sealed; only finalization is missing")
@@ -317,8 +317,8 @@ def resume(output: Path) -> dict[str, Any]:
     participation_states = {"ORDINARY": participation}
     for target_month in range(start_month, 13):
         training_month = target_month - 1
-        training_period = f"2024-{training_month:02d}"
-        target_period = f"2024-{target_month:02d}"
+        training_period = f"{year:04d}-{training_month:02d}"
+        target_period = f"{year:04d}-{target_month:02d}"
         regime = "YEAR_END_UNCALIBRATED" if target_month == 12 else "ORDINARY"
         if regime not in states:
             states[regime] = states["ORDINARY"].fork()
@@ -379,9 +379,16 @@ def resume(output: Path) -> dict[str, Any]:
             "status": "FROZEN_BEFORE_TARGET_ARCHIVE_OPENED_IN_THIS_REPLAY",
             "claim_boundary": "retrospective replay; historical releases were public before execution",
         }
-        freeze_hash = gzip_json_new(output / "freezes" / f"freeze_{target_period}.json.gz", freeze)
+        freeze_path = output / "freezes" / f"freeze_{target_period}.json.gz"
+        if freeze_path.exists():
+            sealed_freeze = read_gzip_json(freeze_path)
+            if sealed_freeze["prior_state_sha256"] != freeze["prior_state_sha256"] or sealed_freeze["transition"] != freeze["transition"]:
+                raise GateFailure("existing freeze does not match the sealed posterior")
+            freeze_hash = sha256_file(freeze_path)
+        else:
+            freeze_hash = gzip_json_new(freeze_path, freeze)
 
-        outcome = v064.fetch_month(2024, target_month)
+        outcome = v064.fetch_month(year, target_month)
         if outcome.get("period") != target_period:
             raise GateFailure(f"target period mismatch {outcome.get('period')!r} != {target_period!r}")
         outcome_hash = gzip_json_new(
@@ -491,11 +498,11 @@ def resume(output: Path) -> dict[str, Any]:
 
     transitions: list[dict[str, Any]] = []
     for target_month in range(2, 13):
-        period = f"2024-{target_month:02d}"
+        period = f"{year:04d}-{target_month:02d}"
         adjudication = read_gzip_json(output / "adjudications" / f"adjudication_{period}.json.gz")
         regime = "YEAR_END_UNCALIBRATED" if target_month == 12 else "ORDINARY"
         transitions.append(monthly_result(adjudication, regime))
-    sequence = rebuild_sequence(output)
+    sequence = rebuild_sequence(output, year)
     result = {
         "schema_version": SCHEMA,
         "status": "EXECUTED_RETROSPECTIVE_ONE_MONTH_TO_ONE_MONTH_REPLAY",

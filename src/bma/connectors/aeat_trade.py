@@ -49,6 +49,9 @@ class AeatContractError(RuntimeError):
 
 def archive_url(year: int, month: int) -> str:
     month_name, month_code = MONTH_CODES[month]
+    # AEAT's historical May directory is capitalised, unlike January--April.
+    if year <= 2023 and month == 5:
+        month_name = "Mayo"
     base = LEGACY_BASE_URL if year <= 2023 else BASE_URL
     return f"{base}/{year}/{month_name}/cg{year % 100:02d}{month_code}74.zip"
 
