@@ -11,3 +11,11 @@ local-data/
 local-runs/
 work/
 *.log
+
+# Invalid v0.6.2 payload: keep local quarantine bytes out of publication.
+# The tracked INVALID_DO_NOT_USE.md marker remains visible and authoritative.
+evidence/runs/aeat-ch72-monthly-matched-games-v0.6.2/DECEMBER_PREDICTION_FREEZE.json.gz
+evidence/runs/aeat-ch72-monthly-matched-games-v0.6.2/MANIFEST_SHA256.txt
+evidence/runs/aeat-ch72-monthly-matched-games-v0.6.2/MONTHLY_AGGREGATES_2024.json.gz
+evidence/runs/aeat-ch72-monthly-matched-games-v0.6.2/RESULT.json
+evidence/runs/aeat-ch72-monthly-matched-games-v0.6.2/SEQUENCE.json

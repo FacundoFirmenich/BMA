@@ -1,0 +1,63 @@
+{
+  "schema_version": "bma.source_acquisition_preregistration.v0.7.0",
+  "protocol_id": "EU-INDUSTRIAL-DAILY-SOURCE-ACQUISITION-V0.7.0",
+  "status": "FROZEN_BEFORE_SAMPLE_ACCESS",
+  "frozen_at": "2026-08-10",
+  "objective": "Establish whether a European source supports a genuine daily, disaggregated, non-regulated physical-industrial BMA campaign before downloading a history or fitting a model.",
+  "candidate_order": [
+    "TBAuctions/ATLAS",
+    "EquipmentWatch Market Data API"
+  ],
+  "excluded_outcomes": [
+    "gas",
+    "electricity",
+    "regulated prices",
+    "administered prices",
+    "assessed or index prices represented as raw transactions"
+  ],
+  "material_scope": {
+    "wood_included": true,
+    "strict_non_biological_industry_priority": true,
+    "physical_event_required": true
+  },
+  "authority_boundary": {
+    "public_documentation_review": "authorized read-only",
+    "account_creation_or_external_message": "explicit user authority required",
+    "contract_acceptance_or_payment": "explicit user authority required",
+    "bulk_download": "prohibited before source gate PASS",
+    "local_raw_persistence": "prohibited by default",
+    "VPS_use": "only after access, licence, custody path and user authority are resolved"
+  },
+  "minimum_probe": {
+    "preferred": "remote schema plus smallest contractually permitted sample",
+    "must_not_be": "full historical dump",
+    "purpose": "reduce access, semantics, coverage and licence uncertainty"
+  },
+  "gates": [
+    "one row per event or lot with native timestamp",
+    "final sold, unsold and cancelled state distinguishable",
+    "final price and currency present; taxes and commissions separable or explicitly unavailable",
+    "quantity, unit, category and physical attributes identifiable",
+    "physical location and delivery or collection terms identifiable where applicable",
+    "revisions, duplicates and late arrivals observable or documented",
+    "actual daily density and historical depth measurable by jurisdiction",
+    "licence permits modelling, audit and persistence of declared derivatives",
+    "outcomes are neither regulated nor administered prices",
+    "minimal export can be processed without unnecessary local raw persistence"
+  ],
+  "terminal_states": {
+    "PASS": "All critical semantics, coverage, licence and custody gates pass; freeze a source-specific scientific experiment before opening further outcomes.",
+    "FAIL": "Observed source contract cannot support the claimed daily industrial jurisdiction.",
+    "SOURCE_UNAVAILABLE": "Access could not be obtained; this is not evidence of no market activity.",
+    "PARTNERSHIP_REQUIRED": "Potentially valid internal data exists but contractual access remains unresolved."
+  },
+  "no_model_before_pass": true,
+  "claim_boundary": {
+    "candidate_identified": true,
+    "source_access_verified": false,
+    "coverage_verified": false,
+    "training_authorized": false,
+    "industrial_validation": false,
+    "BIND_pilot_ready": false
+  }
+}

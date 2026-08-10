@@ -1,0 +1,92 @@
+{
+  "schema_version": "bma.preregistration.v0.6.5",
+  "experiment_id": "ES-AEAT-CH72-MONTHLY-SEASONAL-2022-2024-V0.6.5",
+  "status": "FROZEN_DESIGN_SOFTWARE_ADDENDUM_REQUIRED_BEFORE_OUTCOME_OPENING",
+  "frozen_at": "2026-08-10",
+  "classification": "RETROSPECTIVE_DEVELOPMENT_REPLAY",
+  "design_informed_by": [
+    "AEAT 2024 v0.6.4 results",
+    "user hypothesis of cumulative undertraining and annual seasonality"
+  ],
+  "objective": "Test whether explicit annual memory improves the same one-month-ahead sequential BMA chain without learning absolute interannual trade levels.",
+  "source": {
+    "publisher": "Agencia Estatal de Administracion Tributaria",
+    "release": "maximum-detail definitive foreign-trade data",
+    "chapter": "72",
+    "cell": "flow x CN8 x partner country",
+    "raw_storage": "one monthly archive in RAM at a time; no durable raw ZIP"
+  },
+  "temporal_contract": {
+    "atomic_training_unit": "one calendar month",
+    "prediction_unit": "the immediately following calendar month",
+    "adjudication_unit": "the same target month",
+    "first_training_month": "2022-01",
+    "first_target_month": "2022-02",
+    "last_target_month": "2024-12",
+    "target_count": 35,
+    "single_contiguous_posterior_chain": true,
+    "reset_at_year_boundary": false,
+    "pooled_N_month_training_block_for_one_target": false,
+    "target_opened_only_after_freeze": true,
+    "posterior_transfer_only_through_structured_Z_post_cycle": true
+  },
+  "targets": {
+    "participation": "Bernoulli participation with seasonal deviation on logit scale",
+    "quantity": "log1p(weight_kg) innovation relative to M0",
+    "statistical_unit_value": "log(statistical_value_eur_per_kg) innovation relative to M0; not a transaction price"
+  },
+  "models": {
+    "M0": "v0.6.4 sequential ordinary model, decisionally exact after efficiency refactor",
+    "M1": "M0 plus annual Fourier harmonics k=1 and k=2",
+    "M2": "M1 plus zero-sum monthly residual with partial pooling global -> flow -> CN4 -> partner -> cell only with frozen support",
+    "mixture": "target-specific prequential Bayesian model weights updated only after adjudication"
+  },
+  "comparators": {
+    "participation": ["M0", "frozen structural control"],
+    "quantity": ["M0", "cell persistence"],
+    "statistical_unit_value": ["M0", "cell persistence"],
+    "global_winner": null
+  },
+  "primary_metrics": {
+    "participation": ["prequential log_loss", "Brier"],
+    "quantity": ["prequential predictive log_score", "MALE"],
+    "statistical_unit_value": ["prequential predictive log_score", "MALE"],
+    "calibration": ["90_percent_coverage", "interval_width"],
+    "reporting_unit": "target month first; microaggregates diagnostic only"
+  },
+  "adjudication_gates": {
+    "SEASONAL_INFORMATIVE_TARGET": "Seasonal mixture has better cumulative prequential log score than M0 separately in 2023 and 2024, and its target-specific point loss is not worse than M0 over combined 2023-2024.",
+    "SEASONAL_STABLE": "The phase-specific seasonal posterior preserves direction across the 2023 and 2024 recurrences without any high-confidence phase reversal; report posterior overlap and phase vector similarity rather than substituting absolute levels.",
+    "LOCAL_ONLY": "Gate passes only for an explicitly supported hierarchy and claim key.",
+    "ABSTAIN_LOW_SUPPORT": "Frozen support gate in the software addendum is not met.",
+    "ABSTAIN_UNSTABLE_PHASE": "Recurrence direction or phase is incompatible across years.",
+    "YEAR_END_UNCALIBRATED": "December remains separate until recurrent calibration supports ordinary treatment.",
+    "NO_PROMOTION": "Retrospective gains do not authorize prospective, industrial, operational or BIND readiness claims."
+  },
+  "mandatory_software_addendum": {
+    "must_be_frozen_before_opening_2022_or_2023": true,
+    "required_items": [
+      "source hashes for engine, connector, runner and tests",
+      "exact support thresholds for each hierarchy level",
+      "prior and shrinkage hyperparameters",
+      "weight update equations and numerical floors",
+      "recovery/checkpoint protocol",
+      "M0 exact-equivalence evidence against v0.6.4",
+      "no-leakage and zero-sum invariant tests",
+      "expected artifact tree and manifest contract"
+    ]
+  },
+  "training_age_extension": {
+    "available_range_asserted_by_user": "2019-2026 complete and valid",
+    "not_authorized_for_automatic_opening": true,
+    "permitted_design_after_primary_campaign": "Compare causally accumulated chains of different posterior age on calendar-phase-aligned evaluation blocks; never pool N months into one training observation or evaluate an N-month fit on only one target month.",
+    "add_earlier_year_only_if": "It changes recurrence identification, December calibration, hierarchy stability, or discrimination between undertraining and seasonality."
+  },
+  "claim_boundary": {
+    "prospective": false,
+    "daily_evidence": false,
+    "general_superiority": false,
+    "commercial_validation": false,
+    "promotion": "PROHIBITED"
+  }
+}

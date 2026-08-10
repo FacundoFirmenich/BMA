@@ -57,6 +57,10 @@ BMA.
 See [docs/BIND_2026_POSITION_ES.md](docs/BIND_2026_POSITION_ES.md) and
 [docs/EVIDENCE_BOUNDARY.md](docs/EVIDENCE_BOUNDARY.md).
 
+The canonical continuation contract for the monthly seasonal programme and
+the European daily-data line is
+[docs/BMA_TERRA_SUCCESSION_20260810_ES.md](docs/BMA_TERRA_SUCCESSION_20260810_ES.md).
+
 ## Install and verify
 
 ```powershell

@@ -1,0 +1,59 @@
+{
+  "schema_version": "bma.succession_receipt.v1",
+  "receipt_id": "BMA-TERRA-SUCCESSION-20260810",
+  "created_at": "2026-08-10",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v061-aeat-industrial-holdout",
+  "predecessor_commit": "24950a92b91572c257e5f8c769b15c29efd6259e",
+  "source_threads": [
+    "codex://threads/019fe4ca-9d4c-72c3-ba7e-0e82f26ede44",
+    "codex://threads/019fe5a4-7b88-7cb2-9515-fa70a52cf0ef"
+  ],
+  "artifacts": [
+    {
+      "path": "docs/BMA_TERRA_SUCCESSION_20260810_ES.md",
+      "sha256": "5ca2baf80707b3ce24a761a040a042037880bce38667b63c13362ab6546809d3"
+    },
+    {
+      "path": "preregistrations/AEAT_CH72_SEASONAL_2022_2024_V0_6_5.json",
+      "sha256": "7cb80ec2f22b5ae09fe42286421adfed8772a7b8455c2aeae1897b434556bb63"
+    },
+    {
+      "path": "preregistrations/EU_INDUSTRIAL_DAILY_SOURCE_ACQUISITION_V0_7_0.json",
+      "sha256": "f17db0acdfc90ec9e3b62e0c4e7ef2592b9c4aea5b5dbfb0347bd2c4a478382b"
+    },
+    {
+      "path": "preregistrations/BMA_SUCCESSOR_PROGRAM_20260810.json",
+      "sha256": "3a6a5ced267b3c8149bdc032c543274ac3301c3342a5feec36dc16d138dc7a5e"
+    },
+    {
+      "path": "outputs/BMA_SUCCESSION_CLOSURE_20260810_ES.md",
+      "sha256": "f3150b39af8a3951094687fb4c18a4d55fa95777f1b6773d58d412543258ad69"
+    }
+  ],
+  "validation": {
+    "initial_invocation": {
+      "status": "FAIL_ENVIRONMENT_IMPORT_PATH",
+      "command": "python -m pytest -q",
+      "observed": "ModuleNotFoundError: No module named 'bma'",
+      "interpretation": "The checkout was not installed and src was not on PYTHONPATH; Ruff independently passed. This was not treated as a code regression."
+    },
+    "corrected_invocation": {
+      "environment": "PYTHONPATH=src; pytest cache disabled; explicit Windows basetemp",
+      "tests": "53 passed",
+      "ruff": "PASS",
+      "aeat_v0_6_4_audit": "PASS",
+      "manifest_files_checked": 59,
+      "manifest_failures": 0,
+      "raw_zip_files": 0
+    }
+  },
+  "publication_scope": {
+    "valid_branch_history": "authorized for GitHub publication by user on 2026-08-10",
+    "new_succession_artifacts": "authorized for publication",
+    "invalid_v0_6_2_payloads": "EXCLUDED_AND_GITIGNORED",
+    "invalid_v0_6_2_marker": "TRACKED_AND_PRESERVED"
+  },
+  "scientific_position_changed_by_handoff": false,
+  "next_action": "Successor implements M0/M1/M2 without opening 2022/2023 and in parallel revalidates the minimal TBAuctions/ATLAS source gate."
+}
