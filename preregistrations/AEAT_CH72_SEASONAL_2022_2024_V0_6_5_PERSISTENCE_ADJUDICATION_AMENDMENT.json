@@ -1,0 +1,18 @@
+{
+  "schema_version": "bma.preregistration.amendment.v0.6.5",
+  "amends_without_rewriting": "AEAT_CH72_SEASONAL_2022_2024_V0_6_5_STAGED_ACTIVATION_AMENDMENT.json",
+  "frozen_at": "2026-08-10",
+  "clarification": "A first 2022 occurrence permits only a strongly shrunk phase-matched contribution in 2023. It does not establish persistent seasonality.",
+  "causal_accumulation": {
+    "2023_freeze": "may use the adjudicated homologous 2022 phase only",
+    "2024_freeze": "may use adjudicated homologous phases from 2022 and 2023",
+    "persistence_adjudication": "uses the complete 2022->2023->2024 causal chain, including the existing 2024 monthly evidence, and reports phase direction/stability separately by target and hierarchy"
+  },
+  "bridged_2023_seasonality_diagnostic": {
+    "purpose": "After 2022 closes, test the specific seasonal model against 2023 using the two surrounding year-phase observations: 2022 and the already sealed 2024 evidence.",
+    "classification": "BIDIRECTIONAL_RETROSPECTIVE_DIAGNOSTIC_NOT_CAUSAL_FORECAST",
+    "prohibited_use": ["update a 2023 freeze", "update a 2023 posterior", "claim prospective skill"],
+    "permitted_use": "Quantify whether 2023 aligns with the phase-specific signal shared by 2022 and 2024, separately for participation, quantity and statistical unit value."
+  },
+  "prohibited_interpretation": "No claim of real persistent seasonality may be made from 2022 alone or from a pooled retrospective fit."
+}
