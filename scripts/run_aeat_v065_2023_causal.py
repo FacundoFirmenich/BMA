@@ -128,7 +128,13 @@ def run(source_2022: Path, output: Path) -> None:
             last = state.history[cell["cell_id"]][-1]
             frozen.append({"cell_id": cell["cell_id"], "models": predictions, "weights": {key: value.probabilities() for key, value in weights.items()}, "persistence": {"weight_kg": base.row_value(last, "weight_kg"), "statistical_unit_value_eur_per_kg": base.row_value(last, "statistical_unit_value_eur_per_kg")}})
         freeze = {"schema_version": SCHEMA, "transition": f"{training}->{target}", "knowledge_cut": training, "target_prediction_unit": target, "block_contract": "EXACTLY_ONE_MONTH_TO_EXACTLY_ONE_MONTH", "regime": regime, "predictions": frozen, "status": "FROZEN_BEFORE_TARGET_ARCHIVE_OPENED_IN_THIS_REPLAY", "seasonal_training": "2022 adjudicated M0 innovations only"}
-        freeze_hash = gzip_new(output / "freezes" / f"freeze_{target}.json.gz", freeze)
+        freeze_path = output / "freezes" / f"freeze_{target}.json.gz"
+        if freeze_path.exists():
+            if read_gzip(freeze_path) != freeze:
+                raise base.GateFailure("existing freeze differs from reconstructed prior")
+            freeze_hash = sha256_file(freeze_path)
+        else:
+            freeze_hash = gzip_new(freeze_path, freeze)
         sequence.append({"event": "FREEZE_WRITTEN", "target_period": target, "training_period": training, "sha256": freeze_hash})
         outcome = v064.fetch_month(YEAR, month)
         if outcome.get("period") != target:

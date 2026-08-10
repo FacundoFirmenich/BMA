@@ -67,7 +67,12 @@ def archive_urls(year: int, month: int) -> tuple[str, ...]:
         f"{LEGACY_BASE_URL}/{year}/{month_name.capitalize()}/"
         f"cg{year % 100:02d}{month_code}74.zip"
     )
-    return tuple(dict.fromkeys((primary, alternate)))
+    # In 2023 AEAT serves the CN64--74 block (which contains Chapter 72)
+    # from the current hierarchy, while older legacy links may return 404.
+    current_hierarchy = (
+        f"{BASE_URL}/{year}/{month_name}/cg{year % 100:02d}{month_code}74.zip"
+    )
+    return tuple(dict.fromkeys((primary, alternate, current_hierarchy)))
 
 
 def _integer(raw: bytes, label: str) -> int:
