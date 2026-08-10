@@ -7,6 +7,12 @@ Estado: `FROZEN_SUCCESSION_CONTRACT`
 Repositorio: `https://github.com/FacundoFirmenich/BMA`
 Rama de continuidad: `agent/bma-v065-terra-succession`
 
+Estado GitHub al cierre: `LOCAL_READY_AUTHENTICATION_BLOCKED`. La rama local
+termina en el commit que contiene este documento. El push de la rama nueva no
+transfirió bytes porque GitHub CLI invalidó su token. No fusionar ni forzar la
+rama remota histórica `agent/bma-v061-aeat-industrial-holdout`; reautenticar
+`gh`, empujar esta rama y abrir PR draft contra `main`.
+
 ## 1. Misión y configuración
 
 Terra hereda el proyecto como investigador e ingeniero con criterio, no como

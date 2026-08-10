@@ -26,3 +26,9 @@ validación comercial ni acceso a datos de Venture Client. El bloqueo mensual es
 implementar y congelar M0/M1/M2; el bloqueo diario es demostrar el contrato real
 de TBAuctions/ATLAS con una muestra mínima. Esas son las dos próximas acciones
 críticas del heredero Terra.
+
+La publicación GitHub quedó preparada pero no completada: la rama remota antigua
+diverge y fue preservada; la rama sucesora local evita contaminarla. El segundo
+push falló antes de transferir porque el token de GitHub CLI quedó inválido. La
+única intervención pendiente es reautenticar `gh`, empujar
+`agent/bma-v065-terra-succession` y abrir un PR draft contra `main`.

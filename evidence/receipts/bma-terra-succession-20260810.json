@@ -12,7 +12,7 @@
   "artifacts": [
     {
       "path": "docs/BMA_TERRA_SUCCESSION_20260810_ES.md",
-      "sha256": "b9192311d61a05141f49969b4eff8ff8e5ec8a3a89952de6020b0eb10154c402"
+      "sha256": "82ff88e368cf38429aff67d815ead128fdf0de09cc493eeddd28e45efcf4c734"
     },
     {
       "path": "preregistrations/AEAT_CH72_SEASONAL_2022_2024_V0_6_5.json",
@@ -28,7 +28,7 @@
     },
     {
       "path": "outputs/BMA_SUCCESSION_CLOSURE_20260810_ES.md",
-      "sha256": "f3150b39af8a3951094687fb4c18a4d55fa95777f1b6773d58d412543258ad69"
+      "sha256": "b905eaabbd2bee3ab490efa5df1de98053509fe10e2f9c1ec5206acc9a058612"
     }
   ],
   "validation": {
@@ -53,6 +53,15 @@
     "new_succession_artifacts": "authorized for publication",
     "invalid_v0_6_2_payloads": "EXCLUDED_AND_GITIGNORED",
     "invalid_v0_6_2_marker": "TRACKED_AND_PRESERVED"
+  },
+  "github_publication": {
+    "status": "LOCAL_READY_AUTHENTICATION_BLOCKED",
+    "first_push": "REJECTED_NON_FAST_FORWARD_NO_REMOTE_CHANGE",
+    "resolution": "Created a new non-destructive successor branch instead of merging or overwriting the divergent historical v0.6.1 branch.",
+    "successor_branch": "agent/bma-v065-terra-succession",
+    "second_push": "FAILED_BEFORE_TRANSFER_SEC_E_NO_CREDENTIALS",
+    "gh_auth_status": "TOKEN_INVALID",
+    "required_action": "gh auth login -h github.com -p https -w; then push successor branch and open a draft PR against main"
   },
   "scientific_position_changed_by_handoff": false,
   "next_action": "Successor implements M0/M1/M2 without opening 2022/2023 and in parallel revalidates the minimal TBAuctions/ATLAS source gate."
