@@ -1,0 +1,17 @@
+{
+  "schema_version": "bma.aeat.chapter72.monthly-seasonal.runtime-amendment.v0.6.5",
+  "frozen_at": "2026-08-11",
+  "status": "FROZEN_BEFORE_2023_OUTCOME_OPENING",
+  "scope": "Causal continuation 2022-12 -> 2023-01 through 2023-11 -> 2023-12.",
+  "preserves": ["one-month-to-one-month prediction", "no year-boundary reset", "M0/M1/M2 separate", "post-outcome-only seasonal update", "separate prequential weights", "raw archive RAM-only"],
+  "runtime_correction": {
+    "problem": "The frozen core centered every previously seen hierarchy node after each cell, which is quadratic at AEAT scale.",
+    "correction": "Center only the five nodes changed by the current innovation; unaffected nodes were already centered.",
+    "claim": "Algebraically equivalent zero-sum invariant for the modified nodes; no target outcome is used to construct its freeze."
+  },
+  "source_hashes_sha256": {
+    "runtime_seasonal_state": "473cc22421ca30223a3c3a0bc6538aef399794fb7df4c8b8a9bfd8a8ba637db9",
+    "causal_2023_runner": "537bca7d68bdbc99c4a86e0a42f076f5570322752f2492eadb3c3054a2d99daf"
+  },
+  "boundary": "Retrospective development only. Local variable-specific results remain separate; no global winner, promotion, daily claim, or prospective claim."
+}
