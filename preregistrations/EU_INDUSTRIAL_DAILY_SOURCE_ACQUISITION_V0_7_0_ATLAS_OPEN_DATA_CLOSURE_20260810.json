@@ -1,0 +1,26 @@
+{
+  "schema_version": "bma.source_acquisition.adjudication.v0.7.0",
+  "amends_without_rewriting": "EU_INDUSTRIAL_DAILY_SOURCE_ACQUISITION_V0_7_0.json",
+  "adjudicated_at": "2026-08-10",
+  "candidate": "TBAuctions/ATLAS",
+  "decision": "REJECTED_FOR_OPEN_DATA_BMA_CAMPAIGN",
+  "reason": "ATLAS requires a developer account obtained through TBAuctions sales/API Support, and documented requests are scoped by company and/or buyer. Public documentation does not establish a reusable open historical event feed or a licence for BMA modelling.",
+  "what_this_does_not_claim": [
+    "that TBAuctions has no industrial market data",
+    "that a future explicit data partnership cannot support a distinct campaign",
+    "that a login alone is evidence access or modelling permission"
+  ],
+  "operational_consequence": {
+    "atlas_account_creation": "NOT_PURSUED",
+    "atlas_sample_request": "NOT_PURSUED",
+    "atlas_data_download": "PROHIBITED",
+    "atlas_model_training": "PROHIBITED",
+    "active_open_data_source": "NONE_IDENTIFIED"
+  },
+  "next_source_rule": "Evaluate a new candidate only if its public data contract, reproducible access and modelling/reuse licence can be verified before any modelling work.",
+  "claim_boundary": {
+    "industrial_validation": false,
+    "BIND_pilot_ready": false,
+    "global_winner": null
+  }
+}
