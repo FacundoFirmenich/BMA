@@ -44,11 +44,22 @@ def audit(root: Path) -> dict[str, Any]:
         failures.append("SEQUENCE_LENGTH_FAIL")
     if result["sequence"] != sequence:
         failures.append("RESULT_SEQUENCE_DIVERGENCE")
+    transition_years = {
+        str(row["target_period"]).split("-", 1)[0]
+        for row in result["transitions"]
+    }
+    if len(transition_years) != 1:
+        failures.append("MIXED_OR_MISSING_TARGET_YEAR")
+        run_year = None
+    else:
+        run_year = transition_years.pop()
     for target_month in range(2, 13):
+        if run_year is None:
+            break
         offset = 1 + (target_month - 2) * 3
         events = sequence[offset : offset + 3]
-        target = f"2024-{target_month:02d}"
-        training = f"2024-{target_month - 1:02d}"
+        target = f"{run_year}-{target_month:02d}"
+        training = f"{run_year}-{target_month - 1:02d}"
         if [item["event"] for item in events] != [
             "FREEZE_WRITTEN",
             "TARGET_MONTH_OPENED_AND_STRUCTURED",
@@ -78,7 +89,7 @@ def audit(root: Path) -> dict[str, Any]:
         if z_post["adjudication_sha256"] != sha256_file(adjudication_path):
             failures.append(f"Z_POST_ADJUDICATION_HASH_FAIL:{target}")
         if target_month >= 3:
-            previous = f"2024-{target_month - 1:02d}"
+            previous = f"{run_year}-{target_month - 1:02d}"
             previous_regime = "ORDINARY"
             previous_path = root / "priors" / f"prior_after_{previous}_{previous_regime}.json.gz"
             previous_posterior = read_gzip(previous_path)
