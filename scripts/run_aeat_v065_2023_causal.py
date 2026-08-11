@@ -100,7 +100,14 @@ def adjusted_distribution(distribution: dict[str, float], variable: str, delta: 
 
 def run(source_2022: Path, output: Path) -> None:
     if output.exists() and any(output.iterdir()):
-        raise base.GateFailure("2023 output must be empty for immutable execution")
+        allowed = {"freezes/freeze_2023-01.json.gz"}
+        present = {
+            path.relative_to(output).as_posix()
+            for path in output.rglob("*")
+            if path.is_file()
+        }
+        if present != allowed:
+            raise base.GateFailure("2023 recovery permits only the sealed January freeze before first outcome")
     state, participation, control, names, scales, seasons = seed_from_2022(source_2022)
     weights = {key: seasonal.PrequentialWeights() for key in ("participation", "quantity", "unit_value")}
     sequence: list[dict[str, Any]] = []
