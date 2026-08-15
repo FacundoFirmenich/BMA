@@ -1,0 +1,41 @@
+{
+  "schema_version": "bma.audit.aeat.chapter72.monthly-seasonal.causal-mini-2024.v0.6.5",
+  "status": "PASS",
+  "failures": [],
+  "checked_manifest_files": 47,
+  "run_files_including_manifest": 48,
+  "run_bytes": 76444178,
+  "counts": {
+    "freezes": 9,
+    "structured_months": 9,
+    "adjudications": 9,
+    "priors": 9,
+    "z_post": 9,
+    "sequence_events": 27
+  },
+  "hashes": {
+    "run_manifest_sha256": "d365286045a699def2eb0c7c9252a09ea33cd7b4360ba8553efcc53829e97bd4",
+    "run_result_sha256": "c9333437b63321a2f2fbc3f0b2dcb5b6c171584b2c32a4510e3fd9abff603f2a",
+    "source_2023_manifest_sha256": "69bbdfaa8da5ff4d5996663b31b1494125679f48b6df0234e825829689ed4c9f",
+    "source_2024_baseline_manifest_sha256": "5e7b8a31ee945e80374367789778adc36b3c060ee04c28d7245ec0dfc8b26498"
+  },
+  "chronology": "PASS_FREEZE_THEN_OPEN_THEN_ADJUDICATE_AND_Z_POST_FOR_EACH_MONTH",
+  "local_adjudications": {
+    "participation_M1_vs_M0": {
+      "2024-06": {"M0": 0.1147516745736794, "M1": 0.1147505191585159, "delta": -0.0000011554151634896037, "local_win": true},
+      "2024-07": {"M0": 0.11273350978771367, "M1": 0.11242360973606454, "delta": -0.00030990005164913126, "local_win": true},
+      "2024-08": {"M0": 0.12062698111593101, "M1": 0.1200840346378319, "delta": -0.0005429464780991045, "local_win": true},
+      "2024-09": {"M0": 0.11003187442338261, "M1": 0.1099213286297137, "delta": -0.00011054579366891193, "local_win": true}
+    },
+    "unit_value_2024_03_M1_vs_M0": {"M0": 0.4787864828538497, "M1": 0.47119678890734207, "delta": -0.0075896939465076585, "local_win": true},
+    "quantity_2024_09_M2_vs_M0": {"M0": 1.373371038935128, "M2": 1.2996122131416223, "delta": -0.07375882579350557, "local_win": true}
+  },
+  "active_campaign_processes_after_audit": 0,
+  "claim_boundary": {
+    "retrospective": true,
+    "blind": false,
+    "prospective_validation": false,
+    "promotion": "PROHIBITED",
+    "global_winner": null
+  }
+}

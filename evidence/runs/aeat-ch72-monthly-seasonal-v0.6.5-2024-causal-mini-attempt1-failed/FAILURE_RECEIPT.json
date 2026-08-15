@@ -1,0 +1,16 @@
+{
+  "schema_version": "bma.execution.failure-receipt.v1",
+  "campaign": "aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-mini-jan-sep",
+  "attempt": 1,
+  "runtime_session_id": 4522,
+  "process_id": 11684,
+  "exit_code": 1,
+  "terminal_state": "FAILED_BEFORE_FIRST_2024_FREEZE_AND_BEFORE_FIRST_2024_TARGET_OPEN",
+  "error_type": "AttributeError",
+  "error": "bma.experiments.aeat_monthly_seasonal_v0_6_5_runtime has no attribute require_next_month",
+  "localization": "scripts/run_aeat_v065_2024_causal_mini.py called the chronology guard through the optimized runtime module, which does not re-export that frozen-core function",
+  "scientific_result": null,
+  "partial_target_artifacts": false,
+  "relaunch_permitted": true,
+  "repair_scope": "change only the chronology-guard reference to the frozen v0.6.5 core and rerun validation"
+}
