@@ -1,0 +1,65 @@
+{
+  "schema_version": "bma.preregistration.aeat.chapter72.seasonal-phase-selector.v0.6.6",
+  "status": "FROZEN_AFTER_2022_2024_DISCOVERY_BEFORE_ANY_UNUSED_VALIDATION_TARGET_OPENED",
+  "release_status": "CANDIDATE_NOT_PROMOTED",
+  "discovery_jurisdiction": {
+    "source": "AEAT chapter 72 monthly structured archive",
+    "years": [2022, 2023, 2024],
+    "evidence_class": "retrospective causal replay",
+    "may_be_reused_as_confirmatory_validation": false
+  },
+  "selector": {
+    "participation": {
+      "2025_or_later_months_06_07_08_09": "M1_ANNUAL_HARMONIC",
+      "2025_or_later_months_10_11": "M2_ANNUAL_HARMONIC_PLUS_HIERARCHICAL_RESIDUAL",
+      "all_other_ordinary_months": "M0_ORDINARY_CONTINUOUS_POSTERIOR"
+    },
+    "quantity": {
+      "2025_or_later_month_09": "M2_ANNUAL_HARMONIC_PLUS_HIERARCHICAL_RESIDUAL",
+      "all_other_ordinary_months": "M0_ORDINARY_CONTINUOUS_POSTERIOR"
+    },
+    "statistical_unit_value": {
+      "2025_or_later_month_03": "M1_ANNUAL_HARMONIC",
+      "all_other_ordinary_months": "M0_ORDINARY_CONTINUOUS_POSTERIOR"
+    },
+    "december": {
+      "prediction_model": "M0_ORDINARY_CONTINUOUS_POSTERIOR",
+      "primary_adjudication": "ABSTAIN_YEAR_END_UNCALIBRATED",
+      "posterior_update": "REQUIRED"
+    }
+  },
+  "causal_contract": {
+    "every_month_predicts": "exactly the next month",
+    "posterior_reset": false,
+    "z_post_reset": false,
+    "pooled_N_month_target": false,
+    "selector_frozen_before_target": true,
+    "weights": "selector is deterministic by variable and calendar phase; accumulated all-phase weights cannot override it"
+  },
+  "validation_jurisdiction": {
+    "status": "NOT_YET_OPENED_OR_ASSIGNED",
+    "eligible": "first untouched AEAT year from 2025 onward or another strictly untouched homogeneous jurisdiction",
+    "ineligible": ["AEAT chapter 72 2022", "AEAT chapter 72 2023", "AEAT chapter 72 2024"],
+    "missing_source_result": "NOT_ESTIMABLE"
+  },
+  "adjudication": {
+    "unit": "variable by target month and frozen support jurisdiction",
+    "participation_metric": "Brier",
+    "quantity_metric": "MALE",
+    "statistical_unit_value_metric": "MALE",
+    "reference": "M0 prediction frozen for the identical cells and target",
+    "aggregate_winner": null,
+    "december_primary_use": false
+  },
+  "semantic_boundary": {
+    "CN4": "administrative product grouping, not a unique physical product",
+    "summer_interpretation": "phase consistent with product or product-composition seasonality",
+    "autumn_interpretation": "hierarchical or compositional seasonal localization",
+    "price_claim": "statistical unit value is not a transaction, spot, or auction price"
+  },
+  "promotion_gate": {
+    "automatic_promotion": false,
+    "minimum": "local replication on untouched data with manifest PASS, no chronology violation, and no December substitution",
+    "industrial_external_validation": "still required separately"
+  }
+}

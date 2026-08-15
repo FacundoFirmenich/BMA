@@ -1,0 +1,42 @@
+{
+  "schema_version": "bma.preregistration.aeat.chapter72.seasonal-2024-causal-completion-oct-dec.v0.6.5",
+  "status": "FROZEN_BEFORE_OCTOBER_NOVEMBER_DECEMBER_TARGET_CONTENT_OPENED_BY_THIS_RUNNER",
+  "epistemic_class": "RETROSPECTIVE_CAUSAL_CONTINUATION_NOT_BLIND",
+  "governing_objective": "Complete the continuous 2022-12 through 2024-12 causal posterior chain without resets, while adjudicating October and November locally and preserving December as YEAR_END_UNCALIBRATED.",
+  "continuation_source": {
+    "run": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-mini-jan-sep",
+    "manifest_sha256": "d365286045a699def2eb0c7c9252a09ea33cd7b4360ba8553efcc53829e97bd4",
+    "september_adjudication_sha256": "f507329cffa933fa1109e2549def04c0a1b793deab00abd3fa1fb233b26e91fa",
+    "september_future_prior_sha256": "2058e4e44c81a1f8f6ef8e4c3098400bbf8e42ed44637bed5e3e08930125dab2"
+  },
+  "sealed_target_source": "evidence/runs/aeat-ch72-monthly-sequential-v0.6.4",
+  "output_run": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-completion-oct-dec",
+  "calendar_contract": {
+    "transitions": ["2024-09->2024-10", "2024-10->2024-11", "2024-11->2024-12"],
+    "prediction_unit": "EXACTLY_ONE_MONTH_TO_EXACTLY_ONE_NEXT_MONTH",
+    "posterior_reset": false,
+    "z_post_reset": false,
+    "pooling_many_months_into_one_target": false,
+    "december_regime": "YEAR_END_UNCALIBRATED"
+  },
+  "models": {
+    "M0": "ordinary continuously accumulated monthly posterior",
+    "M1": "M0 plus annual harmonic memory",
+    "M2": "M1 plus hierarchical monthly residual over administrative and cell levels"
+  },
+  "local_adjudications": {
+    "participation_october": "Brier M1 and M2 versus M0, separately",
+    "participation_november": "Brier M1 and M2 versus M0, separately",
+    "quantity_and_unit_value_october_november": "exploratory local comparisons without promotion",
+    "december": "record scores and update the future posterior, but abstain from primary scientific adjudication"
+  },
+  "claim_boundary": {
+    "promotion": "PROHIBITED",
+    "prospective_validation": false,
+    "industrial_validation": false,
+    "blindness": false,
+    "aggregate_winner": null
+  },
+  "target_access_rule": "For every target, write and hash its freeze before reading and verifying the corresponding sealed structured-month payload.",
+  "failure_rule": "Preserve exact failure receipts and partial artifacts; relaunch only after causal localization and under a new attempt identity."
+}
