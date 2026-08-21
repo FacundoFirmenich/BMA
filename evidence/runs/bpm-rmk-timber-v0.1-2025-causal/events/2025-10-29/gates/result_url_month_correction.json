@@ -1,0 +1,27 @@
+{
+  "schema_version": "bpm.rmk.result-url-correction.v0.1",
+  "event_date": "2025-10-29",
+  "recorded_before_any_result_body_access": true,
+  "inventory_path": "evidence/probes/rmk-url-inventory-v1/rmk_dated_payload_url_inventory.csv",
+  "inventory_sha256": "4AFC81D8ABCB639383F3BC3D4A3D4053B49CF5C94BB551E8232997BBE495996F",
+  "failed_candidate": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad-EP-29.10.2025.xlsx",
+    "transport_state": "HTTP_404_NO_PAYLOAD_CREATED",
+    "body_opened": false
+  },
+  "corrected_selected_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/11/Edukad-EP-29.10.2025.xlsx",
+    "inventory_role": "RESULT",
+    "filename_event_identity": "EP_29.10.2025",
+    "body_opened": false
+  },
+  "still_unopened_unpaired_candidate": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad_29.10.2025.xlsx",
+    "state": "QUARANTINED_UNOPENED_UNPAIRED_CANDIDATE",
+    "body_opened": false
+  },
+  "superseded_freeze_sha256": "3004466F1BDBD946DAB021FD2B9F6A62FA090864029B02E779EA6DD312194920",
+  "required_action": "Preserve the superseded freeze and regenerate v0.6 with identical inputs and predictions but the corrected selected-result URL before download.",
+  "global_winner_claim": false,
+  "automatic_promotion": false
+}

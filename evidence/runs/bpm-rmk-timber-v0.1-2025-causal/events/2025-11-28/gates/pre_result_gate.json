@@ -1,0 +1,31 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.2",
+  "event_date": "2025-11-28",
+  "state": "HAKKPUIT_FREEZE_HASHED_RESULT_BODY_CLOSED",
+  "raw_offer_sha256": "006D357F617CC7C2F2E8B86D51D63CDEF55104B9967CC83238E52DD1F7ABDCF2",
+  "structured_offer_sha256": "6C7CD6F9A8B230C2FCF9B691D900446CBA3B78D7F1BF4252A5B819C2A8ECA311",
+  "parent_prior_sha256": "74A0748B85D0F663F9E5766DA2214D44655DAAD58DB0A3CA20BA963C01AB5210",
+  "offer_extractor_sha256": "F94FBC845E176F9F0CA5C6A6A55388E30D85F0CFC2ED042FB4D133E8CA9750FB",
+  "freezer_sha256": "6CAE6389A61363768E2CA5C15450A1C5D0470A42F46694A16ACF314404C5EBDE",
+  "freeze_sha256": "ED1DFE3C5C23EED21D5991FCDF268DA0EBC8B52514A7BBAA420814DADC31CA8E",
+  "frozen_prediction_counts": {
+    "M0_local_destinations": 2,
+    "M1_price_estimable": 0,
+    "M1_volume_estimable": 0,
+    "M2_price_estimable": 0,
+    "M2_volume_estimable": 0
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_28.11.2025.xlsx",
+    "body_opened": false
+  },
+  "invariants": {
+    "hakkpuit_quality_fingerprint_continuity": true,
+    "offer_unit_conversions_frozen": true,
+    "same_event_batch_scoring": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

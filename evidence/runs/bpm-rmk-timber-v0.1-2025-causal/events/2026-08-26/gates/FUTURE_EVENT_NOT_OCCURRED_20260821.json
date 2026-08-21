@@ -1,0 +1,13 @@
+{
+  "schema_version": "bpm.rmk.future-event-hold.v0.1",
+  "event_date": "2026-08-26",
+  "protocol_date": "2026-08-21",
+  "state": "FUTURE_EVENT_NOT_OCCURRED_BODY_CLOSED",
+  "offer_url": "https://rmk.ee/wp-content/uploads/2026/08/Myygiobjektid_EP_26.08.2026.xlsx",
+  "offer_body_opened": false,
+  "result_body_opened": false,
+  "execution_authorized_before_event": false,
+  "posterior_update": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

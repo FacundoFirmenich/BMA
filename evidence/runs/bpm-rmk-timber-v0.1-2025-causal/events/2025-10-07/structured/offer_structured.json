@@ -1,0 +1,396 @@
+{
+  "schema_version": "bpm.rmk.offer-structured.v0.1",
+  "event_date": "2025-10-07",
+  "source_file": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-10-07\\raw\\Myygiobjektid_EP_07.10.2025.xlsx",
+  "source_sha256": "B380B4A0E95FEDCB285EC6644A0B5FDAD0C159DFC10317691E3C26066CB2436B",
+  "source_bytes": 23588,
+  "result_payload_opened": false,
+  "object_count": 14,
+  "advertised_volume_m3": 111499,
+  "all_location_totals_match": true,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapaberipuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.4; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2300,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 40
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 40,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.4; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 2300,
+      "location_sheet_total_m3": 2300,
+      "location_component_sum_m3": 2300,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 2,
+      "product": "Haavapaberipuit",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.4; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 56585,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 47
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 47,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.4; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 56585,
+      "location_sheet_total_m3": 56585,
+      "location_component_sum_m3": 56585,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 3,
+      "product": "Kasepaberipuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 931,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 55
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 55,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 931,
+      "location_sheet_total_m3": 931,
+      "location_component_sum_m3": 931,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepaberipuit",
+      "advertised_region": "Edela ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 24093,
+          "region": "Edela ja Kirde regioon",
+          "starting_price_eur_m3": 57
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 57,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 24093,
+      "location_sheet_total_m3": 24093,
+      "location_component_sum_m3": 24093,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 780,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 53
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 53,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 780,
+      "location_sheet_total_m3": 780,
+      "location_component_sum_m3": 780,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Edela regioon (Hiiumaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 611,
+          "region": "Edela regioon (Hiiumaa)",
+          "starting_price_eur_m3": 53
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 53,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 611,
+      "location_sheet_total_m3": 611,
+      "location_component_sum_m3": 611,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Edela ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 9498,
+          "region": "Edela ja Kirde regioon",
+          "starting_price_eur_m3": 55
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 55,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 9498,
+      "location_sheet_total_m3": 9498,
+      "location_component_sum_m3": 9498,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 8,
+      "product": "Männipaberipuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2507,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 53
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 53,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 2507,
+      "location_sheet_total_m3": 2507,
+      "location_component_sum_m3": 2507,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 9,
+      "product": "Männipaberipuit",
+      "advertised_region": "Edela regioon (Hiiumaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 500,
+          "region": "Edela regioon (Hiiumaa)",
+          "starting_price_eur_m3": 53
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 53,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 500,
+      "location_sheet_total_m3": 500,
+      "location_component_sum_m3": 500,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 10,
+      "product": "Küttepuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 1000,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 40
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 40,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 1000,
+      "location_sheet_total_m3": 1000,
+      "location_component_sum_m3": 1000,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 11,
+      "product": "Küttepuit",
+      "advertised_region": "Edela regioon (Hiiumaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 1500,
+          "region": "Edela regioon (Hiiumaa)",
+          "starting_price_eur_m3": 40
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 40,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 1500,
+      "location_sheet_total_m3": 1500,
+      "location_component_sum_m3": 1500,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 12,
+      "product": "Küttepuit",
+      "advertised_region": "Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 9994,
+          "region": "Kirde regioon",
+          "starting_price_eur_m3": 43
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 43,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 9994,
+      "location_sheet_total_m3": 9994,
+      "location_component_sum_m3": 9994,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 13,
+      "product": "Okaspuuküttepuit",
+      "advertised_region": "Edela regioon (Saaremaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 1000,
+          "region": "Edela regioon (Saaremaa)",
+          "starting_price_eur_m3": 40
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 40,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 1000,
+      "location_sheet_total_m3": 1000,
+      "location_component_sum_m3": 1000,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 14,
+      "product": "Okaspuuküttepuit",
+      "advertised_region": "Edela regioon (Hiiumaa)",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m",
+      "delivery_period": "13.10.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 200,
+          "region": "Edela regioon (Hiiumaa)",
+          "starting_price_eur_m3": 40
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "4-100",
+          "starting_price_eur_m3": 40,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 200,
+      "location_sheet_total_m3": 200,
+      "location_component_sum_m3": 200,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    }
+  ],
+  "notes": [
+    "*) Diameetrivahemikud on jagamatud ja eraldi sorteerimisele ei kuulu.",
+    "**) Minimaalne vastuvõetav ostusoov müügiobjekti kohta on 60 m3. Ostja võtab teadmiseks, et metsamaterjal müüakse FSC ja/või PEFC sertifitseerituna ning müügiobjekt on tervik ja serdi alusel eraldi müümisele ei kuulu. Pakkuja pakkumus loetakse vaikimisi esitatuks FSC ja/või PEFC serditud metsamaterjalile. FOB tarnetingimusel pakkumuse esitamisel lisada ostusoovile info minimaalsest kogusest, millest väiksema eduka koguse korral pakkuja loobub pakkumusest.",
+    "***) Paberipuidu praagi hind on 20,00 EUR/m3."
+  ]
+}

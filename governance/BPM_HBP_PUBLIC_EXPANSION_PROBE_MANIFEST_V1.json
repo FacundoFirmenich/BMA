@@ -1,0 +1,19 @@
+{
+  "manifest_id": "BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1",
+  "date": "2026-08-21",
+  "preregistration": "preregistrations/BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1.json",
+  "schema_only": true,
+  "model_fit_authority": false,
+  "payloads": [
+    {"path": "evidence/probes/public-expansion-v1/rmk_offer_2026-06-30.xlsx", "bytes": 24225, "sha256": "012E4C348E86E05D6DB976020F6994838AB8C5AE920E7938062B1FF4A34C839F"},
+    {"path": "evidence/probes/public-expansion-v1/rmk_winners_2026-06-30.xlsx", "bytes": 23457, "sha256": "25999EF3777C9FE57FFE227D297E65EF6E4A199775A7D70FBBEE78A99C26E93C"},
+    {"path": "evidence/probes/public-expansion-v1/puertos_es_2026-06.xlsx", "bytes": 1227828, "sha256": "C4BDD4500A67A7A3CD3A17BDFD6131D206F468A7E99BE1584BA7A217EC39A28F"},
+    {"path": "evidence/probes/public-expansion-v1/eurostat_sts_es_c_2025_2026.json", "bytes": 4075, "sha256": "6EAAFC04D04F261B300E65EEB5B634CA3C6914A42487FB3CFAEF8206C90B6AA0", "state": "FAILED_INVALID_INDICATOR_CODE_PRESERVED"},
+    {"path": "evidence/probes/public-expansion-v1/eurostat_sts_es_c_2025_2026_retry_no_indic_filter.json", "bytes": 4450, "sha256": "03DB6304392897BE0DD2F91A12EEC1CCD70874069FD23E3DBB17B390EA0A7331", "state": "PASS_CODE_DISCOVERY_PRD"},
+    {"path": "evidence/probes/public-expansion-v1/comtrade_es_hs44_2025-06_preview.json", "bytes": 17912, "sha256": "CE07DD3613B99E52379F09F3085651C02A8D188FBDF981998E27D48BD4E9F7A3", "state": "FAIL_QUARANTINED"},
+    {"path": "evidence/probes/public-expansion-v1/ted_can_standard_cpv44_limit10.json", "bytes": 46525, "sha256": "C1A75475D2C6D6617475A770AEE2B2F11A6013687803996E1C5ADD850A75DBA3", "state": "PASS_EVENT_FIELDS_FAIL_QUANTITY"}
+  ],
+  "spreadsheet_reader_note": "The read-only importer exposed formula errors in some calculated summary sheets of the Puertos workbook; published value sheets remain usable. No workbook bytes were modified and no imported formula result has model authority.",
+  "global_winner": null,
+  "automatic_promotion": false
+}

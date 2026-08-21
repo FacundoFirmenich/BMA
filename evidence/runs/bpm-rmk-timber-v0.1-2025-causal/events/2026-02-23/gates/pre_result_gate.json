@@ -1,0 +1,30 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.2",
+  "event_date": "2026-02-23",
+  "state": "FREEZE_HASHED_RESULT_BODY_CLOSED",
+  "raw_offer_sha256": "CFC761EC69AB86C53396BEDB9B866522292AAA8A4195F8E1C02F4AE9F1903EC8",
+  "structured_offer_sha256": "E549640EEEAC0DA97DEEC77FED435E07A8B11FCF786E62CF680D877340C3C5B6",
+  "parent_prior_sha256": "9F5320BF063A82A40FE4E32B9D364DF4629BA89F78E5EAC12CA2E198B40F1F43",
+  "source_conflict_gate_sha256": "3A4A0BD7E8D10C9719AE2900C8DACC66A8BF2E54ED3B30EF825A4AB230EF2DAA",
+  "unweighted_multiclass_price_policy_sha256": "D9E16C42EAB8F34BA12E0EFAB8C073AAE5BF5E480F41352F8F9C96B5A5CB20B2",
+  "freeze_sha256": "495DF9F4CA50BB5E32D7E9763CA21E04E84CAF5378F4908AFFB7680691FF8CCD",
+  "frozen_prediction_counts": {
+    "M0": 238,
+    "M1_price": 38,
+    "M1_volume": 38,
+    "M2_price": 0,
+    "M2_volume": 0
+  },
+  "not_estimable_source_objects": [1],
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/03/Edukad_EP__23.02.2026-.xlsx",
+    "body_opened": false
+  },
+  "invariants": {
+    "same_event_batch_scoring": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

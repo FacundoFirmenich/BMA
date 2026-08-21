@@ -1,0 +1,18 @@
+{
+  "schema_version": "bpm.rmk.post-result-pre-scoring-repair.v0.2",
+  "event_date": "2025-12-05",
+  "causal_position": "RESULT_OPENED_NO_SCORING_OR_POSTERIOR_UPDATE_WRITTEN",
+  "observed_encoding": "Object 2 class-price strings contain a trailing slash, for example 62/105/.",
+  "repair": "Split on slash, trim segments, discard only empty segments, then require component count to equal the offer-frozen weight count.",
+  "offer_weights_sha256": "1AA3568D71C3C97A61A74F107A7A9CEBFCBF3D9A86D291F3390BDC528C7F6E2C",
+  "extractor_v0_5_sha256": "16BF1D69C4D37EBFBC3ED7B4893C8962C6B6E6F1BD7F3E7D1E0458B3C02030BB",
+  "invariants": {
+    "empty_segment_interpreted_as_zero": false,
+    "weights_derived_from_result": false,
+    "raw_price_preserved": true,
+    "result_scored_before_repair": false,
+    "posterior_updated_before_repair": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

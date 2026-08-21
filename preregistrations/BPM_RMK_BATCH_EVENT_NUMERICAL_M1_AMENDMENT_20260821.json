@@ -1,0 +1,56 @@
+{
+  "schema_version": "bpm.rmk.causal-software-amendment.v0.2",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "status": "FROZEN_AFTER_2025-10-07_CLOSURE_BEFORE_NEXT_OFFER_BODY_OPENING",
+  "frozen_at": "2026-08-21",
+  "parent_posterior_sha256": "F1BB121A530C7371E6B6CF2F6E9D8454E5E806FF323F6F4364C17C25F4DD8531",
+  "parent_z_post_sha256": "25E8F990CEB5D144AC814CD0D19843978BB8152EC2796859BD89A0EA9C72786E",
+  "parent_audit_sha256": "CF735E89CEC11EBE5F17B2CF974F457FBEE226EE780C2CB31C67703A23FAA365",
+  "frozen_source_hashes_sha256": {
+    "model_core_v0_1": "C2B8F79EAC4FD48B7AB0144751DC417B753E7D6DA63D0DAC4802F43206A58D18",
+    "numerical_freezer_v0_5": "E3618C6F1A7DD919B1698E1D16120B98373A020F34F8CDD69CD427FE0E358241",
+    "batched_closer_v0_2": "710E6C0F7E8BB40BAC929007FD51A132C6B35C39DE33410B13B1622F431CBE01",
+    "batch_m1_tests_v0_2": "B7667CAB6F3D65EB18F219274D25ABEEC0B7A510FCDA83711046E6F7ED34633B"
+  },
+  "activation": {
+    "active_from": "NEXT_UNOPENED_OFFER_AFTER_2025-10-07",
+    "reason": "Two exact cells first reached three positive prior observations only after the sealed 2025-10-07 result. M1 must therefore be numerical for the next comparable target, never retroactively."
+  },
+  "numerical_freeze": {
+    "M0": "Freeze the last positive local observation and any preregistered transition density support.",
+    "M1": "Use the model-core Jeffreys-reference Student-t predictive on prior local log outcomes; freeze point, log location, log scale and degrees of freedom before the result.",
+    "M2": "Retain the exact phase and preregistered convolution, with the additional requirement of at least two prior distinct event dates carrying same-phase M1 innovations.",
+    "BMA": "Remain NOT_ESTIMABLE until M0, M1 and M2 densities share support on the same frozen target."
+  },
+  "same_event_batch_rule": {
+    "one_prior": "Every outcome in one auction event is scored against the same sealed pre-event prior.",
+    "no_within_event_prediction": true,
+    "posterior_update": "After all scoring, append all valid exact-cell outcomes as one event batch. Multiple objects may remain multiple target observations; they are never averaged into one synthetic target.",
+    "M1_innovations": "When pre-event M1 is estimable, every same-event outcome innovation is computed against that same pre-event M1 location.",
+    "M2_distinct_event_gate": "Multiple innovations from one event date count as one event toward seasonal support."
+  },
+  "scoring": {
+    "M0_point": "absolute price error and volume MALE",
+    "M1_point": "absolute price error and volume MALE when frozen",
+    "M1_density": "Student-t log density on log outcome minus log actual outcome Jacobian",
+    "comparison": "local target only; ties preserved",
+    "diagnostic_aggregate_only": true,
+    "global_winner": null
+  },
+  "prohibitions": [
+    "no retrospective rescore",
+    "no within-event causal ordering",
+    "no N-to-1 target pooling",
+    "no cross-product pooling",
+    "no cross-location pooling",
+    "no global winner",
+    "no automatic promotion"
+  ],
+  "verification": {
+    "legacy_model_tests_passed": 7,
+    "batch_and_M1_tests_passed": 6,
+    "previous_freeze_identity_equivalence_object_differences": [],
+    "previous_freeze_prediction_count_old": 50,
+    "previous_freeze_prediction_count_new": 50
+  }
+}

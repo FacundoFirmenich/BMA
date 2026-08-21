@@ -1,0 +1,2438 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.5",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-10-29",
+  "state": "FREEZE_WRITTEN_PAIRED_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "2BE85C38B126DC1A595C473C5310195D59961EB9B5888921501775A76E409F8B",
+    "structured_offer": "3117929C51B3666A0710A7C123EC51F5F0D20025204A4E6C0080E9A90FE934BD",
+    "prior": "F81BD644051BB61F1E7E16B1E0C8A190783E6BF1897D6E79C226D2EDC7BB55AB"
+  },
+  "software_amendment_sha256": "EC903785CDA4911AE3F712200869B07783EECCDA4A76A3449F6EDB82DCF260FD",
+  "object_count": 17,
+  "invalid_delivery_period_objects": [],
+  "source_volume_conflict_objects": [
+    6
+  ],
+  "objects_with_prior_base_cell_match": 9,
+  "frozen_destination_predictions": 52,
+  "M1_price_estimable_predictions": 0,
+  "M1_volume_estimable_predictions": 0,
+  "M2_price_estimable_predictions": 0,
+  "M2_volume_estimable_predictions": 0,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "4A3F32022A53ECB8151A0C509054C3C73668E5E216C0B651204B84EC9A2D3AFC",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepeenpalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "1D7347F2CD1B914187E85893FEE72A9177F22199BE5887E61CED30E0984F8E63",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 3,
+      "product": "Kasepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "240E80BCF63D62CC942ED5642A6A42E4C9C38CA123BA20473EE5D9D5D44FC318",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "E29B03061ED900A4AF195CAF7D9280BB015FF411C3E96B1E4B9EEF40E1CBBE11",
+      "prior_matching_destinations": [
+        "Kohila",
+        "Otepää"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Kohila",
+          "price": {
+            "M0": {
+              "point": 220.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 61.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Otepää",
+          "price": {
+            "M0": {
+              "point": 250.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 3400.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 5,
+      "product": "Sanglepapalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "04989775112E80D8C949625747700D0D29D1F5C1F15A91F1FF6F63A53BA046E3",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "SOURCE_STATED_TOTAL_DISAGREEMENT",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 7,
+      "product": "Männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "prior_matching_destinations": [
+        "Aegviidu",
+        "Jõgeva",
+        "Vana-Võidu",
+        "Varese",
+        "Vasta"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 80.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 182.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Jõgeva",
+          "price": {
+            "M0": {
+              "point": 90.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 28.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vana-Võidu",
+          "price": {
+            "M0": {
+              "point": 80.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 472.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Varese",
+          "price": {
+            "M0": {
+              "point": 73.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 200.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vasta",
+          "price": {
+            "M0": {
+              "point": 80.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 211.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 8,
+      "product": "Männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "prior_matching_destinations": [
+        "Aegviidu",
+        "Imavere",
+        "Jõgeva",
+        "Vana-Võidu",
+        "Vara",
+        "Varese",
+        "Vasta",
+        "Vastseliina"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 115.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 697.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 120.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 7459.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Jõgeva",
+          "price": {
+            "M0": {
+              "point": 122.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 200.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vana-Võidu",
+          "price": {
+            "M0": {
+              "point": 115.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2143.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vara",
+          "price": {
+            "M0": {
+              "point": 108.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 24.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Varese",
+          "price": {
+            "M0": {
+              "point": 110.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1280.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vasta",
+          "price": {
+            "M0": {
+              "point": 115.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 731.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vastseliina",
+          "price": {
+            "M0": {
+              "point": 110.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 300.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 9,
+      "product": "Männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "prior_matching_destinations": [
+        "Adraku",
+        "Aegviidu",
+        "Ansi",
+        "Imavere",
+        "Jõgeva",
+        "Marana",
+        "Vasta",
+        "Verijärve"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Adraku",
+          "price": {
+            "M0": {
+              "point": 123.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 652.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 123.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 105.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Ansi",
+          "price": {
+            "M0": {
+              "point": 105.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 66.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 130.1,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2681.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Jõgeva",
+          "price": {
+            "M0": {
+              "point": 134.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 200.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Marana",
+          "price": {
+            "M0": {
+              "point": 124.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 321.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vasta",
+          "price": {
+            "M0": {
+              "point": 123.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 838.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Verijärve",
+          "price": {
+            "M0": {
+              "point": 134.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 3565.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 10,
+      "product": "Männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "prior_matching_destinations": [
+        "Adraku",
+        "Aegviidu",
+        "Ansi",
+        "Imavere",
+        "Karilatsi",
+        "Karksi-Nuia",
+        "Kuressaare",
+        "Marana",
+        "Verijärve"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Adraku",
+          "price": {
+            "M0": {
+              "point": 125.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1035.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 125.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 491.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Ansi",
+          "price": {
+            "M0": {
+              "point": 106.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 43.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 128.1,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 916.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Karilatsi",
+          "price": {
+            "M0": {
+              "point": 130.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 60.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Karksi-Nuia",
+          "price": {
+            "M0": {
+              "point": 126.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 25.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Kuressaare",
+          "price": {
+            "M0": {
+              "point": 106.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 241.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Marana",
+          "price": {
+            "M0": {
+              "point": 126.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 772.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Verijärve",
+          "price": {
+            "M0": {
+              "point": 135.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2826.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 11,
+      "product": "Kuusepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "prior_matching_destinations": [
+        "Aegviidu",
+        "Vana-Võidu",
+        "Vara",
+        "Varese",
+        "Vasta"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 96.44255744255744,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2002.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vana-Võidu",
+          "price": {
+            "M0": {
+              "point": 94.56361667569031,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1847.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vara",
+          "price": {
+            "M0": {
+              "point": 90.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 239.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Varese",
+          "price": {
+            "M0": {
+              "point": 107.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2000.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vasta",
+          "price": {
+            "M0": {
+              "point": 95.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1131.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 12,
+      "product": "Kuusepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "prior_matching_destinations": [
+        "Aegviidu",
+        "Imavere",
+        "Reopalu",
+        "Vara",
+        "Varese",
+        "Vasta"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Aegviidu",
+          "price": {
+            "M0": {
+              "point": 120.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 163.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 125.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 8542.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Reopalu",
+          "price": {
+            "M0": {
+              "point": 123.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 754.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vara",
+          "price": {
+            "M0": {
+              "point": 120.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 679.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Varese",
+          "price": {
+            "M0": {
+              "point": 119.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2461.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vasta",
+          "price": {
+            "M0": {
+              "point": 118.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 878.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 13,
+      "product": "Kuusepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "prior_matching_destinations": [
+        "Hänike",
+        "Imavere",
+        "Umbsaare",
+        "Vastseliina"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Hänike",
+          "price": {
+            "M0": {
+              "point": 126.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 531.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 135.1,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 4729.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Umbsaare",
+          "price": {
+            "M0": {
+              "point": 130.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 838.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vastseliina",
+          "price": {
+            "M0": {
+              "point": 124.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 162.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 14,
+      "product": "Kuusepalk",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "prior_matching_destinations": [
+        "Hänike",
+        "Imavere",
+        "Kalme",
+        "Umbsaare",
+        "Vastseliina"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Hänike",
+          "price": {
+            "M0": {
+              "point": 128.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1062.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Imavere",
+          "price": {
+            "M0": {
+              "point": 134.1,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 3419.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Kalme",
+          "price": {
+            "M0": {
+              "point": 127.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 144.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Umbsaare",
+          "price": {
+            "M0": {
+              "point": 130.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 662.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Vastseliina",
+          "price": {
+            "M0": {
+              "point": 125.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 109.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 15,
+      "product": "Küttepuit",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "C65A602A574E18F9B21D056070C28D73A47EAED98178DAE53D0E614FC14839AF",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 16,
+      "product": "Okaspuuküttepuit",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "31AFC946537EA2DA017D9A467E9C0A38EA361FBB90394C067C68AF11286561F3",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 17,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "delivery_period": "1.11.2025 - 31.12.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12",
+      "source_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "measurement_fingerprint_sha256": "0422B7FAD08651B31872E4BCEDED824F94D3F3C109E61AE2758924F2580071F4",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    }
+  ],
+  "paired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad-EP-29.10.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "bpm.rmk.preregistered-software-correction.v0.1",
+  "recorded_at": "2026-08-21",
+  "jurisdiction": "RMK structured-offer extraction from 2025-10-21 onward",
+  "causal_position": "RECORDED_AFTER_OFFER_ONLY_AND_BEFORE_FREEZE_OR_RESULT_ACCESS",
+  "trigger_event": "2025-10-21",
+  "observed_defect": "Blank worksheet cells after the final location row were coerced by Number(null) to zero and counted as duplicate location-volume rows for the last object.",
+  "adverse_artifact": {
+    "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-21/structured/offer_structured.json",
+    "sha256": "AEC185BABACD492687AF4D8404363889033E7325DA290B4D1AA23C1D1B706DBA",
+    "status": "SUPERSEDED_PRE_FREEZE_DO_NOT_USE"
+  },
+  "correction": "A location component is accumulated and fingerprinted only when the raw quantity cell is present and finite, the normalized location is non-empty, and quantity is strictly positive. Stated Kokku totals remain separately admissible when their raw quantity cell is present and finite.",
+  "extractor_after_sha256": "A87C5362EA7716B6995D542BC26E41509F61E4480479EE43C1C2DD6F2174B745",
+  "invariants": [
+    "No result payload was opened before this correction.",
+    "No freeze existed before this correction.",
+    "The raw offer bytes and SHA-256 remain unchanged.",
+    "Real repeated positive location-volume rows remain evidence-bearing duplicates.",
+    "No historical sealed event is rewritten."
+  ],
+  "global_winner_claim": false,
+  "automatic_promotion": false
+}

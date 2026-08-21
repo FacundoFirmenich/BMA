@@ -1,0 +1,15 @@
+{
+  "schema": "rmk-ordered-payload-queue/v2",
+  "generated_at": "2026-08-21T19:27:56.3632067+02:00",
+  "source_queue_sha256": "39900606492F495D6D492370B1BE1839D30A60C32FA75A3733B41E63E8714FFF",
+  "rows": 63,
+  "unique_urls": 63,
+  "date_role_conflicts": 0,
+  "head_metadata_conflicts": 0,
+  "bodies_opened": 0,
+  "pair_dates": 1,
+  "result_only_rows": 30,
+  "normalization_references": 6,
+  "schema_probe_excluded_rows": 2,
+  "queue_sha256": "BA88F7627008BE7F7562445A0A7134CC8EF50888641A53CFC971EF7AC841355B"
+}

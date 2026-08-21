@@ -1,0 +1,203 @@
+{
+  "schema_version": "bpm.rmk.local-scoring.v0.1",
+  "event_date": "2025-06-26",
+  "jurisdiction": "EXACT_PRODUCT_MEASUREMENT_FINGERPRINT_DESTINATION_ONLY",
+  "frozen_destination_predictions": 15,
+  "scored_exact_destination_predictions": 5,
+  "non_observed_or_unawarded_predictions": 10,
+  "local_scores": [
+    {
+      "object_id": 1,
+      "product": "Küttepuit",
+      "destination": "Ninase",
+      "phase": "M07-M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 40.0,
+        "actual_eur_m3": 43.0,
+        "absolute_error_eur_m3": 3.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 687.0,
+        "actual_m3": 789.0,
+        "absolute_log_error": 0.13843202862352477,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 2,
+      "product": "Okaspuuküttepuit",
+      "destination": "Ninase",
+      "phase": "M07-M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 40.0,
+        "actual_eur_m3": 43.0,
+        "absolute_error_eur_m3": 3.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 748.0,
+        "actual_m3": 181.0,
+        "absolute_log_error": 1.4189059467086516,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepaberipuit",
+      "destination": "Roomassaare",
+      "phase": "M07-M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 58.10000000000001,
+        "actual_eur_m3": 57.0,
+        "absolute_error_eur_m3": 1.1000000000000085,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 381.0,
+        "actual_m3": 2500.0,
+        "absolute_log_error": 1.8812466357295907,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "destination": "Roomassaare",
+      "phase": "M07-M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 57.0,
+        "actual_eur_m3": 55.0,
+        "absolute_error_eur_m3": 2.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 817.0,
+        "actual_m3": 1500.0,
+        "absolute_log_error": 0.6075812922302983,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "destination": "Roomassaare",
+      "phase": "M07-M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 57.0,
+        "actual_eur_m3": 56.20262054507337,
+        "absolute_error_eur_m3": 0.7973794549266273,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 4097.0,
+        "actual_m3": 3339.0,
+        "absolute_log_error": 0.20458363760321774,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    }
+  ],
+  "non_observed": [
+    {
+      "object_id": 3,
+      "product": "Haavapaberipuit",
+      "destination": "Kunda",
+      "state": "UNAWARDED_OBJECT_NO_POSITIVE_OUTCOME"
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepaberipuit",
+      "destination": "Pärnu",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "destination": "Kehra",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "destination": "Sillamäe",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "destination": "Kehra",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "destination": "Kunda",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    }
+  ],
+  "diagnostic_aggregate": {
+    "M0_price_mean_absolute_error_eur_m3": 1.9794758909853272,
+    "M0_price_median_absolute_error_eur_m3": 2.0,
+    "M0_volume_MALE": 0.8501499081790567,
+    "M0_volume_median_absolute_log_error": 0.6075812922302983,
+    "comparison_model": null,
+    "global_winner": null
+  },
+  "density_scores": "NOT_ESTIMABLE_NO_M0_DENSITY_AND_NO_COMMON_M0_M1_M2_SUPPORT",
+  "global_winner": null,
+  "automatic_promotion": false
+}

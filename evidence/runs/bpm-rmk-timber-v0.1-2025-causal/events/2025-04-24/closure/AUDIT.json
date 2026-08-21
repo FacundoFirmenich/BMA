@@ -1,0 +1,8 @@
+{
+  "schema_version": "bpm.rmk.event-audit.v0.1",
+  "event": "2025-04-24",
+  "status": "PASS",
+  "checks": 22,
+  "failures": [],
+  "manifest_sha256": "96F60D109B362E1665707EC9F82C5382C9A5491B7CE7D72F79DC3E6E8DB26796"
+}

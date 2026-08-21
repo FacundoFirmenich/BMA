@@ -1,0 +1,68 @@
+{
+  "preregistration_id": "BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1",
+  "frozen_at": "2026-08-21",
+  "purpose": "Reduce source uncertainty with bounded public probes before any campaign, bulk acquisition or model fitting.",
+  "prohibitions": [
+    "no account creation",
+    "no authentication or API key",
+    "no acceptance of terms",
+    "no payment",
+    "no contact with source owners",
+    "no VPS",
+    "no bulk or recursive historical download",
+    "no fitting and no scientific promotion from probe data"
+  ],
+  "global_acceptance_gates": {
+    "official_primary_source": true,
+    "public_read_without_account": true,
+    "first_release_or_revision_status_identifiable": true,
+    "target_and_temporal_unit_identifiable": true,
+    "local_support_or_missingness_measurable": true,
+    "raw_payload_hashable": true,
+    "gas_electricity_and_administered_price_targets_excluded": true
+  },
+  "probes": [
+    {
+      "source_id": "rmk-estonia-timber-auctions",
+      "maximum": "one offer XLSX plus its one winner XLSX from the same auction; each <=250000 bytes",
+      "required_fields": ["assortment_or_product", "quantity", "delivery_or_region", "price_or_result", "auction_date"],
+      "accept_if": "offer and result can be joined at lot or product-delivery stratum without inventing keys",
+      "reject_if": "winner file is only company names or lacks outcome price/quantity"
+    },
+    {
+      "source_id": "eurostat-sts-industrial-production",
+      "maximum": "one API response <=250000 bytes for one country, one NACE manufacturing target and <=24 months",
+      "required_fields": ["geo", "nace_r2", "indic_bt", "unit", "s_adj", "time", "value", "status"],
+      "accept_if": "manufacturing-only series and observation status are returned with stable dimension labels",
+      "reject_if": "query cannot exclude energy/gas or lacks time/status semantics"
+    },
+    {
+      "source_id": "puertos-es-monthly",
+      "maximum": "one latest monthly XLSX <=3000000 bytes; inspect metadata and at most two sheets",
+      "required_fields": ["reference_month", "port", "cargo_or_equipment_class", "physical_quantity"],
+      "accept_if": "port-local monthly physical quantities can be read without imputing totals",
+      "reject_if": "only national aggregates are machine-readable"
+    },
+    {
+      "source_id": "ted-eu-awards",
+      "maximum": "one anonymous Search API response with limit <=10 and fields-only projection",
+      "required_fields": ["publication_number", "publication_date", "notice_type", "cpv", "place", "award_value", "currency"],
+      "accept_if": "physical-supply award notices expose stable CPV/location/value fields; quantity completeness measured separately",
+      "reject_if": "authentication is demanded or values cannot be linked to a published award"
+    },
+    {
+      "source_id": "un-comtrade-monthly",
+      "maximum": "one public preview response <=500 records and <=250000 bytes for one reporter, month and physical HS code",
+      "required_fields": ["period", "reporter", "partner", "flow", "cmdCode", "quantity_or_net_weight", "trade_value", "publication_status"],
+      "accept_if": "no-auth preview exposes real non-synthetic rows and revision/status metadata",
+      "reject_if": "only modeled estimates are returned or final-vintage identity is unavailable"
+    }
+  ],
+  "authority": {
+    "probe_outputs": "SCHEMA_AND_SUPPORT_EVIDENCE_ONLY",
+    "campaign_authority": false,
+    "model_fit_authority": false,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  }
+}

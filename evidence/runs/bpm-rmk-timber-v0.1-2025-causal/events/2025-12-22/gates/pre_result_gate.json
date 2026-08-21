@@ -1,0 +1,37 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.2",
+  "event_date": "2025-12-22",
+  "state": "FREEZE_HASHED_RESULT_BODY_CLOSED",
+  "raw_offer_sha256": "541B7E4CA45A34183901C2FE19519A7A1207DC500506B19C9815E395AB534C42",
+  "structured_offer_sha256": "3EDAB2E900E638919BB6150C56D4C47B22457A190848A3E234CCF176350CCBD7",
+  "parent_prior_sha256": "A912B4457B88E08DFA8B9EE7EE9F8A55D70480D3EE8DEFC38148373EAA3282BA",
+  "freeze_sha256": "18C528F8D3031A33B5962D19D2DF8B54C5773B4A556D4701C11BD833D7A366D1",
+  "frozen_prediction_counts": {
+    "M0": 121,
+    "M1_price": 8,
+    "M1_volume": 8,
+    "M2_price": 0,
+    "M2_volume": 0
+  },
+  "frozen_M1_cells": [
+    {"object_id": 1, "product": "Haavapaberipuit", "destination": "Kunda"},
+    {"object_id": 2, "product": "Haavapaberipuit", "destination": "Kunda"},
+    {"object_id": 3, "product": "Kasepaberipuit", "destination": "Pärnu"},
+    {"object_id": 4, "product": "Kasepaberipuit", "destination": "Pärnu"},
+    {"object_id": 5, "product": "Kasepaberipuit", "destination": "Pärnu"},
+    {"object_id": 6, "product": "Kuusepaberipuit", "destination": "Paldiski"},
+    {"object_id": 7, "product": "Kuusepaberipuit", "destination": "Paldiski"},
+    {"object_id": 8, "product": "Kuusepaberipuit", "destination": "Paldiski"}
+  ],
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_22.12.2025.xlsx",
+    "body_opened": false
+  },
+  "invariants": {
+    "same_event_batch_scoring": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

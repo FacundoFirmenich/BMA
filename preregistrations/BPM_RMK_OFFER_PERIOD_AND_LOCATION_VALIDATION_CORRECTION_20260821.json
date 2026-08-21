@@ -1,0 +1,34 @@
+{
+  "schema_version": "bpm.rmk.software-correction.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "recorded_at": "2026-08-21",
+  "timing": "AFTER_2025-08-22_OFFER_OPEN_BEFORE_ANY_EVENT_FREEZE_OR_RESULT_OPEN",
+  "affected_event": "2025-08-22",
+  "source_offer_sha256": "809F526D46E89F7D9CC6BDA658D616E93DA8B1A119AB8E47D103308D0B5DEC72",
+  "structured_offer_sha256": "D04547FDF11BD82E6F4FC6CB1319179E50628B5CC0C9B34FBCE3A5C4997076CF",
+  "corrected_extractor_sha256": "FFCE69BB497CBD78C04486567C3EDD210B00273B508B152681AECD936E0DA897",
+  "corrected_freezer_sha256": "555A6386D56F40841D24BB780CB4FD27CD3A2E3FFD77131A791BE9FFA243F27C",
+  "frozen_rules": {
+    "delivery_period": "Parse each object period independently. End before start or start before event date is NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY; never repair a year by inference.",
+    "location_total_label": "The Estonian total label kokku is matched case-insensitively.",
+    "location_volume": "A stated total must match both the offer and the sum of component rows. Without a stated total, an exact component sum may verify the offer. Exact duplicate location-quantity rows create a source conflict.",
+    "prediction_effect": "Invalid delivery-period objects cannot emit predictions. A location-source conflict is preserved and blocks object-level coverage adjudication but does not alter product-standard identity."
+  },
+  "observed_offer_anomalies_before_result": {
+    "invalid_delivery_period_objects": [8, 9],
+    "duplicate_location_row_object": 2,
+    "object_2_component_sum_m3": 4340,
+    "object_2_stated_and_offered_m3": 4095,
+    "object_2_exact_duplicate_rows": [
+      {"location": "Aakre", "quantity_m3": 55, "count": 2},
+      {"location": "Aegviidu", "quantity_m3": 104, "count": 2},
+      {"location": "Aimla", "quantity_m3": 86, "count": 2}
+    ]
+  },
+  "result_payload_opened": false,
+  "posterior_changed": false,
+  "scores_changed": false,
+  "historical_outputs_rewritten": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

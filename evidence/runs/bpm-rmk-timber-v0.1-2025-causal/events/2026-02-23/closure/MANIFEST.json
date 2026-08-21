@@ -1,0 +1,91 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.11",
+  "event": "2026-02-23",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/gates/pre_offer_2026-02-23.json",
+      "bytes": 958,
+      "sha256": "CC22153A084CFBE007F4AEB8A4D8ED7A8C608A491A8120FFD9877D0242E4E913"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/raw/Muugiobjektid_EP_23.02.2026.xlsx",
+      "bytes": 52737,
+      "sha256": "CFC761EC69AB86C53396BEDB9B866522292AAA8A4195F8E1C02F4AE9F1903EC8"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/structured/offer_structured.json",
+      "bytes": 44607,
+      "sha256": "E549640EEEAC0DA97DEEC77FED435E07A8B11FCF786E62CF680D877340C3C5B6"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/gates/source_volume_conflict_object_1.json",
+      "bytes": 447,
+      "sha256": "3A4A0BD7E8D10C9719AE2900C8DACC66A8BF2E54ED3B30EF825A4AB230EF2DAA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/gates/unweighted_multiclass_price_policy.json",
+      "bytes": 664,
+      "sha256": "D9E16C42EAB8F34BA12E0EFAB8C073AAE5BF5E480F41352F8F9C96B5A5CB20B2"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/freeze/freeze.json",
+      "bytes": 348604,
+      "sha256": "495DF9F4CA50BB5E32D7E9763CA21E04E84CAF5378F4908AFFB7680691FF8CCD"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/gates/pre_result_gate.json",
+      "bytes": 1195,
+      "sha256": "19AE4EE7A192ED9E25B16C0A01777151044F560C0756E7021997B36FA5638124"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/raw/Edukad_EP__23.02.2026-.xlsx",
+      "bytes": 29359,
+      "sha256": "4A60D7FE3F652CABA516BC4A9ADCD0A4719FEF48F8C9BFC6962334EF7852D264"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/structured/result_v0_5_probe.json",
+      "bytes": 144432,
+      "sha256": "E5F07CA6C8E80C0753E955A2996F9880BA617F378F694A4298E324EDA6EFCF56"
+    },
+    {
+      "path": "scripts/quarantine_rmk_unweighted_multiclass_v0_1.py",
+      "bytes": 2982,
+      "sha256": "801168C638CDBB65C346442995FC40841A101F65DED4EAAC86540799E6D68A8E"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/gates/post_result_pre_scoring_unweighted_multiclass_repair.json",
+      "bytes": 1037,
+      "sha256": "163D5E9AA13E88ED034D7ABCF2F632F0F5949AC79F1C2AD9C78CA9AF3D9812EC"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/structured/result.json",
+      "bytes": 150086,
+      "sha256": "02DC2F5C90EAEE4F7B8D4B31F223E18C8A4BAB456C123ACC2C9C99A0F53F18F6"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/closure/local_scoring.json",
+      "bytes": 95509,
+      "sha256": "6477DC10733B848A2F5B012DB0D8DE812D6D424D74DD2E3732B915B67708B83A"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/closure/adjudication.json",
+      "bytes": 10673,
+      "sha256": "58A4E0C89E2EDF877200A35F2C3586DD7E9C2FA367BB393B57231F5035E4A2B1"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/closure/prior_after_2026-02-23.json",
+      "bytes": 442564,
+      "sha256": "5E9EDFEE38C009CE37D6943DD462ECA29BE5FB4E7A8FA39BFC5C6C1161EB89B9"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2026-02-23/closure/z_post_2026-02-23.json",
+      "bytes": 650775,
+      "sha256": "E882E158CE809AF9DBD8B8C137CAE90D183D4BBBD518F249B39CBC2D868C7489"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/closure/prior_after_2025-12-22.json",
+      "bytes": 336587,
+      "sha256": "9F5320BF063A82A40FE4E32B9D364DF4629BA89F78E5EAC12CA2E198B40F1F43"
+    }
+  ]
+}

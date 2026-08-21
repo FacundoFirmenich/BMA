@@ -1,0 +1,16 @@
+{
+  "schema_version": "bpm.rmk.unweighted-multiclass-price-policy.v0.1",
+  "event_date": "2026-02-23",
+  "state": "FROZEN_BEFORE_RESULT_BODY_OPEN",
+  "objects_with_multiple_price_classes": [1, 2, 3, 4, 6, 7],
+  "offer_anchored_class_weights_available": false,
+  "policy_if_result_contains_component_prices": "NOT_ESTIMABLE_UNWEIGHTED_MULTICLASS_PRICE",
+  "row_or_outcome_handling": "QUARANTINE_FROM_PRICE_AND_VOLUME_LOCAL_POSTERIOR_UPDATE_WHILE_PRESERVING_RAW_ROW_AND_OBJECT_TOTAL",
+  "forbidden_repairs": [
+    "EQUAL_WEIGHTS",
+    "EX_POST_WEIGHTS",
+    "STARTING_PRICE_DERIVED_WEIGHTS",
+    "GLOBAL_OR_CROSS_OBJECT_POOLING"
+  ],
+  "result_body_opened": false
+}

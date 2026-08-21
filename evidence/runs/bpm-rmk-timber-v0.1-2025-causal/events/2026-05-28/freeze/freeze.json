@@ -1,0 +1,90 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.6",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2026-05-28",
+  "state": "FREEZE_WRITTEN_PAIRED_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "BECAF1D777E3F9725C43E08B483B04AE3EF325C86A4F94C8D9F59B23AFC1DB85",
+    "structured_offer": "CB433CB7E9531A93F5850D11E708E1DDEB94B53431AA3A3AA52BF1AF9E5A1681",
+    "prior": "5E9EDFEE38C009CE37D6943DD462ECA29BE5FB4E7A8FA39BFC5C6C1161EB89B9"
+  },
+  "software_amendment_sha256": "59E4D8973C7BAD29F3D5D53EBFCDDB4BFB65AD767703B414C81E37E4D90DAD17",
+  "object_count": 5,
+  "invalid_delivery_period_objects": [],
+  "source_volume_conflict_objects": [],
+  "objects_with_prior_base_cell_match": 0,
+  "frozen_destination_predictions": 0,
+  "M1_price_estimable_predictions": 0,
+  "M1_volume_estimable_predictions": 0,
+  "M2_price_estimable_predictions": 0,
+  "M2_volume_estimable_predictions": 0,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "delivery_period": "2.06.2026 - 20.06.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M06",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "6996859B17B40BE591FD69AB0E967C056BAFDC2A967B236A81BAD25E16D79266",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M06",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "C56F0EE10C66909B81AB0B6D4792CE0880688C80D1113711789FF52D1A999242",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M06",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "6A0C0097916255AD014C7C0E41F3391875C377D4D63988424B401B39127595D6",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 4,
+      "product": "Kuusepaberipuit",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M06",
+      "source_volume_state": "VERIFIED_ADVERTISED_STOCKLOT_NO_COMPONENT_SHEET",
+      "measurement_fingerprint_sha256": "6A0C0097916255AD014C7C0E41F3391875C377D4D63988424B401B39127595D6",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 5,
+      "product": "Männipaberipuit",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M06",
+      "source_volume_state": "VERIFIED_ADVERTISED_STOCKLOT_NO_COMPONENT_SHEET",
+      "measurement_fingerprint_sha256": "C8A5CF3E8AAC8EDDA696A25ED66E5ABDAAE483EDEFD7D58D1BED95B870B63A33",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    }
+  ],
+  "paired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/05/Edukad_EP_28.05.2026.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

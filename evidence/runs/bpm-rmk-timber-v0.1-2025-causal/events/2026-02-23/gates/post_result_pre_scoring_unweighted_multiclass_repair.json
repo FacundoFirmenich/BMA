@@ -1,0 +1,23 @@
+{
+  "schema_version": "bpm.rmk.post-result-pre-scoring-repair.v0.1",
+  "event_date": "2026-02-23",
+  "causal_position": "RESULT_OPENED_NO_SCORING_OR_POSTERIOR_UPDATE_WRITTEN",
+  "raw_result_sha256": "4A60D7FE3F652CABA516BC4A9ADCD0A4719FEF48F8C9BFC6962334EF7852D264",
+  "probe_result_sha256": "E5F07CA6C8E80C0753E955A2996F9880BA617F378F694A4298E324EDA6EFCF56",
+  "pre_result_policy_sha256": "D9E16C42EAB8F34BA12E0EFAB8C073AAE5BF5E480F41352F8F9C96B5A5CB20B2",
+  "repair_software_sha256": "801168C638CDBB65C346442995FC40841A101F65DED4EAAC86540799E6D68A8E",
+  "repaired_result_sha256": "02DC2F5C90EAEE4F7B8D4B31F223E18C8A4BAB456C123ACC2C9C99A0F53F18F6",
+  "observed_issue": {
+    "unweighted_component_price_rows": 16,
+    "local_outcomes_moved_to_quarantine": 9,
+    "preexisting_source_conflict_outcomes": 6
+  },
+  "invariants": {
+    "raw_rows_preserved": 155,
+    "predictions_changed": false,
+    "posterior_update_before_repair": false,
+    "invented_weights": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

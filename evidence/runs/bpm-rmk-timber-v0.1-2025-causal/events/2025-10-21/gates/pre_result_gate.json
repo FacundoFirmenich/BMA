@@ -1,0 +1,30 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.1",
+  "event_date": "2025-10-21",
+  "state": "FREEZE_HASHED_RESULT_BODY_CLOSED",
+  "raw_offer_sha256": "FA84AA675EA4789B25F2F82DA735131000983F7B1EB5B4EAAB6EED20BFEFAC2A",
+  "structured_offer_sha256": "11356E2649A87FD897E71972387C199CAB8007728E481F14F4427DDD62D17C29",
+  "parent_prior_sha256": "F1BB121A530C7371E6B6CF2F6E9D8454E5E806FF323F6F4364C17C25F4DD8531",
+  "software_amendment_sha256": "EC903785CDA4911AE3F712200869B07783EECCDA4A76A3449F6EDB82DCF260FD",
+  "offer_extraction_correction_sha256": "7081B81265D7F5D5123FDECC7558D6505C475D4F6354EBE84381954E274E68EE",
+  "freeze_sha256": "566CC25637C0EB289D794BA3A4B97BDB7FC607B4E861BD56FEA805672AF9ECB8",
+  "frozen_prediction_counts": {
+    "M0_local_destinations": 14,
+    "M1_price_estimable": 1,
+    "M1_volume_estimable": 1,
+    "M2_price_estimable": 0,
+    "M2_volume_estimable": 0
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad_21.10.2025.xlsx",
+    "body_opened": false
+  },
+  "invariants": {
+    "same_event_batch_scoring": true,
+    "within_event_updates_before_all_scores": false,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "preregistration_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "status": "FROZEN_DESIGN_DATA_ACQUISITION_NOT_STARTED",
+  "frozen_at": "2026-08-21",
+  "jurisdiction": "RMK Estonia public written timber auctions",
+  "canonical_family": "BPM",
+  "schema_probe_exclusion": "The 2026-06-30 offer and result files inspected for schema are permanently excluded from blind model evaluation; they may only inform field mapping and support gates.",
+  "scientific_question": "At each comparable timber auction, can sequential local models improve the next-auction predictive density or point error for awarded EUR/m3 and allocated m3 within supported product-location strata?",
+  "outcomes": [
+    "official awarded price EUR/m3 by sale object and delivery destination",
+    "official awarded volume m3 by sale object and delivery destination",
+    "object-level awarded-volume coverage"
+  ],
+  "causal_unit": "one official auction predicts exactly the next comparable auction; no set of N auctions is condensed into one target",
+  "ordered_acquisition": [
+    "inventory public auction dates without opening XLSX payloads",
+    "freeze URL list hashes product ontology transport normalization and support rules",
+    "open 2023 offer-result pairs in date order and update after each official result",
+    "continue 2024 then 2025 then 2026 without looking ahead",
+    "activate calendar-phase model only after at least two completed prior observations in the same phase and supported stratum"
+  ],
+  "models": {
+    "M0": "local last-observation persistence after official transport normalization",
+    "M1": "sequential Student-t or NIG local dynamic level by product and comparable location stratum",
+    "M2": "M1 plus preregistered calendar-phase residual hierarchy; unavailable until phase support gate passes"
+  },
+  "normalization_gate": {
+    "required": true,
+    "rule": "Convert delivery-location bids to the RMK comparable intermediate-roadside price using only the transport tariffs and distance table published before the auction cutoff.",
+    "if_unavailable": "ABSTAIN_NOT_COMPARABLE_PRICE",
+    "no_posthoc_normalization": true
+  },
+  "support_gates": {
+    "minimum_prior_local_observations_M1": 3,
+    "minimum_prior_same_phase_observations_M2": 2,
+    "product_and_measurement_standard_must_match": true,
+    "delivery_or_normalized_location_must_be_comparable": true,
+    "unawarded_or_protested_objects": "separate outcome states; never silently dropped"
+  },
+  "scoring": [
+    "log score for predictive density where estimable",
+    "CRPS where estimable",
+    "absolute error for EUR/m3",
+    "MALE for positive m3",
+    "coverage and abstention counts"
+  ],
+  "learning_invariants": {
+    "posterior_accumulates_without_reset": true,
+    "model_specific_Z_post_accumulates_without_reset": true,
+    "Z_XPL_separate_bilateral_thresholds": [0.25, 5.25],
+    "double_counting_forbidden": true,
+    "pooling_N_to_1_forbidden": true
+  },
+  "authority": {
+    "primary": "product-location-auction local cell",
+    "aggregate_metrics": "diagnostic only",
+    "global_winner": null,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "schema_version": "bpm.rmk.offer-structured.v0.1",
+  "event_date": "2025-10-29",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-10-29\\raw\\Myygiobjektid_EP_29.10.2025.xlsx",
+  "source_sha256": "2BE85C38B126DC1A595C473C5310195D59961EB9B5888921501775A76E409F8B",
+  "source_bytes": 57835,
+  "result_payload_opened": false,
+  "object_count": 17,
+  "advertised_volume_m3": 83012,
+  "all_location_totals_match": false,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 3.1 haavapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 2,4-3,0 m (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2979,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 72
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "16-24,4",
+          "starting_price_eur_m3": 72,
+          "quality_override": "RMK palkide standard; tabel 3.1 haavapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 2,4-3,0 m (+ülemõõt)"
+        },
+        {
+          "diameter_or_class": "24,5-60",
+          "starting_price_eur_m3": 80,
+          "quality_override": null
+        }
+      ],
+      "advertised_volume_m3": 2979,
+      "location_sheet_total_m3": 2979,
+      "location_component_sum_m3": 2979,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepeenpalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-3,2 m (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 3714,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 65
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "12-15,9",
+          "starting_price_eur_m3": 65,
+          "quality_override": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-3,2 m (+ülemõõt)"
+        },
+        {
+          "diameter_or_class": "16-17,9",
+          "starting_price_eur_m3": 90,
+          "quality_override": null
+        }
+      ],
+      "advertised_volume_m3": 3714,
+      "location_sheet_total_m3": 3714,
+      "location_component_sum_m3": 3714,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 3,
+      "product": "Kasepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 4522,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 90
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "16,0-17,9",
+          "starting_price_eur_m3": 90,
+          "quality_override": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %"
+        },
+        {
+          "diameter_or_class": "18,0-21,9",
+          "starting_price_eur_m3": 115,
+          "quality_override": null
+        },
+        {
+          "diameter_or_class": "22-24,9",
+          "starting_price_eur_m3": 125,
+          "quality_override": null
+        }
+      ],
+      "advertised_volume_m3": 4522,
+      "location_sheet_total_m3": 4522,
+      "location_component_sum_m3": 4522,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %;  müügiobjekt ei sisalda looduslikus proportsioonis A-kvaliteediga palke",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2099,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 130
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "25-60",
+          "starting_price_eur_m3": 130,
+          "quality_override": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %;  müügiobjekt ei sisalda looduslikus proportsioonis A-kvaliteediga palke"
+        }
+      ],
+      "advertised_volume_m3": 2099,
+      "location_sheet_total_m3": 2099,
+      "location_component_sum_m3": 2099,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 5,
+      "product": "Sanglepapalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 3.1 sanglepapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 2,4-3,3 m (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2012,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 65
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "16-17,4",
+          "starting_price_eur_m3": 65,
+          "quality_override": "RMK palkide standard; tabel 3.1 sanglepapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 2,4-3,3 m (+ülemõõt)"
+        },
+        {
+          "diameter_or_class": "18,0-21,4",
+          "starting_price_eur_m3": 70,
+          "quality_override": null
+        },
+        {
+          "diameter_or_class": "21,5-60",
+          "starting_price_eur_m3": 75,
+          "quality_override": null
+        }
+      ],
+      "advertised_volume_m3": 2012,
+      "location_sheet_total_m3": 2012,
+      "location_component_sum_m3": 2012,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.2; pikkused vastavalt RMK okaspuupalkide lõikusskeemile 2,4-4,0m (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 4686,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 66
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "16+",
+          "starting_price_eur_m3": 66,
+          "quality_override": "RMK palkide standard; tabel 2.2; pikkused vastavalt RMK okaspuupalkide lõikusskeemile 2,4-4,0m (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 4686,
+      "location_sheet_total_m3": 5549,
+      "location_component_sum_m3": 5549,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "SOURCE_STATED_TOTAL_DISAGREEMENT",
+      "location_total_matches": false
+    },
+    {
+      "object_id": 7,
+      "product": "Männipalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 1556,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 75
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "(5)8-12,9",
+          "starting_price_eur_m3": 75,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 1556,
+      "location_sheet_total_m3": 1556,
+      "location_component_sum_m3": 1556,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 8,
+      "product": "Männipalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 4747,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 95
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "13-17,9",
+          "starting_price_eur_m3": 95,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 4747,
+      "location_sheet_total_m3": 4747,
+      "location_component_sum_m3": 4747,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 9,
+      "product": "Männipalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 8234,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 105
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "18-24,9",
+          "starting_price_eur_m3": 105,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 8234,
+      "location_sheet_total_m3": 8234,
+      "location_component_sum_m3": 8234,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 10,
+      "product": "Männipalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 6645,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 105
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "25+",
+          "starting_price_eur_m3": 105,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 6645,
+      "location_sheet_total_m3": 6645,
+      "location_component_sum_m3": 6645,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 11,
+      "product": "Kuusepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 5224,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 75
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "(5)8-12,9",
+          "starting_price_eur_m3": 75,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 5224,
+      "location_sheet_total_m3": 5224,
+      "location_component_sum_m3": 5224,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 12,
+      "product": "Kuusepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 10540,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 95
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "13-17,9",
+          "starting_price_eur_m3": 95,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 10540,
+      "location_sheet_total_m3": 10540,
+      "location_component_sum_m3": 10540,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 13,
+      "product": "Kuusepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 7126,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 105
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "18-24,9",
+          "starting_price_eur_m3": 105,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 7126,
+      "location_sheet_total_m3": 7126,
+      "location_component_sum_m3": 7126,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 14,
+      "product": "Kuusepalk",
+      "advertised_region": "Edela, Kagu ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 4797,
+          "region": "Edela, Kagu ja Kirde regioon",
+          "starting_price_eur_m3": 105
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "25+",
+          "starting_price_eur_m3": 105,
+          "quality_override": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 4797,
+      "location_sheet_total_m3": 4797,
+      "location_component_sum_m3": 4797,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 15,
+      "product": "Küttepuit",
+      "advertised_region": "Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m     (Ei sobi halgude tootmiseks)",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 9797,
+          "region": "Kirde regioon",
+          "starting_price_eur_m3": 43
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "5-80",
+          "starting_price_eur_m3": 43,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.6; pikkus 2,7-3,3 m     (Ei sobi halgude tootmiseks)"
+        }
+      ],
+      "advertised_volume_m3": 9797,
+      "location_sheet_total_m3": 9797,
+      "location_component_sum_m3": 9797,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 16,
+      "product": "Okaspuuküttepuit",
+      "advertised_region": "Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m",
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2344,
+          "region": "Kirde regioon",
+          "starting_price_eur_m3": 43
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "5-80",
+          "starting_price_eur_m3": 43,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.5; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 2344,
+      "location_sheet_total_m3": 2344,
+      "location_component_sum_m3": 2344,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 17,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "advertised_region": "Edela regioon",
+      "quality_and_measurement_standard": "RMK palkide standard; tabel 2.2, kõvamädanik lubatud 100% otspinnast; pikkus 2,4 m (+ülemõõt)",
+      "delivery_period": "1.11.2025 - 31.12.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 1990,
+          "region": "Edela regioon",
+          "starting_price_eur_m3": 65
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "12-17",
+          "starting_price_eur_m3": 65,
+          "quality_override": "RMK palkide standard; tabel 2.2, kõvamädanik lubatud 100% otspinnast; pikkus 2,4 m (+ülemõõt)"
+        }
+      ],
+      "advertised_volume_m3": 1990,
+      "location_sheet_total_m3": 1990,
+      "location_component_sum_m3": 1990,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    }
+  ],
+  "notes": [
+    "*) Diameetrivahemikud on jagamatud ja eraldi sorteerimisele ei kuulu.",
+    "**) Minimaalne vastuvõetav ostusoov müügiobjekti kohta on 60 m3. Ostja võtab teadmiseks, et metsamaterjal müüakse FSC ja/või PEFC sertifitseerituna ning müügiobjekt on tervik ja serdi alusel eraldi müümisele ei kuulu. Pakkuja pakkumus loetakse vaikimisi esitatuks FSC ja/või PEFC serditud metsamaterjalile.",
+    "***)  Hinnapakkumine müügiobjektile 1-3 ja 5 esitada etteantud diameetrigruppide lõikes, müügiobjekti iga diameetrigrupi pakutud ostuhind ei tohi olla madalam alghinnast. Müügiotsus põhineb müügiobjekti kõigi  diameetrigruppide kaalutud keskmisel hinnal. Pakkumiste hindamisel arvestab müügi korraldaja diameetrigruppide mahtusid järgmiselt: müügiobjekt 1:  diam  16-24,4 cm 24%, 24,5-60 cm 76% kogusest, müügiobjekt 2: diam  12-15,9 cm 70% ja 16-17,9 cm 30% kogusest,  müügiobjekt 3: diam 16-17,9 cm 16%, 18-21,9 cm 50%, 22-24,9 cm 34% kogusest, müügiobjekt 5: diam 16-17,4 cm 7%, 18-21,4 cm 40%, 21,4-60 cm 53%  kogusest. Müügiobjektidele 1-3 ja 5 esitatud pakkumiste omavahelisel kaalumisel kasutatavad diameetrigruppide mahuproportsioonid ei oma siduvat iseloomu müügilepingu sõlmimisel ja täitmisel.\nPalkide müügiobjekti edukas pakkuja kohustub sõlmima müügilepingu hinnakokkuleppes lisaks edukaks tunnitatud müügiobjekti diameetrivahemiku hinnale ka hinnad teistele tema poolt pakutud diameetrigruppidele. Juhul kui pakkuja poolt pakutud hind ületab pakkumisele pandud piirneva diameetrigrupi alghinda, võetakse hinnaks pakkuja hind. Kui pakkuja pakutud hind oli madalam diameetrigrupi alghinnast või kui okaspuupalkidele pakkuja piirnevale diameetrigrupile pakkumust ei esitanud, võetakse hinnaks müügi korraldaja poolt kehtestatud diameetrigrupi alghind.  Müügilepingus sätestatakse  kasepalgi ja kasepeenpalgi kvaliteedinõuetele mittevastava metsamaterjalile (praagile) hind 45,00 EUR/m3, haava- ja sanglepapalgi praagile hind 30,00 EUR/m3, okaspuupalgi praagile hind 35,00 EUR/m3."
+  ]
+}

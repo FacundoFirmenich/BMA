@@ -1,0 +1,64 @@
+{
+  "preregistration_id": "HBP_SPAIN_INDUSTRIAL_CORAL_CAUSAL_CAMPAIGN_V0.1",
+  "status": "FROZEN_DESIGN_DATA_ACQUISITION_NOT_STARTED",
+  "frozen_at": "2026-08-21",
+  "jurisdiction": "Spain manufacturing activity with official Eurostat STS outcome and public institutional-logistics observers",
+  "canonical_family": "HBP",
+  "scientific_question": "Do causally available port-flow and procurement-event layers add local one-month-ahead information beyond the own history of a manufacturing production series?",
+  "coral_graph": {
+    "outcome_node": "Eurostat sts_inpr_m PRD, NACE C or preregistered manufacturing division, SCA I21, Spain",
+    "observer_nodes": [
+      "Puertos del Estado monthly tonnes by port and non-energy industrial nature",
+      "TED daily published award-notice counts by physical-supply CPV and Spanish NUTS"
+    ],
+    "forbidden_edges": [
+      "consumer or administered price as truth anchor",
+      "gas or electricity target",
+      "post-outcome publication entering a prior cutoff",
+      "one observer recalibrating another jurisdiction's outcome"
+    ]
+  },
+  "schema_probe_exclusion": "All probe payloads dated in the public-expansion V1 manifest are schema evidence only and cannot score or fit this campaign.",
+  "temporal_rule": "Each calendar month predicts exactly the next month. Event data may be aggregated only within its own completed month before the cutoff; multiple months cannot be pooled into one target.",
+  "outcome_vintage": {
+    "first_release_capture_required": true,
+    "status_p_preserved": true,
+    "revisions_stored_as_separate_vintages": true,
+    "no_retroactive_replacement": true
+  },
+  "model_cells": {
+    "M0": "local persistence or seasonal-naive baseline selected before target",
+    "M1": "sequential own-history dynamic model",
+    "M2_port": "M1 plus lagged port-by-nature physical-flow features available at cutoff",
+    "M2_ted": "M1 plus lagged TED CPV-NUTS event counts available at cutoff",
+    "M3_coral": "M1 plus both observer families with separately regularized blocks and no raw-likelihood pooling"
+  },
+  "support_gates": {
+    "minimum_complete_training_months": 36,
+    "minimum_same_calendar_phase_observations_for_seasonality": 2,
+    "port_local_coverage_reported": true,
+    "ted_quantity_and_contract_value_not_required": "TED enters only as event count under current evidence",
+    "missing_or_late_outcome": "NOT_ESTIMABLE_OR_ABSTAIN; no imputation for scoring"
+  },
+  "comparisons": [
+    "M1 versus M0 within the same outcome cell",
+    "M2_port versus M1 within the same outcome cell",
+    "M2_ted versus M1 within the same outcome cell",
+    "M3_coral versus its preregistered nested parents within the same outcome cell"
+  ],
+  "scoring": ["log score", "CRPS", "absolute error", "interval coverage", "support and abstention counts"],
+  "learning_invariants": {
+    "posterior_accumulates_without_reset": true,
+    "model_specific_Z_post_accumulates_without_reset": true,
+    "Z_post_is_not_residual_z": true,
+    "Z_post_is_not_Z_XPL": true,
+    "double_counting_forbidden": true,
+    "pooling_across_months_countries_or_sources_for_one_target_forbidden": true
+  },
+  "authority": {
+    "primary": "country-NACE-month local cell",
+    "observer_effect": "local incremental evidence only",
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  }
+}

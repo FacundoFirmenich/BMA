@@ -1,0 +1,53 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v3",
+  "observed_at": "2026-08-21T23:18:51.9297212+02:00",
+  "kch_version": "0.11.33",
+  "runtime_state": "NATIVE_SUPERHARNESS_ACTIVE",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V3.json",
+    "sha256": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D"
+  },
+  "execution": {
+    "classification_index_v7_materialized": true,
+    "rmk_causal_campaign_closed": true,
+    "rmk_audited_events": 14,
+    "rmk_audit_checks_passed": 646,
+    "rmk_final_posterior": {"cells": 388, "observations": 1008, "M1_supported_cells": 30, "M2_supported_cells": 0},
+    "rmk_observed_M1_local_comparisons": {"price_M1": 5, "price_M0": 9, "volume_M1": 7, "volume_M0": 7},
+    "argentina_eurostat_ledger_preserved": true,
+    "cross_family_coral_contract_materialized": true,
+    "industrial_coral_program_v0_2_preregistered": true,
+    "indec_eurostat_prodcom_official_routes_revalidated": true,
+    "new_vintage_acquisition_started": false,
+    "remote_reorganization_executed": false,
+    "destructive_cleanup_executed": false
+  },
+  "authority": {
+    "ontology": "USER_FROZEN_BPM_BUM_HBP",
+    "BayME": "GENERAL_MODEL_AND_HISTORICAL_LINEAGE",
+    "BMA": "PERMANENTLY_SUBSUMED_IN_BPM",
+    "coral": "TYPED_EVIDENCE_GRAPH_WITHOUT_POSTERIOR_TRANSFER",
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "custody": {
+    "rmk_event_custody_complete_with_explicit_exclusions": true,
+    "argentina_eurostat_documentary_integration_complete": true,
+    "argentina_eurostat_exact_payload_recovery_complete": false,
+    "eurostat_future_first_release_capture_required": true,
+    "prodcom_role": "ANNUAL_SUPPORT_ONLY",
+    "comtrade_state": "QUARANTINE_NO_MODEL_AUTHORITY"
+  },
+  "permission": {
+    "bounded_public_no_account_probes": true,
+    "create_accounts_accept_terms_pay_contact_third_parties": false,
+    "bulk_download_or_vps": false,
+    "remote_publish_or_reorganize": false,
+    "delete_or_move_originals": false
+  },
+  "training": {
+    "phl_authorized_but_not_trained": true,
+    "phl_real_training_executed": false
+  },
+  "next_decision_critical_action": "CAPTURE_ONE_NEW_OFFICIAL_INDEC_IPI_UCII_VINTAGE_ONE_EUROSTAT_STS_COUNTRY_NACE_CELL_AND_ONE_BOUNDED_PRODCOM_PRODUCT_SLICE_WITH_BYTES_HASHES_RELEASE_TIMESTAMPS_AND_NO_FITTING"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v3",
+  "date": "2026-08-21",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V2.json",
+  "historical_contract_preserved": true,
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V3.md",
+    "sha256": "7DAD4EC7F3292148844FEE071ABE1DE1F69CA4F6E7CE56380D0B4C419F9DAA18"
+  },
+  "frozen_evidence": [
+    {"path": "canonical/CLASSIFICATION_INDEX_V7.csv", "sha256": "0D63A383C4BC742051C27D4CCC6094CA123DCFD1AAA76985A1FA79716F45FC5D"},
+    {"path": "reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md", "sha256": "042D66FF64EA8779E26AD55F8DD2CF5762591B5F39FB56C0E0E5CC336F7DA928"},
+    {"path": "governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv", "sha256": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08"},
+    {"path": "governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json", "sha256": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE"},
+    {"path": "governance/BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1.json", "sha256": "57A66AB430684758414EB3B43BEFD7E2BF9AAE41019D8C9AB84E47C542FDB46C"},
+    {"path": "governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V2.csv", "sha256": "7E1BC69EB2E36F575D32182D273CE55B93F5C0E4D30279D687C432B9AC0787F6"},
+    {"path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json", "sha256": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71"},
+    {"path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv", "sha256": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E"},
+    {"path": "preregistrations/BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2.json", "sha256": "F23DEF9F22A6B8A254A64706A2D89BA6F2BACFF9AA73659901B0A8967DE82CCF"},
+    {"path": "outputs/BAYME_INDUSTRIAL_CORAL_INTEGRATION_V3_20260821_ES.md", "sha256": "7C3EC472137404464036CD8A5754311CFA174DABC6ECCDE8D16AC5B9BEFEE2DE"},
+    {"path": "governance/KCH_BAYESIAN_MARKETS_V2_AUDIT_REFRESH_20260821.json", "sha256": "3A7EE5151C24B78C0A369324EBC2C53415F2546CB7449C34C2A5B1D073008071"}
+  ],
+  "scientific_invariants": {
+    "BMA_subsumed_in_BPM": true,
+    "BayME_is_general_model_not_canonical_destination": true,
+    "local_jurisdiction_is_authority": true,
+    "one_period_predicts_next_only": true,
+    "posterior_and_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "first_release_vintage_bytes_required": true,
+    "losses_abstentions_quarantines_and_NOT_ESTIMABLE_preserved": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "execution_state": {
+    "rmk_causal_campaign_closed": true,
+    "argentina_eurostat_documentary_integration_complete": true,
+    "argentina_eurostat_exact_payload_custody_complete": false,
+    "cross_family_coral_contract_materialized": true,
+    "new_INDEC_Eurostat_Prodcom_acquisition_started": false,
+    "remote_mutation": false,
+    "destructive_cleanup": false
+  },
+  "adverse_states": [
+    "RMK_M2_NOT_ESTIMABLE",
+    "RMK_2026_04_28_NO_FROZEN_OFFER",
+    "RMK_2026_06_30_SCHEMA_PREEXPOSED",
+    "ARGENTINA_AND_RC15_BYTE_CUSTODY_GAPS",
+    "UCII_DOUBLE_COUNTING_LEGACY_NONAUTHORITATIVE",
+    "IPI_PAYLOAD_NOT_RECOVERED",
+    "EUROSTAT_JULY_INCOMPLETE_PANEL",
+    "EUROSTAT_LATEST_VERSION_ONLY_API",
+    "COMTRADE_QUARANTINE"
+  ]
+}

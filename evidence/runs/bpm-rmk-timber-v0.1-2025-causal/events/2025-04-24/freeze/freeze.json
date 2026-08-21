@@ -1,0 +1,223 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.2",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-04-24",
+  "state": "FREEZE_WRITTEN_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "86994714CFEF962F72712B2F823529B658280838CD520C10CEF30A6EC9DA1165",
+    "structured_offer": "83E30BB9FD19AC6B3507D2764BDBEFA14310916015B46B7CB5A50E33748E0CAA",
+    "prior_after_2025_03_20": "7E2A47DCB8A7F11546A4769008FCADB8D3FFF3F4CE0069FCDEF871CD2FC3FA53"
+  },
+  "object_count": 20,
+  "objects_with_prior_base_cell_match": 0,
+  "frozen_destination_predictions": 0,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Kasespoonipakk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "50D07A24CFC407C0CA4EC8FD2C30AF34B4BBF702C0683D6CEDB308AD3692404D",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepeenpalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "DF5581FADD1A0B3B0E1C4F0B5C691A66C9488170D0D7D7958BD1B20E19751D8E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 3,
+      "product": "Kasepeenpalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "7D457E8763241E79A67D3A375FB3F829532838B9BCD4E7A93F56B23263F3286C",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "92EA02F5A46BE6CF40FBDE077ACA5431CA39EE0C8A37AAEE2A06DC4729FEA707",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 5,
+      "product": "Kasepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "959BB520BEE551E6FBA3328E8F9BBB7A517E8859FE417C4584A1A33BD1796650",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 6,
+      "product": "Kasepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "0205803154EDFF3A77E035ACCAF1172461156D72E12A3B33A50A66E0D87C1DF5",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 7,
+      "product": "Madalakvaliteediline kasepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "0C44BB004424872D2D25A208BE2D4178F969D2125C6EE9C201E42B7BCEC85E1E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 8,
+      "product": "Tammepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "A87CC47633488295E074BF6DC237B2FCC6F2791698781398358FAF8D3189B84C",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 9,
+      "product": "Saarepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "9EAF98FC53D6325EF3477268A6E0BFCDAFE7A46EEAA061C08C3095A84A7444E1",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 10,
+      "product": "Pärnapalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "FAAD83BBF31F0A12A147691DE3234721559BB40A56C59FEC5BB180DCFE17581E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 11,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "87C3C8BFF23384EDACC13CC0C665814C0845EB125A8EAD688625228D76886AE2",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 12,
+      "product": "Männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "77B73C8A166B965754B4205DBCEB1FE3181E290C1FFCB20D5908F4844BC5F493",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 13,
+      "product": "Männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "A974FBEC836729EEFD098EFB8AFA2FA9D92CCD1EC9D73A959C1306F26E47205F",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 14,
+      "product": "Männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "6D59525055F653820D25873752B512821BF21BC5E0C2FDCAEC004A18FD73B7B9",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 15,
+      "product": "Männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "1B3CEC51DA2BB87AFE15D619333A20FE99ECDAE808EDBBCCC28AF4E870B96CF8",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 16,
+      "product": "Männipalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "C41E784548D67D67DB0034314AB2518093113168048383AA0DB023D76953CF13",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 17,
+      "product": "Kuusepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "B43BF71AC53DB77D9E6790ECCEC0FCD58E447C425EB66FB725D9D2DB7E7F1E55",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 18,
+      "product": "Kuusepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "564EED7B15EDDDAA9E6C5B243344F7AB309F8EAE2D72213D7840F7E9E0D9B969",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 19,
+      "product": "Kuusepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "1C98A89609F4459A037D27BB933B924C4D92C1F092346CBBDD0D77F7B232DD79",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 20,
+      "product": "Kuusepalk",
+      "delivery_period": "29.04.2025-30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "measurement_fingerprint_sha256": "6605B150D3C1D3A2C224D227640B155EDA4EE510171994284C85B5E241FA9BB4",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    }
+  ],
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/04/Edukad_KLH_24.04.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

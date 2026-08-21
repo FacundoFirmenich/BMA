@@ -1,0 +1,58 @@
+{
+  "schema": "bayesian-markets-external-custody-state/v1",
+  "observed_at": "2026-08-15",
+  "google_drive": [
+    {
+      "title": "BayME",
+      "id": "1MVoWjIeItRdF5dPTn0vV1RGJ9v0pOcS1",
+      "url": "https://drive.google.com/drive/folders/1MVoWjIeItRdF5dPTn0vV1RGJ9v0pOcS1",
+      "direct_children": 0,
+      "state": "EMPTY_FOLDER",
+      "classification_role": "HISTORICAL_SOURCE_CUSTODY_NOT_CANONICAL_DESTINATION"
+    },
+    {
+      "title": "BMA",
+      "id": "1dR-I3B1vP7rBjq_2A-U4y5Bp6jx-J7bi",
+      "url": "https://drive.google.com/drive/folders/1dR-I3B1vP7rBjq_2A-U4y5Bp6jx-J7bi",
+      "direct_children": 1,
+      "state": "CONTAINS_ONLY_EMPTY_CHILD",
+      "classification_role": "HISTORICAL_BMA_SOURCE_CUSTODY_TO_BE_SUBSUMED_IN_BPM",
+      "children": [
+        {
+          "title": "AEAT-CH72-Nov2024-Holdout-v0.6.1",
+          "id": "1G2SzjHxQA0Tda6ATr-GQugL-vegtUiRr",
+          "url": "https://drive.google.com/drive/folders/1G2SzjHxQA0Tda6ATr-GQugL-vegtUiRr",
+          "direct_children": 0,
+          "state": "EMPTY_FOLDER"
+        }
+      ]
+    }
+  ],
+  "github": [
+    {
+      "repository_full_name": "FacundoFirmenich/BayME",
+      "id": 1330329123,
+      "url": "https://github.com/FacundoFirmenich/BayME",
+      "visibility": "private",
+      "default_branch": "Ulalito's-Island",
+      "state": "EMPTY_GIT_REPOSITORY",
+      "api_evidence": "409 Git Repository is empty",
+      "classification_role": "HISTORICAL_SOURCE_REPOSITORY_NOT_CANONICAL_DESTINATION"
+    },
+    {
+      "repository_full_name": "FacundoFirmenich/BMA",
+      "id": 1328608892,
+      "url": "https://github.com/FacundoFirmenich/BMA",
+      "visibility": "public",
+      "default_branch": "main",
+      "state": "REMOTE_MAIN_HAS_TWO_OBSERVED_HISTORICAL_COMMITS_AND_LOCAL_SUCCESSOR_IS_AHEAD",
+      "observed_main_commits": [
+        "0c36f07b05480f3fe7caf4e63d2b9b59ac7aa07b",
+        "0e29f7b2ed5475fe71966d0ac12bac8144fbedf7"
+      ],
+      "classification_role": "HISTORICAL_BMA_SOURCE_REPOSITORY_TO_BE_SUBSUMED_IN_BPM"
+    }
+  ],
+  "publication_state": "NOT_REORGANIZED_NOT_FULLY_BACKED_UP",
+  "claim_ceiling": "EXTERNAL_CONTAINERS_DISCOVERED_AND_READ_ONLY_STATE_VERIFIED"
+}

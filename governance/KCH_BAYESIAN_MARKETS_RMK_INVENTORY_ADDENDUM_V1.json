@@ -1,0 +1,49 @@
+{
+  "schema": "kch-bayesian-markets-rmk-inventory-addendum/v1",
+  "created_at": "2026-08-21T19:29:12.4853213+02:00",
+  "parent_evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V2.json",
+    "sha256": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672"
+  },
+  "execution": {
+    "html_pages_fetched": 20,
+    "unique_payload_urls": 63,
+    "head_success": 63,
+    "head_failure": 0,
+    "payload_bodies_opened": 0,
+    "valid_queue": "V3",
+    "valid_queue_rows": 63,
+    "pair_dates": 15,
+    "result_only_rows": 13,
+    "phase_only_quarantine_rows": 9,
+    "normalization_references": 6,
+    "schema_probe_exclusions": 2
+  },
+  "adverse_evidence": [
+    "QUEUE_V1_INVALID_DUPLICATE_URL_ROWS",
+    "QUEUE_V2_INVALID_DATE_TRUNCATION",
+    "THIRTEEN_HISTORICAL_RESULT_DATES_WITHOUT_OFFER",
+    "NINE_PHASE_ONLY_RESULTS_WITHOUT_EXACT_DATE",
+    "HISTORICAL_TRANSPORT_NORMALIZATION_NOT_YET_RECOVERED"
+  ],
+  "frozen_evidence": [
+    {"path": "evidence/probes/rmk-url-inventory-v1/rmk_inventory_manifest.json", "sha256": "0AF919539A6A1FF27AB85ED086B4AA8099F5AEE27D9A7AE1D51D45CF3BB1444F"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/rmk_dated_inventory_manifest.json", "sha256": "3B26210EAB585B455DC380F6F68685D300AC8819894A8BF75CA4A353EF9D44A7"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/rmk_candidate_event_page_probe_manifest.json", "sha256": "2742FE7760334FA48A5E3309941E4A4CAB10B833EB4E87A742CF8D3859F51EC4"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3.csv", "sha256": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3_manifest.json", "sha256": "7695ECF6E9FDC0E1AAFFFDDD683A4A50833482BA1432E0B15F86E305CE15C5EB"},
+    {"path": "preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_ADDENDUM_20260821.json", "sha256": "F4CEC7DF368D32D5288752A1DA2F5AAB3140EF485308294169BEA82C2FB846A5"},
+    {"path": "outputs/BPM_RMK_URL_INVENTORY_CHECKPOINT_V2_20260821_ES.md", "sha256": "AB29C470D87635FD45B3E2A9FDAC602199E0373F17C6931C772F5BA1A7320A7E"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V1.md", "sha256": "520609591F6ECFDE21988CAC7C4905C22D0C6A274D73CC2610CBA92E44EB48E5"},
+    {"path": "evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V2.md", "sha256": "C0C4DCCD014EF19F3391DB485A753FBAD7F638879D5BA8AD6049AFDE2225C762"}
+  ],
+  "authority": {
+    "inventory_complete_for_current_public_surface": true,
+    "historical_payload_acquisition_started": false,
+    "model_fit_started": false,
+    "seasonality_activated": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "next_action": "OPEN_FIRST_DATED_2023_RESULT_FROM_QUEUE_V3_FOR_ELIGIBILITY_ONLY_THEN_CONTINUE_2024_IN_ORDER_NO_FITTING"
+}

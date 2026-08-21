@@ -1,0 +1,123 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-event-freeze.v0.2",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-11-28",
+  "state": "FREEZE_WRITTEN_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "structured_offer": "6C7CD6F9A8B230C2FCF9B691D900446CBA3B78D7F1BF4252A5B819C2A8ECA311",
+    "prior": "74A0748B85D0F663F9E5766DA2214D44655DAAD58DB0A3CA20BA963C01AB5210"
+  },
+  "object": {
+    "object_id": 1,
+    "product": "Hakkpuit",
+    "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+    "advertised_volume_m3": 10630,
+    "delivery_period": "2.12.2025 kuni 28.02.2026",
+    "calendar_phase": "M12-M01-M02",
+    "source_volume_state": "VERIFIED",
+    "prior_matching_destinations": [
+      "Heltermaa",
+      "Kuressaare/Ninase"
+    ],
+    "frozen_local_predictions": [
+      {
+        "destination": "Heltermaa",
+        "price": {
+          "M0": {
+            "point": 48.6778,
+            "density_state": "M0_DENSITY_SUPPORT"
+          },
+          "M1": {
+            "state": "NOT_ESTIMABLE_M1_SUPPORT"
+          },
+          "M2": {
+            "state": "NOT_ESTIMABLE_M1_REQUIRED",
+            "distinct_event_support": 0,
+            "required_distinct_events": 2
+          },
+          "BMA": {
+            "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+            "probabilities": null,
+            "common_support_events": 0
+          }
+        },
+        "volume": {
+          "M0": {
+            "point": 3561.151079136691,
+            "density_state": "M0_DENSITY_SUPPORT"
+          },
+          "M1": {
+            "state": "NOT_ESTIMABLE_M1_SUPPORT"
+          },
+          "M2": {
+            "state": "NOT_ESTIMABLE_M1_REQUIRED",
+            "distinct_event_support": 0,
+            "required_distinct_events": 2
+          },
+          "BMA": {
+            "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+            "probabilities": null,
+            "common_support_events": 0
+          }
+        }
+      },
+      {
+        "destination": "Kuressaare/Ninase",
+        "price": {
+          "M0": {
+            "point": 48.65,
+            "density_state": "M0_DENSITY_SUPPORT"
+          },
+          "M1": {
+            "state": "NOT_ESTIMABLE_M1_SUPPORT"
+          },
+          "M2": {
+            "state": "NOT_ESTIMABLE_M1_REQUIRED",
+            "distinct_event_support": 0,
+            "required_distinct_events": 2
+          },
+          "BMA": {
+            "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+            "probabilities": null,
+            "common_support_events": 0
+          }
+        },
+        "volume": {
+          "M0": {
+            "point": 3199.2805755395684,
+            "density_state": "M0_DENSITY_SUPPORT"
+          },
+          "M1": {
+            "state": "NOT_ESTIMABLE_M1_SUPPORT"
+          },
+          "M2": {
+            "state": "NOT_ESTIMABLE_M1_REQUIRED",
+            "distinct_event_support": 0,
+            "required_distinct_events": 2
+          },
+          "BMA": {
+            "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+            "probabilities": null,
+            "common_support_events": 0
+          }
+        }
+      }
+    ]
+  },
+  "unit_conversions_frozen_before_result": {
+    "m3_to_pm3": 2.78,
+    "m3_to_MWh_primary": 2.22
+  },
+  "frozen_destination_predictions": 2,
+  "M1_price_estimable_predictions": 0,
+  "M1_volume_estimable_predictions": 0,
+  "M2_price_estimable_predictions": 0,
+  "M2_volume_estimable_predictions": 0,
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_28.11.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

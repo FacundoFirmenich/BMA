@@ -1,0 +1,52 @@
+{
+  "addendum_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_ADDENDUM_20260821",
+  "parent": "preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1.json",
+  "frozen_at": "2026-08-21T19:19:23.2256227+02:00",
+  "trigger": "HTML-only URL inventory found historical result continuity but incomplete offer-result pairing.",
+  "observed_inventory": {
+    "html_pages_fetched": 20,
+    "payload_urls_discovered": 82,
+    "unique_payload_urls": 63,
+    "dated_result_rows": 31,
+    "dated_offer_rows": 15,
+    "initial_dates_with_offer_and_result_links": 14,
+    "candidate_missing_event_pages_probed": 14,
+    "candidate_html_pages_found": 1,
+    "candidate_offer_links_added": 1,
+    "candidate_pages_not_found_or_error": 13,
+    "payloads_opened": 0
+  },
+  "scientific_correction": {
+    "original_2023_offer_result_pair_assumption": "NOT_SUPPORTED_BY_CURRENT_PUBLIC_HTML",
+    "2023_2024_role": "OUTCOME_HISTORY_ELIGIBILITY_AUDIT_ONLY_UNTIL_PAYLOAD_FIELDS_AND_NORMALIZATION_PASS",
+    "blind_offer_known_replay_start": "2025-02-26_OR_LATER_SUBJECT_TO_ORDERED_QUEUE_AND_HASH_FREEZE",
+    "schema_probe_2026_06_30": "PERMANENTLY_EXCLUDED_FROM_BLIND_EVALUATION"
+  },
+  "revised_ordered_acquisition": [
+    "freeze ordered URL queue and HEAD metadata without opening payload bodies",
+    "open dated 2023 result payloads in chronological order and test product-location-price-volume eligibility without fitting",
+    "open dated 2024 result payloads in chronological order and update only eligible historical outcome state",
+    "keep quarter-only and semantically unresolved result files quarantined until their period meaning is independently established",
+    "for 2025 and later open each offer before its matching result and freeze the prediction before opening that result",
+    "never use the schema-probe 2026-06-30 pair for scoring"
+  ],
+  "seasonality_gate": {
+    "activation": "cell-specific only",
+    "minimum_prior_same_calendar_phase_observations": 2,
+    "cell_key": ["product_class", "measurement_standard", "normalized_or_identical_delivery_location", "calendar_phase"],
+    "unsupported_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+    "no_family_wide_activation": true
+  },
+  "price_comparability": {
+    "historical_transport_tariff_and_distance_vintage_required": true,
+    "fallback": "restrict to identical delivery location and product standard",
+    "if_neither_available": "ABSTAIN_NOT_COMPARABLE_PRICE"
+  },
+  "authority": {
+    "inventory_only": true,
+    "historical_payloads_opened": false,
+    "model_fit_started": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  }
+}

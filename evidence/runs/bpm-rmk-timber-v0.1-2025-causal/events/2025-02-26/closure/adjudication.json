@@ -1,0 +1,45 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.1",
+  "event_date": "2025-02-26",
+  "freeze_sha256": "C509BF1EF4274D7840B3184900CD48B1F596BC2D48B8409F9C3EDB7742F7CB92",
+  "raw_result_sha256": "72106FE84B1186C24CD124B85115D2D5536EA5976758312AB3F2BB31EC61D9C2",
+  "structured_result_sha256": "103B7E852F0F25F420EC01155196F8033EC73134A8E9EADDD6D1EB57AB1E6089",
+  "award_rows": 131,
+  "local_outcomes": 114,
+  "total_awarded_volume_m3": 255124,
+  "objects_full_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    22
+  ],
+  "objects_partial_coverage": [
+    21
+  ],
+  "objects_source_volume_conflict": [
+    16
+  ],
+  "unawarded_objects": [],
+  "scored_predictions": 0,
+  "scoring_state": "NOT_ESTIMABLE_EMPTY_CAUSAL_PRIOR",
+  "price_normalization": "EXACT_DESTINATION_FALLBACK_ONLY_HISTORICAL_2025_TARIFF_VINTAGE_UNAVAILABLE",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

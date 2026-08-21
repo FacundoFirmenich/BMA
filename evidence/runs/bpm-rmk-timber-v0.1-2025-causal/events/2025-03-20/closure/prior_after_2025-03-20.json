@@ -1,0 +1,4548 @@
+{
+  "schema_version": "bpm.rmk.local-posterior.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "after_event": "2025-03-20",
+  "parent_prior_sha256": "6117BA4D2D184AEE448BD39CEB60B16E752B61D69476353C67FD7736D6136184",
+  "adjudication_sha256": "72E7D5E5F9B4EDDD841C9F80DA223749C28A7CBFE3C60D18F77B0A4C46BE2179",
+  "historical_2023_2024_model_observations": 0,
+  "local_cells": {
+    "E65C327A37D3ADBCD16E91E784B841897213AD17F71004ED0D980894EEC5A71C": {
+      "descriptor": {
+        "product": "Kasespoonipakk",
+        "measurement_fingerprint_sha256": "54B320BACC10DED063A0441122A5C1D4BCC4E5A225F8C8B355203A03FB4359D0",
+        "destination": "Kupu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 1,
+      "buyers": [
+        "Balti Spoon OÜ"
+      ],
+      "price": {
+        "observations": [
+          351.0
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2229.0
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "81A9DF62C00CAB00A793AB9BCC13EC4D651F986549516603E0081FA373C80DDE": {
+      "descriptor": {
+        "product": "Kasespoonipakk",
+        "measurement_fingerprint_sha256": "54B320BACC10DED063A0441122A5C1D4BCC4E5A225F8C8B355203A03FB4359D0",
+        "destination": "Otepää"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 1,
+      "buyers": [
+        "UPM-Kymmene Otepää OÜ"
+      ],
+      "price": {
+        "observations": [
+          345.5
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1484.0
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "14B87631F1D9F6C478FFC9F5EB7308A4CAFB351B54BC5E8855998B49A25B7469": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Reopalu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 2,
+      "buyers": [
+        "Ecobirch AS"
+      ],
+      "price": {
+        "observations": [
+          94.5
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          61.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "613BF36D29D76AD2B6B6B15347A17C56E965104E9C2FBD7F32401DBDDC30D3DD": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Viruvere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 2,
+      "buyers": [
+        "Estonian Plywood AS"
+      ],
+      "price": {
+        "observations": [
+          101.61523656776262
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1247.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "61D0EF68C66C459285C752FC5DE3DB8317ADDE2D010BD400FB9763F03CABB499": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Muuga"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 2,
+      "buyers": [
+        "Tori Timber OÜ"
+      ],
+      "price": {
+        "observations": [
+          96.6
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          173.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "777AB428505E6C9CE0DA38C9D9D97EE72B4A2412A2E93DE2225A81BB9E3876DD": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Selja"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 2,
+      "buyers": [
+        "Tori Timber OÜ"
+      ],
+      "price": {
+        "observations": [
+          88.9
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          25.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "339FAF72443C75BF7BF4C86C8315B494E7CD0105A38AF157A950E9F3F3EEDB4F": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "BA607D86270A4E0FC3BF4D7B93E3106C4CC669E746BA517B5C27969DE04BE83C",
+        "destination": "Viruvere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 3,
+      "buyers": [
+        "Estonian Plywood AS"
+      ],
+      "price": {
+        "observations": [
+          205.67367272727273
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3025.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "4A346DB6A1B938A2B3AC54D4FD8B6422C20274A41DDE81FB3C12735199005F82": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "BA607D86270A4E0FC3BF4D7B93E3106C4CC669E746BA517B5C27969DE04BE83C",
+        "destination": "Otepää"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 3,
+      "buyers": [
+        "UPM-Kymmene Otepää OÜ"
+      ],
+      "price": {
+        "observations": [
+          220.88574126534468
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4236.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "06E6AFC336A0762FCD8A77987DD6E508486C9D0509C09617AADD4E5C8A02270E": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "E29B03061ED900A4AF195CAF7D9280BB015FF411C3E96B1E4B9EEF40E1CBBE11",
+        "destination": "Kohila"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 4,
+      "buyers": [
+        "Kohila Vineer OÜ"
+      ],
+      "price": {
+        "observations": [
+          220.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          61.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "82FDDBDD35B17E49607A43927CBE5D94E00218619112FDD3FFF3C579AB0719A6": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "E29B03061ED900A4AF195CAF7D9280BB015FF411C3E96B1E4B9EEF40E1CBBE11",
+        "destination": "Otepää"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 4,
+      "buyers": [
+        "UPM-Kymmene Otepää OÜ"
+      ],
+      "price": {
+        "observations": [
+          250.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3400.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "3E7DD98FD7AA22D47E90147C2E6A9867FBBF3A3BE1C777E1AD9437038A3334FA": {
+      "descriptor": {
+        "product": "Tammepalk",
+        "measurement_fingerprint_sha256": "825068783537E7DC6416FE9FB7EE49278E3F020D36BE893EFEDBFDD061C62EDB",
+        "destination": "Papsaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 5,
+      "buyers": [
+        "Westwood Group OÜ"
+      ],
+      "price": {
+        "observations": [
+          180.0
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          24.0
+        ],
+        "phases": [
+          "M03-M04-M05"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "E7B7C5A8FF9B15C2F946068D78119425711CC4B9B8F209C5094CD769E65E6ED3": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Erra"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Firstpartner OÜ"
+      ],
+      "price": {
+        "observations": [
+          85.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          200.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "529D230D5C79D1BFA1A9E86E4009A3E80B35AEC038A6ECBCE2A159AD1202F088": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Hänike"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Aivar & Merike OÜ"
+      ],
+      "price": {
+        "observations": [
+          75.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          364.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "DE998F9D088C7150AEA15323C2EDD903061178E45DC6688F22681326DD8B12D2": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Väike-Maarja"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Aksel VA OÜ"
+      ],
+      "price": {
+        "observations": [
+          78.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          145.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "5FBE4370ABD3B6ADD9402094C3ED6260505CBFCFEB655586F2CC9F4F23F72651": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Tammiku"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Banneks OÜ"
+      ],
+      "price": {
+        "observations": [
+          78.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          115.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "C35B21FF69BAEA74A780F76FFCB7A8BB82C76EAAD4C63F8444E1C5A7904F3F27": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Paide"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "INVESTER OÜ"
+      ],
+      "price": {
+        "observations": [
+          85.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "178F79DF81A50BB217F66A6D96509FF2DB02B11316768CB0A129F7831B808AF7": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Kehra"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Narvo OÜ"
+      ],
+      "price": {
+        "observations": [
+          80.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          55.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "BF29FC99E384AA76D5C5CAC770F95FD15923248A4EAD782055C546D0EEA3EBED": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Sargvere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "RTV Saekoda OÜ"
+      ],
+      "price": {
+        "observations": [
+          81.1
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          300.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "1F8AC8627983DAAADA19632071C0877CA5167D56D587B6F9639FDEB75DE896C4": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Selja"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Tori Sawmill OÜ"
+      ],
+      "price": {
+        "observations": [
+          83.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          585.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9BEF538197D3438197B37570CDD1D214ECAC877C7DDCD46013817544589B8387": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Muuga"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Tori Timber OÜ"
+      ],
+      "price": {
+        "observations": [
+          80.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          56.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "E590AB6B70215E1080600A60DE41408B91589855164C06B7EAE0B1D8882EA55B": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Ulvi"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Vivandor OÜ"
+      ],
+      "price": {
+        "observations": [
+          80.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          314.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "2BD257318835C47FAB5CF0200D262FA3AB8871830265296CC4B31C3975117232": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Viivikonna"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Vivikond OÜ"
+      ],
+      "price": {
+        "observations": [
+          85.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          150.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "60DABF6C5FC8A7C9BCC562432F5EBAE203A77AC1C3BDA213916BE1B1E20DBAC8": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Kunda"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Westwood Group OÜ"
+      ],
+      "price": {
+        "observations": [
+          80.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          37.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "0B583EEA3B2D829A99D4FF3A5735BB4FCF2C82D71ADFA36B0B95ECF49F6F662F": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Põlva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 6,
+      "buyers": [
+        "Westwood Group OÜ"
+      ],
+      "price": {
+        "observations": [
+          75.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          318.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "EBFDBCB57AE130956A8288D568AADE1DAC50538267CC84094AA8AF23262EC73D": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 7,
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "price": {
+        "observations": [
+          96.17601760176018
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1818.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "AAE4DF29064811213E6D2817AB1EB93F5A07F7978BC95FF73982C2DEE251080D": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Jõgeva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 7,
+      "buyers": [
+        "Belander Grupp OÜ"
+      ],
+      "price": {
+        "observations": [
+          90.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          28.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "7D250C57D453C735191BB61292C755C7789196FAE2FC402711945CB078A4E3FE": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 7,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          100.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1430.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "E8B5DCE6E34740F1B21BAAD8468CBA820F63A10E902DF840E6A5FB645A5692B6": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vana-Võidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 7,
+      "buyers": [
+        "Viiratsi Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          95.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1001.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "BC42D0CCB053576BF651577D34192B3627A69310D360D2E02C4B3165979543F6": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vasta"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 7,
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          94.80889621087314
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1214.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "990CF87B33B9ED4730E147510EF7D32D3136A54CC7CFE4E61B55B7398AB28487": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 8,
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "price": {
+        "observations": [
+          117.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1314.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9CB03C444B7BB6DF8CEAE47F5D827BCD9DABD1F2E396FC12692DC5D82CC3597F": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 8,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          7459.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "DD267E0623283E1D77B8FBCAE94231D248F061B80785F9D967D5B1E292865B83": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 8,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          110.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1280.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "C16D0AAE70F5E13491A8DDFB01C23FA5F656A49EB9E50A13D77E3FDD9DAE8082": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vara"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 8,
+      "buyers": [
+        "Vara Saeveski OÜ"
+      ],
+      "price": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2665.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "2B4B049ADAE78668475246E6FB2ED0E48C87F8B042E88E0121731825D94241D5": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vasta"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 8,
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          115.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2703.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "D5641AF3FBBCDA366A01F53FBF8CD72E8F6C2FA6349C751A285422549F1DFD4A": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Verijärve"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 9,
+      "buyers": [
+        "Barrus AS"
+      ],
+      "price": {
+        "observations": [
+          134.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          6000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "EF6C17BCF3BCD69B2E4A1624AF2B037CF7A37585185C16DFCC02DD1FAD459793": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 9,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          135.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          21575.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "1351D28DAD07239C5CD5F16F9C7843B204387754BDE4CA98CAFE81FC6E860B22": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "price": {
+        "observations": [
+          127.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2108.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "42C18839C61DDF8439BE4A48AE1D315DD46E3F135688B116FFD816305E0369C6": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Adraku"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Barrus AS"
+      ],
+      "price": {
+        "observations": [
+          125.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "87DAB61CE932D2D511D13B3D41717362C092E85186046DF13758611673F68C34": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Kuressaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Barrus AS"
+      ],
+      "price": {
+        "observations": [
+          106.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          241.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "17C15C7AC58D5351FB45432305783F2563F380DC4184FBDEE0CB64E37E260810": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Marana"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Barrus AS"
+      ],
+      "price": {
+        "observations": [
+          126.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          800.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "60F550DF80D173EF0833C4E040DA46B4035E1DA130A3EE064C5C973FB4536EDB": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Verijärve"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Barrus AS"
+      ],
+      "price": {
+        "observations": [
+          135.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          6000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "BE38C0C40FE1C55534FE490BA76ED2DF3B977759509FE60F0863C29DB47B4B93": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Karilatsi"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Laudsepp OÜ"
+      ],
+      "price": {
+        "observations": [
+          130.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          60.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "7DCBACD995323B2FA90E9EF55A04D9818E7B8141FE222F1B0FB40C1090040A9B": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 10,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          130.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          11375.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "3626FC7B8F1E99B8913FF8509E43C07FA64FF6FDE87822FB4172BD15124A0DD5": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "5EE17BDEFFCA197888E81AC5C237F45E13A0AE40C99002A56471250648FE2966",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 11,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          514.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "51E1C5FD8544F99A59E067BE277E0ED39306295558A3A82B98ABEC2A7CC32970": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 12,
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "price": {
+        "observations": [
+          96.44255744255744
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2002.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "B9A2D7B049018DF6C2F4AFF71B2345292AA53F61FDAA581553B45DCDFAD80A13": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 12,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          107.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "A251A5D6C6D50E649C46DF434225E36122FA5E298EC26040AF7383EF775B3F22": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vara"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 12,
+      "buyers": [
+        "Vara Saeveski OÜ"
+      ],
+      "price": {
+        "observations": [
+          90.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          239.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "83F25C58CF541AFF694B4D70740BFDC214364EFA419A179E82F257A8FA855D1E": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vana-Võidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 12,
+      "buyers": [
+        "Viiratsi Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          94.56361667569031
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1847.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "417963D3FA97DFE63445D3290EF0BD719120305F59EA43046959CBBE6199AA7D": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vasta"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 12,
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          95.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1131.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "8DDC6DD4AF2D80961CB71395B90955D6E1B7640F42993348ABEED32330E9A0AD": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "price": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          163.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "8675EC7EDD7062E406018A6CA7C4C4123978CD9491D599413D13BBBCF34B7F9A": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Reopalu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Combimill Reopalu OÜ"
+      ],
+      "price": {
+        "observations": [
+          123.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          754.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "B758E7AA2A4281487FA3E68B9BD7E8F790E6F19AC39E261C6CB5A2ABA66B2101": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          125.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          8542.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "A6BDE3EC031FC53780AA9D103A950781C497AE8A1CCA79F147B6884AFB60E963": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          119.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2461.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9285938C2D4E09120B00F631D039598D06E4210B9B3AC8B13FAB1D7A8DFF13F9": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vara"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Vara Saeveski OÜ"
+      ],
+      "price": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          679.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "45E6C3CCF45E615DFF7DAC1DF5103CAC5808D8EEFA8428BE592A24C93F1EB534": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vasta"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 13,
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "price": {
+        "observations": [
+          118.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          878.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "AB756A96ACDE75E7C516B57E1BECD82449A8BA134E22A4FA0DEA65B76977B4A0": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Vastseliina"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 14,
+      "buyers": [
+        "Förmann NT AS"
+      ],
+      "price": {
+        "observations": [
+          124.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          162.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "7581CD01BF55772AE90004C6F477D1AAD65854FDB11ABEF31EBCD8746ADF4BD0": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Umbsaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 14,
+      "buyers": [
+        "Prolatio OÜ"
+      ],
+      "price": {
+        "observations": [
+          125.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          172.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "AC96E52F9A202B6B34F7857CE549CD79A429EE20EAD9FD226CB4EBBBDCC06839": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 14,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          137.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          8438.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "A7D18D43881338A321647AF08F01B2069D9841A60375AE767707165C65F21CBD": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Hänike"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 14,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          126.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          531.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "DDE2AEFD7AAB1893BC30ED68F11FE2B9CD69A4F5653E97C50D6705C553A473DD": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Vastseliina"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 15,
+      "buyers": [
+        "Förmann NT AS"
+      ],
+      "price": {
+        "observations": [
+          125.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          109.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "7E37A3D8659A4F05C4AE7A8A3AEA964577D9EF40D0806A385A8B4220434F47CB": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 15,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          135.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4954.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "42EA3F097A5BCCB7931D4A8B96A6E021D3C8091E780A6F598B35A6F6F85677CC": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Hänike"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 15,
+      "buyers": [
+        "Toftan AS"
+      ],
+      "price": {
+        "observations": [
+          128.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1062.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "F7C00D0B31E4E42168FE0404C261E1D965B0CB06143A991DECC3214F9F974B67": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Paldiski"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Baltfor Trading OÜ",
+        "Lemeks Sadamad AS",
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.60548903378779
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          8435.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "C8664DEFB7ACED32686241EA3F35F9FD93F4A3298027B61B3C1E2B70E83F8733": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Malla"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Combiforest OÜ"
+      ],
+      "price": {
+        "observations": [
+          61.16
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "0BF4BCAC1D5D7D7832219EC9B23640A26A8F8195B1066FC0E0ECAA67BF4A6A5C": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Jõune"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Eesti Metsatööd OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          60.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "6B19782FA9AA6E8406A0E9C06F5F64DE08D1DAF3741F4B6264A09A0A9C8D2BC0": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kuru"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Expertline OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          180.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "E73F431B6BD9B8EBC923D9156BB5CD4DD482140096BE033C3C10C0981B339856": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Oomiste"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "FFL Trading OÜ",
+        "UPM OÜ",
+        "Vostok Wood OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.64969476744186
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2752.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "468CE1AB45806239EB8FB7686D23C0875AAEF266C2944E499ED9FD4DAA51D000": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Patküla"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Helme Graanul OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          669.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "CFDA36EBC1D97B93F2E8C6AEC93B8B9674E4D2B4040AAB01AAC87B007B9A0F73": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Sirvaste"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Kasper Autokaubad OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          120.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "EB5F8D044B5055E1DDAC660A2BCE26C7CFFA46C8937BFC9082BD330DF567CE2A": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Jõgeva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Lemeks Jõgeva AS"
+      ],
+      "price": {
+        "observations": [
+          52.1
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          400.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "A757908BCF5083AD674D4F01ED969F1049D6BC5485362B828ED270A1C6D0FB17": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Roiu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Lepasalu TKM OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.5
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "C70632EFA248CC2D4D3415E5FB01F7EEC44BB6B54EFF893724230740CD35B42E": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Reola"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.15
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "EB2F68DB1FFDEFD6B70C564B9779C3F0FC84BB048F1633D5CE3CAC40B708E65F": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Päinurme"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Marrek Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          100.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "F705CF5E5E79F0FC2EEF8989904719F949AD061B4F3FA81BEA91A4EEEFB1A699": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Osula Graanul OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          919.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "27660339F329A04E90FA6E8DA021B7E7C7E212F37A134D91CD83EB7B71E85016": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Oisu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "PA Kaubandus OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "5BCE53D12C3B44B78A6DFA6068B1C756A795B75870055E0D14135E9832BFA0BF": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Roomassaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Reta Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.2
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1300.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "0A2786B888A48A7643A00B2B9EEF133CF29E9FB3B8473896AF6F945B1E2D64E8": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Võru"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Splitwood Group OÜ"
+      ],
+      "price": {
+        "observations": [
+          53.5
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "56007690F9725D694C4A6EBCADAF477F344882D23D5BA3CC812708709F63ABFB": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kunda"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          61.199999999999996
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          10283.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "86AC0FCC02FBDB068FE48E23DB4B26B5EF7344F8AD2251A595A8F88B3C66E3E4": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Pärnu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "price": {
+        "observations": [
+          61.2
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          12851.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "32D5379AD0B842C859D8F9F3D0725101C9C4C08ACF0EF78B6C7E6A034D21E98A": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Aegviidu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Sups&co OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          100.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "6B24191C9948DAE32FB52CC11E132437FD452582B624746F43B01F30B9878A07": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kuningaküla"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Tantely OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.199999999999996
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          71.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "F68FDFA245234A3F52B499835E487DB8EDF3DE6CACF5E4B320E8E4E29E7C24B5": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Sillamäe"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "UPM OÜ"
+      ],
+      "price": {
+        "observations": [
+          62.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          7350.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "D135A55BD11C52D961D697CDA755F51EE6E9A48E97E8B4CBAD2BB9C872BA2641": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Lobotka"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "Värska Laht OÜ"
+      ],
+      "price": {
+        "observations": [
+          54.75
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          378.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "8FA1C213E88310D055E0AED11D0CF0BD91B9FC413BD647F3FA830686A484E6A5": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Türi"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 16,
+      "buyers": [
+        "VTM Pluss OÜ"
+      ],
+      "price": {
+        "observations": [
+          58.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          650.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "196F0723B22FF19609156615774F8FA2350015FE71D097D58B703BF7DFCCDDF1": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Heltermaa"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          894.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "15A2575D0A8ACF95BB94C4BFB0419BCFE750244480F3A9041088074DFE2609F1": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kehra"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "Horizon Tselluloosi ja Paberi AS"
+      ],
+      "price": {
+        "observations": [
+          65.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4389.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9014D301CA2BC1C545516976BC079F9805F5065C9310A66B973945A5D6910385": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Paldiski"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "Lemeks Sadamad AS"
+      ],
+      "price": {
+        "observations": [
+          68.49448979591837
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4900.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "8668182BFA8DC0E1DF09BF578F60D51628B2991F44F57F71CE20793A78E560FE": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Oisu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "PA Kaubandus OÜ"
+      ],
+      "price": {
+        "observations": [
+          63.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "BA35444F35D11980D326556771B7BDBC0292438BDDED6FAB01B0794EC6BDD328": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Roomassaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "Reta Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.2
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "879AC8C60642452CB090B3020E6D0459A0AB091D98DCE9AAF7B8CDE11D5C60D6": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kunda"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          69.29
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          11315.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9452C222F6AC089B497F7DA50B09E77FFFC8FDD0F689165038004DA63C261C85": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Pärnu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          69.29
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          10177.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "B8C5E37325CA4DD9745C9F33F1500507F252D489AF4B19C1D26C386A460EF0B7": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Sillamäe"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 17,
+      "buyers": [
+        "UPM OÜ"
+      ],
+      "price": {
+        "observations": [
+          66.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4259.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "A424D5BDD678F9E7DFB4174F8ACA0EE50B51903E8E6DC41F49EE423F5A185C7A": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kunda FOB"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 18,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          73.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4500.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "8EF4B5DCBB9B7252A0838D6A42E8E5ADB805AF28EAEEAA85817DEF02A41DD61D": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Jõgeva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Belander Grupp OÜ"
+      ],
+      "price": {
+        "observations": [
+          70.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1000.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "87BE926AA3D2F911E4CDAEBBF90E0CE64B9821969A87687861263726C3AEA6CB": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Heltermaa"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          927.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "34EA6A82C1CD794105AFEC08155F8AC07D36923B1DA8275EEE3D35CEBC183294": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Kehra"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Horizon Tselluloosi ja Paberi AS",
+        "Narvo OÜ",
+        "Võrsik OÜ"
+      ],
+      "price": {
+        "observations": [
+          65.50977060322855
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1177.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9BE583ADCFB04D0FAC87668AE744E00532BF509585EA070939AA061F4220687C": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Paldiski"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Lemeks Sadamad AS"
+      ],
+      "price": {
+        "observations": [
+          68.39160714285715
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2240.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "875CD1265459265138FAB513DF307E8DEAC1FED8FA97A99666E68CC6C94EA571": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Roomassaare"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Reta Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          60.20000000000001
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3127.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "0B2FA0035E8157DF148F9063A119CB2B0B391BDB8B136E9E32B7A5091B82C1ED": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Kunda"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          69.29
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3617.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "4A054DF56001ECF7905B3857A0FEB4D375E7090BB0D730EA185DB4C1CAB3917C": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Pärnu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          69.29
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          4371.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "F18CBCE151A0EBBA1EF1596DAADBE66A51BFA3F696AD39096511D66E7B85162B": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Sillamäe"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 19,
+      "buyers": [
+        "UPM OÜ"
+      ],
+      "price": {
+        "observations": [
+          66.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          1508.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "10D6DBD867B86A7FBD31A2FE8C764597D7FF1D01771FD5F3A460399A34D24009": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Imavere"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Graanul Invest AS"
+      ],
+      "price": {
+        "observations": [
+          50.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2403.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "BC9300B72262D6E0A26F5484060E8EA52EEAF254DF79784761B92D9FD30EE612": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Patküla"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Helme Graanul OÜ"
+      ],
+      "price": {
+        "observations": [
+          50.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          82.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "D727FA8641B41D1FA6FAD954EE6689A23C433F38C1AD3C7B120F7C001E879CA4": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Jõgeva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lemeks Jõgeva AS"
+      ],
+      "price": {
+        "observations": [
+          50.1
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          400.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "306BAF796A63DA32EACAFF0860B8038EC70680345A73891FF49A5DDC2DB0178A": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Põlva"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          50.15
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2237.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "EE0FE63C030622EC8059AC9BEBFB031106FFB3071C5619B67A7C92610D8862EB": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Reola"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          50.15
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2000.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "39A7C8F590C9432E30E685B306FDCD8E978AC5C537B5724E68D60E4B8EFD27AD": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Sangaste"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          52.05
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3000.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "0B80C739FA23CAA55B94C2401356A2B29B4B32D81CCF68463A8FDA404DB4A6AC": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Veriora"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          51.05
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2504.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "D55E840E047368BCD5F2FD2B227286F0A78590B737A3FC1390859329A13C64DF": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Võru"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "price": {
+        "observations": [
+          50.05
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          2057.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "9E90A6A07932AA3948A0FF06FE7C6B9BE72F00AA6581678E0EB7A4E6CFF6DDFB": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Varese"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Osula Graanul OÜ"
+      ],
+      "price": {
+        "observations": [
+          50.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          660.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "831B6A04BBCE09243E7B0C1691247902D8A4BDFF13CDDEA836C949D34A860DAC": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Oisu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "PA Kaubandus OÜ"
+      ],
+      "price": {
+        "observations": [
+          53.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          300.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "2CA7EC4808DB81815243F464528FCE3F6C2C0ED65B00E1F2B6C4AD482F3163AC": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Kunda"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 20,
+      "buyers": [
+        "Södra Forest Estonia OÜ"
+      ],
+      "price": {
+        "observations": [
+          59.29
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          100.0
+        ],
+        "phases": [
+          "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "44009473B4FEF0A30AFE27C4B51B08736A36AEA85B00DE791E01AB84A8437D5D": {
+      "descriptor": {
+        "product": "Männipost",
+        "measurement_fingerprint_sha256": "8E544A49ED28A286C428147697C70898D62B8CA836387EC04EE94169A62A19C4",
+        "destination": "Müüja ladu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 21,
+      "buyers": [
+        "Rahel-Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          122.54
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          468.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "3246485FEB9B42EA0586820427DD7FEAAD3030CC0D02098C5184B8647A9F5270": {
+      "descriptor": {
+        "product": "Kuusepost",
+        "measurement_fingerprint_sha256": "A5868338D434F1C616961F432FCFA86E44F63093F497AEB9B5B294D6A4869AD7",
+        "destination": "Müüja ladu"
+      },
+      "source_event": "2025-02-26",
+      "source_object_id": 22,
+      "buyers": [
+        "Rahel-Puit OÜ"
+      ],
+      "price": {
+        "observations": [
+          115.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          81.0
+        ],
+        "phases": [
+          "M03-M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "D2A9B3D07DF0467C634A6FEADD7B8FE4A30E00B011BF9D69FB9E9109653DC36C": {
+      "descriptor": {
+        "product": "Hakkpuit",
+        "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+        "destination": "Heltermaa"
+      },
+      "source_event": "2025-03-20",
+      "source_object_id": 1,
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "price": {
+        "observations": [
+          48.6778
+        ],
+        "phases": [
+          "M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3561.151079136691
+        ],
+        "phases": [
+          "M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    },
+    "4BB57399ACAFD469FF0DDCC5987747EC218E4A6AE5A7FEF64E28E3F456E7D8F1": {
+      "descriptor": {
+        "product": "Hakkpuit",
+        "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+        "destination": "Kuressaare/Ninase"
+      },
+      "source_event": "2025-03-20",
+      "source_object_id": 1,
+      "buyers": [
+        "United Loggers OÜ"
+      ],
+      "price": {
+        "observations": [
+          48.65
+        ],
+        "phases": [
+          "M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "volume": {
+        "observations": [
+          3199.2805755395684
+        ],
+        "phases": [
+          "M04-M05-M06"
+        ],
+        "m1_innovations": []
+      },
+      "weights": {
+        "activated": false,
+        "common_support_events": 0,
+        "log_evidence": {
+          "M0": 0.0,
+          "M1": 0.0,
+          "M2": 0.0
+        }
+      }
+    }
+  },
+  "local_cell_count": 116,
+  "price_observation_count": 116,
+  "volume_observation_count": 116,
+  "posterior_observation_count": 232,
+  "reset_occurred": false,
+  "pooling_occurred": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

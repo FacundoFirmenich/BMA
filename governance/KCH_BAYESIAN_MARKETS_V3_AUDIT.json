@@ -1,0 +1,374 @@
+{
+  "schema": "kch-bayesian-markets-v3-audit/v1",
+  "generated_at": "2026-08-21T23:20:26.0448218+02:00",
+  "status": "PASS",
+  "checks": 59,
+  "failures": 0,
+  "adverse_states_asserted": [
+    "RMK_M2_NOT_ESTIMABLE",
+    "RMK_2026_04_28_NO_FROZEN_OFFER",
+    "RMK_2026_06_30_SCHEMA_PREEXPOSED",
+    "ARGENTINA_AND_RC15_BYTE_CUSTODY_GAPS",
+    "UCII_DOUBLE_COUNTING_LEGACY_NONAUTHORITATIVE",
+    "IPI_PAYLOAD_NOT_RECOVERED",
+    "EUROSTAT_JULY_INCOMPLETE_PANEL",
+    "EUROSTAT_LATEST_VERSION_ONLY_API",
+    "COMTRADE_QUARANTINE"
+  ],
+  "details": [
+    {
+      "name": "contract.exists.canonical/CLASSIFICATION_INDEX_V7.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.canonical/CLASSIFICATION_INDEX_V7.csv",
+      "pass": true,
+      "observed": "0D63A383C4BC742051C27D4CCC6094CA123DCFD1AAA76985A1FA79716F45FC5D",
+      "expected": "0D63A383C4BC742051C27D4CCC6094CA123DCFD1AAA76985A1FA79716F45FC5D"
+    },
+    {
+      "name": "contract.exists.reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md",
+      "pass": true,
+      "observed": "042D66FF64EA8779E26AD55F8DD2CF5762591B5F39FB56C0E0E5CC336F7DA928",
+      "expected": "042D66FF64EA8779E26AD55F8DD2CF5762591B5F39FB56C0E0E5CC336F7DA928"
+    },
+    {
+      "name": "contract.exists.governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv",
+      "pass": true,
+      "observed": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08",
+      "expected": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08"
+    },
+    {
+      "name": "contract.exists.governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE",
+      "expected": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE"
+    },
+    {
+      "name": "contract.exists.governance/BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": "57A66AB430684758414EB3B43BEFD7E2BF9AAE41019D8C9AB84E47C542FDB46C",
+      "expected": "57A66AB430684758414EB3B43BEFD7E2BF9AAE41019D8C9AB84E47C542FDB46C"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V2.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V2.csv",
+      "pass": true,
+      "observed": "7E1BC69EB2E36F575D32182D273CE55B93F5C0E4D30279D687C432B9AC0787F6",
+      "expected": "7E1BC69EB2E36F575D32182D273CE55B93F5C0E4D30279D687C432B9AC0787F6"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "pass": true,
+      "observed": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71",
+      "expected": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "pass": true,
+      "observed": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E",
+      "expected": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E"
+    },
+    {
+      "name": "contract.exists.preregistrations/BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2.json",
+      "pass": true,
+      "observed": "F23DEF9F22A6B8A254A64706A2D89BA6F2BACFF9AA73659901B0A8967DE82CCF",
+      "expected": "F23DEF9F22A6B8A254A64706A2D89BA6F2BACFF9AA73659901B0A8967DE82CCF"
+    },
+    {
+      "name": "contract.exists.outputs/BAYME_INDUSTRIAL_CORAL_INTEGRATION_V3_20260821_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.outputs/BAYME_INDUSTRIAL_CORAL_INTEGRATION_V3_20260821_ES.md",
+      "pass": true,
+      "observed": "7C3EC472137404464036CD8A5754311CFA174DABC6ECCDE8D16AC5B9BEFEE2DE",
+      "expected": "7C3EC472137404464036CD8A5754311CFA174DABC6ECCDE8D16AC5B9BEFEE2DE"
+    },
+    {
+      "name": "contract.exists.governance/KCH_BAYESIAN_MARKETS_V2_AUDIT_REFRESH_20260821.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/KCH_BAYESIAN_MARKETS_V2_AUDIT_REFRESH_20260821.json",
+      "pass": true,
+      "observed": "3A7EE5151C24B78C0A369324EBC2C53415F2546CB7449C34C2A5B1D073008071",
+      "expected": "3A7EE5151C24B78C0A369324EBC2C53415F2546CB7449C34C2A5B1D073008071"
+    },
+    {
+      "name": "contract.mission_hash",
+      "pass": true,
+      "observed": "7DAD4EC7F3292148844FEE071ABE1DE1F69CA4F6E7CE56380D0B4C419F9DAA18",
+      "expected": "7DAD4EC7F3292148844FEE071ABE1DE1F69CA4F6E7CE56380D0B4C419F9DAA18"
+    },
+    {
+      "name": "receipt.contract_hash",
+      "pass": true,
+      "observed": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D",
+      "expected": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D"
+    },
+    {
+      "name": "index.rows",
+      "pass": true,
+      "observed": 31,
+      "expected": 31
+    },
+    {
+      "name": "index.bpm",
+      "pass": true,
+      "observed": 11,
+      "expected": 11
+    },
+    {
+      "name": "index.bum",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.hbp",
+      "pass": true,
+      "observed": 15,
+      "expected": 15
+    },
+    {
+      "name": "index.unclassified",
+      "pass": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "index.unit.bpm-rmk-estonia-timber",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.unit.bpm-spain-port-activity-observer",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.unit.hbp-eurostat-sts-industrial-production",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.unit.hbp-eurostat-prodcom-product-support",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.unit.hbp-eu-ted-institutional-demand-observer",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "rmk.audited_events",
+      "pass": true,
+      "observed": 14,
+      "expected": 14
+    },
+    {
+      "name": "rmk.audits_pass",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "rmk.audit_checks",
+      "pass": true,
+      "observed": 646.0,
+      "expected": 646
+    },
+    {
+      "name": "rmk.posterior_cells",
+      "pass": true,
+      "observed": 388,
+      "expected": 388
+    },
+    {
+      "name": "rmk.posterior_observations",
+      "pass": true,
+      "observed": 1008,
+      "expected": 1008
+    },
+    {
+      "name": "rmk.M1_cells",
+      "pass": true,
+      "observed": 30,
+      "expected": 30
+    },
+    {
+      "name": "rmk.M2_cells",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "rmk.no_reset",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "rmk.no_pooling",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "rmk.april_not_estimable",
+      "pass": true,
+      "observed": "NOT_ESTIMABLE_NO_FROZEN_OFFER",
+      "expected": "NOT_ESTIMABLE_NO_FROZEN_OFFER"
+    },
+    {
+      "name": "rmk.june_preexposed",
+      "pass": true,
+      "observed": "NOT_ESTIMABLE_SCHEMA_PROBE_PREEXPOSURE",
+      "expected": "NOT_ESTIMABLE_SCHEMA_PROBE_PREEXPOSURE"
+    },
+    {
+      "name": "rmk.future_closed",
+      "pass": true,
+      "observed": "FUTURE_EVENT_NOT_OCCURRED_BODY_CLOSED",
+      "expected": "FUTURE_EVENT_NOT_OCCURRED_BODY_CLOSED"
+    },
+    {
+      "name": "hbp.ledger_rows",
+      "pass": true,
+      "observed": 6,
+      "expected": 6
+    },
+    {
+      "name": "hbp.ucii_legacy",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "hbp.eurostat_not_estimable",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "screen.rows",
+      "pass": true,
+      "observed": 8,
+      "expected": 8
+    },
+    {
+      "name": "screen.indec",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "screen.prodcom",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "screen.comtrade_quarantine",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "coral.no_posterior_transfer",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "coral.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "coral.no_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "prereg.not_started",
+      "pass": true,
+      "observed": "FROZEN_DESIGN_NEW_DATA_ACQUISITION_NOT_STARTED",
+      "expected": "FROZEN_DESIGN_NEW_DATA_ACQUISITION_NOT_STARTED"
+    },
+    {
+      "name": "receipt.custody_gap",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "contract.no_automatic_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    }
+  ]
+}

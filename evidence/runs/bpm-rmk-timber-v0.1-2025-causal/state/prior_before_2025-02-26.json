@@ -1,0 +1,21 @@
+{
+  "schema_version": "bpm.rmk.timber.local-prior.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "target_event": "2025-02-26",
+  "created_before_offer_body_opening": true,
+  "software_addendum_sha256": "436D585ED51E32DFB18F5604305B95F0435367D07479E42E827A834F04A05AE3",
+  "historical_2023_2024_use": "ELIGIBILITY_ONLY_EXCLUDED_FROM_MODEL_STATE",
+  "local_cells": {},
+  "outcome_states": {
+    "awarded_price_eur_per_m3": {},
+    "awarded_volume_m3": {}
+  },
+  "common_support_weights": {},
+  "posterior_observation_count": 0,
+  "Z_post_observation_count": 0,
+  "reset_occurred": false,
+  "pooling_occurred": false,
+  "result_payload_opened": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

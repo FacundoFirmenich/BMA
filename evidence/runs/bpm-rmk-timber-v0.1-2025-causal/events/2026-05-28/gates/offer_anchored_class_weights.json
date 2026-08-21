@@ -1,0 +1,14 @@
+{
+  "schema_version": "bpm.rmk.offer-anchored-class-weights.v0.2",
+  "event_date": "2026-05-28",
+  "state": "FROZEN_BEFORE_ANY_RESULT_BODY_OPEN",
+  "weights_by_object": {
+    "1": [0.23, 0.77]
+  },
+  "source": {
+    "object_id": 1,
+    "offer_note": "diam 16-24,4 cm 23%, 24,5-60 cm 77% kogusest"
+  },
+  "unlisted_multiclass_objects": [],
+  "invented_weights": false
+}

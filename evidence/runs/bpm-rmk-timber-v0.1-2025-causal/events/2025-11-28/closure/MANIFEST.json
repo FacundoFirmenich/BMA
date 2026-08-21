@@ -1,0 +1,76 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.8",
+  "event": "2025-11-28",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/raw/EP_objektid_pakkumuse-vorm_hakkpuit_28.11.2025.xlsx",
+      "bytes": 25667,
+      "sha256": "006D357F617CC7C2F2E8B86D51D63CDEF55104B9967CC83238E52DD1F7ABDCF2"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/raw/Edukad_EP_28.11.2025.xlsx",
+      "bytes": 22997,
+      "sha256": "FA1D8CFCCE8231E5EC3769D6D3875E5FEECE75A0D30A90D3B90C1A472DF3BD9C"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/structured/offer.json",
+      "bytes": 3265,
+      "sha256": "6C7CD6F9A8B230C2FCF9B691D900446CBA3B78D7F1BF4252A5B819C2A8ECA311"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/structured/result.json",
+      "bytes": 3307,
+      "sha256": "2799BDA8BEFDC15371179E5E5903E2C785DE6DE4D47AD59F7B45A7BC896DA70C"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/freeze/freeze.json",
+      "bytes": 3877,
+      "sha256": "ED1DFE3C5C23EED21D5991FCDF268DA0EBC8B52514A7BBAA420814DADC31CA8E"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/gates/pre_result_gate.json",
+      "bytes": 1281,
+      "sha256": "3E8B474A502F46CB1F06911D678C9FB5C9B8A6AFA59B073951E87F1A78782CFB"
+    },
+    {
+      "path": ".artifact_probe/extract_rmk_hakkpuit_offer_v0_2.mjs",
+      "bytes": 4474,
+      "sha256": "F94FBC845E176F9F0CA5C6A6A55388E30D85F0CFC2ED042FB4D133E8CA9750FB"
+    },
+    {
+      "path": ".artifact_probe/extract_rmk_hakkpuit_result_v0_2.mjs",
+      "bytes": 3421,
+      "sha256": "26E59D4F8A6859C90ED4620158D273F712F0C12451CE44C196FD698B5CBED1CC"
+    },
+    {
+      "path": "scripts/freeze_rmk_hakkpuit_offer_v0_2.py",
+      "bytes": 4056,
+      "sha256": "6CAE6389A61363768E2CA5C15450A1C5D0470A42F46694A16ACF314404C5EBDE"
+    },
+    {
+      "path": "scripts/close_rmk_hakkpuit_event_v0_2.py",
+      "bytes": 8463,
+      "sha256": "F9B17DB9BD01A46ABD18F553EF1AC05C7F577D065CE27100B68775E3E3E37EAA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/closure/local_scoring.json",
+      "bytes": 2086,
+      "sha256": "C013A6B5217559E38C5AF5EC8552C0C47A98A214999B02F6B0DD57CD74A28C5E"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/closure/adjudication.json",
+      "bytes": 916,
+      "sha256": "E6B95FA847EAE315E3050503A3FD103B1DA80FAC3648105456B40FF0140090FE"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/closure/prior_after_2025-11-28.json",
+      "bytes": 300699,
+      "sha256": "4C43056DDEC66B3A0A3D91DBF0AC92AC4FAAC837CFA4C958E12A9E367EA43F7A"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-11-28/closure/z_post_2025-11-28.json",
+      "bytes": 470845,
+      "sha256": "D5E9447265941D008019F8604CFAB61CF6DF1AE203CA488E9603964DBAB895FC"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "bpm.rmk.offer-location-repair-receipt.v0.1",
+  "event_date": "2025-05-06",
+  "timing": "AFTER_PAIRED_RESULT_DOWNLOAD_BEFORE_RESULT_STRUCTURING_POSTERIOR_UPDATE_OR_SCORING",
+  "defect": "The offer extractor searched for Kokku in the wrong worksheet column and represented missing location totals as matching.",
+  "repair": "Accept Kokku in either supported location-sheet label column and represent a missing total as null rather than true.",
+  "frozen_offer_preserved_sha256": "A005A4C289ACE0CDC05C7A8C15106BA22E12D69D7CCBC5C8BFB8EA59C0F00A80",
+  "freeze_preserved_sha256": "4D82B699FD3CB9E1D2796F944350E212F32BB23EA8E3684850C3199EAABC1D68",
+  "repaired_offer_sha256": "A25BE956571EFE3A2495EEC902AF804133C5A06AF5AF8B71773F5F8D7345F03E",
+  "corrected_extractor_sha256": "3ACC9AA7E9ADF24B7143625ED16F00A4F77148E3E52C54733F3EFDD483118DA6",
+  "paired_result_raw_sha256": "FA52581886D28FF22C764FBB22E71669CAA0F2D6C1BE852E9B3DE1D155F85171",
+  "predictive_semantic_object_differences": [],
+  "location_totals_m3": {
+    "1": 2761,
+    "2": 11850,
+    "3": 7711,
+    "4": 11856,
+    "5": 748,
+    "6": 687
+  },
+  "all_location_totals_match": true,
+  "freeze_rewritten": false,
+  "posterior_changed_at_detection": false,
+  "scores_changed": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

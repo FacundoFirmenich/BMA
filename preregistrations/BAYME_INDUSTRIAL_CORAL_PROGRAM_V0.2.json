@@ -1,0 +1,57 @@
+{
+  "preregistration_id": "BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2",
+  "status": "FROZEN_DESIGN_NEW_DATA_ACQUISITION_NOT_STARTED",
+  "frozen_at": "2026-08-21",
+  "governing_contract": "governance/BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1.json",
+  "objective": "Test whether local own-history dynamics and separately lagged physical or institutional observers improve the next official industrial outcome within each country-activity or product-market cell.",
+  "prospective_chains": [
+    {
+      "chain": "ARGENTINA_IPI_UCII_NEW_VINTAGES",
+      "outcome": "official INDEC first release by national or sector cell",
+      "rule": "month t predicts month t+1 only",
+      "legacy_freezes": "evidence only; never governs new posterior"
+    },
+    {
+      "chain": "EUROSTAT_STS_COUNTRY_NACE",
+      "outcome": "sts_inpr_m PRD excluding energy, gas and electricity",
+      "rule": "month t predicts month t+1 only",
+      "vintage": "capture response bytes and update timestamp before later API replacement"
+    },
+    {
+      "chain": "RMK_FUTURE_AUCTIONS",
+      "outcome": "next comparable public offer-result auction event",
+      "rule": "event e predicts exactly event e+1 within physical identity and destination jurisdiction"
+    }
+  ],
+  "support_layers": [
+    {"source": "Eurostat Prodcom", "role": "annual product identity and scale support", "scoring_authority": false},
+    {"source": "Puertos del Estado", "role": "lagged physical flow observer", "scoring_authority": false},
+    {"source": "TED", "role": "lagged CPV-NUTS event count observer", "scoring_authority": false}
+  ],
+  "model_families": [
+    "M0 local persistence or preregistered seasonal naive",
+    "M1 sequential local dynamics",
+    "M2 local seasonality after distinct-event same-phase support",
+    "M3 observer-augmented nested model only after local support gates"
+  ],
+  "minimum_gates": {
+    "freeze_hash_before_outcome": true,
+    "source_schema_and_units_frozen": true,
+    "first_release_bytes_and_timestamp_frozen": true,
+    "minimum_local_support_declared_per_cell": true,
+    "observer_publication_available_before_cutoff": true,
+    "missing_or_late_outcome": "NOT_ESTIMABLE_OR_ABSTAIN",
+    "schema_probe_payloads": "EXCLUDED_FROM_FIT_AND_SCORE"
+  },
+  "scoring": ["log score", "CRPS", "absolute error", "absolute log error for positive quantity", "interval coverage", "abstention and support counts"],
+  "forbidden": [
+    "global winner",
+    "automatic promotion",
+    "cross-jurisdiction posterior pooling",
+    "N months condensed into one target",
+    "reconstructed historical freeze from later official publication",
+    "gas electricity or administered-price target",
+    "contract value interpreted as market price",
+    "annual Prodcom support interpreted as monthly outcome"
+  ]
+}

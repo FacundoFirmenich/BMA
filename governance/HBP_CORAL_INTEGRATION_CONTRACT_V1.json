@@ -1,0 +1,71 @@
+{
+  "contract_id": "HBP_CORAL_INTEGRATION_CONTRACT_V1",
+  "date": "2026-08-21",
+  "canonical_family": "HBP",
+  "purpose": "Integrate heterogeneous territorial and systemic campaigns through a common evidence state machine without pooling their likelihoods, posteriors, scores or authority.",
+  "coral_definition": {
+    "is": [
+      "a typed graph of campaign-local evidence states",
+      "a common interface for causal sequencing, custody and adjudication",
+      "a basis for cross-campaign diagnostics that never creates decision authority"
+    ],
+    "is_not": [
+      "a pooled likelihood",
+      "a single posterior",
+      "a global leaderboard or winner",
+      "permission to translate one jurisdiction's support into another"
+    ]
+  },
+  "required_state_fields": [
+    "campaign_id",
+    "jurisdiction",
+    "target_or_claim",
+    "temporal_unit",
+    "information_cutoff",
+    "frozen_prediction",
+    "outcome_vintage",
+    "local_adjudication",
+    "closed_posterior",
+    "model_specific_Z_post",
+    "separate_Z_XPL",
+    "future_prior",
+    "support_or_abstention",
+    "custody_state",
+    "local_authority_boundary"
+  ],
+  "causal_order": [
+    "freeze",
+    "official_first_release_outcome",
+    "local_adjudication",
+    "closed_posterior",
+    "model_specific_Z_post",
+    "future_prior"
+  ],
+  "hard_invariants": {
+    "one_temporal_unit_predicts_exactly_the_next": true,
+    "posterior_accumulates_without_reset": true,
+    "Z_post_accumulates_without_reset": true,
+    "N_to_1_pooling_for_one_target_forbidden": true,
+    "double_counting_forbidden": true,
+    "Z_post_is_not_residual_z": true,
+    "Z_post_is_not_Z_XPL": true,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "information_bearing_nonterminal_states": [
+    "NOT_ESTIMABLE",
+    "ABSTAIN",
+    "OUTCOME_PENDING",
+    "CUSTODY_GAP",
+    "PERSISTENCE_FAILED",
+    "LEGACY_ZPOST_NONAUTHORITATIVE",
+    "DOUBLE_COUNTING_INVALID"
+  ],
+  "integrated_units": [
+    "hbp-argentina-ipc",
+    "hbp-argentina-ucii",
+    "hbp-argentina-ipi",
+    "hbp-eu27-eurostat"
+  ],
+  "evidence_source": "native Codex conversations read to EOF plus retained source hashes; exact payload bytes remain missing where ledger says so"
+}

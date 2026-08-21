@@ -1,0 +1,17 @@
+{
+  "schema_version": "bpm.rmk.software-correction.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "recorded_at": "2026-08-21",
+  "timing": "AFTER_2025-06-26_OFFER_OPEN_BEFORE_ANY_EVENT_FREEZE_OR_RESULT_OPEN",
+  "affected_event": "2025-06-26",
+  "defect": "Repeated regional rows carrying the same diameter/class label could duplicate that label in the measurement fingerprint; an empty regional starting-price cell could be coerced to numeric zero.",
+  "semantic_rule_frozen_prospectively": "Measurement classes are unique ordered labels within each offer object. Regional quantity rows may repeat a class without creating a second class. Empty starting-price cells remain null.",
+  "source_offer_sha256": "F075A37E41725A6D98585A513FC8ECCBA7FFA6F5C31BA31D9EFC077DA7B8B02E",
+  "corrected_extractor_sha256": "0243FAE48763915F05EE21049F96BC16A625BA19131975C72E624D8417C76BFE",
+  "result_payload_opened": false,
+  "posterior_changed": false,
+  "scores_changed": false,
+  "historical_outputs_rewritten": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

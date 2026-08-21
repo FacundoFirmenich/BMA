@@ -1,0 +1,79 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.3",
+  "event_date": "2025-08-22",
+  "freeze_sha256": "48881C255660ECEB251CE9A1CF7E32B2FEA5CE1CDA34B34A8CF3C8DCA014D969",
+  "raw_result_sha256": "37C1F8EE8B795B960207F5F2367B0879DA260034ABED9CA0D3AC5709F80B272E",
+  "structured_result_sha256": "741A9214546AFC99AC10861EB09992C4FFC29B7F112693B4BEC5A36ADA137AC3",
+  "local_scoring_sha256": "5B52500DBF6AACE15466749071A90252592C76CAED6F3A50FE9919EBE2BFAB71",
+  "award_rows": 40,
+  "local_outcomes": 37,
+  "updated_prior_cells": 18,
+  "new_local_cells": 19,
+  "total_awarded_volume_m3": 44861,
+  "objects_full_coverage": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13
+  ],
+  "objects_partial_coverage": [],
+  "objects_over_coverage": [],
+  "unawarded_objects": [],
+  "not_estimable_source_objects": [
+    {
+      "object_id": 2,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_UNVERIFIED_OR_DISAGREEMENT"
+    },
+    {
+      "object_id": 8,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    },
+    {
+      "object_id": 9,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    }
+  ],
+  "quarantined_outcomes": [
+    {
+      "object_id": 8,
+      "product": "Haavapaberipuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2023",
+      "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+      "awarded_volume_m3": 735,
+      "effective_weighted_price_eur_m3": 40,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2024",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 3900,
+      "effective_weighted_price_eur_m3": 54.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    }
+  ],
+  "scored_predictions": 18,
+  "scoring_state": "M0_POINT_ONLY_EXACT_LOCAL_DESTINATIONS",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.3",
+  "event_date": "2026-05-28",
+  "state": "GENERAL_FREEZE_HASHED_ALL_RESULT_BODIES_CLOSED",
+  "raw_offer_sha256": "BECAF1D777E3F9725C43E08B483B04AE3EF325C86A4F94C8D9F59B23AFC1DB85",
+  "original_structured_offer_sha256": "9B8BA69024DE3A0F454FEF7EBCA4737EC5C7630E84F574D685005CC27FDABD12",
+  "stocklot_semantics_amendment_sha256": "3B3B402C57983F1AD81CC1EE4B273199E4D725C9ECCC9A79FE3DA7FBDCAA5D85",
+  "stocklot_repair_software_sha256": "CD52A859A47717F9D3F3FE27A0603498ACB953FBF427B0734A2D4C3BCD1AB7DF",
+  "structured_offer_sha256": "CB433CB7E9531A93F5850D11E708E1DDEB94B53431AA3A3AA52BF1AF9E5A1681",
+  "offer_weights_sha256": "A84AAEFF1D9D1CAACB57D6FC8D63C4B9E0C02BD41BCD6031AB455FF999350926",
+  "unpaired_hake_quarantine_sha256": "B32A9C91C9AA9CA83B2C3130D08E4F1D038D5E05C8FA4EF7185CB383B5C6AA08",
+  "parent_prior_sha256": "5E9EDFEE38C009CE37D6943DD462ECA29BE5FB4E7A8FA39BFC5C6C1161EB89B9",
+  "freeze_sha256": "747E6DE78861CE9654E1D0A1E78C5B13576A16B70DDF89C99E648C6F95A6AD2E",
+  "frozen_prediction_counts": {"M0": 0, "M1_price": 0, "M1_volume": 0, "M2_price": 0, "M2_volume": 0},
+  "general_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/05/Edukad_EP_28.05.2026.xlsx",
+    "body_opened": false,
+    "opening_authorized": true
+  },
+  "hake_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/05/Edukad_hake_EP_28.05.2026.xlsx",
+    "body_opened": false,
+    "opening_authorized": false,
+    "state": "QUARANTINE_UNPAIRED_RESULT_NO_FROZEN_OFFER_COMPONENT"
+  },
+  "invariants": {
+    "same_event_batch_scoring": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

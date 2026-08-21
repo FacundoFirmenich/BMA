@@ -1,0 +1,14 @@
+{
+  "schema_version": "bpm.rmk.pre-result-gate.v0.2",
+  "event_date": "2025-12-05",
+  "state": "FREEZE_HASHED_RESULT_BODY_CLOSED",
+  "raw_offer_sha256": "2F580FE5BD6048412A2ABC461F40E910584E82DC365B142DB80A798FCEF74A81",
+  "structured_offer_sha256": "7123BC15A3DE59D3EDE38EA449DF64AC817B7DF312545D9043529D0705E98EDA",
+  "parent_prior_sha256": "4C43056DDEC66B3A0A3D91DBF0AC92AC4FAAC837CFA4C958E12A9E367EA43F7A",
+  "offer_weights_sha256": "1AA3568D71C3C97A61A74F107A7A9CEBFCBF3D9A86D291F3390BDC528C7F6E2C",
+  "freeze_sha256": "0BD7DDBBE5569E32F2217DFA27F9F32CDC6B86D01996A568E096DA75A80997AF",
+  "frozen_prediction_counts": {"M0": 18, "M1_price": 1, "M1_volume": 1, "M2_price": 0, "M2_volume": 0},
+  "frozen_M1_cell": {"object_id": 10, "product": "Kuusepaberipuit", "destination": "Paldiski", "price_M0": 53.13, "price_M1": 54.6418115420304, "volume_M0": 611.0, "volume_M1": 669.6154323854256},
+  "result": {"url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_05.12.2025.xlsx", "body_opened": false},
+  "invariants": {"same_event_batch_scoring": true, "posterior_reset": false, "pooling_n_to_1": false, "global_winner": false, "automatic_promotion": false}
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.4",
+  "event_date": "2026-05-28",
+  "freeze_sha256": "747E6DE78861CE9654E1D0A1E78C5B13576A16B70DDF89C99E648C6F95A6AD2E",
+  "raw_result_sha256": "56A0089906F405C88C7ED8A24EC46B6260CBB48AB403615DE17F7FFED261FF58",
+  "structured_result_sha256": "CEA2E204AA81F3920D23D8F17DA978D6B1750A33A3370630933A13EBE641F48E",
+  "local_scoring_sha256": "13B2BAE7DF4DBCF082F00E3DF7E30BA561821DCF95E83483DE73726E9874203C",
+  "award_rows": 7,
+  "local_outcomes": 7,
+  "updated_prior_cells": 0,
+  "updated_prior_outcomes": 0,
+  "new_local_cells": 7,
+  "new_local_outcomes": 7,
+  "total_awarded_volume_m3": 10166,
+  "objects_full_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "objects_partial_coverage": [],
+  "objects_over_coverage": [],
+  "unawarded_objects": [],
+  "not_estimable_source_objects": [],
+  "quarantined_outcomes": [],
+  "scored_predictions": 0,
+  "scoring_state": "M0_AND_WHERE_SUPPORTED_M1_EXACT_LOCAL_DESTINATIONS",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

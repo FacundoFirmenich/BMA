@@ -1,0 +1,19 @@
+{
+  "schema_version": "bpm.rmk.pre-offer-gate.v0.2",
+  "event_date": "2025-10-07",
+  "prior_after_event": "2025-08-22",
+  "prior_sha256": "A8232A48A705E6415D8AE839B49C4BF28AD33F7EF53AA032A2BC5A71A2727960",
+  "z_post_sha256": "6B9DD5460D831E9781136E31035B8EF83385D316897D528A14CE1E5D1F145F8D",
+  "previous_audit_sha256": "EDC498935DCC280E1BAE45A3DF868614F3CE8A89388D25F71DADDE2035471349",
+  "offer": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/09/Myygiobjektid_EP_07.10.2025.xlsx",
+    "body_opened": false
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad_EP_07.10.2025_II.xlsx",
+    "body_opened": false
+  },
+  "state": "SEALED_PARENT_VERIFIED_READY_TO_OPEN_OFFER_ONLY",
+  "global_winner": null,
+  "automatic_promotion": false
+}

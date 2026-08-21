@@ -1,0 +1,5260 @@
+{
+  "schema_version": "bpm.rmk.model-specific-Z-post.v0.1",
+  "after_event": "2025-02-26",
+  "adjudication_sha256": "3F17A7891AD8D5970EEE4362A9E313D17CCBB40647102BA3C52F5C4D83E9F6DA",
+  "future_prior_sha256": "3E5CE594125112AB436BA7405040CFCBFD5B97A20261C888607B84BA24929ECF",
+  "transition_contract": "OUTCOME_t_UPDATES_ONLY_PRIOR_FOR_NEXT_COMPARABLE_EVENT",
+  "Z_post_is_residual_z": false,
+  "Z_post_is_Z_XPL": false,
+  "Z_XPL_bilateral_thresholds": [
+    0.25,
+    5.25
+  ],
+  "reset_occurred": false,
+  "cells": {
+    "18C17671210761D052A3991F0DE7D46A8E817025351F215F07D2E4C66789DAED": {
+      "descriptor": {
+        "product": "Kasespoonipakk",
+        "measurement_fingerprint_sha256": "54B320BACC10DED063A0441122A5C1D4BCC4E5A225F8C8B355203A03FB4359D0",
+        "destination": "Kupu",
+        "calendar_phase": "M03-M04-M05"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "700D4D54F11E3A55DF68B889746A39726ABBCA39F64202121FBC9FD43FB3ABCC": {
+      "descriptor": {
+        "product": "Kasespoonipakk",
+        "measurement_fingerprint_sha256": "54B320BACC10DED063A0441122A5C1D4BCC4E5A225F8C8B355203A03FB4359D0",
+        "destination": "Otepää",
+        "calendar_phase": "M03-M04-M05"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "69E96B90C7F497A2AC7EBB8EDB9A6B756F1EF989889B6186565580EA64074732": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Reopalu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "196326F985B89B686C19CC0FDF16561CB15BF17C8A044A396EFA88E40646E12E": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Viruvere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "18CC025004260D9EC5267DC9150840C95AFBA594A9461BD2163494DA0946DD02": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Muuga",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A364C9B89A10C4727200F34F902E53339498596168A1F9CE4EB7A1C3F0648186": {
+      "descriptor": {
+        "product": "Kasepeenpalk",
+        "measurement_fingerprint_sha256": "0D90785FAB6CB38014EAED1A1847823459B78C4030732C0601E53DC879233E39",
+        "destination": "Selja",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A0C4B08812A9CB0004DF0417E6191AB8A4842AFCDB4169AC4C2E6907681730A5": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "BA607D86270A4E0FC3BF4D7B93E3106C4CC669E746BA517B5C27969DE04BE83C",
+        "destination": "Viruvere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CF82C8548C662E67BA81B3B1D30157570ECEFE672B6D5B60286E026A0CC1EEAD": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "BA607D86270A4E0FC3BF4D7B93E3106C4CC669E746BA517B5C27969DE04BE83C",
+        "destination": "Otepää",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "F197E36FF35AD77E028C18282C1FD91366D2388877044BC41AD34F065DBFEEB1": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "E29B03061ED900A4AF195CAF7D9280BB015FF411C3E96B1E4B9EEF40E1CBBE11",
+        "destination": "Kohila",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "DD4A8EBD0C8826192E6212214494EAC20D4AB24B485B1177F2EC5E76F61C0789": {
+      "descriptor": {
+        "product": "Kasepalk",
+        "measurement_fingerprint_sha256": "E29B03061ED900A4AF195CAF7D9280BB015FF411C3E96B1E4B9EEF40E1CBBE11",
+        "destination": "Otepää",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "933EA5168825C45AECF8D8A05506BC5860841568012FBAB39C99D0C662081740": {
+      "descriptor": {
+        "product": "Tammepalk",
+        "measurement_fingerprint_sha256": "825068783537E7DC6416FE9FB7EE49278E3F020D36BE893EFEDBFDD061C62EDB",
+        "destination": "Papsaare",
+        "calendar_phase": "M03-M04-M05"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "401232AF222D49AD968DF0DA9418DE1D4787CC0514EE5245B2F7E0B33438E7C3": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Erra",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "528BAF4BFC4CC0A129C8E94EA58C3EEACFC66C325F0F3D523720714CAB74A381": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Hänike",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "3A765F3A81637DD9C7FBABCEF8C3661280D8699B96AF0B9ED1B84BBD108CC36A": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Väike-Maarja",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "62492E88101F19A50C64E58DF16C9BCC8C323D41855D2B4FD3CB9A81408CFD37": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Tammiku",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6963B1674C1289E09647D30812AF8F89551A233ECA0F17B1651385BA25F17AC4": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Paide",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "F9C5219B031E6B8A2F6FCDE6FEB628312707B38A1145C17DCB44690D44A95CCA": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Kehra",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "BA245BF2C2FB2E9AF76DA14C749F891C0C53B386FCE2B3F69A60B93A5DAFD696": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Sargvere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "FC6A219362DAA1B839111FAEC85ACB16A3750E7CA971E4060187B6B03E7DCF47": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Selja",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "2F04E3A40CB3F5EA36649708A25EC925902888D35E74A3D84E270AB87748AB61": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Muuga",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6F5C3BCD077D8CF4BE68BC2044961022DF0FC251C52A8604C91133A139F8FED1": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Ulvi",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CA146FD45D306EBC66A0882075FCA66357F833A3662CD5225F890CDDCEAD7E4B": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Viivikonna",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "2C7A4566C609D8EDEE7CAC9D40121F730AB8A632F1A64E774B3F52B509476973": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Kunda",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "52575F2371EFC5E984663CD77959C76CBE2BC109E16362EEC574E1C4CEF61B72": {
+      "descriptor": {
+        "product": "Madalakvaliteediline kuuse- ja männipalk",
+        "measurement_fingerprint_sha256": "7B2FFB06CE8B2A7C6E4E5AD0C139137126DA12F8A03E9FC07CDD3D4F84CC017D",
+        "destination": "Põlva",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "4388984E465D924CA56CE3F4E2BF9C8B983C6BF670B46D4FE1D9E8DF11218C41": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "1B139C7154A765D2E046E1E5D90213BC57292FEA89E8ADD14A5A52C04B0296FB": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Jõgeva",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "612E7E5CD582EA85451B9BDEBA6174817DC671BAD4488F94F061F5599E2EC0DE": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Varese",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "AA5B3B3E5001CA5715FC6DA2813388B315F2ABC7EE93E915BCAE10BF0049EAD4": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vana-Võidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "7476A859E00C187F3136CA25909E04BA8BDAF172DAFE12CC48E0A4E4C10EDA86": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vasta",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "3168AD4219A9B6885183F24FA7594E42E66811A9C2F943331107AFE39966DCB1": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "7D2717CE06B43EC344F57C0637E19BBC00B762D53AD3891B90009D1139E4445B": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "F3A2EDFB3559378F2414D285A67279C2914D562B7CD40C5759210C3ECDEEAF64": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Varese",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "0B3579788D717E2D2E29F98F1BA1E544A0150AB86FD25B1E9CB5174DE5501800": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vara",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "8F916A10DBBFB2D5FD8EB2EA2F593CF8F65CED5D4A8B6FB44C8119688A632BC7": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vasta",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "0517455B6F810BA57A7156638272E0E52392DA80F63A55B2A16222D3ABD89A6D": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Verijärve",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "212437BF50DF3D70FFBBCF7AFD5AAAC83C383A6CAC1B04E57A750C99C6428FF2": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "BF018E39EBA87D341FFFD578178F5E5570E45B4085651879D7E36732B6900036": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "E6BCAC0CC277597E127076E5F2CF4EB88457C54BFEEEEE728DA04B04358DD717": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Adraku",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "62D08E5221BE00AE445A96C475C72115FE92FC89B719D39C9DB8066BEB2B2E5F": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Kuressaare",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "DB67A6FD954BCB7811A4C1E23628F950FE233470E33840327620FB13A3A073AD": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Marana",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "FB0B80CA92D00A7600E73E9D8E35DEE8206E991E7DC57F9D5C182ADE8DEDF225": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Verijärve",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "4333B14184CBBFFD204F6002A12A24BFD54917164C0E204AD5BB7F4C651A00DF": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Karilatsi",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6F94F2278B3546AD264D2CC50B3FED16E429CAA576382E64C9A8CC5F8512A559": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "BDD667F8702FDE074D2BD884029604D8D6E013C37264BF0D03DC03D75499A24D": {
+      "descriptor": {
+        "product": "Männipalk",
+        "measurement_fingerprint_sha256": "5EE17BDEFFCA197888E81AC5C237F45E13A0AE40C99002A56471250648FE2966",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "E687D2B28856C3B09B79982FC967FAB5F7EFE71B5CC4A843294957FA81324C1D": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6E546D37AE1D835B23C82612CADC5A6D2981222D686994A846595BF97B0C1AC2": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Varese",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "20D6B0A5256828CC74195723EA80074167A3B6F51F10E960E9B61B9F92C5D579": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vara",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "075F700806F63F3B53E7A54E48303324D1ECD40D2568C5522A3ED9604406BE8D": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vana-Võidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "BFBCFBAD0355FDB4A0D4DFB4F07FF6DF3C0794805BEDAE7795BEC0A089EFBCF8": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+        "destination": "Vasta",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "2CE45AB9D7A233B203E12E4B3CE9AE9EEC397F6A77F7F470EC8DF13114DF33DC": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "E479D2EC38059B8A1ADF81781368707CDD21373AD3B7D2C9524F26A894300227": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Reopalu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "618A8549ABD66DB1780B7D664E23AE758047793A56610C4EC4887B08900CBE49": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "67B0B1A6236858FF8A2AB0092E98B0A65EE117D715AC308B04ECDB9C1FEA2A3D": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Varese",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "895390EEFCB6006770AB2AA30E94BE97894490DB399BF4884B79B70362CCAC80": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vara",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "2F15ED0E22C6BA9EC6D32B89229A2DA772E6A73459181D67ACA02780C40299A3": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+        "destination": "Vasta",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "9A0BC52F1359FDC93C820B602E1E92568853974E01E4408F847A8D62CF826FEE": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Vastseliina",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "ABB4262E4EEABAFBE96CA0136A18933D5BAAE91314D75B33B6495E53DBA08C5D": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Umbsaare",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "14AB31AA3384985D01BF3BE73E81BBE4EFEA9137312449993AFDA4FD2F5B248C": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "9243A52F866F03934B0F094EB73BFDD8B632A97174764AAA38371B442DF8D2FE": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+        "destination": "Hänike",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "9260A82C9E973541F7234D9B3F83E1141113F2CF3E5467F0E60BC1990C8EFF47": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Vastseliina",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "93CB0431FD5504C8E8C377E75F085253330D0AC4F36442C441334D5840D9C9DC": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Imavere",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "5CBCBC179C8578EC6507A63DFB819EFC02EC25A07DF4E889507F1BB6C205E396": {
+      "descriptor": {
+        "product": "Kuusepalk",
+        "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+        "destination": "Hänike",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CB273B3BE1F555D16F835F337A7B204BC3709C91992680CB558BF1224936E5F2": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Paldiski",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "D3321709F36AB5E408DA5039A8F363F931FEAB9DCD79C5415FCF0681E1286A9B": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Malla",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CB3989F9F5A45A8EB8DC4C4DA85562F101A563E506AB126334A17DB2DA3569B3": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Jõune",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "27A2CC2B1D0E8C3B0192796AFD972E3A0A18154764602F934A7D3A59B0E7DA02": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kuru",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "707897153D40688E85F8F896E1DCDB4933BBDBFF7783C8DE2E36C01D052B79E9": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Oomiste",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "985E5329C0C8C94DCC5244095BD1FB2268341587193F81A58D3D09513440CF28": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Patküla",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "930CA4B41CA26C8147A012994814DDF062CCCD7D8ED1A69B6A94349EE22515F0": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Sirvaste",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "7407957150C8440B618CC085104BA02C2985A84020BC5A910D955FA135DCE9D7": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Jõgeva",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "58C6CA1F4A735AA2187849F9B8239EC6C02B639DAB01CAAF5A63ADD162F80DA8": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Roiu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "DB33DFDA82E9DB03BAE7C2943B814D322F9A31783FE4288776236B452F319BE2": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Reola",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6C3C1B6BFEEC91AFF1E5350E7C1E4B86C0EFDBBD7C08A41E7FD53620500F66BB": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Päinurme",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A94E3C70C2CC2CE2CE4056454DA716CCB4704B5C56A462B0995BB967289AAEBE": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Varese",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "DA7DCCFC89E271E30D1FAA3C2EA023019D30E1108ACBEDDD1DB881548AD16E73": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Oisu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "3D70899121AD19CDD2100EA94220A739EE9D7AEFC78B75163AAABC0E2F57CD37": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Roomassaare",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "BDC2253623E7A7D1EEF450B0E7C6D45930A8CFC0082A69173F83F50E653134B8": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Võru",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "62CB5272AEA4BBF61905525D643CE4A75677E75EC612341E78581F55D6737187": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kunda",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "17F9981AB05963650B8A9BB06FC720C2C12E9A08D3EF55F1A49E8BE0EC0D9E17": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Pärnu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "24E0ECED5BC5BE00E3165BC10B13BBFA3E53C73BCC4176EC43BBDE904896894C": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Aegviidu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "82B55188FB5FD6B83E5D364837C4D3199891935FA2C5F0D5F117037DF757D73C": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Kuningaküla",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "0202D3B09C4045F62B8CF1F049ACCF9B01D1761B2E07D590DE1BA104BF462D8B": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Sillamäe",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "69C29919107A8D7F54CAD412915F2D245E43EC17E05ED011FB23F65CFD9B1F69": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Lobotka",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "17E8CE136BA22E46A7027D72DFFFF3535A552FDDC0AE5DF3D4D7A01D5CEF1F27": {
+      "descriptor": {
+        "product": "Kasepaberipuit",
+        "measurement_fingerprint_sha256": "7563402B11CA0BA44616FB1BB990C5BD9A3D693EA7407EA551A80861DBA5768D",
+        "destination": "Türi",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "57A959B3DD8334D9997C7907DCED856C94636D94D7C72CCF39B02F4D1AE3C2F5": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Heltermaa",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "51333B0D05D451889C99EDA3E855BF7D2BFF0E8E3672577B394B2E680A4DD125": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kehra",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "E6AB6E4529A7659DD21617E3E004E281383A9353A57BEAE4E008F0991FF3C828": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Paldiski",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "92B03D034B8B6FDB62BDF2D8B840167FA177D29C38B5D9BD8FF1ED324682FE91": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Oisu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "F1D5B8AC38D5017D0D377C9B98B7B4E7E728CB34CFE9B5EF16D6A5904CB8FA86": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Roomassaare",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A6BB46777A7F6974567A2597B8B22A4211ABE934D2EFD35142DD6F594B764197": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kunda",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CEFA5583429142939F5AD17C181030B38A56A53C75963E525B210636EEA9E271": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Pärnu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "E2F86245D2FD277C245C8DDE91264BBAD7DEF8665BE3F00F582BA3FC0FAC6373": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Sillamäe",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "018139C848E574F4B595FA063B501E1EEFF7BE5578097A663B5A809C33BA2521": {
+      "descriptor": {
+        "product": "Kuusepaberipuit",
+        "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+        "destination": "Kunda FOB",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "9E259863C2CF989B2FED6ACAF3B6D5BFF5F2A167C21772E75396BCADCB6DA0DE": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Jõgeva",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "2791F9F7C5FFC0E8AD140DABB0FC15DA41FE5FF96D1DF2E60CF2BA1B9D2630E0": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Heltermaa",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "9C0F9B7DA26D2E2C9D3E7BDE63CC5AB6E61A411C4AF2BC6E64DC2F4C66F597A2": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Kehra",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "616C607C0A40C134B9FF0A60A0136361304E7A4E9D2D13D66677FF8245851C8B": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Paldiski",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "525EC2A08527938BCC23BE12B8D773B83BAA1577CEB0CCD402515E214483F5FA": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Roomassaare",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "23A319D2FFB559E421867CD4207AFA41884A2B96ABD00E1086B37C5C8470E37F": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Kunda",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "DF751F489726FA422E79327B64B3C13164053BAC51DE4F3BB4F7BDBBE4493855": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Pärnu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6AF0B0E07449610E34AD44FF858B7E3B34D38CA4BDCCC37E46BCF8B2C9BDAB17": {
+      "descriptor": {
+        "product": "Männipaberipuit",
+        "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+        "destination": "Sillamäe",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "609B31A9946FCBA18714E4645140D20FD7E3994A5B5646DF79FDFAD10E328D25": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Imavere",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "6D18C02934F7B62248AE6E242293F96FC20523E1E773A88F1463DCC14B5546D2": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Patküla",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "CF314885AB0B685D493CF71ADD12223A69618AAD697F6D2310A376C76290B506": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Jõgeva",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "B370A694210C7F0C33FE0E00A1EF7771DB254D35CB5A0BC4551E8F62F8F9ED52": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Põlva",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "AF781EB0CF596149C68052257A4B842F0D61083533370DE9E95B3E13339C95EC": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Reola",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "C308192C6FF37028F9EC2B8F7709D41B892FF53BA077AAFFC6598AE1158C1164": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Sangaste",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A32FB0AFBEF24EA6378661963FBC285F251298D6949E1A0E5C93BA0CF6952571": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Veriora",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "3008746D1C67AC713C34D8EED247F3711234E1F6A858B5EB6A456C2FA00D53CB": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Võru",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "A6B5414A0B929CCD78BE67DC7F2498C3F40220593558E443F3D697670852B6BA": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Varese",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "26A816EF45FB864ED851124F787D6F4027ABA3D5CE2D6B761615EDD6093EDEAC": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Oisu",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "AE76E526BA80FF3F6BF1985F44DA3B467972836A061571997FD44857A3E215B2": {
+      "descriptor": {
+        "product": "Tehnoloogiline OP",
+        "measurement_fingerprint_sha256": "8E9C96A03ADC8547E601CA62198E3FCD903D5E0B0BA26431223D728D621F7BBF",
+        "destination": "Kunda",
+        "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "4FA2546A8C79559F10577B6F949325C7C74D6D5EF3DBAFFEBC82A134869C7A29": {
+      "descriptor": {
+        "product": "Männipost",
+        "measurement_fingerprint_sha256": "8E544A49ED28A286C428147697C70898D62B8CA836387EC04EE94169A62A19C4",
+        "destination": "Müüja ladu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    },
+    "7565F94126ACB1533D120ACA50CBC10CA50B19935D874C9B0D920DF1719B13BB": {
+      "descriptor": {
+        "product": "Kuusepost",
+        "measurement_fingerprint_sha256": "A5868338D434F1C616961F432FCFA86E44F63093F497AEB9B5B294D6A4869AD7",
+        "destination": "Müüja ladu",
+        "calendar_phase": "M03-M04-M05-M06"
+      },
+      "price": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "volume": {
+        "M0": {
+          "point_support": 1,
+          "transition_support": 0,
+          "density": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "observation_support": 1,
+          "required": 3,
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "same_phase_innovation_support": 0,
+          "required": 2,
+          "state": "NOT_ESTIMABLE_SEASONAL_SUPPORT"
+        }
+      },
+      "BMA": {
+        "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+        "common_support_events": 0
+      }
+    }
+  }
+}

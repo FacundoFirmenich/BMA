@@ -1,0 +1,116 @@
+{
+  "schema_version": "bpm.rmk.timber.causal.software-addendum.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "status": "FROZEN_BEFORE_FIRST_2025_OFFER_BODY_OPENING",
+  "frozen_at": "2026-08-21",
+  "frozen_source_hashes_sha256": {
+    "model_core": "C2B8F79EAC4FD48B7AB0144751DC417B753E7D6DA63D0DAC4802F43206A58D18",
+    "model_tests": "942A1BF00BDF00D10D3368F8EB317D1261AAC448E3B61030CED4E0120A9CF02E",
+    "parent_preregistration": "587CD7D0A9552ED587CB4854170AFA6DE480D2BA80D206282FDA03D9F0729A0D",
+    "ordered_acquisition_addendum": "F4CEC7DF368D32D5288752A1DA2F5AAB3140EF485308294169BEA82C2FB846A5",
+    "eligibility_protocol": "2D2DDB24ADE7CDB18A3CE4F115AA406F2348EB56B3567AE54B06D503D1507594",
+    "eligibility_ledger": "739B6DABF18BC9AE9AFCF891FB48A4B800C7A40A7868A0527BFB825FB36E5CE3",
+    "ordered_payload_queue_v3": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF"
+  },
+  "causal_boundary": {
+    "first_possible_offer": "2025-02-26",
+    "history_2023_2024": "ELIGIBILITY_ONLY_NEVER_FITTED_OR_SCORED",
+    "one_event_rule": "one comparable auction event predicts exactly the next comparable event in the same local cell",
+    "offer_before_freeze": true,
+    "result_only_after_freeze": true,
+    "no_N_to_1_pooling": true,
+    "no_global_winner": true,
+    "automatic_promotion": false
+  },
+  "cell_key": [
+    "exact_physical_product_or_sortiment",
+    "measurement_standard_or_class",
+    "officially_normalized_or_identical_delivery_location",
+    "exact_delivery_month_set"
+  ],
+  "comparability": {
+    "transport_rule": "Use only the tariff and distance vintage published before the offer cutoff.",
+    "fallback": "Restrict to identical delivery location and product standard.",
+    "failure": "ABSTAIN_NOT_COMPARABLE_PRICE",
+    "unknown_product": "NOT_ESTIMABLE_UNKNOWN_PRODUCT",
+    "external_formula_link": "NOT_ESTIMABLE_EXTERNAL_LINK_PRODUCT",
+    "slash_price_vector": "Requires an explicit pre-result class-order map; never average or select a component post hoc."
+  },
+  "outcomes": {
+    "awarded_price_eur_per_m3": "positive continuous, modelled on natural-log scale",
+    "awarded_volume_m3": "positive continuous, modelled on natural-log scale",
+    "unawarded_or_protested": "separate categorical state; never coerced to zero or dropped"
+  },
+  "objective_prior": {
+    "continuous_outcomes": "Jeffreys reference prior p(mu,sigma2) proportional to 1/sigma2 on the local log outcome; no historical 2023-2024 value initializes it.",
+    "invented_scale_or_location": false,
+    "cross_product_borrowing": false,
+    "cross_location_borrowing": false
+  },
+  "models": {
+    "M0": {
+      "point": "last local positive observation",
+      "point_support": 1,
+      "density": "Student-t posterior predictive of prior log transitions, added to the last log outcome",
+      "density_support": "at least 3 prior transitions and nonzero transition variance"
+    },
+    "M1": {
+      "point": "exp(mean prior local log outcomes)",
+      "density": "Student-t posterior predictive under the Jeffreys reference prior",
+      "support": "at least 3 prior local observations and nonzero log variance"
+    },
+    "M2": {
+      "point": "M1 log location plus mean of prior same-phase prequential M1 innovations",
+      "phase": "exact sorted set of delivery calendar months; distinct month sets never pool",
+      "support": "M1 estimable plus at least 2 prior nonidentical M1 innovations from the same cell and exact phase",
+      "density": "numerical convolution of independent M1 and phase-residual Student-t predictives on log scale",
+      "integration": "tangent transform and adaptive Simpson tolerance 1e-10",
+      "failure": "NOT_ESTIMABLE_SEASONAL_SUPPORT or NOT_ESTIMABLE_M2_PHASE_ZERO_SCALE"
+    }
+  },
+  "weights": {
+    "jurisdiction": "separate for outcome and exact local cell",
+    "before_common_density_support": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+    "activation": "first target for which M0 M1 and M2 predictive densities were all frozen before the result",
+    "initial_log_evidence_at_activation": {"M0": 0.0, "M1": 0.0, "M2": 0.0},
+    "update": "add each post-result prequential log score only when all three were frozen and estimable on that same target",
+    "prediction": "softmax of cumulative common-support log evidence",
+    "probability_floor": 1e-12,
+    "reset": false
+  },
+  "scoring": {
+    "density": "log predictive density on original scale, including the negative-log-outcome Jacobian",
+    "price_point": "absolute error in EUR/m3",
+    "volume_point": "MALE on positive m3",
+    "coverage_and_abstention": "reported by cell and event",
+    "aggregate": "diagnostic only"
+  },
+  "posterior_and_Z_post": {
+    "posterior": "append-only local observations, exact phases, and post-adjudication prequential M1 innovations",
+    "Z_post": "model-specific information state containing sufficient statistics, support, adjudication link and common-support evidence; it is not a residual z and not Z-XPL",
+    "Z_XPL": "separate bilateral thresholds 0.25 and 5.25",
+    "reset": false,
+    "double_counting": false
+  },
+  "recovery": {
+    "states": [
+      "OFFER_HASHED",
+      "SCHEMA_ADJUDICATED",
+      "FREEZE_WRITTEN",
+      "RESULT_HASHED",
+      "ADJUDICATED",
+      "POSTERIOR_WRITTEN",
+      "Z_POST_WRITTEN",
+      "MANIFEST_SEALED"
+    ],
+    "resume": "Verify the previous sealed manifest, posterior hash and Z_post adjudication link before the next offer; never overwrite a sealed event.",
+    "result_opening_gate": "A result body may be opened only after the corresponding immutable prediction freeze exists and its SHA-256 is recorded.",
+    "failure_preservation": true
+  },
+  "verification": {
+    "unit_tests_passed": 7,
+    "additional_M2_activation_check_passed": true,
+    "cauchy_convolution_known_case": "passed to 6 decimal places",
+    "future_outcomes_opened_before_freeze": 0
+  }
+}
