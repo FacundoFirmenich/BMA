@@ -1,0 +1,10 @@
+{
+  "schema_version": "bpm.space-recovery.duplicate-removal.v1",
+  "removed_path": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\work\\bma-v065-b732c53.zip",
+  "surviving_identical_path": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\work\\bma-v065-validation\\bma-v065-b732c53.zip",
+  "sha256": "34B8864FE7D6D1D39C076C5CEFB3702D992D43EC4A08A6812A645AB7657AF9B7",
+  "bytes_freed": 131996730,
+  "recoverable_by_copy_from_survivor": true,
+  "canonical_repository_touched": false,
+  "reason": "C volume exhausted during causal attempt8 write"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "bayesian-markets-container-custody/v1",
+  "generated_at": "2026-08-21T21:57:04.8610819Z",
+  "input": {
+    "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\deduplicated-v3\\BAYESIAN_MARKETS_CONTAINER_REVIEW_QUEUE_V3.csv",
+    "sha256": "E24E95197A3946834A1E1118A0F7E3F810F93B393B8E134E4F59EB6C50711169",
+    "physical_rows": 18
+  },
+  "result": {
+    "unique_containers": 10,
+    "container_summaries": 10,
+    "member_rows": 613,
+    "member_file_rows": 547,
+    "unique_member_sha256": 484,
+    "read_errors": 0,
+    "pdf_semantic_reads_pending": 1
+  },
+  "evidence_boundary": "ONE_PRESENT_REPRESENTATIVE_PER_OUTER_SHA256; ZIP_LIKE_AND_RAR_MEMBER_BYTES_READ_AND_HASHED; REPLICA CONTAINERS NOT REOPENED; PDF OUTER BYTES ONLY AND SEMANTIC READ PENDING; NO SOURCE MUTATION",
+  "authority": {
+    "classification_authority": false,
+    "deletion_authority": false,
+    "global_winner": null
+  }
+}

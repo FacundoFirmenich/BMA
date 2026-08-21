@@ -7,13 +7,15 @@ evidence/probes/public-expansion-v1/** -text
 evidence/probes/rmk-url-inventory-v1/** -text
 evidence/runs/bpm-rmk-timber-v0.1-2025-causal/** -text
 .artifact_probe/*rmk* -text
-governance/BAYESIAN_MARKETS_* -text
+governance/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
 governance/BAYME_CROSS_FAMILY_* -text
 governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json -text
 governance/BPM_HBP_* -text
 governance/HBP_* -text
 governance/KCH_BAYESIAN_MARKETS_* -text
-outputs/BAYESIAN_MARKETS_* -text
+governance/SPACE_RECOVERY_* -text whitespace=cr-at-eol
+inventory/** -text whitespace=cr-at-eol
+outputs/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
 outputs/BAYME_INDUSTRIAL_CORAL_INTEGRATION_V3_20260821_ES.md -text
 outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md -text
 outputs/BPM_BUM_HBP_* -text
@@ -27,3 +29,4 @@ preregistrations/HBP_SPAIN_* -text
 reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md -text
 scripts/*rmk* -text
 scripts/audit_bayesian_markets_integration_v*.ps1 -text
+scripts/build_bayesian_markets_* -text whitespace=cr-at-eol
