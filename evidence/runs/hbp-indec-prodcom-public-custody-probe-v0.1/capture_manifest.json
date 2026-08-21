@@ -1,0 +1,82 @@
+{
+  "run_id": "hbp-indec-prodcom-public-custody-probe-v0.1",
+  "classification": "OBSERVATIONAL_CUSTODY_AND_BOUNDED_SUPPORT_PROBE_NO_FITTING",
+  "preregistration": "preregistrations/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1.json",
+  "preregistration_sha256": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00",
+  "records": [
+    {
+      "name": "indec_ipi_landing_page.html",
+      "requested_url": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+      "final_url": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 12410,
+      "sha256": "BEEAC554645AC47759CF073CA5162C655445705912831B478D50DA6E879C7C05",
+      "headers_file": "indec_ipi_landing_page.html.headers.json",
+      "headers_sha256": "659212FB2FE49A01CFCF764F8957E83F199CA0D27EB02A3411F588778CE355EF"
+    },
+    {
+      "name": "indec_ipi_2026_06_report.pdf",
+      "requested_url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_08_2683F2E17728.pdf",
+      "final_url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_08_2683F2E17728.pdf",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 1826112,
+      "sha256": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607",
+      "headers_file": "indec_ipi_2026_06_report.pdf.headers.json",
+      "headers_sha256": "EB66625B8785D6EB03102013584B1C00C09939C1274E0EEB89337CD4251F81D2"
+    },
+    {
+      "name": "indec_ipi_series_2026.xls",
+      "requested_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+      "final_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 1087488,
+      "sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+      "headers_file": "indec_ipi_series_2026.xls.headers.json",
+      "headers_sha256": "B4C54AA3E92A237BFC0B0F2DCC7A1152A1803EE027047B5109F0FD60602706B8"
+    },
+    {
+      "name": "indec_ucii_landing_page.html",
+      "requested_url": "https://www.indec.gob.ar/Nivel4/Tema/3/6/15",
+      "final_url": "https://www.indec.gob.ar/Nivel4/Tema/3/6/15",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 9243,
+      "sha256": "844DE2600A37BEA12072381107C02F2ACB0B9DE34669B7330B7C6EDAA9CF1BF2",
+      "headers_file": "indec_ucii_landing_page.html.headers.json",
+      "headers_sha256": "EDE90ED6F17357FF3C8312936825D70C002A4A46E913E365A4F6705D2B5902DD"
+    },
+    {
+      "name": "indec_ucii_2026_06_report.pdf",
+      "requested_url": "https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_08_26EE16AEA30D.pdf",
+      "final_url": "https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_08_26EE16AEA30D.pdf",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 3438500,
+      "sha256": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8",
+      "headers_file": "indec_ucii_2026_06_report.pdf.headers.json",
+      "headers_sha256": "789398B98BBF46FCAD73162A50128CD27C17C2F872E49DD626674575E793E5D0"
+    },
+    {
+      "name": "eurostat_prodcom_es_16101035_2024_primary.json",
+      "requested_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-059358?lang=en&reporter=ES&product=16101035&time=2024&indicators=PRODQNT&indicators=PQNTFLAG&indicators=QNTUNIT",
+      "final_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-059358?lang=en&reporter=ES&product=16101035&time=2024&indicators=PRODQNT&indicators=PQNTFLAG&indicators=QNTUNIT",
+      "http_status": 200,
+      "error": null,
+      "byte_count": 2391,
+      "sha256": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6",
+      "headers_file": "eurostat_prodcom_es_16101035_2024_primary.json.headers.json",
+      "headers_sha256": "DFDB6D3CAD25FA12027B764356A25442B29A30B720341015AAB8FE1F3AE10AF2"
+    }
+  ],
+  "invariants": {
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "historical_freeze_reconstructed": false,
+    "cross_source_likelihood_pooling": false,
+    "bulk_download": false
+  }
+}

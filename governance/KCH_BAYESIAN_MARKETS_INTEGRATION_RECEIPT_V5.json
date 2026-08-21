@@ -1,0 +1,56 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v5",
+  "observed_at": "2026-08-22T01:43:35.3149094+02:00",
+  "kch_version": "0.11.33",
+  "runtime_state": "NATIVE_SUPERHARNESS_ACTIVE",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V5.json",
+    "sha256": "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523"
+  },
+  "execution": {
+    "prior_v4_contract_preserved": true,
+    "indec_probe_preregistered_before_byte_acquisition": true,
+    "indec_ipi_report_and_series_raw_bytes_frozen": true,
+    "indec_ucii_report_raw_bytes_frozen": true,
+    "prodcom_bounded_product_country_year_response_frozen": true,
+    "raw_hashes_recomputed": true,
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "historical_freeze_reconstructed": false,
+    "remote_reorganization_executed": false,
+    "destructive_cleanup_executed": false
+  },
+  "authority": {
+    "ontology": "USER_FROZEN_BPM_BUM_HBP",
+    "family": "HBP",
+    "IPI_role": "CURRENT_VINTAGE_MONTHLY_MANUFACTURING_OUTCOME_NO_CAUSAL_SCORE",
+    "UCII_role": "CURRENT_VINTAGE_CAPACITY_OBSERVER_ONLY",
+    "Prodcom_role": "ANNUAL_PRODUCT_IDENTITY_SUPPORT_NOT_ESTIMABLE_FOR_SELECTED_CELL",
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "custody": {
+    "preregistration_sha256": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00",
+    "capture_manifest_sha256": "5A70E778D87F6A0F3C3A230490D05AEDBA216CC884DCAD05C9FF0F81EF9120B0",
+    "probe_adjudication_sha256": "A7659817EBAE83EFE9176B8F9176ACA6BBA017F7004F07501CC04D61357D0566",
+    "IPI_pdf_sha256": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607",
+    "IPI_xls_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+    "UCII_pdf_sha256": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8",
+    "Prodcom_response_sha256": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6",
+    "IPI_workbook_inspection": "BLOCKED_LEGACY_XLS_READER_UNAVAILABLE",
+    "Prodcom_selected_cell": "NOT_ESTIMABLE_NO_CELL"
+  },
+  "permission": {
+    "bounded_public_no_account_capture": true,
+    "account_terms_payment_contact_vps": false,
+    "bulk_download": false,
+    "remote_publish_or_reorganize": false,
+    "delete_or_move_originals": false
+  },
+  "training": {
+    "phl_authorized_but_not_trained": true,
+    "phl_real_training_executed": false
+  },
+  "next_decision_critical_action": "PREREGISTER_MINIMAL_PORT_PHYSICAL_FLOW_AND_TED_INDUSTRIAL_DEMAND_OBSERVER_PROBES_WITHOUT_FITTING_WHILE_WAITING_FOR_MACHINE_READABLE_ARGENTINA_SERIES_AND_EUROSTAT_JULY_RELEASE"
+}
