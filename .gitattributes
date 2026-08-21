@@ -12,7 +12,7 @@ governance/BAYME_CROSS_FAMILY_* -text
 governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json -text
 governance/BPM_HBP_* -text
 governance/HBP_* -text
-governance/KCH_BAYESIAN_MARKETS_* -text
+governance/KCH_BAYESIAN_MARKETS_* -text whitespace=cr-at-eol,-blank-at-eof
 governance/SPACE_RECOVERY_* -text whitespace=cr-at-eol
 inventory/** -text whitespace=cr-at-eol
 outputs/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
@@ -21,12 +21,15 @@ outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md -text
 outputs/BPM_BUM_HBP_* -text
 outputs/BPM_HBP_* -text
 outputs/BPM_RMK_* -text
-outputs/HBP_* -text
+outputs/HBP_* -text whitespace=cr-at-eol,-blank-at-eof
 preregistrations/BAYME_INDUSTRIAL_* -text
 preregistrations/BPM_HBP_* -text
 preregistrations/BPM_RMK_* -text
 preregistrations/HBP_SPAIN_* -text
 reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md -text
 scripts/*rmk* -text
-scripts/audit_bayesian_markets_integration_v*.ps1 -text
+scripts/audit_bayesian_markets_integration_v*.ps1 -text whitespace=cr-at-eol,-blank-at-eof
 scripts/build_bayesian_markets_* -text whitespace=cr-at-eol
+scripts/freeze_hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
+src/bma/experiments/hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
+tests/test_hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof

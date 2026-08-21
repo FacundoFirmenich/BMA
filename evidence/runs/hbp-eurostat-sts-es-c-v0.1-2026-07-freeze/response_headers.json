@@ -1,0 +1,19 @@
+{
+  "captured_at_utc": "2026-08-21T22:49:30.832737+00:00",
+  "final_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2015-01&untilTimePeriod=2026-06",
+  "headers": {
+    "Access-Control-Allow-Headers": "Content-Type, Accept, X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Access-Control-Allow-Origin": "*",
+    "Connection": "close",
+    "Content-Type": "application/json",
+    "Date": "Fri, 21 Aug 2026 22:49:31 GMT",
+    "Transfer-Encoding": "chunked",
+    "X-ORACLE-DMS-ECID": "d9e22428-4063-4082-b89c-4bbeccc7e1df-01705c20",
+    "X-ORACLE-DMS-RID": "0"
+  },
+  "http_status": 200,
+  "raw_bytes": 10873,
+  "raw_sha256": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+  "request_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2015-01&untilTimePeriod=2026-06"
+}
