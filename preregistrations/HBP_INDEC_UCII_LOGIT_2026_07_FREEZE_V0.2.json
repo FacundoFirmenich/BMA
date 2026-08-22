@@ -1,0 +1,57 @@
+{
+  "preregistration_id": "HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.2",
+  "status": "FROZEN_AFTER_V0_1_GATE_FAILURE_BEFORE_ANY_FIT",
+  "frozen_local_date": "2026-08-22",
+  "parent_preregistration": {
+    "path": "preregistrations/HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.1.json",
+    "sha256": "9F5966C69E3C1E4BAEB7E118402CD438F57AB086C0D01D116D511C61D1D89244"
+  },
+  "observed_gate_failure": {
+    "path": "evidence/runs/hbp-indec-ucii-logit-v0.1-2026-07-gate-fail/GATE_FAILURE.json",
+    "sha256": "0E309848B34F11B7C496A49EF5A8337C9EE6AB36081B325E95DD71BCA6CFAEAB",
+    "status": "GATE_FAIL_SECTOR_BOUNDARY_VALUE_BEFORE_FIT",
+    "fit_performed": false,
+    "target_outcome_opened": false
+  },
+  "unchanged_from_v0_1": [
+    "source workbook and hashes",
+    "general-level target",
+    "training interval 2016-01 through 2026-06",
+    "target month 2026-07",
+    "logit state and monthly innovation",
+    "M0, M1 and M2 definitions",
+    "all priors and harmonic features",
+    "equal one-third weights",
+    "one-step temporal rule",
+    "no legacy freeze, no pooling, no winner"
+  ],
+  "single_repair": {
+    "v0_1_gate": "every general and sector value must satisfy 0 < u < 100",
+    "v0_2_general_gate": "every general value must satisfy 0 < u < 100",
+    "v0_2_sector_observer_gate": "every sector value must be finite and satisfy 0 <= u <= 100",
+    "boundary_policy": "sector values equal to 0 or 100 are preserved as observer boundary events and never transformed or included in the general-target likelihood"
+  },
+  "exposure_boundary": {
+    "numeric_scan_after_v0_1": "general range 42.0 to 69.6; two sector zeros in 2020-04",
+    "target_outcome_seen": false,
+    "model_or_prior_changed_after_scan": false,
+    "consequence": "repair validation only; no claim of design-blindness"
+  },
+  "execution_contract": {
+    "runner": "scripts/run_hbp_indec_ucii_logit_2026_07_freeze_v0_2.py",
+    "immutable_output": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze",
+    "expected_boundary_events": 2,
+    "expected_July_replicates": 10,
+    "target_must_remain_absent": true
+  },
+  "hard_invariants": {
+    "one_month_predicts_exactly_next_month": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "sector_blocks_used_in_general_likelihood": false,
+    "V0_1_gate_failure_preserved": true,
+    "legacy_UCII_freeze_governs_new_chain": false,
+    "N_to_1_pooling_forbidden": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  }
+}

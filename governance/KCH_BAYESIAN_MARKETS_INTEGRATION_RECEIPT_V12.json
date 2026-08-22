@@ -1,0 +1,38 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v12",
+  "date": "2026-08-22",
+  "mission": "Freeze the UCII V0.2 sector-observer support repair before any fit while preserving the adverse V0.1 gate.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "687d2de054d39ab8f15b902ed4e31e1fe4a784fa",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V12.json",
+    "sha256": "33D32CC115C905BE9F1BA4C594E6642CF47E32B57CA08988329213E20B403D6A"
+  },
+  "audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V12_AUDIT.json",
+    "sha256": "EF7C1EF8D305868999E25AAD69FFCDAF7067BF792AE74EC60A862F2FBED86E5C",
+    "script": "scripts/audit_bayesian_markets_integration_v12.ps1",
+    "script_sha256": "A5DBA01A695C1660DEA017743DFE46009FD4728197F5FED7EB4855C207915ED1",
+    "status": "PASS",
+    "checks": 18,
+    "failures": 0
+  },
+  "result": {
+    "state": "UCII_V0_2_REPAIR_FROZEN_PRE_FIT",
+    "unchanged_target_models_priors_weights_calendar": true,
+    "only_change": "Sector observers accept closed support 0 to 100 and remain outside the general-target likelihood.",
+    "V0_1_gate_failure_preserved": true,
+    "target_outcome_opened": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation": {
+    "joint_v0_1_v0_2_pytest": "6 passed",
+    "ruff": "PASS",
+    "v12_audit": "PASS 18/18",
+    "output_absent": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze"
+  },
+  "next_gate": "Commit and push this pre-fit freeze, then execute the V0.2 runner exactly once and preserve its local model states without cross-jurisdiction pooling."
+}

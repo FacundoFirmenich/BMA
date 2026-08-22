@@ -1,0 +1,118 @@
+{
+  "schema": "kch-bayesian-markets-v12-audit/v1",
+  "generated_at": "2026-08-22T04:43:40.0570367+02:00",
+  "status": "PASS",
+  "checks": 18,
+  "failures": 0,
+  "prior_v11_checks": 43,
+  "details": [
+    {
+      "name": "prior_v11",
+      "pass": true,
+      "observed": "PASS/43/0",
+      "expected": "PASS/43/0"
+    },
+    {
+      "name": "hash.governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V11.json",
+      "pass": true,
+      "observed": "3679045BFDE8C54B83FF05FBC2B9663390BF32B84AF658134A0100B077487F37",
+      "expected": "3679045BFDE8C54B83FF05FBC2B9663390BF32B84AF658134A0100B077487F37"
+    },
+    {
+      "name": "hash.governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V11.json",
+      "pass": true,
+      "observed": "E62E07B753D9B1DD7549A6899333352D3FAA38701465159415ADDBB4175267D0",
+      "expected": "E62E07B753D9B1DD7549A6899333352D3FAA38701465159415ADDBB4175267D0"
+    },
+    {
+      "name": "hash.governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V12.md",
+      "pass": true,
+      "observed": "B001E022E808B5BCC8969D745E0F290418D47F1F35DE8C43247B6403519FA848",
+      "expected": "B001E022E808B5BCC8969D745E0F290418D47F1F35DE8C43247B6403519FA848"
+    },
+    {
+      "name": "hash.outputs/HBP_INDEC_UCII_V0_2_REPAIR_FREEZE_20260822_ES.md",
+      "pass": true,
+      "observed": "BA947CCDD8B3AC4E981FCA29373A9B4532ADC8CEECF0D4A09D1AD48944F4BB1D",
+      "expected": "BA947CCDD8B3AC4E981FCA29373A9B4532ADC8CEECF0D4A09D1AD48944F4BB1D"
+    },
+    {
+      "name": "exists.src/bma/experiments/hbp_indec_ucii_v0_2.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.src/bma/experiments/hbp_indec_ucii_v0_2.py",
+      "pass": true,
+      "observed": "7A652CF417A244EF5AA65F5F26E280E5230C461F2019E83E91203CA01A990A13",
+      "expected": "7A652CF417A244EF5AA65F5F26E280E5230C461F2019E83E91203CA01A990A13"
+    },
+    {
+      "name": "exists.scripts/run_hbp_indec_ucii_logit_2026_07_freeze_v0_2.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.scripts/run_hbp_indec_ucii_logit_2026_07_freeze_v0_2.py",
+      "pass": true,
+      "observed": "C2A2B2158299E4D0DA541D5B23F8B86DD6495E2E8689D0EC6A7E516FE2047743",
+      "expected": "C2A2B2158299E4D0DA541D5B23F8B86DD6495E2E8689D0EC6A7E516FE2047743"
+    },
+    {
+      "name": "exists.tests/test_hbp_indec_ucii_v0_2.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.tests/test_hbp_indec_ucii_v0_2.py",
+      "pass": true,
+      "observed": "CEC077403FE5C446E8BD4A53D82D9E2363EC75D80EDF71B48E64605C94646A0F",
+      "expected": "CEC077403FE5C446E8BD4A53D82D9E2363EC75D80EDF71B48E64605C94646A0F"
+    },
+    {
+      "name": "exists.preregistrations/HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.2.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.preregistrations/HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.2.json",
+      "pass": true,
+      "observed": "53258F0CCE99BE141DC96B4DFB1BA16087DE284411C3BA91620087DA5CB6643F",
+      "expected": "53258F0CCE99BE141DC96B4DFB1BA16087DE284411C3BA91620087DA5CB6643F"
+    },
+    {
+      "name": "parent_prereg",
+      "pass": true,
+      "observed": "9F5966C69E3C1E4BAEB7E118402CD438F57AB086C0D01D116D511C61D1D89244",
+      "expected": "9F5966C69E3C1E4BAEB7E118402CD438F57AB086C0D01D116D511C61D1D89244"
+    },
+    {
+      "name": "gate_failure",
+      "pass": true,
+      "observed": "0E309848B34F11B7C496A49EF5A8337C9EE6AB36081B325E95DD71BCA6CFAEAB",
+      "expected": "0E309848B34F11B7C496A49EF5A8337C9EE6AB36081B325E95DD71BCA6CFAEAB"
+    },
+    {
+      "name": "single_repair",
+      "pass": true,
+      "observed": "False/False/True",
+      "expected": "False/False/True"
+    },
+    {
+      "name": "output_absent",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    }
+  ]
+}
