@@ -1,0 +1,69 @@
+{
+  "preregistration_id": "HBP_INDEC_IPI_SA_2026_07_FREEZE_V0.1",
+  "status": "FROZEN_PRE_TARGET_FROM_ALREADY_CUSTODIED_TRAINING_VINTAGE",
+  "frozen_local_date": "2026-08-22",
+  "canonical_family": "HBP",
+  "jurisdiction": {
+    "source": "INDEC",
+    "dataset": "IPI manufacturero",
+    "geo": "Argentina",
+    "series": "nivel general desestacionalizado",
+    "base": "2004=100",
+    "unit": "index points",
+    "source_workbook": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026.xls",
+    "source_workbook_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943"
+  },
+  "design_exposure_boundary": {
+    "training_values_seen_before_exact_freeze": true,
+    "target_outcome_seen": false,
+    "consequence": "prospective target freeze but not a design-blind model-selection holdout"
+  },
+  "extraction_contract": {
+    "reader": "xlrd==2.0.2 BIFF8 read-only",
+    "sheet": "Cuadro 1",
+    "year_column_zero_based": 1,
+    "month_column_zero_based": 2,
+    "original_index_column_zero_based": 3,
+    "seasonally_adjusted_index_column_zero_based": 7,
+    "training_start": "2016-01",
+    "training_end": "2026-06",
+    "expected_observations": 126,
+    "expected_last_original_rounded_1dp": 119.9,
+    "expected_last_sa_rounded_1dp": 119.1,
+    "provisional_marker": "2026*",
+    "raw_bytes_immutable": true
+  },
+  "target": {
+    "month": "2026-07",
+    "must_be_absent_from_workbook": true,
+    "one_step_only": true
+  },
+  "transform": "monthly log innovation of the positive seasonally adjusted index",
+  "priors": {
+    "M0": {"innovation_mean": 0.0, "alpha0": 2.0, "beta0": 0.0004},
+    "M1": {"mu0": 0.0, "kappa0": 1.0, "alpha0": 2.0, "beta0": 0.0004}
+  },
+  "weights": {"M0": 0.5, "M1": 0.5, "status": "FROZEN_EQUAL_NO_PROMOTION_AUTHORITY"},
+  "model_availability": {
+    "M0": "ESTIMABLE_IF_126_CONTIGUOUS_MONTHS",
+    "M1": "ESTIMABLE_IF_125_CONTIGUOUS_TRANSITIONS",
+    "seasonality": "NOT_ADDED_TO_AN_ALREADY_SEASONALLY_ADJUSTED_TARGET",
+    "UCII_observer": "ABSTAIN_UNTIL_SEPARATELY_CAPTURED_AND_CAUSALLY_ALIGNED"
+  },
+  "hard_invariants": {
+    "one_month_predicts_exactly_next_month": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "IPI_and_UCII_not_merged": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "abort_gates": [
+    "workbook hash mismatch",
+    "sheet or column contract mismatch",
+    "training months not exactly contiguous",
+    "target July present",
+    "last values do not reconcile to the official PDF rounded values",
+    "zero negative or missing seasonally adjusted index"
+  ]
+}

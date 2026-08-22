@@ -1,7 +1,7 @@
-"""Frozen conjugate models for the first HBP Eurostat STS chain.
+"""Frozen conjugate models for HBP industrial-index chains.
 
-Scientific values must come from the separately frozen official response.  This
-module contains only deterministic transformations and conjugate updates.
+Scientific values come from separately frozen official responses. This module
+contains deterministic transformations, conjugate updates and proper scores.
 """
 
 from __future__ import annotations
@@ -10,6 +10,7 @@ from dataclasses import dataclass
 from math import exp, isfinite, log, sqrt
 from typing import Iterable
 
+from scipy.integrate import quad
 from scipy.stats import t as student_t
 
 
@@ -118,3 +119,82 @@ def index_forecast(last_index: float, innovation: StudentTPredictive) -> dict[st
         "degrees_of_freedom": innovation.degrees_of_freedom,
     }
 
+
+def student_t_log_density(value: float, predictive: StudentTPredictive) -> float:
+    if not isfinite(value):
+        raise GateFailure("scored value must be finite")
+    if predictive.degrees_of_freedom <= 0.0 or predictive.scale <= 0.0:
+        raise GateFailure("Student-t degrees of freedom and scale must be positive")
+    return float(
+        student_t.logpdf(
+            value,
+            predictive.degrees_of_freedom,
+            loc=predictive.location,
+            scale=predictive.scale,
+        )
+    )
+
+
+def student_t_crps(value: float, predictive: StudentTPredictive) -> float:
+    """Numerically evaluate CRPS on the predictive variable's own scale."""
+
+    if not isfinite(value):
+        raise GateFailure("CRPS value must be finite")
+    if predictive.degrees_of_freedom <= 1.0 or predictive.scale <= 0.0:
+        raise GateFailure("finite Student-t CRPS requires df > 1 and positive scale")
+
+    def cdf(point: float) -> float:
+        return float(
+            student_t.cdf(
+                point,
+                predictive.degrees_of_freedom,
+                loc=predictive.location,
+                scale=predictive.scale,
+            )
+        )
+
+    left, left_error = quad(lambda point: cdf(point) ** 2, -float("inf"), value, epsabs=1e-10)
+    right, right_error = quad(
+        lambda point: (1.0 - cdf(point)) ** 2,
+        value,
+        float("inf"),
+        epsabs=1e-10,
+    )
+    score = float(left + right)
+    if not isfinite(score) or score < 0.0 or left_error + right_error > 1e-6:
+        raise GateFailure("Student-t CRPS numerical integration failed")
+    return score
+
+
+def score_index_observation(actual_index: float, forecast: dict[str, float]) -> dict[str, float | bool]:
+    actual = require_positive_finite([actual_index])[0]
+    predictive = StudentTPredictive(
+        degrees_of_freedom=float(forecast["degrees_of_freedom"]),
+        location=float(forecast["log_index_location"]),
+        scale=float(forecast["log_index_scale"]),
+    )
+    log_actual = log(actual)
+    return {
+        "log_score_index_density": student_t_log_density(log_actual, predictive) - log_actual,
+        "crps_log_index": student_t_crps(log_actual, predictive),
+        "absolute_error_index_points": abs(actual - float(forecast["point_median_index"])),
+        "central_90_covered": bool(
+            float(forecast["lower_90_index"]) <= actual <= float(forecast["upper_90_index"])
+        ),
+    }
+
+
+def update_weights_from_log_scores(
+    prior_weights: dict[str, float], log_scores: dict[str, float]
+) -> dict[str, float]:
+    if set(prior_weights) != set(log_scores) or not prior_weights:
+        raise GateFailure("weight and score model identities must match")
+    log_unnormalized = {}
+    for model, weight in prior_weights.items():
+        if not isfinite(weight) or weight <= 0.0 or not isfinite(log_scores[model]):
+            raise GateFailure("weights must be positive and log scores finite")
+        log_unnormalized[model] = log(weight) + log_scores[model]
+    anchor = max(log_unnormalized.values())
+    unnormalized = {model: exp(value - anchor) for model, value in log_unnormalized.items()}
+    denominator = sum(unnormalized.values())
+    return {model: value / denominator for model, value in unnormalized.items()}
