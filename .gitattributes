@@ -7,6 +7,7 @@ evidence/probes/public-expansion-v1/** -text
 evidence/probes/rmk-url-inventory-v1/** -text
 evidence/runs/bpm-rmk-timber-v0.1-2025-causal/** -text
 evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+evidence/runs/bpm-luke-roundwood-public-probe-v0.1/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
 .artifact_probe/*rmk* -text
 governance/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
 governance/BAYME_CROSS_FAMILY_* -text

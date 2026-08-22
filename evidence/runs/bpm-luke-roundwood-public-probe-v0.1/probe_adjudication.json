@@ -1,0 +1,67 @@
+{
+  "schema": "bpm-luke-roundwood-public-probe-adjudication/v0.1",
+  "adjudicated_on": "2026-08-22",
+  "status": "PASS_SINGLE_PRODUCT_PRICE_VOLUME_SUPPORT",
+  "jurisdiction": {
+    "publisher": "Natural Resources Institute Finland (Luke)",
+    "country": "Finland",
+    "reference_month": "2026-07",
+    "updated": "2026-08-20T05:00:00Z",
+    "price_region": "WHOLE COUNTRY",
+    "sale_type": "Standing sales",
+    "product": "Spruce logs",
+    "price_measure": "published current unit price",
+    "volume_measure": "published transaction volume"
+  },
+  "observation": {
+    "volume_source_value_thousand_m3": 429,
+    "volume_m3": 429000,
+    "price_eur_per_m3": 83.14,
+    "response_cells": 2,
+    "status_flags_present": false
+  },
+  "support": {
+    "metadata_month_count": 79,
+    "metadata_first_month": "2020M01",
+    "metadata_last_month": "2026M07",
+    "at_least_36_months": true,
+    "price_and_volume_same_product_month_market": true,
+    "public_without_account": true
+  },
+  "quality_boundaries": {
+    "post_release_observation": true,
+    "first_release_vintages_preserved": false,
+    "revision_notes_present": true,
+    "response_extension_official_statistics_flag": false,
+    "publisher_page_and_response_flag_require_reconciliation": true,
+    "price_is_not_claimed_as_auction_clearing_price": true,
+    "national_cell_does_not_generalize_to_other_jurisdictions": true
+  },
+  "authority": {
+    "probe": "PASS_SCHEMA_AND_SINGLE_CELL_SUPPORT",
+    "candidate": "PROMOTE_TO_SEPARATELY_PREREGISTERED_BPM_FINLAND_ROUNDWOOD_CAUSAL_CAMPAIGN",
+    "model_fit": false,
+    "forecast": false,
+    "score": false,
+    "posterior_update": false,
+    "Z_post_update": false,
+    "historical_freeze_reconstruction": false,
+    "cross_source_pooling": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "next_gate": {
+    "freeze_required_before_next_values": true,
+    "campaign_unit": "one reference month predicts only the next homologous month",
+    "minimum_training_history": 36,
+    "vintage_rule": "new prospective releases stored as distinct immutable bytes; revisions never overwrite first observed bytes",
+    "seasonality_rule": "activate only after a separately frozen training design with same product, sale type, geography and calendar"
+  },
+  "custody": {
+    "preregistration_sha256": "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7",
+    "amendment_sha256": "05F0B5D5C1638A84642943C50223BE9E0B62A258B5402486A8D042E8424C76AD",
+    "metadata_sha256": "EEEC4DD5228206B0054CB53615AD65E23986A9C1D2E4877376173137C6B7C05E",
+    "query_sha256": "817B95891F49276F9CF6434BF4A3B14B9AEBD8A48F75334ACBE725C98DF6AE09",
+    "data_sha256": "16CFF01C7D93877584F585AB5DEF82360FC0BA65EF2B6F4554CAE4E13EC4529E"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "query": [
+    {
+      "code": "INFO",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "M3T",
+          "E_M3"
+        ]
+      }
+    },
+    {
+      "code": "M",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "2026M07"
+        ]
+      }
+    },
+    {
+      "code": "MPKH",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "SSS"
+        ]
+      }
+    },
+    {
+      "code": "KAUP",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "PKAUP"
+        ]
+      }
+    },
+    {
+      "code": "PTL",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "TUK_KU"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}
