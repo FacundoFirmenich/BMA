@@ -1,0 +1,1 @@
+{"next_period_only":true,"posterior_path":"priors/prior_after_2023-12_price.json.gz","posterior_sha256":"98ABE375C189922E48D4DD477712551289B1638A76C88C960022ACFA4CBCC1D7","posterior_updates":47,"raw_to_prior":false,"reset":false,"schema":"bpm-luke-roundwood-Z_post/v0.1","target_id":"price","target_period":"2023-12","weight_evidence_updated":true}

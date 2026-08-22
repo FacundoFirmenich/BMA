@@ -1,0 +1,1 @@
+{"next_period_only":true,"posterior_path":"priors/prior_after_2023-08_volume.json.gz","posterior_sha256":"CE6DC5FEBA50F25C7107D30BBEFA8D54C6B810858C5A074DFC65D8435107BB43","posterior_updates":43,"raw_to_prior":false,"reset":false,"schema":"bpm-luke-roundwood-Z_post/v0.1","target_id":"volume","target_period":"2023-08","weight_evidence_updated":true}

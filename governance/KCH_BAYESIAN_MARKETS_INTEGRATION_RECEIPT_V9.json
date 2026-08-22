@@ -1,0 +1,59 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v9",
+  "date": "2026-08-22",
+  "mission": "Execute and adjudicate the frozen Luke Finland monthly roundwood campaign, preserve a genuinely unopened August 2026 target, and activate the Argentina-Eurostat integration phase.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "284d80acf2a2c27ea7d6205ed5b482bb029d50d3",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V9.json",
+    "sha256": "360BF8BA20158E7BABFF57BD3AACE12C48B70D69236493580793A1632D236F25"
+  },
+  "audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V9_AUDIT.json",
+    "sha256": "C52218B1ED506D00E686D0F41CA6A86B100A4B84B6E542479D864B2910A156C9",
+    "status": "PASS",
+    "checks": 55,
+    "failures": 0,
+    "prior_v8": "immutable PASS 48/48 verified by hash"
+  },
+  "result": {
+    "state": "RETROSPECTIVE_REPLAY_COMPLETE_PROSPECTIVE_2026_08_FROZEN",
+    "jurisdiction": "Finland x whole country x standing sales x spruce logs x monthly",
+    "capture": "HTTP 200; 158 cells; zero missing; zero status flags; one POST; no metadata GET",
+    "run": "79 months; 78 transitions; 77 scored per target; 713 manifest artifacts; zero hash failures",
+    "volume_M2_relative_absolute_error_reduction_vs_M0": 0.048495962306504194,
+    "price_M2_relative_absolute_error_reduction_vs_M0": 0.17790827189812194,
+    "physical_pattern": "spring volume accumulation, July drop, August-September rebound; price rise February-June and decline July-October",
+    "training_age_pattern": "2021-2022 weak or mixed; 2023-2026 clearer seasonal advantage",
+    "prospective_2026_08": {
+      "target_opened": false,
+      "volume_mixture_raw_location_m3": 439468.29700852797,
+      "price_mixture_raw_location_eur_per_m3": 82.43425966475738,
+      "mixture_interval": "NOT_ESTIMATED_MIXTURE_OF_STUDENT_T_COMPONENTS"
+    },
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation": {
+    "full_pytest": "107 passed",
+    "ruff_summarizer": "PASS",
+    "v9_audit": "PASS 55/55",
+    "run_manifest": "713/713 artifacts; zero hash or size failures",
+    "subprocesses_remaining": 0
+  },
+  "preserved_boundaries": [
+    "all V8 states and adverse evidence",
+    "V8 absence predicates preserved historically and not rerun after acquisition",
+    "current revised history is not a historical first-release vintage panel",
+    "2026-07 excluded from weight and score aggregates",
+    "only six or seven year replicates per calendar phase",
+    "no post-outcome posterior calendar uncertainty interval",
+    "no mixture predictive interval",
+    "no mechanistic causal attribution",
+    "no cross-jurisdiction transport, global winner or commercial promotion",
+    "unrelated dirty AEAT and phase-selector work remains unstaged and untouched"
+  ],
+  "next_gate": "Publish V9, then inventory and integrate the existing Argentina and Eurostat evidence before any new coral experiment."
+}

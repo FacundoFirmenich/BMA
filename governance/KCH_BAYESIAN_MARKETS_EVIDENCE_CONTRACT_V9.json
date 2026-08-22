@@ -1,0 +1,154 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v9",
+  "date": "2026-08-22",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V8.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V8.json",
+    "sha256": "127A85C9DAAA76A94FBA44990616F10A467353B524B4997AC42F6AB75708395E"
+  },
+  "prior_receipt": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V8.json",
+    "sha256": "E63AF1C5E66807439535B84E3634B09DF7636F3CAFB0C4B2F9BBE05F02C07BC9"
+  },
+  "prior_audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V8_AUDIT.json",
+    "sha256": "F0D6899B44668518E72AEDA6D6D16E4343CFD40C9DFFA87ABA8FBAB1022564FC",
+    "rerun_after_outcome": false,
+    "reason": "V8 contains a historically time-bounded assertion that capture and run were absent before acquisition; V9 verifies its immutable audit bytes instead of rerunning that obsolete state predicate."
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V9.md",
+    "sha256": "64518977C647903F57101C9BE07A94D78F9EAD8AF7C6427061BBB0C8A64EA726"
+  },
+  "new_frozen_evidence": [
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/capture_manifest.json",
+      "sha256": "ACF293B5561166D067BEAEE4AAEBC03918DEE4E1FDF03CE09E5D4E847E99E4C7"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/query.json",
+      "sha256": "6E6B2B3CC32E34C661DB546AACEFF114A4995006BAA69EB91D647217AB794357"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/response.headers.json",
+      "sha256": "45134B0877A74F49564EAC7D7CC4667D51424081817C82537A28A1228D88198D"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/luke_roundwood_2020M01_2026M07.json",
+      "sha256": "1A04973327255BF1D04A5315751C74C8DE2AF9583E6131991D62CAA90330B0BD"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/MANIFEST.json",
+      "sha256": "4CE7AFDA9279809B9B4FBFB89B13963E4375D8E0C2D2350491BAD55DF6639E3C"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/RESULT.json",
+      "sha256": "145771C29FEB238A476B097958FEFEBD1C23FC0C6162440D2B71DF97734920C8"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/FORECAST_2026-08.json",
+      "sha256": "93152408A67EA800CFD3A00ADF468EB9D9A03E96AF4BB527610127F0E7D0BDF8"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/SEQUENCE.json",
+      "sha256": "A743E00CC5FEE3D3B1BBFA6A1B61B382B1A52AC1DFBC1898A7EEDD2C6FCF9673"
+    },
+    {
+      "path": "scripts/summarize_bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "75F10616EB84E6527112EA91C5C654581EC63DC0FE6F81642D5583297264FD7F"
+    },
+    {
+      "path": "outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_LOCAL_CARTOGRAPHY_20260822.json",
+      "sha256": "56A16EE62129C9409FB396230070621E95CB1311A140D458C49D08953877400B"
+    },
+    {
+      "path": "outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_RESULTADOS_20260822_ES.md",
+      "sha256": "825D18984AEB43F224415EE5D11F16D4A877403CD22FFACCCFBD36593222C753"
+    },
+    {
+      "path": "scripts/audit_bayesian_markets_integration_v9.ps1",
+      "sha256": "C2A27B83D421784252EAE319FCE048F5D69E4D7E634D2A46C4735D1A21B2083A"
+    }
+  ],
+  "execution_integrity": {
+    "capture_http_status": 200,
+    "remote_metadata_gets": 0,
+    "remote_data_posts": 1,
+    "captured_cells": 158,
+    "captured_missing_cells": 0,
+    "captured_status_flags_present": false,
+    "run_manifest_artifacts_excluding_manifest": 713,
+    "run_manifest_hash_failures": 0,
+    "structured_months": 79,
+    "retrospective_transitions": 78,
+    "scored_transitions_per_target": 77,
+    "freezes": 156,
+    "adjudications": 156,
+    "posterior_snapshots": 156,
+    "Z_post_records": 156,
+    "bootstrap_freezes": 22,
+    "year_checkpoints": 7,
+    "posterior_or_Z_post_resets": 0,
+    "preopened_weight_updates_suppressed": 2,
+    "staging_directories_remaining": 0
+  },
+  "scientific_result": {
+    "classification": "RETROSPECTIVE_SEQUENTIAL_DEVELOPMENT_ON_CURRENT_REVISED_SERIES_PLUS_PROSPECTIVE_2026_08_FREEZE",
+    "jurisdiction": "Finland|WHOLE_COUNTRY|Standing_sales|Spruce_logs|monthly",
+    "physical_pattern": {
+      "volume": "spring accumulation, universal July drop in 7/7 observed transitions, August-September rebound",
+      "price": "February-June upward phase followed by July-October downward phase"
+    },
+    "training_age_pattern": "2021-2022 weak or mixed; 2023-2026 clearer target-local seasonal improvement",
+    "diagnostic_whole_history": {
+      "volume": {
+        "M0_mean_absolute_log_error": 0.33011987000834386,
+        "M1_mean_absolute_log_error": 0.32223713969141454,
+        "M2_mean_absolute_log_error": 0.31411038923579115,
+        "persistence_mean_absolute_log_error": 0.3312734304746836,
+        "M2_relative_reduction_vs_M0": 0.048495962306504194,
+        "M2_relative_reduction_vs_persistence": 0.05180929003059325
+      },
+      "price": {
+        "M0_mean_absolute_log_error": 0.014065738083548808,
+        "M1_mean_absolute_log_error": 0.011661181481410706,
+        "M2_mean_absolute_log_error": 0.011563326928133038,
+        "persistence_mean_absolute_log_error": 0.01440699574640975,
+        "M1_relative_reduction_vs_M0": 0.17095132781908223,
+        "M2_relative_reduction_vs_M0": 0.17790827189812194,
+        "M2_relative_reduction_vs_persistence": 0.19738111042236964
+      },
+      "authority": "DIAGNOSTIC_ONLY_LOCAL_ROWS_AND_PHASES_REMAIN_PRIMARY"
+    },
+    "prospective_2026_08": {
+      "target_opened": false,
+      "volume_mixture_raw_location_m3": 439468.29700852797,
+      "price_mixture_raw_location_eur_per_m3": 82.43425966475738,
+      "mixture_interval": "NOT_ESTIMATED_MIXTURE_OF_STUDENT_T_COMPONENTS"
+    },
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "post_campaign_binding_scope": {
+    "status": "ARGENTINA_EUROSTAT_INTEGRATION_NOW_ACTIVE",
+    "integrate_Argentina": true,
+    "integrate_Eurostat": true,
+    "search_additional_sources_after_inventory": true,
+    "coral_synthesis": "typed local-evidence composition without N-to-1 pooling",
+    "excluded_domains": ["gas", "electricity", "regulated_or_administered_prices"],
+    "included_priority": ["wood", "strict industrial production", "explicit physical product", "quantity plus price"]
+  },
+  "adverse_states": [
+    "ALL_V8_ADVERSE_STATES_PRESERVED",
+    "HISTORY_IS_CURRENT_REVISED_SERIES_NOT_HISTORICAL_FIRST_RELEASE_VINTAGES",
+    "2026_07_EXCLUDED_FROM_WEIGHT_AND_SCORE_EVIDENCE",
+    "ONLY_SIX_OR_SEVEN_YEAR_REPLICATES_PER_CALENDAR_PHASE",
+    "MIXTURE_PREDICTIVE_INTERVAL_NOT_ESTIMATED",
+    "POSTERIOR_CALENDAR_CONTRIBUTION_INTERVALS_NOT_PREREGISTERED_OR_COMPUTED",
+    "AUGUST_2026_OUTCOME_PENDING",
+    "NO_MECHANISTIC_CAUSAL_ATTRIBUTION_FOR_OBSERVED_SEASONALITY",
+    "NO_CROSS_PRODUCT_COUNTRY_OR_SOURCE_TRANSPORT_AUTHORITY",
+    "NO_GLOBAL_WINNER_OR_AUTOMATIC_PROMOTION"
+  ]
+}
