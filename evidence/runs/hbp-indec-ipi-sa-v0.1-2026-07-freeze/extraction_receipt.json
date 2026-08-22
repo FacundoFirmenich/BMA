@@ -1,0 +1,13 @@
+{
+  "last_original_index": 119.86011272719425,
+  "last_seasonally_adjusted_index": 119.098206634938,
+  "pdf_rounding_reconciliation": "PASS_119.9_ORIGINAL_119.1_SA",
+  "read_only": true,
+  "reader": "xlrd==2.0.2",
+  "schema": "hbp.indec.ipi.sa.extraction-receipt.v0.1",
+  "sheet": "Cuadro 1",
+  "source_workbook_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+  "target_present": false,
+  "training_end": "2026-06",
+  "training_start": "2016-01"
+}

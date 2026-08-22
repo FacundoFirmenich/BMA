@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-08-22T02:17:04.985574+00:00",
+  "files": [
+    {
+      "bytes": 475,
+      "path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-adjudication-20260822/adjudication.json",
+      "sha256": "C410BD1FE5AD859DA4F506A11F8EE0FE367A567117902CBC966B2449A7F832AF"
+    },
+    {
+      "bytes": 3484,
+      "path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-adjudication-20260822/eurostat_sts_es_c_2026_07.json",
+      "sha256": "E4F18D8E4020A09AAE0A72F01BC5670C7A87B23C5DD07348DFA5354F1870B3CD"
+    },
+    {
+      "bytes": 1104,
+      "path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-adjudication-20260822/response_headers.json",
+      "sha256": "32EE9731ACEF647FA9EA6FC558B926ACD6912F35E4CD797A016557591C2860CA"
+    }
+  ],
+  "global_winner": null,
+  "next_target_frozen": false,
+  "outcome_state": "OUTCOME_PENDING",
+  "posterior_updated": false,
+  "preregistration_sha256": "4A08918CAC37C4386C2A2C6195C04608743D4EABFE2BED9086DCF4EA95FA1902",
+  "schema": "hbp.eurostat.sts.es-c.adjudication-manifest.v0.1"
+}

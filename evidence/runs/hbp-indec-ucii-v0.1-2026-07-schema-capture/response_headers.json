@@ -1,0 +1,27 @@
+{
+  "captured_at_utc": "2026-08-22T02:17:23.963347+00:00",
+  "final_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_capacidad_08_26.xls",
+  "fit_performed": false,
+  "forecast_performed": false,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "57344",
+    "Content-Security-Policy": "default-src 'self' 'unsafe-inline'  https://www.google-analytics.com  https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar; script-src  'self' 'unsafe-inline' https://www.google-analytics.com https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar; img-src 'self' 'unsafe-inline' data: http://www.google-analytics.com https://www.google-analytics.com http://www.google.com https://www.google.com  https://www.google.com.ar https://stats.g.doubleclick.net https://tracker.metricool.com/; script-src-elem 'self' 'unsafe-inline' http://www.google-analytics.com https://www.google-analytics.com https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar https://www.googletagmanager.com/; connect-src 'self' 'unsafe-inline' http://www.google-analytics.com https://www.google-analytics.com http://www.google.com https://www.google.com  https://www.google.com.ar https://stats.g.doubleclick.net https://analytics.google.com/;  frame-src http://preprdcarga.indec.gob.ar/ http://www.youtube.com https://www.youtube.com https://app.powerbi.com/ https://www.google-analytics.com  https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar https://indecbeta.shinyapps.io/ https://open.spotify.com/ https://anchor.fm/ https://podcasters.spotify.com/ https://view.genial.ly/ https://www.indec.gob.ar/ https://embed-standalone.spotify.com/ https://shiny.indec.gob.ar/ https://view.genially.com/ https://td.doubleclick.net/;",
+    "Content-Type": "application/vnd.ms-excel",
+    "Date": "Sat, 22 Aug 2026 02:17:25 GMT",
+    "ETag": "\"9289aa1d1e2cdd1:0\"",
+    "Last-Modified": "Fri, 14 Aug 2026 18:52:54 GMT",
+    "Server": "X",
+    "Set-Cookie": "cookiesession1=678A3F51C59171D5E056E08D4A1C6732;Expires=Sun, 22 Aug 2027 02:17:25 GMT;Path=/;HttpOnly",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM https://censo.gob.ar",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "http_status": 200,
+  "raw_bytes": 57344,
+  "raw_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "reader": "xlrd==2.0.2",
+  "request_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_capacidad_08_26.xls",
+  "score_performed": false
+}
