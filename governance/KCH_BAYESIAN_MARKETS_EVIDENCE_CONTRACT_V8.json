@@ -1,0 +1,120 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v8",
+  "date": "2026-08-22",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V7.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V7.json",
+    "sha256": "40667553150C24D77F35E0C1736DD0ADC242423F0861A465D326DD86CF1E690C"
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V8.md",
+    "sha256": "6FE9BF8E86054186AA640BE17E7CB9C1383398D6DEA3D6F91725B750200B4816"
+  },
+  "new_frozen_evidence": [
+    {
+      "path": ".gitattributes",
+      "sha256": "6728651F1B6E9356955314C40BD939580086F74A605C4F62DDB6BAA3979EAC33"
+    },
+    {
+      "path": "preregistrations/BPM_LUKE_ROUNDWOOD_MONTHLY_2020_2026_V0.1.json",
+      "sha256": "F9C58102E052251A0B9A1F212BB0ECB168664C7EE0930F7B68B7174003CA1935"
+    },
+    {
+      "path": "preregistrations/BPM_LUKE_ROUNDWOOD_MONTHLY_2020_2026_V0.1_SOFTWARE_ADDENDUM.json",
+      "sha256": "7F6A684F06B0913710F2DC61A05932EFFFB4BA81F5F6EBC2B009021A125150B3"
+    },
+    {
+      "path": "src/bma/experiments/bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "E2CAE7C7E752284792DAC7A9F7A4AFC3C33369F2B1857405E07B22DDFE4782FD"
+    },
+    {
+      "path": "scripts/capture_bpm_luke_roundwood_history_v0_1.py",
+      "sha256": "0DD307E1A7B1EFB27179E8E4153C171E4313B3AAC3D1052E5D31C063FAD2D0B9"
+    },
+    {
+      "path": "scripts/run_bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "774B0341ADCF8E26000745BB2E59245FB6B2B709132411D18FA20EFF67EBB47B"
+    },
+    {
+      "path": "tests/test_bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "9C4F819626B28B5ED975C4F3E38CE3367109A329E889BB5C17078362F381FDE6"
+    },
+    {
+      "path": "tests/test_bpm_luke_roundwood_campaign_v0_1.py",
+      "sha256": "43CCB5E905A915C49DF74637254093C8DAE087636CF84C0944A2CDDF73A62031"
+    },
+    {
+      "path": "scripts/audit_bayesian_markets_integration_v8.ps1",
+      "sha256": "005B5D964778DA83C396C5E22B53B10B09D2F26AF645E27CF4EE91623457CB53"
+    },
+    {
+      "path": "outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_FREEZE_CHECKPOINT_20260822_ES.md",
+      "sha256": "1F1A22F1339FDC6C1C5939E8E952175F68C6F2185761A8D98F1E0ACB291BAF21"
+    }
+  ],
+  "scientific_invariants": {
+    "BMA_subsumed_in_BPM": true,
+    "local_jurisdiction_is_authority": true,
+    "one_month_predicts_immediately_next_month_only": true,
+    "posterior_weights_and_Z_post_accumulate_without_year_reset": true,
+    "first_calendar_year_is_seasonal_bootstrap": true,
+    "seasonal_models_activate_from_second_calendar_year": true,
+    "volume_and_price_states_are_separate": true,
+    "current_series_is_not_historical_first_release_vintage": true,
+    "preopened_2026_07_excluded_from_weight_and_score_evidence": true,
+    "Luke_Finland_is_not_pooled_with_other_jurisdictions": true,
+    "losses_abstentions_flags_and_NOT_ESTIMABLE_preserved": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "frozen_campaign": {
+    "status": "FROZEN_SOFTWARE_AND_PROTOCOL_AWAITING_PUBLIC_CUSTODY",
+    "jurisdiction": "Finland|WHOLE_COUNTRY|Standing_sales|Spruce_logs|monthly",
+    "targets": ["volume_m3", "price_eur_per_m3"],
+    "history_months": 79,
+    "history_first": "2020-01",
+    "history_last": "2026-07",
+    "retrospective_transitions": 78,
+    "model_family": ["M0", "M1", "M2"],
+    "prospective_target": "2026-08",
+    "prospective_target_opened": false
+  },
+  "execution_state": {
+    "prior_v7_state_preserved": true,
+    "historical_capture_started": false,
+    "historical_values_opened_after_V8_design": false,
+    "remote_metadata_gets_after_V8_design": 0,
+    "remote_data_posts_after_V8_design": 0,
+    "fit_on_real_history_performed": false,
+    "forecast_from_real_history_performed": false,
+    "posterior_from_real_history_updated": false,
+    "Z_post_from_real_history_updated": false,
+    "focused_software_tests": "12 passed",
+    "focused_tests_used_synthetic_values_only": true,
+    "cross_source_likelihood_pooling": false,
+    "remote_mutation": false,
+    "destructive_cleanup": false
+  },
+  "post_campaign_binding_scope": {
+    "integrate_Argentina": true,
+    "integrate_Eurostat": true,
+    "search_additional_sources": true,
+    "coral_synthesis": "typed composition of local evidence, heterogeneity, complementarity and abstention",
+    "coral_pooling_N_to_1": false,
+    "excluded_domains": ["gas", "electricity", "regulated_or_administered_prices"],
+    "included_priority": ["wood", "strict industrial production", "explicit physical product", "quantity plus price where available"]
+  },
+  "adverse_states": [
+    "ALL_V7_ADVERSE_STATES_PRESERVED",
+    "LUKE_HISTORY_IS_CURRENT_REVISED_SERIES_NOT_FIRST_RELEASE_VINTAGES",
+    "LUKE_2026_07_ALREADY_OPENED_AND_EXCLUDED_FROM_WEIGHT_AND_SCORE_EVIDENCE",
+    "LUKE_REAL_HISTORY_NOT_YET_ACQUIRED",
+    "LUKE_REAL_MARKET_FIT_FORECAST_POSTERIOR_AND_Z_POST_NOT_YET_EXECUTED",
+    "MIXTURE_PREDICTIVE_INTERVAL_NOT_ESTIMATED",
+    "SOURCE_STATUS_FLAGS_WITHOUT_FROZEN_INTERPRETATION_FORCE_NOT_ESTIMABLE",
+    "INITIAL_SYNTHETIC_END_TO_END_TEST_EXPOSED_WINDOWS_LONG_PATH_DEFECT_REPAIRED_BEFORE_FREEZE",
+    "SYNTHETIC_TESTS_HAVE_NO_SCIENTIFIC_MARKET_AUTHORITY",
+    "ARGENTINA_EUROSTAT_AND_CORAL_EXPANSION_PENDING_UNTIL_LUKE_TERMINAL_CHECKPOINT"
+  ]
+}

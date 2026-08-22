@@ -39,3 +39,11 @@ scripts/inspect_indec_* -text whitespace=cr-at-eol,-blank-at-eof
 src/bma/experiments/hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
 tests/test_hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
 tests/test_hbp_indec_prodcom_probe_v0_1.py -text whitespace=cr-at-eol,-blank-at-eof
+# Luke roundwood frozen software and evidence: preserve byte-identical hashes.
+evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+preregistrations/BPM_LUKE_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+scripts/*luke* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+src/bma/experiments/bpm_luke_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+tests/test_bpm_luke_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+outputs/BPM_LUKE_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

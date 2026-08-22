@@ -1,0 +1,56 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v8",
+  "date": "2026-08-22",
+  "mission": "Freeze and verify the Luke Finland monthly roundwood campaign before any historical acquisition, preserving the subsequent Argentina, Eurostat and coral-expansion obligation.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "3b4bb3c392ca1af992fba3959dbfcb6047ec7327",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V8.json",
+    "sha256": "127A85C9DAAA76A94FBA44990616F10A467353B524B4997AC42F6AB75708395E"
+  },
+  "audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V8_AUDIT.json",
+    "sha256": "F0D6899B44668518E72AEDA6D6D16E4343CFD40C9DFFA87ABA8FBAB1022564FC",
+    "status": "PASS",
+    "checks": 48,
+    "failures": 0,
+    "prior_v7": "PASS 56/56"
+  },
+  "result": {
+    "state": "FROZEN_SOFTWARE_AND_PROTOCOL_AWAITING_PUBLIC_CUSTODY",
+    "jurisdiction": "Finland x whole country x standing sales x spruce logs x monthly",
+    "history_support": "2020-01 through 2026-07; 79 months; 158 cells maximum",
+    "retrospective_transitions": 78,
+    "seasonal_bootstrap_year": 2020,
+    "seasonal_activation_year": 2021,
+    "preopened_target_excluded_from_weight_and_score_evidence": "2026-07",
+    "prospective_target_pending": "2026-08",
+    "historical_capture_performed": false,
+    "fit_on_real_history_performed": false,
+    "forecast_from_real_history_performed": false,
+    "posterior_from_real_history_updated": false,
+    "Z_post_from_real_history_updated": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation": {
+    "focused_pytest": "12 passed",
+    "full_pytest": "107 passed",
+    "ruff_new_python_files": "PASS",
+    "v8_audit": "PASS 48/48; chained V7 PASS 56/56",
+    "remote_access_during_validation": false
+  },
+  "preserved_boundaries": [
+    "all V7 states and adverse evidence",
+    "current revised history is not a first-release vintage panel",
+    "the 2026-07 probe cell has no weight or aggregate score authority",
+    "synthetic tests validate software mechanics only",
+    "missing or uninterpreted flagged cells force NOT_ESTIMABLE before fit",
+    "volume and price remain target-local and Luke remains jurisdiction-local",
+    "Argentina and Eurostat integration plus new-source search begin only after Luke reaches a terminal audited checkpoint",
+    "unrelated dirty AEAT and phase-selector work remains unstaged and untouched"
+  ],
+  "next_gate": "Commit and push V8 publicly before the one authorized historical POST."
+}

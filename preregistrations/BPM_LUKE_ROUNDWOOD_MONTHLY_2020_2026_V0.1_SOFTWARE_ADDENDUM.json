@@ -1,0 +1,87 @@
+{
+  "addendum_id": "BPM_LUKE_ROUNDWOOD_MONTHLY_2020_2026_V0.1_SOFTWARE_ADDENDUM",
+  "frozen_at": "2026-08-22",
+  "status": "FROZEN_BEFORE_HISTORICAL_VALUE_ACQUISITION",
+  "implements": "preregistrations/BPM_LUKE_ROUNDWOOD_MONTHLY_2020_2026_V0.1.json",
+  "source_anchors": [
+    {
+      "path": "preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1.json",
+      "sha256": "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7"
+    },
+    {
+      "path": "preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_AMENDMENT_A1.json",
+      "sha256": "05F0B5D5C1638A84642943C50223BE9E0B62A258B5402486A8D042E8424C76AD"
+    },
+    {
+      "path": "evidence/runs/bpm-luke-roundwood-public-probe-v0.1/probe_adjudication.json",
+      "sha256": "0D49DD332FE4C80214C96E461CC9CE8FB4FACC76BC5E4FEC14F5041B1A379E64"
+    }
+  ],
+  "frozen_software": [
+    {
+      "path": "src/bma/experiments/bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "E2CAE7C7E752284792DAC7A9F7A4AFC3C33369F2B1857405E07B22DDFE4782FD",
+      "role": "target-specific Bayesian M0/M1/M2 state machine"
+    },
+    {
+      "path": "scripts/capture_bpm_luke_roundwood_history_v0_1.py",
+      "sha256": "0DD307E1A7B1EFB27179E8E4153C171E4313B3AAC3D1052E5D31C063FAD2D0B9",
+      "role": "single bounded remote POST and immutable raw capture"
+    },
+    {
+      "path": "scripts/run_bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "774B0341ADCF8E26000745BB2E59245FB6B2B709132411D18FA20EFF67EBB47B",
+      "role": "retrospective sequential replay and prospective 2026-08 freeze"
+    },
+    {
+      "path": "tests/test_bpm_luke_roundwood_monthly_v0_1.py",
+      "sha256": "9C4F819626B28B5ED975C4F3E38CE3367109A329E889BB5C17078362F381FDE6",
+      "role": "mathematical and chronology invariants"
+    },
+    {
+      "path": "tests/test_bpm_luke_roundwood_campaign_v0_1.py",
+      "sha256": "43CCB5E905A915C49DF74637254093C8DAE087636CF84C0944A2CDDF73A62031",
+      "role": "full synthetic software-chain, abstention and capture-contract tests"
+    }
+  ],
+  "runtime_observed": {
+    "python": "3.14.0",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "operating_system": "Windows",
+    "long_path_strategy": "extended-length namespace derived with chr(92), preserving relative artifact paths"
+  },
+  "determinism": {
+    "json": "UTF-8; sorted keys; compact separators; trailing LF",
+    "posterior_gzip": "compresslevel=9; mtime=0",
+    "month_order": "explicit frozen 2020M01 through 2026M07 sequence",
+    "model_order": ["M0", "M1", "M2"],
+    "target_order": ["volume", "price"],
+    "randomness": false,
+    "synthetic_test_values_used_in_scientific_run": false
+  },
+  "verified_invariants": [
+    "strict one-calendar-month horizon",
+    "exact zero-sum month contrasts",
+    "target-specific priors and weights",
+    "M1 and M2 hidden states learn during the 2020 M0-only bootstrap",
+    "seasonal forecasts activate in 2021 without posterior reset",
+    "stale freezes and cross-target updates fail",
+    "preopened 2026-07 updates parameter state but not weight evidence",
+    "invalid physical values fail",
+    "complete 79-month fixture creates 78 transitions and 713 pre-manifest artifacts",
+    "missing cell abstains before fit, forecast, posterior or Z_post",
+    "uninterpreted source status abstains before fit",
+    "capture is one bounded POST with no metadata GET"
+  ],
+  "pre_freeze_validation": {
+    "python_compile": "PASS",
+    "focused_pytest": "12 passed",
+    "synthetic_test_classification": "SOFTWARE_MECHANICS_ONLY_NO_SCIENTIFIC_AUTHORITY",
+    "remote_access_during_validation": false
+  },
+  "hash_mismatch_policy": "STOP_BEFORE_REMOTE_ACQUISITION_OR_MODEL_EXECUTION",
+  "unexpected_schema_or_status_policy": "STOP_OR_NOT_ESTIMABLE_BEFORE_FIT_AS_FROZEN_IN_MAIN_PREREGISTRATION",
+  "global_winner": null,
+  "automatic_promotion": false
+}
