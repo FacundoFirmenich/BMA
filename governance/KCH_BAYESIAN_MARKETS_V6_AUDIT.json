@@ -1,0 +1,376 @@
+{
+    "schema":  "kch-bayesian-markets-v6-audit/v1",
+    "generated_at":  "2026-08-22T02:17:09.6847061+02:00",
+    "status":  "PASS",
+    "checks":  59,
+    "failures":  0,
+    "prior_v5_checks":  89,
+    "prior_v5_failures":  0,
+    "adverse_states_asserted":  [
+                                    "ALL_V5_ADVERSE_STATES_PRESERVED",
+                                    "PUERTOS_IMPORTED_FORMULA_ERRORS_PRESENT_IN_SELECTED_CALCULATED_CELLS",
+                                    "PUERTOS_NO_CURRENT_MONTHLY_NATURE_PANEL",
+                                    "PUERTOS_CUMULATIVE_DIFFERENCE_REVISION_MIXED_AND_FORBIDDEN",
+                                    "TED_EXACT_PRIOR_REQUEST_BODY_NOT_PRESERVED",
+                                    "TED_VALUE_AND_CURRENCY_INCOMPLETE",
+                                    "TED_NO_QUANTITY_FIELD",
+                                    "M2_ABSTAINS",
+                                    "M3_ABSTAINS"
+                                ],
+    "details":  [
+                    {
+                        "name":  "prior_v5.audit_status",
+                        "pass":  true,
+                        "observed":  "PASS",
+                        "expected":  "PASS"
+                    },
+                    {
+                        "name":  "prior_v5.audit_failures",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "contract.prior_hash",
+                        "pass":  true,
+                        "observed":  "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523",
+                        "expected":  "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523"
+                    },
+                    {
+                        "name":  "contract.mission_hash",
+                        "pass":  true,
+                        "observed":  "E40EA950B61A1309C21922BC0555C8477B495F667F6D67C5B50B9307B52E0B47",
+                        "expected":  "E40EA950B61A1309C21922BC0555C8477B495F667F6D67C5B50B9307B52E0B47"
+                    },
+                    {
+                        "name":  "contract.exists.preregistrations/HBP_PORT_TED_PROSPECTIVE_OBSERVER_CHAIN_V0.1.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "contract.hash.preregistrations/HBP_PORT_TED_PROSPECTIVE_OBSERVER_CHAIN_V0.1.json",
+                        "pass":  true,
+                        "observed":  "CE0D1327C6ACD17FFCA715D789EB169834CB8E98256A6D45DD5A918E6A66B965",
+                        "expected":  "CE0D1327C6ACD17FFCA715D789EB169834CB8E98256A6D45DD5A918E6A66B965"
+                    },
+                    {
+                        "name":  "contract.exists.scripts/adjudicate_hbp_port_ted_observers.mjs",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "contract.hash.scripts/adjudicate_hbp_port_ted_observers.mjs",
+                        "pass":  true,
+                        "observed":  "11285B19649EE7319ACE25038C430C9AF6D1052FDB84554E7C6F1B4B51AA885E",
+                        "expected":  "11285B19649EE7319ACE25038C430C9AF6D1052FDB84554E7C6F1B4B51AA885E"
+                    },
+                    {
+                        "name":  "contract.exists.tests/test_hbp_port_ted_observer_chain_v0_1.py",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "contract.hash.tests/test_hbp_port_ted_observer_chain_v0_1.py",
+                        "pass":  true,
+                        "observed":  "B4E6AC456D2138EDD3C56B003938E61432C3C3E400E41D8B15B1B21600CD9FE7",
+                        "expected":  "B4E6AC456D2138EDD3C56B003938E61432C3C3E400E41D8B15B1B21600CD9FE7"
+                    },
+                    {
+                        "name":  "contract.exists.outputs/HBP_PORT_TED_OBSERVER_CHAIN_CHECKPOINT_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "contract.hash.outputs/HBP_PORT_TED_OBSERVER_CHAIN_CHECKPOINT_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  "C5B189F914326B5FD34B25E7C0FECDC88579AED6A06F57637D08359998957319",
+                        "expected":  "C5B189F914326B5FD34B25E7C0FECDC88579AED6A06F57637D08359998957319"
+                    },
+                    {
+                        "name":  "contract.exists.evidence/runs/hbp-port-ted-prospective-observer-chain-v0.1/observer_adjudication.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "contract.hash.evidence/runs/hbp-port-ted-prospective-observer-chain-v0.1/observer_adjudication.json",
+                        "pass":  true,
+                        "observed":  "B8189F59862AAE4E7174B6A2860C5E854DFBE24ACF8B31B53EAD4DEE84417B53",
+                        "expected":  "B8189F59862AAE4E7174B6A2860C5E854DFBE24ACF8B31B53EAD4DEE84417B53"
+                    },
+                    {
+                        "name":  "anchor.exists.evidence/probes/public-expansion-v1/puertos_es_2026-06.xlsx",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "anchor.hash.evidence/probes/public-expansion-v1/puertos_es_2026-06.xlsx",
+                        "pass":  true,
+                        "observed":  "C4BDD4500A67A7A3CD3A17BDFD6131D206F468A7E99BE1584BA7A217EC39A28F",
+                        "expected":  "C4BDD4500A67A7A3CD3A17BDFD6131D206F468A7E99BE1584BA7A217EC39A28F"
+                    },
+                    {
+                        "name":  "anchor.exists.evidence/probes/public-expansion-v1/ted_can_standard_cpv44_limit10.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "anchor.hash.evidence/probes/public-expansion-v1/ted_can_standard_cpv44_limit10.json",
+                        "pass":  true,
+                        "observed":  "C1A75475D2C6D6617475A770AEE2B2F11A6013687803996E1C5ADD850A75DBA3",
+                        "expected":  "C1A75475D2C6D6617475A770AEE2B2F11A6013687803996E1C5ADD850A75DBA3"
+                    },
+                    {
+                        "name":  "receipt.contract_hash",
+                        "pass":  true,
+                        "observed":  "FC0A7C974E23400ECCBA9DDE5F4800031CE6EDBFFF9788686D571535CABAF5D5",
+                        "expected":  "FC0A7C974E23400ECCBA9DDE5F4800031CE6EDBFFF9788686D571535CABAF5D5"
+                    },
+                    {
+                        "name":  "prereg.before_future_acquisition",
+                        "pass":  true,
+                        "observed":  "PREREGISTERED_BEFORE_ANY_FUTURE_RELEASE_ACQUISITION",
+                        "expected":  "PREREGISTERED_BEFORE_ANY_FUTURE_RELEASE_ACQUISITION"
+                    },
+                    {
+                        "name":  "prereg.hash_in_adjudication",
+                        "pass":  true,
+                        "observed":  "CE0D1327C6ACD17FFCA715D789EB169834CB8E98256A6D45DD5A918E6A66B965",
+                        "expected":  "CE0D1327C6ACD17FFCA715D789EB169834CB8E98256A6D45DD5A918E6A66B965"
+                    },
+                    {
+                        "name":  "prereg.puertos_12_pairs",
+                        "pass":  true,
+                        "observed":  12,
+                        "expected":  12
+                    },
+                    {
+                        "name":  "prereg.ted_12_pairs",
+                        "pass":  true,
+                        "observed":  12,
+                        "expected":  12
+                    },
+                    {
+                        "name":  "prereg.no_auto_M2_M3",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "prereg.no_pooling",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.existing_bytes_only",
+                        "pass":  true,
+                        "observed":  "EXISTING_BYTES_ONLY_NO_NEW_REMOTE_ACQUISITION",
+                        "expected":  "EXISTING_BYTES_ONLY_NO_NEW_REMOTE_ACQUISITION"
+                    },
+                    {
+                        "name":  "execution.fit_performed",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.forecast_performed",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.score_performed",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.posterior_updated",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.Z_post_updated",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.historical_freeze_reconstructed",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.cross_source_likelihood_pooling",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.automatic_promotion",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "execution.no_global_winner",
+                        "pass":  true,
+                        "observed":  null,
+                        "expected":  null
+                    },
+                    {
+                        "name":  "puertos.sheets_45",
+                        "pass":  true,
+                        "observed":  45,
+                        "expected":  45
+                    },
+                    {
+                        "name":  "puertos.total_june_2026",
+                        "pass":  true,
+                        "observed":  47026235.533,
+                        "expected":  47026235.533
+                    },
+                    {
+                        "name":  "puertos.general_cargo_june_2026",
+                        "pass":  true,
+                        "observed":  24462278,
+                        "expected":  24462278
+                    },
+                    {
+                        "name":  "puertos.wood_solid_ytd",
+                        "pass":  true,
+                        "observed":  163148,
+                        "expected":  163148
+                    },
+                    {
+                        "name":  "puertos.wood_general_ytd",
+                        "pass":  true,
+                        "observed":  2839117,
+                        "expected":  2839117
+                    },
+                    {
+                        "name":  "puertos.historic_years",
+                        "pass":  true,
+                        "observed":  "2019,2020,2021,2022",
+                        "expected":  "2019,2020,2021,2022"
+                    },
+                    {
+                        "name":  "puertos.no_current_monthly_nature",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "puertos.nature_not_estimable",
+                        "pass":  true,
+                        "observed":  "NOT_ESTIMABLE_NO_CURRENT_MONTHLY_NATURE_CELL",
+                        "expected":  "NOT_ESTIMABLE_NO_CURRENT_MONTHLY_NATURE_CELL"
+                    },
+                    {
+                        "name":  "puertos.revision_mixed_forbidden",
+                        "pass":  true,
+                        "observed":  "FORBIDDEN_REVISION_MIXED_INCREMENT_UNLESS_SEPARATELY_RECONCILED",
+                        "expected":  "FORBIDDEN_REVISION_MIXED_INCREMENT_UNLESS_SEPARATELY_RECONCILED"
+                    },
+                    {
+                        "name":  "ted.total_3132",
+                        "pass":  true,
+                        "observed":  3132,
+                        "expected":  3132
+                    },
+                    {
+                        "name":  "ted.sample_10",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.unique_10",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.coverage.publication_number",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.coverage.publication_date",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.coverage.notice_type",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.coverage.cpv",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.coverage.place",
+                        "pass":  true,
+                        "observed":  10,
+                        "expected":  10
+                    },
+                    {
+                        "name":  "ted.value_4",
+                        "pass":  true,
+                        "observed":  4,
+                        "expected":  4
+                    },
+                    {
+                        "name":  "ted.currency_5",
+                        "pass":  true,
+                        "observed":  5,
+                        "expected":  5
+                    },
+                    {
+                        "name":  "ted.quantity_0",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "ted.event_only",
+                        "pass":  true,
+                        "observed":  "INSTITUTIONAL_DEMAND_EVENT_COUNT_OBSERVER_ONLY",
+                        "expected":  "INSTITUTIONAL_DEMAND_EVENT_COUNT_OBSERVER_ONLY"
+                    },
+                    {
+                        "name":  "coral.position",
+                        "pass":  true,
+                        "observed":  "BETTER_TYPED_OBSERVER_DESIGN_WITHOUT_NEW_PREDICTIVE_AUTHORITY",
+                        "expected":  "BETTER_TYPED_OBSERVER_DESIGN_WITHOUT_NEW_PREDICTIVE_AUTHORITY"
+                    },
+                    {
+                        "name":  "coral.M2_abstains",
+                        "pass":  true,
+                        "observed":  "ABSTAIN_UNTIL_TARGET_SPECIFIC_FREEZE_AND_SUPPORT_GATE",
+                        "expected":  "ABSTAIN_UNTIL_TARGET_SPECIFIC_FREEZE_AND_SUPPORT_GATE"
+                    },
+                    {
+                        "name":  "coral.M3_abstains",
+                        "pass":  true,
+                        "observed":  "ABSTAIN_NO_CAUSALLY_ALIGNED_MULTI_SOURCE_LIKELIHOOD",
+                        "expected":  "ABSTAIN_NO_CAUSALLY_ALIGNED_MULTI_SOURCE_LIKELIHOOD"
+                    }
+                ]
+}

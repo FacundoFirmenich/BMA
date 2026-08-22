@@ -1,0 +1,40 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v6",
+  "date": "2026-08-22",
+  "mission": "Integrate bounded Puertos del Estado and TED observers as typed prospective chains after the INDEC/Prodcom custody campaign, without premature model authority.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "359e81fa9b97fc189e9b42bf38f426c58a689eae",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V6.json",
+    "sha256": "FC0A7C974E23400ECCBA9DDE5F4800031CE6EDBFFF9788686D571535CABAF5D5"
+  },
+  "result": {
+    "state": "BETTER_TYPED_OBSERVER_DESIGN_WITHOUT_NEW_PREDICTIVE_AUTHORITY",
+    "puertos": "DESCRIPTIVE_PHYSICAL_ACTIVITY_OBSERVER_ONLY",
+    "ted": "INSTITUTIONAL_DEMAND_EVENT_COUNT_OBSERVER_ONLY",
+    "M2": "ABSTAIN_UNTIL_TARGET_SPECIFIC_FREEZE_AND_SUPPORT_GATE",
+    "M3": "ABSTAIN_NO_CAUSALLY_ALIGNED_MULTI_SOURCE_LIKELIHOOD",
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "posterior_updated": false,
+    "Z_post_updated": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation_at_receipt_creation": {
+    "focused_pytest": "5 passed",
+    "full_pytest": "91 passed",
+    "v6_audit": "PASS 59/59; chained V5 PASS 89/89"
+  },
+  "preserved_boundaries": [
+    "all V5 states and adverse evidence",
+    "Eurostat July target remains unopened",
+    "Puertos current monthly nature panel remains NOT_ESTIMABLE",
+    "TED values and quantities remain NOT_ESTIMABLE",
+    "unrelated dirty AEAT work remains unstaged and untouched",
+    "no mutation of divergent remote branch agent/bma-v061-aeat-industrial-holdout"
+  ]
+}
