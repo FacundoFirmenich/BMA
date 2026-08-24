@@ -1,0 +1,89 @@
+{
+  "schema": "bayesian-markets-outcome-availability/v1",
+  "checked_at_date": "2026-08-24",
+  "status": "NO_PENDING_TARGET_OUTCOME_AVAILABLE",
+  "checks": [
+    {
+      "campaign_id": "bpm-luke-roundwood-volume-2020-2026",
+      "target": "2026-08",
+      "method": "GET_METADATA_ONLY",
+      "observed_time_value_count": 79,
+      "observed_latest_period": "2026M07",
+      "target_present": false,
+      "adjudication_authorized_now": false
+    },
+    {
+      "campaign_id": "bpm-luke-roundwood-price-2020-2026",
+      "target": "2026-08",
+      "method": "SAME_GET_METADATA_ONLY",
+      "observed_time_value_count": 79,
+      "observed_latest_period": "2026M07",
+      "target_present": false,
+      "adjudication_authorized_now": false
+    },
+    {
+      "campaign_id": "hbp-indec-ipi-sa-v0.1-2026-07",
+      "target": "2026-07",
+      "method": "HEAD_ONLY",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+      "last_modified": "Fri, 07 Aug 2026 18:51:55 GMT",
+      "etag": "\"9fca30d19d26dd1:0\"",
+      "content_length": 1087488,
+      "changed_from_frozen_source_headers": false,
+      "target_present": false,
+      "adjudication_authorized_now": false
+    },
+    {
+      "campaign_id": "hbp-indec-ucii-logit-v0.2-2026-07",
+      "target": "2026-07",
+      "method": "HEAD_ONLY",
+      "url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_capacidad_08_26.xls",
+      "last_modified": "Fri, 14 Aug 2026 18:52:54 GMT",
+      "etag": "\"9289aa1d1e2cdd1:0\"",
+      "content_length": 57344,
+      "changed_from_frozen_source_headers": false,
+      "target_present": false,
+      "adjudication_authorized_now": false
+    },
+    {
+      "campaign_id": "hbp-eurostat-sts-es-c-v0.1-2026-07",
+      "target": "2026-07",
+      "method": "EXACT_SINGLE_CELL_GET",
+      "dataset_updated": "2026-08-22T11:00:00+0200",
+      "time_dimension_size": 0,
+      "value": {},
+      "overall_latest_period": "2026-06",
+      "target_present": false,
+      "adjudication_authorized_now": false
+    }
+  ],
+  "source_gate_updates": [
+    {
+      "source": "latvia-csb-industrial-production",
+      "prior_state": "SCHEMA_PASS_SAMPLE_HTTP_400",
+      "new_evidence": "the first declared NACE/MIG code, first declared indicator and first month also returned HTTP 400",
+      "updated_state": "API_GET_SCHEMA_PASS_POST_DATA_SYSTEMATIC_HTTP_400",
+      "model_authority": false
+    },
+    {
+      "source": "eumofa-first-sales",
+      "prior_state": "DOCUMENTATION_PASS_DATA_UI_HTTP_403",
+      "new_evidence": "in-app browser runtime failed before navigation because Windows sandbox could not apply read ACLs, including after explicit plugin-read permission",
+      "updated_state": "DOCUMENTATION_PASS_DATA_UI_HTTP_403_BROWSER_RUNTIME_UNAVAILABLE",
+      "inference_limit": "the browser failure is local infrastructure evidence and does not prove EUMOFA requires login",
+      "model_authority": false
+    }
+  ],
+  "actions_not_taken": [
+    "no target workbook download",
+    "no score",
+    "no posterior update",
+    "no Z_post update",
+    "no future freeze",
+    "no account creation",
+    "no imputation of pending outcomes"
+  ],
+  "aggregate_winner": null,
+  "automatic_promotion": false,
+  "next_gate": "repeat only the corresponding bounded availability check after an official source changes; adjudicate the first target that is genuinely present."
+}
