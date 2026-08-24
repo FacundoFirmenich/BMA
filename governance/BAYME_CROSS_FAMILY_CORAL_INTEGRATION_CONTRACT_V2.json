@@ -1,0 +1,122 @@
+{
+  "contract_id": "BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V2",
+  "date": "2026-08-24",
+  "supersedes": "BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1",
+  "governing_model": "BayME",
+  "purpose": "Integrate BPM physical-market evidence and HBP systemic evidence as a typed causal graph without pooling likelihoods, posteriors, scores, weights or authority.",
+  "ledger": "governance/BAYESIAN_MARKETS_CORAL_EVIDENCE_LEDGER_V2.json",
+  "coral_semantics": {
+    "is": [
+      "a registry of campaign-local evidence states",
+      "a typed graph of contextual and homologous relations",
+      "a common state machine for freeze, outcome, adjudication, posterior, Z_post and future prior",
+      "a mechanism for preserving support gaps, abstentions and adverse gates"
+    ],
+    "is_not": [
+      "a pooled likelihood or posterior",
+      "a global score, ranking or winner",
+      "a mechanism for translating support or authority between jurisdictions",
+      "a substitute for first-release vintage custody"
+    ]
+  },
+  "required_unit_fields": [
+    "campaign_id", "family", "jurisdiction", "object", "temporal_unit",
+    "information_cutoff", "target", "freeze_state", "frozen_prediction",
+    "outcome_state", "local_adjudication", "posterior_state", "Z_post_state",
+    "support_or_abstention", "custody_state", "claim_ceiling", "next_gate"
+  ],
+  "causal_order": [
+    "freeze exactly the next comparable temporal unit",
+    "capture the official first-release outcome as immutable bytes",
+    "adjudicate within the same target and jurisdiction",
+    "update the campaign-local posterior exactly once",
+    "update model-specific Z_post exactly once",
+    "derive only the next future prior and freeze"
+  ],
+  "typed_edges": [
+    {
+      "from": "bpm-luke-roundwood-volume-2020-2026",
+      "to": "bpm-luke-roundwood-price-2020-2026",
+      "type": "SAME_PRODUCT_SAME_MARKET_CONTEMPORANEOUS_CONTEXT",
+      "permitted_use": "joint descriptive diagnostics and preregistered future covariates only",
+      "posterior_transfer": false
+    },
+    {
+      "from": "hbp-argentina-credit-2026|hbp-argentina-m3-2026|hbp-argentina-ipc-2026",
+      "to": "hbp-indec-ipi-sa-v0.1-2026-07|hbp-indec-ucii-logit-v0.2-2026-07",
+      "type": "LAGGED_MACRO_MONETARY_CONTEXT_CANDIDATE",
+      "permitted_use": "future preregistered observer only after payload recovery and calendar alignment",
+      "posterior_transfer": false
+    },
+    {
+      "from": "hbp-indec-ipi-sa-v0.1-2026-07",
+      "to": "hbp-indec-ucii-logit-v0.2-2026-07",
+      "type": "SAME_COUNTRY_COMPLEMENTARY_INDUSTRIAL_STATE",
+      "permitted_use": "future preregistered cross-target diagnostics only",
+      "posterior_transfer": false
+    },
+    {
+      "from": "hbp-eurostat-sts-es-c-v0.1-2026-07",
+      "to": "hbp-indec-ipi-sa-v0.1-2026-07",
+      "type": "HOMOLOGOUS_PRODUCTION_OUTCOME_SEPARATE_COUNTRY_CELLS",
+      "permitted_use": "methodological comparison after separate local adjudications",
+      "posterior_transfer": false
+    },
+    {
+      "from": "hbp-eu27-rc15-2026",
+      "to": "hbp-eurostat-sts-es-c-v0.1-2026-07",
+      "type": "EU_SYSTEMIC_CONTEXT_TO_LOCAL_INDUSTRIAL_STATE",
+      "permitted_use": "future preregistered lagged observer only after complete-panel custody",
+      "posterior_transfer": false
+    },
+    {
+      "from": "bpm-luke-roundwood-volume-2020-2026|bpm-luke-roundwood-price-2020-2026",
+      "to": "hbp-eurostat-sts-es-c-v0.1-2026-07",
+      "type": "PHYSICAL_PRODUCT_MARKET_TO_INDUSTRIAL_STATE_HYPOTHESIS",
+      "permitted_use": "hypothesis generation only; no current inferential authority",
+      "posterior_transfer": false
+    }
+  ],
+  "hard_invariants": {
+    "one_temporal_unit_predicts_exactly_next_comparable_unit": true,
+    "posterior_accumulates_without_reset": true,
+    "model_specific_Z_post_accumulates_without_reset": true,
+    "N_periods_condensed_into_one_target_forbidden": true,
+    "cross_target_cross_country_cross_product_pooling_forbidden": true,
+    "double_counting_forbidden": true,
+    "Z_post_is_not_residual_z": true,
+    "Z_post_is_not_Z_XPL": true,
+    "first_release_vintage_custody_required": true,
+    "revisions_never_replace_historical_scoring_bytes": true,
+    "gas_electricity_administered_and_regulated_price_targets_excluded": true,
+    "wood_and_strict_industrial_production_included": true,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "constitutional_candidate": {
+    "source": "chatgpt-conversation://6a80b257-f2c4-83eb-ae2d-3d904680e328",
+    "linked_putative_trunk": "chatgpt-conversation://6a53d2d1-1388-83ed-a891-07a16b7b9e2a",
+    "status": "DERIVED_CONSTITUTIONAL_RESEARCH_CANDIDATE",
+    "empirical_unit": false,
+    "compatible_controls": [
+      "epistemic claim typing",
+      "reality versus publication separation",
+      "immutable causal freeze",
+      "situated local authority",
+      "mixture fusion composition non-equivalence",
+      "posterior learning only toward future runs"
+    ],
+    "lineage_limit": "the observable linked trunk does not independently establish primary BayME-EVE origin",
+    "promotion": "FORBIDDEN_WITHOUT_PRIMARY_RECONCILIATION"
+  },
+  "current_position": {
+    "integrated_units": 9,
+    "typed_edges": 6,
+    "fully_local_custody_units": 5,
+    "native_hash_only_or_payload_gap_units": 4,
+    "prospective_pending_targets": 5,
+    "outcome_pending_or_not_estimable_units": 2,
+    "scientific_advance": "comparability of heterogeneous evidence states and explicit causal gates, not an aggregate performance claim"
+  },
+  "next_decision_gate": "adjudicate the earliest official first release among Luke August, Argentina IPI July, Argentina UCII July and Eurostat STS Spain July while preserving every frozen target and local posterior."
+}

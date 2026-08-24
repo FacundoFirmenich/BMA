@@ -1,0 +1,13 @@
+{
+  "schema_version": "bma.aeat.chapter72.monthly-seasonal.transport-recovery-amendment.v0.6.5",
+  "frozen_at": "2026-08-11",
+  "status": "FROZEN_AFTER_2023_01_FREEZE_AND_BEFORE_2023_01_OUTCOME_OPENING",
+  "sealed_state": "freeze_2023-01 exists; no 2023 structured outcome, adjudication, posterior or Z_post exists.",
+  "repair": "Try AEAT's documented current-hierarchy 2023 CN64--74 archive after the legacy URLs return HTTP 404; reuse an existing freeze only if its reconstructed bytes decode identically.",
+  "source_hashes_sha256": {
+    "aeat_connector": "7a351abaace9f4a49c8ed18d2eed0f07544bd54d04eceaea23ef41552bb1041c",
+    "causal_2023_runner": "250a9bd4de7233f448773bdd5a778829b6f59cc0246aeffe240f409ac3426c13"
+  },
+  "forbidden": ["rewrite freeze_2023-01", "open a different target before January 2023 is resolved", "use 2024 in the causal 2023 posterior"],
+  "claim_boundary": "Transport recovery changes no model parameter, prior, seasonal support, weight, outcome or scientific claim."
+}

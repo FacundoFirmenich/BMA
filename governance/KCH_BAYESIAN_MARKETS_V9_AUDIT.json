@@ -1,0 +1,353 @@
+{
+    "schema":  "kch-bayesian-markets-v9-audit/v1",
+    "generated_at":  "2026-08-22T03:29:27.8799607+02:00",
+    "status":  "PASS",
+    "checks":  55,
+    "failures":  0,
+    "prior_v8_checks":  48,
+    "prior_v8_failures":  0,
+    "adverse_states_asserted":  [
+                                    "ALL_V8_ADVERSE_STATES_PRESERVED",
+                                    "HISTORY_IS_CURRENT_REVISED_SERIES_NOT_HISTORICAL_FIRST_RELEASE_VINTAGES",
+                                    "2026_07_EXCLUDED_FROM_WEIGHT_AND_SCORE_EVIDENCE",
+                                    "ONLY_SIX_OR_SEVEN_YEAR_REPLICATES_PER_CALENDAR_PHASE",
+                                    "MIXTURE_PREDICTIVE_INTERVAL_NOT_ESTIMATED",
+                                    "POSTERIOR_CALENDAR_CONTRIBUTION_INTERVALS_NOT_PREREGISTERED_OR_COMPUTED",
+                                    "AUGUST_2026_OUTCOME_PENDING",
+                                    "NO_MECHANISTIC_CAUSAL_ATTRIBUTION_FOR_OBSERVED_SEASONALITY",
+                                    "NO_CROSS_PRODUCT_COUNTRY_OR_SOURCE_TRANSPORT_AUTHORITY",
+                                    "NO_GLOBAL_WINNER_OR_AUTOMATIC_PROMOTION"
+                                ],
+    "details":  [
+                    {
+                        "name":  "prior_v8.audit_hash",
+                        "pass":  true,
+                        "observed":  "F0D6899B44668518E72AEDA6D6D16E4343CFD40C9DFFA87ABA8FBAB1022564FC",
+                        "expected":  "F0D6899B44668518E72AEDA6D6D16E4343CFD40C9DFFA87ABA8FBAB1022564FC"
+                    },
+                    {
+                        "name":  "prior_v8.status",
+                        "pass":  true,
+                        "observed":  "PASS",
+                        "expected":  "PASS"
+                    },
+                    {
+                        "name":  "prior_v8.checks",
+                        "pass":  true,
+                        "observed":  "48/0",
+                        "expected":  "48/0"
+                    },
+                    {
+                        "name":  "contract.prior_hash",
+                        "pass":  true,
+                        "observed":  "127A85C9DAAA76A94FBA44990616F10A467353B524B4997AC42F6AB75708395E",
+                        "expected":  "127A85C9DAAA76A94FBA44990616F10A467353B524B4997AC42F6AB75708395E"
+                    },
+                    {
+                        "name":  "contract.mission_hash",
+                        "pass":  true,
+                        "observed":  "64518977C647903F57101C9BE07A94D78F9EAD8AF7C6427061BBB0C8A64EA726",
+                        "expected":  "64518977C647903F57101C9BE07A94D78F9EAD8AF7C6427061BBB0C8A64EA726"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/capture_manifest.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/capture_manifest.json",
+                        "pass":  true,
+                        "observed":  "ACF293B5561166D067BEAEE4AAEBC03918DEE4E1FDF03CE09E5D4E847E99E4C7",
+                        "expected":  "ACF293B5561166D067BEAEE4AAEBC03918DEE4E1FDF03CE09E5D4E847E99E4C7"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/query.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/query.json",
+                        "pass":  true,
+                        "observed":  "6E6B2B3CC32E34C661DB546AACEFF114A4995006BAA69EB91D647217AB794357",
+                        "expected":  "6E6B2B3CC32E34C661DB546AACEFF114A4995006BAA69EB91D647217AB794357"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/response.headers.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/response.headers.json",
+                        "pass":  true,
+                        "observed":  "45134B0877A74F49564EAC7D7CC4667D51424081817C82537A28A1228D88198D",
+                        "expected":  "45134B0877A74F49564EAC7D7CC4667D51424081817C82537A28A1228D88198D"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/luke_roundwood_2020M01_2026M07.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/luke_roundwood_2020M01_2026M07.json",
+                        "pass":  true,
+                        "observed":  "1A04973327255BF1D04A5315751C74C8DE2AF9583E6131991D62CAA90330B0BD",
+                        "expected":  "1A04973327255BF1D04A5315751C74C8DE2AF9583E6131991D62CAA90330B0BD"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/MANIFEST.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/MANIFEST.json",
+                        "pass":  true,
+                        "observed":  "4CE7AFDA9279809B9B4FBFB89B13963E4375D8E0C2D2350491BAD55DF6639E3C",
+                        "expected":  "4CE7AFDA9279809B9B4FBFB89B13963E4375D8E0C2D2350491BAD55DF6639E3C"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/RESULT.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/RESULT.json",
+                        "pass":  true,
+                        "observed":  "145771C29FEB238A476B097958FEFEBD1C23FC0C6162440D2B71DF97734920C8",
+                        "expected":  "145771C29FEB238A476B097958FEFEBD1C23FC0C6162440D2B71DF97734920C8"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/FORECAST_2026-08.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/FORECAST_2026-08.json",
+                        "pass":  true,
+                        "observed":  "93152408A67EA800CFD3A00ADF468EB9D9A03E96AF4BB527610127F0E7D0BDF8",
+                        "expected":  "93152408A67EA800CFD3A00ADF468EB9D9A03E96AF4BB527610127F0E7D0BDF8"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/SEQUENCE.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/SEQUENCE.json",
+                        "pass":  true,
+                        "observed":  "A743E00CC5FEE3D3B1BBFA6A1B61B382B1A52AC1DFBC1898A7EEDD2C6FCF9673",
+                        "expected":  "A743E00CC5FEE3D3B1BBFA6A1B61B382B1A52AC1DFBC1898A7EEDD2C6FCF9673"
+                    },
+                    {
+                        "name":  "exists.scripts/summarize_bpm_luke_roundwood_monthly_v0_1.py",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.scripts/summarize_bpm_luke_roundwood_monthly_v0_1.py",
+                        "pass":  true,
+                        "observed":  "75F10616EB84E6527112EA91C5C654581EC63DC0FE6F81642D5583297264FD7F",
+                        "expected":  "75F10616EB84E6527112EA91C5C654581EC63DC0FE6F81642D5583297264FD7F"
+                    },
+                    {
+                        "name":  "exists.outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_LOCAL_CARTOGRAPHY_20260822.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_LOCAL_CARTOGRAPHY_20260822.json",
+                        "pass":  true,
+                        "observed":  "56A16EE62129C9409FB396230070621E95CB1311A140D458C49D08953877400B",
+                        "expected":  "56A16EE62129C9409FB396230070621E95CB1311A140D458C49D08953877400B"
+                    },
+                    {
+                        "name":  "exists.outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_RESULTADOS_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.outputs/BPM_LUKE_ROUNDWOOD_MONTHLY_RESULTADOS_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  "825D18984AEB43F224415EE5D11F16D4A877403CD22FFACCCFBD36593222C753",
+                        "expected":  "825D18984AEB43F224415EE5D11F16D4A877403CD22FFACCCFBD36593222C753"
+                    },
+                    {
+                        "name":  "exists.scripts/audit_bayesian_markets_integration_v9.ps1",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.scripts/audit_bayesian_markets_integration_v9.ps1",
+                        "pass":  true,
+                        "observed":  "C2A27B83D421784252EAE319FCE048F5D69E4D7E634D2A46C4735D1A21B2083A",
+                        "expected":  "C2A27B83D421784252EAE319FCE048F5D69E4D7E634D2A46C4735D1A21B2083A"
+                    },
+                    {
+                        "name":  "capture.http",
+                        "pass":  true,
+                        "observed":  200,
+                        "expected":  200
+                    },
+                    {
+                        "name":  "capture.response_hash",
+                        "pass":  true,
+                        "observed":  "1A04973327255BF1D04A5315751C74C8DE2AF9583E6131991D62CAA90330B0BD",
+                        "expected":  "1A04973327255BF1D04A5315751C74C8DE2AF9583E6131991D62CAA90330B0BD"
+                    },
+                    {
+                        "name":  "capture.cells",
+                        "pass":  true,
+                        "observed":  "158/158",
+                        "expected":  "158/158"
+                    },
+                    {
+                        "name":  "capture.no_missing",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "capture.no_status",
+                        "pass":  true,
+                        "observed":  null,
+                        "expected":  null
+                    },
+                    {
+                        "name":  "capture.one_post",
+                        "pass":  true,
+                        "observed":  1,
+                        "expected":  1
+                    },
+                    {
+                        "name":  "capture.no_get",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "run.manifest_count",
+                        "pass":  true,
+                        "observed":  "713/713",
+                        "expected":  "713/713"
+                    },
+                    {
+                        "name":  "run.manifest_failures",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "run.status",
+                        "pass":  true,
+                        "observed":  "RETROSPECTIVE_REPLAY_COMPLETE_PROSPECTIVE_2026_08_FROZEN",
+                        "expected":  "RETROSPECTIVE_REPLAY_COMPLETE_PROSPECTIVE_2026_08_FROZEN"
+                    },
+                    {
+                        "name":  "run.transitions",
+                        "pass":  true,
+                        "observed":  "78/77",
+                        "expected":  "78/77"
+                    },
+                    {
+                        "name":  "run.preopened_exclusion",
+                        "pass":  true,
+                        "observed":  "2026-07",
+                        "expected":  "2026-07"
+                    },
+                    {
+                        "name":  "run.no_global_winner",
+                        "pass":  true,
+                        "observed":  null,
+                        "expected":  null
+                    },
+                    {
+                        "name":  "run.z_post_count",
+                        "pass":  true,
+                        "observed":  156,
+                        "expected":  156
+                    },
+                    {
+                        "name":  "run.no_resets",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "run.weight_quarantine",
+                        "pass":  true,
+                        "observed":  2,
+                        "expected":  2
+                    },
+                    {
+                        "name":  "run.bootstrap_freezes",
+                        "pass":  true,
+                        "observed":  22,
+                        "expected":  22
+                    },
+                    {
+                        "name":  "run.year_checkpoints",
+                        "pass":  true,
+                        "observed":  "7/0",
+                        "expected":  "7/0"
+                    },
+                    {
+                        "name":  "forecast.target",
+                        "pass":  true,
+                        "observed":  "2026-08/False/False",
+                        "expected":  "2026-08/False/False"
+                    },
+                    {
+                        "name":  "forecast.volume",
+                        "pass":  true,
+                        "observed":  439468.29700852797,
+                        "expected":  439468.29700852797
+                    },
+                    {
+                        "name":  "forecast.price",
+                        "pass":  true,
+                        "observed":  82.43425966475738,
+                        "expected":  82.434259664757377
+                    },
+                    {
+                        "name":  "cartography.classification",
+                        "pass":  true,
+                        "observed":  "POST_OUTCOME_DESCRIPTIVE_DERIVATIVE_NO_MODEL_SELECTION_OR_AUTHORITY_PROMOTION",
+                        "expected":  "POST_OUTCOME_DESCRIPTIVE_DERIVATIVE_NO_MODEL_SELECTION_OR_AUTHORITY_PROMOTION"
+                    },
+                    {
+                        "name":  "cartography.no_global_winner",
+                        "pass":  true,
+                        "observed":  null,
+                        "expected":  null
+                    },
+                    {
+                        "name":  "cartography.volume_M2_reduction",
+                        "pass":  true,
+                        "observed":  0.048495962306504194,
+                        "expected":  0.048495962306504194
+                    },
+                    {
+                        "name":  "cartography.price_M2_reduction",
+                        "pass":  true,
+                        "observed":  0.17790827189812194,
+                        "expected":  0.17790827189812194
+                    },
+                    {
+                        "name":  "no_staging",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    }
+                ]
+}

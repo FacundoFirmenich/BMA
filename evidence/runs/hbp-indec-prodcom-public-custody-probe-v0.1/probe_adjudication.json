@@ -1,0 +1,123 @@
+{
+  "run_id": "hbp-indec-prodcom-public-custody-probe-v0.1",
+  "classification": "OBSERVATIONAL_CUSTODY_AND_BOUNDED_SUPPORT_PROBE_NO_FITTING",
+  "raw_integrity": "PASS_ALL_CAPTURE_HASHES_RECOMPUTED",
+  "indec_ipi": {
+    "status": "PASS_CURRENT_VINTAGE_OBSERVATIONAL_CUSTODY",
+    "publication_date": "2026-08-07",
+    "reference_period": "2026-06",
+    "provisional": true,
+    "national_general": {
+      "original_index_base_2004_100": 119.9,
+      "year_over_year_percent": 2.0,
+      "year_to_date_percent": -2.2,
+      "seasonally_adjusted_index": 119.1,
+      "month_over_month_percent": 0.9,
+      "trend_cycle_index": 118.9,
+      "trend_cycle_month_over_month_percent": -0.0
+    },
+    "division_breadth": {
+      "rising": 9,
+      "total": 16,
+      "falling": 7
+    },
+    "wood_evidence": {
+      "aggregate_code": "20-22",
+      "aggregate_label": "Madera, papel, edición e impresión",
+      "aggregate_index_base_2004_100": 102.9,
+      "aggregate_year_over_year_percent": 8.4,
+      "aggregate_year_to_date_percent": 3.7,
+      "wood_codes": "20100/210/220/230/290",
+      "wood_label": "Madera y productos de madera y corcho, excepto muebles",
+      "wood_index_base_2004_100": 87.9,
+      "wood_year_over_year_percent": 17.3,
+      "wood_year_to_date_percent": 9.2,
+      "wood_contribution_percentage_points": 3.5
+    },
+    "support": "MONTHLY_MANUFACTURING_OUTCOME_WITH_DIVISION_AND_SUBCLASS_DETAIL",
+    "limits": [
+      "Current vintage observed after release; not a causal holdout",
+      "Report table exposes 18 monthly national rows, below the preregistered 36-month forecasting minimum",
+      "The official full-series XLS is preserved but its legacy binary format is not readable by the bundled OpenXML tool or local Excel automation",
+      "Activity/subclass indices are not product-level transaction quantities"
+    ],
+    "forecast_authority": "ABSTAIN_UNTIL_STRUCTURED_SERIES_OR_FUTURE_FREEZE"
+  },
+  "indec_ucii": {
+    "status": "PASS_CURRENT_VINTAGE_OBSERVATIONAL_CUSTODY",
+    "publication_date": "2026-08-14",
+    "reference_period": "2026-06",
+    "provisional": true,
+    "general_capacity_utilization_percent": 59.1,
+    "year_ago_percent": 58.9,
+    "sector_examples_percent": {
+      "refinacion_del_petroleo": 86.7,
+      "industrias_metalicas_basicas": 68.7,
+      "sustancias_y_productos_quimicos": 67.0,
+      "papel_y_carton": 66.2,
+      "productos_alimenticios_y_bebidas": 64.4,
+      "industria_automotriz": 45.5,
+      "metalmecanica_excepto_automotores": 41.5,
+      "productos_de_caucho_y_plastico": 41.0
+    },
+    "survey_panel_companies": "600-700",
+    "support": "MONTHLY_CAPACITY_STATE_OBSERVER_BY_INDUSTRIAL_BLOCK",
+    "limits": [
+      "Capacity utilization is not output quantity and cannot replace IPI or product observations",
+      "Current vintage observed after release; not a causal holdout",
+      "Food excludes wine and sugar capacity; chemicals excludes pharmaceuticals",
+      "No likelihood pooling with IPI, Eurostat STS or Prodcom"
+    ],
+    "forecast_authority": "OBSERVER_ONLY_UNTIL_SEPARATE_CAUSAL_PREREGISTRATION"
+  },
+  "eurostat_prodcom": {
+    "status": "NOT_ESTIMABLE_NO_CELL",
+    "dataset": "DS-059358",
+    "updated": "2026-07-28T11:00:00+0200",
+    "reporter": "ES",
+    "product": "16101035",
+    "product_label": "Spruce wood (Picea abies Karst.), fir wood (Abies alba Mill.)",
+    "reference_year": "2024",
+    "requested_indicators": [
+      "PRODQNT",
+      "QNTUNIT",
+      "PQNTFLAG"
+    ],
+    "published_value_count": 0,
+    "support": "PRODUCT_IDENTITY_CONFIRMED_BUT_SELECTED_PHYSICAL_CELL_EMPTY",
+    "limits": [
+      "No quantity, unit or flag is published for the selected Spain-product-year cell",
+      "The empty result is retained; no post-hoc product substitution is allowed",
+      "Annual revised support cannot serve as a monthly outcome"
+    ]
+  },
+  "coral_adjudication": {
+    "position_change": "BETTER_OBSERVATIONAL_CUSTODY_BUT_NO_NEW_CAUSAL_SCORE",
+    "quantitative_jump": "Argentina now contributes a verified monthly national outcome, 16 manufacturing divisions/subclasses and a 12-block capacity observer; these are separate panels, not pooled observations.",
+    "qualitative_jump": "Wood is now visible both as a real Argentine manufacturing subclass outcome and as an explicit Eurostat product identity. Only the Argentine report contains a published magnitude in this probe.",
+    "forbidden_claims": [
+      "global winner",
+      "Argentina prospective validation",
+      "Prodcom physical quantity support for ES product 16101035 in 2024",
+      "historical first-release freeze recovery",
+      "cross-source likelihood pooling"
+    ],
+    "next_decision_critical_action": "Freeze a new independent Argentina forecast only after a machine-readable series with at least 36 contiguous months is available; select any further Prodcom product before querying it and preserve empty/confidential outcomes."
+  },
+  "derived_files": {
+    "ipi_pdfplumber_text": "indec_ipi_2026_06_report.pdf.pdfplumber.txt",
+    "ipi_pdfplumber_text_sha256": "6688C1C01A43161D7D62A44BCEFFFDDBA8300B796CED85E78496FBF6203358D4",
+    "ucii_pdfplumber_text": "indec_ucii_2026_06_report.pdf.pdfplumber.txt",
+    "ucii_pdfplumber_text_sha256": "0F50FA37867D03A6938844C7477FF1263482162BFD2FD01852B5CAF4FEC1B4B6",
+    "workbook_inspection": "indec_ipi_series_2026_workbook_inspection.json",
+    "workbook_inspection_status": "BLOCKED_LEGACY_XLS_READER_UNAVAILABLE"
+  },
+  "invariants": {
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "historical_freeze_reconstructed": false,
+    "cross_source_likelihood_pooling": false,
+    "bulk_download": false
+  }
+}

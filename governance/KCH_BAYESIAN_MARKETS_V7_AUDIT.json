@@ -1,0 +1,356 @@
+{
+    "schema":  "kch-bayesian-markets-v7-audit/v1",
+    "generated_at":  "2026-08-22T02:31:09.6202084+02:00",
+    "status":  "PASS",
+    "checks":  56,
+    "failures":  0,
+    "prior_v6_checks":  59,
+    "prior_v6_failures":  0,
+    "adverse_states_asserted":  [
+                                    "ALL_V6_ADVERSE_STATES_PRESERVED",
+                                    "FIRST_SELECTOR_ATTEMPT_STOPPED_AFTER_METADATA_BEFORE_DATA",
+                                    "LUKE_CURRENT_CELL_POST_RELEASE_NO_CAUSAL_SCORE",
+                                    "LUKE_HISTORICAL_FIRST_RELEASE_VINTAGES_NOT_PRESERVED",
+                                    "LUKE_REVISION_NOTES_PRESENT",
+                                    "LUKE_RESPONSE_STATUS_FLAGS_ABSENT",
+                                    "LUKE_EDITORIAL_OFFICIAL_PRESENTATION_AND_JSON_OFFICIAL_STATISTICS_FLAG_REQUIRE_RECONCILIATION"
+                                ],
+    "details":  [
+                    {
+                        "name":  "prior_v6.status",
+                        "pass":  true,
+                        "observed":  "PASS",
+                        "expected":  "PASS"
+                    },
+                    {
+                        "name":  "prior_v6.failures",
+                        "pass":  true,
+                        "observed":  0,
+                        "expected":  0
+                    },
+                    {
+                        "name":  "contract.prior_hash",
+                        "pass":  true,
+                        "observed":  "FC0A7C974E23400ECCBA9DDE5F4800031CE6EDBFFF9788686D571535CABAF5D5",
+                        "expected":  "FC0A7C974E23400ECCBA9DDE5F4800031CE6EDBFFF9788686D571535CABAF5D5"
+                    },
+                    {
+                        "name":  "contract.mission_hash",
+                        "pass":  true,
+                        "observed":  "C3D3A99DFDE504B274C17C528326F9B3C1678DEEED5A5D0F5E9A474FABE21474",
+                        "expected":  "C3D3A99DFDE504B274C17C528326F9B3C1678DEEED5A5D0F5E9A474FABE21474"
+                    },
+                    {
+                        "name":  "exists.preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1.json",
+                        "pass":  true,
+                        "observed":  "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7",
+                        "expected":  "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7"
+                    },
+                    {
+                        "name":  "exists.preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_AMENDMENT_A1.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_AMENDMENT_A1.json",
+                        "pass":  true,
+                        "observed":  "05F0B5D5C1638A84642943C50223BE9E0B62A258B5402486A8D042E8424C76AD",
+                        "expected":  "05F0B5D5C1638A84642943C50223BE9E0B62A258B5402486A8D042E8424C76AD"
+                    },
+                    {
+                        "name":  "exists.scripts/capture_bpm_luke_roundwood_probe.py",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.scripts/capture_bpm_luke_roundwood_probe.py",
+                        "pass":  true,
+                        "observed":  "CA8D7B57EF9299F0BBCF83C0FFA202EA91C86C8FD8E1D19380229810564FA04C",
+                        "expected":  "CA8D7B57EF9299F0BBCF83C0FFA202EA91C86C8FD8E1D19380229810564FA04C"
+                    },
+                    {
+                        "name":  "exists.scripts/adjudicate_bpm_luke_roundwood_probe.py",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.scripts/adjudicate_bpm_luke_roundwood_probe.py",
+                        "pass":  true,
+                        "observed":  "31C990485D5C74B72D6DFF64F2F82D69B546D18C58A50FA75F0377FF7B07917D",
+                        "expected":  "31C990485D5C74B72D6DFF64F2F82D69B546D18C58A50FA75F0377FF7B07917D"
+                    },
+                    {
+                        "name":  "exists.tests/test_bpm_luke_roundwood_probe_v0_1.py",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.tests/test_bpm_luke_roundwood_probe_v0_1.py",
+                        "pass":  true,
+                        "observed":  "B1F99728E782F0CBD30013E4DE193C5B84E4831F3DEA1A721B16257EA1583B48",
+                        "expected":  "B1F99728E782F0CBD30013E4DE193C5B84E4831F3DEA1A721B16257EA1583B48"
+                    },
+                    {
+                        "name":  "exists.outputs/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_CHECKPOINT_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.outputs/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_CHECKPOINT_20260822_ES.md",
+                        "pass":  true,
+                        "observed":  "4BDD3040E6C492AF12633ED328A32FE75A0D82E1DD80C3C420EB6BAF98379891",
+                        "expected":  "4BDD3040E6C492AF12633ED328A32FE75A0D82E1DD80C3C420EB6BAF98379891"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/capture_manifest.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/capture_manifest.json",
+                        "pass":  true,
+                        "observed":  "85973EDD0451FB10D82C6CFBA8CA3FB63DBBEE73C14246A610130A3B22FBA8A4",
+                        "expected":  "85973EDD0451FB10D82C6CFBA8CA3FB63DBBEE73C14246A610130A3B22FBA8A4"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_2026_07_finland_standing_spruce_logs.headers.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_2026_07_finland_standing_spruce_logs.headers.json",
+                        "pass":  true,
+                        "observed":  "2C7A6343B54848EBE38C497D2557879D0C212A4D58A05AFA96F00E5CFEE4D19A",
+                        "expected":  "2C7A6343B54848EBE38C497D2557879D0C212A4D58A05AFA96F00E5CFEE4D19A"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_2026_07_finland_standing_spruce_logs.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_2026_07_finland_standing_spruce_logs.json",
+                        "pass":  true,
+                        "observed":  "16CFF01C7D93877584F585AB5DEF82360FC0BA65EF2B6F4554CAE4E13EC4529E",
+                        "expected":  "16CFF01C7D93877584F585AB5DEF82360FC0BA65EF2B6F4554CAE4E13EC4529E"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_metadata.headers.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_metadata.headers.json",
+                        "pass":  true,
+                        "observed":  "CCDF11E7ACC40506AD1CE88C0CC3F23C5E99EFB2E29DF070D7397896FBEC24B5",
+                        "expected":  "CCDF11E7ACC40506AD1CE88C0CC3F23C5E99EFB2E29DF070D7397896FBEC24B5"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_metadata.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_metadata.json",
+                        "pass":  true,
+                        "observed":  "EEEC4DD5228206B0054CB53615AD65E23986A9C1D2E4877376173137C6B7C05E",
+                        "expected":  "EEEC4DD5228206B0054CB53615AD65E23986A9C1D2E4877376173137C6B7C05E"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_query.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_query.json",
+                        "pass":  true,
+                        "observed":  "817B95891F49276F9CF6434BF4A3B14B9AEBD8A48F75334ACBE725C98DF6AE09",
+                        "expected":  "817B95891F49276F9CF6434BF4A3B14B9AEBD8A48F75334ACBE725C98DF6AE09"
+                    },
+                    {
+                        "name":  "exists.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/probe_adjudication.json",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "hash.evidence/runs/bpm-luke-roundwood-public-probe-v0.1/probe_adjudication.json",
+                        "pass":  true,
+                        "observed":  "0D49DD332FE4C80214C96E461CC9CE8FB4FACC76BC5E4FEC14F5041B1A379E64",
+                        "expected":  "0D49DD332FE4C80214C96E461CC9CE8FB4FACC76BC5E4FEC14F5041B1A379E64"
+                    },
+                    {
+                        "name":  "receipt.contract_hash",
+                        "pass":  true,
+                        "observed":  "40667553150C24D77F35E0C1736DD0ADC242423F0861A465D326DD86CF1E690C",
+                        "expected":  "40667553150C24D77F35E0C1736DD0ADC242423F0861A465D326DD86CF1E690C"
+                    },
+                    {
+                        "name":  "prereg.before_schema_values",
+                        "pass":  true,
+                        "observed":  "PREREGISTERED_BEFORE_SCHEMA_OR_DATA_BYTE_ACQUISITION",
+                        "expected":  "PREREGISTERED_BEFORE_SCHEMA_OR_DATA_BYTE_ACQUISITION"
+                    },
+                    {
+                        "name":  "amendment.before_values",
+                        "pass":  true,
+                        "observed":  "FROZEN_AFTER_METADATA_ONLY_BEFORE_ANY_DATA_VALUE",
+                        "expected":  "FROZEN_AFTER_METADATA_ONLY_BEFORE_ANY_DATA_VALUE"
+                    },
+                    {
+                        "name":  "amendment.no_values_opened",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "capture.one_get",
+                        "pass":  true,
+                        "observed":  1,
+                        "expected":  1
+                    },
+                    {
+                        "name":  "capture.one_post",
+                        "pass":  true,
+                        "observed":  1,
+                        "expected":  1
+                    },
+                    {
+                        "name":  "capture.two_cells",
+                        "pass":  true,
+                        "observed":  2,
+                        "expected":  2
+                    },
+                    {
+                        "name":  "capture.exact_dimensions",
+                        "pass":  true,
+                        "observed":  "INFO,M,MPKH,KAUP,PTL",
+                        "expected":  "INFO,M,MPKH,KAUP,PTL"
+                    },
+                    {
+                        "name":  "adj.pass",
+                        "pass":  true,
+                        "observed":  "PASS_SINGLE_PRODUCT_PRICE_VOLUME_SUPPORT",
+                        "expected":  "PASS_SINGLE_PRODUCT_PRICE_VOLUME_SUPPORT"
+                    },
+                    {
+                        "name":  "adj.volume",
+                        "pass":  true,
+                        "observed":  429000,
+                        "expected":  429000
+                    },
+                    {
+                        "name":  "adj.price",
+                        "pass":  true,
+                        "observed":  83.14,
+                        "expected":  83.14
+                    },
+                    {
+                        "name":  "adj.months",
+                        "pass":  true,
+                        "observed":  79,
+                        "expected":  79
+                    },
+                    {
+                        "name":  "adj.first_last",
+                        "pass":  true,
+                        "observed":  "2020M01,2026M07",
+                        "expected":  "2020M01,2026M07"
+                    },
+                    {
+                        "name":  "adj.post_release",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "adj.no_historical_vintage",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "adj.revisions",
+                        "pass":  true,
+                        "observed":  true,
+                        "expected":  true
+                    },
+                    {
+                        "name":  "adj.official_flag_false",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.model_fit",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.forecast",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.score",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.posterior_update",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.Z_post_update",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.historical_freeze_reconstruction",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.cross_source_pooling",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.automatic_promotion",
+                        "pass":  true,
+                        "observed":  false,
+                        "expected":  false
+                    },
+                    {
+                        "name":  "authority.no_global_winner",
+                        "pass":  true,
+                        "observed":  null,
+                        "expected":  null
+                    }
+                ]
+}

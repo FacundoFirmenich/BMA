@@ -1,0 +1,52 @@
+{
+  "automatic_promotion": false,
+  "global_winner": null,
+  "issued_at_utc": "2026-08-21T22:49:32.131476+00:00",
+  "last_observed_index": 102.9,
+  "last_observed_month": "2026-06",
+  "models": {
+    "M0": {
+      "degrees_of_freedom": 141.0,
+      "log_index_location": 4.633757642840004,
+      "log_index_scale": 0.03926692287836045,
+      "lower_90_index": 96.422746257174,
+      "point_median_index": 102.89999999999996,
+      "state": "ESTIMABLE",
+      "upper_90_index": 109.81236700891206
+    },
+    "M1": {
+      "degrees_of_freedom": 141.0,
+      "log_index_location": 4.634712195128202,
+      "log_index_scale": 0.039397539409642884,
+      "lower_90_index": 96.49396013270417,
+      "point_median_index": 102.99827032507567,
+      "state": "ESTIMABLE",
+      "upper_90_index": 109.94101263299527
+    },
+    "M2_port": {
+      "state": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL"
+    },
+    "M2_ted": {
+      "state": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL"
+    },
+    "M3_coral": {
+      "state": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE"
+    }
+  },
+  "outcome_opened": false,
+  "posterior_z_post_sha256": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743",
+  "preregistration_sha256": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01",
+  "schema": "hbp.eurostat.sts.es-c.forecast-freeze.v0.1",
+  "script_sha256": "8D5C809B4CADC6C1244B3499BE1031FB967687DB2A3EFF9F75707851596EB645",
+  "source_raw_sha256": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+  "source_updated": "2026-08-19T11:00:00+0200",
+  "status": "FROZEN_PRE_OUTCOME",
+  "target_month": "2026-07",
+  "target_requested_from_source": false,
+  "weights": {
+    "M0": 0.5,
+    "M1": 0.5,
+    "prequential_learning": "begins only after the July outcome is independently captured and scored",
+    "status": "FROZEN_EQUAL_DIAGNOSTIC_MIXTURE_NO_PROMOTION_AUTHORITY"
+  }
+}

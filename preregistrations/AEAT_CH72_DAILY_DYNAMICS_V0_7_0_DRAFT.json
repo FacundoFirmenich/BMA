@@ -1,0 +1,55 @@
+{
+  "schema_version": "bma.protocol-draft.v0.7.0",
+  "experiment_id": "ES-AEAT-CH72-DAILY-DYNAMICS-V0.7.0",
+  "status": "DRAFT_NOT_PREREGISTERED_NOT_EXECUTABLE",
+  "invalidates_for_scientific_use": "ES-AEAT-CH72-NOV2024-HOLDOUT-V0.6.1",
+  "invariants": {
+    "same_atomic_unit": "training = prediction = adjudication = Z_post",
+    "same_block_measure": "N training days x N target days",
+    "future_only_additive_update": true,
+    "cross_section_does_not_increase_temporal_sample_size": true
+  },
+  "time_contract": {
+    "event_time": "AEAT document admission date YYMMDD",
+    "availability_time": "actual publication or retrieval timestamp",
+    "primary_unit": ["flow", "CN8", "partner country", "event day"],
+    "weekly_and_monthly_roles": "derived strata preserving atomic daily adjudications",
+    "live_claim_rule": "daily event-time reconstruction is not a daily live feed"
+  },
+  "required_dynamics": {
+    "intramonth": ["day", "day of week", "ISO week", "position in month", "month end"],
+    "intermonth": ["month identity", "month of year", "quarter", "year end", "regime drift"]
+  },
+  "candidate_training_windows_days": [7, 14, 28, 56, 91, 182, 365, 730],
+  "window_evaluation": {
+    "comparison": "each N-day training block against an N-day target block",
+    "selection": "nested same-unit development evaluation only",
+    "outer_target_use": false,
+    "all_windows_reported": true
+  },
+  "daily_cycle": [
+    "freeze prediction for day t",
+    "open same-unit outcome for day t",
+    "adjudicate day t",
+    "add structured evidence to Z_post",
+    "reinformed state may affect only t+1 and later"
+  ],
+  "minimum_baselines": [
+    "last day",
+    "seasonal naive t-7",
+    "seasonal naive t-365 when supported",
+    "recency",
+    "empirical participation",
+    "hierarchical shrinkage"
+  ],
+  "pre_execution_gates": [
+    "admission-date coverage audit",
+    "availability-time audit",
+    "zero versus unavailable contract",
+    "daily cell support audit",
+    "N-day development and untouched target blocks frozen",
+    "metrics and multiplicity policy frozen",
+    "storage and licence contract frozen"
+  ],
+  "execution_authorized": false
+}

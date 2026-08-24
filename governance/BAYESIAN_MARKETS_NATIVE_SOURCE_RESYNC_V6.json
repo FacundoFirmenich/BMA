@@ -1,0 +1,239 @@
+{
+  "schema": "bayesian-markets-native-source-resync/v6",
+  "date": "2026-08-24",
+  "baseline": {
+    "registry": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_REGISTRY_V5.csv",
+    "commit": "14c34a543d987644250ec8cded5922985a772643",
+    "cutoff": "2026-08-22T00:33:32+02:00",
+    "cutoff_epoch": 1787351612,
+    "baseline_claim": "READ_TO_EOF subject to recorded transport truncations"
+  },
+  "scope": {
+    "registry_rows": 16,
+    "registry_unique_chatgpt_threads": 16,
+    "primary_codex_threads": 2,
+    "total_native_sources": 18,
+    "superseded_incorrect_counts": [
+      8,
+      15
+    ],
+    "registry_id_corrections": [
+      {
+        "registry_id": "6a6bc1f7-a590-83eb-b9ee-e0c04f432ea2",
+        "native_id": "6a6bc1f7-a590-83ed-b9ee-e0c04f432ea2",
+        "title": "BayME_eurostats_agosto_opcion_b"
+      },
+      {
+        "registry_id": "6a593954-2ad4-83eb-bba2-bc6e2fab5894",
+        "native_id": "6a593954-2ad4-83ed-bba2-bc6e2fab5894",
+        "title": "BayME_PULSO"
+      }
+    ]
+  },
+  "current_heads": [
+    {
+      "thread_id": "019fe4ca-9d4c-72c3-ba7e-0e82f26ede44",
+      "kind": "codex",
+      "updated_at_epoch": 1786249911,
+      "latest_turn_id": "019fe573-5e7d-7dd3-ada2-591bf21f0750",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "019fe5a4-7b88-7cb2-9515-fa70a52cf0ef",
+      "kind": "codex",
+      "updated_at_epoch": 1786264189,
+      "latest_turn_id": "019fecae-33a8-7dd0-ab1e-89c507dfa591",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a7f86b8-4c08-83eb-ab8c-50be41a7759e",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787048426.48801,
+      "latest_turn_id": "bbb214d7-1345-45db-9933-c155bb03902a",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a7586d2-a348-83eb-a832-4afea5235491",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787578765.405588,
+      "latest_turn_id": "bbb21276-c687-4a33-b63a-f9330a121b4b",
+      "state": "DELTA_PAGE_READ"
+    },
+    {
+      "thread_id": "6a7631c8-5e7c-83eb-8c06-13b090137f67",
+      "kind": "chatgpt",
+      "updated_at_epoch": null,
+      "latest_turn_id": null,
+      "state": "CURRENT_NATIVE_READ_UNAVAILABLE_V5_BASELINE_PRESERVED"
+    },
+    {
+      "thread_id": "6a761bc4-e664-83eb-a6eb-895567fa0027",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787072335.868783,
+      "latest_turn_id": "bbb21519-b25b-4193-8030-bf7ae8c29ded",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a776430-9898-83eb-bb19-520e0511f371",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787245055.897621,
+      "latest_turn_id": "bbb21d5d-1e63-4435-9a2f-8cc34647b5fe",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a76997d-2e34-83eb-adc0-1c532b1b9c30",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787542600.408859,
+      "latest_turn_id": "bbb214de-2feb-4408-8240-00f397d1e937",
+      "state": "DELTA_PAGE_READ"
+    },
+    {
+      "thread_id": "6a6bc1f7-a590-83ed-b9ee-e0c04f432ea2",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787130555.691505,
+      "latest_turn_id": "bbb21132-9fc9-484a-b800-caa10d5bf467",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a7d7994-dda4-83eb-aa41-6a525375d901",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1786608544.095847,
+      "latest_turn_id": "bbb21363-25f2-4e9e-9ddc-c4f961fe8e56",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a7d76e0-1388-83eb-9341-440209581692",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787048866.274053,
+      "latest_turn_id": "bbb213bf-f6db-44f1-bd7a-9815156f2955",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a6e259c-79d4-83eb-b8dd-6a89bd0ced83",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787466713.528835,
+      "latest_turn_id": "bbb21f39-2eed-40d3-b4fc-ce4b28d76a5c",
+      "state": "DELTA_PAGE_READ_NO_SCIENTIFIC_CHANGE"
+    },
+    {
+      "thread_id": "6a593954-2ad4-83ed-bba2-bc6e2fab5894",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787049965.275535,
+      "latest_turn_id": "bbb216e2-36e0-4a77-9d9e-0950c5113d4b",
+      "state": "NO_DELTA_AFTER_V5_PREEXISTING_TRANSPORT_TRUNCATION"
+    },
+    {
+      "thread_id": "6a6e285a-6c48-83eb-b688-7dfe6a69f679",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787049225.557967,
+      "latest_turn_id": "bbb21626-8f45-4379-8aa1-5f7a46fa62ef",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a630dbb-8e3c-83eb-b30f-28e8ccc05808",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787047774.211355,
+      "latest_turn_id": "bbb21779-835c-4cc7-ab29-f4659af21e1a",
+      "state": "NO_DELTA_AFTER_V5_PREEXISTING_TRANSPORT_TRUNCATION"
+    },
+    {
+      "thread_id": "6a767e62-40f8-83eb-823a-ea9b0361bbea",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787047725.424466,
+      "latest_turn_id": "bbb210a9-4757-4a86-8cbf-695943554fe8",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a742519-a300-83eb-8703-7933db35fa93",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787047711.757305,
+      "latest_turn_id": "bbb21be3-44a3-497e-a549-b4912e1ddff5",
+      "state": "NO_DELTA_AFTER_V5"
+    },
+    {
+      "thread_id": "6a6f811e-f85c-83ed-b1b0-700f3cc7a714",
+      "kind": "chatgpt",
+      "updated_at_epoch": 1787509154.064793,
+      "latest_turn_id": "bbb218f7-3e69-4846-9071-ea328b071ba2",
+      "state": "DELTA_PAGE_READ_DERIVATIVE_ONTOLOGY_ERROR"
+    }
+  ],
+  "delta_pages": [
+    {
+      "thread_id": "6a7586d2-a348-83eb-a832-4afea5235491",
+      "turn_id": "bbb21276-c687-4a33-b63a-f9330a121b4b",
+      "page_bytes": 12090,
+      "page_sha256": "58033087DD89CECE9E7886A02995D90A74B7F60054D504A7C5E6D0A7A26924F7",
+      "transport_truncations": 0,
+      "cutoff_item_ids": [
+        "d02e501a-a379-5764-9304-aae08aaae84c",
+        "ae762246-3b13-5801-95d2-5c1d454615a6",
+        "504ae707-ef2a-5b0b-9c1a-aad68c50f5ac",
+        "13deda25-3c14-5f72-bd97-f351e503391b",
+        "a06ca87c-b937-5a4c-960f-8cb7147d547a",
+        "797a32ca-232c-5f10-8e87-c1bae6e6569b",
+        "70caf9f5-63f1-5620-af57-ed21583c881c",
+        "0d7a8dde-8b61-567f-b385-833c599b29a6"
+      ]
+    },
+    {
+      "thread_id": "6a76997d-2e34-83eb-adc0-1c532b1b9c30",
+      "turn_id": "bbb214de-2feb-4408-8240-00f397d1e937",
+      "page_bytes": 9648,
+      "page_sha256": "5F0CA82549B0D43EA1CA843BC4D8981B29D8E10CE123D51185C5026D2BA10AD7",
+      "transport_truncations": 0,
+      "cutoff_item_ids": [
+        "f2d90fff-dca2-5251-ac70-b81a609d39f4",
+        "f3ca8348-069c-5278-88d0-9587f626ab81",
+        "7cc8d5e6-a2fe-59d2-8392-b4bf978d042e",
+        "117ff316-662b-5566-a15c-ab5a6532dea0",
+        "0c2f96c3-86a1-5c08-957e-40ff2aad02d4",
+        "5d274a2e-a59b-4dc7-9f0c-6a4c63f13850",
+        "a224b542-4a13-4403-874a-fbbdc1e0936f"
+      ]
+    },
+    {
+      "thread_id": "6a6e259c-79d4-83eb-b8dd-6a89bd0ced83",
+      "turn_id": "bbb21f39-2eed-40d3-b4fc-ce4b28d76a5c",
+      "page_bytes": 2659,
+      "page_sha256": "FC707BEC55D0F8EA38A9C5961E66C0AF883297D334F47FF37C56C800A1F90A23",
+      "transport_truncations": 0,
+      "cutoff_item_ids": [
+        "a0629611-496e-5532-a42f-209020042e31",
+        "414e08c2-437c-4fc2-b3d5-1b9b019648d3",
+        "c3de2b6e-14ab-42d9-a690-da4cf5ded4fb"
+      ]
+    },
+    {
+      "thread_id": "6a6f811e-f85c-83ed-b1b0-700f3cc7a714",
+      "turn_id": "bbb218f7-3e69-4846-9071-ea328b071ba2",
+      "page_bytes": 2847,
+      "page_sha256": "6A059D2E01E285915CB56F675214225997CF3C599C8319CC4A5475F07879A8F4",
+      "transport_truncations": 0,
+      "cutoff_item_ids": [
+        "d27b51f5-fef1-4aa5-9dfd-4fb17b09abba",
+        "7b9bfacc-a86c-4696-a5d4-dc1f6e0c0611"
+      ]
+    }
+  ],
+  "adjudication": {
+    "scientific_delta_threads": 2,
+    "operational_only_delta_threads": 1,
+    "derivative_error_delta_threads": 1,
+    "current_native_read_unavailable": 1,
+    "correct_ontology": {
+      "BUM": "Bayesian Un Markets",
+      "BPM": "Bayesian Physical Markets",
+      "HBP": "Hierarchical Bayes Predictor",
+      "internal_hierarchy": "PENDING_PRIMARY_RECONCILIATION"
+    },
+    "hard_boundaries": [
+      "No historical freeze or outcome is rewritten",
+      "No source chat transfers posterior or authority to another jurisdiction",
+      "Stable outcomes without frozen predictive distributions remain unscored",
+      "Transport and Library failures remain evidence-bearing states"
+    ]
+  },
+  "status": "PARTIAL_CURRENT_SYNC_ONE_NATIVE_SOURCE_UNAVAILABLE",
+  "next_gate": "Retry the unavailable Andalusia freeze source and then build the typed coral integration from the corrected current canon."
+}

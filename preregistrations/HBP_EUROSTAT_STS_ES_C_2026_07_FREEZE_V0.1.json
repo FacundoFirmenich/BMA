@@ -1,0 +1,116 @@
+{
+  "preregistration_id": "HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_V0.1",
+  "status": "FROZEN_PRE_OUTCOME_DATA_CAPTURE_AND_EXECUTION_AUTHORIZED",
+  "frozen_at_utc": "2026-08-21T22:44:40.6315973Z",
+  "parent_preregistrations": [
+    "preregistrations/BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2.json",
+    "preregistrations/HBP_SPAIN_INDUSTRIAL_CORAL_CAUSAL_CAMPAIGN_V0.1.json"
+  ],
+  "canonical_family": "HBP",
+  "jurisdiction": {
+    "source": "Eurostat",
+    "dataset": "sts_inpr_m",
+    "geo": "ES",
+    "indicator": "PRD",
+    "nace_r2": "C",
+    "seasonal_adjustment": "SCA",
+    "unit": "I21",
+    "label": "Spain manufacturing production index, seasonally and calendar adjusted, 2021=100"
+  },
+  "temporal_contract": {
+    "training_start": "2015-01",
+    "training_end": "2026-06",
+    "target_month": "2026-07",
+    "one_step_only": true,
+    "target_must_be_absent_at_freeze": true,
+    "query": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2015-01&untilTimePeriod=2026-06"
+  },
+  "design_exposure_boundary": {
+    "prior_schema_probe": "evidence/probes/public-expansion-v1/eurostat_sts_es_c_2025_2026_retry_no_indic_filter.json",
+    "exposed_before_this_exact_freeze": "2025-01 through 2026-06 values and provisional flags were visible during bounded schema adjudication",
+    "consequence": "The July 2026 target forecast is prospective because its outcome is absent, but this first freeze is not claimed as a design-blind holdout. The prior probe is excluded from fit and score; a fresh post-preregistration response supplies the campaign state.",
+    "target_outcome_seen": false
+  },
+  "transform": {
+    "state": "ell_t = log(index_t)",
+    "innovation": "r_t = ell_t - ell_(t-1)",
+    "reason": "positive index and multiplicative monthly movement",
+    "zero_or_negative_index": "GATE_FAIL"
+  },
+  "priors": {
+    "M0": {
+      "point_rule": "persistence: ell_(t+1) location equals ell_t",
+      "innovation_mean": 0.0,
+      "variance_prior": "Inverse-Gamma(alpha0, beta0)",
+      "alpha0": 2.0,
+      "beta0": 0.0004
+    },
+    "M1": {
+      "point_rule": "local expanding drift on monthly log changes",
+      "likelihood": "r_t iid Normal(mu, sigma2)",
+      "prior": "mu|sigma2 ~ Normal(mu0, sigma2/kappa0); sigma2 ~ Inverse-Gamma(alpha0,beta0)",
+      "mu0": 0.0,
+      "kappa0": 1.0,
+      "alpha0": 2.0,
+      "beta0": 0.0004
+    }
+  },
+  "model_availability": {
+    "M0": "ESTIMABLE_IF_AT_LEAST_36_COMPLETE_MONTHS",
+    "M1": "ESTIMABLE_IF_AT_LEAST_35_COMPLETE_TRANSITIONS",
+    "M2_port": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M2_ted": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M3_coral": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE",
+    "seasonality": "NOT_ACTIVATED_IN_THIS_SPECIFIC_FIRST_FREEZE; no post-probe seasonal estimator is invented"
+  },
+  "weights": {
+    "M0": 0.5,
+    "M1": 0.5,
+    "status": "FROZEN_EQUAL_DIAGNOSTIC_MIXTURE_NO_PROMOTION_AUTHORITY",
+    "prequential_learning": "begins only after the July outcome is independently captured and scored"
+  },
+  "predictive_distributions": {
+    "M0": "Student-t for next log index induced by the fixed-zero-mean innovation and inverse-gamma posterior",
+    "M1": "Student-t posterior predictive for next log index under Normal-Inverse-Gamma drift",
+    "interval": "central 90 percent in log-index space mapped monotonically to index points",
+    "point": "predictive median mapped to index points"
+  },
+  "future_scoring": {
+    "log_score": "Student-t log density of log(index_actual) minus log(index_actual) Jacobian",
+    "CRPS": "computed on log-index predictive distribution; no claim of CRPS on the exponentiated Student-t scale",
+    "absolute_error": "absolute error in index points",
+    "interval_coverage": "central 90 percent mapped interval",
+    "missing_or_late_outcome": "NOT_ESTIMABLE_OR_ABSTAIN"
+  },
+  "support_and_recovery": {
+    "minimum_complete_training_months": 36,
+    "required_contiguous_months": true,
+    "raw_response_bytes_frozen": true,
+    "response_headers_frozen": true,
+    "response_sha256_frozen": true,
+    "source_updated_timestamp_frozen": true,
+    "schema_dimensions_and_labels_frozen": true,
+    "status_flags_preserved": true,
+    "revision_policy": "future source revisions are separate vintages and never overwrite this freeze",
+    "euroind_vtg_boundary": "ei_is_m_vtg is retained as revision evidence only because its NACE B-D target includes excluded energy, gas and electricity"
+  },
+  "learning_invariants": {
+    "posterior_accumulates_without_reset": true,
+    "model_specific_Z_post_accumulates_without_reset": true,
+    "Z_post_is_not_residual_z": true,
+    "Z_post_is_not_Z_XPL": true,
+    "double_counting_forbidden": true,
+    "one_month_predicts_exactly_next_month": true,
+    "cross_country_or_source_pooling": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "abort_gates": [
+    "target 2026-07 appears in the acquisition response",
+    "source updated timestamp is absent",
+    "dimension identity differs from the frozen jurisdiction",
+    "training months are non-contiguous or fewer than 36",
+    "any index value is zero, negative or missing",
+    "response bytes cannot be hashed and persisted before prediction"
+  ]
+}

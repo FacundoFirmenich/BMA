@@ -1,0 +1,63 @@
+{
+  "M0": {
+    "alpha": 70.5,
+    "beta": 0.10870333187962507,
+    "n": 137,
+    "posterior_predictive": {
+      "degrees_of_freedom": 141.0,
+      "innovation_location": 0.0,
+      "innovation_scale": 0.03926692287836045
+    },
+    "sum_squared_innovations": 0.21660666375925014
+  },
+  "M1": {
+    "alpha": 70.5,
+    "beta": 0.10864046114473258,
+    "centered_sum_squares": 0.21648000446851784,
+    "kappa": 138.0,
+    "mu": 0.0009545522881987352,
+    "n": 137,
+    "posterior_predictive": {
+      "degrees_of_freedom": 141.0,
+      "innovation_location": 0.0009545522881987352,
+      "innovation_scale": 0.039397539409642884
+    },
+    "sample_mean": 0.000961519823149091,
+    "sum_innovations": 0.13172821577142546,
+    "sum_squared_innovations": 0.21660666375925014
+  },
+  "M2_port": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+  "M2_ted": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+  "M3_coral": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE",
+  "Z_post_is_Z_XPL": false,
+  "Z_post_is_residual_z": false,
+  "batch_is_exactly_equivalent_to_sequential_conjugate_updates": true,
+  "initialization_event": true,
+  "jurisdiction": {
+    "dataset": "sts_inpr_m",
+    "geo": "ES",
+    "indicator": "PRD",
+    "label": "Spain manufacturing production index, seasonally and calendar adjusted, 2021=100",
+    "nace_r2": "C",
+    "seasonal_adjustment": "SCA",
+    "source": "Eurostat",
+    "unit": "I21"
+  },
+  "observation_count": 138,
+  "pooling_occurred": false,
+  "preregistration_sha256": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01",
+  "reset_occurred": false,
+  "schema": "hbp.eurostat.sts.es-c.z-post.v0.1",
+  "source_raw_sha256": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+  "state": "INITIALIZED_PRE_OUTCOME_FROM_FROZEN_TRAINING_WINDOW",
+  "target_month": "2026-07",
+  "training_end": "2026-06",
+  "training_start": "2015-01",
+  "transition_count": 137,
+  "weights": {
+    "M0": 0.5,
+    "M1": 0.5,
+    "prequential_learning": "begins only after the July outcome is independently captured and scored",
+    "status": "FROZEN_EQUAL_DIAGNOSTIC_MIXTURE_NO_PROMOTION_AUTHORITY"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.4",
+  "event_date": "2025-10-29",
+  "freeze_sha256": "5407C7504D3D7C2F44BC9572A215CCE6247681E1F651884D28622C51D496B635",
+  "raw_result_sha256": "1620F40B4BD2ACDCE86765D02EFDD57F8A20485BE7F064006EDF7C6589B47A67",
+  "structured_result_sha256": "928100550E6CA04901F2A3B61262668A6423D13661E158D01C42D3031B127BE1",
+  "local_scoring_sha256": "E573543D012BC625FA3A2D9DC22C14D7E9A3718E62B6C9417925B2EC929A9F43",
+  "award_rows": 72,
+  "local_outcomes": 62,
+  "updated_prior_cells": 25,
+  "updated_prior_outcomes": 25,
+  "new_local_cells": 37,
+  "new_local_outcomes": 37,
+  "total_awarded_volume_m3": 81298,
+  "objects_full_coverage": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "objects_partial_coverage": [
+    2
+  ],
+  "objects_over_coverage": [],
+  "unawarded_objects": [],
+  "not_estimable_source_objects": [
+    {
+      "object_id": 6,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    }
+  ],
+  "quarantined_outcomes": [
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Lavi",
+      "buyers": [
+        "Alumiste SV OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 66,
+      "effective_weighted_price_eur_m3": 76.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Maardu",
+      "buyers": [
+        "Metsapere Metsad OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 568,
+      "effective_weighted_price_eur_m3": 85,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Kasaritsa",
+      "buyers": [
+        "Samm Mets OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 120,
+      "effective_weighted_price_eur_m3": 72,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Kose-Risti",
+      "buyers": [
+        "Samm Mets OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 83,
+      "effective_weighted_price_eur_m3": 81,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Oomiste",
+      "buyers": [
+        "Samm Mets OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 86,
+      "effective_weighted_price_eur_m3": 73,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Põltsamaa",
+      "buyers": [
+        "Samm Mets OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 197,
+      "effective_weighted_price_eur_m3": 78,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Selja",
+      "buyers": [
+        "Tori Sawmill OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 2757,
+      "effective_weighted_price_eur_m3": 82,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Põlva",
+      "buyers": [
+        "Tori Timber OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 302,
+      "effective_weighted_price_eur_m3": 73,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Ulvi",
+      "buyers": [
+        "Vivandor OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 307,
+      "effective_weighted_price_eur_m3": 79,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "raw_result_products": [
+        "Madalakvaliteediline kuuse- ja männipalk"
+      ],
+      "destination": "Viivikonna",
+      "buyers": [
+        "Vivikond OÜ"
+      ],
+      "delivery_period": "1.11.2025 - 31.12.2025",
+      "measurement_fingerprint_sha256": "E7BDA75992D44F81AFC3281A8283A0ED6D3BF37B745C0F47A5F79D8CD2C7F5EE",
+      "awarded_volume_m3": 200,
+      "effective_weighted_price_eur_m3": 85,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+    }
+  ],
+  "scored_predictions": 25,
+  "scoring_state": "M0_AND_WHERE_SUPPORTED_M1_EXACT_LOCAL_DESTINATIONS",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "rmk-ordered-payload-queue/v1",
+  "generated_at": "2026-08-21T19:23:45.3943542+02:00",
+  "rows": 83,
+  "unique_urls": 63,
+  "head_success": 63,
+  "head_failure": 0,
+  "bodies_opened": 0,
+  "pair_rows": 49,
+  "result_only_rows": 13,
+  "schema_probe_excluded_rows": 2,
+  "queue_sha256": "39900606492F495D6D492370B1BE1839D30A60C32FA75A3733B41E63E8714FFF"
+}

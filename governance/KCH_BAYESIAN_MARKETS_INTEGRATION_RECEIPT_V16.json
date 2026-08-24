@@ -1,0 +1,74 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v16",
+  "date": "2026-08-24",
+  "phase": "PUBLIC_BPM_HBP_SOURCE_SCREEN_V3",
+  "status": "PASS_BOUNDED_WITH_REMOTE_GATES",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V15.json",
+    "sha256": "5442F88D56316A6D8CE1C10E3BF9A446ACBBE88EC1AE7F38B349EE7F599DFC5F",
+    "parent_commit": "7eb4edf30a6bced1ce2e1e265bb5aa9defdce335"
+  },
+  "artifacts": [
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V3.csv",
+      "bytes": 7725,
+      "sha256": "175DA01251CDFB1878E00305D47A4CFA06B2C7791F2C165EB4D8B429CAB4D121"
+    },
+    {
+      "path": "outputs/BPM_HBP_PUBLIC_EXPANSION_SCREEN_V3_20260824_ES.md",
+      "bytes": 5484,
+      "sha256": "AA17F519D0156179F2812D8EB459DBD88638A52472675840F531CEB963A35000"
+    }
+  ],
+  "validation": {
+    "screen_rows": 14,
+    "screen_columns": 12,
+    "unique_source_ids": 14,
+    "new_or_revalidated_sources": 6,
+    "git_diff_check": "PASS"
+  },
+  "remote_gates": [
+    {
+      "source": "tbauctions-atlas",
+      "state": "REJECTED_ACCESS_GATE",
+      "evidence": "developer account supplied via sales contact plus JWT login and product subscription"
+    },
+    {
+      "source": "equipmentwatch-market-data",
+      "state": "REJECTED_ACCESS_GATE",
+      "evidence": "API key request demo and subscription required"
+    },
+    {
+      "source": "eumofa-first-sales",
+      "state": "DOCUMENTATION_PASS_DATA_UI_HTTP_403",
+      "evidence": "official weekly and monthly price value volume documentation; no reproducible data sample"
+    },
+    {
+      "source": "sweden-skog-roundwood",
+      "state": "API_ROOT_PASS_BRANCH_HTTP_429",
+      "evidence": "official quarterly price source; schema sample deferred"
+    },
+    {
+      "source": "latvia-csb-roundwood",
+      "state": "SCHEMA_AND_SAMPLE_PASS_SUPPORT_ONLY",
+      "evidence": "MEI020 20 indicators 39 half-years; three-cell JSON-stat2 sample succeeded"
+    },
+    {
+      "source": "latvia-csb-industrial-production",
+      "state": "SCHEMA_PASS_SAMPLE_HTTP_400",
+      "evidence": "RUI020m 40 NACE/MIG cells 5 indicators 318 months; minimal POST unresolved"
+    }
+  ],
+  "authority": {
+    "accounts_created": 0,
+    "third_parties_contacted": 0,
+    "terms_accepted": 0,
+    "payments": 0,
+    "mass_raw_downloads": 0,
+    "new_models_started": 0,
+    "new_posterior_authority": false,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "next_gate": "obtain one anonymous bounded EUMOFA export or repair one bounded Latvia RUI020m POST; only then freeze a source contract and preregister."
+}

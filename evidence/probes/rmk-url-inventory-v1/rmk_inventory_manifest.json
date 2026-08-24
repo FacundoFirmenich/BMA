@@ -1,0 +1,22 @@
+{
+  "schema": "rmk-timber-url-inventory/v1",
+  "generated_at": "2026-08-21T19:14:00.3046430+02:00",
+  "index_url": "https://rmk.ee/kuulutused/metsa-ja-puidu-muuk/",
+  "minimum_year": 2023,
+  "maximum_year": 2026,
+  "event_pages": 17,
+  "html_pages_fetched": 20,
+  "payload_urls_discovered": 82,
+  "payloads_opened": 0,
+  "invariant": "HTML_ONLY_PAYLOAD_URL_INVENTORY_NO_XLSX_PDF_CSV_OPENED",
+  "outputs": {
+    "html_page_registry": {
+      "path": "rmk_html_page_registry.csv",
+      "sha256": "D18ABBCCAE66DED9855FCB502C4173556EC68134F1B7F5985CD1B768D6E80750"
+    },
+    "payload_url_inventory": {
+      "path": "rmk_payload_url_inventory.csv",
+      "sha256": "063190EA688C85ED19F8C0A5D090FA34F866E8FFB1F79BB5CA47E33756B8B7C7"
+    }
+  }
+}

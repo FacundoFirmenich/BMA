@@ -1,0 +1,29 @@
+{
+  "V0_1_gate_failure_preserved": true,
+  "created_at_utc": "2026-08-22T02:47:18.104124+00:00",
+  "files": [
+    {
+      "bytes": 491,
+      "path": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze/extraction_receipt.json",
+      "sha256": "DE7B074E720ABAC2CDC336B0F7A9BA2E7E9C3A1E2BDA1A5270A7E9AAAE5F0F0C"
+    },
+    {
+      "bytes": 2120,
+      "path": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze/forecast_freeze.json",
+      "sha256": "34EF0AB891CAFFF4B2531AC4BF6C0098047A19612CB44C23BD28DB7454FA8435"
+    },
+    {
+      "bytes": 100736,
+      "path": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze/normalized_training_series.json",
+      "sha256": "CBAE185DE2B685EAF1DFCE0C18C7C66A817681CC32990FE5076A6334FA7B9556"
+    },
+    {
+      "bytes": 3611,
+      "path": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze/posterior_z_post.json",
+      "sha256": "B2D29BB7E166B8F85B74EAB69C2FA94F3ED22325CD595A013FD59DB25463D563"
+    }
+  ],
+  "global_winner": null,
+  "schema": "hbp.indec.ucii.freeze-manifest.v0.2",
+  "target_outcome_opened": false
+}

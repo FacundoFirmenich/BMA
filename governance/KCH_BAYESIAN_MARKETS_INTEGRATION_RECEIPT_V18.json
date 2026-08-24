@@ -1,0 +1,70 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v18",
+  "date": "2026-08-24",
+  "phase": "BAYESIAN_FAMILY_APPS_LOCAL_INTAKE_V1",
+  "status": "PASS_INTAKE_CLASSIFIED_NO_MODEL_UPDATE",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V17.json",
+    "sha256": "F74494041B2E2D8EDF3A4FA27FC5E783E3DAFBE9C7A401A39E5ECB8028819C61",
+    "parent_commit": "d73526eff7d0a2e7cb0927b8436174e8b40d4ce9"
+  },
+  "artifacts": [
+    {
+      "path": "governance/BAYESIAN_FAMILY_APPS_LOCAL_INTAKE_V1.json",
+      "bytes": 14750,
+      "sha256": "F905998D5FCC40BF4051ADE7B446C3A4697436E0B9BB204579153F56D84618A2"
+    },
+    {
+      "path": "outputs/BAYESIAN_FAMILY_APPS_INTAKE_20260824_ES.md",
+      "bytes": 5395,
+      "sha256": "A32031DD2A2B16470F70C4BF0BD959BBC614803D1DF8AA38ACA0ECD92EB1C24D"
+    }
+  ],
+  "validation": {
+    "selected_top_level_files": 25,
+    "extracted_files": 290,
+    "full_files_read": 315,
+    "full_bytes_read": 19965044,
+    "source_hash_rechecks": "PASS",
+    "bayme_manifest_hashes": "PASS_9_OF_9",
+    "utf8_decode": "PASS",
+    "json_parse": "PASS",
+    "pdf_pages_rendered_and_visually_inspected": 117,
+    "pdf_layout": "PASS",
+    "docx_direct_visual_qa": "NOT_EXECUTED_LIBREOFFICE_UNAVAILABLE",
+    "nomenclature_conflict": "ADJUDICATED_TO_V0_6_AND_V5",
+    "semantic_invariants": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "authority": {
+    "terminology": {
+      "BUM": "Bayesian Un Markets",
+      "BPM": "Bayesian Physical Markets",
+      "HBP": "Hierarchical Bayes Predictor"
+    },
+    "relation": "BayME~BMA → {BUM, BPM, HBP}",
+    "internal_hierarchy": "PENDING_PRIMARY_RECONCILIATION",
+    "raw_archives_copied_into_git": 0,
+    "source_files_deleted_or_moved": 0,
+    "scores_written": 0,
+    "adjudications_written": 0,
+    "posteriors_updated": 0,
+    "z_post_updated": 0,
+    "weights_updated": 0,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "evidence_states": {
+    "andalucia": "LOCAL_EVIDENCE_COMPLETE_ADJUDICATION_BLOCKED_PREDICTIVE_DENSITIES_UNAVAILABLE",
+    "eurostat_hicp": "OUTCOME_PAYLOAD_RECOVERED_PRE_FREEZE_MATCH_PENDING",
+    "bind": "PRODUCT_AND_CANDIDATURE_CUSTODY_NOT_POSTERIOR_INPUT",
+    "drive_rename": "PASS_READBACK_VERIFIED_NO_MOVE_NO_PERMISSION_CHANGE"
+  },
+  "adverse_evidence_preserved": [
+    "12 stable empty Andalucía markets remain PENDING_EMPTY_NOT_ZERO",
+    "remote Library persistence failed 13/13 freeze and 18/18 harvest transfers",
+    "DOCX direct visual QA unavailable without LibreOffice",
+    "download origin not independently proven because Zone.Identifier is absent"
+  ],
+  "next_gate": "hash-match the EU27 HICP freeze and recover the frozen Andalucía predictive densities; adjudicate only within each local preregistered chain"
+}

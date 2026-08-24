@@ -1,0 +1,47 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v1",
+  "observed_at": "2026-08-15T16:34:25.1438768Z",
+  "kch_version": "0.11.33",
+  "runtime_state": "NATIVE_SUPERHARNESS_ACTIVE",
+  "capability": {
+    "local_read_classify_hash_and_test": true,
+    "native_chat_read_surface": "ELEVEN_CURRENTLY_VISIBLE",
+    "external_read_observation": true,
+    "remote_mutation_technical_capability": "NOT_USED_AND_NOT_IMPLIED"
+  },
+  "permission": {
+    "local_non_destructive_reorganization": true,
+    "authorized_public_data_experiments": true,
+    "delete_or_move_originals": false,
+    "publish_or_reorganize_remote": false,
+    "create_accounts_accept_terms_pay_contact_third_parties": false
+  },
+  "authority": {
+    "ontology": "USER_FROZEN_BPM_BUM_HBP",
+    "classification_unit": "CONTENT_AND_OBJECTIVE_NOT_LEGACY_FOLDER",
+    "remote_publication": "WITHHELD_PENDING_EXPLICIT_AUTHORITY_AND_CUSTODY",
+    "experiment_promotion": "NONE"
+  },
+  "execution": {
+    "classification_index_v5_materialized": true,
+    "monetary_macro_addendum_materialized": true,
+    "local_census_v2_terminal_exit_zero": true,
+    "kch_mission_and_evidence_contract_materialized": true,
+    "remote_reorganization_executed": false,
+    "destructive_cleanup_executed": false,
+    "bpm_aeat_2025_executed": false
+  },
+  "training": {
+    "phl_authorized_but_not_trained": true,
+    "phl_real_training_executed": false
+  },
+  "adverse_evidence_preserved": [
+    "LOCAL_CENSUS_ACCESS_ERRORS",
+    "MERCABARNA_QUARANTINE_CONTENT_SCAN_DENIED",
+    "NATIVE_CHAT_COUNT_CONTRADICTION",
+    "AEAT_QUANTITY_AND_UNIT_VALUE_LOSSES",
+    "DECEMBER_PRIMARY_ABSTENTION",
+    "NOT_ESTIMABLE_AND_FAILED_GATES"
+  ],
+  "next_decision_critical_action": "FREEZE_AND_HASH_BPM_AEAT_2025_RUNNER_SOURCE_RULES_PRIORS_WEIGHTS_RECOVERY_AND_INVARIANTS_BEFORE_OPENING_2025_DATA"
+}

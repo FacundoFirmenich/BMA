@@ -1,0 +1,19 @@
+{
+  "schema_version": "bpm.rmk.software-correction.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "recorded_at": "2026-08-21",
+  "timing": "AFTER_2025-10-07_OFFER_OPEN_BEFORE_ANY_EVENT_FREEZE_OR_RESULT_OPEN",
+  "affected_event": "2025-10-07",
+  "source_offer_sha256": "B380B4A0E95FEDCB285EC6644A0B5FDAD0C159DFC10317691E3C26066CB2436B",
+  "structured_offer_sha256": "E209BCFC783FE771CF9263D07CFE9BA50808C7607A7DD9CE1FEC728D464B2ECA",
+  "corrected_freezer_sha256": "C0B365161C5C874D00D561F08B60F68C0E5DDA7A86F771C3AF260E78A8230DAD",
+  "defect": "The delivery-period parser required the separator hyphen to have no surrounding whitespace.",
+  "semantic_rule_frozen_prospectively": "Optional whitespace around the date-range hyphen is syntactic only; both source dates remain unchanged and independently chronology-validated.",
+  "expected_phase_if_valid": "M10-M11-M12",
+  "result_payload_opened": false,
+  "posterior_changed": false,
+  "scores_changed": false,
+  "historical_outputs_rewritten": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

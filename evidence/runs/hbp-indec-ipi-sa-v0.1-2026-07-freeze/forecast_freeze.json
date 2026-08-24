@@ -1,0 +1,42 @@
+{
+  "UCII_observer": "ABSTAIN_NOT_YET_CAUSALLY_ALIGNED",
+  "automatic_promotion": false,
+  "global_winner": null,
+  "issued_at_utc": "2026-08-22T02:16:24.867436+00:00",
+  "last_observed_index": 119.098206634938,
+  "last_observed_month": "2026-06",
+  "models": {
+    "M0": {
+      "degrees_of_freedom": 129.0,
+      "log_index_location": 4.779948418606728,
+      "log_index_scale": 0.038806339583938074,
+      "lower_90_index": 111.68204539667494,
+      "point_median_index": 119.09820663493797,
+      "state": "ESTIMABLE",
+      "upper_90_index": 127.00683241677706
+    },
+    "M1": {
+      "degrees_of_freedom": 129.0,
+      "log_index_location": 4.77898189737045,
+      "log_index_scale": 0.038948224002658585,
+      "lower_90_index": 111.54793013008373,
+      "point_median_index": 118.9831512996918,
+      "state": "ESTIMABLE",
+      "upper_90_index": 126.91396672888433
+    }
+  },
+  "outcome_opened": false,
+  "posterior_z_post_sha256": "10B1282CEA1E22BB7465153FE079DD4724DCAC6C036269FA5B7B7A0A6EF9D4E3",
+  "preregistration_sha256": "CA18CC87C979F5176859EC2511092927114E03605531E4E25A2473743BF8D072",
+  "schema": "hbp.indec.ipi.sa.forecast-freeze.v0.1",
+  "script_sha256": "21C667460655D9A0F55F30C5309FCD3F1AC2F0888B43EE6D6DE4A8A1938A235B",
+  "seasonality": "NOT_ADDED_ALREADY_SEASONALLY_ADJUSTED_TARGET",
+  "source_workbook_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+  "status": "FROZEN_PRE_OUTCOME",
+  "target_month": "2026-07",
+  "weights": {
+    "M0": 0.5,
+    "M1": 0.5,
+    "status": "FROZEN_EQUAL_NO_PROMOTION_AUTHORITY"
+  }
+}

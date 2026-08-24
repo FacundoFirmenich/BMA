@@ -1,0 +1,94 @@
+{
+  "schema": "bayesian-markets-native-source-resync/v7-addendum",
+  "date": "2026-08-24",
+  "parent": {
+    "path": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_RESYNC_V6.json",
+    "sha256": "3F011B7FA240F8D06237B946675B43222F58856CA847D8F22960F251492124C1"
+  },
+  "scope_correction": {
+    "prior_total": 18,
+    "added_sources": 2,
+    "current_total": 20
+  },
+  "added_sources": [
+    {
+      "thread_id": "6a80b257-f2c4-83eb-ae2d-3d904680e328",
+      "title": "Hilo Proyecto Constitucion Computacional",
+      "relationship": "USER_EMBEDDED_DERIVED_BAYME_EVE_CONSTITUTION",
+      "pages": 1,
+      "turns": 2,
+      "eof": true,
+      "transport_state": "ONE_AGENT_ITEM_TRUNCATED_AT_20000_CHARS",
+      "page_receipts": [
+        {
+          "page": 1,
+          "bytes": 47560,
+          "sha256": "4782A3CE04904EC48DCB77D381B0B1BC20B073141FD1A4699E0B6AE256AAC349",
+          "turn_ids": [
+            "de2dbe03-39cb-4064-b19a-e970a8ffb5e1",
+            "2c5721af-e6c9-4c5b-9c1e-b6c8b13e14d7"
+          ],
+          "truncated_item_ids": [
+            "19d7d91a-a474-4134-aaf0-eeb626084311"
+          ]
+        }
+      ]
+    },
+    {
+      "thread_id": "6a53d2d1-1388-83ed-a891-07a16b7b9e2a",
+      "title": "Hilo Proyecto de constitucion computacional",
+      "relationship": "LINKED_PUTATIVE_TRUNK",
+      "pages": 3,
+      "turns": 23,
+      "eof": true,
+      "transport_state": "TWO_AGENT_ITEMS_TRUNCATED_AT_20000_CHARS",
+      "page_receipts": [
+        {
+          "page": 1,
+          "bytes": 103683,
+          "sha256": "F112F4FDFB4C8A39B156A789D0524D62D3DE09A6E73925DB84B07D8D8058D51B",
+          "turn_count": 10,
+          "truncated_item_ids": []
+        },
+        {
+          "page": 2,
+          "bytes": 123268,
+          "sha256": "1B6348EDEC6D4F53C1122B5681B3140D0D819CE626A4A78DFDC2113FCA308C6A",
+          "turn_count": 10,
+          "truncated_item_ids": [
+            "5bb4879c-a10d-49d2-ae0d-4e1d9deacc6e"
+          ]
+        },
+        {
+          "page": 3,
+          "bytes": 41008,
+          "sha256": "985EBD23B4D17EA20BDF51B6326A726BB59436F71C5652CF32EEE6F1EAB42465",
+          "turn_count": 3,
+          "truncated_item_ids": [
+            "ff8802ce-89fd-4ce9-af36-21a205f8f002"
+          ]
+        }
+      ]
+    }
+  ],
+  "adjudication": {
+    "source_lineage": "PUTATIVE_TRUNK_NOT_CONFIRMED_AS_BAYME_EVE_PRIMARY",
+    "new_constitution_status": "DERIVED_CONSTITUTIONAL_RESEARCH_CANDIDATE",
+    "reason": "The linked trunk observable chronology is primarily AAD-TCS TALM TALON RDS and computational authority; it does not independently establish the claimed BayME-EVE origin.",
+    "compatible_candidate_invariants": [
+      "epistemic claim typing",
+      "reality versus publication separation",
+      "immutable causal freeze",
+      "situated local authority",
+      "mixture fusion composition non-equivalence",
+      "posterior learning only toward future runs"
+    ],
+    "not_authorized": [
+      "retroactive rewriting of BPM freezes",
+      "automatic promotion to historical BayME canon",
+      "pooling local jurisdictions",
+      "treating generated conjecture as validated architecture"
+    ]
+  },
+  "status": "EOF_REACHED_WITH_EXPLICIT_TRANSPORT_TRUNCATION_AND_LINEAGE_QUARANTINE"
+}

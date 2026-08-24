@@ -1,0 +1,30 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.4",
+  "event_date": "2025-10-21",
+  "freeze_sha256": "566CC25637C0EB289D794BA3A4B97BDB7FC607B4E861BD56FEA805672AF9ECB8",
+  "raw_result_sha256": "4AC3282CC42C9FD0112DA8E119E5084A5C95461A5338BD30038225537793C666",
+  "structured_result_sha256": "CA1AF9E22C97505B27A571057D8A3FE05E00934EC47DFE0D2157C8331AE30068",
+  "local_scoring_sha256": "2A68C49D77DE8D54EC3D5ADF2D13B684C7F0ED023D40A31E5B79DCE42DAA5AB2",
+  "award_rows": 10,
+  "local_outcomes": 7,
+  "updated_prior_cells": 3,
+  "updated_prior_outcomes": 3,
+  "new_local_cells": 4,
+  "new_local_outcomes": 4,
+  "total_awarded_volume_m3": 21645,
+  "objects_full_coverage": [
+    2
+  ],
+  "objects_partial_coverage": [
+    1
+  ],
+  "objects_over_coverage": [],
+  "unawarded_objects": [],
+  "not_estimable_source_objects": [],
+  "quarantined_outcomes": [],
+  "scored_predictions": 3,
+  "scoring_state": "M0_AND_WHERE_SUPPORTED_M1_EXACT_LOCAL_DESTINATIONS",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "bpm.rmk.offer-class-weights.v0.1",
+  "event_date": "2025-10-29",
+  "source": "Frozen offer footnote ***, published before result access",
+  "raw_offer_sha256": "2BE85C38B126DC1A595C473C5310195D59961EB9B5888921501775A76E409F8B",
+  "structured_offer_sha256": "3117929C51B3666A0710A7C123EC51F5F0D20025204A4E6C0080E9A90FE934BD",
+  "weights_by_object": {
+    "1": [0.24, 0.76],
+    "2": [0.70, 0.30],
+    "3": [0.16, 0.50, 0.34],
+    "5": [0.07, 0.40, 0.53]
+  },
+  "invariants": {
+    "weights_sum_to_one": true,
+    "weights_derived_from_result_prices": false,
+    "weights_derived_from_destinations_or_buyers": false,
+    "object_6_source_conflict_remains_quarantined": true
+  }
+}

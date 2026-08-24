@@ -1,0 +1,2154 @@
+{
+  "biff_version": 80,
+  "datemode": 0,
+  "fit_performed": false,
+  "forecast_performed": false,
+  "numeric_values_redacted_before_freeze_preregistration": true,
+  "raw_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "schema": "hbp.indec.ucii.biff8-schema.v0.1",
+  "score_performed": false,
+  "sheets": [
+    {
+      "name": "UCI - NG y bloques",
+      "ncols": 14,
+      "nrows": 170,
+      "schema_rows_numeric_redacted": [
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Utilización de la capacidad instalada en la industria, nivel general y bloques sectoriales. Años 2016-2026"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 0
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 1
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Período"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "Nivel general"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "Productos alimenticios y bebidas"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "Productos                del tabaco"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "Productos textiles"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "Papel                              y cartón"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "Edición                     e impresión"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "Refinación                  del petróleo"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "Sustancias            y productos químicos"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "Productos de caucho y plástico"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "Productos minerales no metálicos"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "Industrias metálicas básicas"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "Industria automotriz"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "Metalmecánica excluida industria automotriz"
+            }
+          ],
+          "row_zero_based": 2
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 3
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 4
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "Porcentaje"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 5
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 6
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Año 2016"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 7
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 8
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Enero*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 9
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Febrero*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 10
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Marzo*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 11
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Abril*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 12
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Mayo*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 13
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Junio*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 14
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Julio*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 150
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Agosto*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 151
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Septiembre*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 152
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Octubre*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 153
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Noviembre*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 154
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Diciembre*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 155
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 156
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Año 2026"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 157
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 158
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Enero*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 159
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Febrero*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 160
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Marzo*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 161
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Abril*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 162
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Mayo*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 163
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Junio*"
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": "NUMERIC_PRESENT"
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": "NUMERIC_PRESENT"
+            }
+          ],
+          "row_zero_based": 164
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "* Datos provisorios. "
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 165
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Nota: el bloque de Productos alimenticios y bebidas se calcula sin considerar la capacidad instalada en la actividad vitivinícola ni en los ingenios azucareros. El bloque de Sustancias y productos químicos se calcula sin considerar la utilización de la capacidad instalada de la industria farmaceútica.  "
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 166
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 167
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Los promedios pueden no coincidir por redondeo en las cifras parciales."
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 168
+        },
+        {
+          "cells": [
+            {
+              "column_zero_based": 0,
+              "value_or_type": "Fuente: INDEC."
+            },
+            {
+              "column_zero_based": 1,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 2,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 3,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 4,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 5,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 6,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 7,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 8,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 9,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 10,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 11,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 12,
+              "value_or_type": ""
+            },
+            {
+              "column_zero_based": 13,
+              "value_or_type": ""
+            }
+          ],
+          "row_zero_based": 169
+        }
+      ]
+    }
+  ]
+}

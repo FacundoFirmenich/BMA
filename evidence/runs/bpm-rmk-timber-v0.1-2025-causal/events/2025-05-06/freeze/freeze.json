@@ -1,0 +1,89 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.3",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-05-06",
+  "state": "FREEZE_WRITTEN_PAIRED_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "C47FE032AA3B9C9B61497040D7B132F5F02C70C4D4FC3B04D5498AC5FE628842",
+    "structured_offer": "A005A4C289ACE0CDC05C7A8C15106BA22E12D69D7CCBC5C8BFB8EA59C0F00A80",
+    "prior": "8D4739DFF7FEA5265605186909AFC11552E17D2DFFE3030031C94E5EAB846A32"
+  },
+  "software_correction_sha256": "314EBACC7950E214BCB05CFFAA15C8E667EDD7773E2ADDC1E1BDF7EE67A07668",
+  "object_count": 6,
+  "objects_with_prior_base_cell_match": 0,
+  "frozen_destination_predictions": 0,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapaberipuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipaberipuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 5,
+      "product": "Okaspuuküttepuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "E8C24DDA86F2E064CEFB64CEDA8ECCDF303717D396434E7509994F47DDB0F51E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 6,
+      "product": "Küttepuit",
+      "delivery_period": "10.05.2025-30.07.2025",
+      "calendar_phase": "M05-M06-M07",
+      "measurement_fingerprint_sha256": "B22FC1984AA659BB877B9F7219358E79BA7E639D8E67860E1518874F7582E903",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    }
+  ],
+  "paired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/05/Edukad_EP06.05.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "quarantined_unpaired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/05/Edukad_KLH06.05.2025.xlsx",
+    "body_opened": false,
+    "state": "QUARANTINE_UNPAIRED_RESULT_NO_FROZEN_OFFER"
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

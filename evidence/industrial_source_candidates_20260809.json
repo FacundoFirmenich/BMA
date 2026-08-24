@@ -1,0 +1,160 @@
+{
+  "schema_version": "bma.industrial-source-audit.v2",
+  "as_of": "2026-08-09",
+  "governing_gate": {
+    "required": [
+      "non-food physical industrial or material market",
+      "biological materials such as timber remain admissible but do not satisfy the separate non-biological target",
+      "non-biological candidate must not use a regulated or administered market price",
+      "repeated observations with usable history",
+      "observed transaction, award price or explicitly named statistical unit value",
+      "physical quantity or volume",
+      "date and product, lot or partner-node identifier",
+      "trade, no-trade, award or no-bid semantics appropriate to the source",
+      "machine-readable access",
+      "future freeze can precede outcome",
+      "reuse rights compatible with the intended artifact"
+    ],
+    "rule": "Retain timber; seek a separate strict non-biological industrial jurisdiction in Spain first, and expand to Europe only if Spain has no useful candidate"
+  },
+  "spain": [
+    {
+      "id": "ES-AEAT-FOREIGN-TRADE-GOODS",
+      "status": "TECHNICAL_SOURCE_PASS_OPEN_REUSE_MODEL_NOT_EXECUTED",
+      "official_catalog": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
+      "official_format": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Aduanas/Contenidos_Privados/Estadisticas_Comercio_Exterior/comercio_exterior/datos_mensuales_maxima_desagregacion/diseno226.pdf",
+      "official_reuse_terms": "https://sede.agenciatributaria.gob.es/Sede/gobierno-abierto/reutilizacion-informacion/condiciones-reutilizacion.html",
+      "license": "basic public-sector reuse; commercial and noncommercial reuse allowed with attribution, update metadata preservation, no distortion and no implied endorsement",
+      "observed": {
+        "sample_period": "2025-01",
+        "maximum_detail_archive_sha256": "d1e131cdc941e0d84b0bb5aef26793481ef946028c36ad04257e9babc545b60a",
+        "maximum_detail_records_chapters_64_to_74": 690929,
+        "chapter_72_iron_and_steel_records": 32726,
+        "chapter_73_articles_of_iron_or_steel_records": 165203,
+        "chapter_74_copper_records": 18682,
+        "candidate_cn8": "72083900",
+        "candidate_cn8_description": "hot-rolled non-alloy steel coils, width at least 600 mm, thickness below 3 mm, not clad, plated or coated",
+        "candidate_detail_rows_including_taric_extensions": 863,
+        "candidate_import_kg": 92843933.0,
+        "candidate_import_statistical_value_eur": 56378482.41,
+        "candidate_export_kg": 22633863.0,
+        "candidate_export_statistical_value_eur": 13200110.09,
+        "detail_summary_reconciliation": "PASS",
+        "monthly_files_listed": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+      },
+      "target_semantics": "presence and physical quantity of declared trade plus statistical unit value equal to declared statistical value divided by mass",
+      "limits": [
+        "statistical unit value is not an auction price, spot quote or order-book price",
+        "public rows do not identify firms",
+        "2026 is incomplete and revision-prone as of the audit date",
+        "a target-blind CN8, flow, partner-node and revision-policy freeze is required before modeling"
+      ]
+    },
+    {
+      "id": "ES-SCRAPAD-METALS",
+      "status": "STRICT_PHYSICAL_MARKET_DATA_AGREEMENT_REQUIRED",
+      "official_company_source": "https://scrapad.com/en/buy/",
+      "official_public_listing_example": "https://marketplace.scrapad.com/en/advertisement/731762a6-a802-4d13-8121-14edd47766a3/premium-copper-candy%2C-millberry-cable-or-equivalent",
+      "official_public_evidence": "https://sett.gob.es/la-sett-invierte-11-millones-de-euros-en-una-plataforma-tecnologica-digital-que-contribuye-a-la-economia-circular-gracias-al-reciclaje-de-metales/",
+      "observed": {
+        "physical_material": true,
+        "quantity_and_composition_in_public_listings": true,
+        "negotiated_price": true,
+        "platform_managed_logistics_and_documents": true,
+        "real_operation_data_confirmed_by_sett": true,
+        "final_transaction_price_public": false
+      },
+      "blocker": "final negotiated prices, completed outcomes and historical transaction depth require a data-sharing agreement",
+      "bind_role": "highest-value Spanish transaction-level pilot candidate for industrial metals; no performance claim before governed data access"
+    },
+    {
+      "id": "ES-XUNTA-PUBLIC-TIMBER-CUTS",
+      "status": "TECHNICAL_NEAR_PASS_NO_TRANSACTION_PRICE",
+      "official_catalog": "https://datos.gob.es/es/catalogo/a12002994-gestion-de-cortas-publicas",
+      "official_api": "https://ideg.xunta.gal/servizos/rest/services/VISCPU/vvexterno/MapServer",
+      "license": "CC-BY-SA-4.0 stated by the official catalog",
+      "observed": {
+        "recent_layer_records": 1098,
+        "recent_layer_years": [2020, 2026],
+        "polygon_layer_years": [2019, 2026],
+        "rows_with_appraisal_amount": 1088,
+        "rows_with_volume": 1082,
+        "rows_with_species": 1090
+      },
+      "blocker": "IMPORTE_TAXACION is an appraisal amount; the API does not expose the final winning or award price",
+      "retention": "included as a biological industrial-material jurisdiction"
+    },
+    {
+      "id": "ES-PUBLIC-SCRAP-AUCTIONS",
+      "status": "REAL_AWARD_CASE_SERIES_FAILS_NORMALIZED_DENSITY_GATE",
+      "official_examples": [
+        "https://boe.es/diario_boe/txt.php?id=BOE-B-2025-26194",
+        "https://boe.es/diario_boe/txt.php?id=BOE-B-2008-314230",
+        "https://contrataciondelestado.es/wps/portal/DatosAbiertos"
+      ],
+      "observed": "physical scrap auctions can expose weight, reserve and winning price, but publication is dispersed across heterogeneous lots and documents",
+      "blocker": "no normalized repeated product-quality-volume series has yet been established"
+    },
+    {
+      "id": "ES-MIBGAS-OMIE",
+      "status": "EXCLUDED_REGULATED_OR_ADMINISTERED_PRICE_SCOPE",
+      "reason": "energy and network-cleared regulated or administered price formation is outside the user-defined industrial-market target"
+    }
+  ],
+  "europe": [
+    {
+      "id": "DE-RLP-WERTHOLZ-PFALZ-2026",
+      "status": "TECHNICAL_PASS_PUBLIC_REUSE_BLOCKED",
+      "official_hub": "https://www.wald.rlp.de/nutzen/holz/wertholzsubmission",
+      "official_result": "https://www.wald.rlp.de/start-landesforsten-rheinland-pfalz/service/nachrichten-uebersicht/einzelnachricht/verkaufsbericht-wertholzsubmission-pfalz-27012026-digitale-gebotsabgabe",
+      "official_xls": "https://www.wald.rlp.de/fileadmin/website/downloads/wertholz/WHS_1_PFZ/25_26__pfz_dig_2_zuschlaege_extern_v2.xls",
+      "official_terms": "https://www.wald.rlp.de/start-landesforsten-rheinland-pfalz/service/impressum",
+      "source_sha256": "1cee4d73c1de00b3779697a52610569e3ec97f8061c85c8e2058a773d38a0b87",
+      "observed": {
+        "data_rows": 1191,
+        "awarded_rows": 1186,
+        "no_bid_rows": 5,
+        "total_volume_fm": 1845.32,
+        "weighted_award_price_eur_per_fm": 977.8971160367888,
+        "price_max_eur_per_fm": 5199.0,
+        "official_reports_confirm_recurrence": [2024, 2025, 2026],
+        "lot_level_years_verified": [2026]
+      },
+      "blockers": [
+        "official terms forbid reproduction or use without express consent",
+        "only 2026 has been verified at lot level"
+      ],
+      "retention": "included; timber remains useful even though it does not satisfy the separate non-biological objective"
+    },
+    {
+      "id": "EU-METALSHUB",
+      "status": "STRICT_PHYSICAL_MARKET_PRIVATE_DATA_REQUIRED",
+      "official_source": "https://www.metals-hub.com/en/",
+      "blocker": "transaction-level price, volume, quality and outcome data are a commercial platform asset and require agreement",
+      "role": "European fallback and potential partner, not needed to establish that a useful Spanish path exists"
+    },
+    {
+      "id": "EU-LME-METALS",
+      "status": "REFERENCE_MARKET_LICENSE_REQUIRED_NOT_PHYSICAL_TRANSACTION_CORPUS",
+      "official_sources": [
+        "https://www.lme.com/Market-data/Accessing-market-data/Historical-data",
+        "https://www.lme.com/Market-data/Market-data-licensing"
+      ],
+      "blocker": "historical and derived use require purchase or license, and LME price-volume data do not by themselves provide the desired physical B2B lot outcomes"
+    }
+  ],
+  "decision": {
+    "strict_nonbiological_spanish_path_found": true,
+    "best_open_spanish_nonbiological_source": "ES-AEAT-FOREIGN-TRADE-GOODS",
+    "best_transaction_level_bind_candidate": "ES-SCRAPAD-METALS",
+    "timber_retained": true,
+    "energy_excluded": true,
+    "source_connector_authorized": true,
+    "model_execution_authorized": false,
+    "raw_publication_authorized_by_source": {
+      "ES-AEAT-FOREIGN-TRADE-GOODS": true,
+      "DE-RLP-WERTHOLZ-PFALZ-2026": false
+    },
+    "reason": "AEAT passes the open physical-goods source gate but requires a frozen statistical-unit-value jurisdiction; ScrapAd is closer to the intended transaction-price market but requires governed access to completed trades"
+  }
+}

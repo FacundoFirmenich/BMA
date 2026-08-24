@@ -1,0 +1,96 @@
+{
+  "preregistration_id": "HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.1",
+  "status": "FROZEN_BEFORE_NUMERIC_WORKBOOK_READ",
+  "frozen_local_date": "2026-08-22",
+  "canonical_family": "HBP",
+  "parent_schema_capture": {
+    "manifest": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/manifest.json",
+    "manifest_sha256": "2906C4094A6C0AFF68A6337B7613802BE453B2D3EBBBD41C514E1D1CD26CA008",
+    "schema": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/workbook_schema.json",
+    "schema_sha256": "F4A72CFF5270E5533F6DB3611DD2944D7BA0656C29AB91166A16B977B6C22545",
+    "workbook": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/indec_ucii_series_through_2026_06.xls",
+    "workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471"
+  },
+  "jurisdiction": {
+    "source": "INDEC",
+    "dataset": "Utilización de la capacidad instalada en la industria",
+    "geo": "Argentina",
+    "target": "Nivel general",
+    "unit": "percent of installed capacity",
+    "separate_observer_panel": "12 sector blocks; preserved but excluded from this first target likelihood"
+  },
+  "extraction_contract": {
+    "reader": "xlrd==2.0.2 BIFF8 read-only",
+    "sheet": "UCI - NG y bloques",
+    "header_row_zero_based": 2,
+    "period_column_zero_based": 0,
+    "general_percent_column_zero_based": 1,
+    "sector_columns_zero_based": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "training_start": "2016-01",
+    "training_end": "2026-06",
+    "expected_observations": 126,
+    "expected_last_general_rounded_1dp": 59.1,
+    "target_must_be_absent": "2026-07"
+  },
+  "transform": {
+    "state": "q_t = log(u_t / (100-u_t))",
+    "innovation": "r_t = q_t - q_(t-1)",
+    "support": "0 < u_t < 100",
+    "forecast_mapping": "inverse logit times 100"
+  },
+  "models": {
+    "M0": {
+      "role": "bounded persistence",
+      "innovation_mean": 0.0,
+      "alpha0": 2.0,
+      "beta0": 0.0004
+    },
+    "M1": {
+      "role": "bounded local expanding drift",
+      "mu0": 0.0,
+      "kappa0": 1.0,
+      "alpha0": 2.0,
+      "beta0": 0.0004
+    },
+    "M2": {
+      "role": "bounded local annual harmonic innovation model",
+      "features": ["intercept", "sin_1", "cos_1", "sin_2", "cos_2"],
+      "prior_mean": [0.0, 0.0, 0.0, 0.0, 0.0],
+      "prior_precision_diagonal": [1.0, 4.0, 4.0, 8.0, 8.0],
+      "alpha0": 2.0,
+      "beta0": 0.0004,
+      "phase_assignment": "each innovation is assigned to its destination calendar month",
+      "minimum_prior_same_phase_replicates": 5,
+      "expected_July_replicates": 10
+    }
+  },
+  "weights": {
+    "M0": 0.3333333333333333,
+    "M1": 0.3333333333333333,
+    "M2": 0.3333333333333333,
+    "status": "FROZEN_EQUAL_NO_PROMOTION_AUTHORITY"
+  },
+  "target": {"month": "2026-07", "one_step_only": true, "outcome_opened": false},
+  "design_exposure_boundary": {
+    "numeric_history_seen_before_exact_freeze": false,
+    "schema_and_June_headline_seen": true,
+    "consequence": "prospective target and pre-numeric-read model freeze; not a blind source-selection holdout"
+  },
+  "hard_invariants": {
+    "one_month_predicts_exactly_next_month": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "sector_blocks_excluded_from_general_target_likelihood": true,
+    "legacy_UCII_freeze_governs_new_chain": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "abort_gates": [
+    "parent manifest schema or workbook hash mismatch",
+    "target July present",
+    "not exactly 126 contiguous months",
+    "any general or sector utilization not strictly between 0 and 100",
+    "June general does not reconcile to 59.1",
+    "fewer than five prior July phase replicates"
+  ]
+}

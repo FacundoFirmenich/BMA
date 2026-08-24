@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "2026-08-22T02:16:24.888418+00:00",
+  "files": [
+    {
+      "bytes": 477,
+      "path": "evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze/extraction_receipt.json",
+      "sha256": "8959872B4F703F40341065CEB740089FE54362C60C797042D0A9B6BD860C9D61"
+    },
+    {
+      "bytes": 1573,
+      "path": "evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze/forecast_freeze.json",
+      "sha256": "FC222371F170F01C3CEFBFF624FF79A91AE0C90A42980A0262E94A9AC81EDCBE"
+    },
+    {
+      "bytes": 24615,
+      "path": "evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze/normalized_training_series.json",
+      "sha256": "9556FA2608F011769A3E4CDB5AD73715351A10193865CA590C770C401844127A"
+    },
+    {
+      "bytes": 1550,
+      "path": "evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze/posterior_z_post.json",
+      "sha256": "10B1282CEA1E22BB7465153FE079DD4724DCAC6C036269FA5B7B7A0A6EF9D4E3"
+    }
+  ],
+  "global_winner": null,
+  "schema": "hbp.indec.ipi.sa.freeze-manifest.v0.1",
+  "target_outcome_opened": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "bma.github.push.failure-receipt.v1",
+  "branch": "agent/bma-v065-terra-succession",
+  "attempt": 3,
+  "phase": "segmented fast-forward",
+  "remote_progress_before_failure": {
+    "from": "7525d19ca9dcba54a47065ff870d54d85516ba56",
+    "to": "359ed4d",
+    "small_cuts": ["ab2ff93", "359ed4d"]
+  },
+  "failed_cut": "ede06e0",
+  "runtime_session_id": 32107,
+  "transport": "command-scoped HTTP/1.1 with postBuffer 524288000",
+  "exit_code": 1,
+  "error": "RPC failed; curl 55 Send failure: Connection was reset",
+  "remote_head_after_failed_cut": "359ed4d",
+  "next_repair": "publish an identical final tree through small fast-forward batches, then merge the original unpushed lineage without force",
+  "forbidden_branch_touched": false
+}

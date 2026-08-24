@@ -1,0 +1,62 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v2",
+  "observed_at": "2026-08-21T19:09:31.1950957+02:00",
+  "kch_version": "0.11.33",
+  "runtime_state": "NATIVE_SUPERHARNESS_ACTIVE",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V2.json",
+    "sha256": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672"
+  },
+  "capability": {
+    "local_read_classify_hash_test_and_execute": true,
+    "native_chats_read_to_eof_for_argentina_eurostat": true,
+    "official_public_api_and_xlsx_probe": true,
+    "remote_mutation_technical_capability": "NOT_USED_AND_NOT_IMPLIED"
+  },
+  "permission": {
+    "local_non_destructive_reorganization": true,
+    "authorized_public_data_experiments": true,
+    "delete_or_move_originals": false,
+    "publish_or_reorganize_remote": false,
+    "create_accounts_accept_terms_pay_contact_third_parties": false,
+    "bulk_download_or_vps": false
+  },
+  "authority": {
+    "ontology": "USER_FROZEN_BPM_BUM_HBP",
+    "bma_disposition": "PERMANENTLY_SUBSUMED_IN_BPM",
+    "classification_unit": "SCIENTIFIC_CONTENT_AND_OBJECTIVE_NOT_LEGACY_FOLDER",
+    "coral_authority": "LOCAL_TYPED_GRAPH_NO_POOLED_POSTERIOR_NO_GLOBAL_WINNER",
+    "experiment_promotion": "NONE"
+  },
+  "execution": {
+    "classification_index_v6_materialized": true,
+    "bpm_aeat_2025_attempt11_terminal_exit_zero": true,
+    "bpm_aeat_2025_independent_audit_pass": true,
+    "bpm_aeat_2025_primary_local_tests": {
+      "improvements": 7,
+      "losses": 1,
+      "ties": 0,
+      "december": "ABSTAIN_YEAR_END_UNCALIBRATED"
+    },
+    "argentina_eurostat_hbp_ledger_materialized": true,
+    "ucii_legacy_invalidity_preserved": true,
+    "eurostat_july_not_estimable_preserved": true,
+    "public_source_probes_preregistered_and_executed": true,
+    "rmk_timber_campaign_preregistered_not_started": true,
+    "spain_industrial_coral_campaign_preregistered_not_started": true,
+    "remote_reorganization_executed": false,
+    "destructive_cleanup_executed": false
+  },
+  "training": {
+    "phl_authorized_but_not_trained": true,
+    "phl_real_training_executed": false
+  },
+  "custody": {
+    "probe_payloads_hashed": 7,
+    "argentina_eurostat_exact_payload_recovery_complete": false,
+    "native_registry_entries": 11,
+    "historically_asserted_minimum_chats": 12,
+    "contradiction_preserved": true
+  },
+  "next_decision_critical_action": "INVENTORY_RMK_PUBLIC_AUCTION_URLS_WITHOUT_OPENING_HISTORICAL_XLSX_THEN_FREEZE_URL_HASHES_TRANSPORT_NORMALIZATION_SUPPORT_PRIORS_AND_RECOVERY_BEFORE_YEAR_BY_YEAR_ACQUISITION"
+}

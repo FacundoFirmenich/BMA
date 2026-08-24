@@ -1,0 +1,61 @@
+{
+  "id": "HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1",
+  "frozen_at_local_date": "2026-08-22",
+  "status": "PREREGISTERED_BEFORE_BYTE_ACQUISITION",
+  "governing_program": "BAYME_INDUSTRIAL_CORAL_PROGRAM_V0.2",
+  "purpose": "Create a new independently timestamped custody layer for official Argentine industrial publications and test one bounded Eurostat Prodcom product-country slice. This probe performs no fitting, forecasting, scoring, historical freeze reconstruction, model promotion or likelihood pooling.",
+  "epistemic_boundary": {
+    "indec": "The existence, current release month and some headline values were visible during source discovery before this freeze. These acquisitions are observational current-vintage custody only and cannot repair or impersonate any missing historical first-release payload.",
+    "prodcom": "Dataset identity, annual cadence, product granularity, variables and revision policy were visible during source discovery. The selected Spain x wood-product x 2024 cell has not been queried before this freeze.",
+    "global_winner": "FORBIDDEN",
+    "cross_source_likelihood_pooling": "FORBIDDEN"
+  },
+  "indec_acquisitions": [
+    {
+      "role": "IPI_MANUFACTURING_CURRENT_VINTAGE",
+      "landing_page": "https://www.indec.gob.ar/Nivel4/Tema/3/6/14",
+      "report_pdf": "https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_08_2683F2E17728.pdf",
+      "series_workbook": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+      "expected_reference_period": "2026-06",
+      "allowed_operations": ["GET_EXACT_URL", "HASH_RAW_BYTES", "RECORD_RESPONSE_HEADERS", "READ_WORKBOOK_STRUCTURE_AND_LABELLED_VALUES"],
+      "forbidden_operations": ["FIT", "FORECAST", "SCORE", "BACKDATE", "RECONSTRUCT_MISSING_FREEZE"]
+    },
+    {
+      "role": "UCII_CURRENT_VINTAGE",
+      "landing_page": "https://www.indec.gob.ar/Nivel4/Tema/3/6/15",
+      "report_pdf": "https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_08_26EE16AEA30D.pdf",
+      "expected_reference_period": "2026-06",
+      "allowed_operations": ["GET_EXACT_URL", "HASH_RAW_BYTES", "RECORD_RESPONSE_HEADERS", "READ_DOCUMENT_STRUCTURE_AND_LABELLED_VALUES"],
+      "forbidden_operations": ["FIT", "FORECAST", "SCORE", "BACKDATE", "RECONSTRUCT_MISSING_FREEZE"]
+    }
+  ],
+  "prodcom_probe": {
+    "dataset": "DS-059358",
+    "role": "ANNUAL_PRODUCT_IDENTITY_AND_PHYSICAL_QUANTITY_SUPPORT",
+    "reporter": "ES",
+    "product": "16101035",
+    "product_predeclared_description": "Spruce or fir sawn wood, thickness greater than 6 mm; exact current dataset label governs if returned",
+    "reference_year": "2024",
+    "primary_query": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-059358?lang=en&reporter=ES&product=16101035&time=2024&indicators=PRODQNT&indicators=PQNTFLAG&indicators=QNTUNIT",
+    "requested_indicators": ["PRODQNT", "PQNTFLAG", "QNTUNIT"],
+    "bounded_retry_rule": "If and only if the API rejects a dimension name, correct dimension identifiers from the official error or official structure metadata while preserving dataset, reporter, product, year and requested indicator meanings. Store every failed response. Never issue an unfiltered or bulk request.",
+    "success_gate": [
+      "HTTP_200_OFFICIAL_ENDPOINT",
+      "RESPONSE_BYTES_HASHED",
+      "REPORTER_ES_ONLY",
+      "PRODUCT_16101035_ONLY",
+      "TIME_2024_ONLY",
+      "PHYSICAL_QUANTITY_AND_UNIT_EXPLICIT_OR_MISSINGNESS_EXPLICIT",
+      "FLAGS_PRESERVED"
+    ],
+    "failure_states": ["NOT_ESTIMABLE_NO_CELL", "NOT_ESTIMABLE_CONFIDENTIAL", "NOT_ESTIMABLE_NO_PHYSICAL_UNIT", "API_SCHEMA_FAIL", "SOURCE_FAIL"]
+  },
+  "required_outputs": [
+    "raw bytes and independent SHA-256 for every successful or failed HTTP response",
+    "response headers and acquisition timestamp",
+    "machine-readable workbook/document structure summaries",
+    "support adjudication distinguishing product, activity, capacity and macro jurisdictions",
+    "explicit abstentions and remaining uncertainty"
+  ],
+  "promotion_policy": "NO_AUTOMATIC_PROMOTION"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "bpm.rmk.event-eligibility-closure.v0.1",
+  "event_date": "2026-06-30",
+  "state": "NOT_ESTIMABLE_SCHEMA_PROBE_PREEXPOSURE",
+  "parent_event": "2026-05-28",
+  "parent_prior_sha256": "30B881129B797CB0C2F7A35805F4BF089285D5ACD97FF4D65F2F8E36FDE2DE7C",
+  "parent_z_post_sha256": "F9BBD60D750EB1C8BBA49569E2BE20C8B89403AF061F3E8513BF5A9D45312CB7",
+  "parent_adjudication_sha256": "29E7B105223939A5E4F4EBD2631887B7FCBFC049247CE5A4D64C114EB94AE904",
+  "parent_audit_sha256": "7DF7C03FAFB324C9ACFE7E6DCFCA0881603A84E0A1FE31BC87CA45AB3AD61FEF",
+  "inventory_sha256": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF",
+  "offer": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/06/Myygiobjektid_30.06.2026.xlsx",
+    "inventory_state": "SCHEMA_PROBE_EXCLUDED_FROM_BLIND_EVALUATION",
+    "opened_in_this_event_execution": false
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/07/Edukad_EP_30.06.2026.xlsx",
+    "inventory_state": "SCHEMA_PROBE_EXCLUDED_FROM_BLIND_EVALUATION",
+    "opened_in_this_event_execution": false
+  },
+  "reason": "PAYLOAD_BODIES_PREEXPOSED_BEFORE_CAUSAL_FREEZE",
+  "posterior_update": false,
+  "z_post_update": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

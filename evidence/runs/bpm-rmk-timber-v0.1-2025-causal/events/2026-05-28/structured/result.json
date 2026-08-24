@@ -1,0 +1,284 @@
+{
+  "schema_version": "bpm.rmk.result-structured.v0.5",
+  "event_date": "2026-05-28",
+  "protocol_date": "2026-08-21",
+  "source_file": ".\\evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2026-05-28\\raw\\Edukad_EP_28.05.2026.xlsx",
+  "source_sha256": "56A0089906F405C88C7ED8A24EC46B6260CBB48AB403615DE17F7FFED261FF58",
+  "source_bytes": 22172,
+  "frozen_offer_raw_sha256": "BECAF1D777E3F9725C43E08B483B04AE3EF325C86A4F94C8D9F59B23AFC1DB85",
+  "structured_offer_used_sha256": "CB433CB7E9531A93F5850D11E708E1DDEB94B53431AA3A3AA52BF1AF9E5A1681",
+  "award_row_count": 7,
+  "local_outcome_count": 7,
+  "quarantined_outcome_count": 0,
+  "freeze_used_sha256": "747E6DE78861CE9654E1D0A1E78C5B13576A16B70DDF89C99E648C6F95A6AD2E",
+  "total_awarded_volume_m3": 10166,
+  "extraction_failures": [],
+  "rows": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "raw_result_product": "Puidueksperdid Tartu OÜ",
+      "buyer": "Haavapalk",
+      "destination": "Kalme",
+      "awarded_volume_m3": 400,
+      "raw_price": "65/90",
+      "price_components": [
+        65,
+        90
+      ],
+      "effective_weighted_price_eur_m3": 84.25,
+      "price_state": "ESTIMABLE_OFFER_WEIGHTED_CLASS_PRICE"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "raw_result_product": "Lignator Logistika OÜ",
+      "buyer": "Kasepaberipuit",
+      "destination": "Paldiski",
+      "awarded_volume_m3": 1236,
+      "raw_price": 62.01,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 62.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "raw_result_product": "Billerud Estonia OÜ",
+      "buyer": "Kasepaberipuit",
+      "destination": "Pärnu",
+      "awarded_volume_m3": 3623,
+      "raw_price": 62.28,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 62.28,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "raw_result_product": "Lignator Logistika OÜ",
+      "buyer": "Kuusepaberipuit",
+      "destination": "Paldiski",
+      "awarded_volume_m3": 375,
+      "raw_price": 62.01,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 62.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "raw_result_product": "Södra Metsad OÜ",
+      "buyer": "Kuusepaberipuit",
+      "destination": "Pärnu",
+      "awarded_volume_m3": 1932,
+      "raw_price": 62.52,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 62.52,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Kuusepaberipuit",
+      "raw_result_product": "Lignator Logistika OÜ",
+      "buyer": "Kuusepaberipuit",
+      "destination": "Sillamäe",
+      "awarded_volume_m3": 2400,
+      "raw_price": 60.01,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 60.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 5,
+      "product": "Männipaberipuit",
+      "raw_result_product": "FFL Trading OÜ",
+      "buyer": "Männipaberipuit",
+      "destination": "Sillamäe",
+      "awarded_volume_m3": 200,
+      "raw_price": 60,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 60,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    }
+  ],
+  "local_outcomes": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "raw_result_products": [
+        "Puidueksperdid Tartu OÜ"
+      ],
+      "destination": "Kalme",
+      "buyers": [
+        "Haavapalk"
+      ],
+      "delivery_period": "2.06.2026 - 20.06.2026",
+      "measurement_fingerprint_sha256": "6996859B17B40BE591FD69AB0E967C056BAFDC2A967B236A81BAD25E16D79266",
+      "awarded_volume_m3": 400,
+      "effective_weighted_price_eur_m3": 84.25,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "raw_result_products": [
+        "Lignator Logistika OÜ"
+      ],
+      "destination": "Paldiski",
+      "buyers": [
+        "Kasepaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "C56F0EE10C66909B81AB0B6D4792CE0880688C80D1113711789FF52D1A999242",
+      "awarded_volume_m3": 1236,
+      "effective_weighted_price_eur_m3": 62.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "raw_result_products": [
+        "Billerud Estonia OÜ"
+      ],
+      "destination": "Pärnu",
+      "buyers": [
+        "Kasepaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "C56F0EE10C66909B81AB0B6D4792CE0880688C80D1113711789FF52D1A999242",
+      "awarded_volume_m3": 3623,
+      "effective_weighted_price_eur_m3": 62.28,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "raw_result_products": [
+        "Lignator Logistika OÜ"
+      ],
+      "destination": "Paldiski",
+      "buyers": [
+        "Kuusepaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "6A0C0097916255AD014C7C0E41F3391875C377D4D63988424B401B39127595D6",
+      "awarded_volume_m3": 375,
+      "effective_weighted_price_eur_m3": 62.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "raw_result_products": [
+        "Södra Metsad OÜ"
+      ],
+      "destination": "Pärnu",
+      "buyers": [
+        "Kuusepaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "6A0C0097916255AD014C7C0E41F3391875C377D4D63988424B401B39127595D6",
+      "awarded_volume_m3": 1932,
+      "effective_weighted_price_eur_m3": 62.52,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Kuusepaberipuit",
+      "raw_result_products": [
+        "Lignator Logistika OÜ"
+      ],
+      "destination": "Sillamäe",
+      "buyers": [
+        "Kuusepaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "6A0C0097916255AD014C7C0E41F3391875C377D4D63988424B401B39127595D6",
+      "awarded_volume_m3": 2400,
+      "effective_weighted_price_eur_m3": 60.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 5,
+      "product": "Männipaberipuit",
+      "raw_result_products": [
+        "FFL Trading OÜ"
+      ],
+      "destination": "Sillamäe",
+      "buyers": [
+        "Männipaberipuit"
+      ],
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "measurement_fingerprint_sha256": "C8A5CF3E8AAC8EDDA696A25ED66E5ABDAAE483EDEFD7D58D1BED95B870B63A33",
+      "awarded_volume_m3": 200,
+      "effective_weighted_price_eur_m3": 60,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    }
+  ],
+  "quarantined_outcomes": [],
+  "object_totals": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "offer_volume_m3": 400,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 400,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "offer_volume_m3": 4859,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 4859,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "offer_volume_m3": 2307,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 2307,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 4,
+      "product": "Kuusepaberipuit",
+      "offer_volume_m3": 2400,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 2400,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 5,
+      "product": "Männipaberipuit",
+      "offer_volume_m3": 200,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 200,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    }
+  ],
+  "quarantined_unpaired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2026/05/Edukad_hake_EP_28.05.2026.xlsx",
+    "body_opened": false,
+    "state": "QUARANTINE_UNPAIRED_RESULT_NO_FROZEN_OFFER"
+  }
+}

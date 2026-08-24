@@ -1,0 +1,1311 @@
+Informes técnicos / Vol. 10, n° 189 ISSN 2545-6636
+Industria manufacturera
+Vol. 10, n° 26
+Índice de producción industrial
+manufacturero
+Junio de 2026
+
+Informes técnicos. Vol. 10, nº 189
+ISSN 2545-6636
+Industria manufacturera. Vol. 10, nº 26
+ISSN 2545-6733
+Índice Pág.
+Índice de producción industrial
+Resumen ejecutivo de variaciones ..............................................................3
+manufacturero
+Índice de producción industrial manufacturero.
+Junio de 2026 Junio de 2026 ................................................................................................4
+Divisiones y subclases de la industria manufacturera .............................6
+Instituto Nacional de Estadística y Censos
+Cuadros y gráficos
+Dirección: Pedro Ignacio Lines
+Cuadro 1. IPI manufacturero nivel general. Serie original, desestacionalizada y
+Dirección Técnica: Carolina Andrea Plat tendencia-ciclo, base 2004=100, en números índice y variación porcentual.
+Dirección General de Difusión y Comunicación: Sandra Fernández Gallo Enero 2025-junio 2026 .....................................................................................4
+Dirección de Comunicación: Gonzalo Grandis Gráfico 1.1 IPI manufacturero nivel general. Serie original, desestacionalizada y
+tendencia-ciclo, base 2004=100, en números índice.
+Coordinación de Producción Gráfica y Editorial: Marcelo Costanzo
+Enero 2016-junio 2026 ..........................................................................................5
+Gráfico 1.2 IPI manufacturero nivel general y categorías, variación porcentual
+Este informe técnico fue producido por los equipos de trabajo de:
+interanual. Junio de 2026................................................................................5
+Dirección Nacional de Estadísticas Económicas Gráfico 1.3 IPI manufacturero nivel general y categorías, incidencias.
+Laura Nasatsky Junio de 2026 ..........................................................................................................5
+Dirección de Estadísticas Mineras, Manufactureras, Energéticas y Cuadro 2.1 IPI manufacturero. Alimentos y bebidas. Junio de 2026 ................6
+de la Construcción
+Gráficos 2.1 a-b-c IPI manufacturero. Alimentos y bebidas.
+Jordán Ricchione
+Junio de 2026 ..........................................................................................................7
+Desestacionalización: Dirección Nacional de Metodología e Infraestructura
+Cuadro 2.2 y gráficos 2.2 a-b-c IPI manufacturero. Productos de tabaco.
+Estadística
+Junio de 2026 .................................................................................................8
+Cuadro 2.3 y gráficos 2.3 a-b-c IPI manufacturero. Productos textiles.
+Junio de 2026 .................................................................................................9
+Esta publicación utiliza una licencia Creative Commons. Cuadro 2.4 y gráficos 2.4 a-b-c IPI manufacturero. Prendas de vestir, cuero
+Se permite su reproducción con atribución de la fuente. y calzado. Junio de 2026 ...............................................................................10
+Cuadro 2.5 y gráficos 2.5 a-b-c IPI manufacturero. Madera, papel, edición e
+Buenos Aires, agosto de 2026
+impresión. Junio de 2026..............................................................................11
+Signos convencionales: Cuadro 2.6 y gráficos 2.6 a-b-c IPI manufacturero. Refinación del petróleo,
+coque y combustible nuclear. Junio de 2026 ................................................12
+* Dato provisorio Cuadro 2.7 y gráficos 2.7 a-b-c IPI manufacturero. Sustancias y productos
+e Dato estimado por extrapolación, proyección químicos. Junio de 2026 ...............................................................................13
+i Dato estimado por imputación
+Cuadro 2.8 y gráficos 2.8 a-b-c IPI manufacturero. Productos de caucho
+u Dato de calidad inferior al estándar
+y plástico. Junio de 2026 ..............................................................................14
+- Cero absoluto
+. Dato no registrado Cuadro 2.9 y gráficos 2.9 a-b-c IPI manufacturero. Productos minerales
+no metálicos. Junio de 2026 .........................................................................15
+... Dato no disponible a la fecha de presentación de los resultados
+/// Dato que no corresponde presentar Cuadro 2.10 y gráficos 2.10 a-b-c IPI manufacturero. Industrias metálicas
+s Dato confidencial por aplicación de las reglas del secreto estadístico básicas. Junio de 2026 .................................................................................16
+Cuadro 2.11 y gráficos 2.11 a-b-c IPI manufacturero. Productos de metal.
+Junio de 2026 ...............................................................................................17
+Publicaciones del INDEC
+Cuadro 2.12 y gráficos 2.12 a-b-c IPI manufacturero. Maquinaria y equipo.
+Las publicaciones editadas por el Instituto Nacional de Estadística y Censos Junio de 2026 ...............................................................................................18
+pueden ser consultadas en www.indec.gob.ar y en el Centro Estadístico de
+Cuadro 2.13 y gráficos 2.13 a-b-c IPI manufacturero. Otros equipos,
+Servicios, ubicado en Av. Presidente Julio A. Roca 609 C1067ABB, Ciudad
+aparatos e instrumentos. Junio de 2026 ......................................................19
+Autónoma de Buenos Aires, Argentina. El horario de atención al público es
+de 9:30 a 16:00. Cuadro 2.14 y gráficos 2.14 a-b-c IPI manufacturero. Vehículos
+También pueden solicitarse al teléfono (54-11) 5031-4632 automotores, carrocerías, remolques y autopartes.
+Junio de 2026 ...............................................................................................20
+Correo electrónico: ces@indec.gob.ar
+Sitio web: www.indec.gob.ar X: @INDECArgentina Cuadro 2.15 y gráficos 2.15 a-b-c IPI manufacturero. Otro equipo de
+transporte. Junio de 2026 ............................................................................21
+Facebook: /INDECArgentina Instagram: @indecargentina
+Spotify: /INDECArgentina Cuadro 2.16 y gráficos 2.16 a-b-c IPI manufacturero. Muebles y colchones,
+Calendario anual anticipado de informes: y otras industrias manufactureras. Junio de 2026 .......................................22
+www.indec.gob.ar/indec/web/Calendario-Fecha-0 Cuadro 3. y gráficos 3. a-b IPI manufacturero nivel general y divisiones.
+Junio de 2026 ...............................................................................................23
+Análisis sectorial. Junio de 2026 ................................................................24
+INDECArgentina
+Enlace a más detalles ..................................................................................26
+Índice de cuadros web ................................................................................26
+Aspectos metodológicos del IPI manufacturero ........................................26
+
+Industria manufacturera Buenos Aires, 7 de agosto de 2026
+Índice de producción industrial manufacturero
+Resumen ejecutivo de variaciones. Junio de 2026
+NIVEL 0,9% 2,0% -2,2%
+GENERAL
+v.im v.ia v.ai
+Desestacionalizado. Variación interanual Variación acumulada interanual
+CATEGORÍAS Variación intermensual (respecto al mismo (acumulado del año respecto a
+(respecto al mes anterior) mes del año anterior) igual acumulado del año anterior)
+Alimentos,
+bebidas 1,5% 6,1% 0,1%
+y tabaco
+Textiles, prendas
+de vestir, cuero -2,0% -10,8% -17,1%
+y calzado
+Madera,
+papel, edición 0,6% 8,4% 3,7%
+e impresión
+Refinación del petróleo,
+químicos, productos 4,4% 7,1% 5,5%
+de caucho y plástico
+Minerales no
+metálicos y -1,9% 3,9% -3,3%
+metálicas básicas
+Productos de
+metal, maquinaria 0,8% -9,0% -12,0%
+y equipo
+Otros equipos,
+aparatos e -7,4% -25,3% -16,5%
+instrumentos
+Automotores y
+otros equipos -3,9% -2,4% -10,7%
+de transporte
+Muebles y
+otras industrias 1,8% 3,4% -3,8%
+manufactureras
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+
+Industria manufacturera Buenos Aires, 7 de agosto de 2026
+Índice de producción industrial manufacturero
+Junio de 2026
+En junio de 2026, el índice de producción industrial manufacturero (IPI manufacturero) muestra una suba de 2,0%
+respecto a igual mes de 2025. El acumulado enero-junio de 2026 presenta una disminución de 2,2% respecto a igual
+período de 2025.
+En junio de 2026, el índice de la serie desestacionalizada muestra una variación positiva de 0,9% respecto al mes
+anterior y el índice serie tendencia-ciclo registra una variación negativa cercana a cero.1
+Cuadro 1. IPI manufacturero nivel general. Serie original, desestacionalizada y tendencia-ciclo,
+base 2004=100, en números índice y variación porcentual. Enero 2025-junio 2026
+Índice serie original Índice serie desestacionalizada (1) Índice serie tendencia-ciclo
+Variación porcentual
+Variación
+Variación
+Período Nivel respecto al acumulada del Nivel porcentual Nivel porcentual
+general mismo mes año respecto a general respecto general respecto
+del año igual acumulado al mes anterior al mes
+anterior del año anterior anterior
+Números índice % Números índice % Números índice %
+2025* Enero 110,7 7,5 7,5 120,7 -2,3 122,0 0,1
+Febrero 110,0 6,0 6,7 124,0 2,7 121,8 -0,2
+Marzo 116,3 5,2 6,2 116,8 -5,8 121,4 -0,3
+Abril 121,5 9,2 7,0 119,9 2,6 120,8 -0,5
+Mayo 124,0 6,3 6,8 121,7 1,5 120,1 -0,6
+Junio 117,5 9,7 7,3 119,8 -1,5 119,3 -0,6
+Julio 124,2 -0,7 6,0 116,8 -2,6 118,5 -0,7
+Agosto 123,3 -4,2 4,6 118,3 1,4 117,7 -0,7
+Septiembre 124,9 -0,3 4,0 118,1 -0,2 117,1 -0,5
+Octubre 126,7 -2,8 3,2 117,1 -0,9 116,7 -0,3
+Noviembre 114,4 -8,8 2,1 116,0 -0,9 116,6 -0,1
+Diciembre 112,0 -4,0 1,6 116,2 0,1 116,7 0,1
+2026* Enero 106,5 -3,8 -3,8 118,9 2,4 117,2 0,4
+Febrero 100,3 -8,8 -6,3 115,2 -3,2 117,7 0,5
+Marzo 122,2 5,1 -2,4 119,9 4,1 118,3 0,5
+Abril 118,6 -2,4 -2,4 117,6 -1,9 118,7 0,3
+Mayo 117,0 -5,6 -3,1 118,0 0,3 118,9 0,2
+Junio 119,9 2,0 -2,2 119,1 0,9 118,9 -0,0
+(1) Cabe recordar que la serie desestacionalizada contiene el efecto de la componente irregular, cuyas fluctuaciones se han visto incrementadas desde el
+inicio de la pandemia.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+1 Para una interpretación integral de los resultados de la serie desestacionalizada y de la tendencia-ciclo, ver “Aspectos metodológicos del IPI
+manufacturero” en la página 26 de este informe.
+Índice de producción industrial manufacturero 4/28
+
+Gráfico 1.1 IPI manufacturero nivel general. Serie original, desestacionalizada y tendencia-ciclo,
+base 2004=100, en números índice. Enero 2016-junio 2026
+150
+140
+130
+120
+110
+100
+90
+80
+70
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 1.2 IPI manufacturero nivel Gráfico 1.3 IPI manufacturero nivel
+general y categorías, variación general y categorías,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 5/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Serie original Serie desestacionalizada Serie tendencia-ciclo
+IPI manufacturero IPI manufacturero
+Alimentos, bebidas y tabaco Alimentos, bebidas y tabaco
+Textiles, prendas de vestir, cuero y Textiles, prendas de vestir, cuero y
+calzado calzado
+Madera, papel, edición e impresión Madera, papel, edición e impresión
+Refinación del petróleo, químicos, Refinación del petróleo, químicos,
+productos de caucho y plástico productos de caucho y plástico
+Minerales no metálicos y metálicas Minerales no metálicos y metálicas
+básicas básicas
+Productos de metal, maquinaria y Productos de metal, maquinaria y
+equipo equipo
+Otros equipos, aparatos e instrumentos Otros equipos, aparatos e instrumentos
+Automotores y otros equipos de Automotores y otros equipos de
+transporte transporte
+Muebles y otras industrias Muebles y otras industrias
+manufactureras manufactureras
+-30,0 -25,0 -20,0 -15,0 -10,0 -5,0 0,0 5,0 10,0 -1,0 0,0 1,0 2,0 3,0
+% %
+
+Divisiones y subclases de la industria manufacturera
+En junio de 2026, nueve de las dieciséis divisiones de la industria manufacturera presentaron subas interanuales.
+En orden a su incidencia en el nivel general, se registraron subas en “Alimentos y bebidas”, 6,2%; “Sustancias
+y productos químicos”, 11,0%; “Industrias metálicas básicas”, 11,8%; “Madera, papel, edición e impresión”, 8,4%;
+“Refinación del petróleo, coque y combustible nuclear”, 3,4%; “Productos de metal”, 3,6%; “Muebles y colchones,
+y otras industrias manufactureras”, 3,4%; “Otro equipo de transporte”, 7,2%; y “Productos de tabaco”, 0,4%. Por
+otra parte, se observan caídas en “Maquinaria y equipo”, 16,8%; “Otros equipos, aparatos e instrumentos”, 25,3%;
+“Prendas de vestir, cuero y calzado”, 8,4%; “Productos minerales no metálicos”, 7,2%; “Productos textiles”, 15,9%;
+“Vehículos automotores, carrocerías, remolques y autopartes”, 3,5%; y “Productos de caucho y plástico”, 2,9%.
+Cuadro 2.1 IPI manufacturero. Alimentos y bebidas. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+15 Alimentos y bebidas 151,2 6,2 0,0 6,2
+15111 Carne vacuna 104,5 -0,6 -5,5 -0,0
+15112 Carne aviar 248,5 8,1 -4,9 0,3
+15113 Fiambres y embutidos 135,2 9,1 -3,9 0,2
+15130 Preparación de frutas, hortalizas y legumbres 249,8 9,7 1,7 0,7
+15140 Molienda de oleaginosas 212,4 4,8 2,1 0,7
+15200 Productos lácteos 145,4 4,1 3,4 0,4
+15311/12/13/20 Molienda de cereales 165,1 1,8 -0,3 0,1
+15411/12/41/42 Galletitas, productos de panadería y pastas 139,0 5,8 -1,2 1,0
+15420/30 Azúcar, productos de confitería y chocolate 142,8 -11,8 -5,9 -0,6
+15491/2/3 Yerba mate, té y café 144,2 0,6 -0,1 0,0
+Gaseosas, aguas, sodas, cervezas, jugos para diluir,
+15510/29/30/41/42/49 103,7 2,6 -1,8 0,2
+sidras y bebidas espirituosas
+15521 Vino 104,8 6,1 1,0 0,4
+15120/330/499 Otros productos alimenticios 196,4 24,3 3,8 2,9
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 6/28
+
+Gráfico 2.1.a Alimentos y bebidas con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.1.b Alimentos y bebidas, Gráfico 2.1.c Alimentos y bebidas,
+variación porcentual incidencias.
+interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 7/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Alimentos y bebidas (serie original)
+Alimentos y bebidas (serie desestacionalizada) Alimentos y bebidas (serie tendencia-ciclo)
+Alimentos y bebidas Alimentos y bebidas
+Carne vacuna Carne vacuna
+Carne aviar Carne aviar
+Fiambres y embutidos Fiambres y embutidos
+Preparación de frutas, hortalizas y legumbres Preparación de frutas, hortalizas y legumbres
+Molienda de oleaginosas Molienda de oleaginosas
+Productos lácteos Productos lácteos
+Molienda de cereales Molienda de cereales
+Galletitas, productos de panadería y pastas Galletitas, productos de panadería y pastas
+Azúcar, productos de confitería y chocolate Azúcar, productos de confitería y chocolate
+Yerba mate, té y café Yerba mate, té y café
+Gaseosas, aguas, sodas, cervezas, jugos Gaseosas, aguas, sodas, cervezas, jugos para
+para diluir, sidras y bebidas espirituosas diluir, sidras y bebidas espirituosas
+Vino Vino
+Otros productos alimenticios Otros productos alimenticios
+-15,0-10,0-5,0 0,0 5,0 10,0 15,0 20,0 25,0 -1,0 0,0 1,0 2,0 3,0 4,0 5,0 6,0 7,0
+% %
+
+Cuadro 2.2 IPI manufacturero. Productos de tabaco. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+16 Productos de tabaco 52,9 0,4 5,0 0,4
+16001 Preparación de hojas de tabaco 17,2 -23,3 7,9 -3,2
+16009 Cigarrillos 70,0 4,3 2,2 3,7
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.2.a Productos de tabaco con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+180
+160
+140
+120
+100
+80
+60
+40
+20
+0
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.2.b Productos de tabaco, variación Gráfico 2.2.c Productos de tabaco,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 8/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Productos de tabaco (serie original)
+Productos de tabaco (serie desestacionalizada) Productos de tabaco (serie tendencia-ciclo)
+Productos de tabaco Productos de tabaco
+Preparación de hojas de Preparación de hojas de
+tabaco tabaco
+Cigarrillos Cigarrillos
+-30,0 -20,0 -10,0 0,0 10,0 -4,0 -2,0 0,0 2,0 4,0
+% %
+
+Cuadro 2.3 IPI manufacturero. Productos textiles. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+17 Productos textiles 69,6 -15,9 -24,4 -15,9
+17111/2 Preparación de fibras de uso textil 163,8 -13,5 -14,1 -2,5
+17113 Hilados de algodón 91,5 -8,9 -21,4 -2,2
+17114/15/20 Tejidos y acabado de productos textiles 52,8 -25,0 -36,3 -7,0
+17210/20/30/90 Otros productos textiles 53,0 -14,7 -18,3 -4,3
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.3.a Productos textiles con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+160
+140
+120
+100
+80
+60
+40
+20
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.3.b Productos textiles, variación Gráfico 2.3.c Productos textiles,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 9/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Productos textiles (serie original)
+Productos textiles (serie desestacionalizada) Productos textiles (serie tendencia-ciclo)
+Productos textiles Productos textiles
+Preparación de fibras de uso textil Preparación de fibras de uso textil
+Hilados de algodón
+Hilados de algodón
+Tejidos y acabado de productos
+Tejidos y acabado de productos
+textiles
+textiles
+Otros productos textiles
+Otros productos textiles
+-30,0 -20,0 -10,0 0,0
+-20,0 -15,0 -10,0 -5,0 0,0
+%
+%
+
+Cuadro 2.4 IPI manufacturero. Prendas de vestir, cuero y calzado. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+18-19 Prendas de vestir, cuero y calzado 76,3 -8,4 -14,1 -8,4
+18110/120/401/402/900 Prendas de vestir 81,8 -6,8 -11,1 -4,8
+19110/20 Curtido y artículos de cuero, excepto prendas 29,7 3,8 -11,0 0,2
+19201/2/3/4 Calzado y sus partes 103,3 -16,4 -23,7 -3,9
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.4.a Prendas de vestir, cuero y calzado con respecto al nivel general de la serie original del
+IPI manufacturero. Enero 2016-junio 2026
+160
+140
+120
+100
+80
+60
+40
+20
+0
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.4.b Prendas de vestir, cuero Gráfico 2.4.c Prendas de vestir, cuero y
+y calzado, variación calzado, incidencias.
+porcentual interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 10/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Prendas de vestir, cuero y calzado (serie original)
+Prendas de vestir, cuero y calzado (serie desestacionalizada) Prendas de vestir, cuero y calzado (serie tendencia-ciclo)
+Prendas de vestir, cuero y calzado Prendas de vestir, cuero y calzado
+Prendas de vestir Prendas de vestir
+Curtido y artículos de cuero, Curtido y artículos de cuero,
+excepto prendas excepto prendas
+Calzado y sus partes Calzado y sus partes
+-20,0 -10,0 0,0 10,0 -9,0 -6,0 -3,0 0,0 3,0
+% %
+
+Cuadro 2.5 IPI manufacturero. Madera, papel, edición e impresión. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+20-22 Madera, papel, edición e impresión 102,9 8,4 3,7 8,4
+Madera y productos de madera y corcho, excepto
+20100/210/220/230/290 87,9 17,3 9,2 3,5
+muebles
+21010/20/91/99 Papel y productos de papel 106,2 5,6 1,2 2,2
+22110/120/190/210/220 Edición e impresión 109,8 6,6 3,6 2,7
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.5.a Madera, papel, edición e impresión con respecto al nivel general de la serie original
+del IPI manufacturero. Enero 2016-junio 2026
+150
+140
+130
+120
+110
+100
+90
+80
+70
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.5.b Madera, papel, edición Gráfico 2.5.c Madera, papel, edición e
+e impresión, variación impresión, incidencias.
+porcentual interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 11/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Madera, papel, edición e impresión (serie original)
+Madera, papel, edición e impresión (serie desestacionalizada) Madera, papel, edición e impresión (serie tendencia-ciclo)
+Madera, papel, edición e Madera, papel, edición e
+impresión impresión
+Madera y productos de madera Madera y productos de madera
+y corcho, excepto muebles y corcho, excepto muebles
+Papel y productos de papel Papel y productos de papel
+Edición e impresión Edición e impresión
+0,0 5,0 10,0 15,0 20,0 0,0 2,0 4,0 6,0 8,0 10,0
+% %
+
+Cuadro 2.6 IPI manufacturero. Refinación del petróleo, coque y combustible nuclear.
+Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+23 Refinación del petróleo, coque y combustible nuclear 125,6 3,4 10,1 3,4
+23200 Naftas 162,0 -0,1 4,7 -0,0
+23200 Gasoil 124,5 9,6 13,9 3,5
+23200 Fueloil 81,6 -16,0 -5,3 -0,6
+23200 Asfaltos 35,5 -16,3 11,8 -0,1
+Otros productos de la refinación del petróleo, coque y combus-
+23100/200/300 114,6 2,0 12,7 0,6
+tible nuclear
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+- Naftas: incluye nafta grado 1 (común), grado 2 (súper) y grado 3 (ultra).
+- Gasoil: incluye gasoil grado 1 (agrogasoil), grado 2 (común) y grado 3 (ultra).
+- Fueloil: incluye fueloil y mezclas IFO.
+- Asfaltos: incluye los asfaltos obtenidos para todos los usos.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.6.a Refinación del petróleo, coque y combustible nuclear con respecto al nivel general de
+la serie original del IPI manufacturero. Enero 2016-junio 2026
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.6.b Refinación del petróleo, coque y Gráfico 2.6.c Refinación del petróleo,
+combustible nuclear, variación coque y combustible nuclear,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 12/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original)
+Refinación del petróleo, coque y combustible nuclear (serie original)
+Refinación del petróleo, coque y combustible nuclear (serie desestacionalizada)
+Refinación del petróleo, coque y combustible nuclear (serie tendencia-ciclo)
+Refinación del petróleo, coque y Refinación del petróleo, coque y
+combustible nuclear combustible nuclear
+Naftas Naftas
+Gasoil Gasoil
+Fueloil Fueloil
+Asfaltos Asfaltos
+Otros productos de la refinación Otros productos de la refinación
+del petróleo, coque y del petróleo, coque y
+combustible nuclear combustible nuclear
+-20,0 -10,0 0,0 10,0 -1,0 0,0 1,0 2,0 3,0 4,0
+% %
+
+Cuadro 2.7 IPI manufacturero. Sustancias y productos químicos. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+24 Sustancias y productos químicos 149,3 11,0 7,9 11,0
+24111 Gases industriales 148,9 4,8 -0,2 0,1
+2411, excepto 24111 Productos químicos básicos 80,5 -0,2 12,0 -0,0
+24120/210 Agroquímicos 121,2 10,7 4,8 1,2
+24130 Materias primas plásticas y caucho sintético 102,7 -8,1 9,5 -0,9
+24220 Pinturas 74,5 3,4 3,8 0,1
+24231/2/3/9 Productos farmacéuticos 233,4 15,6 8,6 6,7
+24241/9 Detergentes, jabones y productos personales 159,1 21,8 7,8 3,2
+24290/300 Otros productos químicos 122,0 7,7 6,6 0,6
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.7.a Sustancias y productos químicos con respecto al nivel general de la serie original del
+IPI manufacturero. Enero 2016-junio 2026
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.7.b Sustancias y productos Gráfico 2.7.c Sustancias y productos
+químicos, variación porcentual químicos, incidencias.
+interanual. Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 13/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Sustancias y productos químicos (serie original)
+Sustancias y productos químicos (serie desestacionalizada) Sustancias y productos químicos (serie tendencia-ciclo)
+Sustancias y productos Sustancias y productos
+químicos químicos
+Gases industriales Gases industriales
+Productos químicos básicos Productos químicos básicos
+Agroquímicos Agroquímicos
+Materias primas plásticas y Materias primas plásticas y
+caucho sintético caucho sintético
+Pinturas Pinturas
+Productos farmacéuticos Productos farmacéuticos
+Detergentes, jabones y Detergentes, jabones y
+productos personales productos personales
+Otros productos químicos Otros productos químicos
+-10,0 0,0 10,0 20,0 30,0 -3,0 0,0 3,0 6,0 9,0 12,0
+% %
+
+Cuadro 2.8 IPI manufacturero. Productos de caucho y plástico. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+25 Productos de caucho y plástico 94,0 -2,9 -7,1 -2,9
+25110 Neumáticos (1) s s s s
+25190 Otros productos de caucho (1) s s s s
+25201/9 Manufacturas de plástico 108,5 1,0 -2,7 0,9
+(1) Por resguardo del secreto estadístico, no se presentan los datos de Neumáticos y Otros productos de caucho.
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.8.a Productos de caucho y plástico con respecto al nivel general de la serie original del
+IPI manufacturero. Enero 2016-junio 2026
+160
+140
+120
+100
+80
+60
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.8.b Productos de caucho y Gráfico 2.8.c Productos de caucho y
+plástico, variación porcentual plástico, incidencias.
+interanual. Junio de 2026* Junio de 2026*
+Productos de caucho y Productos de caucho y
+plástico plástico
+Neumáticos ((11) ) Neumáticos ((11) )
+Otros productos de caucho (1(1) ) Otros productos de caucho ((11) )
+Manufacturas de plástico Manufacturas de plástico
+-4,0 -2,0 0,0 2,0 -3,0 -2,0 -1,0 0,0 1,0
+% %
+(1) Por resguardo del secreto estadístico, no se presentan los datos de Neumáticos y Otros productos de caucho.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 14/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Productos de caucho y plástico (serie original)
+Productos de caucho y plástico (serie desestacionalizada) Productos de caucho y plástico (serie tendencia-ciclo)
+
+Cuadro 2.9 IPI manufacturero. Productos minerales no metálicos. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+26 Productos minerales no metálicos 135,9 -7,2 -2,4 -7,2
+26101/2/9 Vidrio y productos de vidrio 138,4 -8,8 -5,9 -1,7
+26910/30 Productos de arcilla y cerámica no refractaria 73,6 -23,8 -4,8 -3,7
+26941 Cemento 152,3 -5,4 -3,0 -1,7
+26942 Cal y yeso 127,4 -1,4 -0,9 -0,0
+26951/9 Artículos de cemento y de yeso 199,5 3,0 2,3 0,6
+26920/60/90 Otros productos minerales no metálicos 127,5 -7,4 -1,3 -0,8
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.9.a Productos minerales no metálicos con respecto al nivel general de la serie original del
+IPI manufacturero. Enero 2016-junio 2026
+220
+200
+180
+160
+140
+120
+100
+80
+60
+40
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.9.b Productos minerales Gráfico 2.9.c Productos minerales no
+no metálicos, variación metálicos, incidencias.
+porcentual interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 15/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Productos minerales no metálicos (serie original)
+Productos minerales no metálicos (serie desestacionalizada) Productos minerales no metálicos (serie tendencia-ciclo)
+Productos minerales no metálicos Productos minerales no metálicos
+Vidrio y productos de vidrio Vidrio y productos de vidrio
+Productos de arcilla y cerámica no Productos de arcilla y cerámica no
+refractaria refractaria
+Cemento Cemento
+Cal y yeso Cal y yeso
+Artículos de cemento y de yeso Artículos de cemento y de yeso
+Otros productos minerales no Otros productos minerales no
+metálicos metálicos
+-30,0 -20,0 -10,0 0,0 10,0 -8,0 -6,0 -4,0 -2,0 0,0 2,0
+% %
+
+Cuadro 2.10 IPI manufacturero. Industrias metálicas básicas. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+27 Industrias metálicas básicas 92,3 11,8 -3,9 11,8
+27100 Industria siderúrgica 78,5 16,2 -5,6 9,4
+27201/9 Aluminio y otros metales no ferrosos 158,7 15,5 7,7 3,7
+27310/20 Fundición de metales 94,3 -7,2 -14,1 -1,3
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.10.a Industrias metálicas básicas con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+160
+140
+120
+100
+80
+60
+40
+20
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.10.b Industrias metálicas básicas, Gráfico 2.10.c Industrias metálicas
+variación porcentual básicas, incidencias.
+interanual. Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 16/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Industrias metálicas básicas (serie original)
+Industrias metálicas básicas (serie desestacionalizada) Industrias metálicas básicas (serie tendencia-ciclo)
+Industrias metálicas básicas Industrias metálicas básicas
+Industria siderúrgica Industria siderúrgica
+Aluminio y otros metales no Aluminio y otros metales no
+ferrosos ferrosos
+Fundición de metales Fundición de metales
+-10,0 0,0 10,0 20,0 -3,0 0,0 3,0 6,0 9,0 12,0
+% %
+
+Cuadro 2.11 IPI manufacturero. Productos de metal. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+28 Productos de metal 86,5 3,6 -0,6 3,6
+28110 Productos metálicos para uso estructural 95,8 5,2 2,6 1,4
+28991 Envases metálicos 145,5 24,5 12,6 1,7
+Otros productos de metal y servicios de trabajo
+28120/130/910/920/930/999 79,3 0,8 -3,5 0,5
+de metales
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.11.a Productos de metal con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+160
+140
+120
+100
+80
+60
+40
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.11.b Productos de metal, variación Gráfico 2.11.c Productos de metal,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 17/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Productos de metal (serie original)
+Productos de metal (serie desestacionalizada) Productos de metal (serie tendencia-ciclo)
+Productos de metal Productos de metal
+Productos metálicos para uso Productos metálicos para uso
+estructural estructural
+Envases metálicos Envases metálicos
+Otros productos de metal y servicios Otros productos de metal y
+de trabajo de metales servicios de trabajo de metales
+0,0 10,0 20,0 30,0 0,0 1,0 2,0 3,0 4,0
+% %
+
+Cuadro 2.12 IPI manufacturero. Maquinaria y equipo. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+29 Maquinaria y equipo 124,8 -16,8 -19,3 -16,8
+29110/20/30/40/50/90 Maquinaria de uso general 95,7 -2,1 -5,0 -0,6
+29211/2/3 Maquinaria agropecuaria 195,0 -27,9 -27,5 -13,0
+292, excepto 2921 Otra maquinaria de uso especial 81,3 4,5 -2,9 0,5
+29300 Aparatos de uso doméstico 144,4 -22,9 -29,0 -3,7
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.12.a Maquinaria y equipo con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+220
+200
+180
+160
+140
+120
+100
+80
+60
+40
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.12.b Maquinaria y equipo, Gráfico 2.12.c Maquinaria y equipo,
+variación porcentual incidencias.
+interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 18/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Maquinaria y equipo (serie original)
+Maquinaria y equipo (serie desestacionalizada) Maquinaria y equipo (serie tendencia-ciclo)
+Maquinaria y equipo
+Maquinaria y equipo
+Maquinaria de uso general Maquinaria de uso general
+Maquinaria agropecuaria Maquinaria agropecuaria
+Otra maquinaria de uso Otra maquinaria de uso
+especial especial
+Aparatos de uso doméstico Aparatos de uso doméstico
+-30,0 -20,0 -10,0 0,0 10,0 -20,0 -10,0 0,0 10,0
+% %
+
+Cuadro 2.13 IPI manufacturero. Otros equipos, aparatos e instrumentos. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+30-33 Otros equipos, aparatos e instrumentos 96,4 -25,3 -16,5 -25,3
+Equipos y aparatos de informática, televisión y
+30000/32100/200/300 126,8 -50,3 -37,6 -21,0
+comunicaciones, y componentes electrónicos
+31100/200/300/400/500/900 Equipos y aparatos eléctricos 81,4 -12,1 -3,4 -4,8
+33110/120/200/300/400 Instrumentos médicos, ópticos y de precisión 103,9 2,3 -1,0 0,4
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.13.a Otros equipos, aparatos e instrumentos con respecto al nivel general de la serie
+original del IPI manufacturero. Enero 2016-junio 2026
+230
+210
+190
+170
+150
+130
+110
+90
+70
+50
+30
+10
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.13.b Otros equipos, aparatos Gráfico 2.13.c Otros equipos, aparatos e
+e instrumentos, variación instrumentos, incidencias.
+porcentual interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 19/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Otros equipos, aparatos e instrumentos (serie original)
+Otros equipos, aparatos e instrumentos (serie desestacionalizada) Otros equipos, aparatos e instrumentos (serie tendencia-ciclo)
+Otros equipos, aparatos e Otros equipos, aparatos e
+instrumentos instrumentos
+Equipos y aparatos de Equipos y aparatos de
+informática, televisión y informática, televisión y
+comunicaciones, y componentes comunicaciones, y componentes
+electrónicos electrónicos
+Equipos y aparatos eléctricos Equipos y aparatos eléctricos
+Instrumentos médicos, ópticos y Instrumentos médicos, ópticos y
+de precisión de precisión
+-60,0 -40,0 -20,0 0,0 20,0 -30,0 -20,0 -10,0 0,0 10,0
+% %
+
+Cuadro 2.14 IPI manufacturero. Vehículos automotores, carrocerías, remolques y autopartes.
+Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+Vehículos automotores, carrocerías, remolques y
+34 139,7 -3,5 -11,5 -3,5
+autopartes
+34100 Vehículos automotores 248,6 -10,3 -17,2 -5,6
+34200 Carrocerías, remolques y semirremolques 169,5 2,8 3,9 0,3
+34300 Autopartes 87,3 4,8 -6,7 1,8
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.14.a Vehículos automotores, carrocerías, remolques y autopartes con respecto al nivel
+general de la serie original del IPI manufacturero. Enero 2016-junio 2026
+200
+180
+160
+140
+120
+100
+80
+60
+40
+20
+0
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.14.b Vehículos automotores, Gráfico 2.14.c Vehículos automotores,
+carrocerías, remolques carrocerías, remolques y
+y autopartes, variación autopartes, incidencias.
+porcentual interanual. Junio de 2026*
+Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 20/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original)
+Vehículos automotores, carrocerías, remolques y autopartes (serie original)
+Vehículos automotores, carrocerías, remolques y autopartes (serie desestacionalizada)
+Vehículos automotores, carrocerías, remolques y autopartes (serie tendencia-ciclo)
+Vehículos automotores,
+Vehículos automotores,
+carrocerías, remolques y
+carrocerías, remolques y
+autopartes
+autopartes
+Vehículos automotores
+Vehículos automotores
+Carrocerías, remolques y Carrocerías, remolques y
+semirremolques semirremolques
+Autopartes Autopartes
+-12,0 -9,0 -6,0 -3,0 0,0 3,0 6,0 -10,0 -5,0 0,0 5,0
+% %
+
+Cuadro 2.15 IPI manufacturero. Otro equipo de transporte. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+35 Otro equipo de transporte 133,1 7,2 -5,5 7,2
+35910 Motocicletas 784,5 10,4 -5,4 5,6
+35110/120/200/300/
+Otro equipo de transporte 65,3 3,4 -5,6 1,5
+990
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.15.a Otro equipo de transporte con respecto al nivel general de la serie original del IPI
+manufacturero. Enero 2016-junio 2026
+240
+200
+160
+120
+80
+40
+0
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.15.b Otro equipo de transporte, Gráfico 2.15.c Otro equipo de transporte,
+variación porcentual incidencias.
+interanual. Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 21/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original) Otro equipo de transporte (serie original)
+Otro equipo de transporte (serie desestacionalizada) Otro equipo de transporte (serie tendencia-ciclo)
+Otro equipo de transporte Otro equipo de transporte
+Motocicletas Motocicletas
+Otro equipo de transporte Otro equipo de transporte
+0,0 5,0 10,0 15,0 0,0 2,0 4,0 6,0 8,0
+% %
+
+Cuadro 2.16 IPI manufacturero. Muebles y colchones, y otras industrias manufactureras.
+Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+36-38 Muebles y colchones, y otras industrias manufactureras 99,8 3,4 -3,8 3,4
+36101/2/3 Muebles y colchones 116,7 9,5 -1,4 5,1
+36900 Otras industrias manufactureras 53,7 -12,7 -11,6 -2,3
+37000/38000 Reciclamiento y reparación, instalación y mantenimiento 119,9 2,0 -2,2 0,6
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.16.a Muebles y colchones, y otras industrias manufactureras con respecto al nivel
+general de la serie original del IPI manufacturero. Enero 2016-junio 2026
+170
+150
+130
+110
+90
+70
+50
+30
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 2.16.b Muebles y colchones, y otras Gráfico 2.16.c Muebles y colchones, y otras
+industrias manufactureras, industrias manufactureras,
+variación porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 22/28
+61-ene 61-rba 61-luj 61-tco 71-ene 71-rba 71-luj 71-tco 81-ene 81-rba 81-luj 81-tco 91-ene 91-rba 91-luj 91-tco 02-ene 02-rba 02-luj 02-tco 12-ene 12-rba 12-luj 12-tco 22-ene 22-rba 22-luj 22-tco 32-ene 32-rba 32-luj 32-tco 42-ene 42-rba 42-luj 42-tco 52-ene 52-rba 52-luj 52-tco 62-ene 62-rba 62-nuj
+Índice
+Nivel general (serie original)
+Muebles y colchones, y otras industrias manufactureras (serie original)
+Muebles y colchones, y otras industrias manufactureras (serie desestacionalizada)
+Muebles y colchones, y otras industrias manufactureras (serie tendencia-ciclo)
+Muebles y colchones, y otras Muebles y colchones, y otras
+industrias manufactureras industrias manufactureras
+Muebles y colchones Muebles y colchones
+Otras industrias
+manufactureras Otras industrias manufactureras
+Reciclamiento y reparación, Reciclamiento y reparación,
+instalación y mantenimiento instalación y mantenimiento
+-15,0 -10,0 -5,0 0,0 5,0 10,0 -4,0 -2,0 0,0 2,0 4,0 6,0
+% %
+
+Cuadro 3. IPI manufacturero nivel general y divisiones. Junio de 2026*
+Variación porcentual
+Índice
+respecto al acumulada del
+Código Descripción base Incidencia
+mismo mes año respecto a
+2004=100
+del año igual acumulado
+anterior del año anterior
+Números índice %
+NG Nivel general 119,9 2,0 -2,2 2,0
+15 Alimentos y bebidas 151,2 6,2 0,0 1,8
+16 Productos de tabaco 52,9 0,4 5,0 0,0
+17 Productos textiles 69,6 -15,9 -24,4 -0,3
+18-19 Prendas de vestir, cuero y calzado 76,3 -8,4 -14,1 -0,4
+20-22 Madera, papel, edición e impresión 102,9 8,4 3,7 0,6
+23 Refinación del petróleo, coque y combustible nuclear 125,6 3,4 10,1 0,1
+24 Sustancias y productos químicos 149,3 11,0 7,9 1,6
+25 Productos de caucho y plástico 94,0 -2,9 -7,1 -0,1
+26 Productos minerales no metálicos 135,9 -7,2 -2,4 -0,3
+27 Industrias metálicas básicas 92,3 11,8 -3,9 0,8
+28 Productos de metal 86,5 3,6 -0,6 0,1
+29 Maquinaria y equipo 124,8 -16,8 -19,3 -1,0
+30-33 Otros equipos, aparatos e instrumentos 96,4 -25,3 -16,5 -0,9
+34 Vehículos automotores, carrocerías, remolques y autopartes 139,7 -3,5 -11,5 -0,2
+35 Otro equipo de transporte 133,1 7,2 -5,5 0,0
+36-38 Muebles y colchones, y otras industrias manufactureras 99,8 3,4 -3,8 0,1
+Nota: los totales por suma pueden no coincidir por redondeo en las cifras parciales.
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Gráfico 3.a IPI manufacturero nivel Gráfico 3.b IPI manufacturero nivel
+general y divisiones, variación general y divisiones,
+porcentual interanual. incidencias.
+Junio de 2026* Junio de 2026*
+Nivel general Nivel general
+Alimentos y bebidas Alimentos y bebidas
+Productos de tabaco Productos de tabaco
+Productos textiles Productos textiles
+Prendas de vestir, cuero y calzado Prendas de vestir, cuero y calzado
+Madera, papel, edición e impresión Madera, papel, edición e impresión
+Refinación del petróleo, coque y combustible Refinación del petróleo, coque y combustible
+nuclear nuclear
+Sustancias y productos químicos Sustancias y productos químicos
+Productos de caucho y plástico Productos de caucho y plástico
+Productos minerales no metálicos Productos minerales no metálicos
+Industrias metálicas básicas Industrias metálicas básicas
+Productos de metal Productos de metal
+Maquinaria y equipo Maquinaria y equipo
+Otros equipos, aparatos e instrumentos Otros equipos, aparatos e instrumentos
+Vehículos automotores, carrocerías, remolques y Vehículos automotores, carrocerías, remolques
+autopartes y autopartes
+Otro equipo de transporte Otro equipo de transporte
+Muebles y colchones, y otras industrias Muebles y colchones, y otras industrias
+manufactureras manufactureras
+-30,0 -20,0 -10,0 0,0 10,0 20,0 -1,5 -1,0 -0,5 0,0 0,5 1,0 1,5 2,0 2,5
+% %
+Fuente: INDEC, Dirección Nacional de Estadísticas Económicas. Dirección de Estadísticas Mineras, Manufactureras, Energéticas y de la Construcción.
+Índice de producción industrial manufacturero 23/28
+
+Análisis sectorial. Junio de 2026
+En junio de 2026, el IPI manufacturero registra una suba de 2,0% con respecto al mismo mes del año anterior.
+Las incidencias de las divisiones que componen el nivel general del índice presentan subas de 1,8% en “Alimentos
+y bebidas”; 1,6% en “Sustancias y productos químicos”; 0,8% en “Industrias metálicas básicas”; 0,6% en “Madera,
+papel, edición e impresión”; 0,1% en “Refinación del petróleo, coque y combustible nuclear”; 0,1% en “Productos
+de metal”; 0,1% en “Muebles y colchones, y otras industrias manufactureras”; y “Otro equipo de transporte” y “Pro-
+ductos de tabaco”, que presentan incidencias positivas cercanas a cero. Por otra parte, se observan incidencias
+negativas de 1,0% en “Maquinaria y equipo”; 0,9% en “Otros equipos, aparatos e instrumentos”; 0,4% en “Prendas
+de vestir, cuero y calzado”; 0,3% en “Productos minerales no metálicos”; 0,3% en “Productos textiles”; 0,2% en “Ve-
+hículos automotores, carrocerías, remolques y autopartes”; y 0,1% en “Productos de caucho y plástico”.
+La división correspondiente a alimentos y bebidas muestra, en junio, una suba interanual de 6,2%. La principal
+incidencia positiva se observa en la elaboración de otros productos alimenticios, que registra en junio una suba
+interanual de 24,3%. En el mes de referencia se registra un aumento en el volumen de ventas, en comparación
+con el mismo mes del año anterior, de condimentos, aderezos y salsas, de productos de copetín, y de productos
+concentrados para bebidas. Por otro lado, se observa una mayor elaboración de pescado y productos de pescado,
+debido principalmente a un aumento en la captura de langostinos.
+La elaboración de galletitas, productos de panadería y pastas presenta, en junio, una variación interanual positi-
+va de 5,8%. Según fuentes consultadas, en el mes de referencia se observa un mayor consumo interno de harina
+de trigo para la elaboración de productos de panadería, pastas y galletitas. Asimismo, según datos de la Secretaría
+de Agricultura, Ganadería y Pesca (SAGyP), la producción de harina de trigo presenta una suba de 4,1% en com-
+paración con el mismo mes del año anterior.
+La molienda de oleaginosas muestra en junio un aumento interanual de 4,8%. Según datos de la SAGyP, la elabo-
+ración de aceites y subproductos de soja y de girasol presentan incrementos interanuales de 3,1% y 15,6%, respec-
+tivamente. En lo que respecta a las exportaciones, los aceites y subproductos de soja reflejan alzas interanuales
+superiores al 8%, mientras que los aceites y subproductos de girasol muestran un aumento interanual de 46,5%
+La preparación de frutas, hortalizas y legumbres presenta en junio una suba interanual de 9,7%. En el mes de
+referencia se observa un aumento en la comercialización, destinada tanto al mercado interno como externo, prin-
+cipalmente de mermeladas y otras conservas de frutas y hortalizas.
+La elaboración de vino presenta en junio una suba interanual de 6,1%. Según datos de comercialización del Ins-
+tituto Nacional de Vitivinicultura (INV), disponibles al cierre de este informe, los despachos de vino al mercado
+interno –principal destino de la comercialización–, medidos en hectolitros, registran un aumento interanual de
+5,8%, debido, principalmente, a un mayor volumen de comercialización de vinos de color sin mención varietal. En
+cuanto a los envíos para exportaciones, registran una suba interanual de 11,6% debido, fundamentalmente, a un
+mayor volumen exportado de vinos fraccionados de color con mención varietal.
+Por otra parte, la principal incidencia negativa se observa en la producción de azúcar, productos de confitería y
+chocolate, que muestra una disminución interanual de 11,8%. Según fuentes consultadas, esto responde al atraso
+en el inicio de la zafra de la caña de azúcar, debido a condiciones climáticas desfavorables.
+La producción de sustancias y productos químicos registra un incremento interanual de 11,0% en junio. La prin-
+cipal incidencia positiva se observa en la elaboración de productos farmacéuticos, que registra una suba inte-
+ranual de 15,6% en el mes bajo observación, debido a una mayor comercialización al mercado interno y externo
+de especialidades medicinales para la salud humana.
+A su vez, la producción de detergentes, jabones y productos personales presenta un incremento de 21,8% respec-
+to al mismo mes del año anterior, relacionado principalmente con la mayor fabricación de productos de higiene
+y de tocador –productos para el pelo y desodorantes–, como así también de productos de limpieza, tales como
+detergentes y lavandinas.
+Índice de producción industrial manufacturero 24/28
+
+Las industrias metálicas básicas presentan un aumento interanual de 11,8% en el mes de junio. La principal inci-
+dencia positiva se observa en la industria siderúrgica, que presenta en junio un incremento de 16,2% respecto al
+mismo mes del año anterior. Según el comunicado de prensa de la Cámara Argentina del Acero, las elaboraciones
+de productos laminados en caliente y de laminados en frío muestran incrementos interanuales de 22,6% y 9,2%,
+respectivamente. De acuerdo con esta fuente, se observa una mayor demanda por parte del sector energético,
+ya que “el volumen de fracturas en Vaca Muerta mantiene niveles elevados y la saturación del parque de equipos
+de perforación y las ampliaciones de ductos traccionan fuertemente el consumo de tubos sin costura y aceros
+especiales”. Por su parte, según el indicador sintético de la actividad de la construcción (ISAC), el consumo interno
+de hierro redondo y aceros para la construcción muestra un incremento de 4,6% respecto de junio del año previo.
+La categoría correspondiente a madera, papel, edición e impresión registra, en junio, un incremento de 8,4%
+respecto al mismo mes del año anterior. La principal incidencia se observa en la fabricación de madera y produc-
+tos de madera y corcho, excepto muebles, que muestra un aumento de 17,3% en términos interanuales. La mayor
+actividad del sector se vincula principalmente con un incremento en las ventas al mercado externo de algunos
+segmentos, tales como madera aserrada y tableros.
+Por su parte, la actividad de edición e impresión muestra una suba de 6,6% en la misma comparación, debido,
+principalmente, a una mayor cantidad de pedidos destinados a la industria alimenticia y de bebidas. A su vez,
+la fabricación de papel y productos de papel registra un incremento de 5,6% en el mes bajo análisis, vinculado
+principalmente a un aumento en la producción de papeles sanitarios.
+La fabricación de maquinaria y equipo registra, en junio, una disminución interanual de 16,8%. La principal in-
+cidencia negativa se observa en la fabricación de maquinaria agropecuaria, que registra una disminución inte-
+ranual de 27,9%. En el mes bajo análisis, la menor actividad del sector se vincula, principalmente, con una baja en
+la producción de tractores, cosechadoras, pulverizadoras autopropulsadas y sembradoras.
+Asimismo, la producción de aparatos de uso doméstico presenta una baja interanual de 22,9%, debido, principal-
+mente, a una menor producción de heladeras y freezers y de lavarropas. Según referentes del sector, la caída del
+nivel de actividad se vincula con una menor demanda local y con el ingreso de productos importados.
+La fabricación de otros equipos, aparatos e instrumentos presenta, en junio, una caída interanual de 25,3%. La
+fabricación de equipos y aparatos de informática, televisión y comunicaciones, y componentes electrónicos, que
+evidencia la principal incidencia negativa, registra una disminución interanual de 50,3% debido, principalmente,
+a una menor producción de celulares y televisores.
+La producción de equipos y aparatos eléctricos muestra una disminución interanual de 12,1% debido principal-
+mente a una menor fabricación de motores, generadores y transformadores eléctricos.
+La división de vehículos automotores, carrocerías, remolques y autopartes muestra, en junio, una caída in-
+teranualde 3,5%. La fabricación de vehículos automotores registra una baja interanual de 10,3%. En el mes bajo
+análisis, se observa una menor cantidad de unidades producidas de automóviles.
+En lo que respecta a la comercialización de unidades destinadas al mercado interno, según datos de la Asocia-
+ción de Fábricas de Automotores (ADEFA), se observa una disminución interanual en las ventas a concesionarios
+de automóviles y utilitarios nacionales de 34,2%. Asimismo, se registra una menor participación en las ventas a
+concesionarios de automóviles y utilitarios nacionales respecto al total de ventas de unidades a concesionarios,
+que representan el 30,4% en el acumulado de los primeros seis meses del año. En cuanto a las exportaciones, se
+observa una baja interanual en la cantidad de unidades exportadas de automóviles y de utilitarios de 5,1% y 0,2%,
+respectivamente.
+Índice de producción industrial manufacturero 25/28
+
+Enlace a más detalles
+Pueden consultarse más detalles de las series que componen el IPI manufacturero, desde enero de 2016 hasta el
+período de referencia del presente informe, en los cuadros que se encuentran en formato digital, disponibles en:
+https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls
+Índice de cuadros web
+Cuadro 1. IPI manufacturero nivel general. Serie original, desestacionalizada y tendencia-ciclo, base 2004=100,
+en números índice y variación porcentual. Años 2016-2026
+Cuadro 2. IPI manufacturero nivel general, divisiones y subclases. Serie original, base 2004=100, en números
+índice. Años 2016-2026
+Cuadro 3. IPI manufacturero nivel general, divisiones y subclases. Serie original, base 2004=100, en variación
+porcentual interanual. Años 2016-2026
+Cuadro 4. IPI manufacturero nivel general, divisiones y subclases. Serie original, base 2004=100, en variación
+porcentual interanual acumulada. Años 2016-2026
+Cuadro 5. IPI manufacturero nivel general y divisiones. Serie desestacionalizada, base 2004=100, en números
+índice y variación porcentual intermensual. Años 2016-2026
+Cuadro 6. IPI manufacturero nivel general y divisiones. Serie tendencia-ciclo, base 2004=100, en números índice
+y variación porcentual intermensual. Años 2016-2026
+Cuadro 7. IPI manufacturero nivel general. Serie desestacionalizada y tendencia-ciclo (método directo), base
+2004=100, en números índice y variación porcentual. Años 2016-2024
+Cuadro 8. Expectativas de la industria manufacturera, en porcentaje. Años 2016-2025
+Aspectos metodológicos del IPI manufacturero
+Características generales
+El índice de producción industrial manufacturero (IPI manufacturero) incluye un exhaustivo relevamiento de
+todas las actividades económicas que conforman el sector industria manufacturera y la cobertura geográfica
+es para el total del país.
+Es un indicador de coyuntura que mide la evolución del sector, con periodicidad mensual, tomando como
+variables para su cálculo la producción en unidades físicas, las ventas en unidades físicas, la utilización de
+insumos en unidades físicas, el consumo aparente en unidades físicas, la cantidad de horas trabajadas del
+personal afectado al proceso productivo y las ventas a precios corrientes deflactadas.
+A partir de las variables seleccionadas, se calculan los índices elementales, que constituyen el nivel más
+desagregado del IPI manufacturero. Luego, se construyen los índices de las clases o grupos manufactureros,
+que se estructuran con la agregación de los índices elementales, utilizando las ponderaciones del valor
+agregado bruto a precios básicos de la industria manufacturera del año base 2004 de las cuentas nacionales.
+Del mismo modo, los índices de las divisiones se obtienen como agregación de los índices de las clases o grupos
+y, finalmente, el nivel general del IPI manufacturero se calcula como agregación de los índices de las divisiones.
+En su conjunto, todas las variables seleccionadas aportan con periodicidad mensual datos sobre más de 5.000
+establecimientos industriales manufactureros.
+Índice de producción industrial manufacturero 26/28
+
+Ajuste estacional
+Para el ajuste estacional del nivel general del IPI manufacturero se utilizará el método de descomposición
+indirecto, tomando en cuenta que este se construye en base a la agregación de las divisiones.
+Las principales características del ajuste estacional del IPI manufacturero con los datos a enero de 2025 son:
+Opciones utilizadas Alimentos y bebidas Productos de tabaco Productos textiles
+Transformación No No No
+Modo de descomposición Aditivo Aditivo Aditivo
+Modelo ARIMA (0 1 1)(0 1 1) (0 0 1)(0 1 1) (1 0 1)(0 1 1)
+¿Ajusta Pascua? No Sí No
+¿Ajusta año bisiesto? No No No
+¿Ajusta variación por días de actividad? Sí Sí Sí
+¿Ajusta outliers? Sí Sí Sí
+Filtro estacional 3x5 3x3 3x3
+Filtro tendencia H13 H9 H9
+Refinación del
+Prendas de vestir, Madera, papel,
+Opciones utilizadas petróleo, coque y
+cuero y calzado edición e impresión
+combustible nuclear
+Transformación No No No
+Modo de descomposición Aditivo Aditivo Aditivo
+Modelo ARIMA (1 0 0)(0 1 1) (0 1 1)(0 1 1) (0 1 1)(0 1 1)
+¿Ajusta Pascua? Sí No No
+¿Ajusta año bisiesto? No Sí Sí
+¿Ajusta variación por días de actividad? Sí Sí Sí
+¿Ajusta outliers? Sí Sí Sí
+Filtro estacional 3x3 3x5 3x9
+Filtro tendencia H13 H13 H9
+Sustancias y Productos de caucho Productos minerales
+Opciones utilizadas
+productos químicos y plástico no metálicos
+Transformación No No No
+Modo de descomposición Aditivo Aditivo Aditivo
+Modelo ARIMA (0 1 1)(1 1 0) (0 1 1)(0 1 1) (0 1 1)(0 1 1)
+¿Ajusta Pascua? No No No
+¿Ajusta año bisiesto? Sí No Sí
+¿Ajusta variación por días de actividad? Sí Sí Sí
+¿Ajusta outliers? Sí Sí Sí
+Filtro estacional 3x9 3x5 3x9
+Filtro tendencia H13 H9 H9
+Índice de producción industrial manufacturero 27/28
+
+Industrias metálicas
+Opciones utilizadas Productos de metal Maquinaria y equipo
+básicas
+Transformación Log No No
+Modo de descomposición Multiplicativo Aditivo Aditivo
+Modelo ARIMA (0 1 1)(1 1 0) (0 1 1)(1 1 0) (0 1 1)(0 1 1)
+¿Ajusta Pascua? No No Sí
+¿Ajusta año bisiesto? No Sí No
+¿Ajusta variación por días de actividad? No Sí Sí
+¿Ajusta outliers? Sí Sí Sí
+Filtro estacional 3x9 3x9 3x5
+Filtro tendencia H13 H13 H13
+Vehículos Muebles y
+Otros equipos, automotores, colchones, y
+Otro equipo de
+Opciones utilizadas aparatos e carrocerías, otras
+transporte
+instrumentos remolques y industrias
+autopartes manufactureras
+Transformación Log No No No
+Modo de descomposición Multiplicativo Aditivo Aditivo Aditivo
+Modelo ARIMA (1 0 1)(1 1 0) (0 1 1)(0 1 1) (0 1 1)(1 1 0) (0 1 1)(0 1 1)
+¿Ajusta Pascua? No No No No
+¿Ajusta año bisiesto? No No No No
+¿Ajusta variación por días de actividad? Sí Sí Sí Sí
+¿Ajusta outliers? Sí Sí Sí Sí
+Filtro estacional 3x9 3x5 3x9 3x5
+Filtro tendencia H13 H13 H13 H13
+La metodología detallada del IPI manufacturero y la nota metodológica de actualización 2025 se encuentran
+disponibles en:
+https://www.indec.gob.ar/ftp/cuadros/economia/metodologia_ipi_manufacturero_2019.pdf
+https://www.indec.gob.ar/ftp/cuadros/economia/nota_metodologica_ipi_manufacturero_2025.pdf
+Índice de producción industrial manufacturero 28/28

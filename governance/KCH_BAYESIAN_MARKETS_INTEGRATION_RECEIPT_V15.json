@@ -1,0 +1,64 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v15",
+  "date": "2026-08-24",
+  "phase": "BAYME_TYPED_CORAL_BPM_HBP_V2",
+  "status": "PASS_TYPED_CORAL_NO_POOLING",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V14.json",
+    "sha256": "40E54AE17B3148494111B33B45C4B881B7CC6B2D5BB204285B217F791497D21E",
+    "parent_commit": "a55162e7a591ae7a861e89d6a28f7733e4f04d1b"
+  },
+  "artifacts": [
+    {
+      "path": "governance/BAYESIAN_MARKETS_CORAL_EVIDENCE_LEDGER_V2.json",
+      "bytes": 10613,
+      "sha256": "C363A7EDB586E068E64E61957FB7FB87AC067A1D45D8FE99C7673E07D271F13B"
+    },
+    {
+      "path": "governance/BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V2.json",
+      "bytes": 5897,
+      "sha256": "1E76C5DBB3C840FAC042EE30ADD670FD84D8FC38507DF137DE0056CFD0F59E96"
+    },
+    {
+      "path": "outputs/BAYESIAN_MARKETS_CORAL_INTEGRATION_V2_20260824_ES.md",
+      "bytes": 5206,
+      "sha256": "B7AFDC140FFD5A29F5C6117B617CC7650E05DAB22DC28FC1F91D000E5EA94A0C"
+    }
+  ],
+  "validation": {
+    "ledger_json_parse": "PASS",
+    "contract_json_parse": "PASS",
+    "unit_count": 9,
+    "required_fields_per_unit": 17,
+    "unique_campaign_ids": 9,
+    "typed_edges": 6,
+    "posterior_transfer_edges": 0,
+    "fully_local_custody_units": 5,
+    "native_hash_only_or_payload_gap_units": 4,
+    "prospective_pending_targets": 5,
+    "git_diff_check": "PASS"
+  },
+  "scientific_state": {
+    "advance": "heterogeneous BPM and HBP evidence is now comparable through explicit local states and typed edges",
+    "non_claim": "no coral score, pooled likelihood, pooled posterior, global ranking or global winner was created",
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "constitutional_source": {
+    "thread": "chatgpt-conversation://6a80b257-f2c4-83eb-ae2d-3d904680e328",
+    "linked_putative_trunk": "chatgpt-conversation://6a53d2d1-1388-83ed-a891-07a16b7b9e2a",
+    "status": "DERIVED_CONSTITUTIONAL_RESEARCH_CANDIDATE",
+    "empirical_unit": false,
+    "historical_canon_promoted": false,
+    "primary_lineage_confirmed": false
+  },
+  "adverse_and_nonterminal_states_preserved": [
+    "NATIVE_PAYLOAD_NOT_RECOVERED",
+    "NOT_ESTIMABLE_INCOMPLETE_PANEL",
+    "OUTCOME_PENDING",
+    "NOT_ESTIMATED_MIXTURE_INTERVAL",
+    "UCII_V0_1_GATE_FAILURE",
+    "NO_GLOBAL_WINNER"
+  ],
+  "next_gate": "adjudicate only the earliest official first release among the five pending local targets, then update that campaign-local posterior and model-specific Z_post exactly once and freeze exactly the next month."
+}

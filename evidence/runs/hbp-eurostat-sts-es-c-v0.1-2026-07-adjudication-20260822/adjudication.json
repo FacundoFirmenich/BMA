@@ -1,0 +1,13 @@
+{
+  "actual_index": null,
+  "automatic_promotion": false,
+  "global_winner": null,
+  "next_target_frozen": false,
+  "outcome_state": "OUTCOME_PENDING",
+  "parent_freeze_sha256": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+  "posterior_updated": false,
+  "schema": "hbp.eurostat.sts.es-c.adjudication.v0.1",
+  "status_flag": null,
+  "target_month": "2026-07",
+  "target_raw_sha256": "E4F18D8E4020A09AAE0A72F01BC5670C7A87B23C5DD07348DFA5354F1870B3CD"
+}

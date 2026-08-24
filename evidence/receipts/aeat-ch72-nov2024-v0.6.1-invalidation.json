@@ -1,0 +1,29 @@
+{
+  "schema_version": "bma.experiment-invalidation.v1",
+  "experiment": "bma.aeat.chapter72.nov2024.v0.6.1",
+  "adjudicated_at": "2026-08-09",
+  "status": "INVALID_EXPERIMENT_NO_SCIENTIFIC_EVIDENCE",
+  "preserve_only_as_failed-experiment_history": true,
+  "scientific_outputs_reusable": false,
+  "metrics_reusable": false,
+  "weights_reusable": false,
+  "posteriors_reusable": false,
+  "claims_reusable": false,
+  "defects": [
+    "ten monthly training units compared with one monthly target unit",
+    "daily admission date discarded during aggregation",
+    "training prediction adjudication and Z_post units not preserved",
+    "intramonth and intermonth dynamics absent",
+    "event time and availability time not separated"
+  ],
+  "required_invariant": {
+    "atomic_unit": "training = prediction = adjudication = Z_post",
+    "block_measure": "N training units x N target units",
+    "reinformation": "additive future-only in the same unit"
+  },
+  "github_pull_request": {
+    "number": 1,
+    "state": "CLOSED_UNMERGED",
+    "url": "https://github.com/FacundoFirmenich/BMA/pull/1"
+  }
+}

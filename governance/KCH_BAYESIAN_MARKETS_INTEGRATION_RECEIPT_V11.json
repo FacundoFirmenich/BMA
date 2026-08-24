@@ -1,0 +1,22 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v11",
+  "date": "2026-08-22",
+  "mission": "Execute the V10 Argentina-Eurostat gates, preserve IPI and Eurostat states, and retain the adverse UCII V0.1 gate before repair.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "df0ab2c",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {"path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V11.json", "sha256": "3679045BFDE8C54B83FF05FBC2B9663390BF32B84AF658134A0100B077487F37"},
+  "audit": {"path": "governance/KCH_BAYESIAN_MARKETS_V11_AUDIT.json", "sha256": "54C594895E09C4ED32FCA51440975804AD263D5E8FA43D777D113392CFA4CB2E", "script": "scripts/audit_bayesian_markets_integration_v11.ps1", "script_sha256": "DE63ECD792C1AB8C3527F0866E6F16DB9F9B6BF2064784D6B9218FED0785D08B", "status": "PASS", "checks": 43, "failures": 0},
+  "result": {
+    "IPI": "July frozen: M0 119.0982066, M1 118.9831513; outcome unopened",
+    "Eurostat": "OUTCOME_PENDING; no score, posterior update or August freeze",
+    "UCII_schema": "57,344-byte BIFF8 workbook; 126 months; general plus 12 sectors; July absent",
+    "UCII_v0_1": "GATE_FAIL before fit: tobacco and automotive equal 0.0 in 2020-04",
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation": {"full_pytest": "119 passed", "v11_audit": "PASS 43/43", "manifest_hash_or_size_failures": 0},
+  "next_gate": "Freeze and publish UCII V0.2 with only the sector-observer support gate repaired; do not change target or model after numeric exposure."
+}
+

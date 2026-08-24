@@ -1,0 +1,67 @@
+{
+  "schema_version": "bma.preregistration.aeat.chapter72.seasonal-2024-causal-mini-replay.v0.6.5",
+  "status": "FROZEN_BEFORE_TARGET_CONTENT_OPENED_BY_THIS_RUNNER",
+  "epistemic_class": "RETROSPECTIVE_CAUSAL_REPLAY_HYPOTHESIS_INFORMED_BY_PRIOR_2022_2024_BRIDGE",
+  "source_jurisdiction": "AEAT chapter 72 monthly structured archive",
+  "source_runs": {
+    "training_2022": "evidence/runs/aeat-ch72-monthly-sequential-v0.6.5-2022-bootstrap-r2",
+    "training_2023": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2023-causal",
+    "sealed_2024_targets": "evidence/runs/aeat-ch72-monthly-sequential-v0.6.4"
+  },
+  "output_run": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-mini-jan-sep",
+  "calendar_contract": {
+    "first_transition": "2023-12->2024-01",
+    "last_transition": "2024-08->2024-09",
+    "targets": [
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09"
+    ],
+    "prediction_unit": "EXACTLY_ONE_MONTH_TO_EXACTLY_ONE_NEXT_MONTH",
+    "posterior_reset": false,
+    "z_post_reset": false,
+    "pooling_many_months_into_one_target": false
+  },
+  "state_recovery": {
+    "m0_posterior": "sealed prior_after_2023-12_YEAR_END_UNCALIBRATED.json.gz",
+    "seasonal_state": "reconstructed in native order from sealed 2022 and 2023 M0 innovations",
+    "prequential_weights": "sealed December 2023 posterior and independently reconciled from 2023 post-outcome log scores"
+  },
+  "models": {
+    "M0": "ordinary continuously accumulated monthly posterior",
+    "M1": "M0 plus annual harmonic memory",
+    "M2": "M1 plus hierarchical monthly residual over administrative and cell levels"
+  },
+  "local_adjudications": {
+    "participation_summer": {
+      "months": ["2024-06", "2024-07", "2024-08", "2024-09"],
+      "comparison": "Brier(M1) versus Brier(M0), separately for every month",
+      "interpretation_if_recurrent": "summer-phase signal consistent with a product or product-composition seasonal mechanism; product identity remains unresolved"
+    },
+    "statistical_unit_value_march": {
+      "months": ["2024-03"],
+      "comparison": "MALE(M1) versus MALE(M0)"
+    },
+    "quantity_september": {
+      "months": ["2024-09"],
+      "comparison": "MALE(M2) versus MALE(M0)",
+      "interpretation": "exploratory numerical recurrence; CN4 is an administrative product grouping, not a single physical product"
+    }
+  },
+  "claim_boundary": {
+    "global_winner": null,
+    "promotion": "PROHIBITED",
+    "prospective_validation": false,
+    "industrial_validation": false,
+    "blindness": false,
+    "reason_blindness_false": "2024 contributed previously to the bidirectional bridge used to formulate the local hypotheses"
+  },
+  "target_access_rule": "For each target, write and hash the freeze first; only then read and verify the corresponding sealed 2024 structured-month payload.",
+  "failure_rule": "Preserve partial output and logs; never let a partial marker masquerade as terminal success."
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "bayesian-markets-classification-instruction-receipt/v1",
+  "frozen_at": "2026-08-15",
+  "status": "FROZEN_FOR_INVENTORY_V1",
+  "authority": {
+    "kind": "direct_user_instruction",
+    "effective_correction": "La nueva clasificación tiene como destinos BPM, BUM y HBP; BayME, BayME Pulse, BayME EVE y BMA son procedencias históricas, no destinos.",
+    "latest_user_clarification": "no carajo, en la nueva clasificacion joder"
+  },
+  "canonical_destinations": [
+    "BPM",
+    "BUM",
+    "HBP"
+  ],
+  "historical_source_lineages": [
+    "BayME",
+    "BayME Pulse",
+    "BayME EVE",
+    "BMA"
+  ],
+  "subsumption": {
+    "from": "BMA",
+    "into": "BPM",
+    "canonical_name_persists": false,
+    "historical_provenance_persists": true
+  },
+  "classification_unit": "content_and_governing_objective_per_evidence_unit",
+  "automatic_wholesale_mapping_by_source_name": false,
+  "ambiguity_state": "UNCLASSIFIED_PENDING_CONTENT_REVIEW",
+  "publication_gate": "NO_TRANSFER_OR_PUBLICATION_UNTIL_UNIT_CLASSIFICATION_VALIDATED",
+  "paused_local_upload_commit": "9b0d18e72df1ee3cc42eda6f5b885ac14ec5c616",
+  "remote_effect_of_paused_commit": "NONE_NOT_PUSHED",
+  "claim_ceiling": "ONTOLOGY_FROZEN_INVENTORY_AND_ITEM_LEVEL_ADJUDICATION_PENDING"
+}

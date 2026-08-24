@@ -1,0 +1,372 @@
+{
+  "schema": "bayesian-family-apps-local-intake/v1",
+  "created_at": "2026-08-24T20:00:00+02:00",
+  "status": "PASS_INTAKE_CLASSIFIED_NO_MODEL_UPDATE",
+  "scan": {
+    "root": "C:\\Users\\User\\3D Objects\\{Kwan&Learning}",
+    "window_start_local": "2026-08-24T19:06:47+02:00",
+    "window_end_local": "2026-08-24T19:36:47+02:00",
+    "selection_rule": "creation_or_modification_timestamp_inside_fixed_initial_30_minute_window",
+    "selected_file_count": 25,
+    "user_declared_project_relation": "BayesianFamilyApps_BUM_...",
+    "zone_identifier_present_count": 0,
+    "provenance_limit": "content and user declaration establish project relevance; absence of Zone.Identifier means browser-download origin is not independently proven"
+  },
+  "drive_folder": {
+    "id": "15b_6OmGGlPBuNhIDz3mMFerK4DUhO_kt",
+    "previous_name": "Unlikely*LOOP LiveOps — BIND 2026 Data Room",
+    "current_name": "BayesianFamilyApps_BUM_BPM_HBP — BayME_BMA_BIND — Corpus canónico y Data Room 2026",
+    "renamed": true,
+    "readback_verified": true,
+    "parent_id": "0AM9y-mxzRN2CUk9PVA",
+    "permission_state": "owner_only_unchanged",
+    "moved": false
+  },
+  "files": [
+    {
+      "relative_path": "BayME_WORK_TRANSFER_PACK_v0_2.zip",
+      "bytes": 8722213,
+      "sha256": "508A0E32559CE3EF1D0A38AD578E512BB34BB0D86571A48197F046B9001E0963",
+      "created_local": "2026-08-24T19:18:14.168258+02:00",
+      "modified_local": "2026-08-24T19:18:15.222543+02:00"
+    },
+    {
+      "relative_path": "BAYME_BMA_BIND_INTERSESSION_CANON_v0.5_2026-08-18.md",
+      "bytes": 6803,
+      "sha256": "4988308CF2E1755BA49030874C78FA194115C2267A0181D267DF3389E74CA372",
+      "created_local": "2026-08-24T19:18:32.314293+02:00",
+      "modified_local": "2026-08-24T19:18:32.588562+02:00"
+    },
+    {
+      "relative_path": "BAYME_PROJECT_CANONICAL_SYNC_2026-08-18_v4.md",
+      "bytes": 4607,
+      "sha256": "7FA4343A77A848421AFE0BF77E691D4B01AB616FC8B4C2181D4E134E7204894C",
+      "created_local": "2026-08-24T19:18:40.083837+02:00",
+      "modified_local": "2026-08-24T19:18:41.469611+02:00"
+    },
+    {
+      "relative_path": "BAYME_BMA_BIND_INTERSESSION_CANON_v0.4_2026-08-18.md",
+      "bytes": 7022,
+      "sha256": "73DF50D11801092881C802D324AE90BCA5D2A650F97E7ECD964D164C891A759D",
+      "created_local": "2026-08-24T19:19:05.374939+02:00",
+      "modified_local": "2026-08-24T19:19:05.617393+02:00"
+    },
+    {
+      "relative_path": "BAYME_PROJECT_CANONICAL_SYNC_2026-08-18_v3.md",
+      "bytes": 4378,
+      "sha256": "5F3F5C6A3A5B4B389B5653EA2D63F1D807DCF5F9E78086B7C0E998DE3982FB1A",
+      "created_local": "2026-08-24T19:19:10.730865+02:00",
+      "modified_local": "2026-08-24T19:19:11.111850+02:00"
+    },
+    {
+      "relative_path": "EUROSTAT_prc_hicp_fpd_2026-07_FIN_RAW_780330f87451f407494267bfb1e366a7622759b7cf61743735bbd7981cad4a9a.json",
+      "bytes": 6423,
+      "sha256": "780330F87451F407494267BFB1E366A7622759B7CF61743735BBD7981CAD4A9A",
+      "created_local": "2026-08-24T19:20:05.554383+02:00",
+      "modified_local": "2026-08-24T19:20:07.707754+02:00"
+    },
+    {
+      "relative_path": "EUROSTAT_prc_hicp_fpd_2026-07_FIN_EU27_57a9b80675043adfa41487cfb950d722cdfbd3f0de7ac40af4dc1f24617bd06f.json",
+      "bytes": 864,
+      "sha256": "C3FAE195782068AA6C9C142F080D0B101A53BC356D779BFA679D9DBB5C529821",
+      "created_local": "2026-08-24T19:20:34.250352+02:00",
+      "modified_local": "2026-08-24T19:20:37.322857+02:00"
+    },
+    {
+      "relative_path": "BAYME_BMA_BIND_INTERSESSION_CANON_v0.6_2026-08-20.md",
+      "bytes": 4770,
+      "sha256": "4F0D3961590C98E0B1E3E4D519344429CDC15105A48F369F3278476F2B674CCC",
+      "created_local": "2026-08-24T19:20:58.906496+02:00",
+      "modified_local": "2026-08-24T19:21:01.832464+02:00"
+    },
+    {
+      "relative_path": "BAYME_PROJECT_CANONICAL_SYNC_2026-08-20_v5.md",
+      "bytes": 2932,
+      "sha256": "DF29FB50DCCB1AABC74B701A47F8B389AB68997FCF66BDE02B76ED94AAA70A26",
+      "created_local": "2026-08-24T19:21:09.283426+02:00",
+      "modified_local": "2026-08-24T19:21:10.893312+02:00"
+    },
+    {
+      "relative_path": "BAYME_BMA_BIND_INTERSESSION_CANON_v0.1_2026-08-18.md",
+      "bytes": 9378,
+      "sha256": "FD80C146B75BB6978A0BC5352EB70AA96DC4D239826B9C046D0F5F4D09E97947",
+      "created_local": "2026-08-24T19:22:02.148526+02:00",
+      "modified_local": "2026-08-24T19:22:02.476653+02:00"
+    },
+    {
+      "relative_path": "05_EVIDENCE_CLAIMS_AND_UNCERTAINTY.md",
+      "bytes": 2954,
+      "sha256": "D4FB75087D194F4A909CFB3378F41F5AB92B4A61E003C2169F474692D3866AC5",
+      "created_local": "2026-08-24T19:22:14.969211+02:00",
+      "modified_local": "2026-08-24T19:22:15.180821+02:00"
+    },
+    {
+      "relative_path": "ANDALUCIA_BAYME_FREEZE_2026_08_24_FULL.zip",
+      "bytes": 13117,
+      "sha256": "68E3D0BC5ABE61F64580BC02A7A53274B45590B8AD60E49F68B591928253BB25",
+      "created_local": "2026-08-24T19:22:50.977361+02:00",
+      "modified_local": "2026-08-24T19:22:53.287763+02:00"
+    },
+    {
+      "relative_path": "ANDALUCIA_HARVEST_2026_08_22_FULL.zip",
+      "bytes": 194401,
+      "sha256": "55C1E8F0E882051B0F4768136DA716C0521C9313734459B63036EC102486270E",
+      "created_local": "2026-08-24T19:23:18.366119+02:00",
+      "modified_local": "2026-08-24T19:23:19.873207+02:00"
+    },
+    {
+      "relative_path": "ANDALUCIA_IDAPES_RAW_SHARED_2026_08_22_FULL.zip",
+      "bytes": 63355,
+      "sha256": "318BC1468281860190574547108A8EF6668A0350804FA6DEDC96237435D32BD5",
+      "created_local": "2026-08-24T19:23:27.215101+02:00",
+      "modified_local": "2026-08-24T19:23:27.937186+02:00"
+    },
+    {
+      "relative_path": "INFORME_CIENTIFICO.md",
+      "bytes": 2435,
+      "sha256": "A8270AD4B73DF0D4CCC13E7A20A109C674C9E596D32AF3F19DD14568461F3C64",
+      "created_local": "2026-08-24T19:23:34.276293+02:00",
+      "modified_local": "2026-08-24T19:23:36.116401+02:00"
+    },
+    {
+      "relative_path": "OBSERVED_SPECIES_CELLS.csv",
+      "bytes": 1313,
+      "sha256": "2404ED914618B41038ED52C8CC3F45255AACBBECBA34BD4B064A4F5C7E55DBE2",
+      "created_local": "2026-08-24T19:23:41.136150+02:00",
+      "modified_local": "2026-08-24T19:23:42.273284+02:00"
+    },
+    {
+      "relative_path": "VALIDATION.json",
+      "bytes": 1728,
+      "sha256": "2F728E4FC9C1E175AD1D55146E39E0F877886A93A6CFBD9E0DDD4ADF512F85BB",
+      "created_local": "2026-08-24T19:23:49.031928+02:00",
+      "modified_local": "2026-08-24T19:23:50.120143+02:00"
+    },
+    {
+      "relative_path": "BIND_DATA_ROOM_INDEX_v0.1_2026-08-24.md",
+      "bytes": 7006,
+      "sha256": "961FFCF20D73C6DA5F7B17C7338F248258D57A1427746682B03693C91C04574B",
+      "created_local": "2026-08-24T19:24:26.287305+02:00",
+      "modified_local": "2026-08-24T19:24:27.203276+02:00"
+    },
+    {
+      "relative_path": "BIND_FINAL_HANDOFF_CHECKLIST_v0.1_2026-08-24.md",
+      "bytes": 2310,
+      "sha256": "F5BAC4AF63D66A02F7D7D54A5C38A627B40F73F00737582CA89D5427CAA07686",
+      "created_local": "2026-08-24T19:24:32.015190+02:00",
+      "modified_local": "2026-08-24T19:24:33.269846+02:00"
+    },
+    {
+      "relative_path": "BIND_SUBMISSION_CONTROL_MASTER_v0.7_2026-08-24.md",
+      "bytes": 5003,
+      "sha256": "C6E83859983BBF4C4E47A917FEF74827EBEDEE28E3BDA5A4EEC7DA54E545C018",
+      "created_local": "2026-08-24T19:24:38.354696+02:00",
+      "modified_local": "2026-08-24T19:24:38.586797+02:00"
+    },
+    {
+      "relative_path": "BIND_DELTA_LOG_2026-08-24.md",
+      "bytes": 3090,
+      "sha256": "AA22801774BBD0967F4014D74D56FAD0AC7D26D185626711B9F0F44BA416FE11",
+      "created_local": "2026-08-24T19:24:45.553048+02:00",
+      "modified_local": "2026-08-24T19:24:46.670182+02:00"
+    },
+    {
+      "relative_path": "BAYME_BMA_BIND_INTERSESSION_CANON_v0.2_2026-08-18.md",
+      "bytes": 9594,
+      "sha256": "51D1BB6868E4570A25CBD9D9350E6F90B0756546648F387013EE12B8C3CCEAC8",
+      "created_local": "2026-08-24T19:25:48.201134+02:00",
+      "modified_local": "2026-08-24T19:25:50.164320+02:00"
+    },
+    {
+      "relative_path": "BAYME_PROJECT_CANONICAL_SYNC_2026-08-18_v1.md",
+      "bytes": 10475,
+      "sha256": "33FC8ECE3EF1608330108FBBA0951CEC93BF2F13E09D58990A1A3B5D935CC42A",
+      "created_local": "2026-08-24T19:25:56.285169+02:00",
+      "modified_local": "2026-08-24T19:25:58.220629+02:00"
+    },
+    {
+      "relative_path": "BayME_EVE_PROJECT_MASTER_INDEX_2026-07-31_v4.md",
+      "bytes": 915,
+      "sha256": "7739E431DA7E0440C7421992486CEC7ACE4270DE661030A9CAF3D54A3AA9AC66",
+      "created_local": "2026-08-24T19:26:38.781469+02:00",
+      "modified_local": "2026-08-24T19:26:42.356018+02:00"
+    },
+    {
+      "relative_path": "CAPTURE_REPORT.md",
+      "bytes": 848,
+      "sha256": "1C894986E6DD93D7155E6AC994029E56942AA7C496E2DD73F202FEFA925CD210",
+      "created_local": "2026-08-24T19:26:49.691864+02:00",
+      "modified_local": "2026-08-24T19:26:52.050909+02:00"
+    }
+  ],
+  "full_byte_audit": {
+    "top_level_files": 25,
+    "extracted_files_including_nested_archives": 290,
+    "total_files_read": 315,
+    "total_bytes_read": 19965044,
+    "utf8_decode_errors": 0,
+    "json_parse_errors": 0,
+    "path_traversal_failures": 0,
+    "archive_size_limit_failures": 0,
+    "bayme_transfer_manifest_hashes": {
+      "verified": 9,
+      "expected": 9,
+      "status": "PASS"
+    },
+    "archives": [
+      {
+        "name": "BayME_WORK_TRANSFER_PACK_v0_2.zip",
+        "direct_files": 10,
+        "direct_uncompressed_bytes": 10225019,
+        "nested_archives": [
+          {
+            "name": "BayME_Output_Contracts_v0_1.zip",
+            "files": 3,
+            "uncompressed_bytes": 7349
+          }
+        ]
+      },
+      {
+        "name": "ANDALUCIA_BAYME_FREEZE_2026_08_24_FULL.zip",
+        "direct_files": 12,
+        "direct_uncompressed_bytes": 21548
+      },
+      {
+        "name": "ANDALUCIA_HARVEST_2026_08_22_FULL.zip",
+        "direct_files": 152,
+        "direct_uncompressed_bytes": 419111,
+        "nested_archives": [
+          {
+            "name": "ANDALUCIA_BAYME_FREEZE_2026_08_24_FULL.zip",
+            "files": 12,
+            "uncompressed_bytes": 21626
+          }
+        ]
+      },
+      {
+        "name": "ANDALUCIA_IDAPES_RAW_SHARED_2026_08_22_FULL.zip",
+        "direct_files": 101,
+        "direct_uncompressed_bytes": 182457
+      }
+    ]
+  },
+  "document_qa": {
+    "marco": {
+      "docx_paragraphs": 2025,
+      "docx_tables": 16,
+      "docx_text_lines": 2194,
+      "docx_text_chars": 121333,
+      "pdf_pages": 102,
+      "pdf_text_chars": 135922,
+      "docx_pdf_token_multiset_dice": 0.918,
+      "pdf_pages_rendered_and_visually_inspected": 102,
+      "pdf_layout_status": "PASS_NO_OBSERVED_TRUNCATION_OR_OVERFLOW",
+      "docx_direct_visual_status": "NOT_EXECUTED_LIBREOFFICE_UNAVAILABLE"
+    },
+    "producto": {
+      "docx_paragraphs": 156,
+      "docx_tables": 13,
+      "docx_text_lines": 227,
+      "docx_text_chars": 15050,
+      "pdf_pages": 15,
+      "pdf_text_chars": 16052,
+      "docx_pdf_token_multiset_dice": 0.955,
+      "pdf_pages_rendered_and_visually_inspected": 15,
+      "pdf_layout_status": "PASS_NO_OBSERVED_TRUNCATION_OR_OVERFLOW",
+      "docx_direct_visual_status": "NOT_EXECUTED_LIBREOFFICE_UNAVAILABLE"
+    },
+    "interpretation": "the PDFs are visually coherent specifications; text similarity is high but does not prove byte or visual identity between DOCX and PDF"
+  },
+  "canonical_nomenclature": {
+    "current_authority": [
+      "BAYME_BMA_BIND_INTERSESSION_CANON_v0.6_2026-08-20.md",
+      "BAYME_PROJECT_CANONICAL_SYNC_2026-08-20_v5.md"
+    ],
+    "definitions": {
+      "BUM": "Bayesian Un Markets",
+      "BPM": "Bayesian Physical Markets",
+      "HBP": "Hierarchical Bayes Predictor"
+    },
+    "authorized_relation": "BayME~BMA → {BUM, BPM, HBP}",
+    "internal_hierarchy": "PENDING_PRIMARY_RECONCILIATION",
+    "superseded_preserved_definitions": {
+      "BUM": "Bayesian Updating Mechanism",
+      "BPM": "Bayesian Predictive Model",
+      "HBP": "Hierarchical Bayesian Process"
+    },
+    "globality_policy": "LOCAL_REQUIRED_GLOBAL_ONLY_AS_PREREGISTERED_HOSTILE_LAST_RESORT",
+    "global_winner": null
+  },
+  "scientific_evidence": {
+    "andalucia": {
+      "read1_read2_pairs": 16,
+      "byte_stable_pairs": 16,
+      "positive_markets": [
+        "Barbate",
+        "Cádiz",
+        "Huelva",
+        "Punta Umbría"
+      ],
+      "stable_empty_markets": 12,
+      "stable_empty_state": "PENDING_EMPTY_NOT_ZERO",
+      "observed_species_cells": 8,
+      "species_cell_counts": {
+        "CTC": 3,
+        "PAC": 3,
+        "MUR": 2,
+        "OCC": 0,
+        "MUT": 0
+      },
+      "revisions": 0,
+      "http_pending": 0,
+      "frozen_predictive_density_master_sha256": "9191845142D06286BC5334147922D7462BDD9A9B90EA6543D807A104C39B0082",
+      "predictive_density_bytes_available": false,
+      "blocking_evidence": "Library retrieval returned HTTP 502",
+      "adjudication_state": "LOCAL_EVIDENCE_COMPLETE_ADJUDICATION_BLOCKED_PREDICTIVE_DENSITIES_UNAVAILABLE"
+    },
+    "eurostat_hicp": {
+      "dataset": "prc_hicp_fpd",
+      "geo": "EU27",
+      "target": "2026-07",
+      "release": "FIN",
+      "observed_value": 3,
+      "raw_to_normalized_consistency": "PASS",
+      "raw_file_hash_matches_declared": true,
+      "adjudication_state": "OUTCOME_PAYLOAD_RECOVERED_PRE_FREEZE_MATCH_PENDING",
+      "authority_limit": "official HICP outcome for its own EU27 chain; not authority for IPI, UCII, STS, Luke or AEAT"
+    },
+    "bind_material": {
+      "classification": "PRODUCT_AND_CANDIDATURE_CUSTODY_NOT_POSTERIOR_INPUT"
+    },
+    "duplicate_content": {
+      "top_level_harvest_duplicates": [
+        "INFORME_CIENTIFICO.md",
+        "OBSERVED_SPECIES_CELLS.csv",
+        "VALIDATION.json"
+      ],
+      "observed_species_cells_copy_count": 4
+    }
+  },
+  "remote_custody_adverse_evidence": {
+    "freeze_transfer_attempts": {
+      "failed": 13,
+      "total": 13
+    },
+    "harvest_transfer_attempts": {
+      "failed": 18,
+      "total": 18
+    },
+    "remote_folder_state": "EMPTY_NO_PARTIAL_COMMIT",
+    "interpretation": "remote Library persistence did not succeed; local evidence remains authoritative"
+  },
+  "prohibited_or_unperformed_actions": [
+    "no raw archive copied into BMA git history",
+    "no local source file deleted or moved",
+    "no score or adjudication produced",
+    "no posterior, Z_post, Z-XPL, Pi, refit or weight update",
+    "no global pooling or global winner",
+    "no Drive sharing or parent change",
+    "no account creation, third-party contact or terms acceptance"
+  ],
+  "next_gate": "locate and hash-match the preregistered freeze for the EU27 HICP chain; recover the frozen Andalucía predictive density bytes; only then adjudicate each local chain once and separately"
+}

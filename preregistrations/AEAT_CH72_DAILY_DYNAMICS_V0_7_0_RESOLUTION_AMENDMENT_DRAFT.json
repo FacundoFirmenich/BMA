@@ -1,0 +1,26 @@
+{
+  "schema_version": "bma.protocol-draft-amendment.v0.7.0",
+  "status": "DRAFT_NOT_EXECUTABLE",
+  "amends": "AEAT_CH72_DAILY_DYNAMICS_V0_7_0_DRAFT.json",
+  "canonical_resolution_rule": "finest computable native temporal resolution with non-averaged observations",
+  "aeat_contract": {
+    "native_temporal_resolution": "day",
+    "atomic_observation": "individual customs declaration line",
+    "canonical_storage_projection": "normalized marked event plus source-record hash",
+    "cell_day_aggregate": "derived view only",
+    "weekly_monthly_quarterly": "derived multiresolution strata only",
+    "hourly_inference": "PROHIBITED_NO_NATIVE_TIMESTAMP"
+  },
+  "information_rule": {
+    "aggregation_presumed_lossless": false,
+    "sufficiency_must_be_proved_for_specific_estimand": true,
+    "raw_discarded_after_aggregation": "PROHIBITED",
+    "irreversible_information_loss_is_a_gate_failure": true
+  },
+  "same_measure_rule": {
+    "training_block": "N atomic days retaining constituent events",
+    "target_block": "N atomic days retaining constituent events",
+    "adjudication": "one daily outcome distribution per step",
+    "Z_post": "same-unit additive future-only update"
+  }
+}

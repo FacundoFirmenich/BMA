@@ -1,0 +1,21 @@
+{
+  "schema_version": "bpm.rmk.stocklot-location-semantics-amendment.v0.1",
+  "frozen_at_protocol_date": "2026-08-21",
+  "causal_position": "2026-05-28_OFFER_OPEN_RESULTS_CLOSED",
+  "scope": "OFFER_OBJECTS_WITH_LAOKAUP_QUALITY_EXPLICIT_ADVERTISED_LOCATION_AND_NO_LOCATION_COMPONENT_ROWS",
+  "rule": {
+    "location_volume_state": "VERIFIED_ADVERTISED_STOCKLOT_NO_COMPONENT_SHEET",
+    "location_total_matches": true,
+    "location_sheet_total_m3": null,
+    "location_component_sum_m3": null,
+    "advertised_volume_m3_unchanged": true
+  },
+  "eligible_objects_2026_05_28": [4, 5],
+  "forbidden": [
+    "INVENT_COMPONENT_LOCATIONS",
+    "IMPUTE_COMPONENT_TOTAL",
+    "USE_RESULT_TO_DECIDE_ELIGIBILITY",
+    "POOL_ACROSS_OBJECTS"
+  ],
+  "result_bodies_opened": false
+}

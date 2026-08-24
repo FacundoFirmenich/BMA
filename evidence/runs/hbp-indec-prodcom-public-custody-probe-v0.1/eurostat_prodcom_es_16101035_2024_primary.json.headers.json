@@ -1,0 +1,17 @@
+{
+  "requested_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-059358?lang=en&reporter=ES&product=16101035&time=2024&indicators=PRODQNT&indicators=PQNTFLAG&indicators=QNTUNIT",
+  "final_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-059358?lang=en&reporter=ES&product=16101035&time=2024&indicators=PRODQNT&indicators=PQNTFLAG&indicators=QNTUNIT",
+  "requested_at_utc": "2026-08-21T23:31:19.480390+00:00",
+  "completed_at_utc": "2026-08-21T23:31:20.210717+00:00",
+  "http_status": 200,
+  "headers": {
+    "Date": "Fri, 21 Aug 2026 23:31:19 GMT",
+    "Content-Length": "2391",
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Headers": "Content-Type, Accept, X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Access-Control-Allow-Origin": "*",
+    "Connection": "close"
+  },
+  "error": null
+}

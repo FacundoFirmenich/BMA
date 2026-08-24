@@ -1,0 +1,34 @@
+{
+  "addendum_id": "HBP_ARGENTINA_EUROSTAT_ACTIVATION_SOFTWARE_ADDENDUM_V0.1",
+  "status": "FROZEN_BEFORE_EUROSTAT_TARGET_QUERY_AND_UCII_WORKBOOK_GET",
+  "frozen_local_date": "2026-08-22",
+  "runtime": "Python >=3.11",
+  "legacy_xls_reader": "xlrd==2.0.2 isolated read-only dependency",
+  "shared_model_module": "src/bma/experiments/hbp_eurostat_sts_v0_1.py",
+  "entrypoints": [
+    "scripts/run_hbp_indec_ipi_sa_2026_07_freeze.py",
+    "scripts/run_hbp_eurostat_sts_es_c_2026_07_adjudication.py",
+    "scripts/capture_hbp_indec_ucii_2026_07_schema.py"
+  ],
+  "numerical_contract": {
+    "Student_t_parameterization": "scipy.stats.t with df, loc and positive scale",
+    "CRPS": "two improper one-dimensional quadratures of squared CDF tails on log-index scale",
+    "weight_update": "log-sum-exp normalized prior weight times index-scale density",
+    "JSON": "UTF-8, sorted keys, indentation two, trailing newline",
+    "SHA256": "uppercase hexadecimal"
+  },
+  "failure_semantics": {
+    "target_absent": "OUTCOME_PENDING",
+    "unusable_or_missing_value": "NOT_ESTIMABLE",
+    "schema_or_hash_failure": "GATE_FAIL",
+    "network_failure": "SOURCE_FAIL_NO_RETRY_IN_SAME_RUN"
+  },
+  "forbidden": [
+    "implicit retry",
+    "overwriting immutable runs",
+    "posterior reset",
+    "cross-country or cross-source pooling",
+    "automatic promotion",
+    "global winner"
+  ]
+}

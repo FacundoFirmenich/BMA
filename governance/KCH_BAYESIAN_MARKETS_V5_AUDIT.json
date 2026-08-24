@@ -1,0 +1,561 @@
+{
+  "schema": "kch-bayesian-markets-v5-audit/v1",
+  "generated_at": "2026-08-22T01:49:33.3106716+02:00",
+  "status": "PASS",
+  "checks": 89,
+  "failures": 0,
+  "prior_v4_checks": 69,
+  "prior_v4_failures": 0,
+  "adverse_states_asserted": [
+    "ALL_V4_ADVERSE_STATES_PRESERVED",
+    "INDEC_IPI_CURRENT_VINTAGE_POST_RELEASE_ONLY",
+    "INDEC_IPI_2026_PROVISIONAL",
+    "INDEC_IPI_REPORT_18_MONTHS_BELOW_36_MONTH_MINIMUM",
+    "INDEC_IPI_FULL_SERIES_XLS_LEGACY_FORMAT_UNREADABLE",
+    "INDEC_UCII_CURRENT_VINTAGE_POST_RELEASE_OBSERVER_ONLY",
+    "INDEC_UCII_2026_PROVISIONAL",
+    "PRODCOM_ES_16101035_2024_NOT_ESTIMABLE_NO_CELL"
+  ],
+  "details": [
+    {
+      "name": "prior_v4.audit_status",
+      "pass": true,
+      "observed": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "name": "prior_v4.audit_failures",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "contract.prior_hash",
+      "pass": true,
+      "observed": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8",
+      "expected": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8"
+    },
+    {
+      "name": "contract.mission_hash",
+      "pass": true,
+      "observed": "22D4814835CFA91CB9B13539FF6F53FB3557A14D562FB0F8769C7876C13E70B0",
+      "expected": "22D4814835CFA91CB9B13539FF6F53FB3557A14D562FB0F8769C7876C13E70B0"
+    },
+    {
+      "name": "contract.exists.preregistrations/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1.json",
+      "pass": true,
+      "observed": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00",
+      "expected": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00"
+    },
+    {
+      "name": "contract.exists.scripts/capture_hbp_indec_prodcom_probe.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/capture_hbp_indec_prodcom_probe.py",
+      "pass": true,
+      "observed": "69F4D31318A84DE34FFC2D1F11B3AF1AB4ECE8176B2C57A08EBD1D4B92F90270",
+      "expected": "69F4D31318A84DE34FFC2D1F11B3AF1AB4ECE8176B2C57A08EBD1D4B92F90270"
+    },
+    {
+      "name": "contract.exists.scripts/inspect_indec_ipi_workbook.mjs",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/inspect_indec_ipi_workbook.mjs",
+      "pass": true,
+      "observed": "131193652270B9F2622BD8BE1593CBC5CCD342D17FFB3BDB1F8566CEB9F0BB40",
+      "expected": "131193652270B9F2622BD8BE1593CBC5CCD342D17FFB3BDB1F8566CEB9F0BB40"
+    },
+    {
+      "name": "contract.exists.scripts/inspect_indec_ipi_xls_excel.ps1",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/inspect_indec_ipi_xls_excel.ps1",
+      "pass": true,
+      "observed": "EE5C32FE89D940C709B3689512E2CFD04F30576E83DDFB2FD2017EBB245156C1",
+      "expected": "EE5C32FE89D940C709B3689512E2CFD04F30576E83DDFB2FD2017EBB245156C1"
+    },
+    {
+      "name": "contract.exists.scripts/extract_hbp_indec_probe_documents.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/extract_hbp_indec_probe_documents.py",
+      "pass": true,
+      "observed": "FEE5AE8B9571AA4239D1E3F10594234F7DDC42CF8FDDEE4541F2CAE70BD651D4",
+      "expected": "FEE5AE8B9571AA4239D1E3F10594234F7DDC42CF8FDDEE4541F2CAE70BD651D4"
+    },
+    {
+      "name": "contract.exists.scripts/adjudicate_hbp_indec_prodcom_probe.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/adjudicate_hbp_indec_prodcom_probe.py",
+      "pass": true,
+      "observed": "CC586BFB321859608A2139406D575F51096226A5BF004AD30EFDECC6A438EA3B",
+      "expected": "CC586BFB321859608A2139406D575F51096226A5BF004AD30EFDECC6A438EA3B"
+    },
+    {
+      "name": "contract.exists.tests/test_hbp_indec_prodcom_probe_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.tests/test_hbp_indec_prodcom_probe_v0_1.py",
+      "pass": true,
+      "observed": "B38392F218AC640325E5D2687FD37B089CD308448E60902EE93AFDB04EF95478",
+      "expected": "B38392F218AC640325E5D2687FD37B089CD308448E60902EE93AFDB04EF95478"
+    },
+    {
+      "name": "contract.exists.outputs/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_CHECKPOINT_20260822_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.outputs/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_CHECKPOINT_20260822_ES.md",
+      "pass": true,
+      "observed": "8300DDE196B18C1C2866CAFAF2C9F87D1E19AEA11C15613F62F96830BBCEE1DA",
+      "expected": "8300DDE196B18C1C2866CAFAF2C9F87D1E19AEA11C15613F62F96830BBCEE1DA"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/capture_manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/capture_manifest.json",
+      "pass": true,
+      "observed": "5A70E778D87F6A0F3C3A230490D05AEDBA216CC884DCAD05C9FF0F81EF9120B0",
+      "expected": "5A70E778D87F6A0F3C3A230490D05AEDBA216CC884DCAD05C9FF0F81EF9120B0"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/probe_adjudication.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/probe_adjudication.json",
+      "pass": true,
+      "observed": "A7659817EBAE83EFE9176B8F9176ACA6BBA017F7004F07501CC04D61357D0566",
+      "expected": "A7659817EBAE83EFE9176B8F9176ACA6BBA017F7004F07501CC04D61357D0566"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf",
+      "pass": true,
+      "observed": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607",
+      "expected": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026.xls",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026.xls",
+      "pass": true,
+      "observed": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+      "expected": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf",
+      "pass": true,
+      "observed": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8",
+      "expected": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/eurostat_prodcom_es_16101035_2024_primary.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/eurostat_prodcom_es_16101035_2024_primary.json",
+      "pass": true,
+      "observed": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6",
+      "expected": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026_workbook_inspection.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026_workbook_inspection.json",
+      "pass": true,
+      "observed": "2154F907206643EB8CBD0EDBCA1037E503F0E297634002D8726E447CD4F8A903",
+      "expected": "2154F907206643EB8CBD0EDBCA1037E503F0E297634002D8726E447CD4F8A903"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_document_inspection.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_document_inspection.json",
+      "pass": true,
+      "observed": "9F688B57A7EEE0D1A07F362F1CB60644FB1D3CDED80DAC8319D56F5314636FD0",
+      "expected": "9F688B57A7EEE0D1A07F362F1CB60644FB1D3CDED80DAC8319D56F5314636FD0"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf.pdfplumber.txt",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf.pdfplumber.txt",
+      "pass": true,
+      "observed": "6688C1C01A43161D7D62A44BCEFFFDDBA8300B796CED85E78496FBF6203358D4",
+      "expected": "6688C1C01A43161D7D62A44BCEFFFDDBA8300B796CED85E78496FBF6203358D4"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf.pdfplumber.txt",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf.pdfplumber.txt",
+      "pass": true,
+      "observed": "0F50FA37867D03A6938844C7477FF1263482162BFD2FD01852B5CAF4FEC1B4B6",
+      "expected": "0F50FA37867D03A6938844C7477FF1263482162BFD2FD01852B5CAF4FEC1B4B6"
+    },
+    {
+      "name": "receipt.contract_hash",
+      "pass": true,
+      "observed": "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523",
+      "expected": "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523"
+    },
+    {
+      "name": "probe.preregistered_before_acquisition",
+      "pass": true,
+      "observed": "PREREGISTERED_BEFORE_BYTE_ACQUISITION",
+      "expected": "PREREGISTERED_BEFORE_BYTE_ACQUISITION"
+    },
+    {
+      "name": "probe.prereg_hash_manifest",
+      "pass": true,
+      "observed": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00",
+      "expected": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00"
+    },
+    {
+      "name": "probe.capture_count",
+      "pass": true,
+      "observed": 6,
+      "expected": 6
+    },
+    {
+      "name": "capture.http_200.indec_ipi_landing_page.html",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.indec_ipi_landing_page.html",
+      "pass": true,
+      "observed": "BEEAC554645AC47759CF073CA5162C655445705912831B478D50DA6E879C7C05",
+      "expected": "BEEAC554645AC47759CF073CA5162C655445705912831B478D50DA6E879C7C05"
+    },
+    {
+      "name": "capture.header_hash.indec_ipi_landing_page.html",
+      "pass": true,
+      "observed": "659212FB2FE49A01CFCF764F8957E83F199CA0D27EB02A3411F588778CE355EF",
+      "expected": "659212FB2FE49A01CFCF764F8957E83F199CA0D27EB02A3411F588778CE355EF"
+    },
+    {
+      "name": "capture.http_200.indec_ipi_2026_06_report.pdf",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.indec_ipi_2026_06_report.pdf",
+      "pass": true,
+      "observed": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607",
+      "expected": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607"
+    },
+    {
+      "name": "capture.header_hash.indec_ipi_2026_06_report.pdf",
+      "pass": true,
+      "observed": "EB66625B8785D6EB03102013584B1C00C09939C1274E0EEB89337CD4251F81D2",
+      "expected": "EB66625B8785D6EB03102013584B1C00C09939C1274E0EEB89337CD4251F81D2"
+    },
+    {
+      "name": "capture.http_200.indec_ipi_series_2026.xls",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.indec_ipi_series_2026.xls",
+      "pass": true,
+      "observed": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+      "expected": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943"
+    },
+    {
+      "name": "capture.header_hash.indec_ipi_series_2026.xls",
+      "pass": true,
+      "observed": "B4C54AA3E92A237BFC0B0F2DCC7A1152A1803EE027047B5109F0FD60602706B8",
+      "expected": "B4C54AA3E92A237BFC0B0F2DCC7A1152A1803EE027047B5109F0FD60602706B8"
+    },
+    {
+      "name": "capture.http_200.indec_ucii_landing_page.html",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.indec_ucii_landing_page.html",
+      "pass": true,
+      "observed": "844DE2600A37BEA12072381107C02F2ACB0B9DE34669B7330B7C6EDAA9CF1BF2",
+      "expected": "844DE2600A37BEA12072381107C02F2ACB0B9DE34669B7330B7C6EDAA9CF1BF2"
+    },
+    {
+      "name": "capture.header_hash.indec_ucii_landing_page.html",
+      "pass": true,
+      "observed": "EDE90ED6F17357FF3C8312936825D70C002A4A46E913E365A4F6705D2B5902DD",
+      "expected": "EDE90ED6F17357FF3C8312936825D70C002A4A46E913E365A4F6705D2B5902DD"
+    },
+    {
+      "name": "capture.http_200.indec_ucii_2026_06_report.pdf",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.indec_ucii_2026_06_report.pdf",
+      "pass": true,
+      "observed": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8",
+      "expected": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8"
+    },
+    {
+      "name": "capture.header_hash.indec_ucii_2026_06_report.pdf",
+      "pass": true,
+      "observed": "789398B98BBF46FCAD73162A50128CD27C17C2F872E49DD626674575E793E5D0",
+      "expected": "789398B98BBF46FCAD73162A50128CD27C17C2F872E49DD626674575E793E5D0"
+    },
+    {
+      "name": "capture.http_200.eurostat_prodcom_es_16101035_2024_primary.json",
+      "pass": true,
+      "observed": 200,
+      "expected": 200
+    },
+    {
+      "name": "capture.raw_hash.eurostat_prodcom_es_16101035_2024_primary.json",
+      "pass": true,
+      "observed": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6",
+      "expected": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6"
+    },
+    {
+      "name": "capture.header_hash.eurostat_prodcom_es_16101035_2024_primary.json",
+      "pass": true,
+      "observed": "DFDB6D3CAD25FA12027B764356A25442B29A30B720341015AAB8FE1F3AE10AF2",
+      "expected": "DFDB6D3CAD25FA12027B764356A25442B29A30B720341015AAB8FE1F3AE10AF2"
+    },
+    {
+      "name": "probe.no_fit",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "probe.no_forecast",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "probe.no_score",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "probe.no_reconstruction",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "probe.no_pooling",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "probe.no_bulk",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "prodcom.dimensions",
+      "pass": true,
+      "observed": "freq,reporter,product,indicators,time",
+      "expected": "freq,reporter,product,indicators,time"
+    },
+    {
+      "name": "prodcom.shape",
+      "pass": true,
+      "observed": "1,1,1,3,1",
+      "expected": "1,1,1,3,1"
+    },
+    {
+      "name": "prodcom.reporter_ES",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "prodcom.product_16101035",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "prodcom.time_2024",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "prodcom.empty_value",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "prodcom.not_estimable",
+      "pass": true,
+      "observed": "NOT_ESTIMABLE_NO_CELL",
+      "expected": "NOT_ESTIMABLE_NO_CELL"
+    },
+    {
+      "name": "prodcom.no_post_hoc_substitution",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "indec.raw_integrity",
+      "pass": true,
+      "observed": "PASS_ALL_CAPTURE_HASHES_RECOMPUTED",
+      "expected": "PASS_ALL_CAPTURE_HASHES_RECOMPUTED"
+    },
+    {
+      "name": "indec.IPI_original",
+      "pass": true,
+      "observed": 119.9,
+      "expected": 119.9
+    },
+    {
+      "name": "indec.IPI_yoy",
+      "pass": true,
+      "observed": 2.0,
+      "expected": 2.0
+    },
+    {
+      "name": "indec.IPI_ytd",
+      "pass": true,
+      "observed": -2.2,
+      "expected": "-2.2"
+    },
+    {
+      "name": "indec.IPI_rising_9_of_16",
+      "pass": true,
+      "observed": [
+        9,
+        16
+      ],
+      "expected": [
+        9,
+        16
+      ]
+    },
+    {
+      "name": "indec.IPI_wood_yoy",
+      "pass": true,
+      "observed": 17.3,
+      "expected": 17.3
+    },
+    {
+      "name": "indec.IPI_abstains",
+      "pass": true,
+      "observed": "ABSTAIN_UNTIL_STRUCTURED_SERIES_OR_FUTURE_FREEZE",
+      "expected": "ABSTAIN_UNTIL_STRUCTURED_SERIES_OR_FUTURE_FREEZE"
+    },
+    {
+      "name": "indec.UCII_general",
+      "pass": true,
+      "observed": 59.1,
+      "expected": 59.1
+    },
+    {
+      "name": "indec.UCII_observer_only",
+      "pass": true,
+      "observed": "OBSERVER_ONLY_UNTIL_SEPARATE_CAUSAL_PREREGISTRATION",
+      "expected": "OBSERVER_ONLY_UNTIL_SEPARATE_CAUSAL_PREREGISTRATION"
+    },
+    {
+      "name": "indec.XLS_blocker_preserved",
+      "pass": true,
+      "observed": "READ_ONLY_XLS_BINARY_INSPECTION_BLOCKED",
+      "expected": "READ_ONLY_XLS_BINARY_INSPECTION_BLOCKED"
+    },
+    {
+      "name": "coral.no_new_causal_score",
+      "pass": true,
+      "observed": "BETTER_OBSERVATIONAL_CUSTODY_BUT_NO_NEW_CAUSAL_SCORE",
+      "expected": "BETTER_OBSERVATIONAL_CUSTODY_BUT_NO_NEW_CAUSAL_SCORE"
+    },
+    {
+      "name": "contract.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "contract.no_automatic_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    }
+  ]
+}

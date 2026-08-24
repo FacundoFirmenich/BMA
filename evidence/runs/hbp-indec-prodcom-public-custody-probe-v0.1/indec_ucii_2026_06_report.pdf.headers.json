@@ -1,0 +1,23 @@
+{
+  "requested_url": "https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_08_26EE16AEA30D.pdf",
+  "final_url": "https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_08_26EE16AEA30D.pdf",
+  "requested_at_utc": "2026-08-21T23:31:15.342536+00:00",
+  "completed_at_utc": "2026-08-21T23:31:19.408188+00:00",
+  "http_status": 200,
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 14 Aug 2026 18:06:30 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"b37f9a1172cdd1:0\"",
+    "Server": "X",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM https://censo.gob.ar",
+    "X-Xss-Protection": "1; mode=block",
+    "Content-Security-Policy": "default-src 'self' 'unsafe-inline'  https://www.google-analytics.com  https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar; script-src  'self' 'unsafe-inline' https://www.google-analytics.com https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar; img-src 'self' 'unsafe-inline' data: http://www.google-analytics.com https://www.google-analytics.com http://www.google.com https://www.google.com  https://www.google.com.ar https://stats.g.doubleclick.net https://tracker.metricool.com/; script-src-elem 'self' 'unsafe-inline' http://www.google-analytics.com https://www.google-analytics.com https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar https://www.googletagmanager.com/; connect-src 'self' 'unsafe-inline' http://www.google-analytics.com https://www.google-analytics.com http://www.google.com https://www.google.com  https://www.google.com.ar https://stats.g.doubleclick.net https://analytics.google.com/;  frame-src http://preprdcarga.indec.gob.ar/ http://www.youtube.com https://www.youtube.com https://app.powerbi.com/ https://www.google-analytics.com  https://www.gstatic.com http://www.google.com https://www.google.com https://www.google.com.ar https://indecbeta.shinyapps.io/ https://open.spotify.com/ https://anchor.fm/ https://podcasters.spotify.com/ https://view.genial.ly/ https://www.indec.gob.ar/ https://embed-standalone.spotify.com/ https://shiny.indec.gob.ar/ https://view.genially.com/ https://td.doubleclick.net/;",
+    "Date": "Fri, 21 Aug 2026 23:31:16 GMT",
+    "Connection": "close",
+    "Content-Length": "3438500",
+    "Set-Cookie": "cookiesession1=678A3F51F2BD36683BDFB7C8A15C5D9A;Expires=Sat, 21 Aug 2027 23:31:16 GMT;Path=/;HttpOnly"
+  },
+  "error": null
+}

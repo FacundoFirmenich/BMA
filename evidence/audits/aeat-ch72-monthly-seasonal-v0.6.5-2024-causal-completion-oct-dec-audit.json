@@ -1,0 +1,52 @@
+{
+  "schema_version": "bma.audit.aeat.chapter72.monthly-seasonal.causal-completion-2024.v0.6.5",
+  "status": "PASS",
+  "failures": [],
+  "checked_manifest_files": 17,
+  "run_files_including_manifest": 18,
+  "run_bytes": 27153727,
+  "counts": {
+    "freezes": 3,
+    "structured_months": 3,
+    "adjudications": 3,
+    "priors": 3,
+    "z_post": 3,
+    "sequence_events": 9
+  },
+  "hashes": {
+    "run_manifest_sha256": "2d4fa1ad70d028700946ff7ec286001359f601378ef5bf98db0bde3f815ff1e7",
+    "run_result_sha256": "e46979df9caad9d38441a670be8f530da55fbaef05580bd03b5b4891bedc3afc",
+    "runner_sha256": "95caaf98b16b60b83bfdcb049fdcf389802f4f45c51836a555f9af24fb1732b6",
+    "continuation_source_manifest_sha256": "d365286045a699def2eb0c7c9252a09ea33cd7b4360ba8553efcc53829e97bd4",
+    "december_adjudication_sha256": "6a88ff04e36559d49e01b917d5d73fd3260b98768a4d057f8fff0ccf5be024d0",
+    "december_future_prior_sha256": "f5567f30de01d0111a68ebfd85b58dc9c21601a3f4f02612dcc98a37f8abb3b1"
+  },
+  "chronology": "PASS_FREEZE_THEN_OPEN_THEN_ADJUDICATE_AND_Z_POST_FOR_EACH_MONTH",
+  "local_adjudications": {
+    "participation_2024_10": {
+      "M0": 0.11098371810905916,
+      "M1": 0.1113356399903527,
+      "M2": 0.11095631408951906,
+      "M2_minus_M0": -0.00002740401954010041,
+      "M2_local_win": true
+    },
+    "participation_2024_11": {
+      "M0": 0.11024650521885584,
+      "M1": 0.11114651932688108,
+      "M2": 0.1087449676197603,
+      "M2_minus_M0": -0.0015015375990955482,
+      "M2_local_win": true
+    },
+    "quantity_2024_10_11": "NO_SEASONAL_LOCAL_WIN",
+    "unit_value_2024_10_11": "NO_SEASONAL_LOCAL_WIN",
+    "december": "RECORDED_AND_POSTERIOR_UPDATED_BUT_PRIMARY_ADJUDICATION_ABSTAINS_YEAR_END_UNCALIBRATED"
+  },
+  "active_campaign_processes_after_audit": 0,
+  "claim_boundary": {
+    "retrospective": true,
+    "blind": false,
+    "prospective_validation": false,
+    "promotion": "PROHIBITED",
+    "aggregate_winner": null
+  }
+}

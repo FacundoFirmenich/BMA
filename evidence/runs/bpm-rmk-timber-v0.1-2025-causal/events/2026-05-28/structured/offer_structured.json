@@ -1,0 +1,166 @@
+{
+  "schema_version": "bpm.rmk.offer-structured.v0.1",
+  "event_date": "2026-05-28",
+  "source_file": ".\\evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2026-05-28\\raw\\Myygiobjektid_28_05_2026.xlsx",
+  "source_sha256": "BECAF1D777E3F9725C43E08B483B04AE3EF325C86A4F94C8D9F59B23AFC1DB85",
+  "source_bytes": 34733,
+  "result_payload_opened": false,
+  "object_count": 5,
+  "advertised_volume_m3": 10166,
+  "all_location_totals_match": true,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Haavapalk",
+      "advertised_region": "Kagu regioon",
+      "quality_and_measurement_standard": "LAOKAUP ! RMK palkide standard; tabel 3.1 haavapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 3,0 m (+ülemõõt)",
+      "delivery_period": "2.06.2026 - 20.06.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 400,
+          "region": "Kagu regioon",
+          "starting_price_eur_m3": 65
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "16-24,4",
+          "starting_price_eur_m3": 65,
+          "quality_override": "LAOKAUP ! RMK palkide standard; tabel 3.1 haavapalkide kvaliteedinõuded; diam 16-60 cm, pikkus 3,0 m (+ülemõõt)"
+        },
+        {
+          "diameter_or_class": "24,5-60",
+          "starting_price_eur_m3": 75,
+          "quality_override": null
+        }
+      ],
+      "advertised_volume_m3": 400,
+      "location_sheet_total_m3": null,
+      "location_component_sum_m3": 400,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepaberipuit",
+      "advertised_region": "Edela regioon",
+      "quality_and_measurement_standard": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 4859,
+          "region": "Edela regioon",
+          "starting_price_eur_m3": 56
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 56,
+          "quality_override": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 4859,
+      "location_sheet_total_m3": null,
+      "location_component_sum_m3": 4859,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 3,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Edela regioon",
+      "quality_and_measurement_standard": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2307,
+          "region": "Edela regioon",
+          "starting_price_eur_m3": 54
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 54,
+          "quality_override": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 2307,
+      "location_sheet_total_m3": null,
+      "location_component_sum_m3": 2307,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 4,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Sillamäe sadam",
+      "quality_and_measurement_standard": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 2400,
+          "region": "Sillamäe sadam",
+          "starting_price_eur_m3": 54
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 54,
+          "quality_override": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 2400,
+      "location_sheet_total_m3": null,
+      "location_component_sum_m3": null,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_ADVERTISED_STOCKLOT_NO_COMPONENT_SHEET",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 5,
+      "product": "Männipaberipuit",
+      "advertised_region": "Sillamäe sadam",
+      "quality_and_measurement_standard": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m",
+      "delivery_period": "02.06.2026 - 22.06.2026",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 200,
+          "region": "Sillamäe sadam",
+          "starting_price_eur_m3": 54
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 54,
+          "quality_override": "LAOKAUP! RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 200,
+      "location_sheet_total_m3": null,
+      "location_component_sum_m3": null,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_ADVERTISED_STOCKLOT_NO_COMPONENT_SHEET",
+      "location_total_matches": true
+    }
+  ],
+  "notes": [
+    "*) Diameetrivahemikud on jagamatud ja eraldi sorteerimisele ei kuulu.",
+    "**) Minimaalne vastuvõetav ostusoov müügiobjekti kohta on 60 m3. Ostja võtab teadmiseks, et metsamaterjal müüakse FSC ja/või PEFC sertifitseerituna ning müügiobjekt on tervik ja serdi alusel eraldi müümisele ei kuulu. Pakkuja pakkumus loetakse vaikimisi esitatuks FSC ja/või PEFC serditud metsamaterjalile.",
+    "***)  Hinnapakkumine müügiobjektile 1 esitada etteantud diameetrigruppide lõikes, müügiobjekti iga diameetrigrupi pakutud ostuhind ei tohi olla madalam alghinnast. Müügiotsus põhineb müügiobjekti kõigi  diameetrigruppide kaalutud keskmisel hinnal. Pakkumiste hindamisel arvestab müügi korraldaja diameetrigruppide mahtusid järgmiselt: müügiobjekt 1:  diam  16-24,4 cm 23%, 24,5-60 cm 77% kogusest. Müügiobjektile 1 esitatud pakkumiste omavahelisel kaalumisel kasutatavad diameetrigruppide mahuproportsioonid ei oma siduvat iseloomu müügilepingu sõlmimisel ja täitmisel.\nMüügilepingus sätestatakse  haavapalgi praagile hind 30,00 EUR/m3  ja paberipuidu praagile hind 20,00 EUR/m3."
+  ],
+  "stocklot_location_semantics_repair": {
+    "changed_object_ids": [
+      4,
+      5
+    ],
+    "advertised_volumes_changed": false,
+    "component_values_imputed": false
+  }
+}

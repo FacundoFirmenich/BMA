@@ -1,0 +1,72 @@
+{
+  "schema_version": "bpm.rmk.offer-structured.v0.1",
+  "event_date": "2025-10-21",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-10-21\\raw\\Myygiobjektid_21.10.2025.xlsx",
+  "source_sha256": "FA84AA675EA4789B25F2F82DA735131000983F7B1EB5B4EAAB6EED20BFEFAC2A",
+  "source_bytes": 22154,
+  "result_payload_opened": false,
+  "object_count": 2,
+  "advertised_volume_m3": 33587,
+  "all_location_totals_match": true,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "advertised_region": "Edela ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m",
+      "delivery_period": "23.10.2025-31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 26092,
+          "region": "Edela ja Kirde regioon",
+          "starting_price_eur_m3": 52
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 52,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.1; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 26092,
+      "location_sheet_total_m3": 26092,
+      "location_component_sum_m3": 26092,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "advertised_region": "Edela ja Kirde regioon",
+      "quality_and_measurement_standard": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "23.10.2025-31.12.2025",
+      "quantity_components": [
+        {
+          "approximate_volume_m3": 7495,
+          "region": "Edela ja Kirde regioon",
+          "starting_price_eur_m3": 50
+        }
+      ],
+      "price_classes": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 50,
+          "quality_override": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m"
+        }
+      ],
+      "advertised_volume_m3": 7495,
+      "location_sheet_total_m3": 7495,
+      "location_component_sum_m3": 7495,
+      "location_exact_duplicate_rows": [],
+      "location_volume_state": "VERIFIED_STATED_TOTAL_AND_COMPONENT_SUM",
+      "location_total_matches": true
+    }
+  ],
+  "notes": [
+    "*) Diameetrivahemikud on jagamatud ja eraldi sorteerimisele ei kuulu.",
+    "**) Minimaalne vastuvõetav ostusoov müügiobjekti kohta on 60 m3. Ostja võtab teadmiseks, et metsamaterjal müüakse FSC ja/või PEFC sertifitseerituna ning müügiobjekt on tervik ja serdi alusel eraldi müümisele ei kuulu. Pakkuja pakkumus loetakse vaikimisi esitatuks FSC ja/või PEFC serditud metsamaterjalile. FOB tarnetingimusel pakkumuse esitamisel lisada ostusoovile info minimaalsest kogusest, millest väiksema eduka koguse korral pakkuja loobub pakkumusest.",
+    "***)   paberipuidu praagi hind 20,00 EUR/m3."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-result-structured.v0.1",
+  "event_date": "2025-03-20",
+  "protocol_date": "2025-03-24",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-03-20\\raw\\Edukad_EP_20.03.2025.xlsx",
+  "source_sha256": "6002F2E0D77797BA2FD6CC480CE321F20FF1FC5951C8CF146DA5E34FD714C8CC",
+  "source_bytes": 22882,
+  "frozen_offer_sha256": "4D0462BC42932A60C25A1B4F3A0FB94AE727D0BCC6A4BA7D1D53323942E11456",
+  "conversion_source": "OFFER_FROZEN_BEFORE_RESULT",
+  "conversion_m3_to_pm3": 2.78,
+  "award_row_count": 2,
+  "total_awarded_volume_pm3": 18794,
+  "total_awarded_volume_m3": 6760.431654676259,
+  "approximate_offer_volume_m3": 6759,
+  "approximate_coverage_ratio": 1.0002118145696492,
+  "coverage_state": "DIAGNOSTIC_ONLY_APPROXIMATE_OFFER_AND_UNIT_ROUNDING",
+  "local_outcomes": [
+    {
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Heltermaa",
+      "buyer": "HMPK OÜ",
+      "delivery_period": "15.04.2025 kuni 30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "awarded_volume_m3": 3561.151079136691,
+      "awarded_price_eur_m3": 48.6778,
+      "original_volume_pm3": 9900,
+      "original_price_eur_pm3": 17.51
+    },
+    {
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Kuressaare/Ninase",
+      "buyer": "United Loggers OÜ",
+      "delivery_period": "15.04.2025 kuni 30.06.2025",
+      "calendar_phase": "M04-M05-M06",
+      "awarded_volume_m3": 3199.2805755395684,
+      "awarded_price_eur_m3": 48.65,
+      "original_volume_pm3": 8894,
+      "original_price_eur_pm3": 17.5
+    }
+  ]
+}

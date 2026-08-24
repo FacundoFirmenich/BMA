@@ -1,0 +1,14 @@
+{
+  "schema_version": "bpm.rmk.unpaired-result-quarantine.v0.1",
+  "event_date": "2026-05-28",
+  "state": "QUARANTINE_UNPAIRED_RESULT_NO_FROZEN_OFFER_COMPONENT",
+  "result_url": "https://rmk.ee/wp-content/uploads/2026/05/Edukad_hake_EP_28.05.2026.xlsx",
+  "result_body_opened": false,
+  "offer_workbook_evidence": {
+    "raw_offer_sha256": "BECAF1D777E3F9725C43E08B483B04AE3EF325C86A4F94C8D9F59B23AFC1DB85",
+    "sheets": ["Müügiobjektid", "asukoht", "AT nr"],
+    "products": ["Haavapalk", "Kasepaberipuit", "Kuusepaberipuit", "Männipaberipuit"],
+    "hake_offer_component_found": false
+  },
+  "posterior_update_authorized": false
+}

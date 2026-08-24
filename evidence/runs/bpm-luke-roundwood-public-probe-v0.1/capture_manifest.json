@@ -1,0 +1,97 @@
+{
+  "schema": "bpm-luke-roundwood-public-probe-manifest/v0.1",
+  "classification": "BOUNDED_SCHEMA_AND_SINGLE_PRODUCT_CELL_PROBE",
+  "preregistration": {
+    "path": "preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1.json",
+    "sha256": "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7"
+  },
+  "amendment": {
+    "path": "preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_AMENDMENT_A1.json",
+    "sha256": "05F0B5D5C1638A84642943C50223BE9E0B62A258B5402486A8D042E8424C76AD"
+  },
+  "metadata": {
+    "url": "https://statdb.luke.fi/PxWeb/api/v1/en/LUKE/met/teokau/kk/0100_teokau.px",
+    "http_status": 200,
+    "bytes": 2835,
+    "sha256": "EEEC4DD5228206B0054CB53615AD65E23986A9C1D2E4877376173137C6B7C05E",
+    "variable_count": 5,
+    "variables": [
+      {
+        "code": "INFO",
+        "text": "Information",
+        "value_count": 2,
+        "time": false
+      },
+      {
+        "code": "M",
+        "text": "Month",
+        "value_count": 79,
+        "time": true
+      },
+      {
+        "code": "MPKH",
+        "text": "Price region (8 price regions)",
+        "value_count": 9,
+        "time": false
+      },
+      {
+        "code": "KAUP",
+        "text": "Type of sale",
+        "value_count": 6,
+        "time": false
+      },
+      {
+        "code": "PTL",
+        "text": "Roundwood assortment",
+        "value_count": 12,
+        "time": false
+      }
+    ]
+  },
+  "selection": {
+    "month": "2026M07",
+    "price_region": "SSS",
+    "type_of_sale": "PKAUP",
+    "roundwood_assortment": "TUK_KU",
+    "information": [
+      "M3T",
+      "E_M3"
+    ],
+    "query_sha256": "817B95891F49276F9CF6434BF4A3B14B9AEBD8A48F75334ACBE725C98DF6AE09"
+  },
+  "data": {
+    "http_status": 200,
+    "bytes": 2052,
+    "sha256": "16CFF01C7D93877584F585AB5DEF82360FC0BA65EF2B6F4554CAE4E13EC4529E",
+    "observed_value_count": 2,
+    "id": [
+      "INFO",
+      "M",
+      "MPKH",
+      "KAUP",
+      "PTL"
+    ],
+    "size": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "invariants": {
+    "remote_metadata_gets": 1,
+    "metadata_get_performed_in_this_recovery_invocation": false,
+    "remote_data_posts": 1,
+    "bulk_download": false,
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "posterior_updated": false,
+    "Z_post_updated": false,
+    "historical_freeze_reconstructed": false,
+    "cross_source_pooling": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  }
+}

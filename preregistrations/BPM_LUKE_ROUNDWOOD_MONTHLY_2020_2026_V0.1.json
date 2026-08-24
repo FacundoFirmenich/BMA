@@ -1,0 +1,189 @@
+{
+  "preregistration_id": "BPM_LUKE_ROUNDWOOD_MONTHLY_2020_2026_V0.1",
+  "frozen_at": "2026-08-22",
+  "status": "FROZEN_BEFORE_HISTORICAL_VALUE_ACQUISITION",
+  "governing_objective": "Evaluate, under a frozen retrospective prequential protocol, whether annual calendar structure improves one-month-ahead forecasts of physical purchase volume or nominal unit price in one exact Finnish industrial-roundwood jurisdiction, and freeze the next genuinely prospective monthly target without pooling jurisdictions.",
+  "chronology_before_freeze": {
+    "metadata_opened": true,
+    "metadata_month_support": ["2020M01", "2026M07"],
+    "single_preopened_cell": {
+      "month": "2026M07",
+      "volume_m3": 429000,
+      "price_eur_per_m3": 83.14,
+      "source": "evidence/runs/bpm-luke-roundwood-public-probe-v0.1/probe_adjudication.json",
+      "classification": "POST_RELEASE_PROBE_NO_HISTORICAL_SCORE_AUTHORITY"
+    },
+    "other_historical_values_opened": false,
+    "historical_first_release_vintages_available": false,
+    "software_tests_used_synthetic_values_only": true,
+    "synthetic_values_have_scientific_authority": false
+  },
+  "source": {
+    "publisher": "Natural Resources Institute Finland (Luke)",
+    "endpoint": "https://statdb.luke.fi/PxWeb/api/v1/en/LUKE/met/teokau/kk/0100_teokau.px",
+    "table": "Volumes and prices in industrial roundwood trade by Information, Month, Price region, Type of sale and Roundwood assortment",
+    "series_classification": "CURRENT_SERIES_CAPTURE_NOT_HISTORICAL_FIRST_RELEASE_VINTAGES",
+    "revision_notes_present": true,
+    "official_statistics_flag_discrepancy_preserved": true
+  },
+  "jurisdiction": {
+    "country": "Finland",
+    "price_region_code": "SSS",
+    "price_region_label": "WHOLE COUNTRY",
+    "sale_type_code": "PKAUP",
+    "sale_type_label": "Standing sales",
+    "roundwood_assortment_code": "TUK_KU",
+    "roundwood_assortment_label": "Spruce logs",
+    "calendar_frequency": "monthly",
+    "authority_unit": "country x price region x sale type x product x target x month x vintage class"
+  },
+  "bounded_acquisition": {
+    "remote_metadata_gets": 0,
+    "remote_data_posts": 1,
+    "response_format": "json-stat2",
+    "information_codes": ["M3T", "E_M3"],
+    "month_codes": {
+      "first": "2020M01",
+      "last": "2026M07",
+      "count": 79,
+      "contiguous": true
+    },
+    "dimension_codes": {
+      "INFO": ["M3T", "E_M3"],
+      "M": "all 79 frozen month codes in chronological order",
+      "MPKH": ["SSS"],
+      "KAUP": ["PKAUP"],
+      "PTL": ["TUK_KU"]
+    },
+    "maximum_cells": 158,
+    "bulk_or_recursive_download": false,
+    "alternate_product_region_sale_type_or_month": false
+  },
+  "targets": {
+    "volume": {
+      "source_information_code": "M3T",
+      "source_unit": "1,000 m3",
+      "canonical_unit": "m3",
+      "conversion": "source value multiplied by 1000",
+      "transform": "log1p(volume_m3)",
+      "valid_support": "finite and >= 0"
+    },
+    "price": {
+      "source_information_code": "E_M3",
+      "source_unit": "EUR/m3",
+      "canonical_unit": "nominal EUR/m3",
+      "conversion": "identity",
+      "transform": "log(price_eur_per_m3)",
+      "valid_support": "finite and > 0"
+    }
+  },
+  "sequence": {
+    "rule": "each observed month predicts exactly the immediately following calendar month",
+    "first_training_month": "2020-01",
+    "first_target_month": "2020-02",
+    "last_retrospective_target_month": "2026-07",
+    "retrospective_transition_count": 78,
+    "year_partitions": {
+      "2020": {"targets": 11, "seasonal_models_forecast_in_shadow_as_M0": true},
+      "2021": {"targets": 12, "seasonal_models_active": true},
+      "2022": {"targets": 12, "seasonal_models_active": true},
+      "2023": {"targets": 12, "seasonal_models_active": true},
+      "2024": {"targets": 12, "seasonal_models_active": true},
+      "2025": {"targets": 12, "seasonal_models_active": true},
+      "2026": {"targets": 7, "seasonal_models_active": true}
+    },
+    "posterior_reset_at_year_boundary": false,
+    "Z_post_reset_at_year_boundary": false,
+    "N_months_condensed_to_one_target": false,
+    "future_target": "2026-08",
+    "future_target_present_in_capture": false
+  },
+  "model_family": {
+    "response": "one-month innovation in the target-specific transformed level",
+    "M0": "intercept plus previous one-month innovation",
+    "M1": "M0 plus annual Fourier sine/cosine pairs at harmonics k=1 and k=2",
+    "M2": "M1 plus eleven exact zero-sum calendar-month contrasts with shrinkage",
+    "all_model_posteriors_update_after_each_adjudication": true,
+    "cross_target_parameter_sharing": false,
+    "cross_jurisdiction_parameter_sharing": false
+  },
+  "frozen_priors": {
+    "coefficient_prior_mean": 0.0,
+    "base_precision_diagonal": [16.0, 8.0],
+    "harmonic_precision_diagonal": [16.0, 16.0, 24.0, 24.0],
+    "month_residual_precision_each": 48.0,
+    "normal_inverse_gamma": {
+      "volume": {"a0": 3.0, "b0": 0.5},
+      "price": {"a0": 3.0, "b0": 0.02}
+    },
+    "predictive_distribution": "Student-t",
+    "component_interval_mass": 0.9
+  },
+  "prequential_weights": {
+    "scope": "separate for volume and price",
+    "initial_log_evidence": {"M0": 0.0, "M1": 0.0, "M2": 0.0},
+    "update_statistic": "post-outcome component Student-t log predictive density",
+    "normalization": "log-sum-exp",
+    "probability_floor_for_mixture_score": 1e-12,
+    "2020_bootstrap": "M1 and M2 emit the frozen M0 predictive distribution while their hidden parameter states learn; identical scores preserve equal weights",
+    "preopened_2026_07": "parameter states update for the future 2026-08 freeze, but model-weight evidence and score aggregates do not update",
+    "update_before_outcome": false
+  },
+  "support_and_abstention_gates": {
+    "exact_cube_id": ["INFO", "M", "MPKH", "KAUP", "PTL"],
+    "exact_cube_size": [2, 79, 1, 1, 1],
+    "exact_dense_cell_count": 158,
+    "missing_value": "NOT_ESTIMABLE_INCOMPLETE_PANEL with no fit, forecast, posterior or Z_post",
+    "nonempty_source_status": "NOT_ESTIMABLE_UNINTERPRETED_SOURCE_STATUS with no fit, forecast, posterior or Z_post",
+    "invalid_physical_support": "hard GateFailure before fit",
+    "unexpected_dimension_code_order_or_month_support": "hard GateFailure before fit",
+    "mixture_interval": "NOT_ESTIMATED_MIXTURE_OF_STUDENT_T_COMPONENTS"
+  },
+  "evaluation": {
+    "historical_classification": "RETROSPECTIVE_SEQUENTIAL_DEVELOPMENT_ON_ONE_CURRENT_SERIES_VINTAGE",
+    "historical_first_release_causal_score_authority": false,
+    "2026_07_score_authority": false,
+    "primary_rows": "target x target_month x model",
+    "metrics": ["transformed-space log predictive density", "absolute transformed-level error"],
+    "baseline": "previous transformed level",
+    "year_summaries": "DIAGNOSTIC_ONLY",
+    "calendar_phase_summaries": "DIAGNOSTIC_ONLY",
+    "cross_target_metric_comparison": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "recovery_and_immutability": {
+    "capture_final_directory_must_not_preexist": true,
+    "run_final_directory_must_not_preexist": true,
+    "capture_writes_to_unique_hidden_staging_then_atomic_rename": true,
+    "run_writes_to_unique_hidden_staging_then_atomic_rename": true,
+    "capture_transport_or_validation_failure": "preserve staging and stop; no second POST without a new frozen amendment",
+    "local_runner_failure": "preserve staging and error; code change requires a new hash-linked amendment before scientific execution",
+    "overwrite_or_rewrite_existing_final_artifacts": false,
+    "destructive_cleanup": false
+  },
+  "required_artifacts": [
+    "immutable bounded capture with query, response, headers and manifest",
+    "79 structured month records",
+    "156 target-specific freezes",
+    "156 target-specific adjudications",
+    "156 deterministic gzip posterior snapshots",
+    "156 target-specific Z_post records",
+    "seven no-reset year checkpoints",
+    "sequence ledger",
+    "result with target-local rows and diagnostic summaries",
+    "prospective 2026-08 freeze",
+    "hash manifest"
+  ],
+  "prohibitions": [
+    "no historical acquisition before this preregistration and its software addendum are frozen and publicly pushed",
+    "no second remote data POST under this version",
+    "no fitting or selection after viewing historical values outside the frozen runner",
+    "no reconstructed historical freeze described as a first-release prospective forecast",
+    "no pooling with Argentina, Eurostat, RMK, AEAT, Puertos, TED or any other jurisdiction",
+    "no winner inferred from year, phase, target or cross-source aggregation",
+    "no reset of posterior, Z_post or model weights at a year boundary",
+    "no use of raw outcomes to update a future prior except through frozen adjudication and Z_post",
+    "no automatic promotion to BIND, production or commercial readiness"
+  ]
+}

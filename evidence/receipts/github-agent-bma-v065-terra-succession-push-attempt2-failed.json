@@ -1,0 +1,15 @@
+{
+  "schema_version": "bma.github.push.failure-receipt.v1",
+  "branch": "agent/bma-v065-terra-succession",
+  "local_head_before_attempt": "16fdb4e",
+  "remote_head_before_and_after_attempt": "7525d19ca9dcba54a47065ff870d54d85516ba56",
+  "attempt": 2,
+  "runtime_session_id": 28855,
+  "transport": "command-scoped HTTP/1.1",
+  "exit_code": 1,
+  "error": "RPC failed; curl 55 Send failure: Connection was reset; remote end hung up unexpectedly",
+  "remote_update": false,
+  "authentication_failure": false,
+  "next_repair": "fast-forward the same branch through ordered commit cuts with command-scoped HTTP/1.1 and enlarged post buffer, verifying remote hash after every cut",
+  "forbidden_branch_touched": false
+}

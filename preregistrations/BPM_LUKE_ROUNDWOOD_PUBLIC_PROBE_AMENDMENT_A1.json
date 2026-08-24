@@ -1,0 +1,63 @@
+{
+  "amendment_id": "BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_AMENDMENT_A1",
+  "frozen_at": "2026-08-22",
+  "status": "FROZEN_AFTER_METADATA_ONLY_BEFORE_ANY_DATA_VALUE",
+  "amends": {
+    "path": "preregistrations/BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1.json",
+    "sha256": "4259A1A5E7846AAD508F1D889B85625677B4883C8EF4E476D208071F30F214E7"
+  },
+  "observed_metadata_only": {
+    "path": "evidence/runs/bpm-luke-roundwood-public-probe-v0.1/luke_roundwood_metadata.json",
+    "sha256": "EEEC4DD5228206B0054CB53615AD65E23986A9C1D2E4877376173137C6B7C05E",
+    "data_post_already_used": false,
+    "data_values_opened": false
+  },
+  "reason": "PXWeb prefixes hierarchy display labels with one or two dots and labels the sole EUR per cubic metre measure as Price rather than repeating the word nominal. The first deterministic selector therefore stopped before POST.",
+  "frozen_exact_codes": {
+    "information_volume": {
+      "variable": "INFO",
+      "value": "M3T",
+      "label": "Volume (1,000 m³)"
+    },
+    "information_price": {
+      "variable": "INFO",
+      "value": "E_M3",
+      "label": "Price (EUR/m³)",
+      "classification": "current nominal unit price according to the official statistics documentation; no deflation in the probe"
+    },
+    "month": {
+      "variable": "M",
+      "value": "2026M07"
+    },
+    "price_region": {
+      "variable": "MPKH",
+      "value": "SSS",
+      "label": "WHOLE COUNTRY"
+    },
+    "type_of_sale": {
+      "variable": "KAUP",
+      "value": "PKAUP",
+      "label": "Standing sales"
+    },
+    "roundwood_assortment": {
+      "variable": "PTL",
+      "value": "TUK_KU",
+      "label": "..Spruce logs"
+    }
+  },
+  "authorized_correction": [
+    "strip leading hierarchy dots only when matching the already frozen English product label",
+    "select the unique INFO=E_M3 Price (EUR/m³) measure as the current nominal price",
+    "perform the original single data POST using only the exact codes above"
+  ],
+  "not_authorized": [
+    "no second metadata GET",
+    "no alternate month, region, sale type, assortment or information measure",
+    "no additional data POST if the exact-code request fails",
+    "no historical series acquisition",
+    "no fitting, forecast, score, posterior update, Z_post update or pooling"
+  ],
+  "scientific_authority_unchanged": "SCHEMA_AND_SINGLE_CELL_SUPPORT_ONLY",
+  "global_winner": null,
+  "automatic_promotion": false
+}

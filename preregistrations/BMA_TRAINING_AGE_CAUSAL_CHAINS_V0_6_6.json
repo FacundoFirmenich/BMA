@@ -1,0 +1,85 @@
+{
+  "schema_version": "bma.preregistration.training-age-causal-chains.v0.6.6",
+  "status": "FROZEN_AFTER_MAIN_2022_2024_CAMPAIGN_BEFORE_UNUSED_VALIDATION_TARGETS_OPENED",
+  "research_question": "How does the age of a continuously updated BMA posterior change next-month predictive loss when target month, calendar phase, algorithm and frozen support are held fixed?",
+  "estimand_boundary": "algorithmic effect of accumulated admissible monthly history; not a universal causal effect of data quantity and not a market-level superiority claim",
+  "primary_model": "M0 ordinary monthly posterior only",
+  "reason_primary_model": "isolate training age from seasonal model-selection effects",
+  "validation_data": {
+    "status": "NOT_OPENED_OR_ASSIGNED",
+    "first_eligible": "an untouched target year from 2025 onward with the identical monthly schema, or another untouched jurisdiction frozen before access",
+    "discovery_years_ineligible_for_confirmation": [2022, 2023, 2024],
+    "missing_or_schema_failed": "NOT_ESTIMABLE"
+  },
+  "age_panel": {
+    "nominal_ages_months": [12, 24, 36],
+    "definition": "number of consecutive one-month prediction transitions from the seed month through the aligned target month",
+    "seed_for_age_K": "target calendar month minus K months",
+    "calendar_alignment": "K must be a positive multiple of 12, therefore every arm starts in the same calendar phase and predicts the identical target",
+    "independent_posteriors": true,
+    "posterior_sharing_between_arms": false
+  },
+  "chain_contract": {
+    "seed": "apply the identical frozen M0 initializer to the arm-specific seed month",
+    "first_transition": "seed month predicts exactly seed month plus one",
+    "intermediate_transitions": "every intermediate month is frozen, opened, adjudicated and converted into the next posterior",
+    "final_transition": "target minus one predicts exactly the common target",
+    "posterior_reset": false,
+    "z_post_reset": false,
+    "pool_N_months_into_one_observation": false,
+    "skip_intermediate_predictions": false,
+    "future_target_access_before_freeze": false
+  },
+  "matched_comparison": {
+    "unit": "same target month, variable, cell and frozen support across age arms",
+    "support_construction": "intersection computed only from each arm's information available at target minus one; target outcomes cannot define support",
+    "participation": "paired Brier difference for identical candidate cells",
+    "quantity": "paired MALE difference conditional on realized participation and pre-target matched support",
+    "statistical_unit_value": "paired MALE difference conditional on realized participation and pre-target matched support",
+    "native_support_secondary": true,
+    "aggregate_winner": null
+  },
+  "local_outcomes": [
+    "OLDER_BETTER_LOCAL",
+    "YOUNGER_BETTER_LOCAL",
+    "LOCAL_TIE",
+    "NOT_ESTIMABLE"
+  ],
+  "uncertainty": {
+    "primary": "exact paired loss differences retained per target, age pair, variable and cell",
+    "dependence_diagnostic": "two-way clustered bootstrap by flow-CN4 grouping and partner, 2000 frozen-seed replicates, reported as a 90 percent interval without p-value promotion",
+    "bootstrap_seed": 66036,
+    "CN4_semantics": "administrative grouping used for dependence control, not asserted to be a unique physical product"
+  },
+  "calendar_panel": {
+    "ordinary_targets": "January through November of the untouched validation year, each adjudicated separately",
+    "december": "predictions and posterior update preserved, primary age adjudication ABSTAIN_YEAR_END_UNCALIBRATED",
+    "phase_reporting": "never merge different calendar months into a primary age claim"
+  },
+  "invariants": [
+    "identical software and hyperparameters across arms",
+    "identical target payload and metric across arms",
+    "one next-month freeze per arm per transition",
+    "no posterior reset within an arm",
+    "no cross-arm posterior pooling",
+    "no N-to-1 monthly condensation",
+    "no December substitution",
+    "all losses, ties, abstentions and NOT_ESTIMABLE states retained"
+  ],
+  "required_artifacts": [
+    "CHAIN_REGISTRY.json",
+    "one freeze, target receipt, adjudication, prior and Z_post per arm and transition",
+    "MATCHED_SUPPORT_BY_TARGET.json",
+    "LOCAL_AGE_ADJUDICATIONS.json",
+    "RESULT.json",
+    "MANIFEST_SHA256.txt",
+    "independent audit receipt"
+  ],
+  "claim_and_promotion_boundary": {
+    "prospective_until_first_unused_target_is_opened": true,
+    "automatic_promotion": false,
+    "industrial_validation": false,
+    "selector_v0_6_6_validation": "separate experiment",
+    "general_training_age_law": "PROHIBITED without replication beyond one source and target year"
+  }
+}

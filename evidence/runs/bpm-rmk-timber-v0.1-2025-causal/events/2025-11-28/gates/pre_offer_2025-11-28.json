@@ -1,0 +1,27 @@
+{
+  "schema_version": "bpm.rmk.pre-offer-gate.v0.2",
+  "event_date": "2025-11-28",
+  "state": "PARENT_CLOSED_OFFER_AND_RESULT_BODIES_CLOSED",
+  "parent_event": "2025-10-29",
+  "parent_prior_sha256": "74A0748B85D0F663F9E5766DA2214D44655DAAD58DB0A3CA20BA963C01AB5210",
+  "parent_z_post_sha256": "B45D70B467B0EBB365CF4BACF23366FE215FE9130CD32FAB46DDC28928A8C039",
+  "parent_adjudication_sha256": "CF417A4675673D66D7877AB7427D4EC726185D5399FFAEC8863D534F40EA8FD0",
+  "parent_audit_sha256": "40B7DD25934A3A8062B16D24CF9DD52E0D0BC17B284129C00775863D6CE20F79",
+  "active_freezer_sha256": "C91495495DB19FDA3C07AE1E06D59E72AA6DA15F8A0DC8E9293A31DE46F00936",
+  "source_gate_amendment_sha256": "59E4D8973C7BAD29F3D5D53EBFCDDB4BFB65AD767703B414C81E37E4D90DAD17",
+  "offer": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/11/EP_objektid_pakkumuse-vorm_hakkpuit_28.11.2025.xlsx",
+    "body_opened": false
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_28.11.2025.xlsx",
+    "body_opened": false
+  },
+  "invariants": {
+    "one_event_predicts_only_its_own_outcomes": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

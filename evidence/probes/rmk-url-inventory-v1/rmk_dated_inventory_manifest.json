@@ -1,0 +1,16 @@
+{
+  "schema": "rmk-dated-url-inventory/v1",
+  "generated_at": "2026-08-21T19:16:44.9209295+02:00",
+  "source": "evidence/probes/rmk-url-inventory-v1/rmk_payload_url_inventory.csv",
+  "rows": 82,
+  "dated_result_rows": 31,
+  "dated_offer_rows": 15,
+  "dates_with_offer_and_result_links": 14,
+  "unresolved_rows": 14,
+  "payloads_opened": 0,
+  "date_semantics": "FILENAME_DATES_ARE_DISCOVERY_EVIDENCE_ONLY_UNTIL_MATCHED_TO_EVENT_PAGE_OR_PAYLOAD_METADATA",
+  "output": {
+    "path": "rmk_dated_payload_url_inventory.csv",
+    "sha256": "4AFC81D8ABCB639383F3BC3D4A3D4053B49CF5C94BB551E8232997BBE495996F"
+  }
+}

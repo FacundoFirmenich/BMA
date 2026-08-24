@@ -20,6 +20,8 @@
 - treating missing publication as economic zero;
 - treating a stable HTTP response as stable bytes, a closed publication or an
   observed no-trade state;
+- treating customs statistical value divided by mass as a winning bid, spot
+  quote or firm-level transaction price;
 - using `Z_post`, a model router or an aggregate metric as the economic
   posterior.
 

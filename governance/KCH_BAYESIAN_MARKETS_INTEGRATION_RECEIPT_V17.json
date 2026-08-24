@@ -1,0 +1,90 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v17",
+  "date": "2026-08-24",
+  "phase": "PENDING_OUTCOME_AVAILABILITY_CHECKPOINT_V1",
+  "status": "PASS_NO_OUTCOME_AVAILABLE_NO_UPDATE",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V16.json",
+    "sha256": "BD1207CFB60F835EFEB0C1EB3D95AE030984A3236F9691447A7F0FED1DF44F3E",
+    "parent_commit": "644f32a37038a45cc213614a53dcdb29014a40f7"
+  },
+  "artifacts": [
+    {
+      "path": "governance/BAYESIAN_MARKETS_OUTCOME_AVAILABILITY_V1.json",
+      "bytes": 3484,
+      "sha256": "FC598DE4482040E7F39832166C0E82B87DDA4BCDA5CA55C344DE424CC052EBFA"
+    },
+    {
+      "path": "outputs/BAYESIAN_MARKETS_OUTCOME_AVAILABILITY_CHECKPOINT_20260824_ES.md",
+      "bytes": 3745,
+      "sha256": "3233E6A6382D5F77A31D7E0E3E6E5B08E30BE481816D2C2C5D9E20B31A4605B2"
+    }
+  ],
+  "validation": {
+    "pending_target_checks": 5,
+    "targets_present": 0,
+    "adjudications_authorized": 0,
+    "source_gate_updates": 2,
+    "json_parse": "PASS",
+    "utf8_decode": "PASS",
+    "semantic_invariants": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "outcome_states": [
+    {
+      "campaign_id": "bpm-luke-roundwood-volume-2020-2026",
+      "target": "2026-08",
+      "state": "OUTCOME_PENDING",
+      "latest_observed_period": "2026M07"
+    },
+    {
+      "campaign_id": "bpm-luke-roundwood-price-2020-2026",
+      "target": "2026-08",
+      "state": "OUTCOME_PENDING",
+      "latest_observed_period": "2026M07"
+    },
+    {
+      "campaign_id": "hbp-indec-ipi-sa-v0.1-2026-07",
+      "target": "2026-07",
+      "state": "OUTCOME_PENDING",
+      "source_headers_changed": false
+    },
+    {
+      "campaign_id": "hbp-indec-ucii-logit-v0.2-2026-07",
+      "target": "2026-07",
+      "state": "OUTCOME_PENDING",
+      "source_headers_changed": false
+    },
+    {
+      "campaign_id": "hbp-eurostat-sts-es-c-v0.1-2026-07",
+      "target": "2026-07",
+      "state": "OUTCOME_PENDING",
+      "latest_observed_period": "2026-06"
+    }
+  ],
+  "source_gates": [
+    {
+      "source": "latvia-csb-industrial-production",
+      "state": "API_GET_SCHEMA_PASS_POST_DATA_SYSTEMATIC_HTTP_400",
+      "model_authority": false
+    },
+    {
+      "source": "eumofa-first-sales",
+      "state": "DOCUMENTATION_PASS_DATA_UI_HTTP_403_BROWSER_RUNTIME_UNAVAILABLE",
+      "model_authority": false,
+      "inference_limit": "local browser runtime failure does not prove that EUMOFA requires login"
+    }
+  ],
+  "authority": {
+    "target_workbooks_downloaded": 0,
+    "scores_written": 0,
+    "posteriors_updated": 0,
+    "z_post_updated": 0,
+    "future_freezes_written": 0,
+    "accounts_created": 0,
+    "third_parties_contacted": 0,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "next_gate": "repeat only the bounded availability check whose official source changes; adjudicate and update exactly once only when its frozen target is genuinely present."
+}

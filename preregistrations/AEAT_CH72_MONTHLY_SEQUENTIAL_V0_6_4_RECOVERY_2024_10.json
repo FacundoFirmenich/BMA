@@ -1,0 +1,50 @@
+{
+  "schema_version": "bma.aeat.chapter72.monthly-sequential.recovery.v1",
+  "status": "FROZEN_BEFORE_2024_11_TARGET_OPEN",
+  "governing_experiment": "AEAT_CH72_MONTHLY_SEQUENTIAL_V0_6_4",
+  "observed_interruption": {
+    "classification": "EXTERNAL_PROCESS_TERMINATION_NO_RECORDED_EXCEPTION",
+    "stderr_empty": true,
+    "last_complete_target": "2024-10",
+    "next_target": "2024-11",
+    "next_target_freeze_exists": false,
+    "next_target_outcome_opened": false
+  },
+  "recovery_contract": {
+    "rewrite_existing_artifacts": false,
+    "refetch_2024_01_through_2024_10": false,
+    "verify_latest_prior_file_hash_against_Z_post": true,
+    "reconstruct_history_only_from_existing_structured_months": true,
+    "resume_first_transition": "2024-10->2024-11",
+    "remaining_transitions": [
+      "2024-10->2024-11",
+      "2024-11->2024-12"
+    ],
+    "december_regime": "YEAR_END_UNCALIBRATED",
+    "temporal_unit": "EXACTLY_ONE_MONTH_TO_EXACTLY_ONE_IMMEDIATELY_FOLLOWING_MONTH"
+  },
+  "optimization_contract": {
+    "change": "precompute cross-sectional medians once per target and variable",
+    "statistical_semantics_changed": false,
+    "feature_identity_required": "NUMPY_ARRAY_EQUAL_TO_V0_6_4_REPEATED_SCAN",
+    "real_state_sample_validation": {
+      "target": "2024-11",
+      "sampled_cells": 21,
+      "variables": 2,
+      "result": "PASS"
+    },
+    "unit_tests": "53_PASS",
+    "ruff": "PASS"
+  },
+  "frozen_code_sha256": {
+    "src/bma/experiments/aeat_monthly_sequential_v0_6_4_resume.py": "647133153450b9914c6201163e9867190e69c5d4227ae8acd197c9978e726212",
+    "tests/test_aeat_monthly_sequential_v0_6_4_resume.py": "43b396d95bcf558c5127ff66b37142cefb7c5ba5d45e6503815c811ce7513e1d"
+  },
+  "claim_boundary": {
+    "retrospective_development_only": true,
+    "prospective_validation": false,
+    "seasonality_generalization": false,
+    "global_winner": null,
+    "promotion": "PROHIBITED"
+  }
+}

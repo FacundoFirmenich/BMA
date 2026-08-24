@@ -1,0 +1,28 @@
+{
+  "preregistration_id": "HBP_INDEC_UCII_2026_07_CAPTURE_V0.1",
+  "status": "FROZEN_BEFORE_WORKBOOK_ACQUISITION_SCHEMA_CAPTURE_ONLY",
+  "frozen_local_date": "2026-08-22",
+  "canonical_family": "HBP",
+  "source": "INDEC",
+  "landing_page_custody": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_landing_page.html",
+  "exact_workbook_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_capacidad_08_26.xls",
+  "expected_reference_period": "2026-06",
+  "future_target_candidate": "2026-07",
+  "allowed_operations": [
+    "ONE_GET_EXACT_URL",
+    "HASH_RAW_BYTES",
+    "RECORD_HEADERS_AND_TIMESTAMP",
+    "READ_ONLY_BIFF8_SCHEMA_AND_LABELS",
+    "VERIFY_TARGET_ABSENCE"
+  ],
+  "forbidden_operations": [
+    "FIT",
+    "FORECAST",
+    "SCORE",
+    "REUSE_LEGACY_NONAUTHORITATIVE_FREEZE",
+    "MERGE_WITH_IPI",
+    "GLOBAL_WINNER"
+  ],
+  "next_gate": "A separate exact freeze preregistration is required after schema adjudication and before any fit or prediction.",
+  "missing_or_target_present": "ABSTAIN_AND_PRESERVE"
+}

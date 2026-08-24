@@ -1,0 +1,87 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v20",
+  "date": "2026-08-24",
+  "phase": "BUM_NOMENCLATURE_DIRECT_CORRECTION_V2",
+  "status": "PASS_BUM_BAYESIAN_UNPHYSICAL_MARKETS_CANONICALIZED",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V19.json",
+    "sha256": "E91B5F4939B100DAB1EA546809AA0D816A8A1099AEEB3567DA788D77C1EBFA5B",
+    "parent_commit": "a4a7efae6ac64563873fbd30e898b862b95b6b08"
+  },
+  "authority": {
+    "kind": "DIRECT_USER_CORRECTION",
+    "instruction": "*perdon. corregilo> el nombre tiene qe ser Bayesian Unphysical Markets.",
+    "decision_state": "APPLY",
+    "effective_expansion": {
+      "BUM": "Bayesian Unphysical Markets"
+    },
+    "claim_ceiling": "CANONICAL_NOMENCLATURE_AND_CONTROLLED_TERM_DEFINITION_ONLY"
+  },
+  "artifacts": [
+    {
+      "path": "canonical/README.md",
+      "bytes": 1408,
+      "sha256": "B93E7939EB55702E1EBB68624BE99D78A11DEE13F8E4CE8EDD20D00F77EC71D0"
+    },
+    {
+      "path": "canonical/BUM_NOMENCLATURE_V2.md",
+      "bytes": 3861,
+      "sha256": "9F5E818045175FE481B55DBA4B2A3AF7F1A9E15E48C50ECD8C9B1577B8974486"
+    },
+    {
+      "path": "governance/BAYESIAN_MARKETS_BUM_NOMENCLATURE_DECISION_V2.json",
+      "bytes": 2349,
+      "sha256": "73B39D40641329D800A2CF8A2BA3B172C0A263F4587324488E0F58B401A8A86F"
+    },
+    {
+      "path": "outputs/BAYESIAN_MARKETS_BUM_NOMENCLATURE_V2_CHECKPOINT_20260824_ES.md",
+      "bytes": 2083,
+      "sha256": "CF6294CDB8122055401C1FFDE25995F9509DB4951280C41FFA947413D54706AF"
+    }
+  ],
+  "superseded_history_preserved": [
+    {
+      "path": "canonical/BUM_NOMENCLATURE_V1.md",
+      "sha256": "405A247A9042BDAF2FA55C94A10A46F9EDBF61FD3EF5A7BD3292653522237093",
+      "state": "SUPERSEDED_UNCHANGED"
+    },
+    {
+      "path": "governance/BAYESIAN_MARKETS_BUM_NOMENCLATURE_DECISION_V1.json",
+      "sha256": "5B30BFB71C7068762594B88644FBEFFF5CAFD755D14B0D30D56A98B0F243B49B",
+      "state": "SUPERSEDED_UNCHANGED"
+    },
+    {
+      "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V19.json",
+      "sha256": "E91B5F4939B100DAB1EA546809AA0D816A8A1099AEEB3567DA788D77C1EBFA5B",
+      "state": "PARENT_SUPERSEDED_AS_CURRENT_NAME_NOT_REWRITTEN"
+    }
+  ],
+  "validation": {
+    "latest_instruction_precedence": "PASS",
+    "readme_diff_scope": "PASS_SINGLE_BUM_LINE",
+    "controlled_term_warning_present": true,
+    "utf8_decode": "PASS",
+    "json_parse": "PASS",
+    "artifact_hashes": "PASS",
+    "parent_hash": "PASS",
+    "superseded_hashes": "PASS",
+    "semantic_invariants": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "scientific_effect": {
+    "scores_changed": 0,
+    "adjudications_changed": 0,
+    "posteriors_changed": 0,
+    "z_post_changed": 0,
+    "weights_changed": 0,
+    "not_estimable_states_changed": 0,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "kch_execution": {
+    "protocol": "KCH_INSTRUCTION_GOVERNANCE_NATIVE",
+    "executable_csi_kernel_invoked": false,
+    "reason": "CSI instruction_governance operators were not exposed by the host; native protocol was applied"
+  },
+  "next_gate": "use Bayesian Unphysical Markets in all future canonical artifacts; preserve V1 and V19 as superseded chronology"
+}

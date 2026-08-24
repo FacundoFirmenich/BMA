@@ -1,0 +1,89 @@
+{
+  "schema_version": "bma.execution-receipt.v1",
+  "experiment": "bma.aeat.chapter72.nov2024.v0.6.1",
+  "status": "EXECUTED_RETROSPECTIVE_INDUSTRIAL_HOLDOUT",
+  "source": {
+    "provider": "Agencia Estatal de Administración Tributaria",
+    "release": "2024 maximum-detail definitive foreign-trade data",
+    "chapter": "72",
+    "training_periods": [
+      "2024-01", "2024-02", "2024-03", "2024-04", "2024-05",
+      "2024-06", "2024-07", "2024-08", "2024-09", "2024-10"
+    ],
+    "target_period": "2024-11",
+    "target_archive_sha256": "134438e2334cf1a7323d6520035b92cfb5522233116c7f2cc8c8dc0b59de5106",
+    "target_aggregate_sha256": "d42696402a9a749f499c9f4bbb60e8d30609fbb0f09b68f292fc4aadbaf85a63",
+    "raw_archives_persisted": false
+  },
+  "causal_ordering": {
+    "status": "PASS_FREEZE_PRECEDES_TARGET_OPEN",
+    "target_prediction_freeze_sha256": "2ac9ad18175b4b7a6adfd160a136ecb32a8423577ff847fa3c97e2609f32b74e"
+  },
+  "scale": {
+    "training_raw_lines": 7247656,
+    "training_chapter72_lines": 330176,
+    "training_monthly_aggregate_rows": 42242,
+    "training_universe_cells": 9177,
+    "target_raw_lines": 686306,
+    "target_chapter72_lines": 31889,
+    "target_aggregate_rows": 4280,
+    "target_known_cells": 3962,
+    "target_new_out_of_training_universe": 318
+  },
+  "results": {
+    "participation": {
+      "n": 9177,
+      "positives": 3962,
+      "bma_mean_brier": 0.1339504545728585,
+      "empirical_mean_brier": 0.13225621420701514,
+      "bma_minus_empirical": 0.0016942403658433702,
+      "ci95": [0.0005889448666689099, 0.0028225990142920275],
+      "gate": "MIXED_OR_ADVERSE_DESCRIPTIVE_ONLY"
+    },
+    "weight_kg_conditional_on_presence": {
+      "n": 3961,
+      "bma_mean_absolute_log_error": 1.042749864127211,
+      "recency_mean_absolute_log_error": 1.0418858697603592,
+      "bma_minus_recency": 0.0008639943668520776,
+      "ci95": [-0.0019712106528847594, 0.003838300026951472],
+      "gate": "FAVOURABLE_DESCRIPTIVE_ONLY"
+    },
+    "statistical_unit_value_eur_per_kg": {
+      "n": 3961,
+      "bma_mean_absolute_log_error": 0.3736384893512257,
+      "recency_mean_absolute_log_error": 0.3718665619946283,
+      "bma_minus_recency": 0.0017719273565973866,
+      "ci95": [0.00010600698981369471, 0.003403792217465566],
+      "gate": "FAVOURABLE_DESCRIPTIVE_ONLY"
+    }
+  },
+  "computational_replication": {
+    "original": {
+      "workflow_run_id": 31316633001,
+      "commit": "e7eb91cec171d9694b8bf3d933a4a297d07c0a4e",
+      "artifact_id": 9039039888,
+      "artifact_size_bytes": 6307008,
+      "artifact_digest": "sha256:652d3351a4227aa8a71b699a6cbc79beaecb8c8e27569b32473b88c91c80f2cc"
+    },
+    "optimized_replica": {
+      "workflow_run_id": 31316930539,
+      "commit": "365ebf1ce3cb6f94df10d8eb727989dca7c9e2bd",
+      "artifact_id": 9039111449,
+      "artifact_size_bytes": 6307003,
+      "artifact_digest": "sha256:bdc69776a58a4abfc313685e8ddaa600c7212041e1d8a4f913fc372465750b80"
+    },
+    "freeze_sha256_exact_match": true,
+    "central_metrics_exact_match": true,
+    "bootstrap_endpoint_differences": 4,
+    "maximum_absolute_rounding_difference": 2.7755575615628914e-17,
+    "gate_changes": 0
+  },
+  "claim_boundary": {
+    "industrial_domain_extension": true,
+    "single_retrospective_holdout": true,
+    "prospective_validation": false,
+    "transaction_price_validation": false,
+    "global_superiority": false,
+    "promotion": "NO_PROMOTION_SINGLE_RETROSPECTIVE_MONTH"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "schema": "kch-bayesian-markets-v10-audit/v1",
+  "generated_at": "2026-08-22T04:13:35.1337903+02:00",
+  "status": "PASS",
+  "checks": 42,
+  "failures": 0,
+  "prior_v9_checks": 55,
+  "prior_v9_failures": 0,
+  "adverse_states_asserted": [
+    "ALL_V9_ADVERSE_STATES_PRESERVED",
+    "IPI_HISTORY_IS_CURRENT_PROVISIONAL_VINTAGE_NOT_HISTORICAL_FIRST_RELEASE_PANEL",
+    "IPI_MODEL_DESIGN_NOT_BLIND_TO_TRAINING_HISTORY",
+    "EUROSTAT_JULY_OUTCOME_PENDING_UNTIL_EXACT_QUERY",
+    "UCII_LEGACY_DOUBLE_COUNTING_FREEZE_NONAUTHORITATIVE",
+    "UCII_NEW_CHAIN_SCHEMA_ONLY_UNTIL_SECOND_PREREGISTRATION",
+    "PRODCOM_ES_16101035_2024_NOT_ESTIMABLE_NO_CELL",
+    "NO_CROSS_SOURCE_POSTERIOR_OR_LIKELIHOOD_POOLING",
+    "NO_GLOBAL_WINNER_OR_AUTOMATIC_PROMOTION"
+  ],
+  "details": [
+    {
+      "name": "prior_v9.audit_hash",
+      "pass": true,
+      "observed": "C52218B1ED506D00E686D0F41CA6A86B100A4B84B6E542479D864B2910A156C9",
+      "expected": "C52218B1ED506D00E686D0F41CA6A86B100A4B84B6E542479D864B2910A156C9"
+    },
+    {
+      "name": "prior_v9.status",
+      "pass": true,
+      "observed": "PASS/55/0",
+      "expected": "PASS/55/0"
+    },
+    {
+      "name": "prior.contract_hash",
+      "pass": true,
+      "observed": "360BF8BA20158E7BABFF57BD3AACE12C48B70D69236493580793A1632D236F25",
+      "expected": "360BF8BA20158E7BABFF57BD3AACE12C48B70D69236493580793A1632D236F25"
+    },
+    {
+      "name": "prior.receipt_hash",
+      "pass": true,
+      "observed": "946E3F4428F7C6095979D2DF48DE41CA6304E24512F9F542384FEA0F9790A06E",
+      "expected": "946E3F4428F7C6095979D2DF48DE41CA6304E24512F9F542384FEA0F9790A06E"
+    },
+    {
+      "name": "mission.hash",
+      "pass": true,
+      "observed": "60A78F1AD75B46566597AFE6B70D40B964CB92CFFEF037CB72ED0B3AB5AA6CD1",
+      "expected": "60A78F1AD75B46566597AFE6B70D40B964CB92CFFEF037CB72ED0B3AB5AA6CD1"
+    },
+    {
+      "name": "checkpoint.hash",
+      "pass": true,
+      "observed": "F7482ED379592C506E2654663DB288A59CF19012B38D660B0F674EB8B4AE310C",
+      "expected": "F7482ED379592C506E2654663DB288A59CF19012B38D660B0F674EB8B4AE310C"
+    },
+    {
+      "name": "exists.src/bma/experiments/hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.src/bma/experiments/hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": "ECA6A531FAD09A3667BDA7982BAB6873E3353046DF3210D123315A1A6534F485",
+      "expected": "ECA6A531FAD09A3667BDA7982BAB6873E3353046DF3210D123315A1A6534F485"
+    },
+    {
+      "name": "exists.src/bma/experiments/hbp_indec_ipi_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.src/bma/experiments/hbp_indec_ipi_v0_1.py",
+      "pass": true,
+      "observed": "7C75DBEF4A2D5C4C60F0D90CB3EE5732852FCE9A3E717CAF667BB05A2A492405",
+      "expected": "7C75DBEF4A2D5C4C60F0D90CB3EE5732852FCE9A3E717CAF667BB05A2A492405"
+    },
+    {
+      "name": "exists.scripts/run_hbp_indec_ipi_sa_2026_07_freeze.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.scripts/run_hbp_indec_ipi_sa_2026_07_freeze.py",
+      "pass": true,
+      "observed": "21C667460655D9A0F55F30C5309FCD3F1AC2F0888B43EE6D6DE4A8A1938A235B",
+      "expected": "21C667460655D9A0F55F30C5309FCD3F1AC2F0888B43EE6D6DE4A8A1938A235B"
+    },
+    {
+      "name": "exists.scripts/run_hbp_eurostat_sts_es_c_2026_07_adjudication.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.scripts/run_hbp_eurostat_sts_es_c_2026_07_adjudication.py",
+      "pass": true,
+      "observed": "5580E123CE0412BFE03B43AF29A515E2FE5447DFD75ADDAB433B992564899BBC",
+      "expected": "5580E123CE0412BFE03B43AF29A515E2FE5447DFD75ADDAB433B992564899BBC"
+    },
+    {
+      "name": "exists.scripts/capture_hbp_indec_ucii_2026_07_schema.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.scripts/capture_hbp_indec_ucii_2026_07_schema.py",
+      "pass": true,
+      "observed": "8C2EC3BE4C32600C2EF636FCAFA6804329492BDFAB388F87D4C455CC4841071E",
+      "expected": "8C2EC3BE4C32600C2EF636FCAFA6804329492BDFAB388F87D4C455CC4841071E"
+    },
+    {
+      "name": "exists.tests/test_hbp_industrial_index_scoring_v0_2.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.tests/test_hbp_industrial_index_scoring_v0_2.py",
+      "pass": true,
+      "observed": "0941E2777B9B7B8101C25E8AA589C49439AB137E8EFE3B4505FECC19A78F1149",
+      "expected": "0941E2777B9B7B8101C25E8AA589C49439AB137E8EFE3B4505FECC19A78F1149"
+    },
+    {
+      "name": "exists.tests/test_hbp_argentina_eurostat_activation_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.tests/test_hbp_argentina_eurostat_activation_v0_1.py",
+      "pass": true,
+      "observed": "04CAA9206D48A968F366A74384E693E5DFEA2551E4321DFFF6DD6DF36A9FF9B4",
+      "expected": "04CAA9206D48A968F366A74384E693E5DFEA2551E4321DFFF6DD6DF36A9FF9B4"
+    },
+    {
+      "name": "exists.preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_ADJUDICATION_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_ADJUDICATION_V0.1.json",
+      "pass": true,
+      "observed": "4A08918CAC37C4386C2A2C6195C04608743D4EABFE2BED9086DCF4EA95FA1902",
+      "expected": "4A08918CAC37C4386C2A2C6195C04608743D4EABFE2BED9086DCF4EA95FA1902"
+    },
+    {
+      "name": "exists.preregistrations/HBP_INDEC_IPI_SA_2026_07_FREEZE_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.preregistrations/HBP_INDEC_IPI_SA_2026_07_FREEZE_V0.1.json",
+      "pass": true,
+      "observed": "CA18CC87C979F5176859EC2511092927114E03605531E4E25A2473743BF8D072",
+      "expected": "CA18CC87C979F5176859EC2511092927114E03605531E4E25A2473743BF8D072"
+    },
+    {
+      "name": "exists.preregistrations/HBP_INDEC_UCII_2026_07_CAPTURE_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.preregistrations/HBP_INDEC_UCII_2026_07_CAPTURE_V0.1.json",
+      "pass": true,
+      "observed": "90CD29BE4FA48828E99DC55AD332788FC229E2F4DD4137F0D59CCADDA87EDE54",
+      "expected": "90CD29BE4FA48828E99DC55AD332788FC229E2F4DD4137F0D59CCADDA87EDE54"
+    },
+    {
+      "name": "exists.preregistrations/HBP_ARGENTINA_EUROSTAT_ACTIVATION_SOFTWARE_ADDENDUM_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.preregistrations/HBP_ARGENTINA_EUROSTAT_ACTIVATION_SOFTWARE_ADDENDUM_V0.1.json",
+      "pass": true,
+      "observed": "C3596E5ADD6BE347AD6DF3494362834D87D809FC80864078FA699DBE49FAB368",
+      "expected": "C3596E5ADD6BE347AD6DF3494362834D87D809FC80864078FA699DBE49FAB368"
+    },
+    {
+      "name": "exists.requirements/evidence-legacy-xls.txt",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "hash.requirements/evidence-legacy-xls.txt",
+      "pass": true,
+      "observed": "CCC8B6B3D7CE63C5F9EB08A990FBA1B31F62E268B36DB11D2D0087C3542732BF",
+      "expected": "CCC8B6B3D7CE63C5F9EB08A990FBA1B31F62E268B36DB11D2D0087C3542732BF"
+    },
+    {
+      "name": "parent.eurostat_manifest",
+      "pass": true,
+      "observed": "5/0",
+      "expected": "5/0"
+    },
+    {
+      "name": "parent.indec_prodcom_capture",
+      "pass": true,
+      "observed": "6/0",
+      "expected": "6/0"
+    },
+    {
+      "name": "ipi.source_hash",
+      "pass": true,
+      "observed": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+      "expected": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943"
+    },
+    {
+      "name": "ipi.target",
+      "pass": true,
+      "observed": "2026-07/True/True",
+      "expected": "2026-07/True/True"
+    },
+    {
+      "name": "euro.parent_hash",
+      "pass": true,
+      "observed": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+      "expected": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF"
+    },
+    {
+      "name": "euro.one_get",
+      "pass": true,
+      "observed": "True/2026-07",
+      "expected": "True/2026-07"
+    },
+    {
+      "name": "ucii.schema_only",
+      "pass": true,
+      "observed": "FROZEN_BEFORE_WORKBOOK_ACQUISITION_SCHEMA_CAPTURE_ONLY",
+      "expected": "FROZEN_BEFORE_WORKBOOK_ACQUISITION_SCHEMA_CAPTURE_ONLY"
+    },
+    {
+      "name": "pre_execution_absent.evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "pre_execution_absent.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-adjudication-20260822",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "pre_execution_absent.evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "invariants.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "invariants.no_pooling",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    }
+  ]
+}

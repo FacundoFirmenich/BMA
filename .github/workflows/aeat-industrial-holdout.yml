@@ -1,0 +1,71 @@
+name: AEAT industrial holdout
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/bma-v061-aeat-industrial-holdout
+    paths:
+      - ".github/workflows/aeat-industrial-holdout.yml"
+      - "preregistrations/AEAT_CH72_DEC2024_HOLDOUT_V0_6_0.json"
+      - "preregistrations/AEAT_CH72_NOV2024_AMENDMENT_V0_6_1.json"
+      - "src/bma/connectors/aeat_trade.py"
+      - "src/bma/experiments/aeat_steel_v0_6_1.py"
+      - "tests/test_aeat_trade.py"
+
+permissions:
+  contents: read
+
+jobs:
+  execute-frozen-holdout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install and verify code
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install ".[dev]"
+          python -m pytest -q
+          python -m ruff check src/bma/connectors/aeat_trade.py src/bma/experiments/aeat_steel_v0_6_1.py tests/test_aeat_trade.py
+
+      - name: Execute training, freeze, and November adjudication
+        run: |
+          python -m bma.experiments.aeat_steel_v0_6_1 --output aeat-run-v0.6.1 | tee aeat-run.log
+
+      - name: Emit compact scientific result to the immutable job log
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          result = json.loads(Path("aeat-run-v0.6.1/RESULT_SUMMARY.json").read_text(encoding="utf-8"))
+          compact = {
+              "status": result["status"],
+              "training": result["training"],
+              "target": result["target"],
+              "participation": result["participation"],
+              "weight_kg_conditional_on_presence": result["weight_kg_conditional_on_presence"],
+              "statistical_unit_value_eur_per_kg": result["statistical_unit_value_eur_per_kg"],
+              "causal_ordering": result["causal_ordering"],
+              "claim_boundary": result["claim_boundary"],
+          }
+          print("BMA_COMPACT_RESULT=" + json.dumps(compact, sort_keys=True, separators=(",", ":")))
+          PY
+
+      - name: Upload normalized evidence bundle without raw AEAT ZIPs
+        uses: actions/upload-artifact@v4
+        with:
+          name: aeat-ch72-nov2024-holdout-v0.6.1
+          path: |
+            aeat-run-v0.6.1/
+            aeat-run.log
+            preregistrations/AEAT_CH72_DEC2024_HOLDOUT_V0_6_0.json
+            preregistrations/AEAT_CH72_NOV2024_AMENDMENT_V0_6_1.json
+          if-no-files-found: error
+          retention-days: 30

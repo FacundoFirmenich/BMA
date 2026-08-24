@@ -1,1 +1,49 @@
 * text=auto eol=lf
+
+# Evidence-custody paths: preserve the exact bytes whose SHA-256 values were frozen.
+canonical/CLASSIFICATION_INDEX_V* -text
+canonical/README* -text
+evidence/probes/public-expansion-v1/** -text
+evidence/probes/rmk-url-inventory-v1/** -text
+evidence/runs/bpm-rmk-timber-v0.1-2025-causal/** -text
+evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+evidence/runs/bpm-luke-roundwood-public-probe-v0.1/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+.artifact_probe/*rmk* -text
+governance/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
+governance/BAYME_CROSS_FAMILY_* -text
+governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json -text
+governance/BPM_HBP_* -text
+governance/HBP_* -text
+governance/KCH_BAYESIAN_MARKETS_* -text whitespace=cr-at-eol,-blank-at-eof
+governance/SPACE_RECOVERY_* -text whitespace=cr-at-eol
+inventory/** -text whitespace=cr-at-eol
+outputs/BAYESIAN_MARKETS_* -text whitespace=cr-at-eol
+outputs/BAYME_INDUSTRIAL_CORAL_INTEGRATION_V3_20260821_ES.md -text
+outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md -text
+outputs/BPM_BUM_HBP_* -text
+outputs/BPM_HBP_* -text
+outputs/BPM_RMK_* -text
+outputs/HBP_* -text whitespace=cr-at-eol,-blank-at-eof
+preregistrations/BAYME_INDUSTRIAL_* -text
+preregistrations/BPM_HBP_* -text
+preregistrations/BPM_RMK_* -text
+preregistrations/HBP_SPAIN_* -text
+preregistrations/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1.json -text whitespace=cr-at-eol,-blank-at-eof
+reports/BPM_RMK_CAUSAL_CAMPAIGN_CLOSURE_20260821_ES.md -text
+scripts/*rmk* -text
+scripts/audit_bayesian_markets_integration_v*.ps1 -text whitespace=cr-at-eol,-blank-at-eof
+scripts/build_bayesian_markets_* -text whitespace=cr-at-eol
+scripts/freeze_hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
+scripts/*hbp_indec* -text whitespace=cr-at-eol,-blank-at-eof
+scripts/inspect_indec_* -text whitespace=cr-at-eol,-blank-at-eof
+src/bma/experiments/hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
+tests/test_hbp_eurostat_* -text whitespace=cr-at-eol,-blank-at-eof
+tests/test_hbp_indec_prodcom_probe_v0_1.py -text whitespace=cr-at-eol,-blank-at-eof
+# Luke roundwood frozen software and evidence: preserve byte-identical hashes.
+evidence/runs/bpm-luke-roundwood-monthly-v0.1-history-capture/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+evidence/runs/bpm-luke-roundwood-monthly-v0.1-causal/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+preregistrations/BPM_LUKE_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+scripts/*luke* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+src/bma/experiments/bpm_luke_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+tests/test_bpm_luke_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+outputs/BPM_LUKE_* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

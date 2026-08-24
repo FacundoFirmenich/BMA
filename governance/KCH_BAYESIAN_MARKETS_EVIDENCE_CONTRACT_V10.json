@@ -1,0 +1,85 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v10",
+  "date": "2026-08-22",
+  "phase": "ARGENTINA_EUROSTAT_ACTIVATION_PRE_OUTCOME_FREEZE",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V9.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V9.json",
+    "sha256": "360BF8BA20158E7BABFF57BD3AACE12C48B70D69236493580793A1632D236F25"
+  },
+  "prior_receipt": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V9.json",
+    "sha256": "946E3F4428F7C6095979D2DF48DE41CA6304E24512F9F542384FEA0F9790A06E"
+  },
+  "prior_audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V9_AUDIT.json",
+    "sha256": "C52218B1ED506D00E686D0F41CA6A86B100A4B84B6E542479D864B2910A156C9",
+    "status": "PASS",
+    "checks": 55,
+    "failures": 0
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V10.md",
+    "sha256": "60A78F1AD75B46566597AFE6B70D40B964CB92CFFEF037CB72ED0B3AB5AA6CD1"
+  },
+  "checkpoint": {
+    "path": "outputs/HBP_ARGENTINA_EUROSTAT_ACTIVATION_FREEZE_CHECKPOINT_20260822_ES.md",
+    "sha256": "F7482ED379592C506E2654663DB288A59CF19012B38D660B0F674EB8B4AE310C"
+  },
+  "new_frozen_evidence": [
+    {"path": "src/bma/experiments/hbp_eurostat_sts_v0_1.py", "sha256": "ECA6A531FAD09A3667BDA7982BAB6873E3353046DF3210D123315A1A6534F485"},
+    {"path": "src/bma/experiments/hbp_indec_ipi_v0_1.py", "sha256": "7C75DBEF4A2D5C4C60F0D90CB3EE5732852FCE9A3E717CAF667BB05A2A492405"},
+    {"path": "scripts/run_hbp_indec_ipi_sa_2026_07_freeze.py", "sha256": "21C667460655D9A0F55F30C5309FCD3F1AC2F0888B43EE6D6DE4A8A1938A235B"},
+    {"path": "scripts/run_hbp_eurostat_sts_es_c_2026_07_adjudication.py", "sha256": "5580E123CE0412BFE03B43AF29A515E2FE5447DFD75ADDAB433B992564899BBC"},
+    {"path": "scripts/capture_hbp_indec_ucii_2026_07_schema.py", "sha256": "8C2EC3BE4C32600C2EF636FCAFA6804329492BDFAB388F87D4C455CC4841071E"},
+    {"path": "tests/test_hbp_industrial_index_scoring_v0_2.py", "sha256": "0941E2777B9B7B8101C25E8AA589C49439AB137E8EFE3B4505FECC19A78F1149"},
+    {"path": "tests/test_hbp_argentina_eurostat_activation_v0_1.py", "sha256": "04CAA9206D48A968F366A74384E693E5DFEA2551E4321DFFF6DD6DF36A9FF9B4"},
+    {"path": "preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_ADJUDICATION_V0.1.json", "sha256": "4A08918CAC37C4386C2A2C6195C04608743D4EABFE2BED9086DCF4EA95FA1902"},
+    {"path": "preregistrations/HBP_INDEC_IPI_SA_2026_07_FREEZE_V0.1.json", "sha256": "CA18CC87C979F5176859EC2511092927114E03605531E4E25A2473743BF8D072"},
+    {"path": "preregistrations/HBP_INDEC_UCII_2026_07_CAPTURE_V0.1.json", "sha256": "90CD29BE4FA48828E99DC55AD332788FC229E2F4DD4137F0D59CCADDA87EDE54"},
+    {"path": "preregistrations/HBP_ARGENTINA_EUROSTAT_ACTIVATION_SOFTWARE_ADDENDUM_V0.1.json", "sha256": "C3596E5ADD6BE347AD6DF3494362834D87D809FC80864078FA699DBE49FAB368"},
+    {"path": "requirements/evidence-legacy-xls.txt", "sha256": "CCC8B6B3D7CE63C5F9EB08A990FBA1B31F62E268B36DB11D2D0087C3542732BF"}
+  ],
+  "verified_parent_evidence": {
+    "eurostat_freeze_manifest_files": 5,
+    "eurostat_hash_and_size_failures": 0,
+    "indec_prodcom_primary_payloads": 6,
+    "indec_prodcom_hash_and_size_failures": 0,
+    "ipi_workbook_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+    "ipi_training_months": 126,
+    "ipi_training_transitions": 125,
+    "ipi_training_start": "2016-01",
+    "ipi_training_end": "2026-06"
+  },
+  "pre_execution_absence": [
+    "evidence/runs/hbp-indec-ipi-sa-v0.1-2026-07-freeze",
+    "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-adjudication-20260822",
+    "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture"
+  ],
+  "validation": {
+    "focused_pytest": "12 passed",
+    "full_pytest": "115 passed",
+    "ruff": "PASS"
+  },
+  "hard_invariants": {
+    "one_month_predicts_exactly_next_month": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "IPI_UCII_Eurostat_posteriors_separate": true,
+    "legacy_UCII_freeze_governs_new_chain": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "adverse_states": [
+    "ALL_V9_ADVERSE_STATES_PRESERVED",
+    "IPI_HISTORY_IS_CURRENT_PROVISIONAL_VINTAGE_NOT_HISTORICAL_FIRST_RELEASE_PANEL",
+    "IPI_MODEL_DESIGN_NOT_BLIND_TO_TRAINING_HISTORY",
+    "EUROSTAT_JULY_OUTCOME_PENDING_UNTIL_EXACT_QUERY",
+    "UCII_LEGACY_DOUBLE_COUNTING_FREEZE_NONAUTHORITATIVE",
+    "UCII_NEW_CHAIN_SCHEMA_ONLY_UNTIL_SECOND_PREREGISTRATION",
+    "PRODCOM_ES_16101035_2024_NOT_ESTIMABLE_NO_CELL",
+    "NO_CROSS_SOURCE_POSTERIOR_OR_LIKELIHOOD_POOLING",
+    "NO_GLOBAL_WINNER_OR_AUTOMATIC_PROMOTION"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "bpm.rmk.local-scoring.v0.2",
+  "event_date": "2026-05-28",
+  "jurisdiction": "EXACT_PRODUCT_MEASUREMENT_FINGERPRINT_DESTINATION_ONLY",
+  "frozen_destination_predictions": 0,
+  "scored_exact_destination_predictions": 0,
+  "M1_price_scored_predictions": 0,
+  "M1_volume_scored_predictions": 0,
+  "non_observed_or_unawarded_predictions": 0,
+  "local_scores": [],
+  "non_observed": [],
+  "diagnostic_aggregate": {
+    "M0_price_mean_absolute_error_eur_m3": null,
+    "M0_price_median_absolute_error_eur_m3": null,
+    "M0_volume_MALE": null,
+    "M0_volume_median_absolute_log_error": null,
+    "M1_price_mean_absolute_error_eur_m3": null,
+    "M1_price_mean_log_predictive_density": null,
+    "M1_volume_MALE": null,
+    "M1_volume_mean_log_predictive_density": null,
+    "local_price_point_counts": {
+      "M0": 0,
+      "M1": 0,
+      "TIE": 0
+    },
+    "local_volume_point_counts": {
+      "M0": 0,
+      "M1": 0,
+      "TIE": 0
+    },
+    "global_winner": null
+  },
+  "density_scores": "PARTIAL_MODEL_LOCAL_ONLY_NO_COMMON_M0_M1_M2_SUPPORT",
+  "global_winner": null,
+  "automatic_promotion": false
+}

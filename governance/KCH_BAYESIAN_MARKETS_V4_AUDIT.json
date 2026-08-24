@@ -1,0 +1,448 @@
+{
+  "schema": "kch-bayesian-markets-v4-audit/v1",
+  "generated_at": "2026-08-22T00:58:10.6691961+02:00",
+  "status": "PASS",
+  "checks": 69,
+  "failures": 0,
+  "prior_v3_checks": 59,
+  "prior_v3_failures": 0,
+  "adverse_states_asserted": [
+    "RMK_M2_NOT_ESTIMABLE",
+    "RMK_2026_04_28_NO_FROZEN_OFFER",
+    "RMK_2026_06_30_SCHEMA_PREEXPOSED",
+    "ARGENTINA_AND_RC15_BYTE_CUSTODY_GAPS",
+    "UCII_DOUBLE_COUNTING_LEGACY_NONAUTHORITATIVE",
+    "IPI_PAYLOAD_NOT_RECOVERED",
+    "EUROSTAT_JULY_INCOMPLETE_PANEL",
+    "EUROSTAT_STS_DESIGN_PROBE_PREEXPOSURE",
+    "EUROSTAT_STS_138_OF_138_PROVISIONAL",
+    "EUROSTAT_STS_NACE_C_LATEST_VERSION_ONLY",
+    "EUROSTAT_VINTAGE_B-D_EXCLUDED_ENERGY_SCOPE",
+    "EUROSTAT_CORAL_OBSERVER_ARMS_ABSTAIN",
+    "COMTRADE_QUARANTINE"
+  ],
+  "details": [
+    {
+      "name": "prior_v3.audit_status",
+      "pass": true,
+      "observed": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "name": "prior_v3.audit_failures",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "contract.prior_hash",
+      "pass": true,
+      "observed": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D",
+      "expected": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D"
+    },
+    {
+      "name": "contract.mission_hash",
+      "pass": true,
+      "observed": "E1C08F938EE93DA9D892BE5CA17A0815D48FDC2FD1BC1E6B70DE353371B0AD60",
+      "expected": "E1C08F938EE93DA9D892BE5CA17A0815D48FDC2FD1BC1E6B70DE353371B0AD60"
+    },
+    {
+      "name": "contract.exists.preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_V0.1.json",
+      "pass": true,
+      "observed": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01",
+      "expected": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01"
+    },
+    {
+      "name": "contract.exists.src/bma/experiments/hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.src/bma/experiments/hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": "9ADF1BF64E62B6D1980E3C155F4D64A1CC841EA9A982F62F9370F11D07866806",
+      "expected": "9ADF1BF64E62B6D1980E3C155F4D64A1CC841EA9A982F62F9370F11D07866806"
+    },
+    {
+      "name": "contract.exists.scripts/freeze_hbp_eurostat_sts_es_c_2026_07.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.scripts/freeze_hbp_eurostat_sts_es_c_2026_07.py",
+      "pass": true,
+      "observed": "8D5C809B4CADC6C1244B3499BE1031FB967687DB2A3EFF9F75707851596EB645",
+      "expected": "8D5C809B4CADC6C1244B3499BE1031FB967687DB2A3EFF9F75707851596EB645"
+    },
+    {
+      "name": "contract.exists.tests/test_hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.tests/test_hbp_eurostat_sts_v0_1.py",
+      "pass": true,
+      "observed": "9582CC6ECF3172C1D345DFB3060B682FE7D7E261A00DF4D5FF6FE304371AE205",
+      "expected": "9582CC6ECF3172C1D345DFB3060B682FE7D7E261A00DF4D5FF6FE304371AE205"
+    },
+    {
+      "name": "contract.exists.outputs/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_CHECKPOINT_20260822_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.outputs/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_CHECKPOINT_20260822_ES.md",
+      "pass": true,
+      "observed": "5AD638C39089429EDD04DC20CB62B0B14BB5F86CF6252CED9DEA95DE4ED1881F",
+      "expected": "5AD638C39089429EDD04DC20CB62B0B14BB5F86CF6252CED9DEA95DE4ED1881F"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/eurostat_sts_es_c_through_2026_06.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/eurostat_sts_es_c_through_2026_06.json",
+      "pass": true,
+      "observed": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+      "expected": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/response_headers.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/response_headers.json",
+      "pass": true,
+      "observed": "CAD1BD1F32A632F7FA4221A5EA1A001BBC7514EFB4BF0FA55CF186DD763AF9E7",
+      "expected": "CAD1BD1F32A632F7FA4221A5EA1A001BBC7514EFB4BF0FA55CF186DD763AF9E7"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/normalized_training_series.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/normalized_training_series.json",
+      "pass": true,
+      "observed": "CEF5D5C867F7D653C0B5B0B9CD6505E9538A5D10492237FB9A1B5385B036C110",
+      "expected": "CEF5D5C867F7D653C0B5B0B9CD6505E9538A5D10492237FB9A1B5385B036C110"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/posterior_z_post.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/posterior_z_post.json",
+      "pass": true,
+      "observed": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743",
+      "expected": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/forecast_freeze.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/forecast_freeze.json",
+      "pass": true,
+      "observed": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+      "expected": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF"
+    },
+    {
+      "name": "contract.exists.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/manifest.json",
+      "pass": true,
+      "observed": "489DFFCDD2EF7FB8BF1B16D0BEDE57D2F5DEC80F157D3238F3A94984AE535C5E",
+      "expected": "489DFFCDD2EF7FB8BF1B16D0BEDE57D2F5DEC80F157D3238F3A94984AE535C5E"
+    },
+    {
+      "name": "receipt.contract_hash",
+      "pass": true,
+      "observed": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8",
+      "expected": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8"
+    },
+    {
+      "name": "sts.prereg_status",
+      "pass": true,
+      "observed": "FROZEN_PRE_OUTCOME_DATA_CAPTURE_AND_EXECUTION_AUTHORIZED",
+      "expected": "FROZEN_PRE_OUTCOME_DATA_CAPTURE_AND_EXECUTION_AUTHORIZED"
+    },
+    {
+      "name": "sts.target",
+      "pass": true,
+      "observed": "2026-07",
+      "expected": "2026-07"
+    },
+    {
+      "name": "sts.training_end",
+      "pass": true,
+      "observed": "2026-06",
+      "expected": "2026-06"
+    },
+    {
+      "name": "sts.raw_hash_headers",
+      "pass": true,
+      "observed": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+      "expected": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A"
+    },
+    {
+      "name": "sts.source_updated",
+      "pass": true,
+      "observed": "2026-08-19T11:00:00+02:00",
+      "expected": "2026-08-19T11:00:00+0200"
+    },
+    {
+      "name": "sts.record_count",
+      "pass": true,
+      "observed": 138,
+      "expected": 138
+    },
+    {
+      "name": "sts.transition_count",
+      "pass": true,
+      "observed": 137,
+      "expected": 137
+    },
+    {
+      "name": "sts.first_month",
+      "pass": true,
+      "observed": "2015-01",
+      "expected": "2015-01"
+    },
+    {
+      "name": "sts.last_month",
+      "pass": true,
+      "observed": "2026-06",
+      "expected": "2026-06"
+    },
+    {
+      "name": "sts.all_provisional",
+      "pass": true,
+      "observed": 138,
+      "expected": 138
+    },
+    {
+      "name": "sts.target_absent_normalized",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "sts.target_absent_raw_dimension",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.raw_last_time",
+      "pass": true,
+      "observed": "2026-06",
+      "expected": "2026-06"
+    },
+    {
+      "name": "sts.zpost_observations",
+      "pass": true,
+      "observed": 138,
+      "expected": 138
+    },
+    {
+      "name": "sts.zpost_transitions",
+      "pass": true,
+      "observed": 137,
+      "expected": 137
+    },
+    {
+      "name": "sts.no_reset",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.no_pooling",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.zpost_not_residual",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.zpost_not_zxpl",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.prereg_hash_zpost",
+      "pass": true,
+      "observed": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01",
+      "expected": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01"
+    },
+    {
+      "name": "sts.zpost_hash_freeze",
+      "pass": true,
+      "observed": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743",
+      "expected": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743"
+    },
+    {
+      "name": "sts.freeze_state",
+      "pass": true,
+      "observed": "FROZEN_PRE_OUTCOME",
+      "expected": "FROZEN_PRE_OUTCOME"
+    },
+    {
+      "name": "sts.outcome_not_opened",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.target_not_requested",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "sts.M0_point",
+      "pass": true,
+      "observed": 102.89999999999996,
+      "expected": 102.89999999999996
+    },
+    {
+      "name": "sts.M1_point",
+      "pass": true,
+      "observed": 102.99827032507567,
+      "expected": 102.99827032507567
+    },
+    {
+      "name": "sts.M0_interval_order",
+      "pass": true,
+      "observed": [
+        96.422746257174,
+        102.89999999999996,
+        109.81236700891206
+      ],
+      "expected": "strictly increasing"
+    },
+    {
+      "name": "sts.M1_interval_order",
+      "pass": true,
+      "observed": [
+        96.49396013270417,
+        102.99827032507567,
+        109.94101263299527
+      ],
+      "expected": "strictly increasing"
+    },
+    {
+      "name": "sts.M2_port_abstains",
+      "pass": true,
+      "observed": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+      "expected": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL"
+    },
+    {
+      "name": "sts.M2_ted_abstains",
+      "pass": true,
+      "observed": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+      "expected": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL"
+    },
+    {
+      "name": "sts.M3_coral_abstains",
+      "pass": true,
+      "observed": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE",
+      "expected": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE"
+    },
+    {
+      "name": "sts.equal_weight_M0",
+      "pass": true,
+      "observed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "name": "sts.equal_weight_M1",
+      "pass": true,
+      "observed": 0.5,
+      "expected": 0.5
+    },
+    {
+      "name": "sts.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "sts.no_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "manifest.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/eurostat_sts_es_c_through_2026_06.json",
+      "pass": true,
+      "observed": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+      "expected": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A"
+    },
+    {
+      "name": "manifest.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/forecast_freeze.json",
+      "pass": true,
+      "observed": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+      "expected": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF"
+    },
+    {
+      "name": "manifest.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/normalized_training_series.json",
+      "pass": true,
+      "observed": "CEF5D5C867F7D653C0B5B0B9CD6505E9538A5D10492237FB9A1B5385B036C110",
+      "expected": "CEF5D5C867F7D653C0B5B0B9CD6505E9538A5D10492237FB9A1B5385B036C110"
+    },
+    {
+      "name": "manifest.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/posterior_z_post.json",
+      "pass": true,
+      "observed": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743",
+      "expected": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743"
+    },
+    {
+      "name": "manifest.hash.evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/response_headers.json",
+      "pass": true,
+      "observed": "CAD1BD1F32A632F7FA4221A5EA1A001BBC7514EFB4BF0FA55CF186DD763AF9E7",
+      "expected": "CAD1BD1F32A632F7FA4221A5EA1A001BBC7514EFB4BF0FA55CF186DD763AF9E7"
+    },
+    {
+      "name": "vintage.B-D_no_authority",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    },
+    {
+      "name": "contract.no_automatic_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    }
+  ]
+}

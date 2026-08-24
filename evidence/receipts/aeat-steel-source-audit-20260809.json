@@ -1,0 +1,102 @@
+{
+  "schema_version": "bma.source-audit-receipt.v1",
+  "as_of": "2026-08-09",
+  "source": "Agencia Estatal de Administraci?n Tributaria, Estad?sticas de Comercio Exterior",
+  "status": "TECHNICAL_SOURCE_PASS_MODEL_NOT_EXECUTED",
+  "official_sources": {
+    "catalog": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
+    "maximum_detail_format": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Aduanas/Contenidos_Privados/Estadisticas_Comercio_Exterior/comercio_exterior/datos_mensuales_maxima_desagregacion/diseno226.pdf",
+    "monthly_summary_format": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Aduanas/Comercio_exterior/resumenes_mens/fich_datos_resum_mensu.pdf",
+    "reuse_terms": "https://sede.agenciatributaria.gob.es/Sede/gobierno-abierto/reutilizacion-informacion/condiciones-reutilizacion.html",
+    "combined_nomenclature": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods/combined-nomenclature_en"
+  },
+  "custody": {
+    "raw_files_committed": false,
+    "maximum_detail_2025_01_chapters_64_74": {
+      "filename": "cg25en74.zip",
+      "sha256": "d1e131cdc941e0d84b0bb5aef26793481ef946028c36ad04257e9babc545b60a",
+      "member_uncompressed_bytes": 157531812
+    },
+    "monthly_summary_2025_01_chapters_40_79": {
+      "filename": "be25en79.zip",
+      "sha256": "aa9a0247ec5848f988d7475714997740d67bc18b3988725ca1e0a79e6e23e42d"
+    },
+    "monthly_summary_2019_01_chapters_40_79": {
+      "filename": "be19en79.zip",
+      "sha256": "6c585af81afbf2409be68e38b92a60ba61ed9249f0a5253bc3683b75a59ae70"
+    }
+  },
+  "sample_2025_01": {
+    "records_chapters_64_to_74": 690929,
+    "records_with_positive_weight_and_value": {
+      "chapter_72_iron_and_steel": 32726,
+      "chapter_73_articles_of_iron_or_steel": 165203,
+      "chapter_74_copper_and_articles": 18682
+    },
+    "cn72083900": {
+      "description": "hot-rolled non-alloy steel coils, width at least 600 mm, thickness below 3 mm, not clad, plated or coated",
+      "detail_rows_including_taric_extensions": 863,
+      "import_detail_rows": 472,
+      "export_detail_rows": 391,
+      "import_partner_codes": 15,
+      "export_partner_codes": 10,
+      "import_weight_kg": 92843933.0,
+      "import_statistical_value_eur": 56378482.41,
+      "import_aggregate_unit_value_eur_per_kg": 0.6072392733513347,
+      "export_weight_kg": 22633863.0,
+      "export_statistical_value_eur": 13200110.09,
+      "export_aggregate_unit_value_eur_per_kg": 0.5832018197689012,
+      "detail_to_summary_reconciled": true
+    }
+  },
+  "continuity_check": {
+    "cn72083900_2019_01": {
+      "partner_rows": 15,
+      "import_weight_kg": 49040823,
+      "import_statistical_value_eur": 27401569.6,
+      "import_aggregate_unit_value_eur_per_kg": 0.5587501987884665,
+      "export_weight_kg": 20355796,
+      "export_statistical_value_eur": 10470652.34,
+      "export_aggregate_unit_value_eur_per_kg": 0.5143818664718393
+    },
+    "cn72083900_2025_01": {
+      "partner_rows": 19,
+      "import_weight_kg": 92843933,
+      "import_statistical_value_eur": 56378482.41,
+      "import_aggregate_unit_value_eur_per_kg": 0.6072392733513347,
+      "export_weight_kg": 22633863,
+      "export_statistical_value_eur": 13200110.09,
+      "export_aggregate_unit_value_eur_per_kg": 0.5832018197689012
+    }
+  },
+  "unit_interpretation": {
+    "maximum_detail_weight": "integer grams",
+    "maximum_detail_value": "euro cents",
+    "monthly_summary_weight": "integer kilograms",
+    "monthly_summary_value": "euro cents",
+    "unit_value_formula_detail": "10 * value_cent / weight_gram",
+    "unit_value_formula_summary": "value_cent / (100 * weight_kg)"
+  },
+  "reuse": {
+    "authorized": true,
+    "commercial_and_noncommercial": true,
+    "conditions": [
+      "do not distort the meaning of the information",
+      "cite Agencia Estatal de Administraci?n Tributaria as source",
+      "preserve the update date and applicable reuse metadata when available",
+      "do not imply AEAT sponsorship or endorsement"
+    ]
+  },
+  "claim_boundary": {
+    "physical_nonbiological_goods": true,
+    "regulated_price_market": false,
+    "transaction_or_award_price": false,
+    "statistical_unit_value": true,
+    "individual_firm_identity_available": false,
+    "order_book_available": false,
+    "model_executed": false,
+    "performance_evidence": false,
+    "2026_complete_and_final": false
+  },
+  "next_gate": "Freeze one CN8 product, flow, partner-node policy, observation granularity, outlier and confidentiality handling, revision policy, training window and future-only target before connector execution."
+}

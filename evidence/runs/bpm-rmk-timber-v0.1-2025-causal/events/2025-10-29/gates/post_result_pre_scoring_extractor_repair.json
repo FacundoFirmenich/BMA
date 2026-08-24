@@ -1,0 +1,27 @@
+{
+  "schema_version": "bpm.rmk.post-result-pre-scoring-repair.v0.1",
+  "event_date": "2025-10-29",
+  "causal_position": "RESULT_OPENED_BUT_NO_SCORING_OR_POSTERIOR_UPDATE_WRITTEN",
+  "invalid_extraction": {
+    "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-29/structured/result_v0_3_invalid_do_not_close.json",
+    "sha256": "139C50EC5BE0A10319C73508CF56C6C37D07F4BB634B85F96E75071F295CA573",
+    "failures": 54,
+    "status": "INVALID_DO_NOT_CLOSE"
+  },
+  "defects": [
+    "Slash-separated multi-class prices were not combined using weights published in the offer.",
+    "Result product labels were incorrectly required to equal the frozen offer label even though official object_id is stable and the protocol appends class or commercial wording.",
+    "Source-volume conflicts listed in the freeze were not included in the outcome quarantine set."
+  ],
+  "repair_contract": {
+    "join_key": "official event-local object_id",
+    "canonical_product": "frozen offer product",
+    "raw_result_product_preserved": true,
+    "measurement_fingerprint": "frozen offer quality and ordered price classes",
+    "multi_class_price": "offer-weighted arithmetic mean of slash-separated class prices",
+    "source_conflict_outcomes": "quarantine without scoring or posterior update"
+  },
+  "evidence_boundary": "The identity and weighting rules are anchored only in the pre-result offer and freeze. Result prices, buyers, destinations, and awarded volumes do not choose the rules.",
+  "global_winner_claim": false,
+  "automatic_promotion": false
+}

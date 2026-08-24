@@ -1,0 +1,98 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v5",
+  "date": "2026-08-22",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V4.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V4.json",
+    "sha256": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8"
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V5.md",
+    "sha256": "22D4814835CFA91CB9B13539FF6F53FB3557A14D562FB0F8769C7876C13E70B0"
+  },
+  "new_frozen_evidence": [
+    {"path": "preregistrations/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_PROBE_V0.1.json", "sha256": "4CE2A245E4EFA2D909CBE312F84A99F982919D01C1A98A2C92327C7947B12A00"},
+    {"path": "scripts/capture_hbp_indec_prodcom_probe.py", "sha256": "69F4D31318A84DE34FFC2D1F11B3AF1AB4ECE8176B2C57A08EBD1D4B92F90270"},
+    {"path": "scripts/inspect_indec_ipi_workbook.mjs", "sha256": "131193652270B9F2622BD8BE1593CBC5CCD342D17FFB3BDB1F8566CEB9F0BB40"},
+    {"path": "scripts/inspect_indec_ipi_xls_excel.ps1", "sha256": "EE5C32FE89D940C709B3689512E2CFD04F30576E83DDFB2FD2017EBB245156C1"},
+    {"path": "scripts/extract_hbp_indec_probe_documents.py", "sha256": "FEE5AE8B9571AA4239D1E3F10594234F7DDC42CF8FDDEE4541F2CAE70BD651D4"},
+    {"path": "scripts/adjudicate_hbp_indec_prodcom_probe.py", "sha256": "CC586BFB321859608A2139406D575F51096226A5BF004AD30EFDECC6A438EA3B"},
+    {"path": "tests/test_hbp_indec_prodcom_probe_v0_1.py", "sha256": "B38392F218AC640325E5D2687FD37B089CD308448E60902EE93AFDB04EF95478"},
+    {"path": "outputs/HBP_INDEC_PRODCOM_PUBLIC_CUSTODY_CHECKPOINT_20260822_ES.md", "sha256": "8300DDE196B18C1C2866CAFAF2C9F87D1E19AEA11C15613F62F96830BBCEE1DA"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/capture_manifest.json", "sha256": "5A70E778D87F6A0F3C3A230490D05AEDBA216CC884DCAD05C9FF0F81EF9120B0"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/probe_adjudication.json", "sha256": "A7659817EBAE83EFE9176B8F9176ACA6BBA017F7004F07501CC04D61357D0566"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf", "sha256": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026.xls", "sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf", "sha256": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/eurostat_prodcom_es_16101035_2024_primary.json", "sha256": "B268D0C3D7389CE7490AC8195DB10D40200B5E43748957AC4DF4763B205558B6"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_series_2026_workbook_inspection.json", "sha256": "2154F907206643EB8CBD0EDBCA1037E503F0E297634002D8726E447CD4F8A903"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_document_inspection.json", "sha256": "9F688B57A7EEE0D1A07F362F1CB60644FB1D3CDED80DAC8319D56F5314636FD0"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ipi_2026_06_report.pdf.pdfplumber.txt", "sha256": "6688C1C01A43161D7D62A44BCEFFFDDBA8300B796CED85E78496FBF6203358D4"},
+    {"path": "evidence/runs/hbp-indec-prodcom-public-custody-probe-v0.1/indec_ucii_2026_06_report.pdf.pdfplumber.txt", "sha256": "0F50FA37867D03A6938844C7477FF1263482162BFD2FD01852B5CAF4FEC1B4B6"}
+  ],
+  "scientific_invariants": {
+    "BMA_subsumed_in_BPM": true,
+    "BayME_is_general_model_not_canonical_destination": true,
+    "local_jurisdiction_is_authority": true,
+    "one_period_predicts_next_only": true,
+    "posterior_and_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "first_release_and_revision_are_distinct_bytes": true,
+    "IPI_UCII_Prodcom_are_distinct_observation_types": true,
+    "losses_abstentions_quarantines_and_NOT_ESTIMABLE_preserved": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "execution_state": {
+    "prior_v4_state_preserved": true,
+    "indec_new_vintage_probe_complete": true,
+    "prodcom_product_slice_probe_complete": true,
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "historical_freeze_reconstructed": false,
+    "cross_source_likelihood_pooling": false,
+    "bulk_download": false,
+    "remote_mutation": false,
+    "destructive_cleanup": false
+  },
+  "indec_state": {
+    "IPI_reference_period": "2026-06",
+    "IPI_publication_date": "2026-08-07",
+    "IPI_original_index": 119.9,
+    "IPI_year_over_year_percent": 2.0,
+    "IPI_year_to_date_percent": -2.2,
+    "IPI_seasonally_adjusted_month_over_month_percent": 0.9,
+    "IPI_rising_divisions": 9,
+    "IPI_total_divisions": 16,
+    "IPI_wood_year_over_year_percent": 17.3,
+    "IPI_forecast_authority": "ABSTAIN_UNTIL_STRUCTURED_SERIES_OR_FUTURE_FREEZE",
+    "UCII_reference_period": "2026-06",
+    "UCII_publication_date": "2026-08-14",
+    "UCII_general_percent": 59.1,
+    "UCII_year_ago_percent": 58.9,
+    "UCII_panel_companies": "600-700",
+    "UCII_authority": "OBSERVER_ONLY"
+  },
+  "prodcom_state": {
+    "dataset": "DS-059358",
+    "updated": "2026-07-28T11:00:00+0200",
+    "reporter": "ES",
+    "product": "16101035",
+    "reference_year": "2024",
+    "published_value_count": 0,
+    "status": "NOT_ESTIMABLE_NO_CELL",
+    "post_hoc_product_substitution": false
+  },
+  "adverse_states": [
+    "ALL_V4_ADVERSE_STATES_PRESERVED",
+    "INDEC_IPI_CURRENT_VINTAGE_POST_RELEASE_ONLY",
+    "INDEC_IPI_2026_PROVISIONAL",
+    "INDEC_IPI_REPORT_18_MONTHS_BELOW_36_MONTH_MINIMUM",
+    "INDEC_IPI_FULL_SERIES_XLS_LEGACY_FORMAT_UNREADABLE",
+    "INDEC_UCII_CURRENT_VINTAGE_POST_RELEASE_OBSERVER_ONLY",
+    "INDEC_UCII_2026_PROVISIONAL",
+    "PRODCOM_ES_16101035_2024_NOT_ESTIMABLE_NO_CELL"
+  ]
+}

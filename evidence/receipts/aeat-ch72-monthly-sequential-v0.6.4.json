@@ -1,0 +1,57 @@
+{
+  "schema_version": "bma.execution-receipt.v1",
+  "experiment": "AEAT_CH72_MONTHLY_SEQUENTIAL_V0_6_4",
+  "status": "EXECUTED_RETROSPECTIVE_ONE_MONTH_TO_ONE_MONTH_REPLAY",
+  "transition_count": 11,
+  "artifact_counts": {
+    "structured_months": 12,
+    "freezes": 11,
+    "adjudications": 11,
+    "priors": 11,
+    "z_post": 11,
+    "sequence_events": 34
+  },
+  "integrity": {
+    "manifest_status": "PASS",
+    "manifest_checked_files": 59,
+    "raw_zip_persisted": false,
+    "derived_bytes": 28393738,
+    "tests": "53_PASS",
+    "ruff": "PASS"
+  },
+  "descriptive_microaggregate": {
+    "participation_bma_brier": 0.21045924321182025,
+    "participation_control_brier": 0.5056639921747,
+    "participation_month_wins": 10,
+    "participation_month_ties": 1,
+    "quantity_bma_male": 1.5048516177974058,
+    "quantity_persistence_male": 1.189448870198419,
+    "quantity_month_wins": 0,
+    "unit_value_bma_male": 0.5253915163563799,
+    "unit_value_persistence_male": 0.37329957689260745,
+    "unit_value_month_wins": 0,
+    "first_appearance_cells_sum": 5510
+  },
+  "recovery": {
+    "classification": "EXTERNAL_PROCESS_TERMINATION_NO_RECORDED_EXCEPTION",
+    "resumed_after_sealed_target": "2024-10",
+    "existing_artifacts_rewritten": false,
+    "posterior_hash_verified_against_Z_post": true
+  },
+  "sha256": {
+    "RESULT.json": "29c590707f8f1aa562cde0fe9459174a019bb014bdcee3105c66f28b4f98d80b",
+    "SEQUENCE.json": "392eda5d731953a1b7643ab395aa7258dcc209324f17b1486bf4bf15cb702e04",
+    "MANIFEST_SHA256.txt": "5e7b8a31ee945e80374367789778adc36b3c060ee04c28d7245ec0dfc8b26498",
+    "aeat_monthly_sequential_v0_6_4.py": "c3fb029aa26daa2ddbecedfd85c38990432a1d1dc572102702fd6991bad94f24",
+    "aeat_monthly_sequential_v0_6_4_resume.py": "647133153450b9914c6201163e9867190e69c5d4227ae8acd197c9978e726212",
+    "audit_aeat_monthly_sequential_v064.py": "758a29d0f9c4583312e200097acb905d9c3289de6c7e335a826378da4c3055e9"
+  },
+  "claim_boundary": {
+    "retrospective_development_only": true,
+    "daily_model_evidence": false,
+    "prospective_validation": false,
+    "seasonality_generalization": false,
+    "global_winner": null,
+    "promotion": "PROHIBITED"
+  }
+}

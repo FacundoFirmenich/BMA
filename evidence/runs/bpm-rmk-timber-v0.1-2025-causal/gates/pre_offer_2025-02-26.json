@@ -1,0 +1,36 @@
+{
+  "gate_id": "BPM_RMK_PRE_OFFER_2025-02-26",
+  "status": "PASS_READY_TO_OPEN_OFFER_ONLY",
+  "target_event": "2025-02-26",
+  "offer": {
+    "queue_sequence": 12,
+    "url": "https://rmk.ee/wp-content/uploads/2025/02/Myygiobjektid_EP_26.02.2025.xlsx",
+    "head_status": 200,
+    "head_content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "head_content_length": 56041,
+    "body_opened": false
+  },
+  "result": {
+    "queue_sequence": 13,
+    "url": "https://rmk.ee/wp-content/uploads/2025/03/EdukadEP_26.02.2025.xlsx",
+    "head_status": 200,
+    "head_content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "head_content_length": 28757,
+    "body_opened": false
+  },
+  "frozen_hashes_sha256": {
+    "queue_v3": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF",
+    "software_addendum": "436D585ED51E32DFB18F5604305B95F0435367D07479E42E827A834F04A05AE3",
+    "model_core": "C2B8F79EAC4FD48B7AB0144751DC417B753E7D6DA63D0DAC4802F43206A58D18",
+    "model_tests": "942A1BF00BDF00D10D3368F8EB317D1261AAC448E3B61030CED4E0120A9CF02E",
+    "initial_prior": "083E415F3E7E5D24DC7D8F1B80EC076A573C719A3F22A0F5243E0DEA25DEF5A0",
+    "eligibility_ledger": "739B6DABF18BC9AE9AFCF891FB48A4B800C7A40A7868A0527BFB825FB36E5CE3"
+  },
+  "tests": {
+    "unit_tests": "7_PASS_0_FAIL",
+    "M2_activation_check": "PASS",
+    "future_result_body_opened": false
+  },
+  "opening_authority": "OFFER_ONLY",
+  "result_opening_authority": "DENIED_UNTIL_IMMUTABLE_PREDICTION_FREEZE"
+}

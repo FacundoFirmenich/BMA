@@ -1,0 +1,766 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-02-26",
+  "state": "FREEZE_WRITTEN_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "A4A58FCF42DAF4026805923195F13F88351414FF2228F9AC5978783561BB10FB",
+    "structured_offer": "761699D20A230F723C4F332DFCA03E5EA21F19757390A4E12BC257745D020D74",
+    "prior": "083E415F3E7E5D24DC7D8F1B80EC076A573C719A3F22A0F5243E0DEA25DEF5A0",
+    "software_addendum": "436D585ED51E32DFB18F5604305B95F0435367D07479E42E827A834F04A05AE3"
+  },
+  "historical_2023_2024_model_observations": 0,
+  "object_count": 22,
+  "price_target_count": 35,
+  "advertised_volume_m3": 255243,
+  "source_inconsistencies": [
+    {
+      "object_id": 16,
+      "offer_volume_m3": 51618,
+      "location_sheet_volume_m3": 51694,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_DISAGREEMENT"
+    }
+  ],
+  "frozen_objects": [
+    {
+      "object_id": 1,
+      "product": "Kasespoonipakk",
+      "measurement_standard": "RMK palkide standard; tabel 3.3 kasespoonipakkude A ja BC-kvaliteedi kvaliteedinõuded; diam 25-60 cm, pikkus 2,7-3,2 m (+ülemõõt)",
+      "delivery_period": "10.03.2025-31.05.2025",
+      "calendar_phase": "M03-M04-M05",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 3713,
+      "location_sheet_total_m3": 3713,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "A 25-27,4",
+          "starting_price_eur_m3": 250,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "A 27,5-32,4",
+          "starting_price_eur_m3": 260,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "A 32,5-39,4",
+          "starting_price_eur_m3": 260,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "A 39,5-60",
+          "starting_price_eur_m3": 250,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "BC 25-60",
+          "starting_price_eur_m3": 135,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepeenpalk",
+      "measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-3,2 m (+ülemõõt)",
+      "delivery_period": "10.03.2025-10.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 1506,
+      "location_sheet_total_m3": 1506,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "12-15,9",
+          "starting_price_eur_m3": 70,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "16-17,9",
+          "starting_price_eur_m3": 95,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 3,
+      "product": "Kasepalk",
+      "measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %",
+      "delivery_period": "10.03.2025-10.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 7261,
+      "location_sheet_total_m3": 7261,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "16,0-17,9",
+          "starting_price_eur_m3": 95,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "18,0-21,9",
+          "starting_price_eur_m3": 120,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "22-24,9",
+          "starting_price_eur_m3": 130,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepalk",
+      "measurement_standard": "RMK palkide standard; tabel 3.2 kasepalkide BC kvaliteedinõuded,  pikkus 2,7-4,8 m (+ülemõõt). Pikemate kui 3,3 m palkide osakaal tellimusest kuni 40 %;  müügiobjekt ei sisalda looduslikus proportsioonis A-kvaliteediga palke",
+      "delivery_period": "10.03.2025-10.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 3461,
+      "location_sheet_total_m3": 3461,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "25-60",
+          "starting_price_eur_m3": 135,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 5,
+      "product": "Tammepalk",
+      "measurement_standard": "LAOKAUP ! Kvaliteet: terve oks ei ole piiratud, mäda oks kuni 80 mm;  lihtkõverus kuni 3 cm/jm; ringlõhe poolringina, külmalõhe keelatud, säsilõhed võivad ulatuda koorest kooreni laiusega kuni 5 mm; mehhaanilised vigastused kuni 10 % töötlemissilindrist, korduv maltspuit lubatud, pehmemädanik lubatud tüükanotil diameetriga 30+ cm tüükapoolses otsas läbimõõduga kuni 50 mm.  Pikkus 3,0 m (+ülemõõt). Kvaliteediga on võimalik tutvuda müügiobjekti asukohas N 58.60617 E 22.58349, N 58.59419 E 22.57380, N 58.45263 E 23.10104, N 58.36293 E 22.76081",
+      "delivery_period": "10.03.2025-10.05.2025",
+      "calendar_phase": "M03-M04-M05",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 24,
+      "location_sheet_total_m3": 24,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "18+",
+          "starting_price_eur_m3": 110,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 6,
+      "product": "Madalakvaliteediline kuuse- ja männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.2; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 3139,
+      "location_sheet_total_m3": 3139,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "16+",
+          "starting_price_eur_m3": 69,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 7,
+      "product": "Männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 5491,
+      "location_sheet_total_m3": 5491,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "(5)8-12,9",
+          "starting_price_eur_m3": 70,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 8,
+      "product": "Männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 15421,
+      "location_sheet_total_m3": 15421,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "13-17,9",
+          "starting_price_eur_m3": 90,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 9,
+      "product": "Männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 27575,
+      "location_sheet_total_m3": 27575,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "18-24,9",
+          "starting_price_eur_m3": 95,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 10,
+      "product": "Männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 22084,
+      "location_sheet_total_m3": 22084,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "25+",
+          "starting_price_eur_m3": 100,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 11,
+      "product": "Männipalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; 3m (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 514,
+      "location_sheet_total_m3": 514,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "32+",
+          "starting_price_eur_m3": 100,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 12,
+      "product": "Kuusepalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 7219,
+      "location_sheet_total_m3": 7219,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "(5)8-12,9",
+          "starting_price_eur_m3": 70,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 13,
+      "product": "Kuusepalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 13477,
+      "location_sheet_total_m3": 13477,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "13-17,9",
+          "starting_price_eur_m3": 90,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 14,
+      "product": "Kuusepalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 9303,
+      "location_sheet_total_m3": 9303,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "18-24,9",
+          "starting_price_eur_m3": 95,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 15,
+      "product": "Kuusepalk",
+      "measurement_standard": "RMK palkide standard; tabel 2.1; pikkused vastavalt RMK okaspuupalkide lõikusskeemile (+ülemõõt)",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 6125,
+      "location_sheet_total_m3": 6125,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "25+",
+          "starting_price_eur_m3": 100,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 16,
+      "product": "Kasepaberipuit",
+      "measurement_standard": "RMK virnmaterjalide standard; tabel 2.2; pikkus 2,7-3,3 m",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 51618,
+      "location_sheet_total_m3": 51694,
+      "volume_source_state": "NOT_ESTIMABLE_SOURCE_VOLUME_DISAGREEMENT",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 58,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": null,
+          "starting_price_eur_m3": 52,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 17,
+      "product": "Kuusepaberipuit",
+      "measurement_standard": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 38434,
+      "location_sheet_total_m3": 38434,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 60,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 18,
+      "product": "Kuusepaberipuit",
+      "measurement_standard": "RMK virnmaterjalide standard; tabel 2.3; pikkus 2,7-3,3 m",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 4500,
+      "location_sheet_total_m3": 4500,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 60,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 19,
+      "product": "Männipaberipuit",
+      "measurement_standard": "RMK virnmaterjalide standard; tabel 2.4; pikkus 2,7-3,3 m",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 17967,
+      "location_sheet_total_m3": 17967,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "6-70",
+          "starting_price_eur_m3": 60,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 20,
+      "product": "Tehnoloogiline OP",
+      "measurement_standard": "RMK virnmaterjalide standard; tabel 2.7; pikkus 2,5-6,0 m",
+      "delivery_period": "10.03.2025-30.06.2026",
+      "calendar_phase": "M01-M02-M03-M04-M05-M06-M07-M08-M09-M10-M11-M12",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 15743,
+      "location_sheet_total_m3": 15743,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "3-100",
+          "starting_price_eur_m3": 50,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 21,
+      "product": "Männipost",
+      "measurement_standard": "Kvaliteet: kõverus kui ¼ läbimõõdust, mädaoks keelatud, terve oks kuni 50 mm; okste diameetrite summa ei tohi ümbermõõdul ületada 100 mm, lubatud ülestöötamisvead ja lahtine mõlu kuni 30 mm sügavusel tüve pinnalt, lubatud säsi ja kuivamislõhed, kinnine mõlu, võõrkehad , tahm ning sine kuni 25% otsa pindalast; pikkus 7-8 m (+ülemõõt).",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 587,
+      "location_sheet_total_m3": 587,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "13-17",
+          "starting_price_eur_m3": 103,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": null,
+          "starting_price_eur_m3": 108,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": "18-25",
+          "starting_price_eur_m3": 103,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": null,
+          "starting_price_eur_m3": 108,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": null,
+          "starting_price_eur_m3": 116,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    },
+    {
+      "object_id": 22,
+      "product": "Kuusepost",
+      "measurement_standard": "Kvaliteet: kõverus kui ¼ läbimõõdust, mädaoks keelatud, terve oks kuni 50 mm; okste diameetrite summa ei tohi ümbermõõdul ületada 100 mm, lubatud ülestöötamisvead ja lahtine mõlu kuni 30 mm sügavusel tüve pinnalt, lubatud säsi ja kuivamislõhed, kinnine mõlu, võõrkehad , tahm ning sine kuni 25% otsa pindalast;  pikkus 7-8 m (+ülemõõt).",
+      "delivery_period": "10.03.2025-30.06.2025",
+      "calendar_phase": "M03-M04-M05-M06",
+      "destination_at_offer": null,
+      "advertised_volume_m3": 81,
+      "location_sheet_total_m3": 81,
+      "volume_source_state": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+      "volume_predictions": {
+        "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+        "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+        "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "price_targets": [
+        {
+          "diameter_or_class": "13-18",
+          "starting_price_eur_m3": 103,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        },
+        {
+          "diameter_or_class": null,
+          "starting_price_eur_m3": 0,
+          "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+          "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION",
+          "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+          "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+          "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/03/EdukadEP_26.02.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

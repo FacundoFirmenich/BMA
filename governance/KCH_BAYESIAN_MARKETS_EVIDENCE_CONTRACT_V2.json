@@ -1,0 +1,132 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v2",
+  "created_at": "2026-08-21T19:09:31.1950957+02:00",
+  "kch_version": "0.11.33",
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V2.md",
+    "sha256": "4819BD2EF0A9C87C09C8F8BE8CF871DCC9138480F7AA94C5F1393857F17D3D4B"
+  },
+  "source_precedence": [
+    "NATIVE_CHAT_CHRONOLOGY_AND_ORIGINAL_ARTIFACTS",
+    "HASHED_LOCAL_SOURCE_PACKAGES_AND_REPOSITORIES",
+    "OFFICIAL_EXTERNAL_SOURCES",
+    "DERIVED_REGISTRIES_AND_CHECKPOINTS",
+    "MEMORY_AS_NAVIGATION_ONLY"
+  ],
+  "canonical_ontology": {
+    "positive_destinations": [
+      "BPM",
+      "BUM",
+      "HBP"
+    ],
+    "historical_lineages_only": [
+      "BayME",
+      "BayME Pulse",
+      "BayME EVE",
+      "BMA"
+    ],
+    "pending_state": "UNCLASSIFIED_PENDING_CONTENT_REVIEW",
+    "bma_disposition": "PERMANENTLY_SUBSUMED_IN_BPM",
+    "coral_definition": "TYPED_GRAPH_OF_LOCAL_EVIDENCE_STATES_NO_POOLING_NO_GLOBAL_AUTHORITY"
+  },
+  "frozen_evidence": [
+    {
+      "path": "canonical/CLASSIFICATION_INDEX_V6.csv",
+      "sha256": "BBD1A9EA1AE16C37D06787E0D9EA0F42C1E5E9896A6232F6F8DF5C7F46234E3A"
+    },
+    {
+      "path": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_REGISTRY_V4.csv",
+      "sha256": "1F039E5725463540006B5067567C441398C0A3AFD06E3ED392F9905E8FA69ACB"
+    },
+    {
+      "path": "governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json",
+      "sha256": "75F2053CACD8E5FED75494747EC0E51B440DC0830476859B0041B14AA7CF137C"
+    },
+    {
+      "path": "outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md",
+      "sha256": "8D5DACC15D163455F31EE552BD81020A4BE24414368674CDFBFA0E6156C4683D"
+    },
+    {
+      "path": "governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv",
+      "sha256": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08"
+    },
+    {
+      "path": "governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "sha256": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE"
+    },
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V1.csv",
+      "sha256": "3E16EDAE86C46FFA7C8AFE4C9FB526A009700AEE08F222DFFF86A0C764BC1D74"
+    },
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "sha256": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E"
+    },
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "sha256": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71"
+    },
+    {
+      "path": "preregistrations/BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1.json",
+      "sha256": "CDC7582D038395735C00928E0256FD90DB03A02F805AC493959B70DFBEB5DE84"
+    },
+    {
+      "path": "preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1.json",
+      "sha256": "587CD7D0A9552ED587CB4854170AFA6DE480D2BA80D206282FDA03D9F0729A0D"
+    },
+    {
+      "path": "preregistrations/HBP_SPAIN_INDUSTRIAL_CORAL_CAUSAL_CAMPAIGN_V0.1.json",
+      "sha256": "7DEC3AE93009F86B5C0A4984C560C88402DEE4B3569A21315BA0F3FB97A0BB30"
+    }
+  ],
+  "experimental_invariants": {
+    "next_unit_only": true,
+    "posterior_reset": false,
+    "Z_post_reset": false,
+    "N_to_1_pooling": false,
+    "Z_post_is_residual_z": false,
+    "Z_post_is_Z_XPL": false,
+    "Z_XPL_bilateral_thresholds": [
+      0.25,
+      5.25
+    ],
+    "double_counting": false,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "adverse_evidence_required": [
+    "AEAT_2025_ONE_PRIMARY_LOCAL_LOSS_AND_DECEMBER_ABSTENTION",
+    "AEAT_ATTEMPTS_1_TO_10_FAILURES",
+    "UCII_LEGACY_DOUBLE_COUNTING_INVALIDITY",
+    "IPI_PAYLOAD_RECOVERY_PENDING",
+    "EUROSTAT_JULY_NOT_ESTIMABLE_INCOMPLETE_PANEL",
+    "ARGENTINA_AND_EUROSTAT_BYTE_CUSTODY_GAPS",
+    "EUROSTAT_STS_PROVISIONAL_STATUS_P",
+    "TED_QUANTITY_ZERO_OF_TEN_AND_VALUE_FOUR_OF_TEN",
+    "COMTRADE_PREVIEW_FAIL_QUARANTINED",
+    "PUERTOS_IMPORTER_FORMULA_LIMITATION",
+    "NATIVE_CHAT_COUNT_CONTRADICTION",
+    "LOCAL_CENSUS_ACCESS_ERRORS"
+  ],
+  "authority_boundary": {
+    "allowed": [
+      "public_read_without_account",
+      "bounded_probes",
+      "hashing",
+      "local_tests",
+      "preregistered_public_data_experiments"
+    ],
+    "withheld": [
+      "account_creation",
+      "accept_terms",
+      "payment",
+      "contact_third_parties",
+      "bulk_raw_download",
+      "VPS",
+      "remote_mutation",
+      "destructive_cleanup",
+      "scientific_or_commercial_promotion"
+    ]
+  },
+  "claim_ceiling": "LOCAL_CAUSAL_AND_SCHEMA_EVIDENCE_ONLY; NO_GLOBAL_WINNER_NO_PRODUCTION_OR_COMMERCIAL_VALIDATION"
+}

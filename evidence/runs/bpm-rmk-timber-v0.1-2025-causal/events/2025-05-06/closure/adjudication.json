@@ -1,0 +1,33 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.2",
+  "event_date": "2025-05-06",
+  "freeze_sha256": "4D82B699FD3CB9E1D2796F944350E212F32BB23EA8E3684850C3199EAABC1D68",
+  "raw_result_sha256": "FA52581886D28FF22C764FBB22E71669CAA0F2D6C1BE852E9B3DE1D155F85171",
+  "structured_result_sha256": "B1A1CB76C1D1D62C7513D4C764B70BAB98374EE5ECC850EDADC0E628892F2060",
+  "offer_repair_receipt_sha256": "74B52597F631236ED10AA81A1CD17EBC15A85755E6F6A174200A297419296A7C",
+  "award_rows": 16,
+  "new_local_outcomes": 15,
+  "total_awarded_volume_m3": 35613,
+  "objects_full_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "objects_partial_coverage": [],
+  "objects_over_coverage": [],
+  "unawarded_objects": [],
+  "not_estimable_source_objects": [],
+  "scored_predictions": 0,
+  "scoring_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL",
+  "posterior_update_authorized": true,
+  "quarantined_unpaired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/05/Edukad_KLH06.05.2025.xlsx",
+    "body_opened": false,
+    "state": "QUARANTINE_UNPAIRED_RESULT_NO_FROZEN_OFFER"
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

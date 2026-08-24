@@ -1,0 +1,20 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-event-adjudication.v0.2",
+  "event_date": "2025-11-28",
+  "freeze_sha256": "ED1DFE3C5C23EED21D5991FCDF268DA0EBC8B52514A7BBAA420814DADC31CA8E",
+  "raw_result_sha256": "FA1D8CFCCE8231E5EC3769D6D3875E5FEECE75A0D30A90D3B90C1A472DF3BD9C",
+  "structured_result_sha256": "2799BDA8BEFDC15371179E5E5903E2C785DE6DE4D47AD59F7B45A7BC896DA70C",
+  "local_scoring_sha256": "C013A6B5217559E38C5AF5EC8552C0C47A98A214999B02F6B0DD57CD74A28C5E",
+  "award_rows": 4,
+  "local_outcomes": 4,
+  "updated_prior_cells": 1,
+  "new_local_cells": 3,
+  "total_awarded_volume_pm3": 29552,
+  "total_awarded_volume_m3": 10630.21582733813,
+  "approximate_coverage_ratio": 1.0000203036065973,
+  "coverage_state": "DIAGNOSTIC_ONLY_APPROXIMATE_OFFER_AND_UNIT_ROUNDING",
+  "scored_predictions": 1,
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.10",
+  "event": "2025-12-22",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/gates/pre_offer_2025-12-22.json",
+      "bytes": 956,
+      "sha256": "281E56040522B59B49A29117BCCE0B023E958332D9347BB9F94271AEFFADAA9A"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/raw/Myygiobjektid_EP_22.12.2025.xlsx",
+      "bytes": 23057,
+      "sha256": "541B7E4CA45A34183901C2FE19519A7A1207DC500506B19C9815E395AB534C42"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/structured/offer_structured.json",
+      "bytes": 14335,
+      "sha256": "3EDAB2E900E638919BB6150C56D4C47B22457A190848A3E234CCF176350CCBD7"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/freeze/freeze.json",
+      "bytes": 169492,
+      "sha256": "18C528F8D3031A33B5962D19D2DF8B54C5773B4A556D4701C11BD833D7A366D1"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/gates/pre_result_gate.json",
+      "bytes": 1579,
+      "sha256": "ABEC177293B0FD3DDEAB4521A76850EFC2C14C35520B5974E34E78CC2B4614A4"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/raw/Edukad_EP_22.12.2025.xlsx",
+      "bytes": 23806,
+      "sha256": "3D7C83393787217A0DE1B7B69F01365983E56CAB4A38172595C28B09393185CA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/structured/result.json",
+      "bytes": 42016,
+      "sha256": "2976663D39BA0ADAA725DB9BAF6285A6789C3B911C355E6061C20B1A56BE594D"
+    },
+    {
+      "path": ".artifact_probe/extract_rmk_result_v0_5.mjs",
+      "bytes": 9162,
+      "sha256": "16BF1D69C4D37EBFBC3ED7B4893C8962C6B6E6F1BD7F3E7D1E0458B3C02030BB"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/closure/local_scoring.json",
+      "bytes": 45719,
+      "sha256": "51EDBC6EAE28DC0311AF7090D7C527D4B2406B5A52AB251BEA739F488A076292"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/closure/adjudication.json",
+      "bytes": 1187,
+      "sha256": "0223335A111ED9219FD0BED01C976C20572E01BF5369F29D84B82DD3B60F27A3"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/closure/prior_after_2025-12-22.json",
+      "bytes": 336587,
+      "sha256": "9F5320BF063A82A40FE4E32B9D364DF4629BA89F78E5EAC12CA2E198B40F1F43"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-12-22/closure/z_post_2025-12-22.json",
+      "bytes": 514197,
+      "sha256": "EABC9AE4C858A7580A7E36B1CAAA6F98E74A957E09B58243C78D5111A7116A7A"
+    }
+  ]
+}

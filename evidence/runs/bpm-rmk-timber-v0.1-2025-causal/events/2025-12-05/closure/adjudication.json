@@ -1,0 +1,38 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.4",
+  "event_date": "2025-12-05",
+  "freeze_sha256": "0BD7DDBBE5569E32F2217DFA27F9F32CDC6B86D01996A568E096DA75A80997AF",
+  "raw_result_sha256": "659E9239ACDA066ED67CDFA82EE492BE3887C81ED47708FB25E7F525AAABE4B7",
+  "structured_result_sha256": "056611AF6C5F07FA3A2BD48E81C0CF5500ABDCBE1E261203E0B8B860E93E159B",
+  "local_scoring_sha256": "6470F34D4CCBF2E54862902AEDBD8E7441C128EB3F1D1011EC9D2486B68ABDCE",
+  "award_rows": 16,
+  "local_outcomes": 14,
+  "updated_prior_cells": 3,
+  "updated_prior_outcomes": 3,
+  "new_local_cells": 11,
+  "new_local_outcomes": 11,
+  "total_awarded_volume_m3": 10943,
+  "objects_full_coverage": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "objects_partial_coverage": [],
+  "objects_over_coverage": [],
+  "unawarded_objects": [
+    5
+  ],
+  "not_estimable_source_objects": [],
+  "quarantined_outcomes": [],
+  "scored_predictions": 3,
+  "scoring_state": "M0_AND_WHERE_SUPPORTED_M1_EXACT_LOCAL_DESTINATIONS",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

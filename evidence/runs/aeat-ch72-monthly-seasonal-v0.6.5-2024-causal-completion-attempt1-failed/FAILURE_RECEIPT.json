@@ -1,0 +1,16 @@
+{
+  "schema_version": "bma.execution.failure-receipt.v1",
+  "campaign": "aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-completion-oct-dec",
+  "attempt": 1,
+  "runtime_session_id": 17783,
+  "process_id": 3076,
+  "exit_code": 1,
+  "terminal_state": "FAILED_BEFORE_OCTOBER_FREEZE_AND_BEFORE_OCTOBER_TARGET_OPEN",
+  "error_type": "AttributeError",
+  "error": "bma.experiments.aeat_monthly_seasonal_v0_6_5_runtime has no attribute require_next_month",
+  "reconciled_before_failure": "sealed 2022 through September 2024 state and weights",
+  "scientific_result": null,
+  "partial_target_artifacts": false,
+  "relaunch_permitted": true,
+  "repair_scope": "bind the frozen v0.6.5 next-month guard into the optimized runtime under a distinct attempt-2 runner"
+}

@@ -1,0 +1,64 @@
+{
+  "preregistration_id": "BPM_LUKE_ROUNDWOOD_PUBLIC_PROBE_V0.1",
+  "frozen_at": "2026-08-22",
+  "status": "PREREGISTERED_BEFORE_SCHEMA_OR_DATA_BYTE_ACQUISITION",
+  "purpose": "Test whether the Official Statistics of Finland monthly industrial roundwood table supplies a stable public product-level price-and-volume cell suitable for a future BPM physical-market jurisdiction.",
+  "source": {
+    "publisher": "Natural Resources Institute Finland (Luke)",
+    "official_statistics": true,
+    "landing_page": "https://www.luke.fi/en/statistics/volumes-and-prices-in-industrial-roundwood-trade",
+    "pxweb_table_page": "https://statdb.luke.fi/PxWeb/pxweb/en/LUKE/LUKE__met__teokau__kk/0100_teokau.px/",
+    "pxweb_api_metadata": "https://statdb.luke.fi/PxWeb/api/v1/en/LUKE/met/teokau/kk/0100_teokau.px",
+    "latest_release_observed_before_probe": {
+      "reference_month": "2026-07",
+      "publication_date": "2026-08-20",
+      "values_opened": false
+    }
+  },
+  "maximum_remote_actions": {
+    "metadata_get": 1,
+    "data_post": 1,
+    "maximum_selected_cells": 4,
+    "bulk_or_recursive_download": false
+  },
+  "deterministic_selection_after_metadata": {
+    "month": "exactly 2026-07 if present; otherwise stop NOT_ESTIMABLE_TARGET_MONTH_ABSENT",
+    "price_region": "whole country or exact English equivalent; otherwise stop NOT_ESTIMABLE_NO_NATIONAL_CELL",
+    "type_of_sale": "standing sales or exact English equivalent; otherwise stop NOT_ESTIMABLE_NO_STANDING_SALE",
+    "roundwood_assortment": "spruce logs or exact English equivalent; otherwise stop NOT_ESTIMABLE_NO_SPRUCE_LOG_CELL",
+    "information": [
+      "transaction or purchase volume in a physical cubic-metre unit",
+      "nominal unit price in EUR per cubic metre"
+    ],
+    "response_format": "json-stat2 or PXWeb JSON"
+  },
+  "acceptance_gates": {
+    "public_without_account": true,
+    "reference_month_explicit": true,
+    "publication_or_update_date_explicit": true,
+    "product_assortment_explicit": true,
+    "sale_type_explicit": true,
+    "geography_explicit": true,
+    "physical_volume_unit_explicit": true,
+    "price_unit_explicit": true,
+    "price_and_volume_nonmissing": true,
+    "raw_metadata_and_response_hashable": true
+  },
+  "authority_if_all_gates_pass": "SCHEMA_AND_SINGLE_CELL_SUPPORT_ONLY",
+  "model_authority": false,
+  "forecast_authority": false,
+  "score_authority": false,
+  "posterior_or_Z_post_update_authority": false,
+  "historical_freeze_reconstruction": false,
+  "cross_source_pooling": false,
+  "global_winner": null,
+  "automatic_promotion": false,
+  "prohibitions": [
+    "no account creation or authentication",
+    "no payment, terms acceptance or contact with source owners",
+    "no product, month, region or sale-type substitution after seeing values",
+    "no energy wood branch",
+    "no claim that one Finland cell generalizes to Spain, Argentina, Eurostat STS, AEAT or RMK",
+    "no use of current values as a pre-release causal forecast"
+  ]
+}

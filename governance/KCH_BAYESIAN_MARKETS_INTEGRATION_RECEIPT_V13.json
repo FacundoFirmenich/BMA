@@ -1,0 +1,42 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v13",
+  "date": "2026-08-24",
+  "mission": "Custody the preregistered UCII V0.2 July forecast freeze without opening the target outcome.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "a880437",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V13.json",
+    "sha256": "26D441924DDF45C7115CBF2C780D09290119E3E3A299A4929F220A4C4CF1BA6A"
+  },
+  "result": {
+    "state": "FROZEN_PRE_OUTCOME",
+    "target": "INDEC UCII general 2026-07",
+    "last_observed_percent": 59.1,
+    "M0_median": 59.1,
+    "M1_median": 59.06933492093385,
+    "M2_median": 59.2544996662403,
+    "weights": "1/3 each",
+    "outcome_opened": false,
+    "score": null,
+    "posterior_updated_after_target": false,
+    "next_target_frozen": false,
+    "sector_boundary_events_preserved": 2,
+    "sector_blocks_used_in_general_likelihood": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "custody": {
+    "manifest_sha256": "000A0BFC19107F04BE1C56A1D0FECC15C2C88CA9981645A3BB5AF803BD6EC31B",
+    "manifest_files": 4,
+    "hash_or_size_failures": 0,
+    "V0_1_gate_failure_preserved": true
+  },
+  "validation": {
+    "joint_v0_1_v0_2_pytest": "6 passed",
+    "full_pytest": "121 passed",
+    "manifest": "PASS 4/4"
+  },
+  "next_gate": "Commit and push this immutable freeze; then resynchronize all eight embedded native chats to current EOF before coral integration."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "bpm.rmk.source-conflict-gate.v0.1",
+  "event_date": "2025-10-29",
+  "recorded_before_freeze_and_result_access": true,
+  "raw_offer_sha256": "2BE85C38B126DC1A595C473C5310195D59961EB9B5888921501775A76E409F8B",
+  "structured_offer_sha256": "3117929C51B3666A0710A7C123EC51F5F0D20025204A4E6C0080E9A90FE934BD",
+  "object": {
+    "object_id": 6,
+    "product": "Madalakvaliteediline kuuse- ja männipalk",
+    "advertised_volume_m3": 4686,
+    "location_sheet_stated_total_m3": 5549,
+    "location_component_sum_m3": 5549,
+    "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT"
+  },
+  "adjudication": {
+    "frozen_predictions_authorized": false,
+    "result_scoring_authorized": false,
+    "posterior_update_authorized": false,
+    "choose_one_denominator": false,
+    "quarantine_if_outcome_exists": true
+  },
+  "invariants": {
+    "result_bodies_opened": false,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

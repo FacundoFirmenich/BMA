@@ -1,0 +1,401 @@
+{
+  "schema": "kch-bayesian-markets-v2-audit/v1",
+  "generated_at": "2026-08-21T19:32:21.3527545+02:00",
+  "status": "PASS",
+  "checks": 64,
+  "failures": 0,
+  "adverse_states_asserted": [
+    "AEAT_LOCAL_LOSS",
+    "DECEMBER_ABSTENTION",
+    "UCII_LEGACY_INVALID",
+    "EUROSTAT_NOT_ESTIMABLE",
+    "COMTRADE_QUARANTINE",
+    "RMK_QUEUE_V1_V2_INVALID"
+  ],
+  "details": [
+    {
+      "name": "contract.exists.canonical/CLASSIFICATION_INDEX_V6.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.canonical/CLASSIFICATION_INDEX_V6.csv",
+      "pass": true,
+      "observed": "BBD1A9EA1AE16C37D06787E0D9EA0F42C1E5E9896A6232F6F8DF5C7F46234E3A",
+      "expected": "BBD1A9EA1AE16C37D06787E0D9EA0F42C1E5E9896A6232F6F8DF5C7F46234E3A"
+    },
+    {
+      "name": "contract.exists.governance/BAYESIAN_MARKETS_NATIVE_SOURCE_REGISTRY_V4.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BAYESIAN_MARKETS_NATIVE_SOURCE_REGISTRY_V4.csv",
+      "pass": true,
+      "observed": "1F039E5725463540006B5067567C441398C0A3AFD06E3ED392F9905E8FA69ACB",
+      "expected": "1F039E5725463540006B5067567C441398C0A3AFD06E3ED392F9905E8FA69ACB"
+    },
+    {
+      "name": "contract.exists.governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_AEAT_2025_ATTEMPT11_AUDIT.json",
+      "pass": true,
+      "observed": "75F2053CACD8E5FED75494747EC0E51B440DC0830476859B0041B14AA7CF137C",
+      "expected": "75F2053CACD8E5FED75494747EC0E51B440DC0830476859B0041B14AA7CF137C"
+    },
+    {
+      "name": "contract.exists.outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.outputs/BPM_AEAT_2025_TENTATIVA11_CIERRE_SUSTANTIVO_20260820_ES.md",
+      "pass": true,
+      "observed": "8D5DACC15D163455F31EE552BD81020A4BE24414368674CDFBFA0E6156C4683D",
+      "expected": "8D5DACC15D163455F31EE552BD81020A4BE24414368674CDFBFA0E6156C4683D"
+    },
+    {
+      "name": "contract.exists.governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/HBP_ARGENTINA_EUROSTAT_CAMPAIGN_LEDGER_V1.csv",
+      "pass": true,
+      "observed": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08",
+      "expected": "D47B7E9D0B3C2B8E83162DB7F5412435D0F056CEEB7C9D1625FD885EA3A2DF08"
+    },
+    {
+      "name": "contract.exists.governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/HBP_CORAL_INTEGRATION_CONTRACT_V1.json",
+      "pass": true,
+      "observed": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE",
+      "expected": "0BCD8FF92BB44833013ED722EC3BA6390922028C40E7C9024B3C58C9BEA36BCE"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V1.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_SOURCE_SCREEN_V1.csv",
+      "pass": true,
+      "observed": "3E16EDAE86C46FFA7C8AFE4C9FB526A009700AEE08F222DFFF86A0C764BC1D74",
+      "expected": "3E16EDAE86C46FFA7C8AFE4C9FB526A009700AEE08F222DFFF86A0C764BC1D74"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "pass": true,
+      "observed": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E",
+      "expected": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E"
+    },
+    {
+      "name": "contract.exists.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "pass": true,
+      "observed": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71",
+      "expected": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71"
+    },
+    {
+      "name": "contract.exists.preregistrations/BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1.json",
+      "pass": true,
+      "observed": "CDC7582D038395735C00928E0256FD90DB03A02F805AC493959B70DFBEB5DE84",
+      "expected": "CDC7582D038395735C00928E0256FD90DB03A02F805AC493959B70DFBEB5DE84"
+    },
+    {
+      "name": "contract.exists.preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1.json",
+      "pass": true,
+      "observed": "587CD7D0A9552ED587CB4854170AFA6DE480D2BA80D206282FDA03D9F0729A0D",
+      "expected": "587CD7D0A9552ED587CB4854170AFA6DE480D2BA80D206282FDA03D9F0729A0D"
+    },
+    {
+      "name": "contract.exists.preregistrations/HBP_SPAIN_INDUSTRIAL_CORAL_CAUSAL_CAMPAIGN_V0.1.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "contract.hash.preregistrations/HBP_SPAIN_INDUSTRIAL_CORAL_CAUSAL_CAMPAIGN_V0.1.json",
+      "pass": true,
+      "observed": "7DEC3AE93009F86B5C0A4984C560C88402DEE4B3569A21315BA0F3FB97A0BB30",
+      "expected": "7DEC3AE93009F86B5C0A4984C560C88402DEE4B3569A21315BA0F3FB97A0BB30"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/rmk_inventory_manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/rmk_inventory_manifest.json",
+      "pass": true,
+      "observed": "0AF919539A6A1FF27AB85ED086B4AA8099F5AEE27D9A7AE1D51D45CF3BB1444F",
+      "expected": "0AF919539A6A1FF27AB85ED086B4AA8099F5AEE27D9A7AE1D51D45CF3BB1444F"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/rmk_dated_inventory_manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/rmk_dated_inventory_manifest.json",
+      "pass": true,
+      "observed": "3B26210EAB585B455DC380F6F68685D300AC8819894A8BF75CA4A353EF9D44A7",
+      "expected": "3B26210EAB585B455DC380F6F68685D300AC8819894A8BF75CA4A353EF9D44A7"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/rmk_candidate_event_page_probe_manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/rmk_candidate_event_page_probe_manifest.json",
+      "pass": true,
+      "observed": "2742FE7760334FA48A5E3309941E4A4CAB10B833EB4E87A742CF8D3859F51EC4",
+      "expected": "2742FE7760334FA48A5E3309941E4A4CAB10B833EB4E87A742CF8D3859F51EC4"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3.csv",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3.csv",
+      "pass": true,
+      "observed": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF",
+      "expected": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3_manifest.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/rmk_ordered_payload_queue_v3_manifest.json",
+      "pass": true,
+      "observed": "7695ECF6E9FDC0E1AAFFFDDD683A4A50833482BA1432E0B15F86E305CE15C5EB",
+      "expected": "7695ECF6E9FDC0E1AAFFFDDD683A4A50833482BA1432E0B15F86E305CE15C5EB"
+    },
+    {
+      "name": "rmk.exists.preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_ADDENDUM_20260821.json",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_ADDENDUM_20260821.json",
+      "pass": true,
+      "observed": "F4CEC7DF368D32D5288752A1DA2F5AAB3140EF485308294169BEA82C2FB846A5",
+      "expected": "F4CEC7DF368D32D5288752A1DA2F5AAB3140EF485308294169BEA82C2FB846A5"
+    },
+    {
+      "name": "rmk.exists.outputs/BPM_RMK_URL_INVENTORY_CHECKPOINT_V2_20260821_ES.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.outputs/BPM_RMK_URL_INVENTORY_CHECKPOINT_V2_20260821_ES.md",
+      "pass": true,
+      "observed": "AB29C470D87635FD45B3E2A9FDAC602199E0373F17C6931C772F5BA1A7320A7E",
+      "expected": "AB29C470D87635FD45B3E2A9FDAC602199E0373F17C6931C772F5BA1A7320A7E"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V1.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V1.md",
+      "pass": true,
+      "observed": "520609591F6ECFDE21988CAC7C4905C22D0C6A274D73CC2610CBA92E44EB48E5",
+      "expected": "520609591F6ECFDE21988CAC7C4905C22D0C6A274D73CC2610CBA92E44EB48E5"
+    },
+    {
+      "name": "rmk.exists.evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V2.md",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.hash.evidence/probes/rmk-url-inventory-v1/INVALID_DO_NOT_EXECUTE_QUEUE_V2.md",
+      "pass": true,
+      "observed": "C0C4DCCD014EF19F3391DB485A753FBAD7F638879D5BA8AD6049AFDE2225C762",
+      "expected": "C0C4DCCD014EF19F3391DB485A753FBAD7F638879D5BA8AD6049AFDE2225C762"
+    },
+    {
+      "name": "contract.mission_hash",
+      "pass": true,
+      "observed": "4819BD2EF0A9C87C09C8F8BE8CF871DCC9138480F7AA94C5F1393857F17D3D4B",
+      "expected": "4819BD2EF0A9C87C09C8F8BE8CF871DCC9138480F7AA94C5F1393857F17D3D4B"
+    },
+    {
+      "name": "receipt.contract_hash",
+      "pass": true,
+      "observed": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672",
+      "expected": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672"
+    },
+    {
+      "name": "rmk.parent_contract_hash",
+      "pass": true,
+      "observed": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672",
+      "expected": "466A09EBAB680310295B43C797D74CA6B18EE78CA25D10DBCB924DCF5AA89672"
+    },
+    {
+      "name": "index.rows",
+      "pass": true,
+      "observed": 26,
+      "expected": 26
+    },
+    {
+      "name": "index.bpm",
+      "pass": true,
+      "observed": 9,
+      "expected": 9
+    },
+    {
+      "name": "index.bum",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "index.hbp",
+      "pass": true,
+      "observed": 12,
+      "expected": 12
+    },
+    {
+      "name": "index.unclassified",
+      "pass": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "hbp.ledger_rows",
+      "pass": true,
+      "observed": 6,
+      "expected": 6
+    },
+    {
+      "name": "hbp.ucii_legacy_invalid",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "hbp.eurostat_not_estimable",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "rmk.queue_rows",
+      "pass": true,
+      "observed": 63,
+      "expected": 63
+    },
+    {
+      "name": "rmk.queue_unique_urls",
+      "pass": true,
+      "observed": 63,
+      "expected": 63
+    },
+    {
+      "name": "rmk.head_200",
+      "pass": true,
+      "observed": 63,
+      "expected": 63
+    },
+    {
+      "name": "rmk.bodies_closed",
+      "pass": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "rmk.pair_dates",
+      "pass": true,
+      "observed": 15,
+      "expected": 15
+    },
+    {
+      "name": "rmk.schema_exclusions",
+      "pass": true,
+      "observed": 2,
+      "expected": 2
+    },
+    {
+      "name": "rmk.invalid_v1_marker",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "rmk.invalid_v2_marker",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "prereg.rmk.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "prereg.coral.no_global_winner",
+      "pass": true,
+      "observed": null,
+      "expected": null
+    },
+    {
+      "name": "contract.no_automatic_promotion",
+      "pass": true,
+      "observed": false,
+      "expected": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "bpm.rmk.pre-offer-gate.v0.2",
+  "event_date": "2025-10-29",
+  "state": "PARENT_CLOSED_OFFER_AND_RESULT_BODIES_CLOSED",
+  "parent_event": "2025-10-21",
+  "parent_prior_sha256": "F81BD644051BB61F1E7E16B1E0C8A190783E6BF1897D6E79C226D2EDC7BB55AB",
+  "parent_z_post_sha256": "2CA9DFE93A35BE52D21688B13B0CD265D4E78066A8CFD93731A5DCE868ED4DA2",
+  "parent_adjudication_sha256": "CF5392654F0F63E133C07883234D9C8C26C63B549EE1E06B1350CD8564A38A3D",
+  "parent_audit_sha256": "502BFCF554385602B5A1634C9162E31403BAB73995961B293B8401D14D9B4903",
+  "software_amendment_sha256": "EC903785CDA4911AE3F712200869B07783EECCDA4A76A3449F6EDB82DCF260FD",
+  "offer": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/10/Myygiobjektid_EP_29.10.2025.xlsx",
+    "body_opened": false
+  },
+  "paired_result_candidates": [
+    {
+      "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad_29.10.2025.xlsx",
+      "body_opened": false,
+      "state": "CANDIDATE_IDENTITY_NOT_YET_ADJUDICATED"
+    },
+    {
+      "url": "https://rmk.ee/wp-content/uploads/2025/10/Edukad-EP-29.10.2025.xlsx",
+      "body_opened": false,
+      "state": "CANDIDATE_IDENTITY_NOT_YET_ADJUDICATED"
+    }
+  ],
+  "invariants": {
+    "one_event_predicts_only_its_own_outcomes": true,
+    "posterior_reset": false,
+    "pooling_n_to_1": false,
+    "global_winner": false,
+    "automatic_promotion": false
+  }
+}

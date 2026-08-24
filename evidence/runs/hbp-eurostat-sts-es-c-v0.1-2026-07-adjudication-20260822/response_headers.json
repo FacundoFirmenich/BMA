@@ -1,0 +1,20 @@
+{
+  "captured_at_utc": "2026-08-22T02:17:03.724240+00:00",
+  "final_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2026-07&untilTimePeriod=2026-07",
+  "headers": {
+    "Access-Control-Allow-Headers": "Content-Type, Accept, X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Access-Control-Allow-Origin": "*",
+    "Connection": "close",
+    "Content-Length": "3484",
+    "Content-Type": "application/json",
+    "Date": "Sat, 22 Aug 2026 02:17:04 GMT",
+    "X-ORACLE-DMS-ECID": "a92f256f-186b-4e18-a7f9-5110b0836b56-019ffca0",
+    "X-ORACLE-DMS-RID": "0"
+  },
+  "http_status": 200,
+  "raw_bytes": 3484,
+  "raw_sha256": "E4F18D8E4020A09AAE0A72F01BC5670C7A87B23C5DD07348DFA5354F1870B3CD",
+  "request_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2026-07&untilTimePeriod=2026-07",
+  "source_updated": "2026-08-19T11:00:00+0200"
+}

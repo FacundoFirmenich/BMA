@@ -1,0 +1,43 @@
+{
+  "schema": "bayesian-markets-deduplicated-census/v3",
+  "generated_at": "2026-08-21T21:52:56.9539443Z",
+  "input": {
+    "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\BAYESIAN_MARKETS_LOCAL_SOURCE_CENSUS_V2.csv",
+    "sha256": "9FC5CE7AEE8C4170F6E74016A586077F0D18FB717293717497026250377E5F2E",
+    "candidate_rows": 1544,
+    "file_rows": 1507,
+    "directory_rows": 37,
+    "removal_receipt": {
+      "path": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\governance\\SPACE_RECOVERY_DUPLICATE_ZIP_20260816.json",
+      "sha256": "E7112EC7FE18DDB28C85EB7A7ACFC0FD18F19C309F81447350D534D52E59C681"
+    }
+  },
+  "result": {
+    "files_physically_hashed": 1506,
+    "rows_resolved_by_verified_removal_receipt": 1,
+    "v2_file_rows_resolved": 1507,
+    "files_missing_or_failed": 0,
+    "physical_bytes": 193772331,
+    "unique_sha256_objects": 829,
+    "unique_bytes": 162611268,
+    "exact_duplicate_groups": 295,
+    "exact_duplicate_members": 973,
+    "exact_redundant_logical_rows": 678,
+    "exact_redundant_present_files": 677,
+    "container_or_compound_document_rows": 18,
+    "container_internal_bytes_read": false
+  },
+  "outputs": {
+    "file_census_csv": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\deduplicated-v3\\BAYESIAN_MARKETS_DEDUPLICATED_FILE_CENSUS_V3.csv",
+    "directory_candidates_csv": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\deduplicated-v3\\BAYESIAN_MARKETS_DIRECTORY_CANDIDATES_V3.csv",
+    "container_review_queue_csv": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\deduplicated-v3\\BAYESIAN_MARKETS_CONTAINER_REVIEW_QUEUE_V3.csv",
+    "errors_csv": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\inventory\\deduplicated-v3\\BAYESIAN_MARKETS_DEDUPLICATION_ERRORS_V3.csv"
+  },
+  "evidence_boundary": "EVERY_EXISTING_FILE_ROW_FROM_V2_HASHED_BYTE_FOR_BYTE; EXACT_REPLICAS_IDENTIFIED_WITHOUT_DELETION; ARCHIVE_AND_COMPOUND_DOCUMENT_INTERNAL_MEMBERS_NOT_YET_ENUMERATED; V2_DISCOVERY_SCOPE_LIMITS_REMAIN",
+  "authority": {
+    "classification_authority": false,
+    "deletion_authority": false,
+    "canonical_representative_selection": false,
+    "global_winner": null
+  }
+}

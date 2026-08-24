@@ -1,0 +1,16 @@
+{
+  "schema_version": "bpm.rmk.result-repair-receipt.v0.1",
+  "event_date": "2025-08-22",
+  "timing": "AFTER_RESULT_OPEN_BEFORE_SCORING_POSTERIOR_UPDATE_OR_ADJUDICATION",
+  "defect": "A verified component-sum offer without a stated location total attempted to compute location-sheet coverage using a null denominator.",
+  "repair": "Location-sheet coverage remains null unless an explicit non-null location-sheet total exists; offer-volume coverage remains available when the source volume is otherwise verified.",
+  "discarded_unscored_structured_result_sha256": "741A9214546AFC99AC10861EB09992C4FFC29B7F112693B4BEC5A36ADA137AC3",
+  "corrected_extractor_sha256": "7B8B7C656B4986092E5265679422B65F9EC305D11805083DF2548ACFC9258087",
+  "freeze_preserved_sha256": "48881C255660ECEB251CE9A1CF7E32B2FEA5CE1CDA34B34A8CF3C8DCA014D969",
+  "predictive_identity_changed": false,
+  "outcome_values_changed": false,
+  "posterior_changed_at_detection": false,
+  "scores_changed": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

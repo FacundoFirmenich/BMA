@@ -1,0 +1,1144 @@
+{
+  "schema_version": "bpm.rmk.result-structured.v0.3",
+  "event_date": "2025-08-22",
+  "protocol_date": "2025-08-26",
+  "source_file": "C:\\Users\\User\\Documents\\Codex\\2026-08-10\\bma-terra-succession-20260810\\evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-08-22\\raw\\Edukad_EP_22.08.2025.xlsx",
+  "source_sha256": "37C1F8EE8B795B960207F5F2367B0879DA260034ABED9CA0D3AC5709F80B272E",
+  "source_bytes": 23647,
+  "frozen_offer_raw_sha256": "809F526D46E89F7D9CC6BDA658D616E93DA8B1A119AB8E47D103308D0B5DEC72",
+  "structured_offer_used_sha256": "D04547FDF11BD82E6F4FC6CB1319179E50628B5CC0C9B34FBCE3A5C4997076CF",
+  "award_row_count": 40,
+  "local_outcome_count": 37,
+  "quarantined_outcome_count": 2,
+  "freeze_used_sha256": "48881C255660ECEB251CE9A1CF7E32B2FEA5CE1CDA34B34A8CF3C8DCA014D969",
+  "total_awarded_volume_m3": 44861,
+  "extraction_failures": [],
+  "rows": [
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "buyer": "Aegviidu Puit AS",
+      "destination": "Aegviidu",
+      "awarded_volume_m3": 182,
+      "raw_price": 80,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "buyer": "Toftan AS",
+      "destination": "Varese",
+      "awarded_volume_m3": 200,
+      "raw_price": 73,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 73,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "buyer": "Viiratsi Saeveski AS",
+      "destination": "Vana-Võidu",
+      "awarded_volume_m3": 472,
+      "raw_price": 80,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "buyer": "Viru-Nigula Saeveski AS",
+      "destination": "Vasta",
+      "awarded_volume_m3": 211,
+      "raw_price": 80,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Aegviidu Puit AS",
+      "destination": "Aegviidu",
+      "awarded_volume_m3": 697,
+      "raw_price": 115,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Belander Grupp OÜ",
+      "destination": "Jõgeva",
+      "awarded_volume_m3": 200,
+      "raw_price": 122,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 122,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Förmann NT AS",
+      "destination": "Vastseliina",
+      "awarded_volume_m3": 300,
+      "raw_price": 110,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 110,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Vara Saeveski OÜ",
+      "destination": "Vara",
+      "awarded_volume_m3": 24,
+      "raw_price": 108,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 108,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Viiratsi Saeveski AS",
+      "destination": "Vana-Võidu",
+      "awarded_volume_m3": 2143,
+      "raw_price": 115,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "buyer": "Viru-Nigula Saeveski AS",
+      "destination": "Vasta",
+      "awarded_volume_m3": 731,
+      "raw_price": 115,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Aegviidu Puit AS",
+      "destination": "Aegviidu",
+      "awarded_volume_m3": 105,
+      "raw_price": 123,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Marana",
+      "awarded_volume_m3": 321,
+      "raw_price": 124,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 124,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Ansi",
+      "awarded_volume_m3": 66,
+      "raw_price": 105,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 105,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Adraku",
+      "awarded_volume_m3": 652,
+      "raw_price": 123,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Verijärve",
+      "awarded_volume_m3": 3565,
+      "raw_price": 134,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 134,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Belander Grupp OÜ",
+      "destination": "Jõgeva",
+      "awarded_volume_m3": 200,
+      "raw_price": 134,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 134,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Stora Enso Eesti AS",
+      "destination": "Imavere",
+      "awarded_volume_m3": 2681,
+      "raw_price": 130.1,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 130.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "buyer": "Viru-Nigula Saeveski AS",
+      "destination": "Vasta",
+      "awarded_volume_m3": 838,
+      "raw_price": 123,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Aegviidu Puit AS",
+      "destination": "Aegviidu",
+      "awarded_volume_m3": 491,
+      "raw_price": 125,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 125,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Marana",
+      "awarded_volume_m3": 772,
+      "raw_price": 126,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 126,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Ansi",
+      "awarded_volume_m3": 43,
+      "raw_price": 106,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 106,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Adraku",
+      "awarded_volume_m3": 1035,
+      "raw_price": 125,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 125,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Barrus AS",
+      "destination": "Verijärve",
+      "awarded_volume_m3": 2826,
+      "raw_price": 135,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 135,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Holttem AS",
+      "destination": "Karksi-Nuia",
+      "awarded_volume_m3": 25,
+      "raw_price": 126,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 126,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "buyer": "Stora Enso Eesti AS",
+      "destination": "Imavere",
+      "awarded_volume_m3": 916,
+      "raw_price": 128.1,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 128.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "buyer": "Aegviidu Puit AS",
+      "destination": "Aegviidu",
+      "awarded_volume_m3": 1552,
+      "raw_price": 120,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "buyer": "Viiratsi Saeveski AS",
+      "destination": "Vana-Võidu",
+      "awarded_volume_m3": 4123,
+      "raw_price": 120,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "buyer": "Viru-Nigula Saeveski AS",
+      "destination": "Vasta",
+      "awarded_volume_m3": 1808,
+      "raw_price": 120,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "buyer": "Prolatio OÜ",
+      "destination": "Umbsaare",
+      "awarded_volume_m3": 838,
+      "raw_price": 130,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 130,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "buyer": "Stora Enso Eesti AS",
+      "destination": "Imavere",
+      "awarded_volume_m3": 4729,
+      "raw_price": 135.1,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 135.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "buyer": "Prolatio OÜ",
+      "destination": "Umbsaare",
+      "awarded_volume_m3": 662,
+      "raw_price": 130,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 130,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "buyer": "Stora Enso Eesti AS",
+      "destination": "Imavere",
+      "awarded_volume_m3": 3419,
+      "raw_price": 134.1,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 134.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "buyer": "Tarm AS",
+      "destination": "Kalme",
+      "awarded_volume_m3": 144,
+      "raw_price": 127,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 127,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 8,
+      "product": "Haavapaberipuit",
+      "buyer": "HMPK OÜ",
+      "destination": "Heltermaa",
+      "awarded_volume_m3": 735,
+      "raw_price": 40,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 40,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "buyer": "HMPK OÜ",
+      "destination": "Heltermaa",
+      "awarded_volume_m3": 3900,
+      "raw_price": 54.5,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 54.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "buyer": "Lemeks Sadamad AS",
+      "destination": "Paldiski",
+      "awarded_volume_m3": 500,
+      "raw_price": 58.26,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 58.26,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "buyer": "Lignator Logistika OÜ",
+      "destination": "Paldiski",
+      "awarded_volume_m3": 130,
+      "raw_price": 56.01,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 56.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "buyer": "HMPK OÜ",
+      "destination": "Heltermaa",
+      "awarded_volume_m3": 700,
+      "raw_price": 50,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 50,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 12,
+      "product": "Küttepuit",
+      "buyer": "United Loggers OÜ",
+      "destination": "Heltermaa",
+      "awarded_volume_m3": 1715,
+      "raw_price": 40.09,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 40.09,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 13,
+      "product": "Okaspuuküttepuit",
+      "buyer": "Lignator Logistika OÜ",
+      "destination": "Paldiski",
+      "awarded_volume_m3": 210,
+      "raw_price": 47.01,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 47.01,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    }
+  ],
+  "local_outcomes": [
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "awarded_volume_m3": 182,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Varese",
+      "buyers": [
+        "Toftan AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "awarded_volume_m3": 200,
+      "effective_weighted_price_eur_m3": 73,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Vana-Võidu",
+      "buyers": [
+        "Viiratsi Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "awarded_volume_m3": 472,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Vasta",
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "35BE506A0CF16C72B7B29BFA0450AC8C4F208284C5CBB9D55AAC86D38C136FD9",
+      "awarded_volume_m3": 211,
+      "effective_weighted_price_eur_m3": 80,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 697,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Jõgeva",
+      "buyers": [
+        "Belander Grupp OÜ"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 200,
+      "effective_weighted_price_eur_m3": 122,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vastseliina",
+      "buyers": [
+        "Förmann NT AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 300,
+      "effective_weighted_price_eur_m3": 110,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vara",
+      "buyers": [
+        "Vara Saeveski OÜ"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 24,
+      "effective_weighted_price_eur_m3": 108,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vana-Võidu",
+      "buyers": [
+        "Viiratsi Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 2143,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vasta",
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "17AE78918040FD634129BFA4EA5C40A6846C2E269E3491A43DB9B2BA6492A1E0",
+      "awarded_volume_m3": 731,
+      "effective_weighted_price_eur_m3": 115,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 105,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Marana",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 321,
+      "effective_weighted_price_eur_m3": 124,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Ansi",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 66,
+      "effective_weighted_price_eur_m3": 105,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Adraku",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 652,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Verijärve",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 3565,
+      "effective_weighted_price_eur_m3": 134,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Jõgeva",
+      "buyers": [
+        "Belander Grupp OÜ"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 200,
+      "effective_weighted_price_eur_m3": 134,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Imavere",
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 2681,
+      "effective_weighted_price_eur_m3": 130.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Vasta",
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 838,
+      "effective_weighted_price_eur_m3": 123,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 491,
+      "effective_weighted_price_eur_m3": 125,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Marana",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 772,
+      "effective_weighted_price_eur_m3": 126,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Ansi",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 43,
+      "effective_weighted_price_eur_m3": 106,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Adraku",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 1035,
+      "effective_weighted_price_eur_m3": 125,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Verijärve",
+      "buyers": [
+        "Barrus AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 2826,
+      "effective_weighted_price_eur_m3": 135,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Karksi-Nuia",
+      "buyers": [
+        "Holttem AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 25,
+      "effective_weighted_price_eur_m3": 126,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Imavere",
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 916,
+      "effective_weighted_price_eur_m3": 128.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "destination": "Aegviidu",
+      "buyers": [
+        "Aegviidu Puit AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "661A245CF7F5958689473A901512D9BF8B3AECADAB54B58A935837470FF1FD59",
+      "awarded_volume_m3": 1552,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "destination": "Vana-Võidu",
+      "buyers": [
+        "Viiratsi Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "661A245CF7F5958689473A901512D9BF8B3AECADAB54B58A935837470FF1FD59",
+      "awarded_volume_m3": 4123,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "destination": "Vasta",
+      "buyers": [
+        "Viru-Nigula Saeveski AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "661A245CF7F5958689473A901512D9BF8B3AECADAB54B58A935837470FF1FD59",
+      "awarded_volume_m3": 1808,
+      "effective_weighted_price_eur_m3": 120,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Umbsaare",
+      "buyers": [
+        "Prolatio OÜ"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 838,
+      "effective_weighted_price_eur_m3": 130,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Imavere",
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "728135D9E4E7FABD2461DC36587C44C854446DA33431FA62447CD036A93524B5",
+      "awarded_volume_m3": 4729,
+      "effective_weighted_price_eur_m3": 135.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Umbsaare",
+      "buyers": [
+        "Prolatio OÜ"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 662,
+      "effective_weighted_price_eur_m3": 130,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Imavere",
+      "buyers": [
+        "Stora Enso Eesti AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 3419,
+      "effective_weighted_price_eur_m3": 134.1,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Kalme",
+      "buyers": [
+        "Tarm AS"
+      ],
+      "delivery_period": "26.08.2025-30.09.2025",
+      "measurement_fingerprint_sha256": "2AEC3BE1C124215B1FD7AC37DD9C229E0F9F634A632F22C767079D4632190A93",
+      "awarded_volume_m3": 144,
+      "effective_weighted_price_eur_m3": 127,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Paldiski",
+      "buyers": [
+        "Lemeks Sadamad AS",
+        "Lignator Logistika OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2025",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "awarded_volume_m3": 630,
+      "effective_weighted_price_eur_m3": 57.79571428571429,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 2
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2025",
+      "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+      "awarded_volume_m3": 700,
+      "effective_weighted_price_eur_m3": 50,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 12,
+      "product": "Küttepuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "United Loggers OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2025",
+      "measurement_fingerprint_sha256": "61F27624A704EA8B393C3938901CDA3F2F27C8623B00722CAB86DDFF25A7015A",
+      "awarded_volume_m3": 1715,
+      "effective_weighted_price_eur_m3": 40.09,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 13,
+      "product": "Okaspuuküttepuit",
+      "destination": "Paldiski",
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2025",
+      "measurement_fingerprint_sha256": "96873F8C4D8A65B50934C184ED0780781C05DAAD3629224BEC273F3E4ADF57E9",
+      "awarded_volume_m3": 210,
+      "effective_weighted_price_eur_m3": 47.010000000000005,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    }
+  ],
+  "quarantined_outcomes": [
+    {
+      "object_id": 8,
+      "product": "Haavapaberipuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2023",
+      "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+      "awarded_volume_m3": 735,
+      "effective_weighted_price_eur_m3": 40,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "26.08.2025-31.10.2024",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 3900,
+      "effective_weighted_price_eur_m3": 54.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    }
+  ],
+  "object_totals": [
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "offer_volume_m3": 1065,
+      "location_sheet_volume_m3": 1065,
+      "awarded_volume_m3": 1065,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "offer_volume_m3": 4095,
+      "location_sheet_volume_m3": 4095,
+      "awarded_volume_m3": 4095,
+      "coverage_offer_denominator": null,
+      "coverage_location_sheet_denominator": null,
+      "state": "NOT_ESTIMABLE_SOURCE_VOLUME_UNVERIFIED_OR_DISAGREEMENT"
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "offer_volume_m3": 8428,
+      "location_sheet_volume_m3": 8428,
+      "awarded_volume_m3": 8428,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "offer_volume_m3": 6108,
+      "location_sheet_volume_m3": 6108,
+      "awarded_volume_m3": 6108,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepalk",
+      "offer_volume_m3": 7483,
+      "location_sheet_volume_m3": 7483,
+      "awarded_volume_m3": 7483,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "offer_volume_m3": 5567,
+      "location_sheet_volume_m3": 5567,
+      "awarded_volume_m3": 5567,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "offer_volume_m3": 4225,
+      "location_sheet_volume_m3": 4225,
+      "awarded_volume_m3": 4225,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 8,
+      "product": "Haavapaberipuit",
+      "offer_volume_m3": 735,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 735,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "offer_volume_m3": 3900,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 3900,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "NOT_ESTIMABLE_INVALID_DELIVERY_PERIOD_CHRONOLOGY"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "offer_volume_m3": 630,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 630,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "offer_volume_m3": 700,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 700,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 12,
+      "product": "Küttepuit",
+      "offer_volume_m3": 1715,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 1715,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 13,
+      "product": "Okaspuuküttepuit",
+      "offer_volume_m3": 210,
+      "location_sheet_volume_m3": null,
+      "awarded_volume_m3": 210,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": null,
+      "state": "ADJUDICABLE"
+    }
+  ],
+  "quarantined_unpaired_result": null
+}

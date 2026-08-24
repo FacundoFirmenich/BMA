@@ -1,0 +1,40 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v7",
+  "date": "2026-08-22",
+  "mission": "Identify and validate a public European monthly physical-product source with price and volume after integrating Argentina, Eurostat, Puertos and TED.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "c9adfe3c6305b50dc7af06845301dac58f2b195e",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V7.json",
+    "sha256": "40667553150C24D77F35E0C1736DD0ADC242423F0861A465D326DD86CF1E690C"
+  },
+  "result": {
+    "state": "PASS_SINGLE_PRODUCT_PRICE_VOLUME_SUPPORT",
+    "jurisdiction": "Finland x whole country x standing sales x spruce logs x monthly",
+    "observed_volume_m3": 429000,
+    "observed_price_eur_per_m3": 83.14,
+    "candidate": "PROMOTE_TO_SEPARATELY_PREREGISTERED_BPM_FINLAND_ROUNDWOOD_CAUSAL_CAMPAIGN",
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "posterior_updated": false,
+    "Z_post_updated": false,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation_at_receipt_creation": {
+    "focused_pytest": "4 passed",
+    "full_pytest": "95 passed",
+    "v7_audit": "PASS 56/56; chained V6 PASS 59/59"
+  },
+  "preserved_boundaries": [
+    "all V6 states and adverse evidence",
+    "post-release cell has no causal score",
+    "historical first-release vintages were not reconstructed",
+    "revision notes and official-statistics flag discrepancy preserved",
+    "unrelated dirty AEAT work remains unstaged and untouched"
+  ]
+}
+

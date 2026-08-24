@@ -1,0 +1,367 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.3",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-06-26",
+  "state": "FREEZE_WRITTEN_PAIRED_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "F075A37E41725A6D98585A513FC8ECCBA7FFA6F5C31BA31D9EFC077DA7B8B02E",
+    "structured_offer": "2A7E23D08E1E4E41854EC3DADE2F07077530275E096BED04880FB76997826728",
+    "prior": "E753A598582EC86FA1640B3DD23852730745D9DA68792E5C15C7389417EF9616"
+  },
+  "software_correction_sha256": "F25ACE9AE24242779063EFC5B5A1E106C02EB5F67D785F14412CCA1DED1D7623",
+  "object_count": 9,
+  "objects_with_prior_base_cell_match": 6,
+  "frozen_destination_predictions": 15,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Küttepuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "B22FC1984AA659BB877B9F7219358E79BA7E639D8E67860E1518874F7582E903",
+      "prior_matching_destinations": [
+        "Ninase"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Ninase",
+          "price": {
+            "M0": 40,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 687,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 2,
+      "product": "Okaspuuküttepuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "E8C24DDA86F2E064CEFB64CEDA8ECCDF303717D396434E7509994F47DDB0F51E",
+      "prior_matching_destinations": [
+        "Ninase"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Ninase",
+          "price": {
+            "M0": 40,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 748,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 3,
+      "product": "Haavapaberipuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "B4D7C3F0CA7333107E4EFD543885A837BB34D0D7A42F51066C5ED1CFE8433A6A",
+      "prior_matching_destinations": [
+        "Kunda"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Kunda",
+          "price": {
+            "M0": 55,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 2761,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 4,
+      "product": "Kasepaberipuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "prior_matching_destinations": [
+        "Heltermaa",
+        "Pärnu",
+        "Roomassaare"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Heltermaa",
+          "price": {
+            "M0": 58.10000000000001,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 1209,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Pärnu",
+          "price": {
+            "M0": 61.470350877192985,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 10260,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Roomassaare",
+          "price": {
+            "M0": 58.10000000000001,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 381,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 5,
+      "product": "Kuusepaberipuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "prior_matching_destinations": [
+        "Heltermaa",
+        "Kehra",
+        "Pärnu",
+        "Roomassaare"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Heltermaa",
+          "price": {
+            "M0": 57.02,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 210,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Kehra",
+          "price": {
+            "M0": 65,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 5184,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Roomassaare",
+          "price": {
+            "M0": 57,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 817,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Pärnu",
+          "price": {
+            "M0": 60.55,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 1500,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 6,
+      "product": "Männipaberipuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+      "prior_matching_destinations": [
+        "Heltermaa",
+        "Kehra",
+        "Kunda",
+        "Roomassaare",
+        "Sillamäe"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Sillamäe",
+          "price": {
+            "M0": 60,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 500,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Heltermaa",
+          "price": {
+            "M0": 57.019999999999996,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 1489,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Kehra",
+          "price": {
+            "M0": 65,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 4428,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Roomassaare",
+          "price": {
+            "M0": 57,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 4097,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        },
+        {
+          "destination": "Kunda",
+          "price": {
+            "M0": 60.54999999999999,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          },
+          "volume": {
+            "M0": 1342,
+            "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+            "M2": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+            "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 7,
+      "product": "Kasepaberipuit",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "C1409766920B31653ADDFE054879534F1402CFFF900EF81A1F02AF91BBB7557E",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 8,
+      "product": "Tehnoloogiline LP",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "AF71012AA71B6BDC25C3512239778B37FE6AA90E5D2E4414C7D22CA0A36359A3",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 9,
+      "product": "Tehnoloogiline OP",
+      "delivery_period": "01.07.2025-30.09.2025",
+      "calendar_phase": "M07-M08-M09",
+      "measurement_fingerprint_sha256": "B97D48FF41AB1450A25B1B4099F3FD4CC2BC5192BA5A212A39C575A9363E3694",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    }
+  ],
+  "paired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/06/Edukad_EP_26.06.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "quarantined_unpaired_result": null,
+  "global_winner": null,
+  "automatic_promotion": false
+}

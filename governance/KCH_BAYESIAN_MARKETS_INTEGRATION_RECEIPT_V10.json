@@ -1,0 +1,50 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v10",
+  "date": "2026-08-22",
+  "mission": "Freeze executable Argentina IPI, Eurostat July adjudication and UCII schema-capture chains before opening any new target or workbook bytes.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "62c59027a4132f168e365b225edda14b6410d73b",
+  "draft_pull_request": "https://github.com/FacundoFirmenich/BMA/pull/2",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V10.json",
+    "sha256": "BE8E68BE41A2E7F6C487FEE62A661120502F7841569195920582AC1D7D731149"
+  },
+  "audit": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_V10_AUDIT.json",
+    "sha256": "4FA76EB09D5ACE8176B5B5F55D709C922FFC0CCF2B465E8246CFD5DA1E17EA4D",
+    "script": "scripts/audit_bayesian_markets_integration_v10.ps1",
+    "script_sha256": "5780A3F831506135320AE6437D85677648E5950A993232018EE78AB66783A010",
+    "status": "PASS",
+    "checks": 42,
+    "failures": 0,
+    "prior_v9": "immutable PASS 55/55 verified by hash"
+  },
+  "result": {
+    "state": "ARGENTINA_EUROSTAT_ACTIVATION_FROZEN_BEFORE_EXECUTION",
+    "eurostat_parent_freeze": "5/5 artifacts verified; July target not queried in this phase",
+    "indec_prodcom_parent_custody": "6/6 primary payloads verified",
+    "indec_ipi": "126 contiguous months and 125 transitions, 2016-01 through 2026-06; July target absent",
+    "indec_ucii": "schema-only one-GET capture preregistered; fit and forecast forbidden until second freeze",
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "validation": {
+    "focused_pytest": "12 passed",
+    "full_pytest": "115 passed",
+    "ruff": "PASS",
+    "v10_audit": "PASS 42/42",
+    "new_run_directories_present_before_freeze": 0
+  },
+  "preserved_boundaries": [
+    "all V9 adverse states",
+    "Eurostat ordinary API and INDEC workbook are current vintages, not historical first-release archives",
+    "IPI design is not blind to the training history",
+    "legacy UCII double-counting freeze remains nonauthoritative",
+    "Prodcom empty Spain-product cell remains NOT_ESTIMABLE_NO_CELL",
+    "IPI, UCII and Eurostat have separate likelihoods, posteriors, weights and Z_post",
+    "no pooling N-to-1, global winner or automatic promotion",
+    "unrelated dirty AEAT and phase-selector work remains unstaged and untouched"
+  ],
+  "next_gate": "Commit and push V10 before the first IPI freeze, Eurostat July target query and UCII workbook acquisition."
+}

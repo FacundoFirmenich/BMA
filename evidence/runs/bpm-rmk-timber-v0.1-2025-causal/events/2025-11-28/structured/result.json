@@ -1,0 +1,85 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-result-structured.v0.2",
+  "event_date": "2025-11-28",
+  "protocol_date": "2025-12-01",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-11-28\\raw\\Edukad_EP_28.11.2025.xlsx",
+  "source_sha256": "FA1D8CFCCE8231E5EC3769D6D3875E5FEECE75A0D30A90D3B90C1A472DF3BD9C",
+  "source_bytes": 22997,
+  "structured_offer_used_sha256": "6C7CD6F9A8B230C2FCF9B691D900446CBA3B78D7F1BF4252A5B819C2A8ECA311",
+  "freeze_used_sha256": "ED1DFE3C5C23EED21D5991FCDF268DA0EBC8B52514A7BBAA420814DADC31CA8E",
+  "conversion_source": "OFFER_FROZEN_BEFORE_RESULT",
+  "conversion_m3_to_pm3": 2.78,
+  "award_row_count": 4,
+  "total_awarded_volume_pm3": 29552,
+  "total_awarded_volume_m3": 10630.21582733813,
+  "approximate_offer_volume_m3": 10630,
+  "approximate_coverage_ratio": 1.0000203036065973,
+  "coverage_state": "DIAGNOSTIC_ONLY_APPROXIMATE_OFFER_AND_UNIT_ROUNDING",
+  "extraction_failures": [],
+  "local_outcomes": [
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Heltermaa",
+      "buyers": [
+        "HMPK OÜ"
+      ],
+      "delivery_period": "2.12.2025 kuni 28.02.2026",
+      "calendar_phase": "M12-M01-M02",
+      "awarded_volume_m3": 2310.0719424460435,
+      "effective_weighted_price_eur_m3": 43.145599999999995,
+      "original_volume_pm3": 6422,
+      "original_price_eur_pm3": 15.52,
+      "price_state": "ESTIMABLE_OFFER_FROZEN_UNIT_CONVERSION"
+    },
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Ninase",
+      "buyers": [
+        "Reta Puit OÜ"
+      ],
+      "delivery_period": "2.12.2025 kuni 28.02.2026",
+      "calendar_phase": "M12-M01-M02",
+      "awarded_volume_m3": 934.8920863309353,
+      "effective_weighted_price_eur_m3": 42.534,
+      "original_volume_pm3": 2599,
+      "original_price_eur_pm3": 15.3,
+      "price_state": "ESTIMABLE_OFFER_FROZEN_UNIT_CONVERSION"
+    },
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Roomassaare",
+      "buyers": [
+        "Reta Puit OÜ"
+      ],
+      "delivery_period": "2.12.2025 kuni 28.02.2026",
+      "calendar_phase": "M12-M01-M02",
+      "awarded_volume_m3": 3915.107913669065,
+      "effective_weighted_price_eur_m3": 42.534,
+      "original_volume_pm3": 10884,
+      "original_price_eur_pm3": 15.3,
+      "price_state": "ESTIMABLE_OFFER_FROZEN_UNIT_CONVERSION"
+    },
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+      "destination": "Pärsama",
+      "buyers": [
+        "United Loggers OÜ"
+      ],
+      "delivery_period": "2.12.2025 kuni 28.02.2026",
+      "calendar_phase": "M12-M01-M02",
+      "awarded_volume_m3": 3470.1438848920866,
+      "effective_weighted_price_eur_m3": 42.1448,
+      "original_volume_pm3": 9647,
+      "original_price_eur_pm3": 15.16,
+      "price_state": "ESTIMABLE_OFFER_FROZEN_UNIT_CONVERSION"
+    }
+  ]
+}

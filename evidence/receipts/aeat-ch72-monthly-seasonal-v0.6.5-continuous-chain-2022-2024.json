@@ -1,0 +1,46 @@
+{
+  "schema_version": "bma.receipt.aeat.chapter72.monthly-seasonal.continuous-chain-2022-2024.v0.6.5",
+  "status": "CONTINUOUS_RETROSPECTIVE_CAUSAL_CHAIN_COMPLETE",
+  "ordered_runs": [
+    {
+      "role": "2022_BOOTSTRAP_AND_MONTHLY_POSTERIOR",
+      "path": "evidence/runs/aeat-ch72-monthly-sequential-v0.6.5-2022-bootstrap-r2",
+      "manifest_sha256": "9ff0425fb6b1a2fbda0356ed2c7c5c832e1aa5c5bb924702507861ceff93a2d1"
+    },
+    {
+      "role": "2023_CAUSAL_CONTINUATION_FROM_2022_12",
+      "path": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2023-causal",
+      "manifest_sha256": "69bbdfaa8da5ff4d5996663b31b1494125679f48b6df0234e825829689ed4c9f"
+    },
+    {
+      "role": "2024_01_THROUGH_2024_09_CAUSAL_CONTINUATION_FROM_2023_12",
+      "path": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-mini-jan-sep",
+      "manifest_sha256": "d365286045a699def2eb0c7c9252a09ea33cd7b4360ba8553efcc53829e97bd4"
+    },
+    {
+      "role": "2024_10_THROUGH_2024_12_CAUSAL_CONTINUATION_FROM_2024_09",
+      "path": "evidence/runs/aeat-ch72-monthly-seasonal-v0.6.5-2024-causal-completion-oct-dec",
+      "manifest_sha256": "2d4fa1ad70d028700946ff7ec286001359f601378ef5bf98db0bde3f815ff1e7"
+    }
+  ],
+  "boundary_transitions": [
+    "2022-12->2023-01",
+    "2023-12->2024-01",
+    "2024-09->2024-10"
+  ],
+  "posterior_reset": false,
+  "z_post_reset": false,
+  "target_contract": "EVERY_MONTH_PREDICTS_EXACTLY_THE_NEXT_MONTH",
+  "terminal_state": {
+    "target": "2024-12",
+    "regime": "YEAR_END_UNCALIBRATED",
+    "adjudication_sha256": "6a88ff04e36559d49e01b917d5d73fd3260b98768a4d057f8fff0ccf5be024d0",
+    "future_prior_sha256": "f5567f30de01d0111a68ebfd85b58dc9c21601a3f4f02612dcc98a37f8abb3b1"
+  },
+  "epistemic_boundary": {
+    "chronology": "CAUSAL_REPLAY",
+    "blindness": false,
+    "prospective_validation": false,
+    "promotion": "PROHIBITED"
+  }
+}

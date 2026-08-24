@@ -1,0 +1,92 @@
+{
+  "schema_version": "bma.evidence-registry.v1",
+  "as_of": "2026-08-09",
+  "role": "append-only addendum; does not rewrite v0.5.0 or earlier source audits",
+  "entries": [
+    {
+      "id": "MB-FLOR-V051-SUBFAMILY-AUDIT",
+      "state": "DEVELOPMENT_EVIDENCE",
+      "jurisdiction": {
+        "market": "Mercabarna flowers, live plants, trees and greens, and complements",
+        "node": "training-frozen subfamily x product x origin x regime",
+        "target": "participation and daily unit quantity",
+        "time_scope": "training-only taxonomy 2026-07-01 through 2026-07-20; stratified v0.5.0 targets 2026-07-21 through 2026-07-31",
+        "claim_scope": "ordinary-regime retrospective descriptive evidence with explicit support gates"
+      },
+      "observed": {
+        "taxonomy_product_counts": {
+          "FLOR_CORTADA": 36,
+          "PLANTA_VIVA": 22,
+          "ARBOLES_Y_VERDES": 23,
+          "COMPLEMENTOS": 13,
+          "UNRESOLVED": 4
+        },
+        "plant_participation_n": 192,
+        "plant_participation_bma_brier": 0.1423601873495962,
+        "plant_participation_frozen_brier": 0.17321587732486443,
+        "plant_participation_relative_gain_pct": 17.81343053061973,
+        "plant_quantity_n": 16,
+        "plant_quantity_bma_error": 1.646678824466778,
+        "plant_quantity_persistence_error": 1.8973009620777268,
+        "plant_quantity_strong_error": 1.8815938103101701,
+        "plant_quantity_status": "NOT_ESTIMABLE_INSUFFICIENT_SUPPORT",
+        "taxonomy_freeze_sha256": "74dbed437e5a6df17c0368ab8c4f38d24b02345abc6f8c66b778f998028aef6f",
+        "manifest_sha256": "ab06e209c22415d8a7b527d1d47eb79c899bd84dc20b598fb3ac1c9a424f2971",
+        "deterministic_repeat": true
+      },
+      "evidence_boundary": "Plant participation is favourable descriptive ordinary-regime evidence. Plant quantity points in the same direction but is NOT_ESTIMABLE at n=16 under the predeclared n>=30 support rule. Saturday, month-end and price remain abstained or vetoed. No prospective or global claim is authorized.",
+      "global_winner": null
+    },
+    {
+      "id": "DE-RLP-WERTHOLZ-2026-SOURCE-AUDIT",
+      "state": "PENDING",
+      "jurisdiction": {
+        "market": "Rheinland-Pfalz high-value industrial timber submission",
+        "node": "timber lot x forest office x species x quality",
+        "target": "award status, awarded EUR per solid cubic metre and physical volume",
+        "time_scope": "2026 lot-level workbook; 2024-2026 recurrence confirmed only at report level",
+        "claim_scope": "technical source suitability only; no BMA model performance"
+      },
+      "observed": {
+        "unique_lots": 1191,
+        "awarded_lots": 1186,
+        "no_bid_lots": 5,
+        "total_volume_fm": 1845.32,
+        "awarded_volume_fm": 1842.95,
+        "weighted_award_price_eur_per_fm": 977.8971160367888,
+        "source_sha256": "1cee4d73c1de00b3779697a52610569e3ec97f8061c85c8e2058a773d38a0b87"
+      },
+      "evidence_boundary": "The source passes the technical price-volume-outcome gate. Public reuse is blocked by all-rights-reserved terms, and only one year is verified at lot level. No public dataset, historical model or performance claim is authorized.",
+      "global_winner": null
+    },
+    {
+      "id": "ES-AEAT-NC72083900-SOURCE-AUDIT",
+      "state": "PROPOSED_NOT_EXECUTED",
+      "jurisdiction": {
+        "market": "Spanish declared foreign trade in non-biological industrial goods",
+        "node": "CN8 product x partner country x flow x declared period",
+        "target": "flow presence, physical quantity and statistical unit value; never an auction or order-book price",
+        "time_scope": "monthly files available for 2019-2026; 2019-2024 definitive, 2025 publication inspected, 2026 live and revision-prone",
+        "claim_scope": "technical source suitability and custody reconciliation only; no BMA model performance"
+      },
+      "observed": {
+        "sample_period": "2025-01",
+        "sample_archive_sha256": "d1e131cdc941e0d84b0bb5aef26793481ef946028c36ad04257e9babc545b60a",
+        "sample_records_chapters_64_to_74": 690929,
+        "chapter_72_records": 32726,
+        "chapter_73_records": 165203,
+        "chapter_74_records": 18682,
+        "cn8": "72083900",
+        "cn8_description": "hot-rolled non-alloy steel coils, width at least 600 mm, thickness below 3 mm, not clad, plated or coated",
+        "cn8_detail_rows_including_taric_extensions": 863,
+        "cn8_import_kg": 92843933.0,
+        "cn8_import_statistical_value_eur": 56378482.41,
+        "cn8_export_kg": 22633863.0,
+        "cn8_export_statistical_value_eur": 13200110.09,
+        "detail_to_summary_reconciled": true
+      },
+      "evidence_boundary": "AEAT records are real declared physical-goods trade observations and are reusable with attribution. Value divided by mass is a statistical unit value, not a winning bid, spot quote or firm-specific transaction price. A model requires a target-blind jurisdiction freeze and a revision/completeness protocol before execution.",
+      "global_winner": null
+    }
+  ]
+}

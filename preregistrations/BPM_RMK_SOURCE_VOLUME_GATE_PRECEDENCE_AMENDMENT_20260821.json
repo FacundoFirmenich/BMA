@@ -1,0 +1,34 @@
+{
+  "schema_version": "bpm.rmk.preregistered-software-amendment.v0.2",
+  "recorded_at": "2026-08-21",
+  "causal_position": "AFTER_2025_10_29_OFFER_ONLY_BEFORE_ANY_RESULT_BODY_ACCESS",
+  "trigger_event": "2025-10-29",
+  "defect": "Freezer v0.5 reported source-volume conflicts at event level but did not make that gate dominate prior-cell matching and the per-object abstention reason.",
+  "observed_event_effect": "Object 6 had no comparable prior cell and therefore produced zero predictions by coincidence; no contaminated prediction exists, but the general implementation was unsafe.",
+  "superseded_freeze": {
+    "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-29/freeze/freeze.json",
+    "sha256": "E5D3D2246FACF20A1DF5ABCDDA77E851577396259A1416707DEDA4818F07DDA2",
+    "status": "SUPERSEDED_PRE_RESULT_DO_NOT_SCORE"
+  },
+  "replacement": {
+    "freezer": "scripts/freeze_rmk_offer_v0_6.py",
+    "freezer_sha256": "C91495495DB19FDA3C07AE1E06D59E72AA6DA15F8A0DC8E9293A31DE46F00936",
+    "test": "scripts/test_rmk_source_gate_v0_1.py",
+    "test_sha256": "7042A466D733FB56B4C83738731681525D79E03DE69C7F772C87E34056C463FD",
+    "test_result": "PASS_3_OF_3"
+  },
+  "gate_precedence": [
+    "invalid delivery chronology",
+    "unverified or conflicting source volume",
+    "absence of a comparable prior cell"
+  ],
+  "invariants": [
+    "A non-VERIFIED source-volume state yields zero prior matches and zero frozen predictions.",
+    "The per-object reason is NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT unless an invalid delivery chronology has higher precedence.",
+    "No result payload was opened before this amendment.",
+    "No historical sealed event or posterior is rewritten.",
+    "Posterior reset and N-to-1 pooling remain forbidden."
+  ],
+  "global_winner_claim": false,
+  "automatic_promotion": false
+}

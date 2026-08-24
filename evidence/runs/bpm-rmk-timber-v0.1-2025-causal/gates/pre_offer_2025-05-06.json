@@ -1,0 +1,16 @@
+{
+  "gate_id": "BPM_RMK_PRE_OFFER_2025-05-06",
+  "status": "PASS_READY_TO_OPEN_OFFER_ONLY_MULTIPART_RESULT_UNRESOLVED",
+  "target_event": "2025-05-06",
+  "offer": {"queue_sequence": 18, "url": "https://rmk.ee/wp-content/uploads/2025/04/Myygiobjektid_EP_06.05.2025.xlsx", "head_content_length": 20527, "body_opened": false},
+  "result_candidates": [
+    {"queue_sequence": 19, "url": "https://rmk.ee/wp-content/uploads/2025/05/Edukad_EP06.05.2025.xlsx", "head_content_length": 22646, "body_opened": false},
+    {"queue_sequence": 20, "url": "https://rmk.ee/wp-content/uploads/2025/05/Edukad_KLH06.05.2025.xlsx", "head_content_length": 24075, "body_opened": false}
+  ],
+  "frozen_hashes_sha256": {
+    "prior_after_2025-04-24": "8D4739DFF7FEA5265605186909AFC11552E17D2DFFE3030031C94E5EAB846A32",
+    "queue_v3": "89BE90B4AAECB68316EBC0A0F6CCF85BE149A76209678F3AB15796BB7C1024DF"
+  },
+  "opening_authority": "OFFER_ONLY",
+  "result_opening_authority": "DENIED_FOR_BOTH_UNTIL_OFFER_SCHEMA_AND_MULTIPART_FREEZE"
+}

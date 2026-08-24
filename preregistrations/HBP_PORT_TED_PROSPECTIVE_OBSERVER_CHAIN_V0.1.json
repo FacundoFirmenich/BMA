@@ -1,0 +1,145 @@
+{
+  "preregistration_id": "HBP_PORT_TED_PROSPECTIVE_OBSERVER_CHAIN_V0.1",
+  "frozen_at": "2026-08-22",
+  "status": "PREREGISTERED_BEFORE_ANY_FUTURE_RELEASE_ACQUISITION",
+  "purpose": "Convert the already-adjudicated Puertos del Estado and TED public probes into prospective observer chains without granting them likelihood, price, quantity, market-clearing or automatic M2/M3 authority.",
+  "inherits": [
+    {
+      "path": "preregistrations/BPM_HBP_PUBLIC_EXPANSION_MINIMAL_PROBES_V1.json",
+      "sha256": "CDC7582D038395735C00928E0256FD90DB03A02F805AC493959B70DFBEB5DE84"
+    },
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_MANIFEST_V1.json",
+      "sha256": "5E062C450C2E7E5FE618DA60EE0B2E27DBE30360B2C2443F19779182A7A8EB71"
+    },
+    {
+      "path": "governance/BPM_HBP_PUBLIC_EXPANSION_PROBE_ADJUDICATION_V1.csv",
+      "sha256": "6111C7E5E62BA96D903D2F98A17D475BFB2A22E227C4844EF0D457722DE1EA7E"
+    }
+  ],
+  "common_prohibitions": [
+    "no account creation, authentication, payment, acceptance of terms or contact with source owners",
+    "no bulk or recursive historical download",
+    "no target read before its own freeze permits it",
+    "no historical freeze reconstruction",
+    "no post-hoc variable, product, port, CPV, geography, window or notice-type substitution",
+    "no fitting, posterior update, Z_post update, scoring or cross-source likelihood pooling in this observer campaign",
+    "no gas, electricity, fuel or administered-price target",
+    "no global winner and no automatic promotion"
+  ],
+  "puertos_chain": {
+    "source": "Puertos del Estado monthly statistics workbook",
+    "official_landing_page": "https://www.puertos.es/datos/estadisticas/mensuales",
+    "frozen_existing_anchor": {
+      "path": "evidence/probes/public-expansion-v1/puertos_es_2026-06.xlsx",
+      "sha256": "C4BDD4500A67A7A3CD3A17BDFD6131D206F468A7E99BE1584BA7A217EC39A28F",
+      "reference_month": "2026-06",
+      "workbook_date": "2026-07-22"
+    },
+    "future_capture_unit": "one official workbook for one newly published reference month",
+    "future_capture_order": [
+      "freeze this preregistration hash",
+      "record retrieval timestamp and source URL",
+      "save first observed response bytes and HTTP metadata",
+      "compute SHA-256 before inspection",
+      "verify reference month, workbook date, sheet identity, units and labels",
+      "extract only frozen fields and preserve all gate failures"
+    ],
+    "frozen_fields": {
+      "national_monthly_physical_tonnes": [
+        "total traffic",
+        "liquid bulk",
+        "solid bulk",
+        "general cargo",
+        "containerized general cargo"
+      ],
+      "national_year_to_date_non_energy_natures_tonnes": [
+        "wood and cork",
+        "paper and pulp",
+        "steel products",
+        "machinery apparatus tools and spares",
+        "vehicles and parts"
+      ]
+    },
+    "explicit_exclusions": [
+      "energy group",
+      "bunkering fuels",
+      "gas and petroleum products",
+      "passengers, cruise calls and passenger vehicles as industrial-production covariates"
+    ],
+    "current_authority": "DESCRIPTIVE_PHYSICAL_ACTIVITY_OBSERVER_ONLY",
+    "monthly_nature_rule": "NOT_AVAILABLE_IN_THE_ANCHOR_WORKBOOK",
+    "cumulative_difference_rule": "FORBIDDEN_AS_MONTHLY_NATURE_SIGNAL_UNLESS_A_LATER_SEPARATE_AMENDMENT_PROVES_REVISION_RECONCILIATION; otherwise the difference is REVISION_MIXED_INCREMENT",
+    "descriptive_continuity_gate": {
+      "minimum_consecutive_future_releases": 2,
+      "required": [
+        "same official source and unit",
+        "same reference-month semantics",
+        "same selected field labels or an explicitly mapped documented schema change",
+        "raw-byte and release-date custody",
+        "no formula-derived value when a published value cell exists"
+      ]
+    },
+    "model_candidacy_gate": {
+      "minimum_prospectively_paired_months": 12,
+      "minimum_field_coverage": 0.95,
+      "timeliness": "each observer byte must precede the target-specific forecast freeze",
+      "required_next_step": "a new target-specific preregistration before any fit or likelihood contribution"
+    }
+  },
+  "ted_chain": {
+    "source": "TED Search API contract-award notices",
+    "frozen_existing_anchor": {
+      "path": "evidence/probes/public-expansion-v1/ted_can_standard_cpv44_limit10.json",
+      "sha256": "C1A75475D2C6D6617475A770AEE2B2F11A6013687803996E1C5ADD850A75DBA3",
+      "notice_type": "can-standard",
+      "cpv_prefix": "44",
+      "sample_limit": 10,
+      "reported_total_notice_count": 3132
+    },
+    "future_capture_unit": "one bounded calendar-month event-count cut with an immutable query body and response hash",
+    "frozen_event_key": "publication-number",
+    "frozen_dimensions": [
+      "publication calendar month",
+      "notice type can-standard",
+      "CPV prefix 44 and explicitly frozen subprefixes",
+      "country or NUTS place-of-performance level kept separate"
+    ],
+    "counting_rules": [
+      "deduplicate by publication-number within each cut",
+      "retain all CPV codes attached to a notice but count the notice once per frozen aggregation cell",
+      "never treat duplicated CPV or place arrays as multiple awards",
+      "preserve missing place, CPV, date and value indicators",
+      "do not currency-sum across notices"
+    ],
+    "current_authority": "INSTITUTIONAL_DEMAND_EVENT_COUNT_OBSERVER_ONLY",
+    "quantity_authority": "NONE",
+    "value_authority": "NONE_UNTIL_SEPARATE_COMPLETENESS_AND_CURRENCY_GATE",
+    "descriptive_continuity_gate": {
+      "minimum_consecutive_future_calendar_cuts": 3,
+      "required": [
+        "identical query semantics",
+        "publication-date completeness at least 0.95",
+        "CPV completeness at least 0.95",
+        "place completeness at least 0.95",
+        "duplicate and amendment behavior explicitly measured"
+      ]
+    },
+    "model_candidacy_gate": {
+      "minimum_prospectively_paired_months": 12,
+      "minimum_event_field_coverage": 0.95,
+      "timeliness": "each event cut must precede the target-specific forecast freeze",
+      "required_next_step": "a new target-specific preregistration before any fit or likelihood contribution"
+    }
+  },
+  "coral_rule": {
+    "sources_remain_typed": true,
+    "puertos_role": "physical logistics activity",
+    "ted_role": "institutional demand events",
+    "eurostat_sts_role": "official industrial outcome",
+    "indec_ipi_role": "official Argentine industrial outcome",
+    "automatic_M2_or_M3_entry": false,
+    "cross_source_pooling": false,
+    "global_winner": null
+  }
+}

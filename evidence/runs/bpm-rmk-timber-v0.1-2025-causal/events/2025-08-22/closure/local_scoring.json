@@ -1,0 +1,569 @@
+{
+  "schema_version": "bpm.rmk.local-scoring.v0.1",
+  "event_date": "2025-08-22",
+  "jurisdiction": "EXACT_PRODUCT_MEASUREMENT_FINGERPRINT_DESTINATION_ONLY",
+  "frozen_destination_predictions": 37,
+  "scored_exact_destination_predictions": 18,
+  "non_observed_or_unawarded_predictions": 19,
+  "local_scores": [
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 96.17601760176018,
+        "actual_eur_m3": 80.0,
+        "absolute_error_eur_m3": 16.17601760176018,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1818.0,
+        "actual_m3": 182.0,
+        "absolute_log_error": 2.301485587660629,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Varese",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 100.0,
+        "actual_eur_m3": 73.0,
+        "absolute_error_eur_m3": 27.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1430.0,
+        "actual_m3": 200.0,
+        "absolute_log_error": 1.9671123567059166,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Vana-Võidu",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 95.0,
+        "actual_eur_m3": 80.0,
+        "absolute_error_eur_m3": 15.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1001.0,
+        "actual_m3": 472.0,
+        "absolute_log_error": 0.7517757937296654,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Vasta",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 94.80889621087314,
+        "actual_eur_m3": 80.0,
+        "absolute_error_eur_m3": 14.808896210873144,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1214.0,
+        "actual_m3": 211.0,
+        "absolute_log_error": 1.749817838143377,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 117.0,
+        "actual_eur_m3": 115.0,
+        "absolute_error_eur_m3": 2.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1314.0,
+        "actual_m3": 697.0,
+        "absolute_log_error": 0.6340457882840314,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vara",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 120.0,
+        "actual_eur_m3": 108.0,
+        "absolute_error_eur_m3": 12.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 2665.0,
+        "actual_m3": 24.0,
+        "absolute_log_error": 4.709905506251999,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Vasta",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 115.0,
+        "actual_eur_m3": 115.0,
+        "absolute_error_eur_m3": 0.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 2703.0,
+        "actual_m3": 731.0,
+        "absolute_log_error": 1.3077040865266696,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Verijärve",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 134.0,
+        "actual_eur_m3": 134.0,
+        "absolute_error_eur_m3": 0.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 6000.0,
+        "actual_m3": 3565.0,
+        "absolute_log_error": 0.5205954153617949,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 3,
+      "product": "Männipalk",
+      "destination": "Imavere",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 135.0,
+        "actual_eur_m3": 130.1,
+        "absolute_error_eur_m3": 4.900000000000006,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 21575.0,
+        "actual_m3": 2681.0,
+        "absolute_log_error": 2.0853453777156696,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Aegviidu",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 127.0,
+        "actual_eur_m3": 125.0,
+        "absolute_error_eur_m3": 2.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 2108.0,
+        "actual_m3": 491.0,
+        "absolute_log_error": 1.4570507818667329,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Adraku",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 125.0,
+        "actual_eur_m3": 125.0,
+        "absolute_error_eur_m3": 0.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1500.0,
+        "actual_m3": 1035.0,
+        "absolute_log_error": 0.3710636813908321,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Marana",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 126.0,
+        "actual_eur_m3": 126.0,
+        "absolute_error_eur_m3": 0.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 800.0,
+        "actual_m3": 772.0,
+        "absolute_log_error": 0.03562717764315071,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Verijärve",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 135.0,
+        "actual_eur_m3": 135.0,
+        "absolute_error_eur_m3": 0.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 6000.0,
+        "actual_m3": 2826.0,
+        "absolute_log_error": 0.7528971849657182,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Imavere",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 130.0,
+        "actual_eur_m3": 128.1,
+        "absolute_error_eur_m3": 1.9000000000000057,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 11375.0,
+        "actual_m3": 916.0,
+        "absolute_log_error": 2.5191568791450205,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Umbsaare",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 125.0,
+        "actual_eur_m3": 130.0,
+        "absolute_error_eur_m3": 5.0,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 172.0,
+        "actual_m3": 838.0,
+        "absolute_log_error": 1.58352362366863,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Imavere",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 137.0,
+        "actual_eur_m3": 135.1,
+        "absolute_error_eur_m3": 1.9000000000000057,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 8438.0,
+        "actual_m3": 4729.0,
+        "absolute_log_error": 0.5790315500404084,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Imavere",
+      "phase": "M08-M09",
+      "price": {
+        "M0_point_prediction_eur_m3": 135.0,
+        "actual_eur_m3": 134.1,
+        "absolute_error_eur_m3": 0.9000000000000057,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 4954.0,
+        "actual_m3": 3419.0,
+        "absolute_log_error": 0.3708472204100026,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Heltermaa",
+      "phase": "M08-M09-M10",
+      "price": {
+        "M0_point_prediction_eur_m3": 57.019999999999996,
+        "actual_eur_m3": 50.0,
+        "absolute_error_eur_m3": 7.019999999999996,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      },
+      "volume": {
+        "M0_point_prediction_m3": 1489.0,
+        "actual_m3": 700.0,
+        "absolute_log_error": 0.7547796976406049,
+        "M0_density_state": "NOT_ESTIMABLE_M0_DENSITY_SUPPORT",
+        "M1_state": "NOT_ESTIMABLE_M1_SUPPORT",
+        "M2_state": "NOT_ESTIMABLE_SEASONAL_SUPPORT",
+        "BMA_state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+      }
+    }
+  ],
+  "non_observed": [
+    {
+      "object_id": 1,
+      "product": "Männipalk",
+      "destination": "Jõgeva",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Imavere",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 2,
+      "product": "Männipalk",
+      "destination": "Varese",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Kuressaare",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 4,
+      "product": "Männipalk",
+      "destination": "Karilatsi",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Vastseliina",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 6,
+      "product": "Kuusepalk",
+      "destination": "Hänike",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Vastseliina",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 7,
+      "product": "Kuusepalk",
+      "destination": "Hänike",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Kehra",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Roomassaare",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Sillamäe",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Kehra",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Roomassaare",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Kunda",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 11,
+      "product": "Männipaberipuit",
+      "destination": "Pärnu sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    }
+  ],
+  "diagnostic_aggregate": {
+    "M0_price_mean_absolute_error_eur_m3": 6.1447174340351856,
+    "M0_price_median_absolute_error_eur_m3": 2.0,
+    "M0_volume_MALE": 1.3584314192861584,
+    "M0_volume_median_absolute_log_error": 1.0312418920836373,
+    "comparison_model": null,
+    "global_winner": null
+  },
+  "density_scores": "NOT_ESTIMABLE_NO_M0_DENSITY_AND_NO_COMMON_M0_M1_M2_SUPPORT",
+  "global_winner": null,
+  "automatic_promotion": false
+}

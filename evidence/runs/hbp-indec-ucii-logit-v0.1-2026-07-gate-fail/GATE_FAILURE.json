@@ -1,0 +1,22 @@
+{
+  "schema": "hbp.indec.ucii.gate-failure.v0.1",
+  "status": "GATE_FAIL_SECTOR_BOUNDARY_VALUE_BEFORE_FIT",
+  "detected_at_local_date": "2026-08-22",
+  "preregistration": "preregistrations/HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.1.json",
+  "preregistration_sha256": "9F5966C69E3C1E4BAEB7E118402CD438F57AB086C0D01D116D511C61D1D89244",
+  "source_workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "training_rows": 126,
+  "general_support": {"strict_0_100": true, "minimum": 42.0, "maximum": 69.6},
+  "sector_boundary_events": [
+    {"time": "2020-04", "source_row_1_based": 73, "column_zero_based": 3, "label": "Productos del tabaco", "value": 0.0},
+    {"time": "2020-04", "source_row_1_based": 73, "column_zero_based": 12, "label": "Industria automotriz", "value": 0.0}
+  ],
+  "fit_performed": false,
+  "forecast_performed": false,
+  "posterior_created": false,
+  "Z_post_created": false,
+  "score_performed": false,
+  "target_outcome_opened": false,
+  "global_winner": null,
+  "repairability": "NEW_PREREGISTRATION_REQUIRED_SECTOR_SUPPORT_GATE_ONLY"
+}

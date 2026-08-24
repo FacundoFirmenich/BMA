@@ -1,0 +1,57 @@
+{
+  "schema_version": "bma.successor_program.v1",
+  "program_id": "BMA-TERRA-SUCCESSION-20260810",
+  "status": "FROZEN",
+  "frozen_at": "2026-08-10",
+  "governing_objective": "Advance BMA science through a valid pluriyear seasonal monthly campaign and a genuine daily European industrial-data line while preserving BayME, BIND and evidence boundaries.",
+  "successor_configuration": {
+    "model": "gpt-5.6-terra",
+    "reasoning_high_for": [
+      "scientific adjudication",
+      "seasonal architecture",
+      "contract changes",
+      "causal chronology",
+      "claim and authority decisions"
+    ],
+    "reasoning_medium_for": [
+      "deterministic implementation",
+      "tests",
+      "structured ingestion",
+      "hashing",
+      "manifest generation"
+    ]
+  },
+  "workstreams": [
+    {
+      "id": "MONTHLY_SEASONAL_V0_6_5",
+      "governing_preregistration": "preregistrations/AEAT_CH72_SEASONAL_2022_2024_V0_6_5.json",
+      "priority": 1,
+      "first_action": "Implement and test M0/M1/M2 without opening 2022 or 2023, then freeze the mandatory software addendum."
+    },
+    {
+      "id": "EU_DAILY_SOURCE_V0_7_0",
+      "governing_preregistration": "preregistrations/EU_INDUSTRIAL_DAILY_SOURCE_ACQUISITION_V0_7_0.json",
+      "priority": 1,
+      "first_action": "Revalidate official TBAuctions/ATLAS documentation and reduce the access blocker with a schema or minimal remote sample; obtain authority before external writes or agreements."
+    },
+    {
+      "id": "GENERAL_TRAINING_AGE_RESEARCH",
+      "governing_preregistration": "preregistrations/AEAT_CH72_SEASONAL_2022_2024_V0_6_5.json#training_age_extension",
+      "priority": 2,
+      "first_action": "After the primary seasonal campaign, preregister phase-aligned causal-chain comparisons using only earlier years that can change a decision."
+    }
+  ],
+  "forbidden_shortcuts": [
+    "N-month pooled training block predicting one target month",
+    "opening target data before freeze",
+    "RAW-to-prior update",
+    "retrospective rewrite",
+    "global winner from local results",
+    "daily claim from monthly averages",
+    "transaction-price claim from customs unit value",
+    "large local raw download before gate PASS",
+    "publication of quarantined v0.6.2 payloads"
+  ],
+  "mandatory_checkpoint_contract": "At each material checkpoint explain in Spanish: position change, observed result, comparison, evidence boundary, meaning, reparability, uncertainty, objective consequence, changed artifacts, blocker and next decision-critical action.",
+  "canonical_handoff": "docs/BMA_TERRA_SUCCESSION_20260810_ES.md"
+}

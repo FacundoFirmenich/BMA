@@ -1,0 +1,30 @@
+{
+  "amendment_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_CELL_IDENTITY_AMENDMENT_20260821",
+  "status": "FROZEN_AFTER_UNSCORED_FIRST_EVENT_AND_BEFORE_SECOND_OFFER_BODY_OPENING",
+  "supersedes_field": "software_addendum.cell_key",
+  "scientific_defect": "The first software addendum placed exact delivery month set inside the local cell identity. That would prevent M1 from accumulating across phases and make the M2 phase residual structurally redundant.",
+  "correct_base_cell_key": [
+    "exact_physical_product_or_sortiment",
+    "measurement_standard_or_class",
+    "officially_normalized_or_identical_delivery_location"
+  ],
+  "phase_role": "Exact delivery calendar month set is stored as a separate covariate. M1 accumulates the base cell across phases; M2 uses only prior prequential M1 innovations from the same exact phase.",
+  "first_event_repair": {
+    "event": "2025-02-26",
+    "scored_predictions": 0,
+    "prior_observations_before_event": 0,
+    "outcomes_changed": false,
+    "adjudication_changed": false,
+    "only_change": "deterministic posterior cell reindexing with phase retained in the observation state",
+    "old_posterior": "INVALID_DO_NOT_USE_PHASE_IN_CELL_KEY",
+    "new_posterior": "closure_v2/prior_after_2025-02-26.json"
+  },
+  "prohibitions": [
+    "no retrospective score change",
+    "no outcome deletion",
+    "no cross-product pooling",
+    "no cross-location pooling",
+    "no global winner",
+    "no automatic promotion"
+  ]
+}

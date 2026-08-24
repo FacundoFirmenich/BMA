@@ -1,0 +1,26 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v12",
+  "date": "2026-08-22",
+  "phase": "UCII_V0_2_REPAIR_PRE_FIT_FREEZE",
+  "historical_contract_preserved": true,
+  "prior_contract": {"path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V11.json", "sha256": "3679045BFDE8C54B83FF05FBC2B9663390BF32B84AF658134A0100B077487F37"},
+  "prior_receipt": {"path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V11.json", "sha256": "E62E07B753D9B1DD7549A6899333352D3FAA38701465159415ADDBB4175267D0"},
+  "prior_audit": {"path": "governance/KCH_BAYESIAN_MARKETS_V11_AUDIT.json", "sha256": "54C594895E09C4ED32FCA51440975804AD263D5E8FA43D777D113392CFA4CB2E", "status": "PASS", "checks": 43, "failures": 0},
+  "mission_register": {"path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V12.md", "sha256": "B001E022E808B5BCC8969D745E0F290418D47F1F35DE8C43247B6403519FA848"},
+  "checkpoint": {"path": "outputs/HBP_INDEC_UCII_V0_2_REPAIR_FREEZE_20260822_ES.md", "sha256": "BA947CCDD8B3AC4E981FCA29373A9B4532ADC8CEECF0D4A09D1AD48944F4BB1D"},
+  "new_frozen_evidence": [
+    {"path": "src/bma/experiments/hbp_indec_ucii_v0_2.py", "sha256": "7A652CF417A244EF5AA65F5F26E280E5230C461F2019E83E91203CA01A990A13"},
+    {"path": "scripts/run_hbp_indec_ucii_logit_2026_07_freeze_v0_2.py", "sha256": "C2A2B2158299E4D0DA541D5B23F8B86DD6495E2E8689D0EC6A7E516FE2047743"},
+    {"path": "tests/test_hbp_indec_ucii_v0_2.py", "sha256": "CEC077403FE5C446E8BD4A53D82D9E2363EC75D80EDF71B48E64605C94646A0F"},
+    {"path": "preregistrations/HBP_INDEC_UCII_LOGIT_2026_07_FREEZE_V0.2.json", "sha256": "53258F0CCE99BE141DC96B4DFB1BA16087DE284411C3BA91620087DA5CB6643F"}
+  ],
+  "repair": {
+    "unchanged_model_and_target": true,
+    "only_change": "sector observers use closed support 0 to 100 and remain outside the general-target likelihood",
+    "V0_1_gate_failure_preserved": true,
+    "output_absent": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze",
+    "target_outcome_opened": false
+  },
+  "validation": {"joint_v0_1_v0_2_pytest": "6 passed", "ruff": "PASS"},
+  "hard_invariants": {"one_month_predicts_exactly_next_month": true, "sector_blocks_used_in_general_likelihood": false, "N_to_1_pooling_forbidden": true, "global_winner": null, "automatic_promotion": false}
+}

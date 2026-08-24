@@ -1,0 +1,46 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.1",
+  "event": "2025-03-20",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/raw/EP_objektid_pakkumuse-vorm_hakkpuit_25.03.20.xlsx",
+      "bytes": 25449,
+      "sha256": "4D0462BC42932A60C25A1B4F3A0FB94AE727D0BCC6A4BA7D1D53323942E11456"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/raw/Edukad_EP_20.03.2025.xlsx",
+      "bytes": 22882,
+      "sha256": "6002F2E0D77797BA2FD6CC480CE321F20FF1FC5951C8CF146DA5E34FD714C8CC"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/structured/offer.json",
+      "bytes": 2600,
+      "sha256": "7125E08BA5F889DD27B1F18C19ED3FDDAA60C434432B872B19C964F7CC11BCD5"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/structured/result.json",
+      "bytes": 1782,
+      "sha256": "F29710E47CB5CC96628DF53EE2B105E9DB3518A3E72B2C983B3F6AAA8CB930F0"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/freeze/freeze.json",
+      "bytes": 1765,
+      "sha256": "CA505F41F4D787AD9B64F4A33432311E7DB522A5C0C4435AE28136F45F5277DA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/closure/adjudication.json",
+      "bytes": 889,
+      "sha256": "72E7D5E5F9B4EDDD841C9F80DA223749C28A7CBFE3C60D18F77B0A4C46BE2179"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/closure/prior_after_2025-03-20.json",
+      "bytes": 115017,
+      "sha256": "7E2A47DCB8A7F11546A4769008FCADB8D3FFF3F4CE0069FCDEF871CD2FC3FA53"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-03-20/closure/z_post_2025-03-20.json",
+      "bytes": 183637,
+      "sha256": "98810B5F2D84EC8E0ED1250B7E502F6CE3E547CE636EBE4E95982EE650EFE7F1"
+    }
+  ]
+}

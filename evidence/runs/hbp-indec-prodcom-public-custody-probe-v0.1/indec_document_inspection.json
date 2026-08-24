@@ -1,0 +1,41 @@
+{
+  "classification": "READ_ONLY_PDF_TEXT_EXTRACTION_NO_TRANSFORMATION_OF_RAW_BYTES",
+  "documents": [
+    {
+      "source_file": "indec_ipi_2026_06_report.pdf",
+      "source_sha256": "34C9B50A78C80A8D0BD2414637A32603F51E2C0DABD80FE6E4CE825D4F3F7607",
+      "page_count": 28,
+      "metadata": {
+        "/Author": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "/CreationDate": "D:20260807123752-03'00'",
+        "/Creator": "Adobe InDesign 21.3 (Windows)",
+        "/ModDate": "D:20260807123758-03'00'",
+        "/Producer": "Adobe PDF Library 18.0",
+        "/Subject": "Índice de producción industrial manufacturero\r\n",
+        "/Title": "Índice de producción industrial manufacturero. Junio de 2026",
+        "/Trapped": "/False"
+      },
+      "extracted_text_file": "indec_ipi_2026_06_report.pdf.extracted.txt",
+      "extracted_text_sha256": "69787FD4A6B9ED71FEED1AD4D5DE71DCFE61DE58C76B2320CBE7F5BB3C3788D7",
+      "first_page_normalized_excerpt": "Índice de producción industrial manufacturero Junio de 2026 Industria manufacturera Vol. 10, n° 26 ISSN 2545-6636Informes técnicos / Vol. 10, n° 189"
+    },
+    {
+      "source_file": "indec_ucii_2026_06_report.pdf",
+      "source_sha256": "5653558EAEBF2490F80E7A2890FD8A74BCAF915FA0CF01D637C3CE49E5D2F3B8",
+      "page_count": 7,
+      "metadata": {
+        "/Author": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "/CreationDate": "D:20260813151817-03'00'",
+        "/Creator": "Adobe InDesign 21.1 (Windows)",
+        "/ModDate": "D:20260814144021-03'00'",
+        "/Producer": "Adobe PDF Library 18.0",
+        "/Subject": "Utilización de la capacidad instalada en la industria. \r\n",
+        "/Title": "Utilización de la capacidad instalada en la industria. Junio de 2026",
+        "/Trapped": "/False"
+      },
+      "extracted_text_file": "indec_ucii_2026_06_report.pdf.extracted.txt",
+      "extracted_text_sha256": "1C4840EE65F2749C1B9E1FD00A7F775057BAB9C70E4F75883F8CC0C9A7A831FA",
+      "first_page_normalized_excerpt": "Utilización de la capacidad instalada en la industria Junio de 2026 ISSN 2545-6636Informes técnicos / Vol. 10, n° 194 Industria manufacturera Vol. 10, n° 27"
+    }
+  ]
+}

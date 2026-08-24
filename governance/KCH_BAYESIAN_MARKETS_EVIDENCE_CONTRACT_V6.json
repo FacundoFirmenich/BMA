@@ -1,0 +1,118 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v6",
+  "date": "2026-08-22",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V5.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V5.json",
+    "sha256": "88FCFFAEE1437E58D8AE9F9C0C60AD9846971B80A7F120CA396ED10454CB8523"
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V6.md",
+    "sha256": "E40EA950B61A1309C21922BC0555C8477B495F667F6D67C5B50B9307B52E0B47"
+  },
+  "new_frozen_evidence": [
+    {
+      "path": "preregistrations/HBP_PORT_TED_PROSPECTIVE_OBSERVER_CHAIN_V0.1.json",
+      "sha256": "CE0D1327C6ACD17FFCA715D789EB169834CB8E98256A6D45DD5A918E6A66B965"
+    },
+    {
+      "path": "scripts/adjudicate_hbp_port_ted_observers.mjs",
+      "sha256": "11285B19649EE7319ACE25038C430C9AF6D1052FDB84554E7C6F1B4B51AA885E"
+    },
+    {
+      "path": "tests/test_hbp_port_ted_observer_chain_v0_1.py",
+      "sha256": "B4E6AC456D2138EDD3C56B003938E61432C3C3E400E41D8B15B1B21600CD9FE7"
+    },
+    {
+      "path": "outputs/HBP_PORT_TED_OBSERVER_CHAIN_CHECKPOINT_20260822_ES.md",
+      "sha256": "C5B189F914326B5FD34B25E7C0FECDC88579AED6A06F57637D08359998957319"
+    },
+    {
+      "path": "evidence/runs/hbp-port-ted-prospective-observer-chain-v0.1/observer_adjudication.json",
+      "sha256": "B8189F59862AAE4E7174B6A2860C5E854DFBE24ACF8B31B53EAD4DEE84417B53"
+    }
+  ],
+  "anchor_evidence": [
+    {
+      "path": "evidence/probes/public-expansion-v1/puertos_es_2026-06.xlsx",
+      "sha256": "C4BDD4500A67A7A3CD3A17BDFD6131D206F468A7E99BE1584BA7A217EC39A28F"
+    },
+    {
+      "path": "evidence/probes/public-expansion-v1/ted_can_standard_cpv44_limit10.json",
+      "sha256": "C1A75475D2C6D6617475A770AEE2B2F11A6013687803996E1C5ADD850A75DBA3"
+    }
+  ],
+  "scientific_invariants": {
+    "BMA_subsumed_in_BPM": true,
+    "BayME_is_general_model_not_canonical_destination": true,
+    "local_jurisdiction_is_authority": true,
+    "one_period_predicts_next_only": true,
+    "posterior_and_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "first_release_and_revision_are_distinct_bytes": true,
+    "port_tonnes_TED_events_industrial_outcomes_and_prices_are_distinct_types": true,
+    "cumulative_nature_differencing_without_revision_reconciliation_forbidden": true,
+    "losses_abstentions_quarantines_and_NOT_ESTIMABLE_preserved": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "execution_state": {
+    "prior_v5_state_preserved": true,
+    "existing_anchor_bytes_only": true,
+    "future_observer_chain_preregistered": true,
+    "new_remote_acquisition": false,
+    "fit_performed": false,
+    "forecast_performed": false,
+    "score_performed": false,
+    "posterior_updated": false,
+    "Z_post_updated": false,
+    "historical_freeze_reconstructed": false,
+    "cross_source_likelihood_pooling": false,
+    "bulk_download": false,
+    "remote_mutation": false,
+    "destructive_cleanup": false
+  },
+  "puertos_state": {
+    "reference_month": "2026-06",
+    "workbook_date": "2026-07-22",
+    "sheet_count": 45,
+    "june_2026_total_traffic_tonnes": 47026235.533,
+    "june_2026_general_cargo_tonnes": 24462278,
+    "wood_and_cork_january_to_june_2026_solid_bulk_tonnes": 163148,
+    "wood_and_cork_january_to_june_2026_general_cargo_tonnes": 2839117,
+    "current_monthly_nature_panel": false,
+    "authority": "DESCRIPTIVE_PHYSICAL_ACTIVITY_OBSERVER_ONLY",
+    "monthly_nature_status": "NOT_ESTIMABLE_NO_CURRENT_MONTHLY_NATURE_CELL"
+  },
+  "ted_state": {
+    "notice_type": "can-standard",
+    "cpv_prefix": "44",
+    "reported_total_notice_count": 3132,
+    "sampled_notices": 10,
+    "publication_cpv_place_complete": 10,
+    "award_value_present": 4,
+    "currency_present": 5,
+    "quantity_fields_present": 0,
+    "authority": "INSTITUTIONAL_DEMAND_EVENT_COUNT_OBSERVER_ONLY",
+    "value_status": "NOT_ESTIMABLE_INCOMPLETE_VALUE_AND_CURRENCY",
+    "quantity_status": "NOT_ESTIMABLE_NO_QUANTITY_FIELD"
+  },
+  "coral_state": {
+    "position_change": "BETTER_TYPED_OBSERVER_DESIGN_WITHOUT_NEW_PREDICTIVE_AUTHORITY",
+    "minimum_prospectively_paired_months_before_model_candidacy": 12,
+    "M2_status": "ABSTAIN_UNTIL_TARGET_SPECIFIC_FREEZE_AND_SUPPORT_GATE",
+    "M3_status": "ABSTAIN_NO_CAUSALLY_ALIGNED_MULTI_SOURCE_LIKELIHOOD"
+  },
+  "adverse_states": [
+    "ALL_V5_ADVERSE_STATES_PRESERVED",
+    "PUERTOS_IMPORTED_FORMULA_ERRORS_PRESENT_IN_SELECTED_CALCULATED_CELLS",
+    "PUERTOS_NO_CURRENT_MONTHLY_NATURE_PANEL",
+    "PUERTOS_CUMULATIVE_DIFFERENCE_REVISION_MIXED_AND_FORBIDDEN",
+    "TED_EXACT_PRIOR_REQUEST_BODY_NOT_PRESERVED",
+    "TED_VALUE_AND_CURRENCY_INCOMPLETE",
+    "TED_NO_QUANTITY_FIELD",
+    "M2_ABSTAINS",
+    "M3_ABSTAINS"
+  ]
+}

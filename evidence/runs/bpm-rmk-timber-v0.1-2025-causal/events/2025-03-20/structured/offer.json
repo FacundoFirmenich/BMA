@@ -1,0 +1,28 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-offer-structured.v0.1",
+  "event_date": "2025-03-20",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-03-20\\raw\\EP_objektid_pakkumuse-vorm_hakkpuit_25.03.20.xlsx",
+  "source_sha256": "4D0462BC42932A60C25A1B4F3A0FB94AE727D0BCC6A4BA7D1D53323942E11456",
+  "source_bytes": 25449,
+  "result_payload_opened": false,
+  "object_id": 1,
+  "product": "Hakkpuit",
+  "advertised_volume_m3": 6759,
+  "location_sheet_volume_m3": 6759,
+  "location_total_matches": true,
+  "advertised_region": "Edela regioon (Hiiu- ja Saaremaa)",
+  "quality_and_measurement_standard": "Hakkpuit on valmistatud raidmetest, laasitud tüvedest ja/või laasimata tüvedest hakkimise teel. Hakkpuidu kvaliteet vastab RMK kvaliteeditingimustele, mis on sätestatud järgnevalt:\nHakkpuit ei tohi sisaldada võõrkehi ega lisandeid (kivid, plastik, kumm, kemikaalid, lakid, värvid, immutusained, asfalt, metall, raievärsked kuivamata okkad ja lehed e. rohelise osise olemasolu  jne). Hakkpuidus on lubatud vähesel määral tolmu, liiva ja mulla sisaldus ning kuivanud okkad ja lehed tingimusel et hakkpuidu tuhasus ei ületa autokoormas 5% ja kalendrikuu keskmine ei ületa 3%  kuivaine mahukaalust (standard CEN/TS14775). Võõrkehadeks ei loeta hakkpuidu tooraine kvaliteedi tagamiseks ja säilitamiseks toodetud kattepaberi osasid, mis vastavad hakkpuidu fraktsiooni lubatud mõõtudele. Hakkpuidu suhteline niiskus peab jääma vahemikku: autokoormas 15…60 % ;  kalendrikuus tarnitud hakkpuidu kaalutud keskmine niiskus peab olema vahemikus 30% kuni 56 %.\nHakkpuidu fraktsiooni mõõdud (pikkus + laius + paksus) ja protsentuaalne maht tarnitud kogusest sätestatakse järgnevalt.         \nKütuse üksikutest tükkidest üheksakümmend seitse protsenti (97%) peab olema väiksem kui 120 mm (paksus + laius + pikkus). Kolm protsenti (3%) kütusest võib olla suurem kui 120 mm, kuid peab olema väiksem kui 300 mm (paksus + laius + pikkus, kusjuures ainult üks külg võib ületada 50 mm). Tarnitud kütuses on lubatud peenikese osise maksimaalne osakaal vastavalt standardile EN ISO 17225-1 F30 (alla 30% suurusega < 3,15mm).",
+  "measurement_fingerprint_sha256": "09A4899A7928837011B1FF0207C239AA52D14CA08EEA818C10957BC9083D14DF",
+  "delivery_period": "15.04.2025 kuni 30.06.2025",
+  "exact_calendar_phase": "M04-M05-M06",
+  "starting_prices": {
+    "eur_per_m3": 48.65,
+    "eur_per_pm3": 17.5,
+    "eur_per_MWh_primary": 21.91
+  },
+  "frozen_conversions": {
+    "m3_to_pm3": 2.78,
+    "m3_to_MWh_primary": 2.22
+  },
+  "destination_at_offer": null
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "bpm.rmk.source-volume-conflict.v0.1",
+  "event_date": "2026-02-23",
+  "object_id": 1,
+  "product": "Haavapalk",
+  "state": "NOT_ESTIMABLE_SOURCE_VOLUME_CONFLICT",
+  "advertised_volume_m3": 7067,
+  "location_sheet_total_m3": 7067,
+  "location_component_sum_m3": 8042,
+  "difference_component_minus_stated_m3": 975,
+  "policy": "PRESERVE_SOURCE_CONFLICT_NO_REPAIR_NO_ALLOCATION_NO_PREDICTION",
+  "result_body_opened": false
+}

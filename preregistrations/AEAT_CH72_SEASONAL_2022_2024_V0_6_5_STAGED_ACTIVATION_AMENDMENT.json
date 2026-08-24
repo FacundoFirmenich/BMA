@@ -1,0 +1,18 @@
+{
+  "schema_version": "bma.preregistration.amendment.v0.6.5",
+  "amends_without_rewriting": "AEAT_CH72_SEASONAL_2022_2024_V0_6_5.json",
+  "frozen_at": "2026-08-10",
+  "reason": "Clarify causal activation order before opening 2022 outcomes.",
+  "execution_order": [
+    "2022: M0 bootstrap only, January->February through November->December; Z_post after each target.",
+    "2023: carry the posterior produced by 2022; M1/M2 may use only the same calendar phase observed in 2022, with frozen shrinkage/support gates.",
+    "2024: carry the full posterior; evaluate the second recurrence of each phase separately."
+  ],
+  "invariants": {
+    "no_target_opened_before_its_freeze": true,
+    "no_year_boundary_reset": true,
+    "no_N_to_1_pooling": true,
+    "reinforcement_input": "structured observations and adjudications, never raw archives"
+  },
+  "claim_boundary": "All three years remain retrospective development; staged activation does not make them prospective."
+}

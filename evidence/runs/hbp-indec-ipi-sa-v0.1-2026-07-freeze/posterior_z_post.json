@@ -1,0 +1,49 @@
+{
+  "M0": {
+    "alpha": 64.5,
+    "beta": 0.09713261347780276,
+    "n": 125,
+    "posterior_predictive": {
+      "degrees_of_freedom": 129.0,
+      "innovation_location": 0.0,
+      "innovation_scale": 0.038806339583938074
+    },
+    "sum_squared_innovations": 0.19346522695560553
+  },
+  "M1": {
+    "alpha": 64.5,
+    "beta": 0.09707376118989168,
+    "centered_sum_squares": 0.1933465807431768,
+    "kappa": 126.0,
+    "mu": -0.0009665212362778374,
+    "n": 125,
+    "posterior_predictive": {
+      "degrees_of_freedom": 129.0,
+      "innovation_location": -0.0009665212362778374,
+      "innovation_scale": 0.038948224002658585
+    },
+    "sample_mean": -0.0009742534061680601,
+    "sum_innovations": -0.12178167577100751,
+    "sum_squared_innovations": 0.19346522695560553
+  },
+  "Z_post_is_Z_XPL": false,
+  "Z_post_is_residual_z": false,
+  "batch_is_exactly_equivalent_to_sequential_conjugate_updates": true,
+  "initialization_event": true,
+  "observation_count": 126,
+  "pooling_occurred": false,
+  "preregistration_sha256": "CA18CC87C979F5176859EC2511092927114E03605531E4E25A2473743BF8D072",
+  "reset_occurred": false,
+  "schema": "hbp.indec.ipi.sa.z-post.v0.1",
+  "source_workbook_sha256": "BCAC4D8BD275DA00C70099F7A621E63E8793BCDD916CEB028F83F45B3BDCE943",
+  "state": "INITIALIZED_PRE_OUTCOME_FROM_FROZEN_CURRENT_VINTAGE",
+  "target_month": "2026-07",
+  "training_end": "2026-06",
+  "training_start": "2016-01",
+  "transition_count": 125,
+  "weights": {
+    "M0": 0.5,
+    "M1": 0.5,
+    "status": "FROZEN_EQUAL_NO_PROMOTION_AUTHORITY"
+  }
+}

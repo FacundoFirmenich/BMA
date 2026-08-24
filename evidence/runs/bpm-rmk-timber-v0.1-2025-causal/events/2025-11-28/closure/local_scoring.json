@@ -1,0 +1,71 @@
+{
+  "schema_version": "bpm.rmk.hakkpuit-local-scoring.v0.2",
+  "event_date": "2025-11-28",
+  "jurisdiction": "EXACT_HAKKPUIT_FINGERPRINT_DESTINATION_ONLY",
+  "frozen_destination_predictions": 2,
+  "scored_exact_destination_predictions": 1,
+  "non_observed_or_unawarded_predictions": 1,
+  "local_scores": [
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "destination": "Heltermaa",
+      "phase": "M12-M01-M02",
+      "price": {
+        "actual_eur_m3": 43.145599999999995,
+        "M0": {
+          "point_prediction_eur_m3": 48.6778,
+          "absolute_error_eur_m3": 5.532200000000003
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        }
+      },
+      "volume": {
+        "actual_m3": 2310.0719424460435,
+        "M0": {
+          "point_prediction_m3": 3561.151079136691,
+          "absolute_log_error": 0.43280516147322157
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        }
+      }
+    }
+  ],
+  "non_observed": [
+    {
+      "object_id": 1,
+      "product": "Hakkpuit",
+      "destination": "Kuressaare/Ninase",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    }
+  ],
+  "diagnostic_aggregate": {
+    "M0_price_mean_absolute_error_eur_m3": 5.532200000000003,
+    "M0_volume_MALE": 0.43280516147322157,
+    "global_winner": null
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

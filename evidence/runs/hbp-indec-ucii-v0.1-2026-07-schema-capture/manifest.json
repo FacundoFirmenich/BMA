@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-08-22T02:17:26.402976+00:00",
+  "files": [
+    {
+      "bytes": 57344,
+      "path": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/indec_ucii_series_through_2026_06.xls",
+      "sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471"
+    },
+    {
+      "bytes": 2646,
+      "path": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/response_headers.json",
+      "sha256": "49B833AE43C7E44946B85F7261DDB3BD0C2448F843F2C305190E30E40C92D064"
+    },
+    {
+      "bytes": 57712,
+      "path": "evidence/runs/hbp-indec-ucii-v0.1-2026-07-schema-capture/workbook_schema.json",
+      "sha256": "F4A72CFF5270E5533F6DB3611DD2944D7BA0656C29AB91166A16B977B6C22545"
+    }
+  ],
+  "fit_performed": false,
+  "forecast_performed": false,
+  "preregistration_sha256": "90CD29BE4FA48828E99DC55AD332788FC229E2F4DD4137F0D59CCADDA87EDE54",
+  "schema": "hbp.indec.ucii.schema-capture-manifest.v0.1",
+  "score_performed": false
+}

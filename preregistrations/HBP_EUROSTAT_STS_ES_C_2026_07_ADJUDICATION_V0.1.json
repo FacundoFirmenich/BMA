@@ -1,0 +1,42 @@
+{
+  "preregistration_id": "HBP_EUROSTAT_STS_ES_C_2026_07_ADJUDICATION_V0.1",
+  "status": "FROZEN_BEFORE_TARGET_QUERY",
+  "frozen_local_date": "2026-08-22",
+  "parent_freeze": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/forecast_freeze.json",
+  "parent_freeze_sha256": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+  "jurisdiction": "Eurostat sts_inpr_m | ES | PRD | NACE C | SCA | I21",
+  "target_month": "2026-07",
+  "target_query": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpr_m?format=JSON&lang=en&freq=M&indic_bt=PRD&nace_r2=C&s_adj=SCA&unit=I21&geo=ES&sinceTimePeriod=2026-07&untilTimePeriod=2026-07",
+  "capture_contract": {
+    "one_get_only": true,
+    "max_response_bytes": 100000,
+    "raw_bytes_headers_timestamp_and_sha256_required": true,
+    "required_dimension_order": ["freq", "indic_bt", "nace_r2", "s_adj", "unit", "geo", "time"],
+    "target_absent": "OUTCOME_PENDING_NO_SCORE_NO_POSTERIOR_UPDATE",
+    "target_missing_or_flagged_unusable": "NOT_ESTIMABLE_NO_SCORE_NO_POSTERIOR_UPDATE",
+    "target_positive_finite": "SCORE_AND_CLOSE_2026_07_THEN_FREEZE_2026_08"
+  },
+  "scoring": {
+    "models": ["M0", "M1"],
+    "log_score": "Student-t density of log index minus log(actual index) Jacobian",
+    "crps": "numerical CRPS on log-index predictive distribution",
+    "absolute_error": "index points",
+    "coverage": "mapped central 90 percent interval",
+    "future_weights": "prior weight times index-scale predictive density, normalized once"
+  },
+  "continuation": {
+    "posterior_update": "append exactly the 2026-06 to 2026-07 log innovation and recompute the conjugate sufficient statistics without reset",
+    "next_target": "2026-08",
+    "M2_port": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M2_ted": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M3_coral": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE"
+  },
+  "hard_invariants": {
+    "one_month_predicts_exactly_next_month": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "first_capture_never_overwrites_parent_freeze": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-03-20",
+  "state": "FREEZE_WRITTEN_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "4D0462BC42932A60C25A1B4F3A0FB94AE727D0BCC6A4BA7D1D53323942E11456",
+    "structured_offer": "7125E08BA5F889DD27B1F18C19ED3FDDAA60C434432B872B19C964F7CC11BCD5",
+    "prior_after_2025-02-26": "6117BA4D2D184AEE448BD39CEB60B16E752B61D69476353C67FD7736D6136184",
+    "cell_identity_amendment": "54651E1DF6E8DB30BFAA0CFC65ED4E686B4DFA547AF0854C3221C8DBC1D47A3A"
+  },
+  "object": {
+    "object_id": 1,
+    "product": "Hakkpuit",
+    "advertised_volume_m3": 6759,
+    "delivery_period": "15.04.2025 kuni 30.06.2025",
+    "calendar_phase": "M04-M05-M06",
+    "destination_at_offer": null,
+    "comparability": "ABSTAIN_NOT_COMPARABLE_PRICE_NO_DESTINATION_AT_OFFER",
+    "volume_predictions": {
+      "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION_FOR_HAKKPUIT",
+      "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+      "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+      "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+    },
+    "price_predictions": {
+      "M0": "NOT_ESTIMABLE_M0_NO_PRIOR_LOCAL_OBSERVATION_FOR_HAKKPUIT",
+      "M1": "NOT_ESTIMABLE_M1_SUPPORT",
+      "M2": "NOT_ESTIMABLE_M1_REQUIRED",
+      "BMA": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT"
+    }
+  },
+  "unit_conversions_frozen_before_result": {
+    "1_m3_equals_pm3": 2.78,
+    "1_m3_equals_MWh_primary": 2.22
+  },
+  "result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/03/Edukad_EP_20.03.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "scorable_predictions": 0,
+  "global_winner": null,
+  "automatic_promotion": false
+}

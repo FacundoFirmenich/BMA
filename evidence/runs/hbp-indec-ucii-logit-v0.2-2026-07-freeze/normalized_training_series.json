@@ -1,0 +1,2559 @@
+{
+  "general_target_likelihood_uses_sector_blocks": false,
+  "headers": [
+    "Período",
+    "Nivel general",
+    "Productos alimenticios y bebidas",
+    "Productos                del tabaco",
+    "Productos textiles",
+    "Papel                              y cartón",
+    "Edición                     e impresión",
+    "Refinación                  del petróleo",
+    "Sustancias            y productos químicos",
+    "Productos de caucho y plástico",
+    "Productos minerales no metálicos",
+    "Industrias metálicas básicas",
+    "Industria automotriz",
+    "Metalmecánica excluida industria automotriz"
+  ],
+  "record_count": 126,
+  "records": [
+    {
+      "general_percent": 62.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.3,
+        "Industria automotriz": 20.4,
+        "Industrias metálicas básicas": 65.2,
+        "Metalmecánica excluida industria automotriz": 52.2,
+        "Papel                              y cartón": 84.4,
+        "Productos                del tabaco": 83.9,
+        "Productos alimenticios y bebidas": 68.5,
+        "Productos de caucho y plástico": 58.8,
+        "Productos minerales no metálicos": 63.2,
+        "Productos textiles": 66.9,
+        "Refinación                  del petróleo": 85.1,
+        "Sustancias            y productos químicos": 66.1
+      },
+      "source_row_1_based": 10,
+      "time": "2016-01"
+    },
+    {
+      "general_percent": 64.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.6,
+        "Industria automotriz": 43.1,
+        "Industrias metálicas básicas": 70.7,
+        "Metalmecánica excluida industria automotriz": 51.1,
+        "Papel                              y cartón": 79.0,
+        "Productos                del tabaco": 81.3,
+        "Productos alimenticios y bebidas": 66.8,
+        "Productos de caucho y plástico": 53.6,
+        "Productos minerales no metálicos": 73.1,
+        "Productos textiles": 72.2,
+        "Refinación                  del petróleo": 86.8,
+        "Sustancias            y productos químicos": 66.8
+      },
+      "source_row_1_based": 11,
+      "time": "2016-02"
+    },
+    {
+      "general_percent": 64.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 55.0,
+        "Industria automotriz": 55.5,
+        "Industrias metálicas básicas": 63.6,
+        "Metalmecánica excluida industria automotriz": 53.1,
+        "Papel                              y cartón": 81.4,
+        "Productos                del tabaco": 84.1,
+        "Productos alimenticios y bebidas": 67.2,
+        "Productos de caucho y plástico": 56.2,
+        "Productos minerales no metálicos": 75.4,
+        "Productos textiles": 73.5,
+        "Refinación                  del petróleo": 83.4,
+        "Sustancias            y productos químicos": 66.3
+      },
+      "source_row_1_based": 12,
+      "time": "2016-03"
+    },
+    {
+      "general_percent": 64.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.5,
+        "Industria automotriz": 54.6,
+        "Industrias metálicas básicas": 65.2,
+        "Metalmecánica excluida industria automotriz": 53.2,
+        "Papel                              y cartón": 83.8,
+        "Productos                del tabaco": 81.4,
+        "Productos alimenticios y bebidas": 63.5,
+        "Productos de caucho y plástico": 60.2,
+        "Productos minerales no metálicos": 75.4,
+        "Productos textiles": 74.4,
+        "Refinación                  del petróleo": 82.0,
+        "Sustancias            y productos químicos": 67.9
+      },
+      "source_row_1_based": 13,
+      "time": "2016-04"
+    },
+    {
+      "general_percent": 65.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 61.1,
+        "Industria automotriz": 47.5,
+        "Industrias metálicas básicas": 73.5,
+        "Metalmecánica excluida industria automotriz": 56.0,
+        "Papel                              y cartón": 74.6,
+        "Productos                del tabaco": 79.0,
+        "Productos alimenticios y bebidas": 64.5,
+        "Productos de caucho y plástico": 60.4,
+        "Productos minerales no metálicos": 72.9,
+        "Productos textiles": 73.3,
+        "Refinación                  del petróleo": 80.9,
+        "Sustancias            y productos químicos": 65.3
+      },
+      "source_row_1_based": 14,
+      "time": "2016-05"
+    },
+    {
+      "general_percent": 64.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.9,
+        "Industria automotriz": 50.7,
+        "Industrias metálicas básicas": 73.3,
+        "Metalmecánica excluida industria automotriz": 54.8,
+        "Papel                              y cartón": 79.0,
+        "Productos                del tabaco": 69.1,
+        "Productos alimenticios y bebidas": 62.7,
+        "Productos de caucho y plástico": 62.0,
+        "Productos minerales no metálicos": 71.5,
+        "Productos textiles": 73.9,
+        "Refinación                  del petróleo": 86.1,
+        "Sustancias            y productos químicos": 64.6
+      },
+      "source_row_1_based": 15,
+      "time": "2016-06"
+    },
+    {
+      "general_percent": 62.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.3,
+        "Industria automotriz": 45.0,
+        "Industrias metálicas básicas": 68.5,
+        "Metalmecánica excluida industria automotriz": 51.1,
+        "Papel                              y cartón": 83.8,
+        "Productos                del tabaco": 72.8,
+        "Productos alimenticios y bebidas": 61.7,
+        "Productos de caucho y plástico": 58.2,
+        "Productos minerales no metálicos": 66.4,
+        "Productos textiles": 71.9,
+        "Refinación                  del petróleo": 84.5,
+        "Sustancias            y productos químicos": 60.6
+      },
+      "source_row_1_based": 16,
+      "time": "2016-07"
+    },
+    {
+      "general_percent": 63.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.8,
+        "Industria automotriz": 51.4,
+        "Industrias metálicas básicas": 66.6,
+        "Metalmecánica excluida industria automotriz": 51.2,
+        "Papel                              y cartón": 91.8,
+        "Productos                del tabaco": 73.4,
+        "Productos alimenticios y bebidas": 68.4,
+        "Productos de caucho y plástico": 56.6,
+        "Productos minerales no metálicos": 73.1,
+        "Productos textiles": 74.0,
+        "Refinación                  del petróleo": 80.2,
+        "Sustancias            y productos químicos": 59.1
+      },
+      "source_row_1_based": 17,
+      "time": "2016-08"
+    },
+    {
+      "general_percent": 63.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.5,
+        "Industria automotriz": 51.4,
+        "Industrias metálicas básicas": 65.3,
+        "Metalmecánica excluida industria automotriz": 51.9,
+        "Papel                              y cartón": 80.3,
+        "Productos                del tabaco": 80.8,
+        "Productos alimenticios y bebidas": 65.7,
+        "Productos de caucho y plástico": 55.2,
+        "Productos minerales no metálicos": 70.7,
+        "Productos textiles": 69.1,
+        "Refinación                  del petróleo": 81.3,
+        "Sustancias            y productos químicos": 68.5
+      },
+      "source_row_1_based": 18,
+      "time": "2016-09"
+    },
+    {
+      "general_percent": 65.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.2,
+        "Industria automotriz": 44.1,
+        "Industrias metálicas básicas": 72.8,
+        "Metalmecánica excluida industria automotriz": 55.7,
+        "Papel                              y cartón": 86.0,
+        "Productos                del tabaco": 57.0,
+        "Productos alimenticios y bebidas": 65.7,
+        "Productos de caucho y plástico": 52.8,
+        "Productos minerales no metálicos": 70.7,
+        "Productos textiles": 59.0,
+        "Refinación                  del petróleo": 84.5,
+        "Sustancias            y productos químicos": 70.3
+      },
+      "source_row_1_based": 19,
+      "time": "2016-10"
+    },
+    {
+      "general_percent": 68.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.9,
+        "Industria automotriz": 56.3,
+        "Industrias metálicas básicas": 71.6,
+        "Metalmecánica excluida industria automotriz": 57.2,
+        "Papel                              y cartón": 88.2,
+        "Productos                del tabaco": 73.3,
+        "Productos alimenticios y bebidas": 69.0,
+        "Productos de caucho y plástico": 62.6,
+        "Productos minerales no metálicos": 72.2,
+        "Productos textiles": 58.8,
+        "Refinación                  del petróleo": 83.2,
+        "Sustancias            y productos químicos": 74.3
+      },
+      "source_row_1_based": 20,
+      "time": "2016-11"
+    },
+    {
+      "general_percent": 63.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.6,
+        "Industria automotriz": 45.0,
+        "Industrias metálicas básicas": 62.8,
+        "Metalmecánica excluida industria automotriz": 54.7,
+        "Papel                              y cartón": 76.7,
+        "Productos                del tabaco": 75.5,
+        "Productos alimenticios y bebidas": 66.9,
+        "Productos de caucho y plástico": 62.9,
+        "Productos minerales no metálicos": 69.6,
+        "Productos textiles": 48.9,
+        "Refinación                  del petróleo": 84.4,
+        "Sustancias            y productos químicos": 65.1
+      },
+      "source_row_1_based": 21,
+      "time": "2016-12"
+    },
+    {
+      "general_percent": 60.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.0,
+        "Industria automotriz": 30.7,
+        "Industrias metálicas básicas": 58.4,
+        "Metalmecánica excluida industria automotriz": 47.3,
+        "Papel                              y cartón": 80.0,
+        "Productos                del tabaco": 80.3,
+        "Productos alimenticios y bebidas": 65.1,
+        "Productos de caucho y plástico": 58.5,
+        "Productos minerales no metálicos": 53.3,
+        "Productos textiles": 57.5,
+        "Refinación                  del petróleo": 85.0,
+        "Sustancias            y productos químicos": 68.5
+      },
+      "source_row_1_based": 25,
+      "time": "2017-01"
+    },
+    {
+      "general_percent": 60.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 47.6,
+        "Industria automotriz": 31.5,
+        "Industrias metálicas básicas": 65.7,
+        "Metalmecánica excluida industria automotriz": 42.1,
+        "Papel                              y cartón": 85.0,
+        "Productos                del tabaco": 78.3,
+        "Productos alimenticios y bebidas": 62.4,
+        "Productos de caucho y plástico": 54.1,
+        "Productos minerales no metálicos": 68.7,
+        "Productos textiles": 53.9,
+        "Refinación                  del petróleo": 81.6,
+        "Sustancias            y productos químicos": 68.8
+      },
+      "source_row_1_based": 26,
+      "time": "2017-02"
+    },
+    {
+      "general_percent": 65.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 55.5,
+        "Industria automotriz": 48.2,
+        "Industrias metálicas básicas": 75.6,
+        "Metalmecánica excluida industria automotriz": 50.5,
+        "Papel                              y cartón": 87.7,
+        "Productos                del tabaco": 76.0,
+        "Productos alimenticios y bebidas": 70.2,
+        "Productos de caucho y plástico": 55.0,
+        "Productos minerales no metálicos": 75.6,
+        "Productos textiles": 57.3,
+        "Refinación                  del petróleo": 79.9,
+        "Sustancias            y productos químicos": 67.3
+      },
+      "source_row_1_based": 27,
+      "time": "2017-03"
+    },
+    {
+      "general_percent": 64.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.0,
+        "Industria automotriz": 46.5,
+        "Industrias metálicas básicas": 73.6,
+        "Metalmecánica excluida industria automotriz": 54.5,
+        "Papel                              y cartón": 79.6,
+        "Productos                del tabaco": 62.4,
+        "Productos alimenticios y bebidas": 64.3,
+        "Productos de caucho y plástico": 57.9,
+        "Productos minerales no metálicos": 71.0,
+        "Productos textiles": 54.9,
+        "Refinación                  del petróleo": 82.4,
+        "Sustancias            y productos químicos": 68.6
+      },
+      "source_row_1_based": 28,
+      "time": "2017-04"
+    },
+    {
+      "general_percent": 65.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.6,
+        "Industria automotriz": 54.5,
+        "Industrias metálicas básicas": 75.2,
+        "Metalmecánica excluida industria automotriz": 58.8,
+        "Papel                              y cartón": 71.8,
+        "Productos                del tabaco": 71.7,
+        "Productos alimenticios y bebidas": 65.0,
+        "Productos de caucho y plástico": 64.0,
+        "Productos minerales no metálicos": 72.4,
+        "Productos textiles": 61.4,
+        "Refinación                  del petróleo": 80.6,
+        "Sustancias            y productos químicos": 66.9
+      },
+      "source_row_1_based": 29,
+      "time": "2017-05"
+    },
+    {
+      "general_percent": 67.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 63.1,
+        "Industria automotriz": 55.0,
+        "Industrias metálicas básicas": 73.7,
+        "Metalmecánica excluida industria automotriz": 58.6,
+        "Papel                              y cartón": 77.0,
+        "Productos                del tabaco": 76.1,
+        "Productos alimenticios y bebidas": 64.3,
+        "Productos de caucho y plástico": 65.8,
+        "Productos minerales no metálicos": 76.7,
+        "Productos textiles": 66.2,
+        "Refinación                  del petróleo": 86.4,
+        "Sustancias            y productos químicos": 67.5
+      },
+      "source_row_1_based": 30,
+      "time": "2017-06"
+    },
+    {
+      "general_percent": 65.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.1,
+        "Industria automotriz": 45.5,
+        "Industrias metálicas básicas": 75.9,
+        "Metalmecánica excluida industria automotriz": 59.2,
+        "Papel                              y cartón": 81.6,
+        "Productos                del tabaco": 83.1,
+        "Productos alimenticios y bebidas": 63.9,
+        "Productos de caucho y plástico": 65.0,
+        "Productos minerales no metálicos": 72.3,
+        "Productos textiles": 65.5,
+        "Refinación                  del petróleo": 84.4,
+        "Sustancias            y productos químicos": 59.1
+      },
+      "source_row_1_based": 31,
+      "time": "2017-07"
+    },
+    {
+      "general_percent": 67.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.1,
+        "Industria automotriz": 55.1,
+        "Industrias metálicas básicas": 79.5,
+        "Metalmecánica excluida industria automotriz": 61.1,
+        "Papel                              y cartón": 88.0,
+        "Productos                del tabaco": 77.0,
+        "Productos alimenticios y bebidas": 65.9,
+        "Productos de caucho y plástico": 60.1,
+        "Productos minerales no metálicos": 77.1,
+        "Productos textiles": 69.1,
+        "Refinación                  del petróleo": 85.3,
+        "Sustancias            y productos químicos": 62.3
+      },
+      "source_row_1_based": 32,
+      "time": "2017-08"
+    },
+    {
+      "general_percent": 66.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 63.0,
+        "Industria automotriz": 57.1,
+        "Industrias metálicas básicas": 81.0,
+        "Metalmecánica excluida industria automotriz": 54.7,
+        "Papel                              y cartón": 82.5,
+        "Productos                del tabaco": 77.3,
+        "Productos alimenticios y bebidas": 63.8,
+        "Productos de caucho y plástico": 56.9,
+        "Productos minerales no metálicos": 74.7,
+        "Productos textiles": 68.3,
+        "Refinación                  del petróleo": 85.7,
+        "Sustancias            y productos químicos": 64.0
+      },
+      "source_row_1_based": 33,
+      "time": "2017-09"
+    },
+    {
+      "general_percent": 68.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 61.6,
+        "Industria automotriz": 52.9,
+        "Industrias metálicas básicas": 82.9,
+        "Metalmecánica excluida industria automotriz": 62.3,
+        "Papel                              y cartón": 86.8,
+        "Productos                del tabaco": 71.6,
+        "Productos alimenticios y bebidas": 66.3,
+        "Productos de caucho y plástico": 55.5,
+        "Productos minerales no metálicos": 77.2,
+        "Productos textiles": 62.5,
+        "Refinación                  del petróleo": 73.4,
+        "Sustancias            y productos químicos": 70.9
+      },
+      "source_row_1_based": 34,
+      "time": "2017-10"
+    },
+    {
+      "general_percent": 69.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 62.9,
+        "Industria automotriz": 55.0,
+        "Industrias metálicas básicas": 83.1,
+        "Metalmecánica excluida industria automotriz": 61.2,
+        "Papel                              y cartón": 82.7,
+        "Productos                del tabaco": 70.5,
+        "Productos alimenticios y bebidas": 67.7,
+        "Productos de caucho y plástico": 59.9,
+        "Productos minerales no metálicos": 80.6,
+        "Productos textiles": 60.9,
+        "Refinación                  del petróleo": 79.0,
+        "Sustancias            y productos químicos": 71.0
+      },
+      "source_row_1_based": 35,
+      "time": "2017-11"
+    },
+    {
+      "general_percent": 64.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.8,
+        "Industria automotriz": 38.3,
+        "Industrias metálicas básicas": 73.3,
+        "Metalmecánica excluida industria automotriz": 55.6,
+        "Papel                              y cartón": 72.8,
+        "Productos                del tabaco": 61.8,
+        "Productos alimenticios y bebidas": 61.2,
+        "Productos de caucho y plástico": 61.5,
+        "Productos minerales no metálicos": 76.7,
+        "Productos textiles": 55.7,
+        "Refinación                  del petróleo": 86.3,
+        "Sustancias            y productos químicos": 68.9
+      },
+      "source_row_1_based": 36,
+      "time": "2017-12"
+    },
+    {
+      "general_percent": 61.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.5,
+        "Industria automotriz": 25.6,
+        "Industrias metálicas básicas": 67.4,
+        "Metalmecánica excluida industria automotriz": 48.6,
+        "Papel                              y cartón": 73.5,
+        "Productos                del tabaco": 77.8,
+        "Productos alimenticios y bebidas": 62.7,
+        "Productos de caucho y plástico": 58.2,
+        "Productos minerales no metálicos": 67.6,
+        "Productos textiles": 57.2,
+        "Refinación                  del petróleo": 81.7,
+        "Sustancias            y productos químicos": 70.8
+      },
+      "source_row_1_based": 40,
+      "time": "2018-01"
+    },
+    {
+      "general_percent": 64.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.2,
+        "Industria automotriz": 50.4,
+        "Industrias metálicas básicas": 86.2,
+        "Metalmecánica excluida industria automotriz": 46.2,
+        "Papel                              y cartón": 77.2,
+        "Productos                del tabaco": 71.5,
+        "Productos alimenticios y bebidas": 61.4,
+        "Productos de caucho y plástico": 53.3,
+        "Productos minerales no metálicos": 74.2,
+        "Productos textiles": 48.3,
+        "Refinación                  del petróleo": 82.8,
+        "Sustancias            y productos químicos": 73.0
+      },
+      "source_row_1_based": 41,
+      "time": "2018-02"
+    },
+    {
+      "general_percent": 66.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.8,
+        "Industria automotriz": 58.2,
+        "Industrias metálicas básicas": 88.0,
+        "Metalmecánica excluida industria automotriz": 54.3,
+        "Papel                              y cartón": 72.8,
+        "Productos                del tabaco": 74.4,
+        "Productos alimenticios y bebidas": 63.3,
+        "Productos de caucho y plástico": 56.7,
+        "Productos minerales no metálicos": 76.1,
+        "Productos textiles": 53.6,
+        "Refinación                  del petróleo": 78.6,
+        "Sustancias            y productos químicos": 71.9
+      },
+      "source_row_1_based": 42,
+      "time": "2018-03"
+    },
+    {
+      "general_percent": 67.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.6,
+        "Industria automotriz": 55.8,
+        "Industrias metálicas básicas": 88.6,
+        "Metalmecánica excluida industria automotriz": 55.4,
+        "Papel                              y cartón": 73.1,
+        "Productos                del tabaco": 69.2,
+        "Productos alimenticios y bebidas": 65.0,
+        "Productos de caucho y plástico": 61.8,
+        "Productos minerales no metálicos": 74.2,
+        "Productos textiles": 52.3,
+        "Refinación                  del petróleo": 78.4,
+        "Sustancias            y productos químicos": 72.4
+      },
+      "source_row_1_based": 43,
+      "time": "2018-04"
+    },
+    {
+      "general_percent": 65.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 62.1,
+        "Industria automotriz": 55.2,
+        "Industrias metálicas básicas": 82.0,
+        "Metalmecánica excluida industria automotriz": 54.9,
+        "Papel                              y cartón": 70.5,
+        "Productos                del tabaco": 79.5,
+        "Productos alimenticios y bebidas": 61.5,
+        "Productos de caucho y plástico": 62.4,
+        "Productos minerales no metálicos": 72.9,
+        "Productos textiles": 59.9,
+        "Refinación                  del petróleo": 77.5,
+        "Sustancias            y productos químicos": 65.6
+      },
+      "source_row_1_based": 44,
+      "time": "2018-05"
+    },
+    {
+      "general_percent": 61.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.1,
+        "Industria automotriz": 47.7,
+        "Industrias metálicas básicas": 80.5,
+        "Metalmecánica excluida industria automotriz": 53.6,
+        "Papel                              y cartón": 71.7,
+        "Productos                del tabaco": 68.0,
+        "Productos alimenticios y bebidas": 59.1,
+        "Productos de caucho y plástico": 54.8,
+        "Productos minerales no metálicos": 70.6,
+        "Productos textiles": 55.4,
+        "Refinación                  del petróleo": 68.7,
+        "Sustancias            y productos químicos": 61.8
+      },
+      "source_row_1_based": 45,
+      "time": "2018-06"
+    },
+    {
+      "general_percent": 60.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.6,
+        "Industria automotriz": 48.1,
+        "Industrias metálicas básicas": 86.3,
+        "Metalmecánica excluida industria automotriz": 51.1,
+        "Papel                              y cartón": 73.8,
+        "Productos                del tabaco": 73.0,
+        "Productos alimenticios y bebidas": 58.9,
+        "Productos de caucho y plástico": 54.3,
+        "Productos minerales no metálicos": 71.4,
+        "Productos textiles": 53.6,
+        "Refinación                  del petróleo": 66.2,
+        "Sustancias            y productos químicos": 50.8
+      },
+      "source_row_1_based": 46,
+      "time": "2018-07"
+    },
+    {
+      "general_percent": 63.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.9,
+        "Industria automotriz": 57.3,
+        "Industrias metálicas básicas": 85.2,
+        "Metalmecánica excluida industria automotriz": 53.9,
+        "Papel                              y cartón": 76.1,
+        "Productos                del tabaco": 76.7,
+        "Productos alimenticios y bebidas": 61.7,
+        "Productos de caucho y plástico": 57.6,
+        "Productos minerales no metálicos": 72.1,
+        "Productos textiles": 53.4,
+        "Refinación                  del petróleo": 78.1,
+        "Sustancias            y productos químicos": 54.1
+      },
+      "source_row_1_based": 47,
+      "time": "2018-08"
+    },
+    {
+      "general_percent": 61.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.7,
+        "Industria automotriz": 44.8,
+        "Industrias metálicas básicas": 84.3,
+        "Metalmecánica excluida industria automotriz": 46.0,
+        "Papel                              y cartón": 73.8,
+        "Productos                del tabaco": 66.5,
+        "Productos alimenticios y bebidas": 59.4,
+        "Productos de caucho y plástico": 52.4,
+        "Productos minerales no metálicos": 74.1,
+        "Productos textiles": 49.1,
+        "Refinación                  del petróleo": 75.7,
+        "Sustancias            y productos químicos": 63.2
+      },
+      "source_row_1_based": 48,
+      "time": "2018-09"
+    },
+    {
+      "general_percent": 64.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.5,
+        "Industria automotriz": 45.9,
+        "Industrias metálicas básicas": 83.9,
+        "Metalmecánica excluida industria automotriz": 49.2,
+        "Papel                              y cartón": 76.5,
+        "Productos                del tabaco": 71.4,
+        "Productos alimenticios y bebidas": 66.6,
+        "Productos de caucho y plástico": 52.1,
+        "Productos minerales no metálicos": 73.7,
+        "Productos textiles": 47.4,
+        "Refinación                  del petróleo": 78.8,
+        "Sustancias            y productos químicos": 69.1
+      },
+      "source_row_1_based": 49,
+      "time": "2018-10"
+    },
+    {
+      "general_percent": 63.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.1,
+        "Industria automotriz": 44.4,
+        "Industrias metálicas básicas": 88.0,
+        "Metalmecánica excluida industria automotriz": 44.5,
+        "Papel                              y cartón": 76.1,
+        "Productos                del tabaco": 74.6,
+        "Productos alimenticios y bebidas": 63.5,
+        "Productos de caucho y plástico": 51.6,
+        "Productos minerales no metálicos": 72.7,
+        "Productos textiles": 43.9,
+        "Refinación                  del petróleo": 73.2,
+        "Sustancias            y productos químicos": 70.0
+      },
+      "source_row_1_based": 50,
+      "time": "2018-11"
+    },
+    {
+      "general_percent": 56.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 48.9,
+        "Industria automotriz": 25.6,
+        "Industrias metálicas básicas": 69.4,
+        "Metalmecánica excluida industria automotriz": 42.8,
+        "Papel                              y cartón": 66.8,
+        "Productos                del tabaco": 56.0,
+        "Productos alimenticios y bebidas": 58.9,
+        "Productos de caucho y plástico": 47.2,
+        "Productos minerales no metálicos": 61.5,
+        "Productos textiles": 32.3,
+        "Refinación                  del petróleo": 77.4,
+        "Sustancias            y productos químicos": 66.4
+      },
+      "source_row_1_based": 51,
+      "time": "2018-12"
+    },
+    {
+      "general_percent": 56.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.7,
+        "Industria automotriz": 15.7,
+        "Industrias metálicas básicas": 71.7,
+        "Metalmecánica excluida industria automotriz": 38.4,
+        "Papel                              y cartón": 67.4,
+        "Productos                del tabaco": 83.9,
+        "Productos alimenticios y bebidas": 57.5,
+        "Productos de caucho y plástico": 48.4,
+        "Productos minerales no metálicos": 57.1,
+        "Productos textiles": 31.4,
+        "Refinación                  del petróleo": 76.6,
+        "Sustancias            y productos químicos": 68.9
+      },
+      "source_row_1_based": 55,
+      "time": "2019-01"
+    },
+    {
+      "general_percent": 58.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.1,
+        "Industria automotriz": 42.1,
+        "Industrias metálicas básicas": 68.7,
+        "Metalmecánica excluida industria automotriz": 42.0,
+        "Papel                              y cartón": 71.7,
+        "Productos                del tabaco": 72.9,
+        "Productos alimenticios y bebidas": 57.6,
+        "Productos de caucho y plástico": 50.8,
+        "Productos minerales no metálicos": 67.5,
+        "Productos textiles": 43.2,
+        "Refinación                  del petróleo": 71.7,
+        "Sustancias            y productos químicos": 69.4
+      },
+      "source_row_1_based": 56,
+      "time": "2019-02"
+    },
+    {
+      "general_percent": 58.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.1,
+        "Industria automotriz": 35.0,
+        "Industrias metálicas básicas": 74.7,
+        "Metalmecánica excluida industria automotriz": 43.1,
+        "Papel                              y cartón": 71.1,
+        "Productos                del tabaco": 63.8,
+        "Productos alimenticios y bebidas": 55.7,
+        "Productos de caucho y plástico": 48.7,
+        "Productos minerales no metálicos": 62.4,
+        "Productos textiles": 49.8,
+        "Refinación                  del petróleo": 76.6,
+        "Sustancias            y productos químicos": 69.6
+      },
+      "source_row_1_based": 57,
+      "time": "2019-03"
+    },
+    {
+      "general_percent": 61.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.8,
+        "Industria automotriz": 37.6,
+        "Industrias metálicas básicas": 82.0,
+        "Metalmecánica excluida industria automotriz": 46.7,
+        "Papel                              y cartón": 68.4,
+        "Productos                del tabaco": 58.6,
+        "Productos alimenticios y bebidas": 60.7,
+        "Productos de caucho y plástico": 51.5,
+        "Productos minerales no metálicos": 67.2,
+        "Productos textiles": 49.5,
+        "Refinación                  del petróleo": 72.1,
+        "Sustancias            y productos químicos": 70.5
+      },
+      "source_row_1_based": 58,
+      "time": "2019-04"
+    },
+    {
+      "general_percent": 62.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 63.8,
+        "Industria automotriz": 36.6,
+        "Industrias metálicas básicas": 77.5,
+        "Metalmecánica excluida industria automotriz": 49.9,
+        "Papel                              y cartón": 64.8,
+        "Productos                del tabaco": 70.8,
+        "Productos alimenticios y bebidas": 60.5,
+        "Productos de caucho y plástico": 50.9,
+        "Productos minerales no metálicos": 64.8,
+        "Productos textiles": 54.6,
+        "Refinación                  del petróleo": 78.3,
+        "Sustancias            y productos químicos": 70.8
+      },
+      "source_row_1_based": 59,
+      "time": "2019-05"
+    },
+    {
+      "general_percent": 59.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.1,
+        "Industria automotriz": 34.0,
+        "Industrias metálicas básicas": 80.2,
+        "Metalmecánica excluida industria automotriz": 48.2,
+        "Papel                              y cartón": 68.7,
+        "Productos                del tabaco": 54.6,
+        "Productos alimenticios y bebidas": 59.8,
+        "Productos de caucho y plástico": 50.1,
+        "Productos minerales no metálicos": 67.1,
+        "Productos textiles": 53.5,
+        "Refinación                  del petróleo": 73.8,
+        "Sustancias            y productos químicos": 57.2
+      },
+      "source_row_1_based": 60,
+      "time": "2019-06"
+    },
+    {
+      "general_percent": 58.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.1,
+        "Industria automotriz": 30.0,
+        "Industrias metálicas básicas": 79.3,
+        "Metalmecánica excluida industria automotriz": 48.5,
+        "Papel                              y cartón": 72.9,
+        "Productos                del tabaco": 68.9,
+        "Productos alimenticios y bebidas": 63.9,
+        "Productos de caucho y plástico": 51.6,
+        "Productos minerales no metálicos": 67.2,
+        "Productos textiles": 60.6,
+        "Refinación                  del petróleo": 75.1,
+        "Sustancias            y productos químicos": 47.5
+      },
+      "source_row_1_based": 61,
+      "time": "2019-07"
+    },
+    {
+      "general_percent": 60.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.9,
+        "Industria automotriz": 43.5,
+        "Industrias metálicas básicas": 81.8,
+        "Metalmecánica excluida industria automotriz": 47.5,
+        "Papel                              y cartón": 73.4,
+        "Productos                del tabaco": 64.6,
+        "Productos alimenticios y bebidas": 63.3,
+        "Productos de caucho y plástico": 50.2,
+        "Productos minerales no metálicos": 71.9,
+        "Productos textiles": 58.8,
+        "Refinación                  del petróleo": 79.8,
+        "Sustancias            y productos químicos": 51.6
+      },
+      "source_row_1_based": 62,
+      "time": "2019-08"
+    },
+    {
+      "general_percent": 57.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.5,
+        "Industria automotriz": 37.4,
+        "Industrias metálicas básicas": 79.1,
+        "Metalmecánica excluida industria automotriz": 40.0,
+        "Papel                              y cartón": 73.1,
+        "Productos                del tabaco": 69.2,
+        "Productos alimenticios y bebidas": 61.6,
+        "Productos de caucho y plástico": 51.3,
+        "Productos minerales no metálicos": 75.4,
+        "Productos textiles": 57.8,
+        "Refinación                  del petróleo": 77.0,
+        "Sustancias            y productos químicos": 47.7
+      },
+      "source_row_1_based": 63,
+      "time": "2019-09"
+    },
+    {
+      "general_percent": 62.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 61.3,
+        "Industria automotriz": 43.2,
+        "Industrias metálicas básicas": 73.1,
+        "Metalmecánica excluida industria automotriz": 47.3,
+        "Papel                              y cartón": 75.1,
+        "Productos                del tabaco": 73.1,
+        "Productos alimenticios y bebidas": 64.4,
+        "Productos de caucho y plástico": 53.4,
+        "Productos minerales no metálicos": 72.2,
+        "Productos textiles": 51.4,
+        "Refinación                  del petróleo": 80.8,
+        "Sustancias            y productos químicos": 63.7
+      },
+      "source_row_1_based": 64,
+      "time": "2019-10"
+    },
+    {
+      "general_percent": 60.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.3,
+        "Industria automotriz": 38.7,
+        "Industrias metálicas básicas": 73.6,
+        "Metalmecánica excluida industria automotriz": 42.3,
+        "Papel                              y cartón": 74.6,
+        "Productos                del tabaco": 69.7,
+        "Productos alimenticios y bebidas": 59.7,
+        "Productos de caucho y plástico": 54.7,
+        "Productos minerales no metálicos": 71.1,
+        "Productos textiles": 51.6,
+        "Refinación                  del petróleo": 78.7,
+        "Sustancias            y productos químicos": 68.7
+      },
+      "source_row_1_based": 65,
+      "time": "2019-11"
+    },
+    {
+      "general_percent": 56.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 49.3,
+        "Industria automotriz": 21.1,
+        "Industrias metálicas básicas": 66.1,
+        "Metalmecánica excluida industria automotriz": 40.0,
+        "Papel                              y cartón": 68.1,
+        "Productos                del tabaco": 50.1,
+        "Productos alimenticios y bebidas": 63.3,
+        "Productos de caucho y plástico": 44.7,
+        "Productos minerales no metálicos": 57.2,
+        "Productos textiles": 41.1,
+        "Refinación                  del petróleo": 78.6,
+        "Sustancias            y productos químicos": 68.8
+      },
+      "source_row_1_based": 66,
+      "time": "2019-12"
+    },
+    {
+      "general_percent": 56.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.9,
+        "Industria automotriz": 26.3,
+        "Industrias metálicas básicas": 61.5,
+        "Metalmecánica excluida industria automotriz": 34.6,
+        "Papel                              y cartón": 67.9,
+        "Productos                del tabaco": 67.3,
+        "Productos alimenticios y bebidas": 58.6,
+        "Productos de caucho y plástico": 45.1,
+        "Productos minerales no metálicos": 54.4,
+        "Productos textiles": 44.4,
+        "Refinación                  del petróleo": 80.7,
+        "Sustancias            y productos químicos": 73.8
+      },
+      "source_row_1_based": 70,
+      "time": "2020-01"
+    },
+    {
+      "general_percent": 59.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.6,
+        "Industria automotriz": 37.5,
+        "Industrias metálicas básicas": 72.9,
+        "Metalmecánica excluida industria automotriz": 39.8,
+        "Papel                              y cartón": 73.7,
+        "Productos                del tabaco": 58.2,
+        "Productos alimenticios y bebidas": 60.2,
+        "Productos de caucho y plástico": 47.0,
+        "Productos minerales no metálicos": 62.4,
+        "Productos textiles": 43.9,
+        "Refinación                  del petróleo": 80.1,
+        "Sustancias            y productos químicos": 71.4
+      },
+      "source_row_1_based": 71,
+      "time": "2020-02"
+    },
+    {
+      "general_percent": 51.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.4,
+        "Industria automotriz": 25.9,
+        "Industrias metálicas básicas": 58.5,
+        "Metalmecánica excluida industria automotriz": 30.4,
+        "Papel                              y cartón": 68.9,
+        "Productos                del tabaco": 53.6,
+        "Productos alimenticios y bebidas": 55.6,
+        "Productos de caucho y plástico": 39.8,
+        "Productos minerales no metálicos": 42.1,
+        "Productos textiles": 28.7,
+        "Refinación                  del petróleo": 70.8,
+        "Sustancias            y productos químicos": 68.5
+      },
+      "source_row_1_based": 72,
+      "time": "2020-03"
+    },
+    {
+      "general_percent": 42.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.6,
+        "Industria automotriz": 0.0,
+        "Industrias metálicas básicas": 25.1,
+        "Metalmecánica excluida industria automotriz": 20.1,
+        "Papel                              y cartón": 59.9,
+        "Productos                del tabaco": 0.0,
+        "Productos alimenticios y bebidas": 59.7,
+        "Productos de caucho y plástico": 31.7,
+        "Productos minerales no metálicos": 22.5,
+        "Productos textiles": 4.2,
+        "Refinación                  del petróleo": 46.2,
+        "Sustancias            y productos químicos": 69.3
+      },
+      "source_row_1_based": 73,
+      "time": "2020-04"
+    },
+    {
+      "general_percent": 46.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.3,
+        "Industria automotriz": 6.2,
+        "Industrias metálicas básicas": 39.0,
+        "Metalmecánica excluida industria automotriz": 31.7,
+        "Papel                              y cartón": 65.0,
+        "Productos                del tabaco": 62.2,
+        "Productos alimenticios y bebidas": 57.0,
+        "Productos de caucho y plástico": 36.4,
+        "Productos minerales no metálicos": 38.5,
+        "Productos textiles": 17.8,
+        "Refinación                  del petróleo": 57.0,
+        "Sustancias            y productos químicos": 63.0
+      },
+      "source_row_1_based": 74,
+      "time": "2020-05"
+    },
+    {
+      "general_percent": 53.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.5,
+        "Industria automotriz": 23.0,
+        "Industrias metálicas básicas": 48.4,
+        "Metalmecánica excluida industria automotriz": 43.1,
+        "Papel                              y cartón": 68.1,
+        "Productos                del tabaco": 97.1,
+        "Productos alimenticios y bebidas": 60.1,
+        "Productos de caucho y plástico": 46.6,
+        "Productos minerales no metálicos": 61.8,
+        "Productos textiles": 37.8,
+        "Refinación                  del petróleo": 67.3,
+        "Sustancias            y productos químicos": 59.8
+      },
+      "source_row_1_based": 75,
+      "time": "2020-06"
+    },
+    {
+      "general_percent": 56.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.6,
+        "Industria automotriz": 29.8,
+        "Industrias metálicas básicas": 61.0,
+        "Metalmecánica excluida industria automotriz": 44.6,
+        "Papel                              y cartón": 65.0,
+        "Productos                del tabaco": 79.5,
+        "Productos alimenticios y bebidas": 59.5,
+        "Productos de caucho y plástico": 47.3,
+        "Productos minerales no metálicos": 67.5,
+        "Productos textiles": 43.1,
+        "Refinación                  del petróleo": 68.1,
+        "Sustancias            y productos químicos": 68.7
+      },
+      "source_row_1_based": 76,
+      "time": "2020-07"
+    },
+    {
+      "general_percent": 58.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.3,
+        "Industria automotriz": 35.4,
+        "Industrias metálicas básicas": 62.9,
+        "Metalmecánica excluida industria automotriz": 46.9,
+        "Papel                              y cartón": 65.0,
+        "Productos                del tabaco": 61.5,
+        "Productos alimenticios y bebidas": 60.6,
+        "Productos de caucho y plástico": 48.6,
+        "Productos minerales no metálicos": 70.4,
+        "Productos textiles": 42.3,
+        "Refinación                  del petróleo": 69.1,
+        "Sustancias            y productos químicos": 71.1
+      },
+      "source_row_1_based": 77,
+      "time": "2020-08"
+    },
+    {
+      "general_percent": 60.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.1,
+        "Industria automotriz": 46.2,
+        "Industrias metálicas básicas": 68.7,
+        "Metalmecánica excluida industria automotriz": 44.7,
+        "Papel                              y cartón": 71.2,
+        "Productos                del tabaco": 64.1,
+        "Productos alimenticios y bebidas": 64.7,
+        "Productos de caucho y plástico": 52.8,
+        "Productos minerales no metálicos": 77.8,
+        "Productos textiles": 48.5,
+        "Refinación                  del petróleo": 59.5,
+        "Sustancias            y productos químicos": 69.8
+      },
+      "source_row_1_based": 78,
+      "time": "2020-09"
+    },
+    {
+      "general_percent": 61.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 55.7,
+        "Industria automotriz": 40.3,
+        "Industrias metálicas básicas": 71.3,
+        "Metalmecánica excluida industria automotriz": 54.0,
+        "Papel                              y cartón": 66.1,
+        "Productos                del tabaco": 54.5,
+        "Productos alimenticios y bebidas": 63.7,
+        "Productos de caucho y plástico": 54.2,
+        "Productos minerales no metálicos": 77.6,
+        "Productos textiles": 48.0,
+        "Refinación                  del petróleo": 64.3,
+        "Sustancias            y productos químicos": 69.3
+      },
+      "source_row_1_based": 79,
+      "time": "2020-10"
+    },
+    {
+      "general_percent": 63.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.1,
+        "Industria automotriz": 46.9,
+        "Industrias metálicas básicas": 75.0,
+        "Metalmecánica excluida industria automotriz": 49.9,
+        "Papel                              y cartón": 71.5,
+        "Productos                del tabaco": 59.1,
+        "Productos alimenticios y bebidas": 65.3,
+        "Productos de caucho y plástico": 57.2,
+        "Productos minerales no metálicos": 80.1,
+        "Productos textiles": 49.1,
+        "Refinación                  del petróleo": 69.7,
+        "Sustancias            y productos químicos": 68.7
+      },
+      "source_row_1_based": 80,
+      "time": "2020-11"
+    },
+    {
+      "general_percent": 58.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.1,
+        "Industria automotriz": 41.0,
+        "Industrias metálicas básicas": 73.5,
+        "Metalmecánica excluida industria automotriz": 49.7,
+        "Papel                              y cartón": 62.6,
+        "Productos                del tabaco": 46.7,
+        "Productos alimenticios y bebidas": 56.9,
+        "Productos de caucho y plástico": 49.5,
+        "Productos minerales no metálicos": 69.2,
+        "Productos textiles": 42.4,
+        "Refinación                  del petróleo": 72.0,
+        "Sustancias            y productos químicos": 63.7
+      },
+      "source_row_1_based": 81,
+      "time": "2020-12"
+    },
+    {
+      "general_percent": 56.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 49.2,
+        "Industria automotriz": 31.4,
+        "Industrias metálicas básicas": 67.7,
+        "Metalmecánica excluida industria automotriz": 41.4,
+        "Papel                              y cartón": 58.8,
+        "Productos                del tabaco": 49.3,
+        "Productos alimenticios y bebidas": 60.0,
+        "Productos de caucho y plástico": 52.6,
+        "Productos minerales no metálicos": 71.7,
+        "Productos textiles": 43.0,
+        "Refinación                  del petróleo": 77.5,
+        "Sustancias            y productos químicos": 62.9
+      },
+      "source_row_1_based": 85,
+      "time": "2021-01"
+    },
+    {
+      "general_percent": 57.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.5,
+        "Industria automotriz": 33.4,
+        "Industrias metálicas básicas": 67.1,
+        "Metalmecánica excluida industria automotriz": 46.3,
+        "Papel                              y cartón": 69.1,
+        "Productos                del tabaco": 56.7,
+        "Productos alimenticios y bebidas": 62.8,
+        "Productos de caucho y plástico": 50.6,
+        "Productos minerales no metálicos": 75.3,
+        "Productos textiles": 49.8,
+        "Refinación                  del petróleo": 77.3,
+        "Sustancias            y productos químicos": 55.5
+      },
+      "source_row_1_based": 86,
+      "time": "2021-02"
+    },
+    {
+      "general_percent": 64.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.7,
+        "Industria automotriz": 54.8,
+        "Industrias metálicas básicas": 76.3,
+        "Metalmecánica excluida industria automotriz": 50.3,
+        "Papel                              y cartón": 71.7,
+        "Productos                del tabaco": 68.8,
+        "Productos alimenticios y bebidas": 63.9,
+        "Productos de caucho y plástico": 56.1,
+        "Productos minerales no metálicos": 77.4,
+        "Productos textiles": 50.7,
+        "Refinación                  del petróleo": 73.8,
+        "Sustancias            y productos químicos": 70.3
+      },
+      "source_row_1_based": 87,
+      "time": "2021-03"
+    },
+    {
+      "general_percent": 63.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 55.9,
+        "Industria automotriz": 39.1,
+        "Industrias metálicas básicas": 66.0,
+        "Metalmecánica excluida industria automotriz": 53.7,
+        "Papel                              y cartón": 73.0,
+        "Productos                del tabaco": 65.7,
+        "Productos alimenticios y bebidas": 64.8,
+        "Productos de caucho y plástico": 52.1,
+        "Productos minerales no metálicos": 74.7,
+        "Productos textiles": 52.4,
+        "Refinación                  del petróleo": 73.1,
+        "Sustancias            y productos químicos": 75.4
+      },
+      "source_row_1_based": 88,
+      "time": "2021-04"
+    },
+    {
+      "general_percent": 61.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.2,
+        "Industria automotriz": 44.6,
+        "Industrias metálicas básicas": 71.2,
+        "Metalmecánica excluida industria automotriz": 49.8,
+        "Papel                              y cartón": 74.0,
+        "Productos                del tabaco": 52.3,
+        "Productos alimenticios y bebidas": 59.1,
+        "Productos de caucho y plástico": 50.5,
+        "Productos minerales no metálicos": 68.9,
+        "Productos textiles": 52.3,
+        "Refinación                  del petróleo": 75.4,
+        "Sustancias            y productos químicos": 71.7
+      },
+      "source_row_1_based": 89,
+      "time": "2021-05"
+    },
+    {
+      "general_percent": 64.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.8,
+        "Industria automotriz": 51.9,
+        "Industrias metálicas básicas": 74.8,
+        "Metalmecánica excluida industria automotriz": 56.0,
+        "Papel                              y cartón": 72.5,
+        "Productos                del tabaco": 64.2,
+        "Productos alimenticios y bebidas": 63.2,
+        "Productos de caucho y plástico": 54.3,
+        "Productos minerales no metálicos": 74.2,
+        "Productos textiles": 62.1,
+        "Refinación                  del petróleo": 73.6,
+        "Sustancias            y productos químicos": 69.6
+      },
+      "source_row_1_based": 90,
+      "time": "2021-06"
+    },
+    {
+      "general_percent": 63.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.5,
+        "Industria automotriz": 41.1,
+        "Industrias metálicas básicas": 77.4,
+        "Metalmecánica excluida industria automotriz": 54.8,
+        "Papel                              y cartón": 77.7,
+        "Productos                del tabaco": 55.7,
+        "Productos alimenticios y bebidas": 62.2,
+        "Productos de caucho y plástico": 52.4,
+        "Productos minerales no metálicos": 77.2,
+        "Productos textiles": 58.4,
+        "Refinación                  del petróleo": 72.1,
+        "Sustancias            y productos químicos": 70.2
+      },
+      "source_row_1_based": 91,
+      "time": "2021-07"
+    },
+    {
+      "general_percent": 64.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.4,
+        "Industria automotriz": 47.7,
+        "Industrias metálicas básicas": 76.6,
+        "Metalmecánica excluida industria automotriz": 55.3,
+        "Papel                              y cartón": 72.4,
+        "Productos                del tabaco": 60.7,
+        "Productos alimenticios y bebidas": 65.7,
+        "Productos de caucho y plástico": 56.0,
+        "Productos minerales no metálicos": 79.8,
+        "Productos textiles": 54.4,
+        "Refinación                  del petróleo": 75.4,
+        "Sustancias            y productos químicos": 63.5
+      },
+      "source_row_1_based": 92,
+      "time": "2021-08"
+    },
+    {
+      "general_percent": 66.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.1,
+        "Industria automotriz": 55.0,
+        "Industrias metálicas básicas": 80.1,
+        "Metalmecánica excluida industria automotriz": 53.6,
+        "Papel                              y cartón": 78.5,
+        "Productos                del tabaco": 66.1,
+        "Productos alimenticios y bebidas": 68.5,
+        "Productos de caucho y plástico": 60.0,
+        "Productos minerales no metálicos": 79.1,
+        "Productos textiles": 60.6,
+        "Refinación                  del petróleo": 75.8,
+        "Sustancias            y productos químicos": 64.9
+      },
+      "source_row_1_based": 93,
+      "time": "2021-09"
+    },
+    {
+      "general_percent": 64.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.4,
+        "Industria automotriz": 50.8,
+        "Industrias metálicas básicas": 80.2,
+        "Metalmecánica excluida industria automotriz": 54.7,
+        "Papel                              y cartón": 75.4,
+        "Productos                del tabaco": 59.9,
+        "Productos alimenticios y bebidas": 63.7,
+        "Productos de caucho y plástico": 55.2,
+        "Productos minerales no metálicos": 78.6,
+        "Productos textiles": 54.8,
+        "Refinación                  del petróleo": 77.4,
+        "Sustancias            y productos químicos": 64.2
+      },
+      "source_row_1_based": 94,
+      "time": "2021-10"
+    },
+    {
+      "general_percent": 68.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 62.7,
+        "Industria automotriz": 60.2,
+        "Industrias metálicas básicas": 83.1,
+        "Metalmecánica excluida industria automotriz": 54.1,
+        "Papel                              y cartón": 79.5,
+        "Productos                del tabaco": 62.9,
+        "Productos alimenticios y bebidas": 66.6,
+        "Productos de caucho y plástico": 60.1,
+        "Productos minerales no metálicos": 81.5,
+        "Productos textiles": 59.1,
+        "Refinación                  del petróleo": 77.5,
+        "Sustancias            y productos químicos": 73.6
+      },
+      "source_row_1_based": 95,
+      "time": "2021-11"
+    },
+    {
+      "general_percent": 64.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.1,
+        "Industria automotriz": 49.8,
+        "Industrias metálicas básicas": 77.3,
+        "Metalmecánica excluida industria automotriz": 51.9,
+        "Papel                              y cartón": 70.0,
+        "Productos                del tabaco": 53.0,
+        "Productos alimenticios y bebidas": 65.3,
+        "Productos de caucho y plástico": 51.5,
+        "Productos minerales no metálicos": 70.2,
+        "Productos textiles": 47.4,
+        "Refinación                  del petróleo": 79.2,
+        "Sustancias            y productos químicos": 70.8
+      },
+      "source_row_1_based": 96,
+      "time": "2021-12"
+    },
+    {
+      "general_percent": 57.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.3,
+        "Industria automotriz": 22.5,
+        "Industrias metálicas básicas": 65.3,
+        "Metalmecánica excluida industria automotriz": 41.1,
+        "Papel                              y cartón": 69.8,
+        "Productos                del tabaco": 50.6,
+        "Productos alimenticios y bebidas": 58.5,
+        "Productos de caucho y plástico": 46.8,
+        "Productos minerales no metálicos": 67.9,
+        "Productos textiles": 38.1,
+        "Refinación                  del petróleo": 77.2,
+        "Sustancias            y productos químicos": 73.1
+      },
+      "source_row_1_based": 100,
+      "time": "2022-01"
+    },
+    {
+      "general_percent": 64.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 63.6,
+        "Industria automotriz": 51.6,
+        "Industrias metálicas básicas": 65.6,
+        "Metalmecánica excluida industria automotriz": 52.3,
+        "Papel                              y cartón": 77.9,
+        "Productos                del tabaco": 66.4,
+        "Productos alimenticios y bebidas": 65.4,
+        "Productos de caucho y plástico": 54.7,
+        "Productos minerales no metálicos": 76.1,
+        "Productos textiles": 58.1,
+        "Refinación                  del petróleo": 69.1,
+        "Sustancias            y productos químicos": 71.9
+      },
+      "source_row_1_based": 101,
+      "time": "2022-02"
+    },
+    {
+      "general_percent": 66.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 64.6,
+        "Industria automotriz": 59.5,
+        "Industrias metálicas básicas": 76.1,
+        "Metalmecánica excluida industria automotriz": 53.8,
+        "Papel                              y cartón": 77.4,
+        "Productos                del tabaco": 66.3,
+        "Productos alimenticios y bebidas": 64.4,
+        "Productos de caucho y plástico": 59.7,
+        "Productos minerales no metálicos": 76.5,
+        "Productos textiles": 53.4,
+        "Refinación                  del petróleo": 71.9,
+        "Sustancias            y productos químicos": 75.9
+      },
+      "source_row_1_based": 102,
+      "time": "2022-03"
+    },
+    {
+      "general_percent": 67.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.9,
+        "Industria automotriz": 56.9,
+        "Industrias metálicas básicas": 68.7,
+        "Metalmecánica excluida industria automotriz": 61.1,
+        "Papel                              y cartón": 76.4,
+        "Productos                del tabaco": 58.8,
+        "Productos alimenticios y bebidas": 66.0,
+        "Productos de caucho y plástico": 59.9,
+        "Productos minerales no metálicos": 79.4,
+        "Productos textiles": 55.0,
+        "Refinación                  del petróleo": 81.4,
+        "Sustancias            y productos químicos": 73.3
+      },
+      "source_row_1_based": 103,
+      "time": "2022-04"
+    },
+    {
+      "general_percent": 68.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 61.7,
+        "Industria automotriz": 57.1,
+        "Industrias metálicas básicas": 81.8,
+        "Metalmecánica excluida industria automotriz": 57.1,
+        "Papel                              y cartón": 78.0,
+        "Productos                del tabaco": 61.5,
+        "Productos alimenticios y bebidas": 64.8,
+        "Productos de caucho y plástico": 55.4,
+        "Productos minerales no metálicos": 81.4,
+        "Productos textiles": 59.5,
+        "Refinación                  del petróleo": 81.3,
+        "Sustancias            y productos químicos": 74.3
+      },
+      "source_row_1_based": 104,
+      "time": "2022-05"
+    },
+    {
+      "general_percent": 69.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 64.1,
+        "Industria automotriz": 59.8,
+        "Industrias metálicas básicas": 87.2,
+        "Metalmecánica excluida industria automotriz": 59.8,
+        "Papel                              y cartón": 78.4,
+        "Productos                del tabaco": 55.9,
+        "Productos alimenticios y bebidas": 65.4,
+        "Productos de caucho y plástico": 55.6,
+        "Productos minerales no metálicos": 82.7,
+        "Productos textiles": 67.6,
+        "Refinación                  del petróleo": 81.2,
+        "Sustancias            y productos químicos": 73.3
+      },
+      "source_row_1_based": 105,
+      "time": "2022-06"
+    },
+    {
+      "general_percent": 67.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 64.1,
+        "Industria automotriz": 54.0,
+        "Industrias metálicas básicas": 84.4,
+        "Metalmecánica excluida industria automotriz": 63.2,
+        "Papel                              y cartón": 81.4,
+        "Productos                del tabaco": 65.1,
+        "Productos alimenticios y bebidas": 63.6,
+        "Productos de caucho y plástico": 53.8,
+        "Productos minerales no metálicos": 81.1,
+        "Productos textiles": 63.8,
+        "Refinación                  del petróleo": 78.3,
+        "Sustancias            y productos químicos": 68.9
+      },
+      "source_row_1_based": 106,
+      "time": "2022-07"
+    },
+    {
+      "general_percent": 69.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 65.2,
+        "Industria automotriz": 65.3,
+        "Industrias metálicas básicas": 83.3,
+        "Metalmecánica excluida industria automotriz": 61.9,
+        "Papel                              y cartón": 77.6,
+        "Productos                del tabaco": 64.1,
+        "Productos alimenticios y bebidas": 67.4,
+        "Productos de caucho y plástico": 57.0,
+        "Productos minerales no metálicos": 83.8,
+        "Productos textiles": 64.5,
+        "Refinación                  del petróleo": 80.7,
+        "Sustancias            y productos químicos": 69.4
+      },
+      "source_row_1_based": 107,
+      "time": "2022-08"
+    },
+    {
+      "general_percent": 68.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 65.9,
+        "Industria automotriz": 65.6,
+        "Industrias metálicas básicas": 81.4,
+        "Metalmecánica excluida industria automotriz": 56.3,
+        "Papel                              y cartón": 78.5,
+        "Productos                del tabaco": 63.5,
+        "Productos alimenticios y bebidas": 68.6,
+        "Productos de caucho y plástico": 55.3,
+        "Productos minerales no metálicos": 83.3,
+        "Productos textiles": 62.6,
+        "Refinación                  del petróleo": 77.9,
+        "Sustancias            y productos químicos": 69.8
+      },
+      "source_row_1_based": 108,
+      "time": "2022-09"
+    },
+    {
+      "general_percent": 66.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.2,
+        "Industria automotriz": 62.3,
+        "Industrias metálicas básicas": 89.6,
+        "Metalmecánica excluida industria automotriz": 54.8,
+        "Papel                              y cartón": 75.2,
+        "Productos                del tabaco": 57.5,
+        "Productos alimenticios y bebidas": 62.5,
+        "Productos de caucho y plástico": 56.9,
+        "Productos minerales no metálicos": 79.8,
+        "Productos textiles": 53.0,
+        "Refinación                  del petróleo": 72.4,
+        "Sustancias            y productos químicos": 71.3
+      },
+      "source_row_1_based": 109,
+      "time": "2022-10"
+    },
+    {
+      "general_percent": 68.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.2,
+        "Industria automotriz": 66.2,
+        "Industrias metálicas básicas": 86.8,
+        "Metalmecánica excluida industria automotriz": 54.3,
+        "Papel                              y cartón": 73.4,
+        "Productos                del tabaco": 65.7,
+        "Productos alimenticios y bebidas": 68.2,
+        "Productos de caucho y plástico": 56.6,
+        "Productos minerales no metálicos": 80.7,
+        "Productos textiles": 56.3,
+        "Refinación                  del petróleo": 79.0,
+        "Sustancias            y productos químicos": 74.4
+      },
+      "source_row_1_based": 110,
+      "time": "2022-11"
+    },
+    {
+      "general_percent": 63.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.6,
+        "Industria automotriz": 44.9,
+        "Industrias metálicas básicas": 81.3,
+        "Metalmecánica excluida industria automotriz": 54.6,
+        "Papel                              y cartón": 67.6,
+        "Productos                del tabaco": 52.6,
+        "Productos alimenticios y bebidas": 63.9,
+        "Productos de caucho y plástico": 47.2,
+        "Productos minerales no metálicos": 69.8,
+        "Productos textiles": 43.7,
+        "Refinación                  del petróleo": 85.1,
+        "Sustancias            y productos químicos": 70.6
+      },
+      "source_row_1_based": 111,
+      "time": "2022-12"
+    },
+    {
+      "general_percent": 62.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.9,
+        "Industria automotriz": 31.0,
+        "Industrias metálicas básicas": 81.7,
+        "Metalmecánica excluida industria automotriz": 45.3,
+        "Papel                              y cartón": 76.4,
+        "Productos                del tabaco": 55.7,
+        "Productos alimenticios y bebidas": 60.4,
+        "Productos de caucho y plástico": 52.2,
+        "Productos minerales no metálicos": 68.3,
+        "Productos textiles": 41.0,
+        "Refinación                  del petróleo": 84.1,
+        "Sustancias            y productos químicos": 72.1
+      },
+      "source_row_1_based": 115,
+      "time": "2023-01"
+    },
+    {
+      "general_percent": 65.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 59.6,
+        "Industria automotriz": 60.5,
+        "Industrias metálicas básicas": 74.5,
+        "Metalmecánica excluida industria automotriz": 52.2,
+        "Papel                              y cartón": 77.2,
+        "Productos                del tabaco": 51.7,
+        "Productos alimenticios y bebidas": 59.3,
+        "Productos de caucho y plástico": 53.7,
+        "Productos minerales no metálicos": 74.4,
+        "Productos textiles": 52.4,
+        "Refinación                  del petróleo": 86.0,
+        "Sustancias            y productos químicos": 74.2
+      },
+      "source_row_1_based": 116,
+      "time": "2023-02"
+    },
+    {
+      "general_percent": 67.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 62.5,
+        "Industria automotriz": 72.5,
+        "Industrias metálicas básicas": 77.2,
+        "Metalmecánica excluida industria automotriz": 57.3,
+        "Papel                              y cartón": 76.9,
+        "Productos                del tabaco": 61.3,
+        "Productos alimenticios y bebidas": 61.3,
+        "Productos de caucho y plástico": 58.0,
+        "Productos minerales no metálicos": 76.3,
+        "Productos textiles": 52.5,
+        "Refinación                  del petróleo": 85.1,
+        "Sustancias            y productos químicos": 72.1
+      },
+      "source_row_1_based": 117,
+      "time": "2023-03"
+    },
+    {
+      "general_percent": 68.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.6,
+        "Industria automotriz": 66.6,
+        "Industrias metálicas básicas": 82.0,
+        "Metalmecánica excluida industria automotriz": 61.0,
+        "Papel                              y cartón": 74.6,
+        "Productos                del tabaco": 63.3,
+        "Productos alimenticios y bebidas": 62.7,
+        "Productos de caucho y plástico": 56.8,
+        "Productos minerales no metálicos": 72.3,
+        "Productos textiles": 53.9,
+        "Refinación                  del petróleo": 86.8,
+        "Sustancias            y productos químicos": 77.0
+      },
+      "source_row_1_based": 118,
+      "time": "2023-04"
+    },
+    {
+      "general_percent": 67.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.1,
+        "Industria automotriz": 62.4,
+        "Industrias metálicas básicas": 81.7,
+        "Metalmecánica excluida industria automotriz": 56.3,
+        "Papel                              y cartón": 78.7,
+        "Productos                del tabaco": 65.5,
+        "Productos alimenticios y bebidas": 64.6,
+        "Productos de caucho y plástico": 55.9,
+        "Productos minerales no metálicos": 72.7,
+        "Productos textiles": 58.0,
+        "Refinación                  del petróleo": 83.1,
+        "Sustancias            y productos químicos": 74.5
+      },
+      "source_row_1_based": 119,
+      "time": "2023-05"
+    },
+    {
+      "general_percent": 68.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 61.2,
+        "Industria automotriz": 64.9,
+        "Industrias metálicas básicas": 81.0,
+        "Metalmecánica excluida industria automotriz": 60.1,
+        "Papel                              y cartón": 77.4,
+        "Productos                del tabaco": 56.8,
+        "Productos alimenticios y bebidas": 64.2,
+        "Productos de caucho y plástico": 55.4,
+        "Productos minerales no metálicos": 74.4,
+        "Productos textiles": 64.4,
+        "Refinación                  del petróleo": 82.4,
+        "Sustancias            y productos químicos": 74.7
+      },
+      "source_row_1_based": 120,
+      "time": "2023-06"
+    },
+    {
+      "general_percent": 65.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.2,
+        "Industria automotriz": 57.9,
+        "Industrias metálicas básicas": 66.5,
+        "Metalmecánica excluida industria automotriz": 56.5,
+        "Papel                              y cartón": 77.4,
+        "Productos                del tabaco": 59.1,
+        "Productos alimenticios y bebidas": 61.3,
+        "Productos de caucho y plástico": 55.4,
+        "Productos minerales no metálicos": 71.7,
+        "Productos textiles": 63.2,
+        "Refinación                  del petróleo": 82.3,
+        "Sustancias            y productos químicos": 73.6
+      },
+      "source_row_1_based": 121,
+      "time": "2023-07"
+    },
+    {
+      "general_percent": 67.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 60.0,
+        "Industria automotriz": 74.3,
+        "Industrias metálicas básicas": 78.7,
+        "Metalmecánica excluida industria automotriz": 61.2,
+        "Papel                              y cartón": 79.8,
+        "Productos                del tabaco": 59.7,
+        "Productos alimenticios y bebidas": 64.5,
+        "Productos de caucho y plástico": 57.1,
+        "Productos minerales no metálicos": 77.8,
+        "Productos textiles": 59.3,
+        "Refinación                  del petróleo": 72.2,
+        "Sustancias            y productos químicos": 70.4
+      },
+      "source_row_1_based": 122,
+      "time": "2023-08"
+    },
+    {
+      "general_percent": 67.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 62.4,
+        "Industria automotriz": 68.6,
+        "Industrias metálicas básicas": 85.0,
+        "Metalmecánica excluida industria automotriz": 51.0,
+        "Papel                              y cartón": 77.4,
+        "Productos                del tabaco": 52.6,
+        "Productos alimenticios y bebidas": 62.4,
+        "Productos de caucho y plástico": 60.0,
+        "Productos minerales no metálicos": 76.3,
+        "Productos textiles": 59.1,
+        "Refinación                  del petróleo": 82.0,
+        "Sustancias            y productos químicos": 75.5
+      },
+      "source_row_1_based": 123,
+      "time": "2023-09"
+    },
+    {
+      "general_percent": 65.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.4,
+        "Industria automotriz": 61.0,
+        "Industrias metálicas básicas": 84.5,
+        "Metalmecánica excluida industria automotriz": 55.4,
+        "Papel                              y cartón": 76.4,
+        "Productos                del tabaco": 48.2,
+        "Productos alimenticios y bebidas": 59.6,
+        "Productos de caucho y plástico": 57.8,
+        "Productos minerales no metálicos": 72.9,
+        "Productos textiles": 55.8,
+        "Refinación                  del petróleo": 72.1,
+        "Sustancias            y productos químicos": 70.7
+      },
+      "source_row_1_based": 124,
+      "time": "2023-10"
+    },
+    {
+      "general_percent": 66.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.8,
+        "Industria automotriz": 68.3,
+        "Industrias metálicas básicas": 79.4,
+        "Metalmecánica excluida industria automotriz": 50.3,
+        "Papel                              y cartón": 72.7,
+        "Productos                del tabaco": 56.2,
+        "Productos alimenticios y bebidas": 65.2,
+        "Productos de caucho y plástico": 56.8,
+        "Productos minerales no metálicos": 74.3,
+        "Productos textiles": 59.1,
+        "Refinación                  del petróleo": 84.7,
+        "Sustancias            y productos químicos": 71.4
+      },
+      "source_row_1_based": 125,
+      "time": "2023-11"
+    },
+    {
+      "general_percent": 54.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 44.2,
+        "Industria automotriz": 42.6,
+        "Industrias metálicas básicas": 64.5,
+        "Metalmecánica excluida industria automotriz": 37.9,
+        "Papel                              y cartón": 67.3,
+        "Productos                del tabaco": 44.0,
+        "Productos alimenticios y bebidas": 57.4,
+        "Productos de caucho y plástico": 46.5,
+        "Productos minerales no metálicos": 60.8,
+        "Productos textiles": 39.9,
+        "Refinación                  del petróleo": 85.0,
+        "Sustancias            y productos químicos": 58.2
+      },
+      "source_row_1_based": 126,
+      "time": "2023-12"
+    },
+    {
+      "general_percent": 54.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.9,
+        "Industria automotriz": 25.7,
+        "Industrias metálicas básicas": 76.3,
+        "Metalmecánica excluida industria automotriz": 33.4,
+        "Papel                              y cartón": 69.8,
+        "Productos                del tabaco": 50.5,
+        "Productos alimenticios y bebidas": 57.7,
+        "Productos de caucho y plástico": 43.5,
+        "Productos minerales no metálicos": 57.0,
+        "Productos textiles": 36.7,
+        "Refinación                  del petróleo": 81.1,
+        "Sustancias            y productos químicos": 57.1
+      },
+      "source_row_1_based": 130,
+      "time": "2024-01"
+    },
+    {
+      "general_percent": 57.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.3,
+        "Industria automotriz": 47.3,
+        "Industrias metálicas básicas": 66.5,
+        "Metalmecánica excluida industria automotriz": 37.3,
+        "Papel                              y cartón": 75.4,
+        "Productos                del tabaco": 52.2,
+        "Productos alimenticios y bebidas": 58.1,
+        "Productos de caucho y plástico": 45.9,
+        "Productos minerales no metálicos": 59.6,
+        "Productos textiles": 45.6,
+        "Refinación                  del petróleo": 77.0,
+        "Sustancias            y productos químicos": 67.8
+      },
+      "source_row_1_based": 131,
+      "time": "2024-02"
+    },
+    {
+      "general_percent": 53.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 48.3,
+        "Industria automotriz": 50.8,
+        "Industrias metálicas básicas": 50.0,
+        "Metalmecánica excluida industria automotriz": 38.0,
+        "Papel                              y cartón": 63.5,
+        "Productos                del tabaco": 50.5,
+        "Productos alimenticios y bebidas": 54.5,
+        "Productos de caucho y plástico": 44.1,
+        "Productos minerales no metálicos": 47.2,
+        "Productos textiles": 38.5,
+        "Refinación                  del petróleo": 77.7,
+        "Sustancias            y productos químicos": 64.9
+      },
+      "source_row_1_based": 132,
+      "time": "2024-03"
+    },
+    {
+      "general_percent": 56.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 49.9,
+        "Industria automotriz": 52.6,
+        "Industrias metálicas básicas": 63.7,
+        "Metalmecánica excluida industria automotriz": 44.5,
+        "Papel                              y cartón": 69.5,
+        "Productos                del tabaco": 52.0,
+        "Productos alimenticios y bebidas": 57.9,
+        "Productos de caucho y plástico": 42.4,
+        "Productos minerales no metálicos": 42.7,
+        "Productos textiles": 37.7,
+        "Refinación                  del petróleo": 80.1,
+        "Sustancias            y productos químicos": 63.3
+      },
+      "source_row_1_based": 133,
+      "time": "2024-04"
+    },
+    {
+      "general_percent": 56.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 46.0,
+        "Industria automotriz": 45.5,
+        "Industrias metálicas básicas": 61.3,
+        "Metalmecánica excluida industria automotriz": 45.3,
+        "Papel                              y cartón": 60.5,
+        "Productos                del tabaco": 53.0,
+        "Productos alimenticios y bebidas": 59.4,
+        "Productos de caucho y plástico": 41.6,
+        "Productos minerales no metálicos": 47.2,
+        "Productos textiles": 41.4,
+        "Refinación                  del petróleo": 81.7,
+        "Sustancias            y productos químicos": 67.7
+      },
+      "source_row_1_based": 134,
+      "time": "2024-05"
+    },
+    {
+      "general_percent": 54.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 41.3,
+        "Industria automotriz": 39.0,
+        "Industrias metálicas básicas": 56.6,
+        "Metalmecánica excluida industria automotriz": 42.0,
+        "Papel                              y cartón": 60.4,
+        "Productos                del tabaco": 35.4,
+        "Productos alimenticios y bebidas": 59.4,
+        "Productos de caucho y plástico": 39.4,
+        "Productos minerales no metálicos": 46.8,
+        "Productos textiles": 43.9,
+        "Refinación                  del petróleo": 78.4,
+        "Sustancias            y productos químicos": 66.3
+      },
+      "source_row_1_based": 135,
+      "time": "2024-06"
+    },
+    {
+      "general_percent": 59.5,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 48.8,
+        "Industria automotriz": 52.2,
+        "Industrias metálicas básicas": 61.5,
+        "Metalmecánica excluida industria automotriz": 51.1,
+        "Papel                              y cartón": 60.3,
+        "Productos                del tabaco": 47.9,
+        "Productos alimenticios y bebidas": 65.4,
+        "Productos de caucho y plástico": 44.0,
+        "Productos minerales no metálicos": 52.3,
+        "Productos textiles": 49.0,
+        "Refinación                  del petróleo": 80.7,
+        "Sustancias            y productos químicos": 65.7
+      },
+      "source_row_1_based": 136,
+      "time": "2024-07"
+    },
+    {
+      "general_percent": 61.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 51.4,
+        "Industria automotriz": 59.9,
+        "Industrias metálicas básicas": 66.8,
+        "Metalmecánica excluida industria automotriz": 50.8,
+        "Papel                              y cartón": 65.5,
+        "Productos                del tabaco": 54.4,
+        "Productos alimenticios y bebidas": 64.5,
+        "Productos de caucho y plástico": 48.7,
+        "Productos minerales no metálicos": 61.7,
+        "Productos textiles": 50.4,
+        "Refinación                  del petróleo": 79.7,
+        "Sustancias            y productos químicos": 64.4
+      },
+      "source_row_1_based": 137,
+      "time": "2024-08"
+    },
+    {
+      "general_percent": 62.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.1,
+        "Industria automotriz": 59.6,
+        "Industrias metálicas básicas": 72.4,
+        "Metalmecánica excluida industria automotriz": 43.9,
+        "Papel                              y cartón": 68.3,
+        "Productos                del tabaco": 48.7,
+        "Productos alimenticios y bebidas": 68.2,
+        "Productos de caucho y plástico": 49.9,
+        "Productos minerales no metálicos": 64.2,
+        "Productos textiles": 51.3,
+        "Refinación                  del petróleo": 78.5,
+        "Sustancias            y productos químicos": 65.7
+      },
+      "source_row_1_based": 138,
+      "time": "2024-09"
+    },
+    {
+      "general_percent": 63.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 57.8,
+        "Industria automotriz": 61.2,
+        "Industrias metálicas básicas": 68.9,
+        "Metalmecánica excluida industria automotriz": 50.7,
+        "Papel                              y cartón": 72.9,
+        "Productos                del tabaco": 48.9,
+        "Productos alimenticios y bebidas": 69.5,
+        "Productos de caucho y plástico": 48.9,
+        "Productos minerales no metálicos": 63.1,
+        "Productos textiles": 47.8,
+        "Refinación                  del petróleo": 79.1,
+        "Sustancias            y productos químicos": 63.5
+      },
+      "source_row_1_based": 139,
+      "time": "2024-10"
+    },
+    {
+      "general_percent": 62.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.0,
+        "Industria automotriz": 64.7,
+        "Industrias metálicas básicas": 67.2,
+        "Metalmecánica excluida industria automotriz": 50.0,
+        "Papel                              y cartón": 68.6,
+        "Productos                del tabaco": 47.6,
+        "Productos alimenticios y bebidas": 66.9,
+        "Productos de caucho y plástico": 46.8,
+        "Productos minerales no metálicos": 60.6,
+        "Productos textiles": 48.2,
+        "Refinación                  del petróleo": 82.1,
+        "Sustancias            y productos químicos": 66.1
+      },
+      "source_row_1_based": 140,
+      "time": "2024-11"
+    },
+    {
+      "general_percent": 56.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 48.1,
+        "Industria automotriz": 44.2,
+        "Industrias metálicas básicas": 52.4,
+        "Metalmecánica excluida industria automotriz": 45.7,
+        "Papel                              y cartón": 57.7,
+        "Productos                del tabaco": 37.2,
+        "Productos alimenticios y bebidas": 65.9,
+        "Productos de caucho y plástico": 42.0,
+        "Productos minerales no metálicos": 50.9,
+        "Productos textiles": 43.1,
+        "Refinación                  del petróleo": 83.4,
+        "Sustancias            y productos químicos": 64.0
+      },
+      "source_row_1_based": 141,
+      "time": "2024-12"
+    },
+    {
+      "general_percent": 55.0,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.1,
+        "Industria automotriz": 34.8,
+        "Industrias metálicas básicas": 59.3,
+        "Metalmecánica excluida industria automotriz": 38.1,
+        "Papel                              y cartón": 67.3,
+        "Productos                del tabaco": 40.8,
+        "Productos alimenticios y bebidas": 61.0,
+        "Productos de caucho y plástico": 39.6,
+        "Productos minerales no metálicos": 43.3,
+        "Productos textiles": 33.9,
+        "Refinación                  del petróleo": 84.6,
+        "Sustancias            y productos químicos": 66.0
+      },
+      "source_row_1_based": 145,
+      "time": "2025-01"
+    },
+    {
+      "general_percent": 58.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.8,
+        "Industria automotriz": 54.6,
+        "Industrias metálicas básicas": 67.3,
+        "Metalmecánica excluida industria automotriz": 44.0,
+        "Papel                              y cartón": 68.8,
+        "Productos                del tabaco": 49.9,
+        "Productos alimenticios y bebidas": 62.4,
+        "Productos de caucho y plástico": 46.3,
+        "Productos minerales no metálicos": 55.0,
+        "Productos textiles": 46.4,
+        "Refinación                  del petróleo": 73.9,
+        "Sustancias            y productos químicos": 63.4
+      },
+      "source_row_1_based": 146,
+      "time": "2025-02"
+    },
+    {
+      "general_percent": 54.4,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 48.9,
+        "Industria automotriz": 48.9,
+        "Industrias metálicas básicas": 64.3,
+        "Metalmecánica excluida industria automotriz": 42.8,
+        "Papel                              y cartón": 68.2,
+        "Productos                del tabaco": 41.2,
+        "Productos alimenticios y bebidas": 57.6,
+        "Productos de caucho y plástico": 42.0,
+        "Productos minerales no metálicos": 51.7,
+        "Productos textiles": 41.0,
+        "Refinación                  del petróleo": 75.8,
+        "Sustancias            y productos químicos": 53.8
+      },
+      "source_row_1_based": 147,
+      "time": "2025-03"
+    },
+    {
+      "general_percent": 58.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.8,
+        "Industria automotriz": 56.8,
+        "Industrias metálicas básicas": 63.9,
+        "Metalmecánica excluida industria automotriz": 49.3,
+        "Papel                              y cartón": 67.0,
+        "Productos                del tabaco": 45.7,
+        "Productos alimenticios y bebidas": 61.5,
+        "Productos de caucho y plástico": 45.2,
+        "Productos minerales no metálicos": 56.2,
+        "Productos textiles": 42.6,
+        "Refinación                  del petróleo": 83.9,
+        "Sustancias            y productos químicos": 59.0
+      },
+      "source_row_1_based": 148,
+      "time": "2025-04"
+    },
+    {
+      "general_percent": 58.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.8,
+        "Industria automotriz": 56.8,
+        "Industrias metálicas básicas": 67.4,
+        "Metalmecánica excluida industria automotriz": 46.0,
+        "Papel                              y cartón": 67.5,
+        "Productos                del tabaco": 41.5,
+        "Productos alimenticios y bebidas": 61.7,
+        "Productos de caucho y plástico": 44.5,
+        "Productos minerales no metálicos": 56.2,
+        "Productos textiles": 47.4,
+        "Refinación                  del petróleo": 73.3,
+        "Sustancias            y productos químicos": 64.0
+      },
+      "source_row_1_based": 149,
+      "time": "2025-05"
+    },
+    {
+      "general_percent": 58.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.8,
+        "Industria automotriz": 52.0,
+        "Industrias metálicas básicas": 64.3,
+        "Metalmecánica excluida industria automotriz": 45.9,
+        "Papel                              y cartón": 64.2,
+        "Productos                del tabaco": 40.2,
+        "Productos alimenticios y bebidas": 62.7,
+        "Productos de caucho y plástico": 41.7,
+        "Productos minerales no metálicos": 55.1,
+        "Productos textiles": 50.4,
+        "Refinación                  del petróleo": 83.2,
+        "Sustancias            y productos químicos": 65.5
+      },
+      "source_row_1_based": 150,
+      "time": "2025-06"
+    },
+    {
+      "general_percent": 58.2,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 52.5,
+        "Industria automotriz": 44.1,
+        "Industrias metálicas básicas": 63.9,
+        "Metalmecánica excluida industria automotriz": 48.7,
+        "Papel                              y cartón": 59.7,
+        "Productos                del tabaco": 46.5,
+        "Productos alimenticios y bebidas": 65.2,
+        "Productos de caucho y plástico": 43.2,
+        "Productos minerales no metálicos": 57.1,
+        "Productos textiles": 46.2,
+        "Refinación                  del petróleo": 81.7,
+        "Sustancias            y productos químicos": 59.9
+      },
+      "source_row_1_based": 151,
+      "time": "2025-07"
+    },
+    {
+      "general_percent": 59.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.9,
+        "Industria automotriz": 53.3,
+        "Industrias metálicas básicas": 70.4,
+        "Metalmecánica excluida industria automotriz": 44.4,
+        "Papel                              y cartón": 61.0,
+        "Productos                del tabaco": 46.9,
+        "Productos alimenticios y bebidas": 66.6,
+        "Productos de caucho y plástico": 42.1,
+        "Productos minerales no metálicos": 58.5,
+        "Productos textiles": 41.5,
+        "Refinación                  del petróleo": 86.1,
+        "Sustancias            y productos químicos": 60.1
+      },
+      "source_row_1_based": 152,
+      "time": "2025-08"
+    },
+    {
+      "general_percent": 61.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 55.2,
+        "Industria automotriz": 57.1,
+        "Industrias metálicas básicas": 70.4,
+        "Metalmecánica excluida industria automotriz": 43.5,
+        "Papel                              y cartón": 65.0,
+        "Productos                del tabaco": 48.7,
+        "Productos alimenticios y bebidas": 69.2,
+        "Productos de caucho y plástico": 42.9,
+        "Productos minerales no metálicos": 58.6,
+        "Productos textiles": 37.1,
+        "Refinación                  del petróleo": 88.9,
+        "Sustancias            y productos químicos": 63.7
+      },
+      "source_row_1_based": 153,
+      "time": "2025-09"
+    },
+    {
+      "general_percent": 60.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.2,
+        "Industria automotriz": 56.1,
+        "Industrias metálicas básicas": 71.1,
+        "Metalmecánica excluida industria automotriz": 48.2,
+        "Papel                              y cartón": 61.7,
+        "Productos                del tabaco": 42.9,
+        "Productos alimenticios y bebidas": 68.7,
+        "Productos de caucho y plástico": 42.6,
+        "Productos minerales no metálicos": 60.5,
+        "Productos textiles": 32.5,
+        "Refinación                  del petróleo": 82.2,
+        "Sustancias            y productos químicos": 63.6
+      },
+      "source_row_1_based": 154,
+      "time": "2025-10"
+    },
+    {
+      "general_percent": 57.7,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 50.6,
+        "Industria automotriz": 46.3,
+        "Industrias metálicas básicas": 73.3,
+        "Metalmecánica excluida industria automotriz": 39.9,
+        "Papel                              y cartón": 71.3,
+        "Productos                del tabaco": 44.9,
+        "Productos alimenticios y bebidas": 64.2,
+        "Productos de caucho y plástico": 41.0,
+        "Productos minerales no metálicos": 58.2,
+        "Productos textiles": 29.2,
+        "Refinación                  del petróleo": 86.5,
+        "Sustancias            y productos químicos": 57.8
+      },
+      "source_row_1_based": 155,
+      "time": "2025-11"
+    },
+    {
+      "general_percent": 53.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 46.5,
+        "Industria automotriz": 31.2,
+        "Industrias metálicas básicas": 57.5,
+        "Metalmecánica excluida industria automotriz": 38.9,
+        "Papel                              y cartón": 65.5,
+        "Productos                del tabaco": 38.6,
+        "Productos alimenticios y bebidas": 63.6,
+        "Productos de caucho y plástico": 33.4,
+        "Productos minerales no metálicos": 51.1,
+        "Productos textiles": 35.2,
+        "Refinación                  del petróleo": 87.1,
+        "Sustancias            y productos químicos": 58.6
+      },
+      "source_row_1_based": 156,
+      "time": "2025-12"
+    },
+    {
+      "general_percent": 53.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.0,
+        "Industria automotriz": 24.0,
+        "Industrias metálicas básicas": 67.6,
+        "Metalmecánica excluida industria automotriz": 31.4,
+        "Papel                              y cartón": 67.7,
+        "Productos                del tabaco": 50.9,
+        "Productos alimenticios y bebidas": 60.2,
+        "Productos de caucho y plástico": 36.1,
+        "Productos minerales no metálicos": 45.5,
+        "Productos textiles": 23.7,
+        "Refinación                  del petróleo": 86.8,
+        "Sustancias            y productos químicos": 64.8
+      },
+      "source_row_1_based": 160,
+      "time": "2026-01"
+    },
+    {
+      "general_percent": 54.6,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.4,
+        "Industria automotriz": 38.9,
+        "Industrias metálicas básicas": 59.7,
+        "Metalmecánica excluida industria automotriz": 33.9,
+        "Papel                              y cartón": 65.9,
+        "Productos                del tabaco": 49.5,
+        "Productos alimenticios y bebidas": 58.6,
+        "Productos de caucho y plástico": 38.7,
+        "Productos minerales no metálicos": 49.0,
+        "Productos textiles": 39.9,
+        "Refinación                  del petróleo": 88.9,
+        "Sustancias            y productos químicos": 64.4
+      },
+      "source_row_1_based": 161,
+      "time": "2026-02"
+    },
+    {
+      "general_percent": 59.8,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 56.0,
+        "Industria automotriz": 49.6,
+        "Industrias metálicas básicas": 73.3,
+        "Metalmecánica excluida industria automotriz": 40.0,
+        "Papel                              y cartón": 70.0,
+        "Productos                del tabaco": 52.7,
+        "Productos alimenticios y bebidas": 61.6,
+        "Productos de caucho y plástico": 41.3,
+        "Productos minerales no metálicos": 56.6,
+        "Productos textiles": 40.2,
+        "Refinación                  del petróleo": 86.0,
+        "Sustancias            y productos químicos": 69.5
+      },
+      "source_row_1_based": 162,
+      "time": "2026-03"
+    },
+    {
+      "general_percent": 59.9,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 58.5,
+        "Industria automotriz": 46.5,
+        "Industrias metálicas básicas": 73.4,
+        "Metalmecánica excluida industria automotriz": 42.7,
+        "Papel                              y cartón": 67.4,
+        "Productos                del tabaco": 49.2,
+        "Productos alimenticios y bebidas": 60.4,
+        "Productos de caucho y plástico": 42.4,
+        "Productos minerales no metálicos": 54.8,
+        "Productos textiles": 42.4,
+        "Refinación                  del petróleo": 86.8,
+        "Sustancias            y productos químicos": 69.9
+      },
+      "source_row_1_based": 163,
+      "time": "2026-04"
+    },
+    {
+      "general_percent": 58.3,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 54.0,
+        "Industria automotriz": 45.5,
+        "Industrias metálicas básicas": 75.4,
+        "Metalmecánica excluida industria automotriz": 38.7,
+        "Papel                              y cartón": 67.7,
+        "Productos                del tabaco": 43.2,
+        "Productos alimenticios y bebidas": 60.0,
+        "Productos de caucho y plástico": 39.6,
+        "Productos minerales no metálicos": 55.5,
+        "Productos textiles": 42.2,
+        "Refinación                  del petróleo": 88.7,
+        "Sustancias            y productos químicos": 65.6
+      },
+      "source_row_1_based": 164,
+      "time": "2026-05"
+    },
+    {
+      "general_percent": 59.1,
+      "provisional": true,
+      "sector_percent": {
+        "Edición                     e impresión": 53.5,
+        "Industria automotriz": 45.5,
+        "Industrias metálicas básicas": 68.7,
+        "Metalmecánica excluida industria automotriz": 41.5,
+        "Papel                              y cartón": 66.2,
+        "Productos                del tabaco": 46.3,
+        "Productos alimenticios y bebidas": 64.4,
+        "Productos de caucho y plástico": 41.0,
+        "Productos minerales no metálicos": 51.8,
+        "Productos textiles": 46.6,
+        "Refinación                  del petróleo": 86.7,
+        "Sustancias            y productos químicos": 67.0
+      },
+      "source_row_1_based": 165,
+      "time": "2026-06"
+    }
+  ],
+  "schema": "hbp.indec.ucii.training-series.v0.2",
+  "sector_boundary_events": [
+    {
+      "label": "Productos                del tabaco",
+      "source_row_1_based": 73,
+      "time": "2020-04",
+      "value": 0.0
+    },
+    {
+      "label": "Industria automotriz",
+      "source_row_1_based": 73,
+      "time": "2020-04",
+      "value": 0.0
+    }
+  ],
+  "source_workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "transition_count": 125
+}

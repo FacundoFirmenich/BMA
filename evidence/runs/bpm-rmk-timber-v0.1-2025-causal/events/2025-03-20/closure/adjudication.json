@@ -1,0 +1,19 @@
+{
+  "schema_version": "bpm.rmk.event-adjudication.v0.1",
+  "event_date": "2025-03-20",
+  "freeze_sha256": "CA505F41F4D787AD9B64F4A33432311E7DB522A5C0C4435AE28136F45F5277DA",
+  "raw_result_sha256": "6002F2E0D77797BA2FD6CC480CE321F20FF1FC5951C8CF146DA5E34FD714C8CC",
+  "structured_result_sha256": "F29710E47CB5CC96628DF53EE2B105E9DB3518A3E72B2C983B3F6AAA8CB930F0",
+  "award_rows": 2,
+  "new_local_outcomes": 2,
+  "total_awarded_volume_pm3": 18794,
+  "total_awarded_volume_m3": 6760.431654676259,
+  "approximate_offer_volume_m3": 6759,
+  "approximate_coverage_ratio": 1.0002118145696492,
+  "coverage_state": "DIAGNOSTIC_ONLY_APPROXIMATE_OFFER_AND_UNIT_ROUNDING",
+  "scored_predictions": 0,
+  "scoring_state": "NOT_ESTIMABLE_FIRST_CAUSAL_HAKKPUIT_OBSERVATION_PER_DESTINATION",
+  "posterior_update_authorized": true,
+  "global_winner": null,
+  "automatic_promotion": false
+}

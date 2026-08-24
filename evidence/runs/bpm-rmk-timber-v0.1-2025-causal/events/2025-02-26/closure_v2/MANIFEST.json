@@ -1,0 +1,51 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.1",
+  "event": "2025-02-26",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/raw/Myygiobjektid_EP_26.02.2025.xlsx",
+      "bytes": 56041,
+      "sha256": "A4A58FCF42DAF4026805923195F13F88351414FF2228F9AC5978783561BB10FB"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/raw/EdukadEP_26.02.2025.xlsx",
+      "bytes": 28757,
+      "sha256": "72106FE84B1186C24CD124B85115D2D5536EA5976758312AB3F2BB31EC61D9C2"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/structured/offer.json",
+      "bytes": 28394,
+      "sha256": "761699D20A230F723C4F332DFCA03E5EA21F19757390A4E12BC257745D020D74"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/structured/result.json",
+      "bytes": 106584,
+      "sha256": "103B7E852F0F25F420EC01155196F8033EC73134A8E9EADDD6D1EB57AB1E6089"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/freeze/freeze.json",
+      "bytes": 33441,
+      "sha256": "C509BF1EF4274D7840B3184900CD48B1F596BC2D48B8409F9C3EDB7742F7CB92"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/closure_v2/adjudication.json",
+      "bytes": 1078,
+      "sha256": "3F17A7891AD8D5970EEE4362A9E313D17CCBB40647102BA3C52F5C4D83E9F6DA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/closure_v2/prior_after_2025-02-26.json",
+      "bytes": 113064,
+      "sha256": "6117BA4D2D184AEE448BD39CEB60B16E752B61D69476353C67FD7736D6136184"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-02-26/closure_v2/z_post_2025-02-26.json",
+      "bytes": 157031,
+      "sha256": "254464F67B83302B07D1E5D959A142E1A31FED5E0547C0800E642E29ED02FD0B"
+    },
+    {
+      "path": "preregistrations/BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1_CELL_IDENTITY_AMENDMENT_20260821.json",
+      "bytes": 1468,
+      "sha256": "54651E1DF6E8DB30BFAA0CFC65ED4E686B4DFA547AF0854C3221C8DBC1D47A3A"
+    }
+  ]
+}

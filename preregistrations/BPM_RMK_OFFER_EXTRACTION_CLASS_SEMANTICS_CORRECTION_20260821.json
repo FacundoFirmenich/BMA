@@ -1,0 +1,21 @@
+{
+  "schema_version": "bpm.rmk.software-correction.v0.1",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "recorded_at": "2026-08-21",
+  "timing": "AFTER_OFFER_OPEN_BEFORE_ANY_EVENT_FREEZE_OR_RESULT_OPEN",
+  "affected_event": "2025-05-06",
+  "defect": "Rows with an empty diameter/class cell but a populated regional starting price were incorrectly appended to price_classes; blank spreadsheet values could also be coerced to numeric zero.",
+  "semantic_rule_frozen_prospectively": "A measurement price class exists only when the diameter_or_class source cell is non-empty. A starting price alone belongs to the quantity/region component and cannot create a measurement class. Blank values cannot be coerced to zero.",
+  "discarded_unfrozen_structured_offer_sha256": [
+    "72C5C2262D95EAD503ED7711476111AE7BABB349856A02ED81C1DF6D6242EFFD",
+    "EF92D34D0E2B68239516B5C451DAC726DEF08A796913F9BE8E0D6F4B5E9F6BA7"
+  ],
+  "source_offer_sha256": "C47FE032AA3B9C9B61497040D7B132F5F02C70C4D4FC3B04D5498AC5FE628842",
+  "corrected_extractor_sha256": "6D3097611CC5D91B3779BD5F343C5ADB458244969A7079ED26485063D089800F",
+  "result_payload_opened": false,
+  "posterior_changed": false,
+  "scores_changed": false,
+  "historical_outputs_rewritten": false,
+  "global_winner": null,
+  "automatic_promotion": false
+}

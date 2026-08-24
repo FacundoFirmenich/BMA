@@ -1,0 +1,51 @@
+{
+  "schema_version": "bpm.rmk.event-manifest.v0.5",
+  "event": "2025-10-07",
+  "files": [
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/raw/Myygiobjektid_EP_07.10.2025.xlsx",
+      "bytes": 23588,
+      "sha256": "B380B4A0E95FEDCB285EC6644A0B5FDAD0C159DFC10317691E3C26066CB2436B"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/raw/Edukad_EP_07.10.2025_II.xlsx",
+      "bytes": 22903,
+      "sha256": "3A11DD4CE2DF9E139128224565B2D3FEAD5D9C807DEFF4F38FCC58381E971C63"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/structured/offer_structured.json",
+      "bytes": 14575,
+      "sha256": "E209BCFC783FE771CF9263D07CFE9BA50808C7607A7DD9CE1FEC728D464B2ECA"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/structured/result.json",
+      "bytes": 26169,
+      "sha256": "0AEE6A9C3D3A6C738340921818CAB278779118523B8BD4D1D496F0D608F858AC"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/freeze/freeze.json",
+      "bytes": 33875,
+      "sha256": "9F74B7530FC80AA8DA312FFC6E8E8AFFF2C87F79035CEDA3CF2117BF5E939821"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/closure/local_scoring.json",
+      "bytes": 12862,
+      "sha256": "EEA611471381633231FDE152B0C0B38AEB91A3582FE67EA7C875025D656C8E60"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/closure/adjudication.json",
+      "bytes": 1113,
+      "sha256": "C3077F6D75A60C36342309B5130022622EB819E446BE5EF0E1B5B26CFEDBECC6"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/closure/prior_after_2025-10-07.json",
+      "bytes": 240284,
+      "sha256": "F1BB121A530C7371E6B6CF2F6E9D8454E5E806FF323F6F4364C17C25F4DD8531"
+    },
+    {
+      "path": "evidence/runs/bpm-rmk-timber-v0.1-2025-causal/events/2025-10-07/closure/z_post_2025-10-07.json",
+      "bytes": 384116,
+      "sha256": "25E8F990CEB5D144AC814CD0D19843978BB8152EC2796859BD89A0EA9C72786E"
+    }
+  ]
+}

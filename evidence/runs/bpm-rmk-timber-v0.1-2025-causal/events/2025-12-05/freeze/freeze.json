@@ -1,0 +1,920 @@
+{
+  "schema_version": "bpm.rmk.event-freeze.v0.6",
+  "campaign_id": "BPM_RMK_TIMBER_CAUSAL_CAMPAIGN_V0.1",
+  "event_date": "2025-12-05",
+  "state": "FREEZE_WRITTEN_PAIRED_RESULT_STILL_CLOSED",
+  "inputs_sha256": {
+    "raw_offer": "2F580FE5BD6048412A2ABC461F40E910584E82DC365B142DB80A798FCEF74A81",
+    "structured_offer": "7123BC15A3DE59D3EDE38EA449DF64AC817B7DF312545D9043529D0705E98EDA",
+    "prior": "4C43056DDEC66B3A0A3D91DBF0AC92AC4FAAC837CFA4C958E12A9E367EA43F7A"
+  },
+  "software_amendment_sha256": "59E4D8973C7BAD29F3D5D53EBFCDDB4BFB65AD767703B414C81E37E4D90DAD17",
+  "object_count": 10,
+  "invalid_delivery_period_objects": [],
+  "source_volume_conflict_objects": [],
+  "objects_with_prior_base_cell_match": 2,
+  "frozen_destination_predictions": 18,
+  "M1_price_estimable_predictions": 1,
+  "M1_volume_estimable_predictions": 1,
+  "M2_price_estimable_predictions": 0,
+  "M2_volume_estimable_predictions": 0,
+  "objects": [
+    {
+      "object_id": 1,
+      "product": "Kasespoonipakk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "33A2464773A94A0835D2966A25113A740EDFA8F46693ACCCE9E57DFFC339FCC1",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 2,
+      "product": "Kasepeenpalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "E3524CAC6F1A524F6C965934094F82ED6627EFDB27F6EBB9ED99768F8387B8A2",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 3,
+      "product": "Madalakvaliteediline männipalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "8008B3939C031ECD4C6C04C4C53B8A5C1F978ED32A7894462E75B4873F2C029D",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 4,
+      "product": "Madalakvaliteediline männipalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "DA463D70CDC67BC9440CA12AFC916B13BC191504E06B05E62FEE02E4AF64F3BE",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 5,
+      "product": "Pärnapalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "059968AA13266D69EEAB0113CAE3BD6C2BAEC4BD13D618BEED12D82F5FCD9ABD",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 6,
+      "product": "Saarepalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "DC656EBF813A0D9FE5026A2D6198C799686208DDDC9D9757F4D456AF60E38563",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 7,
+      "product": "Tammepalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "3954DCAD814D9383F47F1D492377E0503C8F04FBB1CEAFAC8A5E82D9DFE1AFBF",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 8,
+      "product": "Sanglepapalk",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "A670E1F9EF58309AA6A1F81944A3892ADE927D85A571083530A5A4F3F0A4B13B",
+      "prior_matching_destinations": [],
+      "frozen_local_predictions": [],
+      "no_match_state": "NOT_ESTIMABLE_NO_PRIOR_COMPARABLE_BASE_CELL"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "prior_matching_destinations": [
+        "Heltermaa",
+        "Kuningaküla",
+        "Malla",
+        "Paldiski",
+        "Paldiski sadam",
+        "Pärnu",
+        "Pärnu sadam",
+        "Roomassaare"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Heltermaa",
+          "price": {
+            "M0": {
+              "point": 58.10000000000001,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1209.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Kuningaküla",
+          "price": {
+            "M0": {
+              "point": 57.2,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 100.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Malla",
+          "price": {
+            "M0": {
+              "point": 52.42857142857143,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 7000.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Paldiski",
+          "price": {
+            "M0": {
+              "point": 55.11,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 931.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Paldiski sadam",
+          "price": {
+            "M0": {
+              "point": 52.21,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2000.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Pärnu",
+          "price": {
+            "M0": {
+              "point": 52.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 150.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Pärnu sadam",
+          "price": {
+            "M0": {
+              "point": 52.363,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 5000.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Roomassaare",
+          "price": {
+            "M0": {
+              "point": 57.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 2500.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "delivery_period": "11.12.2025-31.01.2026",
+      "delivery_period_state": "VALID",
+      "calendar_phase": "M01-M12",
+      "source_volume_state": "VERIFIED_COMPONENT_SUM_NO_STATED_TOTAL",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "prior_matching_destinations": [
+        "Heltermaa",
+        "Kantküla",
+        "Kehra",
+        "Malla",
+        "Paldiski",
+        "Pärnu",
+        "Pärnu sadam",
+        "Roomassaare",
+        "Sillamäe",
+        "Sillamäe sadam"
+      ],
+      "frozen_local_predictions": [
+        {
+          "destination": "Heltermaa",
+          "price": {
+            "M0": {
+              "point": 57.02,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 210.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Kantküla",
+          "price": {
+            "M0": {
+              "point": 56.3,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 300.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Kehra",
+          "price": {
+            "M0": {
+              "point": 65.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 5184.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Malla",
+          "price": {
+            "M0": {
+              "point": 52.5,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 4011.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Paldiski",
+          "price": {
+            "M0": {
+              "point": 53.13,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "point": 54.6418115420304,
+              "density_state": "ESTIMABLE",
+              "log_location": 4.000799368849669,
+              "log_scale": 0.056115256773634194,
+              "degrees_of_freedom": 2
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M2_PHASE_SUPPORT",
+              "phase_support": 0,
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 611.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "point": 669.6154323854256,
+              "density_state": "ESTIMABLE",
+              "log_location": 6.5067035660802715,
+              "log_scale": 0.15361120576104564,
+              "degrees_of_freedom": 2
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M2_PHASE_SUPPORT",
+              "phase_support": 0,
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Pärnu",
+          "price": {
+            "M0": {
+              "point": 60.55,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1500.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Pärnu sadam",
+          "price": {
+            "M0": {
+              "point": 52.5,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1811.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Roomassaare",
+          "price": {
+            "M0": {
+              "point": 55.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1500.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Sillamäe",
+          "price": {
+            "M0": {
+              "point": 55.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1500.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        },
+        {
+          "destination": "Sillamäe sadam",
+          "price": {
+            "M0": {
+              "point": 50.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          },
+          "volume": {
+            "M0": {
+              "point": 1673.0,
+              "density_state": "M0_DENSITY_SUPPORT"
+            },
+            "M1": {
+              "state": "NOT_ESTIMABLE_M1_SUPPORT"
+            },
+            "M2": {
+              "state": "NOT_ESTIMABLE_M1_REQUIRED",
+              "distinct_event_support": 0,
+              "required_distinct_events": 2
+            },
+            "BMA": {
+              "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+              "probabilities": null,
+              "common_support_events": 0
+            }
+          }
+        }
+      ],
+      "no_match_state": null
+    }
+  ],
+  "paired_result": {
+    "url": "https://rmk.ee/wp-content/uploads/2025/12/Edukad_EP_05.12.2025.xlsx",
+    "body_opened": false,
+    "opening_authorized_only_after_this_freeze_is_hashed": true
+  },
+  "global_winner": null,
+  "automatic_promotion": false
+}

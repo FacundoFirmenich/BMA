@@ -1,0 +1,278 @@
+{
+  "schema_version": "bpm.rmk.local-scoring.v0.2",
+  "event_date": "2025-12-05",
+  "jurisdiction": "EXACT_PRODUCT_MEASUREMENT_FINGERPRINT_DESTINATION_ONLY",
+  "frozen_destination_predictions": 18,
+  "scored_exact_destination_predictions": 3,
+  "M1_price_scored_predictions": 0,
+  "M1_volume_scored_predictions": 0,
+  "non_observed_or_unawarded_predictions": 15,
+  "local_scores": [
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Paldiski",
+      "phase": "M01-M12",
+      "price": {
+        "actual_eur_m3": 54.27,
+        "M0": {
+          "point_prediction_eur_m3": 55.11,
+          "absolute_error_eur_m3": 0.8399999999999963,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      },
+      "volume": {
+        "actual_m3": 600.0,
+        "M0": {
+          "point_prediction_m3": 931.0,
+          "absolute_log_error": 0.43932962206092085,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      }
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Pärnu",
+      "phase": "M01-M12",
+      "price": {
+        "actual_eur_m3": 54.34285714285714,
+        "M0": {
+          "point_prediction_eur_m3": 52.0,
+          "absolute_error_eur_m3": 2.3428571428571416,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      },
+      "volume": {
+        "actual_m3": 1680.0,
+        "M0": {
+          "point_prediction_m3": 150.0,
+          "absolute_log_error": 2.415913778301049,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      }
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu",
+      "phase": "M01-M12",
+      "price": {
+        "actual_eur_m3": 53.27421568627451,
+        "M0": {
+          "point_prediction_eur_m3": 60.55,
+          "absolute_error_eur_m3": 7.275784313725488,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      },
+      "volume": {
+        "actual_m3": 1020.0,
+        "M0": {
+          "point_prediction_m3": 1500.0,
+          "absolute_log_error": 0.38566248081198484,
+          "density_state": "M0_DENSITY_SUPPORT"
+        },
+        "M1": {
+          "state": "NOT_ESTIMABLE_M1_SUPPORT"
+        },
+        "M2": {
+          "state": "NOT_ESTIMABLE_M1_REQUIRED",
+          "distinct_event_support": 0,
+          "required_distinct_events": 2
+        },
+        "BMA": {
+          "state": "BMA_MIXTURE_NOT_ESTIMABLE_COMMON_SUPPORT",
+          "probabilities": null,
+          "common_support_events": 0
+        },
+        "local_point_comparison": null
+      }
+    }
+  ],
+  "non_observed": [
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Kuningaküla",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Malla",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Paldiski sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Pärnu sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 9,
+      "product": "Kasepaberipuit",
+      "destination": "Roomassaare",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Heltermaa",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Kantküla",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Kehra",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Malla",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Paldiski",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Roomassaare",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Sillamäe",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    },
+    {
+      "object_id": 10,
+      "product": "Kuusepaberipuit",
+      "destination": "Sillamäe sadam",
+      "state": "NOT_OBSERVED_EXACT_DESTINATION_OUTCOME"
+    }
+  ],
+  "diagnostic_aggregate": {
+    "M0_price_mean_absolute_error_eur_m3": 3.4862138188608753,
+    "M0_price_median_absolute_error_eur_m3": 2.3428571428571416,
+    "M0_volume_MALE": 1.0803019603913182,
+    "M0_volume_median_absolute_log_error": 0.43932962206092085,
+    "M1_price_mean_absolute_error_eur_m3": null,
+    "M1_price_mean_log_predictive_density": null,
+    "M1_volume_MALE": null,
+    "M1_volume_mean_log_predictive_density": null,
+    "local_price_point_counts": {
+      "M0": 0,
+      "M1": 0,
+      "TIE": 0
+    },
+    "local_volume_point_counts": {
+      "M0": 0,
+      "M1": 0,
+      "TIE": 0
+    },
+    "global_winner": null
+  },
+  "density_scores": "PARTIAL_MODEL_LOCAL_ONLY_NO_COMMON_M0_M1_M2_SUPPORT",
+  "global_winner": null,
+  "automatic_promotion": false
+}

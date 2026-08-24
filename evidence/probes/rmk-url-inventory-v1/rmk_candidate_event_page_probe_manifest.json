@@ -1,0 +1,12 @@
+{
+  "schema": "rmk-candidate-event-page-probe/v1",
+  "generated_at": "2026-08-21T19:19:23.2256227+02:00",
+  "candidate_pages": 14,
+  "html_found": 1,
+  "not_found_or_error": 13,
+  "payload_links_discovered": 2,
+  "offer_links_discovered": 1,
+  "payloads_opened": 0,
+  "pages_sha256": "8466EA3D698D1B5CA0E1CFE4D6F3A140F19ECBA787102711F9C23A1A92005656",
+  "links_sha256": "F885E084205535384A9B0DBFECADBCDC5EA95324A0D3BD364477DAC66DED923A"
+}

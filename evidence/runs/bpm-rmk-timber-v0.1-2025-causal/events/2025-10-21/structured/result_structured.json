@@ -1,0 +1,253 @@
+{
+  "schema_version": "bpm.rmk.result-structured.v0.3",
+  "event_date": "2025-10-21",
+  "protocol_date": "2025-10-22",
+  "source_file": "evidence\\runs\\bpm-rmk-timber-v0.1-2025-causal\\events\\2025-10-21\\raw\\Edukad_21.10.2025.xlsx",
+  "source_sha256": "4AC3282CC42C9FD0112DA8E119E5084A5C95461A5338BD30038225537793C666",
+  "source_bytes": 22005,
+  "frozen_offer_raw_sha256": "FA84AA675EA4789B25F2F82DA735131000983F7B1EB5B4EAAB6EED20BFEFAC2A",
+  "structured_offer_used_sha256": "11356E2649A87FD897E71972387C199CAB8007728E481F14F4427DDD62D17C29",
+  "award_row_count": 10,
+  "local_outcome_count": 7,
+  "quarantined_outcome_count": 0,
+  "freeze_used_sha256": "566CC25637C0EB289D794BA3A4B97BDB7FC607B4E861BD56FEA805672AF9ECB8",
+  "total_awarded_volume_m3": 21645,
+  "extraction_failures": [],
+  "rows": [
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Billerud Estonia OÜ",
+      "destination": "Pärnu sadam",
+      "awarded_volume_m3": 1500,
+      "raw_price": 52.21,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.21,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Pärnu sadam",
+      "awarded_volume_m3": 1000,
+      "raw_price": 53,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 53,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Malla",
+      "awarded_volume_m3": 2000,
+      "raw_price": 53,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 53,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Pärnu sadam",
+      "awarded_volume_m3": 2500,
+      "raw_price": 52.2,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.2,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Malla",
+      "awarded_volume_m3": 5000,
+      "raw_price": 52.2,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.2,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Lignator Logistika OÜ",
+      "destination": "Paldiski sadam",
+      "awarded_volume_m3": 2000,
+      "raw_price": 52.21,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.21,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "buyer": "Stykel OÜ",
+      "destination": "Pärnu",
+      "awarded_volume_m3": 150,
+      "raw_price": 52,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Malla",
+      "awarded_volume_m3": 4011,
+      "raw_price": 52.5,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "buyer": "Combiforest OÜ",
+      "destination": "Pärnu sadam",
+      "awarded_volume_m3": 1811,
+      "raw_price": 52.5,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 52.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "buyer": "FFL Trading OÜ",
+      "destination": "Sillamäe sadam",
+      "awarded_volume_m3": 1673,
+      "raw_price": 50,
+      "price_components": null,
+      "effective_weighted_price_eur_m3": 50,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION"
+    }
+  ],
+  "local_outcomes": [
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "destination": "Pärnu sadam",
+      "buyers": [
+        "Billerud Estonia OÜ",
+        "Combiforest OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 5000,
+      "effective_weighted_price_eur_m3": 52.363,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 3
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "destination": "Malla",
+      "buyers": [
+        "Combiforest OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 7000,
+      "effective_weighted_price_eur_m3": 52.42857142857143,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 2
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "destination": "Paldiski sadam",
+      "buyers": [
+        "Lignator Logistika OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 2000,
+      "effective_weighted_price_eur_m3": 52.21,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "destination": "Pärnu",
+      "buyers": [
+        "Stykel OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "405AD223418F3766ADDA24C3C8639BB53FBBE795FC7421EF8B3A2C2F64574190",
+      "awarded_volume_m3": 150,
+      "effective_weighted_price_eur_m3": 52,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "destination": "Malla",
+      "buyers": [
+        "Combiforest OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "awarded_volume_m3": 4011,
+      "effective_weighted_price_eur_m3": 52.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "destination": "Pärnu sadam",
+      "buyers": [
+        "Combiforest OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "awarded_volume_m3": 1811,
+      "effective_weighted_price_eur_m3": 52.5,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "destination": "Sillamäe sadam",
+      "buyers": [
+        "FFL Trading OÜ"
+      ],
+      "delivery_period": "23.10.2025-31.12.2025",
+      "measurement_fingerprint_sha256": "86F28238EC90D5B7A8F204B9DD74FABC3D615B31F640A2C9F7B29FDEA1CAA54E",
+      "awarded_volume_m3": 1673,
+      "effective_weighted_price_eur_m3": 50,
+      "price_state": "ESTIMABLE_EXACT_DESTINATION",
+      "source_rows": 1
+    }
+  ],
+  "quarantined_outcomes": [],
+  "object_totals": [
+    {
+      "object_id": 1,
+      "product": "Kasepaberipuit",
+      "offer_volume_m3": 26092,
+      "location_sheet_volume_m3": 26092,
+      "awarded_volume_m3": 14150,
+      "coverage_offer_denominator": 0.5423118197148551,
+      "coverage_location_sheet_denominator": 0.5423118197148551,
+      "state": "ADJUDICABLE"
+    },
+    {
+      "object_id": 2,
+      "product": "Kuusepaberipuit",
+      "offer_volume_m3": 7495,
+      "location_sheet_volume_m3": 7495,
+      "awarded_volume_m3": 7495,
+      "coverage_offer_denominator": 1,
+      "coverage_location_sheet_denominator": 1,
+      "state": "ADJUDICABLE"
+    }
+  ],
+  "quarantined_unpaired_result": null
+}

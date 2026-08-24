@@ -1,0 +1,78 @@
+{
+  "contract_id": "BAYME_CROSS_FAMILY_CORAL_INTEGRATION_CONTRACT_V1",
+  "date": "2026-08-21",
+  "governing_model": "BayME",
+  "purpose": "Connect BPM physical-market jurisdictions with HBP industrial-state jurisdictions through typed evidence edges without transferring posterior or authority.",
+  "integrated_local_units": [
+    "bpm-rmk-estonia-timber",
+    "hbp-argentina-ipc",
+    "hbp-argentina-ucii",
+    "hbp-argentina-ipi",
+    "hbp-eu27-eurostat",
+    "hbp-eurostat-sts-industrial-production"
+  ],
+  "observer_and_support_units": [
+    "bpm-spain-port-activity-observer",
+    "hbp-eu-ted-institutional-demand-observer",
+    "hbp-eurostat-prodcom-product-support"
+  ],
+  "typed_edges": [
+    {
+      "from": "eurostat-prodcom-product-production",
+      "to": "rmk-estonia-timber-auctions",
+      "type": "PRODUCT_IDENTITY_AND_ANNUAL_SCALE_CONTEXT_ONLY",
+      "posterior_transfer": false
+    },
+    {
+      "from": "eurostat-sts-industrial-production",
+      "to": "rmk-estonia-timber-auctions",
+      "type": "LAGGED_INDUSTRIAL_STATE_OBSERVER_ONLY",
+      "posterior_transfer": false
+    },
+    {
+      "from": "indec-argentina-ipi-ucii",
+      "to": "eurostat-sts-industrial-production",
+      "type": "HOMOLOGOUS_OUTCOME_DIAGNOSTIC_BY_SEPARATE_COUNTRY_CELL",
+      "posterior_transfer": false
+    },
+    {
+      "from": "puertos-es-monthly",
+      "to": "eurostat-sts-industrial-production",
+      "type": "LAGGED_PHYSICAL_FLOW_COVARIATE",
+      "posterior_transfer": false
+    },
+    {
+      "from": "ted-eu-awards",
+      "to": "eurostat-sts-industrial-production",
+      "type": "LAGGED_INSTITUTIONAL_EVENT_COUNT_COVARIATE",
+      "posterior_transfer": false
+    }
+  ],
+  "hard_invariants": {
+    "one_period_predicts_exactly_next_period": true,
+    "event_jurisdictions_predict_exactly_next_comparable_event": true,
+    "posterior_and_model_specific_Z_post_accumulate_without_reset": true,
+    "N_periods_to_one_target_forbidden": true,
+    "cross_country_product_market_and_unit_pooling_forbidden": true,
+    "first_release_vintage_custody_required": true,
+    "revisions_never_replace_historical_scoring_bytes": true,
+    "gas_electricity_and_administered_price_targets_excluded": true,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "quantitative_advance": {
+    "rmk_closed_posterior": {"local_cells": 388, "observations": 1008, "M1_supported_cells": 30, "M2_supported_cells": 0},
+    "rmk_observed_M1_comparisons": {"price_M1": 5, "price_M0": 9, "volume_M1": 7, "volume_M0": 7},
+    "eurostat_rc15_historical": {"months": 198, "countries": 27, "edges": 351, "edge_month_contrasts": 69498},
+    "new_panels": ["Eurostat country by NACE by month", "INDEC division by month", "Prodcom product by country by year", "ports by commodity by month"]
+  },
+  "adverse_states_preserved": [
+    "ARGENTINA_PAYLOAD_CUSTODY_GAPS",
+    "UCII_LEGACY_DOUBLE_COUNTING_NONAUTHORITATIVE",
+    "IPI_PAYLOAD_NOT_RECOVERED",
+    "EUROSTAT_JULY_NOT_ESTIMABLE_INCOMPLETE_PANEL",
+    "EUROSTAT_API_NO_HISTORICAL_VINTAGE_ARCHIVE",
+    "RMK_SOURCE_CONFLICTS_AND_UNPAIRED_RESULTS",
+    "COMTRADE_QUARANTINE"
+  ]
+}

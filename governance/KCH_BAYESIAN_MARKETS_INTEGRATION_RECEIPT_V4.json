@@ -1,0 +1,57 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v4",
+  "observed_at": "2026-08-22T00:54:04.6616097+02:00",
+  "kch_version": "0.11.33",
+  "runtime_state": "NATIVE_SUPERHARNESS_ACTIVE",
+  "evidence_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V4.json",
+    "sha256": "640393EAF3ADD22975A13FDC5E6C24810DCB1A9517B78F8F1BC5544568AACCA8"
+  },
+  "execution": {
+    "prior_v3_contract_preserved": true,
+    "eurostat_sts_es_c_preregistered": true,
+    "eurostat_sts_es_c_raw_bytes_frozen": true,
+    "eurostat_sts_es_c_source_updated": "2026-08-19T11:00:00+0200",
+    "eurostat_sts_es_c_training_observations": 138,
+    "eurostat_sts_es_c_training_transitions": 137,
+    "eurostat_sts_es_c_target": "2026-07",
+    "eurostat_sts_es_c_target_opened": false,
+    "eurostat_sts_es_c_forecast_frozen": true,
+    "eurostat_observer_arms_abstained": 3,
+    "remote_reorganization_executed": false,
+    "destructive_cleanup_executed": false
+  },
+  "authority": {
+    "ontology": "USER_FROZEN_BPM_BUM_HBP",
+    "family": "HBP",
+    "local_cell": "ES_NACE-C_PRD_SCA_I21_MONTH",
+    "M0_M1_weights": "EQUAL_DIAGNOSTIC_NO_PROMOTION_AUTHORITY",
+    "M2_port": "ABSTAIN",
+    "M2_ted": "ABSTAIN",
+    "M3_coral": "ABSTAIN",
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "custody": {
+    "raw_response_sha256": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A",
+    "forecast_freeze_sha256": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF",
+    "posterior_z_post_sha256": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743",
+    "all_training_status": "PROVISIONAL_P",
+    "ordinary_api_revision_history": "ABSENT",
+    "ei_is_m_vtg_role": "REVISION_EVIDENCE_ONLY_NOT_CAMPAIGN_OUTCOME",
+    "target_outcome_custody": "PENDING_FUTURE_RELEASE"
+  },
+  "permission": {
+    "bounded_public_no_account_capture": true,
+    "account_terms_payment_contact_vps": false,
+    "bulk_download": false,
+    "target_outcome_read": false,
+    "remote_publish_or_reorganize": false,
+    "delete_or_move_originals": false
+  },
+  "training": {
+    "phl_authorized_but_not_trained": true,
+    "phl_real_training_executed": false
+  },
+  "next_decision_critical_action": "CAPTURE_ONE_NEW_OFFICIAL_INDEC_IPI_UCII_VINTAGE_AND_ONE_BOUNDED_PRODCOM_PRODUCT_COUNTRY_SLICE_WITHOUT_FITTING_THEN_BUILD_CAUSALLY_ALIGNED_OBSERVER_PANEL"
+}

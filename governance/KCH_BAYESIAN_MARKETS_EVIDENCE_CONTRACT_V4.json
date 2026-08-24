@@ -1,0 +1,83 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v4",
+  "date": "2026-08-22",
+  "supersedes_for_current_navigation": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V3.json",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V3.json",
+    "sha256": "8A94556FFD51F187F9AF7A94289676806A8ED6A5ACD421A2161B5B72EE310E3D"
+  },
+  "mission_register": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_MISSION_REGISTER_V4.md",
+    "sha256": "E1C08F938EE93DA9D892BE5CA17A0815D48FDC2FD1BC1E6B70DE353371B0AD60"
+  },
+  "new_frozen_evidence": [
+    {"path": "preregistrations/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_V0.1.json", "sha256": "1FF495CFB9F8058D3A69B14D5BA20E3C6E056FD3C1D68090A07E0902F8E74B01"},
+    {"path": "src/bma/experiments/hbp_eurostat_sts_v0_1.py", "sha256": "9ADF1BF64E62B6D1980E3C155F4D64A1CC841EA9A982F62F9370F11D07866806"},
+    {"path": "scripts/freeze_hbp_eurostat_sts_es_c_2026_07.py", "sha256": "8D5C809B4CADC6C1244B3499BE1031FB967687DB2A3EFF9F75707851596EB645"},
+    {"path": "tests/test_hbp_eurostat_sts_v0_1.py", "sha256": "9582CC6ECF3172C1D345DFB3060B682FE7D7E261A00DF4D5FF6FE304371AE205"},
+    {"path": "outputs/HBP_EUROSTAT_STS_ES_C_2026_07_FREEZE_CHECKPOINT_20260822_ES.md", "sha256": "5AD638C39089429EDD04DC20CB62B0B14BB5F86CF6252CED9DEA95DE4ED1881F"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/eurostat_sts_es_c_through_2026_06.json", "sha256": "DD57F140B2B091EBCD42391DEA64CF8B96DEABE51036B3852321CF366691BA1A"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/response_headers.json", "sha256": "CAD1BD1F32A632F7FA4221A5EA1A001BBC7514EFB4BF0FA55CF186DD763AF9E7"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/normalized_training_series.json", "sha256": "CEF5D5C867F7D653C0B5B0B9CD6505E9538A5D10492237FB9A1B5385B036C110"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/posterior_z_post.json", "sha256": "DAE21D39A9B7983950DD55D5B92518375D54C6D6640F6E69B3344E7B33363743"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/forecast_freeze.json", "sha256": "E43FBB33856741B72A71468762982423B8BAEDB9FF0A4497F318E4C4522D2ECF"},
+    {"path": "evidence/runs/hbp-eurostat-sts-es-c-v0.1-2026-07-freeze/manifest.json", "sha256": "489DFFCDD2EF7FB8BF1B16D0BEDE57D2F5DEC80F157D3238F3A94984AE535C5E"}
+  ],
+  "scientific_invariants": {
+    "BMA_subsumed_in_BPM": true,
+    "BayME_is_general_model_not_canonical_destination": true,
+    "local_jurisdiction_is_authority": true,
+    "one_period_predicts_next_only": true,
+    "posterior_and_Z_post_accumulate_without_reset": true,
+    "N_to_1_pooling_forbidden": true,
+    "first_release_and_revision_are_distinct_bytes": true,
+    "losses_abstentions_quarantines_and_NOT_ESTIMABLE_preserved": true,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "execution_state": {
+    "prior_v3_state_preserved": true,
+    "eurostat_sts_es_c_data_acquisition_started": true,
+    "eurostat_sts_es_c_training_observations": 138,
+    "eurostat_sts_es_c_training_transitions": 137,
+    "eurostat_sts_es_c_target": "2026-07",
+    "eurostat_sts_es_c_target_opened": false,
+    "eurostat_sts_es_c_first_freeze_complete": true,
+    "indec_new_vintage_probe_complete": false,
+    "prodcom_product_slice_probe_complete": false,
+    "remote_mutation": false,
+    "destructive_cleanup": false
+  },
+  "model_state": {
+    "M0_point_median_index": 102.89999999999996,
+    "M0_interval_90": [96.422746257174, 109.81236700891206],
+    "M1_point_median_index": 102.99827032507567,
+    "M1_interval_90": [96.49396013270417, 109.94101263299527],
+    "weights": {"M0": 0.5, "M1": 0.5},
+    "M2_port": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M2_ted": "ABSTAIN_NO_CAUSALLY_ALIGNED_OBSERVER_PANEL",
+    "M3_coral": "ABSTAIN_UNTIL_BOTH_NESTED_OBSERVER_PARENTS_ARE_ESTIMABLE"
+  },
+  "vintage_adjudication": {
+    "ordinary_sts_api": "LATEST_VERSION_ONLY",
+    "ei_is_m_vtg": "OFFICIAL_VINTAGES_AVAILABLE_FOR_NACE_B-D",
+    "ei_is_m_vtg_campaign_authority": false,
+    "reason": "NACE B-D includes excluded energy gas and electricity; it cannot replace the NACE C manufacturing outcome"
+  },
+  "adverse_states": [
+    "RMK_M2_NOT_ESTIMABLE",
+    "RMK_2026_04_28_NO_FROZEN_OFFER",
+    "RMK_2026_06_30_SCHEMA_PREEXPOSED",
+    "ARGENTINA_AND_RC15_BYTE_CUSTODY_GAPS",
+    "UCII_DOUBLE_COUNTING_LEGACY_NONAUTHORITATIVE",
+    "IPI_PAYLOAD_NOT_RECOVERED",
+    "EUROSTAT_JULY_INCOMPLETE_PANEL",
+    "EUROSTAT_STS_DESIGN_PROBE_PREEXPOSURE",
+    "EUROSTAT_STS_138_OF_138_PROVISIONAL",
+    "EUROSTAT_STS_NACE_C_LATEST_VERSION_ONLY",
+    "EUROSTAT_VINTAGE_B-D_EXCLUDED_ENERGY_SCOPE",
+    "EUROSTAT_CORAL_OBSERVER_ARMS_ABSTAIN",
+    "COMTRADE_QUARANTINE"
+  ]
+}
