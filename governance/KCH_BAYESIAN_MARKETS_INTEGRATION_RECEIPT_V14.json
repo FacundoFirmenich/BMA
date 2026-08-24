@@ -1,0 +1,48 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v14",
+  "date": "2026-08-24",
+  "mission": "Incrementally resynchronize all implicated native Bayesian Markets conversations from the V5 cutoff and ingest the newly embedded constitutional branch without rewriting historical evidence.",
+  "repository": "https://github.com/FacundoFirmenich/BMA",
+  "branch": "agent/bma-v065-terra-succession",
+  "parent_commit_at_start": "3462af5",
+  "baseline": {
+    "registry": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_REGISTRY_V5.csv",
+    "commit": "14c34a543d987644250ec8cded5922985a772643"
+  },
+  "artifacts": [
+    {
+      "path": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_RESYNC_V6.json",
+      "sha256": "3F011B7FA240F8D06237B946675B43222F58856CA847D8F22960F251492124C1"
+    },
+    {
+      "path": "governance/BAYESIAN_MARKETS_NATIVE_SOURCE_RESYNC_V7_ADDENDUM.json",
+      "sha256": "DB49EDF61240E408D1FEDA49DCEFDB443938901F6BB74890B35A51AF042F9928"
+    },
+    {
+      "path": "outputs/BAYESIAN_MARKETS_NATIVE_RESYNC_CHECKPOINT_20260824_ES.md",
+      "sha256": "2F439F2F87BB7E9B7F21BF747C80FC9F3AB55A6F68C02E2FA3BD031D8A74804C"
+    }
+  ],
+  "result": {
+    "total_native_sources": 20,
+    "v5_registry_unique_rows": 16,
+    "primary_codex_sources": 2,
+    "new_constitutional_sources": 2,
+    "post_cutoff_delta_pages": 4,
+    "scientific_delta_threads": 2,
+    "registry_id_corrections": 2,
+    "current_native_read_unavailable": 1,
+    "new_branch_transport_truncated_items": 3,
+    "global_winner": null,
+    "automatic_promotion": false
+  },
+  "adverse_states": [
+    "CURRENT_NATIVE_READ_UNAVAILABLE_V5_BASELINE_PRESERVED",
+    "OUTCOME_OBSERVED_PREDICTIONS_UNAVAILABLE_UNSCORED",
+    "DERIVATIVE_ONTOLOGY_ERROR",
+    "DERIVED_CONSTITUTIONAL_RESEARCH_CANDIDATE",
+    "TRANSPORT_TRUNCATED"
+  ],
+  "status": "PASS_BOUNDED_PARTIAL_CURRENT_SYNC",
+  "next_gate": "Build the typed coral integration while retaining the single native-read gap and lineage quarantine; retry the unavailable source separately."
+}
