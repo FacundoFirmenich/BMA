@@ -1,0 +1,15 @@
+{
+  "July_phase_replicates": 10,
+  "V0_1_failure_preserved": true,
+  "general_maximum_percent": 69.6,
+  "general_minimum_percent": 42.0,
+  "last_general_percent": 59.1,
+  "read_only": true,
+  "reader": "xlrd==2.0.2",
+  "schema": "hbp.indec.ucii.extraction-receipt.v0.2",
+  "sector_boundary_event_count": 2,
+  "source_workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "target_present": false,
+  "training_end": "2026-06",
+  "training_start": "2016-01"
+}

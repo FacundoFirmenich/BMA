@@ -1,0 +1,55 @@
+{
+  "V0_1_gate_failure_sha256": "0E309848B34F11B7C496A49EF5A8337C9EE6AB36081B325E95DD71BCA6CFAEAB",
+  "amendment_preregistration_sha256": "53258F0CCE99BE141DC96B4DFB1BA16087DE284411C3BA91620087DA5CB6643F",
+  "automatic_promotion": false,
+  "global_winner": null,
+  "issued_at_utc": "2026-08-22T02:47:18.081288+00:00",
+  "last_observed_month": "2026-06",
+  "last_observed_percent": 59.1,
+  "legacy_freeze_used": false,
+  "models": {
+    "M0": {
+      "degrees_of_freedom": 129.0,
+      "logit_location": 0.36810086136329656,
+      "logit_scale": 0.1307714362672767,
+      "lower_90_percent": 53.77890702797027,
+      "point_median_percent": 59.1,
+      "state": "ESTIMABLE",
+      "upper_90_percent": 64.21611747221236
+    },
+    "M1": {
+      "degrees_of_freedom": 129.0,
+      "logit_location": 0.36683238253210837,
+      "logit_scale": 0.13128331200523385,
+      "lower_90_percent": 53.7262918383406,
+      "point_median_percent": 59.06933492093385,
+      "state": "ESTIMABLE",
+      "upper_90_percent": 64.20645587406798
+    },
+    "M2": {
+      "degrees_of_freedom": 129.0,
+      "logit_location": 0.3744963085331098,
+      "logit_scale": 0.1223243517033199,
+      "lower_90_percent": 54.28534171647205,
+      "point_median_percent": 59.2544996662403,
+      "state": "ESTIMABLE",
+      "upper_90_percent": 64.04130559902251
+    }
+  },
+  "outcome_opened": false,
+  "parent_preregistration_sha256": "9F5966C69E3C1E4BAEB7E118402CD438F57AB086C0D01D116D511C61D1D89244",
+  "posterior_z_post_sha256": "B2D29BB7E166B8F85B74EAB69C2FA94F3ED22325CD595A013FD59DB25463D563",
+  "schema": "hbp.indec.ucii.forecast-freeze.v0.2",
+  "script_sha256": "C2A2B2158299E4D0DA541D5B23F8B86DD6495E2E8689D0EC6A7E516FE2047743",
+  "sector_blocks_used_in_general_likelihood": false,
+  "sector_boundary_events_preserved": 2,
+  "source_workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+  "status": "FROZEN_PRE_OUTCOME",
+  "target_month": "2026-07",
+  "weights": {
+    "M0": 0.3333333333333333,
+    "M1": 0.3333333333333333,
+    "M2": 0.3333333333333333,
+    "status": "FROZEN_EQUAL_NO_PROMOTION_AUTHORITY"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "kch-bayesian-markets-evidence-contract/v13",
+  "date": "2026-08-24",
+  "phase": "UCII_V0_2_FORECAST_FREEZE_CUSTODY",
+  "historical_contract_preserved": true,
+  "prior_contract": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_EVIDENCE_CONTRACT_V12.json",
+    "sha256": "33D32CC115C905BE9F1BA4C594E6642CF47E32B57CA08988329213E20B403D6A"
+  },
+  "prior_receipt": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V12.json",
+    "sha256": "A792C78AC3D5E8980929AAE662220F3CD4607C9D28386BC2983262309993B14F"
+  },
+  "parent_commit": "a880437",
+  "result_summary": {
+    "path": "outputs/HBP_INDEC_UCII_V0_2_FREEZE_RESULT_20260824_ES.md",
+    "sha256": "C89196E192ECE1C164319AA957D42C569537C82A215BC8B4E2076034B84900D3"
+  },
+  "frozen_run": {
+    "path": "evidence/runs/hbp-indec-ucii-logit-v0.2-2026-07-freeze",
+    "status": "FROZEN_PRE_OUTCOME",
+    "target": "2026-07",
+    "last_observed": "2026-06",
+    "source_workbook_sha256": "B603A98B5A148DE4A3150F0AC1119CDF8F1EE04219B051A5DB6004803D340471",
+    "files": [
+      {
+        "path": "extraction_receipt.json",
+        "sha256": "DE7B074E720ABAC2CDC336B0F7A9BA2E7E9C3A1E2BDA1A5270A7E9AAAE5F0F0C",
+        "bytes": 491
+      },
+      {
+        "path": "forecast_freeze.json",
+        "sha256": "34EF0AB891CAFFF4B2531AC4BF6C0098047A19612CB44C23BD28DB7454FA8435",
+        "bytes": 2120
+      },
+      {
+        "path": "normalized_training_series.json",
+        "sha256": "CBAE185DE2B685EAF1DFCE0C18C7C66A817681CC32990FE5076A6334FA7B9556",
+        "bytes": 100736
+      },
+      {
+        "path": "posterior_z_post.json",
+        "sha256": "B2D29BB7E166B8F85B74EAB69C2FA94F3ED22325CD595A013FD59DB25463D563",
+        "bytes": 3611
+      },
+      {
+        "path": "manifest.json",
+        "sha256": "000A0BFC19107F04BE1C56A1D0FECC15C2C88CA9981645A3BB5AF803BD6EC31B",
+        "bytes": 1081
+      }
+    ]
+  },
+  "forecast": {
+    "last_observed_percent": 59.1,
+    "M0": {
+      "median": 59.1,
+      "lower90": 53.77890702797027,
+      "upper90": 64.21611747221236
+    },
+    "M1": {
+      "median": 59.06933492093385,
+      "lower90": 53.7262918383406,
+      "upper90": 64.20645587406798
+    },
+    "M2": {
+      "median": 59.2544996662403,
+      "lower90": 54.28534171647205,
+      "upper90": 64.04130559902251
+    },
+    "weights": {
+      "M0": 0.3333333333333333,
+      "M1": 0.3333333333333333,
+      "M2": 0.3333333333333333
+    }
+  },
+  "hard_invariants": {
+    "outcome_opened": false,
+    "posterior_updated_after_target": false,
+    "next_target_frozen": false,
+    "sector_blocks_used_in_general_likelihood": false,
+    "pooling_occurred": false,
+    "reset_occurred": false,
+    "global_winner": null,
+    "automatic_promotion": false,
+    "V0_1_gate_failure_preserved": true
+  }
+}
