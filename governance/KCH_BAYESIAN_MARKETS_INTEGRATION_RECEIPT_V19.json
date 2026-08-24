@@ -1,0 +1,79 @@
+{
+  "schema": "kch-bayesian-markets-integration-receipt/v19",
+  "date": "2026-08-24",
+  "phase": "BUM_NOMENCLATURE_OPTION_01",
+  "status": "PASS_BUM_BAYESIAN_UNEMBODIED_MARKETS_CANONICALIZED",
+  "parent": {
+    "path": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V18.json",
+    "sha256": "897D5208CB9C5415E19ACED2CA68E9E294D0917BA2EBB9C3679C2AD505013E7F",
+    "parent_commit": "c0c48cb36a3f1e2cf0d611fa1ccb29366df2d3b2"
+  },
+  "authority": {
+    "kind": "DIRECT_USER_SELECTION",
+    "instruction": "*opcion 01 >>>",
+    "resolved_option": "Bayesian Unembodied Markets",
+    "decision_state": "APPLY",
+    "effective_expansion": {
+      "BUM": "Bayesian Unembodied Markets"
+    },
+    "claim_ceiling": "CANONICAL_NOMENCLATURE_AND_MINIMAL_ONTOLOGICAL_BOUNDARY_ONLY"
+  },
+  "artifacts": [
+    {
+      "path": "canonical/README.md",
+      "bytes": 1408,
+      "sha256": "626819A80DFE671357087A7623D4FB916C72E641A1CCE4DACC129072C2131FBB"
+    },
+    {
+      "path": "canonical/BUM_NOMENCLATURE_V1.md",
+      "bytes": 3576,
+      "sha256": "405A247A9042BDAF2FA55C94A10A46F9EDBF61FD3EF5A7BD3292653522237093"
+    },
+    {
+      "path": "governance/BAYESIAN_MARKETS_BUM_NOMENCLATURE_DECISION_V1.json",
+      "bytes": 2077,
+      "sha256": "5B30BFB71C7068762594B88644FBEFFF5CAFD755D14B0D30D56A98B0F243B49B"
+    },
+    {
+      "path": "outputs/BAYESIAN_MARKETS_BUM_NOMENCLATURE_CHECKPOINT_20260824_ES.md",
+      "bytes": 2105,
+      "sha256": "949EDE5BE111DBB1F0ECE838CA667086F4A5CCAE2DEC0186CFF4A38C88255DFA"
+    }
+  ],
+  "validation": {
+    "option_antecedent_resolution": "PASS_NUMBERED_OPTION_01",
+    "readme_diff_scope": "PASS_ONLY_BUM_LINE_CHANGED",
+    "utf8_replacement_characters": 0,
+    "json_parse": "PASS",
+    "artifact_hashes": "PASS",
+    "parent_hash": "PASS",
+    "historical_artifacts_rewritten": 0,
+    "semantic_invariants": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "supersession": {
+    "current_expansion": "Bayesian Unembodied Markets",
+    "no_longer_current": [
+      "Bayesian Unreal Markets",
+      "Bayesian Un Markets",
+      "Bayesian Updating Mechanism"
+    ],
+    "historical_occurrences_preserved": true
+  },
+  "scientific_effect": {
+    "scores_changed": 0,
+    "adjudications_changed": 0,
+    "posteriors_changed": 0,
+    "z_post_changed": 0,
+    "weights_changed": 0,
+    "not_estimable_states_changed": 0,
+    "aggregate_winner": null,
+    "automatic_promotion": false
+  },
+  "kch_execution": {
+    "protocol": "KCH_INSTRUCTION_GOVERNANCE_NATIVE",
+    "executable_csi_kernel_invoked": false,
+    "reason": "CSI instruction_governance operators were not exposed by the host; native protocol was applied"
+  },
+  "next_gate": "use Bayesian Unembodied Markets in future canonical artifacts and adjudicate BUM units locally by their primary value-bearing object"
+}
