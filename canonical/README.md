@@ -5,7 +5,7 @@ Estado: `MATERIALIZED_AS_NON_DESTRUCTIVE_INDEX_V6`
 Esta estructura expresa la nueva clasificación. No contiene copias masivas ni movimientos de los originales: enlaza unidades ya adjudicadas y mantiene la procedencia histórica en los registros de gobernanza.
 
 - `BPM`: mercados de bienes y fenómenos físicos. Absorbe definitivamente el antiguo nombre BMA.
-- `BUM` — [Bayesian Unembodied Markets](BUM_NOMENCLATURE_V1.md): mercados y análisis de objeto intangible. No recibe unidades por descarte.
+- `BUM` — [Bayesian Unphysical Markets](BUM_NOMENCLATURE_V2.md): mercados y análisis de objeto intangible. No recibe unidades por descarte.
 - `HBP`: predictores jerárquicos territoriales, institucionales, organizativos o sistémicos.
 
 BayME, BayME Pulse, BayME EVE y BMA son únicamente `source_lineage`. Ninguno es destino canónico.

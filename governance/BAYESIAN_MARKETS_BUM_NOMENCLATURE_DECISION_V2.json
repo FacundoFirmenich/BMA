@@ -1,0 +1,57 @@
+{
+  "schema": "bayesian-markets-bum-nomenclature-decision/v2",
+  "effective_date": "2026-08-24",
+  "status": "APPLY_ACTIVE_CANONICAL_DIRECT_CORRECTION",
+  "authority": {
+    "kind": "DIRECT_USER_CORRECTION",
+    "exact_instruction": "*perdon. corregilo> el nombre tiene qe ser Bayesian Unphysical Markets.",
+    "resolved_expansion": "Bayesian Unphysical Markets",
+    "attested_in_current_native_thread": true
+  },
+  "effective_instruction": {
+    "acronym": "BUM",
+    "canonical_expansion": "Bayesian Unphysical Markets",
+    "spanish_gloss": "mercados bayesianos de objetos de valor no físicos, intangibles o inmateriales",
+    "controlled_term_warning": "unphysical does not mean fictitious, impossible, unobserved or incompatible with physics",
+    "classification_unit": "evidence unit and traded instrument",
+    "residual_category": false
+  },
+  "revocation": {
+    "revokes_current_status_of": "Bayesian Unembodied Markets",
+    "superseded_decision": "governance/BAYESIAN_MARKETS_BUM_NOMENCLATURE_DECISION_V1.json",
+    "superseded_canon": "canonical/BUM_NOMENCLATURE_V1.md",
+    "superseded_receipt": "governance/KCH_BAYESIAN_MARKETS_INTEGRATION_RECEIPT_V19.json",
+    "historical_bytes_preserved": true
+  },
+  "hybrid_rule": {
+    "physical_underlying": "BPM",
+    "unphysical_contract_right_or_risk": "BUM",
+    "separate_local_jurisdictions_required": true,
+    "automatic_posterior_pooling": false
+  },
+  "other_superseded_expansions": [
+    "Bayesian Unreal Markets",
+    "Bayesian Un Markets",
+    "Bayesian Updating Mechanism"
+  ],
+  "scientific_effect": {
+    "experimental_results_changed": false,
+    "scores_changed": false,
+    "posteriors_changed": false,
+    "z_post_changed": false,
+    "weights_changed": false,
+    "not_estimable_states_changed": false
+  },
+  "governance": {
+    "precedence_resolution": "LATEST_EXPLICIT_DIRECT_USER_CORRECTION_SUPERSEDES_PRIOR_DIRECT_SELECTION",
+    "decision_state": "APPLY",
+    "executable_csi_kernel_invoked": false,
+    "application_mode": "KCH_NATIVE_PROTOCOL",
+    "claim_ceiling": "CANONICAL_NOMENCLATURE_AND_CONTROLLED_TERM_DEFINITION_ONLY"
+  },
+  "artifacts_to_update": [
+    "canonical/README.md",
+    "canonical/BUM_NOMENCLATURE_V2.md"
+  ],
+  "next_gate": "use Bayesian Unphysical Markets in every future canonical artifact and preserve V1/V19 as superseded chronology"
+}
