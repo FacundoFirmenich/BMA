@@ -33,7 +33,7 @@ SERIES={
 TARGETS={
  "m3":([r"\bm3\b"],["tasa","variacion"]),
  "personal_loans":(["prestamos personales"],["tasa","variacion"]),
- "credit_cards":(["tarjetas de credito"],["tasa","compras","cantidad"]),
+ "credit_cards":(["tarjeta de creditos","tarjeta de credito"],["tasa","compras","cantidad"]),
  "private_credit":(["prestamos al sector privado","credito al sector privado"],["tasa","variacion","moneda extranjera"]),
  "international_reserves":(["reservas internacionales"],["variacion","tasa"]),
 }
@@ -43,6 +43,10 @@ DIMS={
  "E":("registered_employment","registered_private_employment"),
  "FX":("nominal_fx","nominal_exchange_rate"),
  "W":("wage_index","nominal_wage_index"),
+}
+SEARCH={
+ "registered_employment":("empleo asalariado registrado sector privado",["registr","priv"],["public","provincia"]),
+ "wage_index":("indice de salarios total registrado",["salari","registr"],["provincia"]),
 }
 
 @dataclass
@@ -80,6 +84,20 @@ def fetch_series(net,out,name,sid,agg,start):
  if d.shape[1]<2: raise RuntimeError(f"empty official series {name}")
  d=d.iloc[:,:2]; d.columns=["date",name]; d["date"]=pd.to_datetime(d.date,errors="coerce"); d[name]=pd.to_numeric(d[name],errors="coerce")
  d=d.dropna(subset=["date"]).sort_values("date"); d.date=d.date.dt.to_period("M").dt.to_timestamp(); return d.groupby("date",as_index=False)[name].last()
+
+def discover(net,out,name,query,must,exclude,start):
+ url=f"{SERIES_API}/search?{urlencode({'q':query,'limit':50})}"; payload=net.js(f"search:{name}",url); dump(out/"raw"/f"search_{name}.json",payload)
+ rows=payload.get("data",payload.get("results",[])); cand=[]
+ for rec in rows if isinstance(rows,list) else []:
+  text=norm(json.dumps(rec,ensure_ascii=False)); sid=rec.get("field_id") or rec.get("id")
+  if sid and all(x in text for x in must) and not any(x in text for x in exclude):
+   score=2*("mensual" in text or '"frequency": "m"' in text)+2*("2026" in text)+1*("2025" in text)+sum(x in text for x in ["asalari","indice","ripte"])
+   cand.append((score,str(sid),rec))
+ cand.sort(key=lambda x:x[0],reverse=True); dump(out/"metadata"/f"search_{name}_audit.json",[{"score":a,"id":b,"record":c} for a,b,c in cand[:15]])
+ if not cand:return pd.DataFrame(),None
+ sid=cand[0][1]
+ try:return fetch_series(net,out,name,sid,"native",start),sid
+ except Exception:return fetch_series(net,out,name,sid,"avg",start),sid
 
 def flat(rec): return norm(" | ".join(str(v) for k,v in rec.items() if k!="idVariable"))
 def choose(catalog,out):
@@ -147,9 +165,12 @@ def post(yy,X):
 
 def lp(panel,s,outcome,h):
  if outcome not in panel:return {"status":"NOT_ESTIMABLE","reason":"outcome_missing","n":0}
- y=100*(slog(panel[outcome]).shift(-h)-slog(panel[outcome]).shift(1));D=pd.DataFrame({"shock":s,"pi1":(100*slog(panel.ipc_index).diff()).shift(1),"act1":(100*slog(panel.emae_index).diff()).shift(1),"own1":(100*slog(panel[outcome]).diff()).shift(1),"own2":(100*slog(panel[outcome]).diff()).shift(2)},index=panel.index)
+ y=100*(slog(panel[outcome]).shift(-h)-slog(panel[outcome]).shift(1));D=pd.DataFrame({"shock":s},index=panel.index)
+ if outcome!="ipc_index":D["pi1"]=(100*slog(panel.ipc_index).diff()).shift(1)
+ if outcome!="emae_index":D["act1"]=(100*slog(panel.emae_index).diff()).shift(1)
+ if outcome!="nominal_fx":D["fx1"]=(100*slog(panel.nominal_fx).diff()).shift(1)
+ D["own1"]=(100*slog(panel[outcome]).diff()).shift(1);D["own2"]=(100*slog(panel[outcome]).diff()).shift(2)
  if "policy_rate" in panel:D["r1"]=panel.policy_rate.shift(1)
- if "nominal_fx" in panel:D["fx1"]=(100*slog(panel.nominal_fx).diff()).shift(1)
  t=pd.concat([y.rename("y"),D],axis=1).dropna(); minimum=max(42,7*D.shape[1])
  if len(t)<minimum:return {"status":"NOT_ESTIMABLE","reason":f"complete_months<{minimum}","n":len(t)}
  yy=t.pop("y").to_numpy(); A=t.to_numpy();
@@ -172,6 +193,12 @@ def main():
  net=Net();frames=[];errors=[];manifest=[]
  for name,(sid,agg) in SERIES.items():
   try:d=fetch_series(net,out,name,sid,agg,args.start);frames.append(d);manifest.append({"name":name,"id":sid,"aggregation":agg,"rows":len(d)})
+  except Exception as e:errors.append({"source":name,"error":repr(e)})
+ for name,(query,must,exclude) in SEARCH.items():
+  try:
+   d,sid=discover(net,out,name,query,must,exclude,args.start)
+   if not d.empty:frames.append(d);manifest.append({"name":name,"id":sid,"aggregation":"discovered","rows":len(d)})
+   else:errors.append({"source":name,"error":"official search returned no supported series"})
   except Exception as e:errors.append({"source":name,"error":repr(e)})
  try:
   cat=net.js("bcra:catalog",f"{BCRA_API}/monetarias?limit=1000&offset=0");dump(out/"raw"/"bcra_catalog.json",cat);chosen=choose(cat.get("results",[]),out)
