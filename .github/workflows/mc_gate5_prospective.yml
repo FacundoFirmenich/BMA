@@ -5,7 +5,6 @@ on:
     branches:
       - gate5-mc-prospective-instrumentation-20260927
     paths:
-      - "bundles/bayme_mc_gate5_overlay.b64.part*"
       - "bundles/bayme_mc_gate5_overlay_manifest.json"
       - ".github/workflows/mc_gate5_prospective.yml"
   workflow_dispatch:
@@ -27,20 +26,24 @@ jobs:
           ref: gate5-mc-prospective-instrumentation-20260927
           fetch-depth: 0
 
-      - name: Materialize frozen Gate V source overlay
+      - name: Materialize and verify frozen Gate V source overlay
         run: |
           python - <<'PY'
           from pathlib import Path
-          import zipfile
-          import base64
+          import zipfile, base64, hashlib, json
           parts = sorted(Path('bundles').glob('bayme_mc_gate5_overlay.b64.part*'))
+          manifest = json.loads(Path('bundles/bayme_mc_gate5_overlay_manifest.json').read_text())
           raw = base64.b64decode(''.join(p.read_text() for p in parts))
+          digest = hashlib.sha256(raw).hexdigest()
+          assert len(raw) == manifest['bytes'], (len(raw), manifest['bytes'])
+          assert digest == manifest['sha256'], (digest, manifest['sha256'])
           bundle = Path('/tmp/bayme_mc_gate5_overlay.zip')
           bundle.write_bytes(raw)
           with zipfile.ZipFile(bundle) as z:
               names = z.namelist()
+              assert len(names) == manifest['file_count']
               z.extractall('.')
-          print(f'extracted {len(names)} files from {len(parts)} base64 parts')
+          print(f'verified and extracted {len(names)} files from {len(parts)} base64 parts')
           PY
 
       - uses: actions/setup-python@v5
@@ -54,6 +57,7 @@ jobs:
 
       - name: Validate contracts and run tests
         run: |
+          set -o pipefail
           python scripts/validate_repo.py | tee gate5_contract_validation.txt
           pytest -q | tee gate5_test_stdout.txt
           python - <<'PY'
