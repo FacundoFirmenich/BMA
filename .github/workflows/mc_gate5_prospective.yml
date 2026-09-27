@@ -45,6 +45,7 @@ jobs:
               z.extractall('.')
           print(f'verified and extracted {len(names)} files from {len(parts)} base64 parts')
           PY
+          cp patches/official_fuel_resilient.py src/bayme_mc/adapters/official_fuel.py
 
       - uses: actions/setup-python@v5
         with:
