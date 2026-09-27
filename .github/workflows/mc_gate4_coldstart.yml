@@ -43,7 +43,7 @@ jobs:
           TZ: UTC
         run: |
           rm -rf gate4_mc_output
-          python tools/mc_gate4/acquire_compact.py --output gate4_mc_output
+          python tools/mc_gate4/run_gate4_v3.py --output gate4_mc_output
 
       - name: Verify direct M_C identification veto
         run: |
@@ -53,6 +53,8 @@ jobs:
           summary = json.loads(Path("gate4_mc_output/artifacts/run_summary.json").read_text())
           assert summary["direct_mc_estimable_cells"] == 0
           assert summary["verdict"] == "PASS_WITH_DIRECT_MC_IDENTIFICATION_VETO"
+          assert "wage_index" in summary["panel_columns"]
+          assert "registered_employment_quarterly" in summary["panel_columns"]
           print(json.dumps(summary, indent=2, ensure_ascii=False))
           PY
 
