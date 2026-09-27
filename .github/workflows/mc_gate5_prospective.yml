@@ -1,0 +1,122 @@
+name: M_C Gate V prospective instrumentation
+
+on:
+  push:
+    branches:
+      - gate5-mc-prospective-instrumentation-20260927
+    paths:
+      - "bundles/bayme_mc_gate5_overlay.b64.part*"
+      - "bundles/bayme_mc_gate5_overlay_manifest.json"
+      - ".github/workflows/mc_gate5_prospective.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mc-gate5-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  gate5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gate5-mc-prospective-instrumentation-20260927
+          fetch-depth: 0
+
+      - name: Materialize frozen Gate V source overlay
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          import base64
+          parts = sorted(Path('bundles').glob('bayme_mc_gate5_overlay.b64.part*'))
+          raw = base64.b64decode(''.join(p.read_text() for p in parts))
+          bundle = Path('/tmp/bayme_mc_gate5_overlay.zip')
+          bundle.write_bytes(raw)
+          with zipfile.ZipFile(bundle) as z:
+              names = z.namelist()
+              z.extractall('.')
+          print(f'extracted {len(names)} files from {len(parts)} base64 parts')
+          PY
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install project
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Validate contracts and run tests
+        run: |
+          python scripts/validate_repo.py | tee gate5_contract_validation.txt
+          pytest -q | tee gate5_test_stdout.txt
+          python - <<'PY'
+          from pathlib import Path
+          text = Path('gate5_test_stdout.txt').read_text()
+          Path('gate5_test_report.txt').write_text(text.strip() + "\n")
+          PY
+
+      - name: Run public official sensor calibration and round zero
+        env:
+          PYTHONHASHSEED: "0"
+          TZ: UTC
+        run: |
+          rm -rf gate5_output
+          PYTHONPATH=src python scripts/run_gate5_round0.py --output gate5_output
+          cp gate5_test_report.txt gate5_output/test_report_gate5.txt
+          cp gate5_contract_validation.txt gate5_output/contract_validation_gate5.txt
+
+      - name: Verify fail-closed policy boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s = json.loads(Path('gate5_output/gate5_round0_summary.json').read_text())
+          assert s['sensor_summary']['transformed_events'] > 0
+          assert s['direct_mc_decision']['status'] == 'PRIVACY_GATE_FAILED'
+          assert s['direct_mc_decision']['causal_authority'] is False
+          assert s['direct_mc_decision']['policy_authority'] is False
+          c = json.loads(Path('gate5_output/round0_close.json').read_text())
+          assert c['event_counts'].get('assignment', 0) == 0
+          assert c['event_counts'].get('exposure', 0) == 0
+          assert c['event_counts'].get('outcome', 0) == 0
+          assert c['event_counts'].get('price_quantity', 0) > 0
+          print(json.dumps(s, indent=2, ensure_ascii=False))
+          PY
+
+      - name: Freeze and build report
+        run: |
+          python scripts/freeze_gate5.py
+          python scripts/build_gate5_report.py
+          cp GATE5_REPORT.md gate5_output/GATE5_REPORT.md
+
+      - name: Upload reproducibility bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: bayme-mc-gate5-prospective-instrumentation
+          path: |
+            gate5_output
+            GATE5_REPORT.md
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit compact evidence
+        run: |
+          git config user.name "bayme-mc-evidence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          rm -f gate5_output/calibration_field_buffer.sqlite
+          rm -f gate5_output/calibration_events.jsonl
+          rm -f gate5_output/official_sensor/price_quantity_events.jsonl
+          git add -A gate5_output GATE5_REPORT.md
+          if git diff --cached --quiet; then
+            echo "No compact output changes"
+          else
+            git commit -m "Add M_C Gate V prospective instrumentation evidence"
+            git push origin HEAD:gate5-mc-prospective-instrumentation-20260927
+          fi
