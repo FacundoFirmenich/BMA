@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "error": "official search returned no supported series",
+    "source": "registered_employment"
+  },
+  {
+    "error": "official search returned no supported series",
+    "source": "wage_index"
+  }
+]

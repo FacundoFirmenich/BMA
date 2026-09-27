@@ -5,19 +5,19 @@
     "sha256": "84f65b1c178d3c2c542ff37edec7fd84f7be8029909db941a27fb8dcf9f90698"
   },
   {
-    "bytes": 2,
+    "bytes": 207,
     "path": "artifacts/errors.json",
-    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    "sha256": "a83dbc99e63e68e7f79f79a6303f1845bbe1765a36bf2a72ddfe776f1efd7afb"
   },
   {
-    "bytes": 5252,
+    "bytes": 5207,
     "path": "artifacts/gamma_analogue.csv",
-    "sha256": "42430fb1c2cf573d9be647a1a6211f506824ec33ef6f59dd625cca5f56580fcc"
+    "sha256": "d45123d6271da5a4d0b71547fa1948e56d92aa62b2b08d7024e04087b2c22b9a"
   },
   {
-    "bytes": 14432,
+    "bytes": 14387,
     "path": "artifacts/gamma_analogue.json",
-    "sha256": "411c00c00fce74b3491103034db1f384e185405cc700152f54b1d798d5574c6d"
+    "sha256": "c8f64adaee9327a47d7c3e9ce70abed0209526dc82b186103cda39920a19b942"
   },
   {
     "bytes": 2915,
@@ -32,17 +32,17 @@
   {
     "bytes": 620,
     "path": "artifacts/zpost_data_audit.json",
-    "sha256": "8ebe3c41463d033e261d6f4a9d07f172247ea5104c571e86f075e11ea5658a47"
+    "sha256": "19a54e22f201e2a81a39bbfe50aed93bba32b1d15793e4eb82a5e79f7025e26d"
   },
   {
-    "bytes": 17042,
+    "bytes": 18304,
     "path": "data/macro_monthly.csv",
-    "sha256": "60f8cdf4467a5c6c453585e1f4fae185fa5e596da9d890210217d2769cb2cec9"
+    "sha256": "6087a60ea609afeee3525593ffe98387d171cc9afb74a2bdff460144e42cf20b"
   },
   {
-    "bytes": 19088,
+    "bytes": 20352,
     "path": "data/macro_monthly_with_shock.csv",
-    "sha256": "39995f5a4ab22c6e7ea8eb09ea0dc9ee465a61a57651db4474840b41080f0ae5"
+    "sha256": "6e878bee429e5363260e46b3c84212a76f3eedba0f183752f16116c685aae83c"
   },
   {
     "bytes": 709,
@@ -55,34 +55,49 @@
     "sha256": "536509ae00088be4bd613847277872eb4cfbf18eea2d3b7da41bfe68a26000c6"
   },
   {
-    "bytes": 1189,
+    "bytes": 1594,
     "path": "metadata/bcra_selected.json",
-    "sha256": "4564cbbb9ce8d1a1292d39f848fce7e132d6f059d0f9ef6b42a6d681c8ee9d64"
+    "sha256": "0952b6e078d157ecff5a3eaa8f0a10cafa29e750fdc951e79288a6b9a06d6c41"
   },
   {
-    "bytes": 4595,
+    "bytes": 5883,
     "path": "metadata/bcra_selection_audit.json",
-    "sha256": "5d0b9af54196921c6354a0cce97d7bc98effb4877ef8f3d9543b94e1e1c8fa46"
+    "sha256": "d7577bcf2d67207c7a3d5deecd08a6de90200fc11ac7db873cb4314e4f5e0c5d"
   },
   {
-    "bytes": 2295,
+    "bytes": 2,
+    "path": "metadata/search_registered_employment_audit.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "bytes": 2,
+    "path": "metadata/search_wage_index_audit.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "bytes": 2794,
     "path": "metadata/series_manifest.json",
-    "sha256": "762d035cd11a59c69e855346898d0b9099fbb4b4c83bd994c449178700465581"
+    "sha256": "8873b79808c66336f530b8f423cdff2c6e19ca8d3d433991396798eacdf56739"
   },
   {
-    "bytes": 103,
+    "bytes": 112,
     "path": "metadata/shock_contract.json",
-    "sha256": "c6c239ccf6807c0dfa24d0924a31507ce7b344655d8729c3d62638b346b93dad"
+    "sha256": "221c701a7ac2de542cabb0742c45b84d2f6977d9dd978cc808245088ec0ccd0e"
   },
   {
-    "bytes": 5296,
+    "bytes": 6367,
     "path": "metadata/source_receipts.json",
-    "sha256": "eea3f9a20abe84d8d72c408257ca5bd27235323c87f4adf7ef2fa4849f7e744d"
+    "sha256": "7e93cfb2dac67c775912c13b38e16065108e3fafc4351edefbe8898ec7887c86"
   },
   {
     "bytes": 428107,
     "path": "raw/bcra_catalog.json",
     "sha256": "55e97dd3be42307dc5c604e26c5ed4804d8e9054b38de2ac6e3d9c8fed7f75df"
+  },
+  {
+    "bytes": 215869,
+    "path": "raw/bcra_credit_cards.json",
+    "sha256": "c1fb36f52be7e082c972f589aec788a81cbd582c4fe8393de4fbb9b951c8b1ac"
   },
   {
     "bytes": 211616,
@@ -128,6 +143,16 @@
     "bytes": 2647,
     "path": "raw/policy_rate.csv",
     "sha256": "76fd138e13d69e6a59c391ebc11311a198771ec21eae3423ba5196e686b78bac"
+  },
+  {
+    "bytes": 36701,
+    "path": "raw/search_registered_employment.json",
+    "sha256": "4e9143224f6f46d85f8f8f22bd095e4b0b41f935886dc05a0a25af44010fa319"
+  },
+  {
+    "bytes": 35341,
+    "path": "raw/search_wage_index.json",
+    "sha256": "fefc512564d16106fcf56b8f283615fa0f62b26f0a04311d9e34b820c189a15c"
   },
   {
     "bytes": 61191223,

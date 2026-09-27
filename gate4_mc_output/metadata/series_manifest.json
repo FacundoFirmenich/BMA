@@ -59,6 +59,23 @@
     "rows": 129
   },
   {
+    "idVariable": 115,
+    "name": "credit_cards",
+    "record": {
+      "categoria": "Series.xlsm",
+      "descripcion": "Préstamos mediante tarjeta de créditos otorgados al sector privado",
+      "idVariable": 115,
+      "moneda": "ML",
+      "periodicidad": "D",
+      "primerFechaInformada": "2002-12-31",
+      "tipoSerie": "Saldos",
+      "ultFechaInformada": "2026-09-22",
+      "ultValorInformado": 24072898.0,
+      "unidadExpresion": "En millones de ARS"
+    },
+    "rows": 129
+  },
+  {
     "idVariable": 882,
     "name": "private_credit",
     "record": {

@@ -1,4 +1,16 @@
 {
+  "credit_cards": {
+    "categoria": "Series.xlsm",
+    "descripcion": "Préstamos mediante tarjeta de créditos otorgados al sector privado",
+    "idVariable": 115,
+    "moneda": "ML",
+    "periodicidad": "D",
+    "primerFechaInformada": "2002-12-31",
+    "tipoSerie": "Saldos",
+    "ultFechaInformada": "2026-09-22",
+    "ultValorInformado": 24072898.0,
+    "unidadExpresion": "En millones de ARS"
+  },
   "international_reserves": {
     "categoria": "Principales Variables",
     "descripcion": "Reservas internacionales",

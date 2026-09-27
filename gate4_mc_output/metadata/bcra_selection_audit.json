@@ -1,5 +1,38 @@
 {
-  "credit_cards": [],
+  "credit_cards": [
+    {
+      "record": {
+        "categoria": "Series.xlsm",
+        "descripcion": "Préstamos mediante tarjeta de créditos otorgados al sector privado",
+        "idVariable": 115,
+        "moneda": "ML",
+        "periodicidad": "D",
+        "primerFechaInformada": "2002-12-31",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-22",
+        "ultValorInformado": 24072898.0,
+        "unidadExpresion": "En millones de ARS"
+      },
+      "score": 12,
+      "text": "prestamos mediante tarjeta de creditos otorgados al sector privado | series.xlsm | saldos | d | en millones de ars | ml | 2002-12-31 | 2026-09-22 | 24072898.0"
+    },
+    {
+      "record": {
+        "categoria": "Series.xlsm",
+        "descripcion": "Préstamos en tarjeta de créditos otorgados al sector privado",
+        "idVariable": 123,
+        "moneda": "ME",
+        "periodicidad": "D",
+        "primerFechaInformada": "2002-12-31",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-22",
+        "ultValorInformado": 751.0,
+        "unidadExpresion": "En millones de USD"
+      },
+      "score": 12,
+      "text": "prestamos en tarjeta de creditos otorgados al sector privado | series.xlsm | saldos | d | en millones de usd | me | 2002-12-31 | 2026-09-22 | 751.0"
+    }
+  ],
   "international_reserves": [
     {
       "record": {
