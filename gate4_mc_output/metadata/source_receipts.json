@@ -1,0 +1,128 @@
+[
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:09.603270+00:00",
+    "sha256": "999d44bbb2f8cd8aded6e0122232f3c72a982fa50ad80b8dc05d61a98f3acf6d",
+    "size": 2538,
+    "source": "series:ipc_index",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:10.323599+00:00",
+    "sha256": "ef78b80e48fb69f6f6c29e9bc2862d4cb897894b1f0bf78f1c00f243aae41cb6",
+    "size": 3929,
+    "source": "series:emae_index",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=143.3_NO_PR_2004_A_21&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:11.056316+00:00",
+    "sha256": "e66647aae36713d2b1fa7462ea5342a5131e2aba60ec6d824850891b3be149c6",
+    "size": 3934,
+    "source": "series:manufacturing_index",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=11.3_VMASD_2004_M_23&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:11.825635+00:00",
+    "sha256": "5c919def4952200a8bfb3bd441f27ba3ad0871685438dcc2644d65fbbfd24302",
+    "size": 2374,
+    "source": "series:nominal_fx",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=168.1_T_CAMBIOR_D_0_0_26&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none&collapse=month&collapse_aggregation=end_of_period"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:12.598274+00:00",
+    "sha256": "da369411856deef0813bdf44e82edf85aae0cf9c93b1883568fbfd03ba547a46",
+    "size": 3664,
+    "source": "series:itcrm",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=116.4_TCRZE_2015_D_36_4&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none&collapse=month&collapse_aggregation=end_of_period"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:13.306948+00:00",
+    "sha256": "8e296e4253f23f1932055b1d268cbd438e98279c571147aaba758b3b5baf6539",
+    "size": 2885,
+    "source": "series:trade_balance",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=74.3_ISC_0_M_19&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:14.027443+00:00",
+    "sha256": "76fd138e13d69e6a59c391ebc11311a198771ec21eae3423ba5196e686b78bac",
+    "size": 2647,
+    "source": "series:policy_rate",
+    "status": "OK",
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=89.2_TS_INTE_PM_0_D_16&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none&collapse=month&collapse_aggregation=avg"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:15.324959+00:00",
+    "sha256": "befb2079480a068a8c5eb12397720a76f80eb2f54a17345ed9c44d523e56a94a",
+    "size": 347912,
+    "source": "bcra:catalog",
+    "status": "OK",
+    "url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?limit=1000&offset=0"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:15.780126+00:00",
+    "sha256": "c1f6551744ea89d3f8de32cf5d0c524cadc66acc77d6d6b8b4e4ec6c43f389bd",
+    "size": 131927,
+    "source": "bcra:personal_loans",
+    "status": "OK",
+    "url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/114?desde=2016-01-01&hasta=2026-09-27&limit=3000&offset=0"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:15.985446+00:00",
+    "sha256": "7d72658d9c5a396820e4b6089bf04cd29b3392d99bab39f30eae8b9d6592cf3b",
+    "size": 6639,
+    "source": "bcra:private_credit",
+    "status": "OK",
+    "url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/882?desde=2016-01-01&hasta=2026-09-27&limit=3000&offset=0"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:16.281605+00:00",
+    "sha256": "5032f58badf7e1f343013ee66c8db5fbbbbd106f09fe8469c1e0cad7c7b9db3c",
+    "size": 128009,
+    "source": "bcra:international_reserves",
+    "status": "OK",
+    "url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?desde=2016-01-01&hasta=2026-09-27&limit=3000&offset=0"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:20.836211+00:00",
+    "sha256": "963b167484ea67625b7e88f60de79c53b158da58e517556964ecf3b8dde1bd19",
+    "size": 61191223,
+    "source": "sube:2024",
+    "status": "OK",
+    "url": "https://archivos-datos.transporte.gob.ar/upload/Dat_Ab_Usos/dat-ab-usos-2024.csv"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:28.554610+00:00",
+    "sha256": "c08b8621acfefbcabb4939bf881a3575da9ee57fe9442cfb9aa3d9a8722a6eb8",
+    "size": 65123389,
+    "source": "sube:2025",
+    "status": "OK",
+    "url": "https://archivos-datos.transporte.gob.ar/upload/Dat_Ab_Usos/dat-ab-usos-2025.csv"
+  },
+  {
+    "note": null,
+    "retrieved_at": "2026-09-27T19:16:36.018516+00:00",
+    "sha256": "e92a8382163869dd82f842b657d3d70c4f82b4cddf0cdc7c39e7ecfc6cc139b2",
+    "size": 51542096,
+    "source": "sube:2026",
+    "status": "OK",
+    "url": "https://archivos-datos.transporte.gob.ar/upload/Dat_Ab_Usos/dat-ab-usos-2026.csv"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "credit_cards": [],
+  "international_reserves": [
+    {
+      "record": {
+        "categoria": "Principales Variables",
+        "descripcion": "Reservas internacionales",
+        "idVariable": 1,
+        "moneda": "ME",
+        "periodicidad": "D",
+        "primerFechaInformada": "1996-01-03",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-23",
+        "ultValorInformado": 48928.0,
+        "unidadExpresion": "En millones de USD"
+      },
+      "score": 12,
+      "text": "reservas internacionales | principales variables | saldos | d | en millones de usd | me | 1996-01-03 | 2026-09-23 | 48928.0"
+    },
+    {
+      "record": {
+        "categoria": "Series.xlsm",
+        "descripcion": "Reservas internacionales (excluidas asignaciones deg 2009)",
+        "idVariable": 74,
+        "moneda": "ME",
+        "periodicidad": "D",
+        "primerFechaInformada": "2003-01-02",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-22",
+        "ultValorInformado": 49412.0,
+        "unidadExpresion": "En millones de USD"
+      },
+      "score": 12,
+      "text": "reservas internacionales (excluidas asignaciones deg 2009) | series.xlsm | saldos | d | en millones de usd | me | 2003-01-02 | 2026-09-22 | 49412.0"
+    }
+  ],
+  "m3": [],
+  "personal_loans": [
+    {
+      "record": {
+        "categoria": "Series.xlsm",
+        "descripcion": "Préstamos personales otorgados al sector privado",
+        "idVariable": 114,
+        "moneda": "ML",
+        "periodicidad": "D",
+        "primerFechaInformada": "2002-12-31",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-22",
+        "ultValorInformado": 22025267.0,
+        "unidadExpresion": "En millones de ARS"
+      },
+      "score": 13,
+      "text": "prestamos personales otorgados al sector privado | series.xlsm | saldos | d | en millones de ars | ml | 2002-12-31 | 2026-09-22 | 22025267.0"
+    },
+    {
+      "record": {
+        "categoria": "Series.xlsm",
+        "descripcion": "Préstamos personales otorgados al sector privado",
+        "idVariable": 122,
+        "moneda": "ME",
+        "periodicidad": "D",
+        "primerFechaInformada": "2002-12-31",
+        "tipoSerie": "Saldos",
+        "ultFechaInformada": "2026-09-22",
+        "ultValorInformado": 4.0,
+        "unidadExpresion": "En millones de USD"
+      },
+      "score": 12,
+      "text": "prestamos personales otorgados al sector privado | series.xlsm | saldos | d | en millones de usd | me | 2002-12-31 | 2026-09-22 | 4.0"
+    }
+  ],
+  "private_credit": [
+    {
+      "record": {
+        "categoria": "Préstamos por tipo de titular",
+        "descripcion": "Total de préstamos al sector privado no financiero",
+        "idVariable": 882,
+        "moneda": "MEyML",
+        "periodicidad": "M",
+        "primerFechaInformada": "1999-12-31",
+        "tipoSerie": "Saldos a fin de mes",
+        "ultFechaInformada": "2026-07-31",
+        "ultValorInformado": 141500629.0,
+        "unidadExpresion": "En miles de ARS"
+      },
+      "score": 14,
+      "text": "total de prestamos al sector privado no financiero | prestamos por tipo de titular | saldos a fin de mes | m | en miles de ars | meyml | 1999-12-31 | 2026-07-31 | 141500629.0"
+    },
+    {
+      "record": {
+        "categoria": "Préstamos por tipo de titular",
+        "descripcion": "Total de préstamos al sector privado no financiero",
+        "idVariable": 893,
+        "moneda": "ML",
+        "periodicidad": "M",
+        "primerFechaInformada": "1999-12-31",
+        "tipoSerie": "Saldos a fin de mes",
+        "ultFechaInformada": "2026-07-31",
+        "ultValorInformado": 104315295.0,
+        "unidadExpresion": "En miles de ARS"
+      },
+      "score": 14,
+      "text": "total de prestamos al sector privado no financiero | prestamos por tipo de titular | saldos a fin de mes | m | en miles de ars | ml | 1999-12-31 | 2026-07-31 | 104315295.0"
+    },
+    {
+      "record": {
+        "categoria": "Préstamos por tipo de titular",
+        "descripcion": "Total de préstamos al sector privado no financiero",
+        "idVariable": 904,
+        "moneda": "ME",
+        "periodicidad": "M",
+        "primerFechaInformada": "1999-12-31",
+        "tipoSerie": "Saldos a fin de mes",
+        "ultFechaInformada": "2026-07-31",
+        "ultValorInformado": 37185334.0,
+        "unidadExpresion": "En miles de ARS"
+      },
+      "score": 14,
+      "text": "total de prestamos al sector privado no financiero | prestamos por tipo de titular | saldos a fin de mes | m | en miles de ars | me | 1999-12-31 | 2026-07-31 | 37185334.0"
+    }
+  ]
+}

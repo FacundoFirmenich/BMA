@@ -1,0 +1,152 @@
+[
+  {
+    "bytes": 778,
+    "path": "GATE4_REPORT.md",
+    "sha256": "84f65b1c178d3c2c542ff37edec7fd84f7be8029909db941a27fb8dcf9f90698"
+  },
+  {
+    "bytes": 2,
+    "path": "artifacts/errors.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "bytes": 5252,
+    "path": "artifacts/gamma_analogue.csv",
+    "sha256": "42430fb1c2cf573d9be647a1a6211f506824ec33ef6f59dd625cca5f56580fcc"
+  },
+  {
+    "bytes": 14432,
+    "path": "artifacts/gamma_analogue.json",
+    "sha256": "411c00c00fce74b3491103034db1f384e185405cc700152f54b1d798d5574c6d"
+  },
+  {
+    "bytes": 2915,
+    "path": "artifacts/gamma_direct_mc.csv",
+    "sha256": "e174057dcc91e17d16d5fee0cd5558293a140529bcaebcc46fecc965e7850a8d"
+  },
+  {
+    "bytes": 7937,
+    "path": "artifacts/gamma_direct_mc.json",
+    "sha256": "334abfe85039357e1bfa607e8c192484471e93baa983745209253ef1171b223e"
+  },
+  {
+    "bytes": 620,
+    "path": "artifacts/zpost_data_audit.json",
+    "sha256": "8ebe3c41463d033e261d6f4a9d07f172247ea5104c571e86f075e11ea5658a47"
+  },
+  {
+    "bytes": 17042,
+    "path": "data/macro_monthly.csv",
+    "sha256": "60f8cdf4467a5c6c453585e1f4fae185fa5e596da9d890210217d2769cb2cec9"
+  },
+  {
+    "bytes": 19088,
+    "path": "data/macro_monthly_with_shock.csv",
+    "sha256": "39995f5a4ab22c6e7ea8eb09ea0dc9ee465a61a57651db4474840b41080f0ae5"
+  },
+  {
+    "bytes": 709,
+    "path": "data/sube_monthly_national.csv",
+    "sha256": "4d0527d5ea172ab0e0a66c1585790755ac500c0f6e950af2395d0fcffc23582d"
+  },
+  {
+    "bytes": 35201,
+    "path": "data/sube_monthly_province.csv",
+    "sha256": "536509ae00088be4bd613847277872eb4cfbf18eea2d3b7da41bfe68a26000c6"
+  },
+  {
+    "bytes": 1189,
+    "path": "metadata/bcra_selected.json",
+    "sha256": "4564cbbb9ce8d1a1292d39f848fce7e132d6f059d0f9ef6b42a6d681c8ee9d64"
+  },
+  {
+    "bytes": 4595,
+    "path": "metadata/bcra_selection_audit.json",
+    "sha256": "5d0b9af54196921c6354a0cce97d7bc98effb4877ef8f3d9543b94e1e1c8fa46"
+  },
+  {
+    "bytes": 2295,
+    "path": "metadata/series_manifest.json",
+    "sha256": "762d035cd11a59c69e855346898d0b9099fbb4b4c83bd994c449178700465581"
+  },
+  {
+    "bytes": 103,
+    "path": "metadata/shock_contract.json",
+    "sha256": "c6c239ccf6807c0dfa24d0924a31507ce7b344655d8729c3d62638b346b93dad"
+  },
+  {
+    "bytes": 5296,
+    "path": "metadata/source_receipts.json",
+    "sha256": "eea3f9a20abe84d8d72c408257ca5bd27235323c87f4adf7ef2fa4849f7e744d"
+  },
+  {
+    "bytes": 428107,
+    "path": "raw/bcra_catalog.json",
+    "sha256": "55e97dd3be42307dc5c604e26c5ed4804d8e9054b38de2ac6e3d9c8fed7f75df"
+  },
+  {
+    "bytes": 211616,
+    "path": "raw/bcra_international_reserves.json",
+    "sha256": "9918853577b1490c8016899e8f262d02e927782259244eab0b36c547b9818843"
+  },
+  {
+    "bytes": 215502,
+    "path": "raw/bcra_personal_loans.json",
+    "sha256": "44a13ade61c03fde5e63c462d0a90ed065bcfdd7b509af1a80a9176cc463a1db"
+  },
+  {
+    "bytes": 10790,
+    "path": "raw/bcra_private_credit.json",
+    "sha256": "41289ef5390cb4e257447aa0773d6a1695cf6fe1dea1fb61c5f077f38517b265"
+  },
+  {
+    "bytes": 3929,
+    "path": "raw/emae_index.csv",
+    "sha256": "ef78b80e48fb69f6f6c29e9bc2862d4cb897894b1f0bf78f1c00f243aae41cb6"
+  },
+  {
+    "bytes": 2538,
+    "path": "raw/ipc_index.csv",
+    "sha256": "999d44bbb2f8cd8aded6e0122232f3c72a982fa50ad80b8dc05d61a98f3acf6d"
+  },
+  {
+    "bytes": 3664,
+    "path": "raw/itcrm.csv",
+    "sha256": "da369411856deef0813bdf44e82edf85aae0cf9c93b1883568fbfd03ba547a46"
+  },
+  {
+    "bytes": 3934,
+    "path": "raw/manufacturing_index.csv",
+    "sha256": "e66647aae36713d2b1fa7462ea5342a5131e2aba60ec6d824850891b3be149c6"
+  },
+  {
+    "bytes": 2374,
+    "path": "raw/nominal_fx.csv",
+    "sha256": "5c919def4952200a8bfb3bd441f27ba3ad0871685438dcc2644d65fbbfd24302"
+  },
+  {
+    "bytes": 2647,
+    "path": "raw/policy_rate.csv",
+    "sha256": "76fd138e13d69e6a59c391ebc11311a198771ec21eae3423ba5196e686b78bac"
+  },
+  {
+    "bytes": 61191223,
+    "path": "raw/sube_2024.csv",
+    "sha256": "963b167484ea67625b7e88f60de79c53b158da58e517556964ecf3b8dde1bd19"
+  },
+  {
+    "bytes": 65123389,
+    "path": "raw/sube_2025.csv",
+    "sha256": "c08b8621acfefbcabb4939bf881a3575da9ee57fe9442cfb9aa3d9a8722a6eb8"
+  },
+  {
+    "bytes": 51542096,
+    "path": "raw/sube_2026.csv",
+    "sha256": "e92a8382163869dd82f842b657d3d70c4f82b4cddf0cdc7c39e7ecfc6cc139b2"
+  },
+  {
+    "bytes": 2885,
+    "path": "raw/trade_balance.csv",
+    "sha256": "8e296e4253f23f1932055b1d268cbd438e98279c571147aaba758b3b5baf6539"
+  }
+]

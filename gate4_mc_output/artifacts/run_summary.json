@@ -1,0 +1,24 @@
+{
+  "analogue_estimable_cells": 15,
+  "created_at": "2026-09-27T19:16:37.046358+00:00",
+  "direct_mc_estimable_cells": 0,
+  "errors": [],
+  "panel_columns": [
+    "date",
+    "ipc_index",
+    "emae_index",
+    "manufacturing_index",
+    "nominal_fx",
+    "itcrm",
+    "trade_balance",
+    "policy_rate",
+    "personal_loans",
+    "private_credit",
+    "international_reserves",
+    "sube_trips"
+  ],
+  "panel_rows": 129,
+  "shock_nonmissing": 101,
+  "verdict": "PASS_WITH_DIRECT_MC_IDENTIFICATION_VETO",
+  "version": "0.2.0"
+}
