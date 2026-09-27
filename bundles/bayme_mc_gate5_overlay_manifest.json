@@ -1,0 +1,31 @@
+{
+  "bytes": 33050,
+  "sha256": "d5ffc917bd2f70edc20bc974ea703ae2880f917c8021e1d30803d7a93f30ddef",
+  "files": [
+    "pyproject.toml",
+    "README.md",
+    "src/bayme_mc/privacy.py",
+    "src/bayme_mc/field_buffer.py",
+    "src/bayme_mc/prospective.py",
+    "src/bayme_mc/assignment.py",
+    "src/bayme_mc/rounds.py",
+    "src/bayme_mc/adapters/official_fuel.py",
+    "schemas/assignment_event.schema.json",
+    "schemas/exposure_event.schema.json",
+    "schemas/price_quantity_event.schema.json",
+    "schemas/supply_credit_event.schema.json",
+    "schemas/independent_outcome_event.schema.json",
+    "schemas/authority_receipt_v1.schema.json",
+    "schemas/privacy_impact_receipt_v1.schema.json",
+    "config/gate5_prospective.yaml",
+    "experiments/gate5_preregistration.md",
+    "docs/privacy_impact_template.md",
+    "scripts/run_gate5_round0.py",
+    "scripts/freeze_gate5.py",
+    "scripts/build_gate5_report.py",
+    "tests/test_gate5_prospective.py",
+    "tests/test_gate5_field_buffer.py",
+    "tests/test_gate5_official_adapter.py",
+    ".github/workflows/mc_gate5_prospective.yml"
+  ]
+}
