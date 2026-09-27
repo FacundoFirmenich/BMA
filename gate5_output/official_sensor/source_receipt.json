@@ -1,0 +1,7 @@
+{
+  "source_url": "https://datos.energia.gob.ar/dataset/1c181390-5045-475e-94dc-410429be4b17/resource/80ac25de-a44a-4445-9215-090cf55cfda5/download/precios-en-surtidor-resolucin-3142016.csv",
+  "source_hash": "81da5780c9f194f200302574b2a65fdbc463dde66271cba12ee195fbe267a081",
+  "bytes": 9274402,
+  "retrieved_at": "2026-09-27T20:00:19.090121+00:00",
+  "selection_reason": "pinned_direct_official_energy_csv"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "bayme_mc.gate5_validation.v1",
+  "version": "0.3.0",
+  "status": "INSTRUMENTATION_CANDIDATE",
+  "authority": "NONE",
+  "verdict": "PASS_WITH_NO_POLICY_EXPOSURE",
+  "tests": "..............................                                           [100%]",
+  "round0_direct_mc_status": "PRIVACY_GATE_FAILED",
+  "official_sensor": {
+    "source_url": "https://datos.energia.gob.ar/dataset/1c181390-5045-475e-94dc-410429be4b17/resource/80ac25de-a44a-4445-9215-090cf55cfda5/download/precios-en-surtidor-resolucin-3142016.csv",
+    "source_hash": "81da5780c9f194f200302574b2a65fdbc463dde66271cba12ee195fbe267a081",
+    "raw_rows": 36667,
+    "transformed_events": 11418,
+    "contexts": 1126,
+    "products": 5,
+    "coverage_start": "2016-06-01",
+    "coverage_end": "2026-09-27",
+    "selection_reason": "pinned_direct_official_energy_csv"
+  },
+  "freeze": {
+    "freeze_id": "freeze-72705149-8399-4c33-8e72-08620b79674d",
+    "manifest_hash": "da80d4c9564d76827bc0a117828216b9f88b5ad57cf0f73c909676847273ebc6",
+    "frozen_files": 66,
+    "status": "VERIFIED"
+  },
+  "non_claims": [
+    "No direct M_C causal effect has been estimated.",
+    "Public fuel price and volume observations are sensor calibration only.",
+    "No personal data, assignment or policy exposure was manufactured.",
+    "No model output authorizes implementation."
+  ]
+}

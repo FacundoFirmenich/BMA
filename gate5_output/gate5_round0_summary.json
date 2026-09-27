@@ -1,0 +1,35 @@
+{
+  "schema": "bayme_mc.gate5_round0_summary.v1",
+  "created_at": "2026-09-27T20:00:29.774862+00:00",
+  "sensor_summary": {
+    "source_url": "https://datos.energia.gob.ar/dataset/1c181390-5045-475e-94dc-410429be4b17/resource/80ac25de-a44a-4445-9215-090cf55cfda5/download/precios-en-surtidor-resolucin-3142016.csv",
+    "source_hash": "81da5780c9f194f200302574b2a65fdbc463dde66271cba12ee195fbe267a081",
+    "raw_rows": 36667,
+    "transformed_events": 11418,
+    "contexts": 1126,
+    "products": 5,
+    "coverage_start": "2016-06-01",
+    "coverage_end": "2026-09-27",
+    "selection_reason": "pinned_direct_official_energy_csv"
+  },
+  "field_buffer_head": "376f4cfe576032a496053541baa72b1fd17d0c37f9370a22f6f044e9185f9df6",
+  "direct_mc_decision": {
+    "status": "PRIVACY_GATE_FAILED",
+    "state": "0",
+    "evaluated_at": "2026-09-27T20:00:29.666829Z",
+    "reasons": [
+      "missing_or_expired_privacy_impact_receipt"
+    ],
+    "metrics": {
+      "assignments": 0,
+      "exposures": 0,
+      "outcomes": 0
+    },
+    "causal_authority": false,
+    "policy_authority": false
+  },
+  "expected_direct_mc_status": "PRIVACY_GATE_FAILED",
+  "interpretation": "public sensor calibration only; no personal or policy exposure data",
+  "authority": "NONE",
+  "candidate_only": true
+}

@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "result": {
+    "id": "80ac25de-a44a-4445-9215-090cf55cfda5",
+    "dataset_id": "1c181390-5045-475e-94dc-410429be4b17",
+    "url": "https://datos.energia.gob.ar/dataset/1c181390-5045-475e-94dc-410429be4b17/resource/80ac25de-a44a-4445-9215-090cf55cfda5/download/precios-en-surtidor-resolucin-3142016.csv",
+    "format": "CSV",
+    "publisher": "Secretaría de Energía de la Nación"
+  },
+  "resolution_note": "direct official Energy dataset URL; CKAN catalogue endpoints were unavailable during the frozen run"
+}

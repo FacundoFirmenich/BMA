@@ -1,0 +1,26 @@
+{
+  "candidate_only": true,
+  "decision": {
+    "causal_authority": false,
+    "evaluated_at": "2026-09-27T20:00:29.666829Z",
+    "metrics": {
+      "assignments": 0,
+      "exposures": 0,
+      "outcomes": 0
+    },
+    "policy_authority": false,
+    "reasons": [
+      "missing_or_expired_privacy_impact_receipt"
+    ],
+    "state": "0",
+    "status": "PRIVACY_GATE_FAILED"
+  },
+  "direct_mc_effect_estimated": false,
+  "event_counts": {
+    "price_quantity": 11418
+  },
+  "execution_authority": false,
+  "ledger_head": "376f4cfe576032a496053541baa72b1fd17d0c37f9370a22f6f044e9185f9df6",
+  "result_hash": "631304b9ede22cd1034c311b96c089ca48cc180594dc10d2906cd252f441df14",
+  "schema": "bayme_mc.shadow_round_close.v1"
+}

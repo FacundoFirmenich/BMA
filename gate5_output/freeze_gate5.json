@@ -1,0 +1,343 @@
+{
+  "schema": "bayme_mc.gate5_freeze.v1",
+  "freeze_id": "freeze-72705149-8399-4c33-8e72-08620b79674d",
+  "created_at": "2026-09-27T20:00:29.975874+00:00",
+  "manifest_hash": "da80d4c9564d76827bc0a117828216b9f88b5ad57cf0f73c909676847273ebc6",
+  "frozen_files": 66,
+  "files": [
+    {
+      "path": "src/bayme_mc/__init__.py",
+      "bytes": 373,
+      "sha256": "27d4b751460ffad1e7e4f8c37e1f32c8ebea48674486d690176bf0cecadf8915"
+    },
+    {
+      "path": "src/bayme_mc/adapters/official_fuel.py",
+      "bytes": 10823,
+      "sha256": "6bc0ceaeb3b1bbb45eacc0838d039df1e943ae5631a26fa504cb21754894256e"
+    },
+    {
+      "path": "src/bayme_mc/assignment.py",
+      "bytes": 2855,
+      "sha256": "d66d8589031aeb7462e943c5b05663d29c53957aa9b368baf517e43ba933a57e"
+    },
+    {
+      "path": "src/bayme_mc/crypto.py",
+      "bytes": 1141,
+      "sha256": "d6f68563e599e1a7244907e2e3c6e5a6a3ce1ed3cf9cfeda6e5348635fb19012"
+    },
+    {
+      "path": "src/bayme_mc/enums.py",
+      "bytes": 1177,
+      "sha256": "3064e5fcd3c671c8ebc59d9dc2f0471dbab0560e5dd49350f7466070948530db"
+    },
+    {
+      "path": "src/bayme_mc/errors.py",
+      "bytes": 642,
+      "sha256": "a38e2c1ab103f5bd93934d37015f74752ca1dde8dc66757afd22ffc20cf44997"
+    },
+    {
+      "path": "src/bayme_mc/field_buffer.py",
+      "bytes": 7101,
+      "sha256": "8ea396c75fada2be15133582a769c22d2396c2bfc0d30dc2ba2d988dd5e5a8f3"
+    },
+    {
+      "path": "src/bayme_mc/ledger.py",
+      "bytes": 3454,
+      "sha256": "f16339bb65db350c59436792c6609791eaf6d28fde80ccee3b2a4731c2aa5035"
+    },
+    {
+      "path": "src/bayme_mc/privacy.py",
+      "bytes": 1931,
+      "sha256": "802dc3dfbd9a8e13a33f1f97de54e516cc15383a71c5cc71d5d0aa2c6dcc0bc8"
+    },
+    {
+      "path": "src/bayme_mc/prospective.py",
+      "bytes": 14978,
+      "sha256": "b7608a676e02abc0e045a962f6ef6edff3baaf8f9c82f78c8c58eb3183d5c9cd"
+    },
+    {
+      "path": "src/bayme_mc/rounds.py",
+      "bytes": 2239,
+      "sha256": "1c22982f3ba06540b6434b1738e5665acbfb190d3c8cafd8b70619873c0ca649"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/PKG-INFO",
+      "bytes": 8643,
+      "sha256": "68af9957b884aabbc19dfa11e3db525d897844903679c3768b1fc0029bf9e603"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/SOURCES.txt",
+      "bytes": 1133,
+      "sha256": "ea03996696e7fb2cef0ae8f41838ed3992a09a3f5819a0d3ac8e552dd0a22832"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/entry_points.txt",
+      "bytes": 47,
+      "sha256": "5b01934c327bfd46b075976eaaeb356dcbd7e88837f63785580accb0f55b0f6c"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/requires.txt",
+      "bytes": 113,
+      "sha256": "aca4c302b34ab3e1b4de428dfc81e9f6864fc5743901e93f4eed68c5fd22207b"
+    },
+    {
+      "path": "src/bayme_mc.egg-info/top_level.txt",
+      "bytes": 13,
+      "sha256": "e5bdf082580ec32b08b90f5da9e2f3dbe75a7ff8cbb77b8c38fc1ef510161926"
+    },
+    {
+      "path": "src/bma/__init__.py",
+      "bytes": 53,
+      "sha256": "af35f4870b64f6e7f4b58e5d9c885ea81e175cdbb6a12d35dfe63ad7798873b1"
+    },
+    {
+      "path": "src/bma/cli.py",
+      "bytes": 1671,
+      "sha256": "33301b01dde7492d4845305d0ce9327f77ce24effb45f06f5628bc9c9c665c6b"
+    },
+    {
+      "path": "src/bma/connectors/__init__.py",
+      "bytes": 72,
+      "sha256": "7155604a82be53ef11d22ecb20d81f796abb3f2f11d6cf9c288b10893dc317a0"
+    },
+    {
+      "path": "src/bma/connectors/mercabarna_flor.py",
+      "bytes": 12968,
+      "sha256": "1f00892a1382661cf8583ba894aafdc00eddd749bf68dd461a365a8db2160fb5"
+    },
+    {
+      "path": "src/bma/contracts.py",
+      "bytes": 3652,
+      "sha256": "a47005cbac83af3381da3e09cb0eab968421333dec5fcaf05b135fee47d1ad27"
+    },
+    {
+      "path": "src/bma/custody.py",
+      "bytes": 3028,
+      "sha256": "4ce765e7f0e86d37040561091bc5376fbe9457cfe87aa272f3c4b5812b6b483d"
+    },
+    {
+      "path": "src/bma/evidence.py",
+      "bytes": 1942,
+      "sha256": "37228c4a2aa5ade11c46454d2d058a7299ad3cdf7fcf65a319bc6850caec1d96"
+    },
+    {
+      "path": "src/bma/experiments/__init__.py",
+      "bytes": 79,
+      "sha256": "57ede173e551cf190313ec5e998597838453043d31e3e141d3a4201b21f0207f"
+    },
+    {
+      "path": "src/bma/experiments/mercabarna_flor_v0_4_1.py",
+      "bytes": 34104,
+      "sha256": "521779975c94a04fe15d0c6ef0c80ca779161ea83c9f9f3e782d4673647b60c8"
+    },
+    {
+      "path": "src/bma/experiments/mercabarna_flor_v0_5_0.py",
+      "bytes": 25692,
+      "sha256": "142f14e235b54236417e6dd02d242c977c98d1735a9621ccc86a1bc55e557388"
+    },
+    {
+      "path": "schemas/assignment_event.schema.json",
+      "bytes": 1919,
+      "sha256": "2a314d44ad92d0416a4102f492252c7ea1ef0a5f983a81e7777188ae8a8dbf7e"
+    },
+    {
+      "path": "schemas/authority_receipt_v1.schema.json",
+      "bytes": 1026,
+      "sha256": "5937c87f77514995896a0c74ca7b1a2214a891b3f1f3606b7947283c32e07532"
+    },
+    {
+      "path": "schemas/exposure_event.schema.json",
+      "bytes": 2157,
+      "sha256": "b8645502e29ac5c248874fc48170a9ac0b704b11c87b2f8bc24675dca83dfd75"
+    },
+    {
+      "path": "schemas/independent_outcome_event.schema.json",
+      "bytes": 1790,
+      "sha256": "b7df21f6dc37b49c6b0bcd40e677426a4fa18718ef2767f9e69662967b8b4d97"
+    },
+    {
+      "path": "schemas/price_quantity_event.schema.json",
+      "bytes": 1839,
+      "sha256": "5ce4617a9392966b5e76d6c6f37c37a9b914f97cf830701c8886f4b15db1bcb6"
+    },
+    {
+      "path": "schemas/privacy_impact_receipt_v1.schema.json",
+      "bytes": 1624,
+      "sha256": "979ee942fdb9e5d85dbce5e8f3890ee4e1497cfcbf495feab42fe55389d6e7ac"
+    },
+    {
+      "path": "schemas/supply_credit_event.schema.json",
+      "bytes": 1567,
+      "sha256": "5774e646876756ff3d8ac7db3655ea5222f7ef486a01e6c348a7f87cde268c1f"
+    },
+    {
+      "path": "config/gate5_prospective.yaml",
+      "bytes": 1076,
+      "sha256": "b8d31623cf4d2e2e567ca22c9683ace925e69aca2ac32140ec97ba1267d4288b"
+    },
+    {
+      "path": "experiments/gate5_preregistration.md",
+      "bytes": 1641,
+      "sha256": "e8555a05bd1a6e47908ea121ffb343bf65d975857d4cdb72847fed27b66e55af"
+    },
+    {
+      "path": "docs/BIND_2026_POSITION_ES.md",
+      "bytes": 2075,
+      "sha256": "86c03c483d76fb3228da8939f05590a20a0148b436bc63090118edca002a3cd8"
+    },
+    {
+      "path": "docs/EVIDENCE_BOUNDARY.md",
+      "bytes": 1502,
+      "sha256": "c0780bd7f605ec43088d11fee74630a852d577dfe9eebfffef22506c7cd25adc"
+    },
+    {
+      "path": "docs/MERCABARNA_FLOR_V0_5_0_RESULT_ES.md",
+      "bytes": 3346,
+      "sha256": "cf488a9edc6963ec8145b21497a8459e20681bc6329c7a05a8d1bc9dea4651c2"
+    },
+    {
+      "path": "docs/NAMING_AND_LINEAGE.md",
+      "bytes": 1548,
+      "sha256": "acbad82c9b4202a5f2edda0e599bba3b1b77a601c7ce6cae8afc7350b7f8684d"
+    },
+    {
+      "path": "docs/SOURCE_THREAD_AUDIT_ES.md",
+      "bytes": 1838,
+      "sha256": "56b6c5fd931d372f4c8e7c0bf5e025f90cf9f87cc517eba8ebe3700395d31541"
+    },
+    {
+      "path": "docs/privacy_impact_template.md",
+      "bytes": 1730,
+      "sha256": "48fef9903b7b11b1149e94591c86b87cff0d71853fbecdb37f783aefdfd27e06"
+    },
+    {
+      "path": "scripts/build_gate5_report.py",
+      "bytes": 4421,
+      "sha256": "583579e33d5ced8071c908b9936f2fb5ee2a466c0e61e53413cb83bca124e448"
+    },
+    {
+      "path": "scripts/freeze_gate5.py",
+      "bytes": 2220,
+      "sha256": "3d517dac233026ea616e5b91b429e16b7eb628757657cac27bdf3c6fbe328867"
+    },
+    {
+      "path": "scripts/run_gate5_round0.py",
+      "bytes": 2466,
+      "sha256": "7c99a459b5645d6a58fed28e15888037333189066ef4c40c8db4157b12a62ac6"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "bytes": 1091,
+      "sha256": "ee9760c04e45ca82bc1bbe1dec1ff9fd842e0f7b91eceb02789c7d1da57fddd1"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "bytes": 1224,
+      "sha256": "ac237462d98fffd2802584131b7d63471430ddcabf04555cbd1d095dbb6ae41e"
+    },
+    {
+      "path": "tests/test_custody.py",
+      "bytes": 955,
+      "sha256": "77a2ddcb08f7f4cdabed2f0fb39b17196dedca588ddb16d3525dd606164df65e"
+    },
+    {
+      "path": "tests/test_evidence.py",
+      "bytes": 719,
+      "sha256": "dc239672f8d45777f617a12ad24b4ca9bd917a8220390d89b794dfea30e11272"
+    },
+    {
+      "path": "tests/test_evidence_addendum.py",
+      "bytes": 393,
+      "sha256": "faf0a245c6f7a0568a5f252bd683973ee4a98cbc56fc16af686c4446185fc893"
+    },
+    {
+      "path": "tests/test_gate5_field_buffer.py",
+      "bytes": 1653,
+      "sha256": "f6b3782fe5cc79c60d155a2a559263ff7339d098676f130d1d1a0e856ebdc360"
+    },
+    {
+      "path": "tests/test_gate5_official_adapter.py",
+      "bytes": 514,
+      "sha256": "1f8affda54b7f6b85fa39b83d8d088a34eb814e58a0fe06f4356c2ddcf39f2f1"
+    },
+    {
+      "path": "tests/test_gate5_prospective.py",
+      "bytes": 5806,
+      "sha256": "55197e934ac68e8d43a8c76affa265282e33486cdc75500221da5a6ae76362ad"
+    },
+    {
+      "path": "tests/test_mercabarna_flor_connector.py",
+      "bytes": 1266,
+      "sha256": "fdad5fc77bb4303c894e1ee5637d90b950d553ddd61904c027068535e6f8a0c5"
+    },
+    {
+      "path": "tests/test_mercabarna_flor_v0_4_1.py",
+      "bytes": 4148,
+      "sha256": "9d7e6bfd18b2a7cb07dbe6ef1bf95dfd8c645a395548c732b3af125f74660071"
+    },
+    {
+      "path": "tests/test_mercabarna_flor_v0_5_0.py",
+      "bytes": 1014,
+      "sha256": "3e481a1495a21abbde7ad40e36ba6d1f93872616afb4fba14ec8db42d188178e"
+    },
+    {
+      "path": "gate5_output/calibration_events.jsonl",
+      "bytes": 9997462,
+      "sha256": "a4b8acf52a354bbe8cb5fb0302be56f6fa597e69f20cc642d3f1d324821ff60b"
+    },
+    {
+      "path": "gate5_output/calibration_field_buffer.sqlite",
+      "bytes": 10780672,
+      "sha256": "f959a324c641eeccff7e9cabad635528830241fa535e7b131f978777adf692b9"
+    },
+    {
+      "path": "gate5_output/contract_validation_gate5.txt",
+      "bytes": 45,
+      "sha256": "f9829a923f30319f6a6f790548171f14fb9ec8799ba8e1aa15dd930dea57ca96"
+    },
+    {
+      "path": "gate5_output/gate5_round0_summary.json",
+      "bytes": 1282,
+      "sha256": "9cbb7cc00aacb463386eeb4eae9367eaa2be57b1f010dbd76c7eba0446cf40fe"
+    },
+    {
+      "path": "gate5_output/official_sensor/calibration_summary.json",
+      "bytes": 491,
+      "sha256": "a0dcc471d71a240daedb0544738c872586ac4f2694f3a2118add1cbb238186ce"
+    },
+    {
+      "path": "gate5_output/official_sensor/package_metadata.json",
+      "bytes": 535,
+      "sha256": "dc73e769c6a92f312547617d959cbe11739f5bd528724b5ace8ecb6386593fec"
+    },
+    {
+      "path": "gate5_output/official_sensor/price_quantity_events.jsonl",
+      "bytes": 6240628,
+      "sha256": "a6d62d8ab5fde9188d662792cf31c38f080f21c7468c2743f4ed6f13286d90bd"
+    },
+    {
+      "path": "gate5_output/official_sensor/source_receipt.json",
+      "bytes": 410,
+      "sha256": "fa7583275ff20f60e3d45a23160cbaa99378cf6a58019a1f2614b0fa5c98d0e5"
+    },
+    {
+      "path": "gate5_output/round0_close.json",
+      "bytes": 720,
+      "sha256": "277ac95af43428c3cc57db219c6e9ce15cac8c04e4995b833fb1546a1ad1e2f4"
+    },
+    {
+      "path": "gate5_output/test_report_gate5.txt",
+      "bytes": 80,
+      "sha256": "a2a3c4b68aa70416fb312e4aaae8e14c352c367fc692b27c4622eb9644d825cf"
+    }
+  ],
+  "authority": "NONE",
+  "candidate_only": true,
+  "direct_mc_effect_estimated": false,
+  "forbidden_retroactive_rewrite": true
+}
