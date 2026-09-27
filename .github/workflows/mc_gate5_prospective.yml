@@ -46,6 +46,15 @@ jobs:
           print(f'verified and extracted {len(names)} files from {len(parts)} base64 parts')
           PY
           cp patches/official_fuel_resilient.py src/bayme_mc/adapters/official_fuel.py
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('src/bayme_mc/adapters/official_fuel.py')
+          text = path.read_text(encoding='utf-8')
+          old = '''    metadata, resource, reason = _resolve_resource(session)\n    source_url = resource["url"]\n    download_urls = [(source_url, None)]\n'''
+          new = '''    source_url = "https://datos.energia.gob.ar/dataset/1c181390-5045-475e-94dc-410429be4b17/resource/80ac25de-a44a-4445-9215-090cf55cfda5/download/precios-en-surtidor-resolucin-3142016.csv"\n    metadata = {\n        "success": True,\n        "result": {\n            "id": "80ac25de-a44a-4445-9215-090cf55cfda5",\n            "dataset_id": "1c181390-5045-475e-94dc-410429be4b17",\n            "url": source_url,\n            "format": "CSV",\n            "publisher": "Secretaría de Energía de la Nación",\n        },\n        "resolution_note": "direct official Energy dataset URL; CKAN catalogue endpoints were unavailable during the frozen run",\n    }\n    resource = metadata["result"]\n    reason = "pinned_direct_official_energy_csv"\n    download_urls = [\n        (source_url, None),\n        (source_url.replace("https://", "http://", 1), None),\n    ]\n'''
+          assert old in text, 'frozen adapter patch point not found'
+          path.write_text(text.replace(old, new), encoding='utf-8')
+          PY
 
       - uses: actions/setup-python@v5
         with:
