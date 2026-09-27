@@ -1,8 +1,8 @@
 {
   "candidate_only": true,
-  "created_at": "2026-09-27T19:19:34.198320+00:00",
+  "created_at": "2026-09-27T19:23:03.354753+00:00",
   "estimability": {
-    "analogue_estimable": 15,
+    "analogue_estimable": 20,
     "analogue_total": 25,
     "direct_mc_estimable": 0,
     "direct_mc_total": 25,

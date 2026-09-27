@@ -1,17 +1,8 @@
 {
-  "analogue_estimable_cells": 15,
-  "created_at": "2026-09-27T19:19:34.335867+00:00",
+  "analogue_estimable_cells": 20,
+  "created_at": "2026-09-27T19:23:03.491963+00:00",
   "direct_mc_estimable_cells": 0,
-  "errors": [
-    {
-      "error": "official search returned no supported series",
-      "source": "registered_employment"
-    },
-    {
-      "error": "official search returned no supported series",
-      "source": "wage_index"
-    }
-  ],
+  "errors": [],
   "panel_columns": [
     "date",
     "ipc_index",
@@ -21,6 +12,8 @@
     "itcrm",
     "trade_balance",
     "policy_rate",
+    "wage_index",
+    "registered_employment_quarterly",
     "personal_loans",
     "credit_cards",
     "private_credit",

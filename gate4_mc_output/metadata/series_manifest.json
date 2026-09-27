@@ -42,6 +42,18 @@
     "rows": 114
   },
   {
+    "aggregation": "native",
+    "id": "149.1_SOR_PRIADO_OCTU_0_25",
+    "name": "wage_index",
+    "rows": 127
+  },
+  {
+    "aggregation": "native",
+    "id": "155.2_TLTAL_S_0_0_5",
+    "name": "registered_employment_quarterly",
+    "rows": 40
+  },
+  {
     "idVariable": 114,
     "name": "personal_loans",
     "record": {

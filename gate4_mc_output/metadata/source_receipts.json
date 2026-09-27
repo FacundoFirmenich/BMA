@@ -1,7 +1,7 @@
 [
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:10.963206+00:00",
+    "retrieved_at": "2026-09-27T19:22:39.720130+00:00",
     "sha256": "999d44bbb2f8cd8aded6e0122232f3c72a982fa50ad80b8dc05d61a98f3acf6d",
     "size": 2538,
     "source": "series:ipc_index",
@@ -10,7 +10,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:11.347772+00:00",
+    "retrieved_at": "2026-09-27T19:22:40.123849+00:00",
     "sha256": "ef78b80e48fb69f6f6c29e9bc2862d4cb897894b1f0bf78f1c00f243aae41cb6",
     "size": 3929,
     "source": "series:emae_index",
@@ -19,7 +19,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:11.734380+00:00",
+    "retrieved_at": "2026-09-27T19:22:40.525792+00:00",
     "sha256": "e66647aae36713d2b1fa7462ea5342a5131e2aba60ec6d824850891b3be149c6",
     "size": 3934,
     "source": "series:manufacturing_index",
@@ -28,7 +28,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:12.119718+00:00",
+    "retrieved_at": "2026-09-27T19:22:40.937378+00:00",
     "sha256": "5c919def4952200a8bfb3bd441f27ba3ad0871685438dcc2644d65fbbfd24302",
     "size": 2374,
     "source": "series:nominal_fx",
@@ -37,7 +37,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:12.509139+00:00",
+    "retrieved_at": "2026-09-27T19:22:41.341318+00:00",
     "sha256": "da369411856deef0813bdf44e82edf85aae0cf9c93b1883568fbfd03ba547a46",
     "size": 3664,
     "source": "series:itcrm",
@@ -46,7 +46,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:12.895038+00:00",
+    "retrieved_at": "2026-09-27T19:22:41.745732+00:00",
     "sha256": "8e296e4253f23f1932055b1d268cbd438e98279c571147aaba758b3b5baf6539",
     "size": 2885,
     "source": "series:trade_balance",
@@ -55,7 +55,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:13.285834+00:00",
+    "retrieved_at": "2026-09-27T19:22:42.148400+00:00",
     "sha256": "76fd138e13d69e6a59c391ebc11311a198771ec21eae3423ba5196e686b78bac",
     "size": 2647,
     "source": "series:policy_rate",
@@ -64,25 +64,25 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:14.558873+00:00",
-    "sha256": "a4e1b99e51d4bdc85660885c3430643e4801157fdd14d3f7db989305190e5af2",
-    "size": 29927,
-    "source": "search:registered_employment",
+    "retrieved_at": "2026-09-27T19:22:42.992351+00:00",
+    "sha256": "eeb44076c8a3256a1039cad53e04711dd50006281e66b13d0fc499bf0f266ed1",
+    "size": 2471,
+    "source": "series:wage_index",
     "status": "OK",
-    "url": "https://apis.datos.gob.ar/series/api/search/?q=empleo+asalariado+registrado+sector+privado&limit=50"
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=149.1_SOR_PRIADO_OCTU_0_25&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:14.981141+00:00",
-    "sha256": "d58f27d9f8f68c3c6507b87ec05e4594c1504c0b6350929cf33d94b110bddc7b",
-    "size": 29095,
-    "source": "search:wage_index",
+    "retrieved_at": "2026-09-27T19:22:43.789645+00:00",
+    "sha256": "349af8096e653e5ed76a7d7d2121558128e365d4afa10a3e769119edeefaab37",
+    "size": 915,
+    "source": "series:registered_employment_quarterly",
     "status": "OK",
-    "url": "https://apis.datos.gob.ar/series/api/search/?q=indice+de+salarios+total+registrado&limit=50"
+    "url": "https://apis.datos.gob.ar/series/api/series/?ids=155.2_TLTAL_S_0_0_5&start_date=2016-01-01&limit=1000&format=csv&header=ids&metadata=none"
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:16.100517+00:00",
+    "retrieved_at": "2026-09-27T19:22:44.905114+00:00",
     "sha256": "befb2079480a068a8c5eb12397720a76f80eb2f54a17345ed9c44d523e56a94a",
     "size": 347912,
     "source": "bcra:catalog",
@@ -91,7 +91,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:16.565399+00:00",
+    "retrieved_at": "2026-09-27T19:22:45.356275+00:00",
     "sha256": "c1f6551744ea89d3f8de32cf5d0c524cadc66acc77d6d6b8b4e4ec6c43f389bd",
     "size": 131927,
     "source": "bcra:personal_loans",
@@ -100,7 +100,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:16.881848+00:00",
+    "retrieved_at": "2026-09-27T19:22:45.672267+00:00",
     "sha256": "0111e66d2e6a1a02fa0e2be5c5b2f4a4e8b5e3dbee88d8bf48010f41d2e95594",
     "size": 132294,
     "source": "bcra:credit_cards",
@@ -109,7 +109,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:17.102459+00:00",
+    "retrieved_at": "2026-09-27T19:22:45.893741+00:00",
     "sha256": "7d72658d9c5a396820e4b6089bf04cd29b3392d99bab39f30eae8b9d6592cf3b",
     "size": 6639,
     "source": "bcra:private_credit",
@@ -118,7 +118,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:17.408113+00:00",
+    "retrieved_at": "2026-09-27T19:22:46.200998+00:00",
     "sha256": "5032f58badf7e1f343013ee66c8db5fbbbbd106f09fe8469c1e0cad7c7b9db3c",
     "size": 128009,
     "source": "bcra:international_reserves",
@@ -127,7 +127,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:22.400710+00:00",
+    "retrieved_at": "2026-09-27T19:22:51.158904+00:00",
     "sha256": "963b167484ea67625b7e88f60de79c53b158da58e517556964ecf3b8dde1bd19",
     "size": 61191223,
     "source": "sube:2024",
@@ -136,7 +136,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:28.090584+00:00",
+    "retrieved_at": "2026-09-27T19:22:57.060058+00:00",
     "sha256": "c08b8621acfefbcabb4939bf881a3575da9ee57fe9442cfb9aa3d9a8722a6eb8",
     "size": 65123389,
     "source": "sube:2025",
@@ -145,7 +145,7 @@
   },
   {
     "note": null,
-    "retrieved_at": "2026-09-27T19:19:33.296979+00:00",
+    "retrieved_at": "2026-09-27T19:23:02.398403+00:00",
     "sha256": "e92a8382163869dd82f842b657d3d70c4f82b4cddf0cdc7c39e7ecfc6cc139b2",
     "size": 51542096,
     "source": "sube:2026",
