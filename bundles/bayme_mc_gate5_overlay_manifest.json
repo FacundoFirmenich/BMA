@@ -1,6 +1,15 @@
 {
   "bytes": 33050,
   "sha256": "d5ffc917bd2f70edc20bc974ea703ae2880f917c8021e1d30803d7a93f30ddef",
+  "file_count": 25,
+  "runtime_core": [
+    "src/bayme_mc/__init__.py",
+    "src/bayme_mc/errors.py",
+    "src/bayme_mc/enums.py",
+    "src/bayme_mc/crypto.py",
+    "src/bayme_mc/ledger.py",
+    "scripts/validate_repo.py"
+  ],
   "files": [
     "pyproject.toml",
     "README.md",
